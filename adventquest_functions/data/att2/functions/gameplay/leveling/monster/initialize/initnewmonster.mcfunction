@@ -13,10 +13,15 @@ scoreboard players operation @s GAMELEVEL > @a GAMELEVEL
 # execute if score level DIFFICULTY matches -1 run scoreboard players remove @s GAMELEVEL 6
 # execute if score level DIFFICULTY matches 1 run scoreboard players add @s GAMELEVEL 6
 
-execute store result score numberPlayer DIFFICULTY if entity @a
-scoreboard players remove numberPlayer DIFFICULTY 1
-scoreboard players operation numberPlayer DIFFICULTY *= playerCoeff DIFFICULTY
-scoreboard players operation @s GAMELEVEL += numberPlayer DIFFICULTY
+execute if score level DIFFICULTY matches -1..1 store result score numberPlayer DIFFICULTY if entity @a
+execute if score level DIFFICULTY matches -1..1 run scoreboard players remove numberPlayer DIFFICULTY 1
+execute if score level DIFFICULTY matches -1..1 run scoreboard players operation numberPlayer DIFFICULTY *= playerCoeff DIFFICULTY
+execute if score level DIFFICULTY matches -1..1 run scoreboard players operation @s GAMELEVEL += numberPlayer DIFFICULTY
+
+execute if score level DIFFICULTY matches 2 run scoreboard players set numberPlayer DIFFICULTY 4
+execute if score level DIFFICULTY matches 2 run scoreboard players operation numberPlayer DIFFICULTY *= playerCoeff DIFFICULTY
+execute if score level DIFFICULTY matches 2 run scoreboard players operation @s GAMELEVEL += numberPlayer DIFFICULTY
+
 scoreboard players add @s[scores={CLASSLEVEL=4}] GAMELEVEL 3
 scoreboard players add @s[scores={CLASSLEVEL=8}] GAMELEVEL 3
 scoreboard players add @s[scores={CLASSLEVEL=12}] GAMELEVEL 3
@@ -28,7 +33,7 @@ execute unless entity @s[tag=PlayerAlly] unless entity @s[scores={CLASSLEVEL=0}]
 
 # Add/remove extra class level with chosen difficulty
 execute if score level DIFFICULTY matches -1 if score @s CLASSLEVEL matches 2..21 run scoreboard players remove @s CLASSLEVEL 1
-execute if score level DIFFICULTY matches 1 if score @s CLASSLEVEL matches 1..20 run scoreboard players add @s CLASSLEVEL 1
+execute if score level DIFFICULTY matches 1.. if score @s CLASSLEVEL matches 1..20 run scoreboard players add @s CLASSLEVEL 1
 # No class should be greater than 21
 execute as @s[scores={CLASSLEVEL=22..}] run scoreboard players set @s CLASSLEVEL 21
 
@@ -36,6 +41,7 @@ execute as @s[scores={CLASSLEVEL=22..}] run scoreboard players set @s CLASSLEVEL
 function att2:gameplay/leveling/monster/monsterupdate
 execute if score level DIFFICULTY matches 0 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:11,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0}]}
 execute if score level DIFFICULTY matches 1 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:11,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
+execute if score level DIFFICULTY matches 2 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:11,Amplifier:2,Duration:2147483647,Ambient:1,ShowParticles:0},{Id:1,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0},{Id:5,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
 
 # Set loottable for non-player's invocated entities
 execute unless entity @s[tag=PlayerAlly] run function att2:gameplay/leveling/monster/loot/setdrop

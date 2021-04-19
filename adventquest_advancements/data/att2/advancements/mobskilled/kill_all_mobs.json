@@ -57,6 +57,14 @@
         }
       }
     },
+    "minecraft:iron_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    },
     "minecraft:creeper": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -86,6 +94,14 @@
       "conditions": {
         "entity": {
           "type": "minecraft:guardian"
+        }
+      }
+    },
+    "minecraft:elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:elder_guardian"
         }
       }
     },
@@ -153,6 +169,14 @@
         }
       }
     },
+    "minecraft:vex": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vex"
+        }
+      }
+    },
     "minecraft:witch": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -177,11 +201,51 @@
         }
       }
     },
+    "minecraft:wolf": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    },
     "minecraft:phantom": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:phantom"
+        }
+      }
+    },
+    "minecraft:bee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:bee"
+        }
+      }
+    },
+    "minecraft:hoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:hoglin"
+        }
+      }
+    },
+    "minecraft:pillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pillager"
+        }
+      }
+    },
+    "minecraft:ravager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ravager"
         }
       }
     },

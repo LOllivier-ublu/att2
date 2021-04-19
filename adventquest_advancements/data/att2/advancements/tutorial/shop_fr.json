@@ -4,7 +4,7 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:iron_hoe","nbt": "{Damage:116}"},
+		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10000115}"},
 		"title":"",
 		"description":"shop_fr",
 		"frame":"task"

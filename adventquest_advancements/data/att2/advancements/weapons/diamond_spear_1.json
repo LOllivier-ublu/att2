@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "title": {"translate":"Diamond spear strike"},
+        "description": {"translate":"Strike once with a diamond spear"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "diamond_spear_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

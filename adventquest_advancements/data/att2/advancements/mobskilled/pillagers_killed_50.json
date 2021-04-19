@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:conduit"
+        },
+        "title": {"translate":"Pillagers Eliminator"},
+        "description": {"translate":"Kill 50 Pillagers"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/pillagers_killed_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "pillagers_killed_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

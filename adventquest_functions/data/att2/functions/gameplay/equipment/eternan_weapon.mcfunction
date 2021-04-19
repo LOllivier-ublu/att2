@@ -3,4 +3,4 @@
 #Process eternan weapon hability								#
 #################################################################
 
-execute as @a[nbt={SelectedItem:{tag:{Manufacturer:"eternan"}}}] run function att2:gameplay/equipment/weapon/eternan
+execute as @a[nbt={SelectedItem:{tag:{Manufacturer:"eternan"}}}] run item entity @s weapon.mainhand modify att2:eternan_automending/mainhand

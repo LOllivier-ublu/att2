@@ -9,7 +9,7 @@
     },
     "parent": "att2:progress/root",
     "rewards": {
-        "function": "att2:advancement/exploit_1",
+        "function": "att2:advancement/exploit_2",
         "experience": 250
     },
     "criteria": {

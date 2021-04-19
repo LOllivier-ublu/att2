@@ -15,5 +15,3 @@ scoreboard players set cap2 SPELL20_LVL 1
 scoreboard players set cap3 SPELL20_LVL 2
 scoreboard players set cap4 SPELL20_LVL 3
 scoreboard players set cap5 SPELL20_LVL 4
-
-execute unless entity @e[type=minecraft:mule,x=712,y=81,z=711] in minecraft:overworld positioned 712 81 711 run function att2:gameplay/dahal/action/spell20/summon_mules

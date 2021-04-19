@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:golden_hoe{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"eternan",display:{Name:"\"§6Majestueuse\"","Lore":["{\"text\":\"§7Le bruit de chacun de ses coups instille la terreur\"}","{\"text\":\"§7dans le cœur de ceux qui l’entendent.\"}","{\"text\":\"§7The sound of each of his blows instills terror\"}","{\"text\":\"§7in the hearts of those who hear him.\"}","{\"text\":\"§7STR§a4 §7HER§a1 §7DAR§a1 §7HUN§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:sharpness",lvl:7s},{id:"minecraft:sweeping",lvl:2s},{id:"minecraft:unbreaking",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:33.85,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.6599999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]} 1

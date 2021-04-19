@@ -39,6 +39,15 @@
                 }
             }
         },
+        "break_diamond_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_hoe",
+                    "durability": {"max": 13,"min": 10}
+                }
+            }
+        },
         "break_diamond_pickaxe": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
@@ -54,6 +63,7 @@
         "break_diamond_sword",
         "break_diamond_shovel",
         "break_diamond_axe",
+        "break_diamond_hoe",
         "break_diamond_pickaxe"
         ]
     ]

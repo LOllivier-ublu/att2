@@ -11,6 +11,9 @@ function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi_esc/diamond_axe
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi_esc/diamond_pickaxe_169
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi_esc/diamond_shovel_170
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi_esc/diamond_sword_171
+function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi_esc/netherite_hoe_334
+function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi_esc/netherite_shovel_332
+function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi_esc/crossbow_336
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi_esc/bow_173
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi_esc/shield_174
 
@@ -19,6 +22,8 @@ function att2:dialogs/gameplay/shop/items_selled_list/armor/epi_esc/leather_legg
 function att2:dialogs/gameplay/shop/items_selled_list/armor/epi_esc/iron_boots_222
 function att2:dialogs/gameplay/shop/items_selled_list/armor/epi_esc/diamond_helmet_215
 function att2:dialogs/gameplay/shop/items_selled_list/armor/epi_esc/diamond_chestplate_216
+function att2:dialogs/gameplay/shop/items_selled_list/armor/epi_esc/netherite_helmet_307
+function att2:dialogs/gameplay/shop/items_selled_list/armor/epi_esc/netherite_leggings_309
 
 function att2:dialogs/gameplay/shop/items_selled_list/potion_list
 function att2:dialogs/gameplay/shop/items_selled_list/potion/epi_esc/potion_26
@@ -28,3 +33,4 @@ function att2:dialogs/gameplay/shop/items_selled_list/potion/epi_esc/splash_poti
 
 execute if score Mainquest SIDEQUEST matches 221.. run function att2:dialogs/gameplay/shop/items_selled_list/misc_list
 execute if score Mainquest SIDEQUEST matches 221.. run function att2:dialogs/gameplay/shop/items_selled_list/spell/stock_upgrade_esc
+execute if score Mainquest SIDEQUEST matches 300.. run function att2:dialogs/gameplay/shop/items_selled_list/misc/chronotons_250

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:conduit"
+        },
+        "title": {"translate":"Pillagers Killer"},
+        "description": {"translate":"Kill 10 Pillagers"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "pillagers_killed_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

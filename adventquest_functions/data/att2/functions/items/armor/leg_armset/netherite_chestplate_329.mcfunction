@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:netherite_chestplate{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"harmonious",display:{Name:"\"§6Mue de Ulli'Kummi\"","Lore":["{\"text\":\"§aHéritage du monumental colosse pétrifié.\"}","{\"text\":\"§aGéant qui ne voulais jamais cesser de grandir.\"}","{\"text\":\"§aLegacy of the monumental petrified colossus.\"}","{\"text\":\"§aGiant who never wanted to stop growing.\"}","{\"text\":\"§7STR§a3 §7HUN§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:thorns",lvl:5s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:8.48,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:5.77,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]} 1

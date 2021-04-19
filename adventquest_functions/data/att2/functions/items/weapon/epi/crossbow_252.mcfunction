@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:crossbow{EquipmentType:"rangeWeapon",Rarity:"epi",Manufacturer:"traditional",display:{Name:"\"§5Arrondisseuse d'angle\"","Lore":["{\"text\":\"§7Quand il y a besoin d'atténuer les tentions,\"}","{\"text\":\"§7rien ne vaut le silence éternel des protagonistes.\"}","{\"text\":\"§7When there is a need to reduce the temptations,\"}","{\"text\":\"§7nothing beats the eternal silence of the protagonists.\"}","{\"text\":\"§7STR§a3 §7HAS§a2 §7SPD§c-2\"}"]},Damage:115,Enchantments:[{id:"minecraft:quick_charge",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1

@@ -10,7 +10,7 @@
 #####################################################################
 
 # Quest is already Completed but the player have to wait if the horse is ready.
-execute if score horse_timer SQ19 matches 0..144000 run scoreboard players add horse_timer SQ19 1
+execute if score horse_timer SQ19 matches 0..100000 run scoreboard players add horse_timer SQ19 1
 
 # Rewards when player is close to PNJ Helena Meli
-execute if score horse_timer SQ19 matches 144000.. at 00000000-0000-027a-0000-00000000027a if entity @a[distance=..5] run function att2:cinematic/sidequest/19/helena_meli/rewards
+execute if score horse_timer SQ19 matches 100000.. at 00000000-0000-027a-0000-00000000027a if entity @a[distance=..5] run function att2:cinematic/sidequest/19/helena_meli/rewards

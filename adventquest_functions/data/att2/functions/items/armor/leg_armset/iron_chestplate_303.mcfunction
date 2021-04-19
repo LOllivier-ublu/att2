@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:iron_chestplate{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"traditional",display:{Name:"\"§6Artisan du Chaos\"","Lore":["{\"text\":\"§aDormant de mille précipices féconds ne sachant comment se manifester,\"}","{\"text\":\"§aEntropy trouva en succombant sa forme à travers la chute des montagnes.\"}","{\"text\":\"§aSleeping on a thousand fruitful precipices not knowing how to manifest himself,\"}","{\"text\":\"§aEntropy found his form succumbing through the fall of the mountains.\"}","{\"text\":\"§7STR§a1 §7RES§a1 §7HAS§a2 §7DAR§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:protection",lvl:2s},{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:10.53,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.21,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]}]} 1

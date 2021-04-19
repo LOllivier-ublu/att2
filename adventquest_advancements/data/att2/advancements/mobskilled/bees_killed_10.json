@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:honeycomb"
+        },
+        "title": {"translate":"Bees Killer"},
+        "description": {"translate":"Kill 10 Bees"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "bees_killed_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

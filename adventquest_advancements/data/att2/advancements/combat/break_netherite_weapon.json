@@ -1,0 +1,70 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": {"translate":"Obsidian weapon break"},
+        "description": {"translate":"Destroy an obsidian weapon in battle"}
+    },
+    "parent": "att2:combat/break_weapon",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+                },
+    "criteria": {
+        "break_netherite_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:netherite_sword",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_netherite_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:netherite_shovel",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_netherite_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:netherite_axe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_netherite_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:netherite_hoe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_netherite_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:netherite_pickaxe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_netherite_sword",
+        "break_netherite_shovel",
+        "break_netherite_axe",
+        "break_netherite_hoe",
+        "break_netherite_pickaxe"
+        ]
+    ]
+}

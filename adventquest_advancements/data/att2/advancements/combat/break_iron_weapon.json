@@ -39,6 +39,15 @@
                 }
             }
         },
+        "break_iron_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_hoe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
         "break_iron_pickaxe": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
@@ -54,6 +63,7 @@
         "break_iron_sword",
         "break_iron_shovel",
         "break_iron_axe",
+        "break_iron_hoe",
         "break_iron_pickaxe"
         ]
     ]

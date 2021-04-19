@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:netherite_axe{EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"harmonious",display:{Name:"\"§5Décapiteur\"","Lore":["{\"text\":\"§7Séparez la tête du corps,\"}","{\"text\":\"§7et le tour est joué !\"}","{\"text\":\"§7Separate the head from the body,\"}","{\"text\":\"§7and voila!\"}","{\"text\":\"§7STR§a1 §7HER§a1 §7HUN§a1 §7HAS§c-1\"}"]},Damage:1500,Enchantments:[{id:"minecraft:fire_aspect",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:28.54,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.78,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30001,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30001,0,10000]}]} 1

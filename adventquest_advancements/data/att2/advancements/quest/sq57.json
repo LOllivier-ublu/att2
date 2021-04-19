@@ -8,6 +8,9 @@
         "frame": "challenge"
     },
     "parent": "att2:quest/root",
+    "rewards": {
+        "function": "att2:advancement/completion_1"
+    },
     "criteria": {
         "sq57": {
             "trigger": "minecraft:impossible"

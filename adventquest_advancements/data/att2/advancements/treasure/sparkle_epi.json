@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "title": {"translate":"Epic Sparkle"},
+        "description": {"translate":"Find an epic sparkle"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_15",
+            "experience": 1500
+    },
+    "criteria": {
+        "sparkle_epi": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

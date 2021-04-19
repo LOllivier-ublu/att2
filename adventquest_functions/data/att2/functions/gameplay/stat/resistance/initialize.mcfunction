@@ -12,6 +12,9 @@ scoreboard players set @s RES_BASE 0
 scoreboard objectives add RES_LVL_LE dummy
 scoreboard players set @s RES_LVL_LE 0
 
+scoreboard objectives add RES_LVL_OH dummy
+scoreboard players set @s RES_LVL_OH 0
+
 scoreboard objectives add RES_LVL_PO dummy
 scoreboard players set @s RES_LVL_PO 0
 
@@ -40,6 +43,7 @@ scoreboard objectives add RES_LVL_SET dummy
 scoreboard players set @s RES_LVL_SET 0
 
 scoreboard objectives add TIMER_RES_LE dummy
+scoreboard objectives add TIMER_RES_OH dummy
 scoreboard objectives add TIMER_RES_PO dummy
 scoreboard objectives add TIMER_RES_DAB dummy
 scoreboard objectives add TIMER_RES_DAM dummy

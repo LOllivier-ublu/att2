@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"The artist of Ouranos full set"},
+        "description": {"translate":"Complete the artist of Ouranos legendary set"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/leg",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "artist_fullset": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

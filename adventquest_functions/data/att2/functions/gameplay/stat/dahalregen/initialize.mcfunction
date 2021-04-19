@@ -12,6 +12,9 @@ scoreboard players set @s DAR_BASE 0
 scoreboard objectives add DAR_LVL_LE dummy
 scoreboard players set @s DAR_LVL_LE 0
 
+scoreboard objectives add DAR_LVL_OH dummy
+scoreboard players set @s DAR_LVL_OH 0
+
 scoreboard objectives add DAR_LVL_PO dummy
 scoreboard players set @s DAR_LVL_PO 0
 
@@ -40,6 +43,7 @@ scoreboard objectives add DAR_LVL_EXT dummy
 scoreboard players set @s DAR_LVL_EXT 0
 
 scoreboard objectives add TIMER_DAR_LE dummy
+scoreboard objectives add TIMER_DAR_OH dummy
 scoreboard objectives add TIMER_DAR_PO dummy
 scoreboard objectives add TIMER_DAR_DAB dummy
 scoreboard objectives add TIMER_DAR_DAM dummy

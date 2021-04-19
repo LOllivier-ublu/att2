@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:netherite_pickaxe{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"harmonious",display:{Name:"\"§6Broyeuse d'espérance\"","Lore":["{\"text\":\"§7La plus solide armure au monde,\"}","{\"text\":\"§7 n’est pas d’une grande utilité face à tant de puissance.\"}","{\"text\":\"§7The strongest armor in the world,\"}","{\"text\":\"§7is of little use in the face of so much power.\"}","{\"text\":\"§7STR§a2 §7SPD§a2 §7HUN§a2\"}"]},Damage:1250,Enchantments:[{id:"minecraft:fire_aspect",lvl:2s},{id:"minecraft:sharpness",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:78.35,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.79,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]}]} 1

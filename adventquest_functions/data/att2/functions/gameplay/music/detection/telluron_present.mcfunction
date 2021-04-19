@@ -11,7 +11,7 @@ execute as @s[x=-4895,y=60,z=-5063,dx=-268,dy=100,dz=190] store success score @s
 # Music : Worlëst
 # Region : Worlëst/Soquaï
 # AREA1_0
-execute as @s[x=-5416,y=60,z=-5109,dx=894,dy=100,dz=-788] store success score @s CHANGING_AREA unless entity @s[scores={DIMENSION=1,AREA=1}] run scoreboard players set @s AREA 1
+execute as @s[x=-5416,y=60,z=-5109,dx=894,dy=100,dz=-659] store success score @s CHANGING_AREA unless entity @s[scores={DIMENSION=1,AREA=1}] run scoreboard players set @s AREA 1
 
 # Music : Silberländ
 # Region : Plain/Schestrown/Beach/Desertside
@@ -29,7 +29,7 @@ execute as @s[x=-5300,y=60,z=-4230,dx=-300,dy=100,dz=500] store success score @s
 # AREA3_0
 execute as @s[x=-4444,y=60,z=-4865,dx=-618,dy=100,dz=970] store success score @s CHANGING_AREA unless entity @s[scores={DIMENSION=1,AREA=3}] run scoreboard players set @s AREA 3
 # AREA3_1
-execute as @s[x=-4510,y=60,z=-5785,dx=520,dy=100,dz=-515] store success score @s CHANGING_AREA unless entity @s[scores={DIMENSION=1,AREA=3}] run scoreboard players set @s AREA 3
+execute as @s[x=-4810,y=60,z=-5785,dx=820,dy=100,dz=-515] store success score @s CHANGING_AREA unless entity @s[scores={DIMENSION=1,AREA=3}] run scoreboard players set @s AREA 3
 
 # Music : Méleïm
 # Region : Méleïm
@@ -59,3 +59,8 @@ execute as @s[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=321] store success score @s 
 # Region : Earndhel
 # AREA8_0
 execute as @s[x=29983,y=100,z=29977,distance=..120] store success score @s CHANGING_AREA unless entity @s[scores={DIMENSION=1,AREA=8}] run scoreboard players set @s AREA 8
+
+# Music : Black Box
+# Region : Charles/Soquaï
+# AREA9_0
+execute as @s[x=-4934,y=150,z=-5774,dx=-44,dy=-60,dz=-36] store success score @s CHANGING_AREA unless entity @s[scores={DIMENSION=1,AREA=9}] run scoreboard players set @s AREA 9

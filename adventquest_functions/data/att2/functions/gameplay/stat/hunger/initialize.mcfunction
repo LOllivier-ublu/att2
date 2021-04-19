@@ -12,6 +12,9 @@ scoreboard players set @s HUN_BASE 0
 scoreboard objectives add HUN_LVL_LE dummy
 scoreboard players set @s HUN_LVL_LE 0
 
+scoreboard objectives add HUN_LVL_OH dummy
+scoreboard players set @s HUN_LVL_OH 0
+
 scoreboard objectives add HUN_LVL_PO dummy
 scoreboard players set @s HUN_LVL_PO 0
 
@@ -42,6 +45,7 @@ scoreboard players set @s HUN_LVL_EXT 0
 scoreboard objectives add TIMER_HUN_TOT dummy
 scoreboard players set @s TIMER_HUN_TOT 10
 scoreboard objectives add TIMER_HUN_LE dummy
+scoreboard objectives add TIMER_HUN_OH dummy
 scoreboard objectives add TIMER_HUN_PO dummy
 scoreboard objectives add TIMER_HUN_DAB dummy
 scoreboard objectives add TIMER_HUN_DAM dummy

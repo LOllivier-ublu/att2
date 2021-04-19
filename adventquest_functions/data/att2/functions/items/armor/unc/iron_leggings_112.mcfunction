@@ -3,4 +3,4 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:iron_leggings{EquipmentType:"armor",Rarity:"unc",Manufacturer:"traditional",display:{Name:"\"§2Les jambes du grand-père\"","Lore":["{\"text\":\"§7N'ont jamais lâché.\"}","{\"text\":\"§7Never giving up.\"}","{\"text\":\"§7HUN§c-1\"}"]},Damage:95,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.47,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.66,Operation:1,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1
+give @s minecraft:iron_leggings{EquipmentType:"armor",Rarity:"unc",Manufacturer:"traditional",display:{Name:"\"§2Les jambes du grand-père\"","Lore":["{\"text\":\"§7N'ont jamais lâché.\"}","{\"text\":\"§7Never giving up.\"}","{\"text\":\"§7HUN§c-1\"}"]},Damage:125,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.47,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.66,Operation:1,Slot:legs,UUID:[I;0,20003,0,20000]}]} 1

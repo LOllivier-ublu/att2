@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {"translate":"MASTER ETERNAN"},
+        "description": {"translate":"Reach the level Master MAX"},
+        "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "att2:progress/gamelevelmaster_200",
+    "rewards": {
+        "experience": 500000
+                },
+    "criteria": {
+        "gamelevelmaster_300": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

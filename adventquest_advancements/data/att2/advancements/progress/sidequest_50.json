@@ -7,10 +7,10 @@
         "description": {"translate":"Complete 50 side quests"},
         "frame": "challenge"
     },
-    "parent": "att2:progress/sidequest_30",
+    "parent": "att2:progress/sidequest_40",
     "rewards": {
         "function": "att2:advancement/exploit_50",
-        "experience": 50000
+        "experience": 100000
     },
     "criteria": {
         "sidequest_50": {

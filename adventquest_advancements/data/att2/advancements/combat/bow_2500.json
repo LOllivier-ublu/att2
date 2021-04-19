@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"And you have my bow"},
+        "description": {"translate":"Shoot 2500 arrows with your bow"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/bow_1000",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "bow_5000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

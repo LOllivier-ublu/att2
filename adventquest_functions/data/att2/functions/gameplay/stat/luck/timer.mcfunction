@@ -4,6 +4,7 @@
 ##################################################
 
 scoreboard players remove @a[scores={TIMER_LUC_LE=0..}] TIMER_LUC_LE 20
+scoreboard players remove @a[scores={TIMER_LUC_OH=0..}] TIMER_LUC_OH 20
 scoreboard players remove @a[scores={TIMER_LUC_PO=0..}] TIMER_LUC_PO 20
 scoreboard players remove @a[scores={TIMER_LUC_DAB=0..}] TIMER_LUC_DAB 20
 scoreboard players remove @a[scores={TIMER_LUC_DAM=0..}] TIMER_LUC_DAM 20
@@ -15,6 +16,7 @@ scoreboard players remove @a[scores={TIMER_LUC_SET=0..}] TIMER_LUC_SET 20
 scoreboard players remove @a[scores={TIMER_LUC_EXT=0..}] TIMER_LUC_EXT 20
 
 scoreboard players set @a[scores={TIMER_LUC_LE=..0}] LUC_LVL_LE 0
+scoreboard players set @a[scores={TIMER_LUC_OH=..0}] LUC_LVL_OH 0
 scoreboard players set @a[scores={TIMER_LUC_PO=..0}] LUC_LVL_PO 0
 scoreboard players set @a[scores={TIMER_LUC_DAB=..0}] LUC_LVL_DAB 0
 scoreboard players set @a[scores={TIMER_LUC_DAM=..0}] LUC_LVL_DAM 0

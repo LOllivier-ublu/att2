@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Reparation"},
+        "description": {"translate":"Repairs 25 items"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mending_5",
+        "rewards": {
+            "function": "att2:advancement/exploit_10",
+            "experience": 2500
+    },
+    "criteria": {
+        "mending_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

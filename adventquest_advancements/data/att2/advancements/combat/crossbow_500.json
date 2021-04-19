@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Little Ass Kicker"},
+        "description": {"translate":"Shoot 500 arrows with your crossbow"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/crossbow_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 2500
+                },
+    "criteria": {
+        "crossbow_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

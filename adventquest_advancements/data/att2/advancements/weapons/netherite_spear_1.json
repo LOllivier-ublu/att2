@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"Obsidian spear strike"},
+        "description": {"translate":"Strike once with an obsidian spear"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "netherite_spear_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

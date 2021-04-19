@@ -10,10 +10,10 @@
 #####################################################################
 
 # Quest is already Completed but the player have to wait when escavation is done.
-execute if score choice SQ38 matches 1 if score escavation_timer SQ38 matches 0..144000 run scoreboard players add escavation_timer SQ38 1
+execute if score choice SQ38 matches 1 if score escavation_timer SQ38 matches 0..100000 run scoreboard players add escavation_timer SQ38 1
 
 # Escavation end when player is close to Walton Jones
-execute if score choice SQ38 matches 1 if score escavation_timer SQ38 matches 144000.. positioned -4394 57 -5054 if entity @a[gamemode=adventure,distance=..20] run function att2:cinematic/sidequest/38/walton_jones/escavation_end
+execute if score choice SQ38 matches 1 if score escavation_timer SQ38 matches 100000.. positioned -4394 57 -5054 if entity @a[gamemode=adventure,distance=..20] run function att2:cinematic/sidequest/38/walton_jones/escavation_end
 
 # Particle Lone Shadow on altar
 execute if score choice SQ38 matches 2..3 if score altar_effect SQ38 matches 0 positioned -4375 58 -5054 run function att2:cinematic/sidequest/38/altar_effect

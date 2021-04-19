@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "title": {"translate":"Obsidian mace smash"},
+        "description": {"translate":"Strike 50 times with an obsidian mace"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/netherite_mace_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "netherite_mace_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

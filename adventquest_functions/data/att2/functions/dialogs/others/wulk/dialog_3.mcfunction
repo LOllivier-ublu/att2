@@ -12,3 +12,6 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Wulk : ","color":"green","extra":[{"text":"Take a look at my goods and tell me what might interest you.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/wulk_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Wulk is selling."}}]}]}
+
+
+function att2:dialogs/gameplay/shop/mending/proposal

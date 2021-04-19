@@ -20,6 +20,7 @@ execute if entity @s[scores={DIMENSION=1,AREA=5}] run function att2:sound/music/
 execute if entity @s[scores={DIMENSION=1,AREA=6}] run function att2:sound/music/telluron/eolorion
 execute if entity @s[scores={DIMENSION=1,AREA=7}] run function att2:sound/music/telluron/nojelanth
 execute if entity @s[scores={DIMENSION=1,AREA=8}] run function att2:sound/music/telluron/earndhel
+execute if entity @s[scores={DIMENSION=1,AREA=9}] run function att2:sound/music/telluron/charles
 
 # Future
 execute if entity @s[scores={DIMENSION=2,AREA=0}] run function att2:sound/music/future/hill_valley

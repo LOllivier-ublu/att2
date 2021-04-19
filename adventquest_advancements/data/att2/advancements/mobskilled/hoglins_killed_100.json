@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather"
+        },
+        "title": {"translate":"Hoglins Slayer"},
+        "description": {"translate":"Kill 100 Hoglins"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/hoglins_killed_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "hoglins_killed_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

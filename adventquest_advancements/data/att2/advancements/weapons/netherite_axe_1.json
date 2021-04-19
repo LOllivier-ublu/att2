@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_axe"
+        },
+        "title": {"translate":"Obsidian axe strike"},
+        "description": {"translate":"Strike once with an obsidian axe"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "netherite_axe_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

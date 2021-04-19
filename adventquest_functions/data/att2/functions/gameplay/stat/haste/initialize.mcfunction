@@ -12,6 +12,9 @@ scoreboard players set @s HAS_BASE 0
 scoreboard objectives add HAS_LVL_LE dummy
 scoreboard players set @s HAS_LVL_LE 0
 
+scoreboard objectives add HAS_LVL_OH dummy
+scoreboard players set @s HAS_LVL_OH 0
+
 scoreboard objectives add HAS_LVL_PO dummy
 scoreboard players set @s HAS_LVL_PO 0
 
@@ -40,6 +43,7 @@ scoreboard objectives add HAS_LVL_EXT dummy
 scoreboard players set @s HAS_LVL_EXT 0
 
 scoreboard objectives add TIMER_HAS_LE dummy
+scoreboard objectives add TIMER_HAS_OH dummy
 scoreboard objectives add TIMER_HAS_PO dummy
 scoreboard objectives add TIMER_HAS_DAB dummy
 scoreboard objectives add TIMER_HAS_DAM dummy

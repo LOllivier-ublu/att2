@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "title": {"translate":"The soldat Eternän full set"},
+        "description": {"translate":"Complete the epic set of the soldat Eternän"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/epi",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 10000
+                },
+    "criteria": {
+        "eternan_fullset": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

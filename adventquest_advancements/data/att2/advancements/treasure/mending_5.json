@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Tinkering"},
+        "description": {"translate":"Repairs 5 items"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mending_1",
+        "rewards": {
+            "function": "att2:advancement/exploit_5",
+            "experience": 500
+    },
+    "criteria": {
+        "mending_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -4,6 +4,7 @@
 ##################################################
 
 scoreboard players remove @a[scores={TIMER_HER_LE=0..}] TIMER_HER_LE 1
+scoreboard players remove @a[scores={TIMER_HER_OH=0..}] TIMER_HER_OH 1
 scoreboard players remove @a[scores={TIMER_HER_PO=0..}] TIMER_HER_PO 1
 scoreboard players remove @a[scores={TIMER_HER_DAB=0..}] TIMER_HER_DAB 1
 scoreboard players remove @a[scores={TIMER_HER_DAM=0..}] TIMER_HER_DAM 1
@@ -15,6 +16,7 @@ scoreboard players remove @a[scores={TIMER_HER_SET=0..}] TIMER_HER_SET 1
 scoreboard players remove @a[scores={TIMER_HER_EXT=0..}] TIMER_HER_EXT 1
 
 scoreboard players set @a[scores={TIMER_HER_LE=0}] HER_LVL_LE 0
+scoreboard players set @a[scores={TIMER_HER_OH=0}] HER_LVL_OH 0
 scoreboard players set @a[scores={TIMER_HER_PO=0}] HER_LVL_PO 0
 scoreboard players set @a[scores={TIMER_HER_DAB=0}] HER_LVL_DAB 0
 scoreboard players set @a[scores={TIMER_HER_DAM=0}] HER_LVL_DAM 0

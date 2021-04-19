@@ -7,18 +7,23 @@
 recipe take @a *
 
 ### Percentage exploit calcul
-scoreboard players operation Exploit_percentage EXPLOIT = @a[scores={NUMEROJOUEUR=1},limit=1] EXPLOIT
-scoreboard players operation Exploit_percentage EXPLOIT *= @a[scores={NUMEROJOUEUR=1},limit=1] 100
-scoreboard players operation Exploit_percentage EXPLOIT /= Total_point EXPLOIT
+scoreboard players operation Game_percentage EXPLOIT = Points_completion EXPLOIT
+scoreboard players operation Game_percentage EXPLOIT *= Points_completion 100
+scoreboard players operation Game_percentage EXPLOIT /= Total_objectives EXPLOIT
 
 ### Test advancement
 # Adventure
 
 execute if score Ryliath HOUSE matches 1 run advancement grant @a only att2:adventure/house_ryliath
+execute if score Ryliath HOUSE matches 2 run advancement grant @a only att2:adventure/house_ryliath_expansion
 execute if score Meleim HOUSE matches 1 run advancement grant @a only att2:adventure/house_meleim
+execute if score Meleim HOUSE matches 2 run advancement grant @a only att2:adventure/house_meleim_expansion
 execute if score Eolorion HOUSE matches 1 run advancement grant @a only att2:adventure/house_eolorion
+execute if score Eolorion HOUSE matches 2 run advancement grant @a only att2:adventure/house_eolorion_expansion
 execute if score Kortaek HOUSE matches 1 run advancement grant @a only att2:adventure/house_kortaek
-execute if score Ryliath HOUSE matches 1 if score Meleim HOUSE matches 1 if score Eolorion HOUSE matches 1 if score Kortaek HOUSE matches 1 run advancement grant @a only att2:adventure/homeowner
+execute if score Kortaek HOUSE matches 2 run advancement grant @a only att2:adventure/house_kortaek_expansion
+execute if score Ryliath HOUSE matches 1.. if score Meleim HOUSE matches 1.. if score Eolorion HOUSE matches 1.. if score Kortaek HOUSE matches 1.. run advancement grant @a only att2:adventure/homeowner
+execute if score Ryliath HOUSE matches 2.. if score Meleim HOUSE matches 2.. if score Eolorion HOUSE matches 2.. if score Kortaek HOUSE matches 2.. run advancement grant @a only att2:adventure/conservative
 
 advancement grant @a[nbt={Inventory:[{tag:{Rarity:"com"}}]}] only att2:adventure/com
 advancement grant @a[nbt={Inventory:[{tag:{Rarity:"unc"}}]}] only att2:adventure/unc
@@ -50,21 +55,45 @@ advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"bloodeater"}}}] only a
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fenrir"}}}] only att2:adventure/fenrir
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"rukyrion"}}}] only att2:adventure/rukyrion
 
+
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aL'uniforme aux millions d'épreuves\"}","{\"text\":\"§arévèle chez vous l'exception des élus.\"}","{\"text\":\"§aThe uniform of a million challenges reveals\"}","{\"text\":\"§ain you the exception of the chosen ones.\"}","{\"text\":\"§7STR§a3 §7HAS§a3\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aL'uniforme aux millions d'épreuves\"}","{\"text\":\"§arévèle chez vous l'exception des élus.\"}","{\"text\":\"§aThe uniform of a million challenges reveals\"}","{\"text\":\"§ain you the exception of the chosen ones.\"}","{\"text\":\"§7HAS§a3 §7DAR§a2\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aL'uniforme aux millions d'épreuves\"}","{\"text\":\"§arévèle chez vous l'exception des élus.\"}","{\"text\":\"§aThe uniform of a million challenges reveals\"}","{\"text\":\"§ain you the exception of the chosen ones.\"}","{\"text\":\"§7SPD§a3 §7DAR§a2\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aL'uniforme aux millions d'épreuves\"}","{\"text\":\"§arévèle chez vous l'exception des élus.\"}","{\"text\":\"§aThe uniform of a million challenges reveals\"}","{\"text\":\"§ain you the exception of the chosen ones.\"}","{\"text\":\"§7STR§a3 §7SPD§a3\"}"]}}}]}] only att2:adventure/s
+
 
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aAugmente grandement votre\"}","{\"text\":\"§arécupération de Dahäl.\"}","{\"text\":\"§aGreatly increase your\"}","{\"text\":\"§aDahäl regeneration.\"}","{\"text\":\"§7DAR§a2 §7STR§c-1 §7HAS§c-1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aAugmente grandement votre\"}","{\"text\":\"§arécupération de Dahäl.\"}","{\"text\":\"§aGreatly increase your\"}","{\"text\":\"§aDahäl regeneration.\"}","{\"text\":\"§7DAR§a2 §7STR§c-1 §7RES§c-1\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aAugmente grandement votre\"}","{\"text\":\"§arécupération de Dahäl.\"}","{\"text\":\"§aGreatly increase your\"}","{\"text\":\"§aDahäl regeneration.\"}","{\"text\":\"§7DAR§a2 §7STR§c-1 §7SPD§c-1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aAugmente grandement votre\"}","{\"text\":\"§arécupération de Dahäl.\"}","{\"text\":\"§aGreatly increase your\"}","{\"text\":\"§aDahäl regeneration.\"}","{\"text\":\"§7DAR§a2 §7STR§c-1 §7SPD§c-1\"}"]}}}]}] only att2:adventure/dahal_apprentice
 
+
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aAugmente drastiquement votre\"}","{\"text\":\"§arécupération de Dahäl.\"}","{\"text\":\"§aDrasticaly increase your\"}","{\"text\":\"§aDahäl regeneration.\"}","{\"text\":\"§7DAR§a3 §7STR§c-1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aAugmente drastiquement votre\"}","{\"text\":\"§arécupération de Dahäl.\"}","{\"text\":\"§aDrasticaly increase your\"}","{\"text\":\"§aDahäl regeneration.\"}","{\"text\":\"§7DAR§a3 §7STR§c-1 §7RES§c-1\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aAugmente drastiquement votre\"}","{\"text\":\"§arécupération de Dahäl.\"}","{\"text\":\"§aDrasticaly increase your\"}","{\"text\":\"§aDahäl regeneration.\"}","{\"text\":\"§7DAR§a3 §7STR§c-1 §7RES§c-1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aAugmente drastiquement votre\"}","{\"text\":\"§arécupération de Dahäl.\"}","{\"text\":\"§aDrasticaly increase your\"}","{\"text\":\"§aDahäl regeneration.\"}","{\"text\":\"§7DAR§a2 §7STR§c-1\"}"]}}}]}] only att2:adventure/dahal_master
+
 
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aMauvais augures surviennent,\"}","{\"text\":\"§aquand le destin frappe les plus chanceux...\"}","{\"text\":\"§aBad omens arise, when\"}","{\"text\":\"§afate strikes the luckiest....\"}","{\"text\":\"§7STR§a1 §7LUC§a1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aMauvais augures surviennent,\"}","{\"text\":\"§aquand le destin frappe les plus chanceux...\"}","{\"text\":\"§aBad omens arise, when\"}","{\"text\":\"§afate strikes the luckiest....\"}","{\"text\":\"§7STR§a2 §7HAS§c-1\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aMauvais augures surviennent,\"}","{\"text\":\"§aquand le destin frappe les plus chanceux...\"}","{\"text\":\"§aBad omens arise, when\"}","{\"text\":\"§afate strikes the luckiest....\"}","{\"text\":\"§7STR§a1 §7SPD§a2 §7RES§c-1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aMauvais augures surviennent,\"}","{\"text\":\"§aquand le destin frappe les plus chanceux...\"}","{\"text\":\"§aBad omens arise, when\"}","{\"text\":\"§afate strikes the luckiest....\"}","{\"text\":\"§7SPD§a2 §7LUC§a1 §7HER§c-1\"}"]}}}]}] only att2:adventure/badomens_fullset
 
+
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aLe cours inlassable des âges ne saurait \"}","{\"text\":\"§aamenuir la gloire du temps des souvenirs.\"}","{\"text\":\"§aThe untiring course of the ages shall not\"}","{\"text\":\"§adiminish the glory of the time of memories.\"}","{\"text\":\"§7STR§a1 §7HER§a1 §7LUC§c-1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aLe cours inlassable des âges ne saurait \"}","{\"text\":\"§aamenuir la gloire du temps des souvenirs.\"}","{\"text\":\"§aThe untiring course of the ages shall not\"}","{\"text\":\"§adiminish the glory of the time of memories.\"}","{\"text\":\"§7STR§a3 §7DAR§a1 §7LUC§c-1\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aLe cours inlassable des âges ne saurait \"}","{\"text\":\"§aamenuir la gloire du temps des souvenirs.\"}","{\"text\":\"§aThe untiring course of the ages shall not\"}","{\"text\":\"§adiminish the glory of the time of memories.\"}","{\"text\":\"§7STR§a2 §7DAR§a1 §7LUC§c-1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aLe cours inlassable des âges ne saurait \"}","{\"text\":\"§aamenuir la gloire du temps des souvenirs.\"}","{\"text\":\"§aThe untiring course of the ages shall not\"}","{\"text\":\"§adiminish the glory of the time of memories.\"}","{\"text\":\"§7STR§a1 §7HER§a1 §7LUC§c-1\"}"]}}}]}] only att2:adventure/dinjirienne_fullset
+
 
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aDe ta froide lueur, et de ton immuable silence,\"}","{\"text\":\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\"}","{\"text\":\"§aFrom your cold glow, and your immutable silence, you did\"}","{\"text\":\"§aincarnated, incarnate and will incarnate immortal freedom.\"}","{\"text\":\"§7STR§a3 §7HAS§a2\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aDe ta froide lueur, et de ton immuable silence,\"}","{\"text\":\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\"}","{\"text\":\"§aFrom your cold glow, and your immutable silence, you did\"}","{\"text\":\"§aincarnated, incarnate and will incarnate immortal freedom.\"}","{\"text\":\"§7HER§a2 §7HUN§a1\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aDe ta froide lueur, et de ton immuable silence,\"}","{\"text\":\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\"}","{\"text\":\"§aFrom your cold glow, and your immutable silence, you did\"}","{\"text\":\"§aincarnated, incarnate and will incarnate immortal freedom.\"}","{\"text\":\"§7HER§a2 §7HUN§a1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aDe ta froide lueur, et de ton immuable silence,\"}","{\"text\":\"§atu incarnas, incarnes et incarneras l'immortelle liberté.\"}","{\"text\":\"§aFrom your cold glow, and your immutable silence, you did\"}","{\"text\":\"§aincarnated, incarnate and will incarnate immortal freedom.\"}","{\"text\":\"§7STR§a3 §7SPD§a2\"}"]}}}]}] only att2:adventure/moon_fullset
 
+
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aLa distance devient subjective, l'altitude anodine, la vitesse\"}","{\"text\":\"§aaffable, quand vous porte le savoir des enfants d'Iio.\"}","{\"text\":\"§aThe distance becomes subjective, the altitude anodyne, the speed\"}","{\"text\":\"§aaffable, when the knowledge of Iio's children carries you.\"}","{\"text\":\"§7HAS§a3 §7DAR§c-1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aLa distance devient subjective, l'altitude anodine, la vitesse\"}","{\"text\":\"§aaffable, quand vous porte le savoir des enfants d'Iio.\"}","{\"text\":\"§aThe distance becomes subjective, the altitude anodyne, the speed\"}","{\"text\":\"§aaffable, when the knowledge of Iio's children carries you.\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aLa distance devient subjective, l'altitude anodine, la vitesse\"}","{\"text\":\"§aaffable, quand vous porte le savoir des enfants d'Iio.\"}","{\"text\":\"§aThe distance becomes subjective, the altitude anodyne, the speed\"}","{\"text\":\"§aaffable, when the knowledge of Iio's children carries you.\"}","{\"text\":\"§7STR§a3 §7DAR§c-2\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aLa distance devient subjective, l'altitude anodine, la vitesse\"}","{\"text\":\"§aaffable, quand vous porte le savoir des enfants d'Iio.\"}","{\"text\":\"§aThe distance becomes subjective, the altitude anodyne, the speed\"}","{\"text\":\"§aaffable, when the knowledge of Iio's children carries you.\"}","{\"text\":\"§7STR§a1 §7SPD§a2 §7HER§c-1\"}"]}}}]}] only att2:adventure/pelzion_fullset
 
+
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aL'élu de ce monde, à qui obéissent temps et\"}","{\"text\":\"§aespace, ne connaît aucune limite à sa volonté.\"}","{\"text\":\"§aThe chosen one of this world, to whom\"}","{\"text\":\"§atime and space obey, knows no limit to his will.\"}","{\"text\":\"§7STR§a2 §7HER§a1 §7HUN§a1 §7SPD§c-3\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aL'élu de ce monde, à qui obéissent temps et\"}","{\"text\":\"§aespace, ne connaît aucune limite à sa volonté.\"}","{\"text\":\"§aThe chosen one of this world, to whom\"}","{\"text\":\"§atime and space obey, knows no limit to his will.\"}","{\"text\":\"§7STR§a1 §7HAS§c-3\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aL'élu de ce monde, à qui obéissent temps et\"}","{\"text\":\"§aespace, ne connaît aucune limite à sa volonté.\"}","{\"text\":\"§aThe chosen one of this world, to whom\"}","{\"text\":\"§atime and space obey, knows no limit to his will.\"}","{\"text\":\"§7RES§a1 §7DAR§a2 §7HAS§c-2 §7SPD§c-1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aL'élu de ce monde, à qui obéissent temps et\"}","{\"text\":\"§aespace, ne connaît aucune limite à sa volonté.\"}","{\"text\":\"§aThe chosen one of this world, to whom\"}","{\"text\":\"§atime and space obey, knows no limit to his will.\"}","{\"text\":\"§7STR§a2 §7LUC§a1 §7HAS§c-3\"}"]}}}]}] only att2:adventure/chosen_fullset
+
+
+advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aAussi impertinents que sont les privilèges,\"}","{\"text\":\"§abénéficier d'un tel rang est un atout difficile à s'en passer.\"}","{\"text\":\"§aAs impertinent as the privileges are,\"}","{\"text\":\"§ahaving such a rank is an asset that is difficult to do without.\"}","{\"text\":\"§7STR§a2 §7SPD§a1 §7DAR§a1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aAussi impertinents que sont les privilèges,\"}","{\"text\":\"§abénéficier d'un tel rang est un atout difficile à s'en passer.\"}","{\"text\":\"§aAs impertinent as the privileges are,\"}","{\"text\":\"§ahaving such a rank is an asset that is difficult to do without.\"}","{\"text\":\"§7STR§a1 §7HAS§a1 §7HER§a1\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aAussi impertinents que sont les privilèges,\"}","{\"text\":\"§abénéficier d'un tel rang est un atout difficile à s'en passer.\"}","{\"text\":\"§aAs impertinent as the privileges are,\"}","{\"text\":\"§ahaving such a rank is an asset that is difficult to do without.\"}","{\"text\":\"§7STR§a1 §7HAS§a1 §7HER§a1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aAussi impertinents que sont les privilèges,\"}","{\"text\":\"§abénéficier d'un tel rang est un atout difficile à s'en passer.\"}","{\"text\":\"§aAs impertinent as the privileges are,\"}","{\"text\":\"§ahaving such a rank is an asset that is difficult to do without.\"}","{\"text\":\"§7STR§a2 §7SPD§a1 §7DAR§a1\"}"]}}}]}] only att2:adventure/nobility_fullset
+
+
+advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aDormant de mille précipices féconds ne sachant comment se manifester,\"}","{\"text\":\"§aEntropy trouva en succombant sa forme à travers la chute des montagnes.\"}","{\"text\":\"§aSleeping on a thousand fruitful precipices not knowing how to manifest himself,\"}","{\"text\":\"§aEntropy found his form succumbing through the fall of the mountains.\"}","{\"text\":\"§7STR§a1 §7HAS§a2 §7SPD§a2 §7DAR§a1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aDormant de mille précipices féconds ne sachant comment se manifester,\"}","{\"text\":\"§aEntropy trouva en succombant sa forme à travers la chute des montagnes.\"}","{\"text\":\"§aSleeping on a thousand fruitful precipices not knowing how to manifest himself,\"}","{\"text\":\"§aEntropy found his form succumbing through the fall of the mountains.\"}","{\"text\":\"§7STR§a1 §7RES§a1 §7HAS§a2 §7DAR§a1\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aDormant de mille précipices féconds ne sachant comment se manifester,\"}","{\"text\":\"§aEntropy trouva en succombant sa forme à travers la chute des montagnes.\"}","{\"text\":\"§aSleeping on a thousand fruitful precipices not knowing how to manifest himself,\"}","{\"text\":\"§aEntropy found his form succumbing through the fall of the mountains.\"}","{\"text\":\"§7STR§a1 §7RES§a1 §7HAS§a2 §7DAR§a1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aDormant de mille précipices féconds ne sachant comment se manifester,\"}","{\"text\":\"§aEntropy trouva en succombant sa forme à travers la chute des montagnes.\"}","{\"text\":\"§aSleeping on a thousand fruitful precipices not knowing how to manifest himself,\"}","{\"text\":\"§aEntropy found his form succumbing through the fall of the mountains.\"}","{\"text\":\"§7STR§a1 §7HAS§a2 §7SPD§a2 §7DAR§a1\"}"]}}}]}] only att2:adventure/chaos_fullset
+
+
+advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\"}","{\"text\":\"§a s’érigeront toujours en sentinelles de ce monde.\"}","{\"text\":\"§aThe disciples who walk in the footsteps of him who is eternal\"}","{\"text\":\"§awill always set themselves up as sentinels of this world.\"}","{\"text\":\"§7RES§a1 §7DAR§c-1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\"}","{\"text\":\"§a s’érigeront toujours en sentinelles de ce monde.\"}","{\"text\":\"§aThe disciples who walk in the footsteps of him who is eternal\"}","{\"text\":\"§awill always set themselves up as sentinels of this world.\"}","{\"text\":\"§7STR§a2 §7HAS§c-1\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\"}","{\"text\":\"§a s’érigeront toujours en sentinelles de ce monde.\"}","{\"text\":\"§aThe disciples who walk in the footsteps of him who is eternal\"}","{\"text\":\"§awill always set themselves up as sentinels of this world.\"}","{\"text\":\"§7STR§a2 §7SPD§c-1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\"}","{\"text\":\"§a s’érigeront toujours en sentinelles de ce monde.\"}","{\"text\":\"§aThe disciples who walk in the footsteps of him who is eternal\"}","{\"text\":\"§awill always set themselves up as sentinels of this world.\"}","{\"text\":\"§7RES§a1 §7STR§c-1\"}"]}}}]}] only att2:adventure/eternan_fullset
+
+
+advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aHéritage du monumental colosse pétrifié.\"}","{\"text\":\"§aGéant qui ne voulais jamais cesser de grandir.\"}","{\"text\":\"§aLegacy of the monumental petrified colossus.\"}","{\"text\":\"§aGiant who never wanted to stop growing.\"}","{\"text\":\"§7STR§a2 §7RES§a1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aHéritage du monumental colosse pétrifié.\"}","{\"text\":\"§aGéant qui ne voulais jamais cesser de grandir.\"}","{\"text\":\"§aLegacy of the monumental petrified colossus.\"}","{\"text\":\"§aGiant who never wanted to stop growing.\"}","{\"text\":\"§7STR§a3 §7HUN§a1\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aHéritage du monumental colosse pétrifié.\"}","{\"text\":\"§aGéant qui ne voulais jamais cesser de grandir.\"}","{\"text\":\"§aLegacy of the monumental petrified colossus.\"}","{\"text\":\"§aGiant who never wanted to stop growing.\"}","{\"text\":\"§7STR§a3 §7HUN§a1\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aHéritage du monumental colosse pétrifié.\"}","{\"text\":\"§aGéant qui ne voulais jamais cesser de grandir.\"}","{\"text\":\"§aLegacy of the monumental petrified colossus.\"}","{\"text\":\"§aGiant who never wanted to stop growing.\"}","{\"text\":\"§7STR§a2 §7RES§a1\"}"]}}}]}] only att2:adventure/ulli_kummi_fullset
+
+
+advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{display:{"Lore":["{\"text\":\"§aLa créativité pure n'est possible qu'à la faveur \"}","{\"text\":\"§ad'une liberté d'esprit absolue.\"}","{\"text\":\"§aPure creativity is only possible\"}","{\"text\":\"§awith absolute freedom of mind.\"}","{\"text\":\"§7STR§a2 §7HAS§a3 §7HER§a1\"}"]}}},{Slot:102b,tag:{display:{"Lore":["{\"text\":\"§aLa créativité pure n'est possible qu'à la faveur \"}","{\"text\":\"§ad'une liberté d'esprit absolue.\"}","{\"text\":\"§aPure creativity is only possible\"}","{\"text\":\"§awith absolute freedom of mind.\"}","{\"text\":\"§7STR§a2 §7SPD§a3 §7DAR§a2\"}"]}}},{Slot:101b,tag:{display:{"Lore":["{\"text\":\"§aLa créativité pure n'est possible qu'à la faveur \"}","{\"text\":\"§ad'une liberté d'esprit absolue.\"}","{\"text\":\"§aPure creativity is only possible\"}","{\"text\":\"§awith absolute freedom of mind.\"}","{\"text\":\"§7STR§a2 §7SPD§a3 §7DAR§a2\"}"]}}},{Slot:100b,tag:{display:{"Lore":["{\"text\":\"§aLa créativité pure n'est possible qu'à la faveur \"}","{\"text\":\"§ad'une liberté d'esprit absolue.\"}","{\"text\":\"§aPure creativity is only possible\"}","{\"text\":\"§awith absolute freedom of mind.\"}","{\"text\":\"§7STR§a2 §7HAS§a3 §7HER§a1\"}"]}}}]}] only att2:adventure/artist_fullset
+
 
 advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:leather_helmet"},{Slot:102b,id:"minecraft:leather_chestplate"},{Slot:101b,id:"minecraft:leather_leggings"},{Slot:100b,id:"minecraft:leather_boots"}]}] only att2:adventure/leather_armor_full
 advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet"},{Slot:102b,id:"minecraft:golden_chestplate"},{Slot:101b,id:"minecraft:golden_leggings"},{Slot:100b,id:"minecraft:golden_boots"}]}] only att2:adventure/golden_armor_full
@@ -120,7 +149,13 @@ advancement grant @a[scores={statBOW=10..}] only att2:combat/bow_10
 advancement grant @a[scores={statBOW=50..}] only att2:combat/bow_50
 advancement grant @a[scores={statBOW=250..}] only att2:combat/bow_250
 advancement grant @a[scores={statBOW=1000..}] only att2:combat/bow_1000
-advancement grant @a[scores={statBOW=5000..}] only att2:combat/bow_5000
+advancement grant @a[scores={statBOW=2500..}] only att2:combat/bow_2500
+
+advancement grant @a[scores={statCROSSBOW=5..}] only att2:combat/crossbow_5
+advancement grant @a[scores={statCROSSBOW=25..}] only att2:combat/crossbow_25
+advancement grant @a[scores={statCROSSBOW=100..}] only att2:combat/crossbow_100
+advancement grant @a[scores={statCROSSBOW=500..}] only att2:combat/crossbow_500
+advancement grant @a[scores={statCROSSBOW=1000..}] only att2:combat/crossbow_1000
 
 
 # Weapons
@@ -135,6 +170,11 @@ advancement grant @a[scores={statWOODAXE=50..}] only att2:weapons/wooden_axe_50
 advancement grant @a[scores={statWOODAXE=250..}] only att2:weapons/wooden_axe_250
 advancement grant @a[scores={statWOODAXE=1000..}] only att2:weapons/wooden_axe_1000
 
+advancement grant @a[scores={statWOODSPEAR=1..}] only att2:weapons/wooden_spear_1
+advancement grant @a[scores={statWOODSPEAR=50..}] only att2:weapons/wooden_spear_50
+advancement grant @a[scores={statWOODSPEAR=250..}] only att2:weapons/wooden_spear_250
+advancement grant @a[scores={statWOODSPEAR=1000..}] only att2:weapons/wooden_spear_1000
+
 advancement grant @a[scores={statWOODMACE=1..}] only att2:weapons/wooden_mace_1
 advancement grant @a[scores={statWOODMACE=50..}] only att2:weapons/wooden_mace_50
 advancement grant @a[scores={statWOODMACE=250..}] only att2:weapons/wooden_mace_250
@@ -144,6 +184,7 @@ advancement grant @a[scores={statWOODDAG=1..}] only att2:weapons/wooden_dagger_1
 advancement grant @a[scores={statWOODDAG=50..}] only att2:weapons/wooden_dagger_50
 advancement grant @a[scores={statWOODDAG=250..}] only att2:weapons/wooden_dagger_250
 advancement grant @a[scores={statWOODDAG=1000..}] only att2:weapons/wooden_dagger_1000
+
 
 advancement grant @a[scores={statSTONESWORD=1..}] only att2:weapons/stone_sword_1
 advancement grant @a[scores={statSTONESWORD=50..}] only att2:weapons/stone_sword_50
@@ -165,6 +206,7 @@ advancement grant @a[scores={statSTONEDAG=50..}] only att2:weapons/stone_dagger_
 advancement grant @a[scores={statSTONEDAG=250..}] only att2:weapons/stone_dagger_250
 advancement grant @a[scores={statSTONEDAG=1000..}] only att2:weapons/stone_dagger_1000
 
+
 advancement grant @a[scores={statGOLDSWORD=1..}] only att2:weapons/golden_sword_1
 advancement grant @a[scores={statGOLDSWORD=50..}] only att2:weapons/golden_sword_50
 advancement grant @a[scores={statGOLDSWORD=250..}] only att2:weapons/golden_sword_250
@@ -174,6 +216,11 @@ advancement grant @a[scores={statGOLDAXE=1..}] only att2:weapons/golden_axe_1
 advancement grant @a[scores={statGOLDAXE=50..}] only att2:weapons/golden_axe_50
 advancement grant @a[scores={statGOLDAXE=250..}] only att2:weapons/golden_axe_250
 advancement grant @a[scores={statGOLDAXE=1000..}] only att2:weapons/golden_axe_1000
+
+advancement grant @a[scores={statGOLDSPEAR=1..}] only att2:weapons/golden_spear_1
+advancement grant @a[scores={statGOLDSPEAR=50..}] only att2:weapons/golden_spear_50
+advancement grant @a[scores={statGOLDSPEAR=250..}] only att2:weapons/golden_spear_250
+advancement grant @a[scores={statGOLDSPEAR=1000..}] only att2:weapons/golden_spear_1000
 
 advancement grant @a[scores={statGOLDMACE=1..}] only att2:weapons/golden_mace_1
 advancement grant @a[scores={statGOLDMACE=50..}] only att2:weapons/golden_mace_50
@@ -185,6 +232,7 @@ advancement grant @a[scores={statGOLDDAG=50..}] only att2:weapons/golden_dagger_
 advancement grant @a[scores={statGOLDDAG=250..}] only att2:weapons/golden_dagger_250
 advancement grant @a[scores={statGOLDDAG=1000..}] only att2:weapons/golden_dagger_1000
 
+
 advancement grant @a[scores={statIRONSWORD=1..}] only att2:weapons/iron_sword_1
 advancement grant @a[scores={statIRONSWORD=50..}] only att2:weapons/iron_sword_50
 advancement grant @a[scores={statIRONSWORD=250..}] only att2:weapons/iron_sword_250
@@ -194,6 +242,11 @@ advancement grant @a[scores={statIRONAXE=1..}] only att2:weapons/iron_axe_1
 advancement grant @a[scores={statIRONAXE=50..}] only att2:weapons/iron_axe_50
 advancement grant @a[scores={statIRONAXE=250..}] only att2:weapons/iron_axe_250
 advancement grant @a[scores={statIRONAXE=1000..}] only att2:weapons/iron_axe_1000
+
+advancement grant @a[scores={statIRONSPEAR=1..}] only att2:weapons/iron_spear_1
+advancement grant @a[scores={statIRONSPEAR=50..}] only att2:weapons/iron_spear_50
+advancement grant @a[scores={statIRONSPEAR=250..}] only att2:weapons/iron_spear_250
+advancement grant @a[scores={statIRONSPEAR=1000..}] only att2:weapons/iron_spear_1000
 
 advancement grant @a[scores={statIRONMACE=1..}] only att2:weapons/iron_mace_1
 advancement grant @a[scores={statIRONMACE=50..}] only att2:weapons/iron_mace_50
@@ -205,6 +258,7 @@ advancement grant @a[scores={statIRONDAG=50..}] only att2:weapons/iron_dagger_50
 advancement grant @a[scores={statIRONDAG=250..}] only att2:weapons/iron_dagger_250
 advancement grant @a[scores={statIRONDAG=1000..}] only att2:weapons/iron_dagger_1000
 
+
 advancement grant @a[scores={statDIAMONDSWORD=1..}] only att2:weapons/diamond_sword_1
 advancement grant @a[scores={statDIAMONDSWORD=50..}] only att2:weapons/diamond_sword_50
 advancement grant @a[scores={statDIAMONDSWORD=250..}] only att2:weapons/diamond_sword_250
@@ -215,6 +269,11 @@ advancement grant @a[scores={statDIAMONDAXE=50..}] only att2:weapons/diamond_axe
 advancement grant @a[scores={statDIAMONDAXE=250..}] only att2:weapons/diamond_axe_250
 advancement grant @a[scores={statDIAMONDAXE=1000..}] only att2:weapons/diamond_axe_1000
 
+advancement grant @a[scores={statDIAMONDSPEAR=1..}] only att2:weapons/diamond_spear_1
+advancement grant @a[scores={statDIAMONDSPEAR=50..}] only att2:weapons/diamond_spear_50
+advancement grant @a[scores={statDIAMONDSPEAR=250..}] only att2:weapons/diamond_spear_250
+advancement grant @a[scores={statDIAMONDSPEAR=1000..}] only att2:weapons/diamond_spear_1000
+
 advancement grant @a[scores={statDIAMONDMACE=1..}] only att2:weapons/diamond_mace_1
 advancement grant @a[scores={statDIAMONDMACE=50..}] only att2:weapons/diamond_mace_50
 advancement grant @a[scores={statDIAMONDMACE=250..}] only att2:weapons/diamond_mace_250
@@ -224,6 +283,32 @@ advancement grant @a[scores={statDIAMONDDAG=1..}] only att2:weapons/diamond_dagg
 advancement grant @a[scores={statDIAMONDDAG=50..}] only att2:weapons/diamond_dagger_50
 advancement grant @a[scores={statDIAMONDDAG=250..}] only att2:weapons/diamond_dagger_250
 advancement grant @a[scores={statDIAMONDDAG=1000..}] only att2:weapons/diamond_dagger_1000
+
+
+advancement grant @a[scores={statNETHERSWORD=1..}] only att2:weapons/netherite_sword_1
+advancement grant @a[scores={statNETHERSWORD=50..}] only att2:weapons/netherite_sword_50
+advancement grant @a[scores={statNETHERSWORD=250..}] only att2:weapons/netherite_sword_250
+advancement grant @a[scores={statNETHERSWORD=1000..}] only att2:weapons/netherite_sword_1000
+
+advancement grant @a[scores={statNETHERAXE=1..}] only att2:weapons/netherite_axe_1
+advancement grant @a[scores={statNETHERAXE=50..}] only att2:weapons/netherite_axe_50
+advancement grant @a[scores={statNETHERAXE=250..}] only att2:weapons/netherite_axe_250
+advancement grant @a[scores={statNETHERAXE=1000..}] only att2:weapons/netherite_axe_1000
+
+advancement grant @a[scores={statNETHERSPEAR=1..}] only att2:weapons/netherite_spear_1
+advancement grant @a[scores={statNETHERSPEAR=50..}] only att2:weapons/netherite_spear_50
+advancement grant @a[scores={statNETHERSPEAR=250..}] only att2:weapons/netherite_spear_250
+advancement grant @a[scores={statNETHERSPEAR=1000..}] only att2:weapons/netherite_spear_1000
+
+advancement grant @a[scores={statNETHERMACE=1..}] only att2:weapons/netherite_mace_1
+advancement grant @a[scores={statNETHERMACE=50..}] only att2:weapons/netherite_mace_50
+advancement grant @a[scores={statNETHERMACE=250..}] only att2:weapons/netherite_mace_250
+advancement grant @a[scores={statNETHERMACE=1000..}] only att2:weapons/netherite_mace_1000
+
+advancement grant @a[scores={statNETHERDAG=1..}] only att2:weapons/netherite_dagger_1
+advancement grant @a[scores={statNETHERDAG=50..}] only att2:weapons/netherite_dagger_50
+advancement grant @a[scores={statNETHERDAG=250..}] only att2:weapons/netherite_dagger_250
+advancement grant @a[scores={statNETHERDAG=1000..}] only att2:weapons/netherite_dagger_1000
 
 
 # Food
@@ -468,6 +553,21 @@ advancement grant @a[scores={statCHEST=100..}] only att2:treasure/chest_100
 advancement grant @a[scores={statCHEST=1000..}] only att2:treasure/chest_1000
 advancement grant @a[scores={statCHEST=10000..}] only att2:treasure/chest_10000
 
+execute if score com MENDING matches 1.. run advancement grant @a only att2:treasure/mending_com
+execute if score unc MENDING matches 1.. run advancement grant @a only att2:treasure/mending_unc
+execute if score rar MENDING matches 1.. run advancement grant @a only att2:treasure/mending_rar
+execute if score epi MENDING matches 1.. run advancement grant @a only att2:treasure/mending_epi
+execute if score epi_esc MENDING matches 1.. run advancement grant @a only att2:treasure/mending_epi_esc
+execute if score leg MENDING matches 1.. run advancement grant @a only att2:treasure/mending_leg
+
+advancement grant @a[scores={MENDING=1..}] only att2:treasure/mending_1
+advancement grant @a[scores={MENDING=5..}] only att2:treasure/mending_5
+advancement grant @a[scores={MENDING=25..}] only att2:treasure/mending_25
+advancement grant @a[scores={MENDING=100..}] only att2:treasure/mending_100
+
+advancement grant @a[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§7Epic sparkle\"}\"}"]}}}]}] only att2:treasure/sparkle_epi
+advancement grant @a[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§7Legendary sparkle\"}\"}"]}}}]}] only att2:treasure/sparkle_leg
+
 
 # Progress
 
@@ -475,13 +575,14 @@ advancement grant @a[scores={EXPLOIT=50..}] only att2:progress/exploit_50
 advancement grant @a[scores={EXPLOIT=250..}] only att2:progress/exploit_250
 advancement grant @a[scores={EXPLOIT=1000..}] only att2:progress/exploit_1000
 advancement grant @a[scores={EXPLOIT=2500..}] only att2:progress/exploit_2500
-advancement grant @a[scores={EXPLOIT=4500..}] only att2:progress/exploit_4500
+advancement grant @a[scores={EXPLOIT=5000..}] only att2:progress/exploit_5000
 
 advancement grant @a[scores={SIDEQUEST=1..}] only att2:progress/sidequest_1
 advancement grant @a[scores={SIDEQUEST=5..}] only att2:progress/sidequest_5
 advancement grant @a[scores={SIDEQUEST=10..}] only att2:progress/sidequest_10
 advancement grant @a[scores={SIDEQUEST=20..}] only att2:progress/sidequest_20
 advancement grant @a[scores={SIDEQUEST=30..}] only att2:progress/sidequest_30
+advancement grant @a[scores={SIDEQUEST=40..}] only att2:progress/sidequest_40
 advancement grant @a[scores={SIDEQUEST=50..}] only att2:progress/sidequest_50
 
 advancement grant @a[scores={GAMELEVEL=10..}] only att2:progress/gamelevel_10
@@ -494,6 +595,9 @@ advancement grant @a[scores={LEVELMASTER=40..}] only att2:progress/gamelevelmast
 advancement grant @a[scores={LEVELMASTER=60..}] only att2:progress/gamelevelmaster_60
 advancement grant @a[scores={LEVELMASTER=80..}] only att2:progress/gamelevelmaster_80
 advancement grant @a[scores={LEVELMASTER=100..}] only att2:progress/gamelevelmaster_100
+advancement grant @a[scores={LEVELMASTER=150..}] only att2:progress/gamelevelmaster_150
+advancement grant @a[scores={LEVELMASTER=200..}] only att2:progress/gamelevelmaster_200
+advancement grant @a[scores={LEVELMASTER=300..}] only att2:progress/gamelevelmaster_300
 
 execute if score heros REPUTATION matches ..-100 run advancement grant @a only att2:progress/reputation_less_100
 execute if score heros REPUTATION matches 50.. run advancement grant @a only att2:progress/reputation_more_50
@@ -595,10 +699,10 @@ advancement grant @a[scores={statPIGMANKILLED=50..}] only att2:mobskilled/humano
 advancement grant @a[scores={statPIGMANKILLED=250..}] only att2:mobskilled/humanoids_killed_250
 advancement grant @a[scores={statPIGMANKILLED=500..}] only att2:mobskilled/humanoids_killed_500
 
-advancement grant @a[scores={statCREEPKILLED=10..}] only att2:mobskilled/creepers_killed_10
-advancement grant @a[scores={statCREEPKILLED=50..}] only att2:mobskilled/creepers_killed_50
+advancement grant @a[scores={statCREEPKILLED=5..}] only att2:mobskilled/creepers_killed_5
+advancement grant @a[scores={statCREEPKILLED=25..}] only att2:mobskilled/creepers_killed_25
+advancement grant @a[scores={statCREEPKILLED=100..}] only att2:mobskilled/creepers_killed_100
 advancement grant @a[scores={statCREEPKILLED=250..}] only att2:mobskilled/creepers_killed_250
-advancement grant @a[scores={statCREEPKILLED=500..}] only att2:mobskilled/creepers_killed_500
 
 advancement grant @a[scores={statHUSKKILLED=10..}] only att2:mobskilled/husks_killed_10
 advancement grant @a[scores={statHUSKKILLED=50..}] only att2:mobskilled/husks_killed_50
@@ -666,8 +770,29 @@ advancement grant @a[scores={statWOLFKILLED=50..}] only att2:mobskilled/wolfs_ki
 advancement grant @a[scores={statWOLFKILLED=250..}] only att2:mobskilled/wolfs_killed_250
 advancement grant @a[scores={statWOLFKILLED=500..}] only att2:mobskilled/wolfs_killed_500
 
+advancement grant @a[scores={statHOLGINKILLED=5..}] only att2:mobskilled/hoglins_killed_5
+advancement grant @a[scores={statHOGLINKILLED=25..}] only att2:mobskilled/hoglins_killed_25
+advancement grant @a[scores={statHOGLINKILLED=100..}] only att2:mobskilled/hoglins_killed_100
+advancement grant @a[scores={statHOGLINKILLED=250..}] only att2:mobskilled/hoglins_killed_250
+
+advancement grant @a[scores={statVEXKILLED=5..}] only att2:mobskilled/vex_killed_5
+advancement grant @a[scores={statVEXKILLED=25..}] only att2:mobskilled/vex_killed_25
+advancement grant @a[scores={statVEXKILLED=100..}] only att2:mobskilled/vex_killed_100
+advancement grant @a[scores={statVEXKILLED=250..}] only att2:mobskilled/vex_killed_250
+
+advancement grant @a[scores={statBEEKILLED=10..}] only att2:mobskilled/bees_killed_10
+advancement grant @a[scores={statBEEKILLED=50..}] only att2:mobskilled/bees_killed_50
+advancement grant @a[scores={statBEEKILLED=250..}] only att2:mobskilled/bees_killed_250
+advancement grant @a[scores={statBEEKILLED=500..}] only att2:mobskilled/bees_killed_500
+
+advancement grant @a[scores={statPILLAKILLED=10..}] only att2:mobskilled/pillagers_killed_10
+advancement grant @a[scores={statPILLAKILLED=50..}] only att2:mobskilled/pillagers_killed_50
+advancement grant @a[scores={statPILLAKILLED=250..}] only att2:mobskilled/pillagers_killed_250
+advancement grant @a[scores={statPILLAKILLED=500..}] only att2:mobskilled/pillagers_killed_500
+
 
 # Quest
+
 execute if score Accepted SIDEQUEST matches 1.. run advancement grant @a only att2:quest/root
 
 

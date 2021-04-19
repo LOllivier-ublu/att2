@@ -39,6 +39,15 @@
                 }
             }
         },
+        "break_golden_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_hoe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
         "break_golden_pickaxe": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
@@ -54,6 +63,7 @@
         "break_golden_sword",
         "break_golden_shovel",
         "break_golden_axe",
+        "break_golden_hoe",
         "break_golden_pickaxe"
         ]
     ]

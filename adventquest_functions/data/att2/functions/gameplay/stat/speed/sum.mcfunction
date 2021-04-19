@@ -6,6 +6,7 @@
 
 scoreboard players operation @s SPD_TOT = @s SPD_BASE
 execute unless entity @s[scores={SPD_LVL_LE=0}] run scoreboard players operation @s SPD_TOT += @s SPD_LVL_LE
+execute unless entity @s[scores={SPD_LVL_OH=0}] run scoreboard players operation @s SPD_TOT += @s SPD_LVL_OH
 execute unless entity @s[scores={SPD_LVL_PO=0}] run scoreboard players operation @s SPD_TOT += @s SPD_LVL_PO
 execute unless entity @s[scores={SPD_LVL_DAB=0}] run scoreboard players operation @s SPD_TOT += @s SPD_LVL_DAB
 execute unless entity @s[scores={SPD_LVL_DAM=0}] run scoreboard players operation @s SPD_TOT -= @s SPD_LVL_DAM

@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:netherite_helmet{EquipmentType:"armor",Rarity:"rar",Manufacturer:"harmonious",display:{Name:"\"§9Masque roc\"","Lore":["{\"text\":\"§7Les golems n'y verront que du feu.\"}","{\"text\":\"§7The golems will see nothing.\"}","{\"text\":\"§7RES§a1 §7SPD§c-2\"}"]},Damage:225,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.94,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.38,Operation:1,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:head,UUID:[I;0,30001,0,20000]}]} 1
