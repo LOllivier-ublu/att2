@@ -3,8 +3,7 @@
 #Display effect for interfacer shooting	         #
 ##################################################
 
-#Todo sound
-#Todo particle
+execute at @s run function att2:sound/legendary/interfacer_shoot
 #Getting the 3 arrows shot by interfacer
 execute at @s run scoreboard players set @e[nbt={Potion:"minecraft:strength"},sort=nearest,limit=3,distance=..5,type=minecraft:arrow] SHOOTING_IF 2
 
