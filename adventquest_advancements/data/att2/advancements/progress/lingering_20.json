@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion"
+        },
+        "title": {"translate":"Gasworks"},
+        "description": {"translate":"Thrown 20 lingering potions"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/lingering_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2000
+    },
+    "criteria": {
+        "lingering_20": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

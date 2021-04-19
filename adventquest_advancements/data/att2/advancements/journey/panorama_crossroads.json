@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"The Crossroads Panorama"},
+        "description": {"translate":"Discover the panorama of Silberländ Crossroads"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_plain",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "panorama_crossroads": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

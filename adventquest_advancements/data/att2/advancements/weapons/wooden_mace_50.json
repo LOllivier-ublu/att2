@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {"translate":"Wooden mace smash"},
+        "description": {"translate":"Strike 50 times with a wooden mace"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/wooden_mace_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "wooden_mace_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

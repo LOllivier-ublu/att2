@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "title": {"translate":"Purchase order"},
+        "description": {"translate":"Buy 25 items from a merchant"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/purchase_1",
+        "rewards": {
+            "function": "att2:advancement/exploit_2",
+            "experience": 250
+    },
+    "criteria": {
+        "purchase_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

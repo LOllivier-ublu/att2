@@ -1,0 +1,7 @@
+#####################################################
+#Made by Adventquest                             	#
+#Process the button1								#
+#####################################################
+
+execute in minecraft:the_nether run function att2:physicmod/reg2/angor_palace/wing_wu/mech1_door1
+execute in minecraft:the_nether positioned 3483 83 4508 run function att2:sound/door/simple_wooden_door

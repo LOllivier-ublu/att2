@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "title": {"translate":"Sorcerer's apprentice"},
+        "description": {"translate":"Complete the epic set of Dahäl"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/epi",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1500
+                },
+    "criteria": {
+        "dahal_apprentice": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

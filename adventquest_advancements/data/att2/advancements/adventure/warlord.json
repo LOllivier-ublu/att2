@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magenta_stained_glass_pane"
+        },
+        "title": {"translate":"Warlord"},
+        "description": {"translate":"Hold the mythical bow WARLORD"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "warlord": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

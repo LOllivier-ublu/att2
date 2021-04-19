@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:wooden_axe{EquipmentType:"meleeWeapon",Rarity:"epi",Manufacturer:"teran",display:{Name:"\"§5Souvenir de guerre\"",Lore:["§7Terre rougie par le sang","§7air souillé par le désespoir.","§7Land reddened by blood,","§7air stained by despair.","§7STR§a3 §7HAS§a2 §7SPD§c-1 §7HER§c-1"]},Damage:0,Enchantments:[{id:"minecraft:knockback",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:34.11,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.73,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:30001}]} 1

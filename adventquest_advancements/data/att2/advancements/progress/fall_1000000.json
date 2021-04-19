@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ghast_tear"
+        },
+        "title": {"translate":"Falling Into Infinity"},
+        "description": {"translate":"Fall 10km in total"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/fall_500000",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+    },
+    "criteria": {
+        "fall_1000000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mushroom_stew"
+        },
+        "title": {"translate":"Gastronomy"},
+        "description": {"translate":"Eat some mushroom stew"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 150
+                },
+    "criteria": {
+        "mushroom_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:mushroom_stew"
+                }
+            }
+        }
+    }
+}

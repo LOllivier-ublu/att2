@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"An unfortunate incident"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+    },
+    "criteria": {
+        "sq24": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

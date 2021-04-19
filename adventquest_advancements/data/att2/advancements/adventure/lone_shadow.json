@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_stained_glass_pane"
+        },
+        "title": {"translate":"Lone Shadow"},
+        "description": {"translate":"Hold the mythical dagger LONE SHADOW"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "lone_shadow": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

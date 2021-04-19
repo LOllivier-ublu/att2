@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon sectarian class_18 region_2  		 	 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Attributes:[{Name:generic.movementSpeed,Base:0.2}],Tags:["LVL0","CLASS18","Reg2","Undead"],Anger:32000,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:golden_axe",Count:1b},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:14,Patterns:[{Pattern:cbo,Color:1}]}}}],ArmorItems:[{id:"minecraft:golden_boots",Count:1},{id:"minecraft:golden_leggings",Count:1},{id:"minecraft:leather_chestplate",Count:1},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"861d360a-ec15-4314-99a7-bc22528d395e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMxOGJmZjZkMTc1MzYxNDBiNWM4MGIxODM5MWFmNjNiNzc3ODJiOTI5NmVmMDQwMGIzYmYyNDBkNzIxZjg2ZSJ9fX0="}]}}}}]}

@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the armor list items shop 				#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Fausse capuche>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:leather_helmet\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5Fausse capuche\\\"}\",Lore:[\"§7L'effet de surprise est votre, car\",\"§7c'est bien un casque qui se cache dessous.\",\"§7The surprise effect is yours, because\",\"§7it is indeed a helmet that is hidden underneath.\",\"§7HAS§a4 §7SPD§c-1\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:28s},{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.13,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:10001},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:0.77,Operation:1,Slot:head,UUIDLeast:20000,UUIDMost:20001},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:1.0,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:30001}]},Damage:0}"},"extra":[{"text":" [1313 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/armor/epi/leather_helmet_48"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Fausse capuche>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:leather_helmet\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5Fausse capuche\\\"}\",Lore:[\"§7L'effet de surprise est votre, car\",\"§7c'est bien un casque qui se cache dessous.\",\"§7The surprise effect is yours, because\",\"§7it is indeed a helmet that is hidden underneath.\",\"§7HAS§a4 §7SPD§c-1\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:28s},{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.13,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:10001},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:0.77,Operation:1,Slot:head,UUIDLeast:20000,UUIDMost:20001},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:1.0,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:30001}]},Damage:0}"},"extra":[{"text":" [1313 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/armor/epi/leather_helmet_48"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

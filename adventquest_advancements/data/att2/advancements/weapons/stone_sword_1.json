@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": {"translate":"Billgart sword strike"},
+        "description": {"translate":"Strike once with a Billgart sword"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "stone_sword_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pufferfish"
+        },
+        "title": {"translate":"Guardian Eliminator"},
+        "description": {"translate":"Kill 25 Guardians"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/guardians_killed_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "guardians_killed_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

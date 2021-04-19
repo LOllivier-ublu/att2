@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"The bait of gain"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:quest/sq42",
+    "rewards": {
+        "function": "att2:advancement/exploit_10"
+    },
+    "criteria": {
+        "sq43": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

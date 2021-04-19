@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[90.0f,0.0f],UUIDMost:602L,UUIDLeast:602L,Tags:["PNJ"],NoAI:1,Invulnerable:1,CustomName:"\"NEGAN GREYSON\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:8224125}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:8224125}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:8224125}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"c1c4cbe2-e8ce-4b3d-9da5-655ca6d7938a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFmNmVjNGVjYTU4YzEyY2IxY2M2YTA0OGRhNThkY2JkN2I1NjZmOGI0NzA1OWIxODBiZDgwNTA0ZjUzZWUifX19"}]}}}}]}

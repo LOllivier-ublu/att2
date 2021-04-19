@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"Ghast Killer"},
+        "description": {"translate":"Kill 1 Ghast"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "ghasts_killed_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

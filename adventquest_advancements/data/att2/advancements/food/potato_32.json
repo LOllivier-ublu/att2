@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:baked_potato"
+        },
+        "title": {"translate":"Potato craving"},
+        "description": {"translate":"Eat 32 baked potatoes"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/potato_8",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+            "potato_32": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

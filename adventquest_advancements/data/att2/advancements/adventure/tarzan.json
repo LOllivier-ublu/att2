@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:vine"
+        },
+        "title": {"translate":"Tarzan"},
+        "description": {"translate":"Climb on some vines"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 15
+                },
+    "criteria": {
+        "enter_vine": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:vine"
+            }
+        }
+    }
+}

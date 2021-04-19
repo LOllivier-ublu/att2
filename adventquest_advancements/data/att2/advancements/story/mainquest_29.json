@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Sweet memory, or not..."},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_28",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 5000
+    },
+    "criteria": {
+        "mainquest_29": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

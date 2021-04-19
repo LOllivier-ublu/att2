@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_torch"
+        },
+        "title": {"translate":"Anti-hero"},
+        "description": {"translate":"Reach -100 in reputation"},
+        "hidden": "true"
+    },
+    "parent": "att2:progress/root",
+    "criteria": {
+        "reputation_less_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

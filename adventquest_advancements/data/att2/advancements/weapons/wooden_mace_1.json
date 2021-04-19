@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {"translate":"Wooden mace strike"},
+        "description": {"translate":"Strike once with a wooden mace"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "wooden_mace_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

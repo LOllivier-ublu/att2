@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"J'zargo's legendary quest - Part 6"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:quest/sq55",
+    "rewards": {
+        "function": "att2:advancement/exploit_50"
+    },
+    "criteria": {
+        "sq56": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

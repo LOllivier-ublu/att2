@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void"
+        },
+        "title": {"translate":"Boss Slayer"},
+        "description": {"translate":"Kill 5 Boss"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/boss_killed_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 1000
+    },
+    "criteria": {
+        "boss_killed_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

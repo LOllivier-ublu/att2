@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the weapon list items shop 			#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Celdron>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:wooden_axe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§9Celdron\\\"}\",Lore:[\"§7Lie force et finesse.\",\"§7Combines strength and finesse.\",\"§7STR§a1 §7SPD§a2 §7HAS§c-2 §7HUN§c-1\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:19.1,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.85,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:30001}]},Damage:0}"},"extra":[{"text":" [608 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/rar/wooden_axe_17"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Celdron>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:wooden_axe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§9Celdron\\\"}\",Lore:[\"§7Lie force et finesse.\",\"§7Combines strength and finesse.\",\"§7STR§a1 §7SPD§a2 §7HAS§c-2 §7HUN§c-1\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:19.1,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.85,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:30001}]},Damage:0}"},"extra":[{"text":" [608 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/rar/wooden_axe_17"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

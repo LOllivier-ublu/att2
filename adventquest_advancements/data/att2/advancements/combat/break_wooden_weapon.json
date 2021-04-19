@@ -1,0 +1,60 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Stone break"},
+        "description": {"translate":"Destroy a stone weapon in battle"}
+    },
+    "parent": "att2:combat/break_weapon",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+                },
+    "criteria": {
+        "break_wooden_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:wooden_sword",
+                    "durability": {"max": 5,"min": 2}
+                }
+            }
+        },
+        "break_wooden_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:wooden_shovel",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_wooden_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:wooden_axe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_wooden_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:wooden_pickaxe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_wooden_sword",
+        "break_wooden_shovel",
+        "break_wooden_axe",
+        "break_wooden_pickaxe"
+        ]
+    ]
+}

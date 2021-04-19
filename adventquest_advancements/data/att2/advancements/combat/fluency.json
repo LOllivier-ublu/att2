@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Fluency!"},
+        "description": {"translate":"Like a cat"}
+    },
+    "parent": "att2:combat/dexterity",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "fluency": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:haste": {
+                        "amplifier": {
+                            "min": 2,
+                            "max": 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Méleïm"},
+        "description": {"translate":"Discover Méleïm town"}
+    },
+    "parent": "att2:journey/discover_plain",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_meleim": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-3827.0,"max":-3801.0},
+                    "y": {"min":65.0,"max":110.0},
+                    "z": {"min":-5834.0,"max":-5792.0}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,220 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Handsfree"},
+        "description": {"translate":"Destroy your weapon in battle"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 150
+                },
+    "criteria": {
+        "break_wooden_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:wooden_sword",
+                    "durability": {"max": 5,"min": 2}
+                }
+            }
+        },
+        "break_wooden_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:wooden_shovel",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_wooden_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:wooden_axe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_wooden_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:wooden_pickaxe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_stone_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:stone_sword",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_stone_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:stone_shovel",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_stone_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:stone_axe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_stone_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:stone_pickaxe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_golden_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_sword",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_golden_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_shovel",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_golden_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_axe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_golden_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_pickaxe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_iron_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_sword",
+                    "durability": {"max": 5,"min": 2}
+                }
+            }
+        },
+        "break_iron_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_shovel",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_iron_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_axe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_iron_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_pickaxe",
+                    "durability": {"max": 1,"min": -1}
+                }
+            }
+        },
+        "break_diamond_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_sword",
+                    "durability": {"max": 5,"min": 2}
+                }
+            }
+        },
+        "break_diamond_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_shovel",
+                    "durability": {"max": 5,"min": 2}
+                }
+            }
+        },
+        "break_diamond_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_axe",
+                    "durability": {"max": 5,"min": 2}
+                }
+            }
+        },
+        "break_diamond_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_pickaxe",
+                    "durability": {"max": 5,"min": 2}
+                        }
+                    }
+                }
+            },
+    "requirements": [
+        [
+        "break_wooden_sword",
+        "break_wooden_shovel",
+        "break_wooden_axe",
+        "break_wooden_pickaxe",
+        "break_stone_sword",
+        "break_stone_shovel",
+        "break_stone_axe",
+        "break_stone_pickaxe",
+        "break_golden_sword",
+        "break_golden_shovel",
+        "break_golden_axe",
+        "break_golden_pickaxe",
+        "break_iron_sword",
+        "break_iron_shovel",
+        "break_iron_axe",
+        "break_iron_pickaxe",
+        "break_diamond_sword",
+        "break_diamond_shovel",
+        "break_diamond_axe",
+        "break_diamond_pickaxe"
+        ]
+    ]
+}

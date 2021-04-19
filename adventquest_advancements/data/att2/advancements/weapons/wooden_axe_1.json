@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_axe"
+        },
+        "title": {"translate":"Wooden axe strike"},
+        "description": {"translate":"Strike once with a wooden axe"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "wooden_axe_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

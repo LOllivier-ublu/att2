@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "title": {"translate":"You Are Not Spider Man!"},
+        "description": {"translate":"Get stuck in a cobweb"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 5
+                },
+    "criteria": {
+        "enter_cobweb": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:cobweb"
+            }
+        }
+    }
+}

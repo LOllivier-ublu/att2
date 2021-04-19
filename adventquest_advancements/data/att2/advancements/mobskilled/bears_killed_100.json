@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Bears Genocide"},
+        "description": {"translate":"Kill 100 Bears"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/bears_killed_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "bears_killed_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

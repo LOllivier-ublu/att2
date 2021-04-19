@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Eol Panorama"},
+        "description": {"translate":"Discover the panorama of Eol Valley"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_eol",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "panorama_eol": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

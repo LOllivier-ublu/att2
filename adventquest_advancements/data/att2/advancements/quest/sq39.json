@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Leaving the past behind to step forward"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_10"
+    },
+    "criteria": {
+        "sq39": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

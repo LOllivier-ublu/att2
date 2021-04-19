@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Black Forest"},
+        "description": {"translate":"Discover Black forest"}
+    },
+    "parent": "att2:journey/discover_soquai",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_black_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4700.0,"max":-3900.0},
+                    "y": {"min":70.0,"max":150.0},
+                    "z": {"min":-6050.0,"max":-5800.0}
+                }
+            }
+        }
+    }
+}

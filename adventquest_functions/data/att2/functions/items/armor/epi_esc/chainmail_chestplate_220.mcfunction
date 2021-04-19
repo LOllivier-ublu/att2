@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:chainmail_chestplate{EquipmentType:"armor",Rarity:"epi_esc",Manufacturer:"graceful",display:{Name:"\"§dHaubert remarquable\"",Lore:["§7Armure de maille saillante,","§7tissée avec la plus grande adresse.","§7Protruding mesh weave,","§7woven with the utmost skill.","§7STR§a2 §7RES§a1 §7DAR§c-1 §7LUC§c-1"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:2s},{id:"minecraft:projectile_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.2,Operation:0,Slot:chest,UUIDLeast:20000,UUIDMost:10002},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:3.3,Operation:1,Slot:chest,UUIDLeast:20000,UUIDMost:20002},{AttributeName:generic.maxHealth,Name:generic.maxHealth,Amount:2.0,Operation:0,Slot:chest,UUIDLeast:20000,UUIDMost:30002}]} 1

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ghast_tear"
+        },
+        "title": {"translate":"Tomber des Nues"},
+        "description": {"translate":"Fall 5km in total"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/fall_100000",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+    },
+    "criteria": {
+        "fall_500000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

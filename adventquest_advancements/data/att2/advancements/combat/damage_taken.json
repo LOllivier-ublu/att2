@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Ouch!"},
+        "description": {"translate":"Take damage"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 1
+                },
+    "criteria": {
+        "damage_taken": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

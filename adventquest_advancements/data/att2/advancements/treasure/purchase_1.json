@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "title": {"translate":"Your first purchase"},
+        "description": {"translate":"Buy 1 item from a merchant"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_1",
+            "experience": 100
+    },
+    "criteria": {
+        "purchase_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

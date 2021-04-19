@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "title": {"translate":"Golden mace strike"},
+        "description": {"translate":"Strike once with a golden mace"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "golden_mace_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

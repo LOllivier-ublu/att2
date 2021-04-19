@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"End of an era"},
+        "description": {"translate":"The end"},
+        "frame": "challenge"
+    },
+    "parent": "att2:story/mainquest_42",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 100000
+    },
+    "criteria": {
+        "mainquest_43": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

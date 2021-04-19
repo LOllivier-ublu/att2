@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Do not go gentle into that good night"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_38",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 15000
+    },
+    "criteria": {
+        "mainquest_39": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

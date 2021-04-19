@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_mutton"
+        },
+        "title": {"translate":"Mutton desire"},
+        "description": {"translate":"Eat 4 cooked mutton"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/mutton_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+            "mutton_4": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

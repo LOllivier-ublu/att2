@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Get Away From Me"},
+        "description": {"translate":"Block a cave spider attack"}
+    },
+    "parent": "att2:combat/deflect_arrow",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 25
+                },
+    "criteria": {
+        "deflected_spider": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"source_entity": {
+						"type": "minecraft:cave_spider"
+					}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {"translate":"Full uncommon set"},
+        "description": {"translate":"Get yourself equipped a full uncommon armor and weapon set"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/unc",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 1000
+                },
+    "criteria": {
+        "unc_full_set": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:melon_slice"
+        },
+        "title": {"translate":"Melon desire"},
+        "description": {"translate":"Eat 16 melon slices"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/melon_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+            "melon_16": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

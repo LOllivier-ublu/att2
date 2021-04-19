@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"Ghasts Slayer"},
+        "description": {"translate":"Kill 25 Ghasts"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/ghasts_killed_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "ghasts_killed_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

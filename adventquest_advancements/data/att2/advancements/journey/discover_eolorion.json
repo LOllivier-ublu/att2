@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Eolorion"},
+        "description": {"translate":"Discover Eolorion town"}
+    },
+    "parent": "att2:journey/discover_eol",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_eolorion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5346.0,"max":-5230.0},
+                    "y": {"min":50.0,"max":150.0},
+                    "z": {"min":-6125.0,"max":-6073.0}
+                }
+            }
+        }
+    }
+}

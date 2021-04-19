@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "title": {"translate":"Diamond axe strike"},
+        "description": {"translate":"Strike once with a diamond axe"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "diamond_axe_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

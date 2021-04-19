@@ -1,0 +1,80 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {"translate":"Armor for the masses"},
+        "description": {"translate":"Obtain armor with an enchantment"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:protection"
+							}
+						]
+					}
+				]
+			}
+		},	
+        "fire_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:fire_protection"
+							}
+						]
+					}
+				]
+			}
+		},
+        "blast_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:blast_protection"
+							}
+						]
+					}
+				]
+			}
+		},
+        "projectile_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:projectile_protection"
+							}
+						]
+					}
+				]
+			}
+		}
+    },
+  "requirements": [
+    [
+      "protection",
+      "fire_protection",
+      "blast_protection",
+      "projectile_protection"
+    ]
+  ]
+}

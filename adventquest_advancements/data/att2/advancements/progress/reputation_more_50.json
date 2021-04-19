@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": {"translate":"Increase your notoriety"},
+        "description": {"translate":"Reach 50 in reputation"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2500
+    },
+    "criteria": {
+        "reputation_more_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

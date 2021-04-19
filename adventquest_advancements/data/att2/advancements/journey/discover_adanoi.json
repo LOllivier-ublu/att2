@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Adanoï"},
+        "description": {"translate":"Discover Adanoï graveyard"}
+    },
+    "parent": "att2:journey/discover_elvetta",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_adanoi": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4014.0,"max":-3896.0},
+                    "y": {"min":70.0,"max":100.0},
+                    "z": {"min":-5672.0,"max":-5583.0}
+                }
+            }
+        }
+    }
+}

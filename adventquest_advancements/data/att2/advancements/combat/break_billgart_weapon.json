@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": {"translate":"Billgart weapon break"},
+        "description": {"translate":"Destroy a Billgart weapon in battle"},
+        "frame": "goal",
+        "hidden":true
+    },
+    "parent": "att2:combat/break_weapon",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "break_stone_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:stone_sword",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_stone_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:stone_pickaxe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_stone_sword",
+        "break_stone_pickaxe"
+        ]
+    ]
+}

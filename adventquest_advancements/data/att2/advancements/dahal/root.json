@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Dahäl Spell"},
+        "description": {"translate":"The way of the S"},
+        "background": "minecraft:textures/block/nether_wart_block.png",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "magic_book": {
+             "trigger": "minecraft:impossible"
+        }
+    }
+}

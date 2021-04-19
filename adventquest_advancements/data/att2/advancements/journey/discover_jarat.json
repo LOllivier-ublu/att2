@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Jarat"},
+        "description": {"translate":"Discover Jarat campement"}
+    },
+    "parent": "att2:journey/discover_worlest",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_jarat": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4657.0,"max":-4610.0},
+                    "y": {"min":76.0,"max":82.0},
+                    "z": {"min":-5413.0,"max":-5405.0}
+                }
+            }
+        }
+    }
+}

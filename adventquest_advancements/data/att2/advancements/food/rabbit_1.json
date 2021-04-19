@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_rabbit"
+        },
+        "title": {"translate":"Rabbit tasty"},
+        "description": {"translate":"Eat a cooked rabbit"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "rabbit_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

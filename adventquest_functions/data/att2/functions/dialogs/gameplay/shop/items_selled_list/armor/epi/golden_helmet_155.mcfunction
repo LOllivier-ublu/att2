@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the armor list items shop 				#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Do al dézäl>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_helmet\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5Do al dézäl\\\"}\",Lore:[\"§7L'espoir est une arme plus puissante\",\"§7que la colère, la peur ou la tristesse.\",\"§7Hope is a more powerful weapon\",\"§7than anger, fear or sadness.\",\"§7STR§a1 §7RES§a1 §7LUC§c-3\"]},Enchantments:[{id:\"minecraft:blast_protection\",lvl:1s},{id:\"minecraft:projectile_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.2,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:10001},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:1,Operation:1,Slot:head,UUIDLeast:20000,UUIDMost:20001}]},Damage:0}"},"extra":[{"text":" [1313 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/armor/epi/golden_helmet_155"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Do al dézäl>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_helmet\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5Do al dézäl\\\"}\",Lore:[\"§7L'espoir est une arme plus puissante\",\"§7que la colère, la peur ou la tristesse.\",\"§7Hope is a more powerful weapon\",\"§7than anger, fear or sadness.\",\"§7STR§a1 §7RES§a1 §7LUC§c-3\"]},Enchantments:[{id:\"minecraft:blast_protection\",lvl:1s},{id:\"minecraft:projectile_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.2,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:10001},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:1,Operation:1,Slot:head,UUIDLeast:20000,UUIDMost:20001}]},Damage:0}"},"extra":[{"text":" [1313 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/armor/epi/golden_helmet_155"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": {"translate":"Athletics Performance"},
+        "description": {"translate":"Sprint 25km"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/sprint_500000",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "sprint_2500000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

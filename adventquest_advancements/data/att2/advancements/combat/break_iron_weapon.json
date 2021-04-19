@@ -1,0 +1,60 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Iron weapon break"},
+        "description": {"translate":"Destroy an iron weapon in battle"}
+    },
+    "parent": "att2:combat/break_weapon",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+                },
+    "criteria": {
+        "break_iron_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_sword",
+                    "durability": {"max": 5,"min": 2}
+                }
+            }
+        },
+        "break_iron_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_shovel",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_iron_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_axe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_iron_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_pickaxe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_iron_sword",
+        "break_iron_shovel",
+        "break_iron_axe",
+        "break_iron_pickaxe"
+        ]
+    ]
+}

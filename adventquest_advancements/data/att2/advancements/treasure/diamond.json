@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": {"translate":"My precious"},
+        "description": {"translate":"Better a diamond with a flaw than a pebble without"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/money",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    { 
+                    "item": "minecraft:diamond"
+                    }
+                ]
+            }
+        }
+    }
+}

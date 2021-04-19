@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "title": {"translate":"Fairy meal"},
+        "description": {"translate":"Catch 20 Lost Souls"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/fairy_5",
+        "rewards": {
+            "function": "att2:advancement/exploit_10",
+            "experience": 5000
+    },
+    "criteria": {
+        "fairy_20": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

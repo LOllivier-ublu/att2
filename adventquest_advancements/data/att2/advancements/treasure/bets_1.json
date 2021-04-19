@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "title": {"translate":"Gambling"},
+        "description": {"translate":"Deal 1 bet"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_2",
+            "experience": 100
+    },
+    "criteria": {
+        "bets_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

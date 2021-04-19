@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the weapon list items shop 			#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Dernier recours>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:stone_shovel\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§9Dernier recours\\\"}\",Lore:[\"§7Le sage à toujours un second plan.\",\"§7The wise man always has a back seat.\",\"§7LUC§a1 §7HER§a2 §7HUN§c-1\"]},Enchantments:[{id:\"minecraft:smite\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:4.17,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10003},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.5,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20003},{AttributeName:generic.maxHealth,Name:generic.maxHealth,Amount:2.0,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:30003}]},Damage:0}"},"extra":[{"text":" [675 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/rar/stone_shovel_206"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Dernier recours>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:stone_shovel\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§9Dernier recours\\\"}\",Lore:[\"§7Le sage à toujours un second plan.\",\"§7The wise man always has a back seat.\",\"§7LUC§a1 §7HER§a2 §7HUN§c-1\"]},Enchantments:[{id:\"minecraft:smite\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:4.17,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10003},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.5,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20003},{AttributeName:generic.maxHealth,Name:generic.maxHealth,Amount:2.0,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:30003}]},Damage:0}"},"extra":[{"text":" [675 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/rar/stone_shovel_206"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

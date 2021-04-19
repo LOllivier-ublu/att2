@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_cod"
+        },
+        "title": {"translate":"Cod tasty"},
+        "description": {"translate":"Eat a cooked cod"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "cod_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

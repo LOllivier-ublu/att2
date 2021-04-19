@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": {"translate":"Billgart sword smash"},
+        "description": {"translate":"Strike 50 times with a Billgart sword"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/stone_sword_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "stone_sword_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

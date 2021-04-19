@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {"translate":"I'm alive!"},
+        "description": {"translate":"Be regenerated"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "regen": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:regeneration": {
+                        "amplifier": {
+                            "min": 0,
+                            "max": 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:leather_helmet{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"teran",display:{Name:"\"§5Capuche des songes\"",Lore:["§aLa distance devient subjective, l'altitude anodine, la vitesse","§aaffable, quand vous porte le savoir des enfants d'Iio.","§aThe distance becomes subjective, the altitude anodyne, the speed","§aaffable, when the knowledge of Iio's children carries you.","§7HAS§a3 §7DAR§c-1"],color:12696977},Damage:0,Enchantments:[{id:"minecraft:fire_protection",lvl:1s},{id:"minecraft:unbreaking",lvl:10s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:10001},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:0.7,Operation:1,Slot:head,UUIDLeast:20000,UUIDMost:20001},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:1.0,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:30001}]} 1

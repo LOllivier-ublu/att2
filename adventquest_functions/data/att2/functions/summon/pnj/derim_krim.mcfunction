@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[0.0f,0.0f],UUIDMost:1370L,UUIDLeast:1370L,Tags:["PNJ","QUEST"],NoAI:1,Invulnerable:1,CustomName:"\"DERIM KRIL\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:9053440}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:9053440}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:9053440}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"91f612be-2fd7-4581-a9f8-fea5274b75a7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QxNzhhNmQxNmVkZTA3Njk3NDU1M2RjNDczMzg0ZDlhZTIyN2VmZjk3OTExY2ExYmQ2YzM5NDA1NDJhYzQifX19"}]}}}}]}

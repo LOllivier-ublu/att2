@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Progress"},
+        "description": {"translate":"First Step"},
+        "background": "minecraft:textures/block/lime_concrete.png",
+        "show_toast": false
+    },
+    "criteria": {
+        "inventory": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    }
+}

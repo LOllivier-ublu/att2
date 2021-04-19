@@ -1,0 +1,60 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"Leather armor break"},
+        "description": {"translate":"Destroy any leather armor in battle"}
+    },
+    "parent": "att2:combat/break_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "break_leather_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:leather_helmet",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_leather_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:leather_chestplate",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_leather_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:leather_leggings",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_leather_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:leather_boots",
+                    "durability": {"max": 5}
+                    }
+                }
+            }
+        },
+    "requirements": [
+        [
+        "break_leather_helmet",
+        "break_leather_chestplate",
+        "break_leather_leggings",
+        "break_leather_boots"
+        ]
+    ]
+}

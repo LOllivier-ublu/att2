@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[45.0f,30.0f],UUIDMost:1402L,UUIDLeast:1402L,Tags:["PNJ","QUEST"],NoAI:1,Invulnerable:1,CustomName:"\"DARIL GRAM\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:9589788}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:5511704}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:9589788}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"e4b5f5a0-a3b6-47b3-9c9c-d99af32c99e3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY5ZDQ5YTkxNjdkYjlmMDNiMTBjYTZkZjdiNGZiM2FiMjYwZDY1M2FkM2Q5ZTI5NzA2YmQ2MWQ4ZGY2MWI0In19fQ=="}]}}}}]}

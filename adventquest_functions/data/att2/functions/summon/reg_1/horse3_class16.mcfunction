@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon horse Class 16  		     	 		 #
+##################################################
+
+summon minecraft:horse ~ ~ ~ {DeathLootTable:"att2:empty",Tags:["LVL0","CLASS16","PlayerAlly"],PersistenceRequired:1,Type:0,Variant:666,Tame:1,Attributes:[{Name:generic.movementSpeed,Base:0.45},{Name:horse.jumpStrength,Base:0.5}],SaddleItem:{id:"minecraft:saddle",Count:1},ArmorItem:{id:"minecraft:diamond_horse_armor",Count:1},HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F]}

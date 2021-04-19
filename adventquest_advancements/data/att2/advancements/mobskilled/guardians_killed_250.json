@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pufferfish"
+        },
+        "title": {"translate":"Guardian Genocide"},
+        "description": {"translate":"Kill 250 Guardians"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/guardians_killed_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "guardians_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

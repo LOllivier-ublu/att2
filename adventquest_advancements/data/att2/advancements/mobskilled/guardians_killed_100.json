@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pufferfish"
+        },
+        "title": {"translate":"Guardian Slayer"},
+        "description": {"translate":"Kill 100 Guardians"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/guardians_killed_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "guardians_killed_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

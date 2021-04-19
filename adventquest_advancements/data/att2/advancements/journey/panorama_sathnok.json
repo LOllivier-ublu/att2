@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Sathnok Panorama"},
+        "description": {"translate":"Discover the panorama of Sathnok manor"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_sathnok",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "panorama_sathnok": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

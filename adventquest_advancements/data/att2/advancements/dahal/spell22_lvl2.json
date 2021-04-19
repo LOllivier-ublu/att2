@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Obstinacy Pet Veteran"},
+        "description": {"translate":"Reach level 2 with Obstinacy Pet spell"},
+        "frame": "goal"
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "spell22_lvl2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Exiles Camp Panorama"},
+        "description": {"translate":"Discover the panorama of Exiles Camp"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_exiles",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "panorama_exile": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

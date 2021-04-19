@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"It's a trap!"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_24",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 2500
+    },
+    "criteria": {
+        "mainquest_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

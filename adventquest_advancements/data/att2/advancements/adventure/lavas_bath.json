@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "title": {"translate":"It's Hot"},
+        "description": {"translate":"Swim in the lava"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/like_a_fish",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "enter_lava": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:lava"
+            }
+        }
+    }
+}

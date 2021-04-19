@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Fight"},
+        "description": {"translate":"Your first weapon"},
+        "background": "minecraft:textures/block/bone_block_top.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "damage_dealt": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

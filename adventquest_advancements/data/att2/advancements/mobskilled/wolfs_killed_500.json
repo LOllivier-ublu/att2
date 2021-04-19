@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "title": {"translate":"Wolfs Genocide"},
+        "description": {"translate":"Kill 500 Wolfs"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/wolfs_killed_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "wolfs_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

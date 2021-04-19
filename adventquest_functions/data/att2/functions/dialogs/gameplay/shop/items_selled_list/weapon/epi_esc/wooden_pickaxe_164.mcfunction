@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the weapon list items shop 			#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Antisocial>","bold":false,"color":"light_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:wooden_pickaxe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§dAntisocial\\\"}\",Lore:[\"§7Ecraser les gens en devient un passe temps.\",\"§7Crushing people becomes a hobby.\",\"§7STR§a1 §7HAS§a1 §7HUN§a1 §7SPD§c-1\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:7s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:39.39,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10002},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.81,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20002},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:30002}]},Damage:0}"},"extra":[{"text":" [11 ESC]","color":"light_purple","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/epi_esc/wooden_pickaxe_164"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Antisocial>","bold":false,"color":"light_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:wooden_pickaxe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§dAntisocial\\\"}\",Lore:[\"§7Ecraser les gens en devient un passe temps.\",\"§7Crushing people becomes a hobby.\",\"§7STR§a1 §7HAS§a1 §7HUN§a1 §7SPD§c-1\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:7s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:39.39,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10002},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.81,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20002},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:30002}]},Damage:0}"},"extra":[{"text":" [11 ESC]","color":"light_purple","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/epi_esc/wooden_pickaxe_164"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

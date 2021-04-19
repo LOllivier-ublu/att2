@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Killer"},
+        "description": {"translate":"Kill 25 Monsters"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 500
+    },
+    "criteria": {
+        "mobs_killed_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

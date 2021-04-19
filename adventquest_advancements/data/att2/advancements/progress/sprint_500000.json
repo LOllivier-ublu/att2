@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": {"translate":"Gotta go fast!"},
+        "description": {"translate":"Sprint 5km"}
+    },
+    "parent": "att2:progress/sprint_100000",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+    },
+    "criteria": {
+        "sprint_500000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

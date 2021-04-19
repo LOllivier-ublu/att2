@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Quests"},
+        "description": {"translate":"Getting A Little On The Side"},
+        "background": "minecraft:textures/block/brain_coral_block.png",
+        "show_toast": false
+    },
+    "criteria": {
+        "quest": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

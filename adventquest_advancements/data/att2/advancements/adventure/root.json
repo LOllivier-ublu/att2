@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": {"translate":"The Adventure Begin"},
+        "description": {"translate":"Home Is Behind, The World Ahead"},
+        "background": "minecraft:textures/block/custom/futuristic_slab.png",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "adventure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "item": "minecraft:torch",
+                    "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Bird Migration"},
+        "description": {"translate":"Fly 500km"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/fly_10000000",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+    },
+    "criteria": {
+        "fly_50000000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

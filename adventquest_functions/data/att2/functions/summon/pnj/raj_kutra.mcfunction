@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[90.0f,0.0f],UUIDMost:1066L,UUIDLeast:1066L,Tags:["PNJ"],NoAI:1,Invulnerable:1,CustomName:"\"RAJ KUTRA\"",CustomNameVisible:1,DeathLootTable:"att2:empty",Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:8868948}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:8868948}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:8868948}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"8fb54fc8-646a-41bd-94f1-ee19f7d8a6f4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI0YjI5MzJiMzRkMmVmMWM1MGYwNzMyOGExZDk3MTZhYjdmNzYyNzU5OTI0NGY5ZTdjZDA5YjdlNDU5ZmZiZiJ9fX0="}]}}}}]}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": {"translate":"The beginning of celebrity"},
+        "description": {"translate":"Reach 100 in reputation"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/reputation_more_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "reputation_more_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

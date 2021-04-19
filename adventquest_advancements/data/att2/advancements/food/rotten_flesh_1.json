@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "title": {"translate":"Hungry"},
+        "description": {"translate":"Eat a rotten flesh"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "rotten_flesh_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

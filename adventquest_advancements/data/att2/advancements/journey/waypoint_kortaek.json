@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"Waypoint Kortaek"},
+        "description": {"translate":"Discover the waypoint of Kortaek"}
+    },
+    "parent": "att2:journey/discover_kortaek",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "waypoint_kortaek": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

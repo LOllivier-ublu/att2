@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Adanoï's catacombs"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/sq25",
+    "rewards": {
+        "function": "att2:advancement/exploit_10"
+    },
+    "criteria": {
+        "sq26": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

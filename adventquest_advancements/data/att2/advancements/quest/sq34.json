@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"From ridge to the bridge"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5"
+    },
+    "criteria": {
+        "sq34": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

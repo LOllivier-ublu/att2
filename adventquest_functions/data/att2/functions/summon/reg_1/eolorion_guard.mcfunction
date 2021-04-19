@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon eolorion guard  		     	 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[0.0f,0.0f],NoAI:1,Invulnerable:1,CustomName:"\"Guard\"",Silent:1,PersistenceRequired:1,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:iron_sword",Count:1},{id:"minecraft:shield",Count:1,tag:{BlockEntityTag:{Base:1,Patterns:[{Pattern:"drs",Color:11},{Pattern:"cr",Color:0},{Pattern:"bri",Color:3},{Pattern:"ss",Color:0},{Pattern:"gru",Color:0},{Pattern:"gra",Color:0},{Pattern:"mr",Color:15},{Pattern:"mr",Color:3},{Pattern:"flo",Color:15},{Pattern:"flo",Color:11},{Pattern:"flo",Color:0},{Pattern:"sc",Color:11},{Pattern:"sc",Color:0}]}}}],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:4402984}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:4402984}}},{id:"minecraft:iron_chestplate",Count:1},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"90fa2c83-c1ee-4ede-89af-c08d8de93d95",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM2MmVkMTg3YmVlYTYwMWQ1MmZjYjcyZmRmYTlkYWRhMWFmMWQ3ZWQzMGU5OTBiZTEyNGVmMWE4YThjYTI0In19fQ=="}]}}}}]}

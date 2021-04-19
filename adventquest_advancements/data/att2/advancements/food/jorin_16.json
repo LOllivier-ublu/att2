@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beetroot"
+        },
+        "title": {"translate":"Jorïn desire"},
+        "description": {"translate":"Eat 16 jorïns"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/jorin_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+            "jorin_16": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

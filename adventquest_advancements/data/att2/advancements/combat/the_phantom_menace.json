@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "title": {"translate":"The Phantom Menace"},
+        "description": {"translate":"Get attacked by phantoms"}
+    },
+    "parent": "att2:combat/damage_taken",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "phantom": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+						"type": "minecraft:phantom"
+					}
+                }
+            }
+        }
+    }
+}

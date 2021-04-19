@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_axe"
+        },
+        "title": {"translate":"Full rare set"},
+        "description": {"translate":"Get yourself equipped a full rare armor and weapon set"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/rar",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2500
+                },
+    "criteria": {
+        "rar_full_set": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

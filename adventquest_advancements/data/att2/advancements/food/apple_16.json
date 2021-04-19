@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:apple"
+        },
+        "title": {"translate":"Apple desire"},
+        "description": {"translate":"Eat 16 apples"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/apple_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+            "apple_16": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

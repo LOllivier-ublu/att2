@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": {"translate":"Lava Slimes Slayer"},
+        "description": {"translate":"Kill 250 Lava Slimes"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/lavaslimes_killed_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "lavaslimes_killed_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Elvetta Forest"},
+        "description": {"translate":"Discover Elvetta Forest"}
+    },
+    "parent": "att2:journey/discover_plain",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_elvetta": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "biome": "birch_forest",
+                "position": {
+                    "x": {"min":-4200.0,"max":-4025.0},
+                    "y": {"min":60.0,"max":130.0},
+                    "z": {"min":-5760.0,"max":-5445.0}
+                }
+            }
+        }
+    }
+}

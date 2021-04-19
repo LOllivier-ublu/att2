@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "title": {"translate":"Phantoms Killer"},
+        "description": {"translate":"Kill 5 Phantoms"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "phantoms_killed_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "title": {"translate":"Diamond axe hit"},
+        "description": {"translate":"Strike 250 times with a diamond axe"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/diamond_axe_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "diamond_axe_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

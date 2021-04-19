@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Sylberländ Plain Panorama"},
+        "description": {"translate":"Discover the panorama of Sylberländ plain"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_plain",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "panorama_plain": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"The ultimate challenge"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:quest/root",
+    "criteria": {
+        "sq57": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

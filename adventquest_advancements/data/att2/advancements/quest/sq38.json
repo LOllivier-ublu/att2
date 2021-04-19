@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"A dark artefact"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:quest/sq37",
+    "rewards": {
+        "function": "att2:advancement/exploit_50"
+    },
+    "criteria": {
+        "sq38": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

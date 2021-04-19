@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"The immemorial duty"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:quest/sq48",
+    "rewards": {
+        "function": "att2:advancement/exploit_50"
+    },
+    "criteria": {
+        "sq49": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

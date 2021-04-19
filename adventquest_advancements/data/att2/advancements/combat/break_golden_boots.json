@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_boots"
+        },
+        "title": {"translate":"Golden boots break"},
+        "description": {"translate":"Destroy golden boots in battle"}
+    },
+    "parent": "att2:combat/break_golden_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "break_golden_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_boots",
+                    "durability": {"max": 5}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {"translate":"LEVEL 10"},
+        "description": {"translate":"Reach the level 10"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+                },
+    "criteria": {
+        "gamelevel_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

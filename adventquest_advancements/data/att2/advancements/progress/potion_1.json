@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glass_bottle"
+        },
+        "title": {"translate":"Thirsty"},
+        "description": {"translate":"Drink a potion"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+    },
+    "criteria": {
+        "potion_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

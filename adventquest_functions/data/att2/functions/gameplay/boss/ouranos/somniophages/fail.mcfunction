@@ -1,0 +1,21 @@
+#####################################################################
+#Made by Adventquest												#
+#Process player failure for Somniophages                            #
+#####################################################################
+
+scoreboard players set Somniophages SQ48 -1
+scoreboard players set EnterArena SQ48 100
+execute as 00000000-0000-014c-0000-00000000014c at @s run tp @s ~ 0 ~
+kill 00000000-0000-014c-0000-00000000014c
+execute as 00000000-0000-015c-0000-00000000015c at @s run tp @s ~ 0 ~
+kill 00000000-0000-015c-0000-00000000015c
+execute as 00000000-0000-016b-0000-00000000016b at @s run tp @s ~ 0 ~
+kill 00000000-0000-016c-0000-00000000016c
+execute as 00000000-0000-017c-0000-00000000017c at @s run tp @s ~ 0 ~
+kill 00000000-0000-017c-0000-00000000017c
+execute as 00000000-0000-018c-0000-00000000018c at @s run tp @s ~ 0 ~
+kill 00000000-0000-018c-0000-00000000018c
+execute as @a run function att2:gameplay/boss/ouranos/somniophages/stop
+function att2:gameplay/boss/ouranos/somniophages/destroy_minions
+execute at @a run function att2:sound/misc/fail_boss
+execute as @a run function att2:dialogs/sidequest/sq48/system_1

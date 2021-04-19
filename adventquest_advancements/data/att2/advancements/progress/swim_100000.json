@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": {"translate":"Trout Level"},
+        "description": {"translate":"Swim 1km"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/swim_50000",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+    },
+    "criteria": {
+        "swim_100000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

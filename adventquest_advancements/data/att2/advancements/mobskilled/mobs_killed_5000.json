@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Slaughterer"},
+        "description": {"translate":"Kill 5000 Monsters"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/mobs_killed_2500",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+    },
+    "criteria": {
+        "mobs_killed_5000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

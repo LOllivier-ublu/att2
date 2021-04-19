@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "title": {"translate":"Lost soul"},
+        "description": {"translate":"Catch your first Lost Soul"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_2",
+            "experience": 250
+    },
+    "criteria": {
+        "fairy_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

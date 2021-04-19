@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion"
+        },
+        "title": {"translate":"Potions lapidation "},
+        "description": {"translate":"Thrown 250 splash potions"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/splash_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 10000
+    },
+    "criteria": {
+        "splash_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": {"translate":"Miam!"},
+        "description": {"translate":"Eat a piece of cake"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "cake_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Asunark Island"},
+        "description": {"translate":"Discover Asunark Island"}
+    },
+    "parent": "att2:journey/discover_meleim",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_asunark": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-3700.0,"max":-3680.0},
+                    "y": {"min":65.0,"max":100.0},
+                    "z": {"min":-5020.0,"max":-4975.0}
+                }
+            }
+        }
+    }
+}

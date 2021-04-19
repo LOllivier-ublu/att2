@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bread"
+        },
+        "title": {"translate":"Panem"},
+        "description": {"translate":"Eat bread"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "bread_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

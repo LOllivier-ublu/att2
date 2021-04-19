@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {"translate":"LEVEL 50"},
+        "description": {"translate":"Reach the level 50"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/gamelevel_40",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 2500
+                },
+    "criteria": {
+        "gamelevel_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

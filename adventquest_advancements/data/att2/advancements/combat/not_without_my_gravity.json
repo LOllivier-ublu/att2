@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Not Without My Gravity"},
+        "description": {"translate":"Block a Shulker's bullet with your shield"}
+    },
+    "parent": "att2:combat/deflect_arrow",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 150
+                },
+    "criteria": {
+        "deflected_bullet": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"source_entity": {
+						"type": "shulker"
+					}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "title": {"translate":"Zombies Genocide"},
+        "description": {"translate":"Kill 500 Zombies"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/zombies_killed_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "zombies_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

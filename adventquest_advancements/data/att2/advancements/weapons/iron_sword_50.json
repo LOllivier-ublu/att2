@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Iron sword smash"},
+        "description": {"translate":"Strike 50 times with an iron sword"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/iron_sword_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "iron_sword_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

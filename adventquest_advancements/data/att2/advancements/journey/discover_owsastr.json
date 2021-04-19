@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Owsästr"},
+        "description": {"translate":"Discover Owsästr swamp"}
+    },
+    "parent": "att2:journey/discover_tears_forest",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_owsastr": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4750.0,"max":-4451.0},
+                    "y": {"min":65.0,"max":100.0},
+                    "z": {"min":-4721.0,"max":-4420.0}
+                }
+            }
+        }
+    }
+}

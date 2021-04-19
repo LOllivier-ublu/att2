@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"First Hit"},
+        "description": {"translate":"Deal melee damage"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 5
+                },
+    "criteria": {
+        "damage_dealt": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

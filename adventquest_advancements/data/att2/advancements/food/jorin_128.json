@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beetroot"
+        },
+        "title": {"translate":"Jorïn addict"},
+        "description": {"translate":"Eat 128 jorïns"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/jorin_64",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+            "jorin_128": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

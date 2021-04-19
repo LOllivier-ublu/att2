@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion"
+        },
+        "title": {"translate":"Good riddance to bad rubbish"},
+        "description": {"translate":"Thrown 5 lingering potions"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/lingering_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "lingering_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

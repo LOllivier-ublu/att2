@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"More Treasure"},
+        "description": {"translate":"Open 100 Chest"}
+    },
+    "parent": "att2:treasure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+                },
+    "criteria": {
+        "chest_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

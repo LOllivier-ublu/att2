@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Let there be light"},
+        "description": {"translate":"A painful awakening"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_4",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 750
+    },
+    "criteria": {
+        "mainquest_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

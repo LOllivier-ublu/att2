@@ -1,0 +1,100 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "title": {
+            "translate": "advancements.husbandry.breed_all_animals.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.breed_all_animals.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "husbandry/breed_an_animal",
+    "rewards": {
+        "experience": 100
+    },
+    "criteria": {
+        "bred_horse": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "horse"
+                }
+            }
+        },
+        "bred_sheep": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "sheep"
+                }
+            }
+        },
+        "bred_cow": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "cow"
+                }
+            }
+        },
+        "bred_mooshroom": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "mooshroom"
+                }
+            }
+        },
+        "bred_pig": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "pig"
+                }
+            }
+        },
+        "bred_chicken": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "chicken"
+                }
+            }
+        },
+        "bred_wolf": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "wolf"
+                }
+            }
+        },
+        "bred_ocelot": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "ocelot"
+                }
+            }
+        },
+        "bred_rabbit": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "rabbit"
+                }
+            }
+        },
+        "bred_llama": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "parent": {
+                    "type": "llama"
+                }
+            }
+        }
+    }
+}

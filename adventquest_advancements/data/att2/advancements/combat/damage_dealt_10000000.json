@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Bulldozer"},
+        "description": {"translate":"Deal 10M melee damages"},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/damage_dealt_1000000",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 10000
+                },
+    "criteria": {
+        "damage_dealt_100000000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

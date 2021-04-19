@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "title": {"translate":"Billgart mace smash"},
+        "description": {"translate":"Strike 50 times with a Billgart mace"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/stone_mace_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "stone_mace_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

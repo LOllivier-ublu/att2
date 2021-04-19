@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:purple_carpet"
+        },
+        "title": {"translate":"Sharp Attack"},
+        "description": {"translate":"Hurt by spikes trap"}
+    },
+    "parent": "att2:adventure/spider_man",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "enter_spikes": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:purple_carpet"
+            }
+        }
+    }
+}

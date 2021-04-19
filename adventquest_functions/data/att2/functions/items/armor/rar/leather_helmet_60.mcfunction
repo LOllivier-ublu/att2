@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:leather_helmet{EquipmentType:"armor",Rarity:"rar",Manufacturer:"teran",display:{Name:"\"§9Coiffure des Otauriens\"",Lore:["§7Des profondeurs abyssales jusqu'au ruisseau des monts","§7 inaccessibles, octroie le pouvoir des héritiers d'Otaur.","§7From the abyssal depths to the stream of inaccessible","§7mounts, grants the power of Otaur's heirs.","§7HAS§c-1"],color:749566},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:7s},{id:"minecraft:respiration",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.28,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:10001},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:0.59,Operation:1,Slot:head,UUIDLeast:20000,UUIDMost:20001},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:30001}]} 1

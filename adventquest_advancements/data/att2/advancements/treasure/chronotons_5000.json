@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": {"translate":"Wealthy"},
+        "description": {"translate":"Raise 5000 Chronotons"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/chronotons_2500",
+        "rewards": {
+            "function": "att2:advancement/exploit_10",
+            "experience": 5000
+    },
+    "criteria": {
+        "chronotons_5000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_chestplate"
+        },
+        "title": {"translate":"Full chainmail!"},
+        "description": {"translate":"Protect yourself with a full set of chainmail armor"}
+    },
+    "parent": "att2:adventure/chainmail_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "chainmail_armor_full": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

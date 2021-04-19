@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": {"translate":"Mythical"},
+        "description": {"translate":"Find a mythical item"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/leg",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 10000
+                },
+    "criteria": {
+        "myt": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

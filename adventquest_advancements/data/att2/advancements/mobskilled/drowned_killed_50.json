@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "title": {"translate":"Drowned Eliminator"},
+        "description": {"translate":"Kill 50 Drowned zombies"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/drowned_killed_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "drowned_killed_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

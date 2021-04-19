@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Dexterity!"},
+        "description": {"translate":"Accumulate haste"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "dexterity": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:haste": {
+                        "amplifier": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Weapons"},
+        "description": {"translate":"Your first weapon"},
+        "background": "minecraft:textures/block/brown_terracotta.png",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "wooden_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "item": "minecraft:wooden_sword"
+                    }
+                ]
+            }
+        }
+    }
+}

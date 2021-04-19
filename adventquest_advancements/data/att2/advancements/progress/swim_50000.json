@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": {"translate":"Anchovie Level"},
+        "description": {"translate":"Swim 500m"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/swim_1000",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+    },
+    "criteria": {
+        "swim_50000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

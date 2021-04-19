@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_axe"
+        },
+        "title": {"translate":"Ouranos axe strike"},
+        "description": {"translate":"Strike once with an Ouranos axe"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "stone_axe_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

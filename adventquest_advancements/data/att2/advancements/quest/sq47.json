@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Rukyrion"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:quest/sq46",
+    "rewards": {
+        "function": "att2:advancement/exploit_50"
+    },
+    "criteria": {
+        "sq47": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

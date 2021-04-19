@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Lost Island Panorama"},
+        "description": {"translate":"Discover the panorama of Lost Island"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_island",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1500
+                },
+    "criteria": {
+        "panorama_island": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

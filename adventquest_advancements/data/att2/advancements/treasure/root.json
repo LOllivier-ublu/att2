@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Treasure!"},
+        "description": {"translate":"Open a chest"},
+        "background": "minecraft:textures/block/gold_block.png",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "treasure": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

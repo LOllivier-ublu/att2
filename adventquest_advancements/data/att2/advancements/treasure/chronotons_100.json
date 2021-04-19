@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "title": {"translate":"The Beginning of Fortune"},
+        "description": {"translate":"Raise 100 Chronotons"}
+    },
+    "parent": "att2:treasure/money",
+        "rewards": {
+            "function": "att2:advancement/exploit_1",
+            "experience": 100
+    },
+    "criteria": {
+        "chronotons_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

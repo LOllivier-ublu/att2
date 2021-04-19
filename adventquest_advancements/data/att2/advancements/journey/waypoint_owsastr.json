@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"Waypoint Owsastr"},
+        "description": {"translate":"Discover the waypoint of Owsastr"}
+    },
+    "parent": "att2:journey/discover_owsastr",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "waypoint_owsastr": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

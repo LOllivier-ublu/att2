@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Short of ammunition"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5"
+    },
+    "criteria": {
+        "sq16": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

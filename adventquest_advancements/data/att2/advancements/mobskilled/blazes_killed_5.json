@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": {"translate":"Blazes Killer"},
+        "description": {"translate":"Kill 5 Blazes"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "blazes_killed_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": {"translate":"Blazes Slayer"},
+        "description": {"translate":"Kill 100 Blazes"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/blazes_killed_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "blazes_killed_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

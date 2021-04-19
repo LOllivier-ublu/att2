@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {"translate":"Novice"},
+        "description": {"translate":"Launch a spell"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 25
+                },
+    "criteria": {
+        "spell_launch_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

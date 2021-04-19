@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_porkchop"
+        },
+        "title": {"translate":"Porkchop desire"},
+        "description": {"translate":"Eat 4 cooked porkchop"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/porkchop_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+            "porkchop_4": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

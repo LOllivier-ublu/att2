@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Wooden dagger smash"},
+        "description": {"translate":"Strike 50 times with a wooden dagger"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/wooden_dagger_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "wooden_dagger_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

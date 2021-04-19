@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_shovel"
+        },
+        "title": {"translate":"Butcher"},
+        "description": {"translate":"Kill 100 Monsters"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/mobs_killed_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 1000
+    },
+    "criteria": {
+        "mobs_killed_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"FIRST SIDE QUEST"},
+        "description": {"translate":"Complete your first side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 250
+    },
+    "criteria": {
+        "sidequest_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

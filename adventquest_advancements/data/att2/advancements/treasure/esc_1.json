@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:quartz"
+        },
+        "title": {"translate":"Ecaille Souveraine du Chaos"},
+        "description": {"translate":"Find your first Ecaille Souveraine du Chaos"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_5",
+            "experience": 1000
+    },
+    "criteria": {
+        "esc_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

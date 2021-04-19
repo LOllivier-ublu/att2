@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_shovel"
+        },
+        "title": {"translate":"Ouranos dagger strike"},
+        "description": {"translate":"Strike once with an Ouranos dagger"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "stone_dagger_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

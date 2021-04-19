@@ -1,0 +1,10 @@
+#################################################################################
+#Made by Adventquest															#
+#Use function to activate the green answer if player has enough Chronotons 		#
+#################################################################################
+
+scoreboard players remove @s[scores={CHRONOTON=30..}] CHRONOTON 30
+effect give @s minecraft:instant_health 1 100 true
+effect give @s minecraft:nausea 5 1 true
+effect give @s minecraft:blindness 3 1 true
+teleport @s -5303 107 -6214

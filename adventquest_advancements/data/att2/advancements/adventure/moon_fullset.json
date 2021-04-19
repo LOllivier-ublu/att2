@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"The moon full set"},
+        "description": {"translate":"Complete the moon legendary set"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/leg",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "moon_fullset": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

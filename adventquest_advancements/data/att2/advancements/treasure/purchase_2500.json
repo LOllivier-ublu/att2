@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "title": {"translate":"Broker"},
+        "description": {"translate":"Buy 2500 items from a merchant"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/purchase_500",
+        "rewards": {
+            "function": "att2:advancement/exploit_20",
+            "experience": 10000
+    },
+    "criteria": {
+        "purchase_2500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

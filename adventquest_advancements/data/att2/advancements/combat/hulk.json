@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Hulk!"},
+        "description": {"translate":"Leave me alone"}
+    },
+    "parent": "att2:combat/he_man",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "hulk": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:strength": {
+                        "amplifier": {
+                            "min": 10,
+                            "max": 13
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

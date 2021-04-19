@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Tomb raider"},
+        "description": {"translate":"A painful awakening"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_2",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "mainquest_3": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

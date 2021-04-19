@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion"
+        },
+        "title": {"translate":"Spreading"},
+        "description": {"translate":"Thrown 75 lingering potions"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/lingering_20",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "lingering_75": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

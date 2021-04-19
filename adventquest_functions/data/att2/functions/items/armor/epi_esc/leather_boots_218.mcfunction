@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:leather_boots{EquipmentType:"armor",Rarity:"epi_esc",Manufacturer:"teran",display:{Name:"\"§dRite de passage\"",Lore:["§7La grande ascension","§7pour atteindre un état supérieur.","§7The great ascent","§7to reach a higher state.","§7RES§a1 §7HAS§a2 §7SPD§a2 §7STR§c-1"],color:6038380},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:35s},{id:"minecraft:protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.44,Operation:0,Slot:feet,UUIDLeast:20000,UUIDMost:10004},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:1.15,Operation:1,Slot:feet,UUIDLeast:20000,UUIDMost:20004},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:1.0,Operation:0,Slot:feet,UUIDLeast:20000,UUIDMost:30004}]} 1

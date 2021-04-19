@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "title": {"translate":"Dreamcatcher"},
+        "description": {"translate":"Catch 50 Lost Souls"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/fairy_20",
+        "rewards": {
+            "function": "att2:advancement/exploit_20",
+            "experience": 10000
+    },
+    "criteria": {
+        "fairy_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

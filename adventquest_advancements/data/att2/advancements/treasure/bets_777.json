@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "title": {"translate":"JACKPOT"},
+        "description": {"translate":"Deal 777 bets"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/bets_100",
+        "rewards": {
+            "function": "att2:advancement/exploit_50",
+            "experience": 10000
+    },
+    "criteria": {
+        "bets_777": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

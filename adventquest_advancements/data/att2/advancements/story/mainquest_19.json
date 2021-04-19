@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Serious matters start there!"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_18",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 5000
+    },
+    "criteria": {
+        "mainquest_19": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

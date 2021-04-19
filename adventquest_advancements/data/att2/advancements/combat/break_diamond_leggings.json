@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_leggings"
+        },
+        "title": {"translate":"Diamond leggings break"},
+        "description": {"translate":"Destroy diamond leggings in battle"}
+    },
+    "parent": "att2:combat/break_diamond_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "break_diamond_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_leggings",
+                    "durability": {"max": 5}
+                }
+            }
+        }
+    }
+}

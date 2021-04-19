@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "title": {"translate":"Diamond dagger smash"},
+        "description": {"translate":"Strike 50 times with a diamond dagger"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/diamond_dagger_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "diamond_dagger_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

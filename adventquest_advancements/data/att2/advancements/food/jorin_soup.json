@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beetroot_soup"
+        },
+        "title": {"translate":"Jorïn Soup"},
+        "description": {"translate":"Slurp a Jorïn soup"}
+    },
+    "parent": "att2:food/jorin_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "jorin_soup": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item":
+                    {
+                    "item": "minecraft:beetroot_soup"
+                }
+            }
+        }
+    }
+}

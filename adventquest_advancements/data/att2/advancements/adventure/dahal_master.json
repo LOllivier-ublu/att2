@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "title": {"translate":"Dahäl Master"},
+        "description": {"translate":"Complete the legendary set of Dahäl"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/dahal_apprentice",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "dahal_master": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

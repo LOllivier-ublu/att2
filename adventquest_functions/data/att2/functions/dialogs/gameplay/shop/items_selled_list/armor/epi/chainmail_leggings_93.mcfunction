@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the armor list items shop 				#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Sinistre cliquetis>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:chainmail_leggings\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5Sinistre cliquetis\\\"}\",Lore:[\"§7Interminable frisson, ode à la\",\"§7crainte et à l'insécurité...\",\"§7An endless thrill, an ode\",\"§7to fear and insecurity....\",\"§7HER§a1 §7SPD§a1 §7HUN§a1\"]},Enchantments:[{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.51,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:10003},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:2.07,Operation:1,Slot:legs,UUIDLeast:20000,UUIDMost:20003},{AttributeName:generic.maxHealth,Name:generic.maxHealth,Amount:2.0,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:30003}]},Damage:30}"},"extra":[{"text":" [853 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/armor/epi/chainmail_leggings_93"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Sinistre cliquetis>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:chainmail_leggings\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5Sinistre cliquetis\\\"}\",Lore:[\"§7Interminable frisson, ode à la\",\"§7crainte et à l'insécurité...\",\"§7An endless thrill, an ode\",\"§7to fear and insecurity....\",\"§7HER§a1 §7SPD§a1 §7HUN§a1\"]},Enchantments:[{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.51,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:10003},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:2.07,Operation:1,Slot:legs,UUIDLeast:20000,UUIDMost:20003},{AttributeName:generic.maxHealth,Name:generic.maxHealth,Amount:2.0,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:30003}]},Damage:30}"},"extra":[{"text":" [853 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/armor/epi/chainmail_leggings_93"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

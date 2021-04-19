@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Keep Safe"},
+        "description": {"translate":"Sneak 100m"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+    },
+    "criteria": {
+        "sneak_10000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

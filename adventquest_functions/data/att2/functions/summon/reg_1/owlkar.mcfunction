@@ -1,0 +1,10 @@
+##################################################
+#Made by Adventquest                             #
+#Summon Owlkärr  		     					 #
+##################################################
+
+execute if score level DIFFICULTY matches -1 run summon minecraft:endermite ~ ~ ~ {Tags:["LVL0","CLASS8","Reg1"],UUIDMost:43L,UUIDLeast:43L,Invulnerable:1,Rotation:[-90.0f,0.0f],PersistenceRequired:1,NoAI:1,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_helmet",Count:1b}]}
+
+execute if score level DIFFICULTY matches 0 run summon minecraft:endermite ~ ~ ~ {Tags:["LVL0","CLASS8","Reg1"],UUIDMost:43L,UUIDLeast:43L,Invulnerable:1,Rotation:[-90.0f,0.0f],PersistenceRequired:1,NoAI:1,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:1}]}},{id:"minecraft:diamond_leggings",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:1}]}},{id:"minecraft:diamond_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:1}]}},{id:"minecraft:diamond_helmet",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:1}]}}]}
+
+execute if score level DIFFICULTY matches 1 run summon minecraft:endermite ~ ~ ~ {Tags:["LVL0","CLASS8","Reg1"],UUIDMost:43L,UUIDLeast:43L,Invulnerable:1,Rotation:[-90.0f,0.0f],PersistenceRequired:1,NoAI:1,HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:3}]}},{id:"minecraft:diamond_leggings",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:3}]}},{id:"minecraft:diamond_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:3}]}},{id:"minecraft:diamond_helmet",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:3}]}}]}

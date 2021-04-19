@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Adanoï Panorama"},
+        "description": {"translate":"Discover the panorama of Adanoï graveyard"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_adanoi",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "panorama_adanoi": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

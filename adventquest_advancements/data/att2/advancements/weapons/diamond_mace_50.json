@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": {"translate":"Diamond mace smash"},
+        "description": {"translate":"Strike 50 times with a diamond mace"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/diamond_mace_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "diamond_mace_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

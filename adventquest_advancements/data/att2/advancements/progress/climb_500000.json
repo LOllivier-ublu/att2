@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ladder"
+        },
+        "title": {"translate":"Reach The Stars"},
+        "description": {"translate":"Climb 5km"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/climb_100000",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+    },
+    "criteria": {
+        "climb_500000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

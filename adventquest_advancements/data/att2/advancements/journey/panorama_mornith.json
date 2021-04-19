@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Mornith Mine Panorama"},
+        "description": {"translate":"Discover the panorama of Mornith mining exploitation"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_mornith",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "panorama_mornith": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"Skeletons Eliminator"},
+        "description": {"translate":"Kill 50 Skeletons"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/skeletons_killed_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "skeletons_killed_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Beach Panorama"},
+        "description": {"translate":"Discover the panorama of Stray Beach"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_beach",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "panorama_beach": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

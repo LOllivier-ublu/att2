@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"An old acquaintance"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_33",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 6000
+    },
+    "criteria": {
+        "mainquest_34": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jungle_boat"
+        },
+        "title": {"translate":"Billgart Dungeon"},
+        "description": {"translate":"Discover Billgart Dungeon"}
+    },
+    "parent": "att2:journey/discover_bilgart",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_bilgart_dungeon": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_end",
+                "position": {
+                    "x": {"min":-1114.0,"max":-1080.0},
+                    "y": {"min":10.0,"max":30.0},
+                    "z": {"min":-631.0,"max":-592.0}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"You don't take revenge on a demigod so easily!"},
+        "description": {"translate":"The emergence of hatred"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_9",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2000
+    },
+    "criteria": {
+        "mainquest_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

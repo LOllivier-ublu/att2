@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"Diamond chestplate break"},
+        "description": {"translate":"Destroy diamond chestplate in battle"}
+    },
+    "parent": "att2:combat/break_diamond_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "break_diamond_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_chestplate",
+                    "durability": {"max": 5}
+                }
+            }
+        }
+    }
+}

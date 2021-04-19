@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_beef"
+        },
+        "title": {"translate":"Beef desire"},
+        "description": {"translate":"Eat 4 beef steak"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/beef_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+            "beef_4": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

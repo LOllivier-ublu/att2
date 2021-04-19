@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"Bad omens full set"},
+        "description": {"translate":"Complete the bad omens epic set"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/epi",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 10000
+                },
+    "criteria": {
+        "badomens_fullset": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

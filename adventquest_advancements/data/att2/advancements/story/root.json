@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "title": {"translate":"Story"},
+        "description": {"translate":"Across The Time"},
+        "background": "minecraft:textures/block/chiseled_quartz_block.png",
+        "show_toast": false
+    },
+    "criteria": {
+        "story": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

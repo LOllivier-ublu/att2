@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"The lava seal!"},
+        "description": {"translate":"Time for regrets"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_12",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "mainquest_13": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

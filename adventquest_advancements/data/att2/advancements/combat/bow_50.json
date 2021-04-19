@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Artillery"},
+        "description": {"translate":"Shoot 50 arrows with your bow"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/bow_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "bow_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

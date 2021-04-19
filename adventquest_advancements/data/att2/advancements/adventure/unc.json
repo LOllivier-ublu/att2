@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
+        "title": {"translate":"Uncommon"},
+        "description": {"translate":"Find an uncommon item"}
+    },
+    "parent": "att2:adventure/com",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+                },
+    "criteria": {
+        "unc": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

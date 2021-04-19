@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"J'zargo's legendary quest - Part 4"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/sq53",
+    "rewards": {
+        "function": "att2:advancement/exploit_10"
+    },
+    "criteria": {
+        "sq54": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

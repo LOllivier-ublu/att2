@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Feel The Gulfstream"},
+        "description": {"translate":"Fly 100km"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/fly_2500000",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+    },
+    "criteria": {
+        "fly_10000000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

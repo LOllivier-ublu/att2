@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Not Today"},
+        "description": {"translate":"Deflect an arrow with a shield"}
+    },
+    "parent": "att2:combat/shield",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 75
+                },
+    "criteria": {
+        "deflected_projectile": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true
+                    },
+                    "blocked": true
+                }
+            }
+        }
+    }
+}

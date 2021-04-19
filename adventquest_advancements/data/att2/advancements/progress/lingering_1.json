@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion"
+        },
+        "title": {"translate":"Lingering potion"},
+        "description": {"translate":"Thrown a lingering potion"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "lingering_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_chicken"
+        },
+        "title": {"translate":"Chicken addict"},
+        "description": {"translate":"Eat 32 chicken thigh"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/chicken_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+            "chicken_32": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

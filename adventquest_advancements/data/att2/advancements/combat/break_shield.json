@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Shield break"},
+        "description": {"translate":"Destroy a shield in battle"}
+    },
+    "parent": "att2:combat/shield",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+                },
+    "criteria": {
+        "shield": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:shield",
+                    "durability": {"max": 3,"min": -1}
+                }
+            }
+        }
+    }
+}

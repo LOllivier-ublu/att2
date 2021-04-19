@@ -1,0 +1,224 @@
+#############################################################
+#Made by Adventquest										#
+#Process weapon effect on player                           	#
+#############################################################
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7A peine contondante.","§7Barrely blunt.","§7HAS§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/has_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Lourde","§7Heavy","§7STR§c-1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Très lourde","§7Very heavy","§7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Surestimé, quasiment inutile.","§7Overrated, just useless.","§7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7A table","§7Dinner's ready","§7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Pas peur du danger !","§7Not scary about danger!","§7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Emoussée","§7Blunt","§7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Outil indispensable du guerrier","§7Essential tool of the warrior","§7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Frappe, cogne...","§7Knock, knock...","§7DAR§a1 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar1_luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Briser les os.","§7Break bones.","§7STR§a1 §7SPD§c-3"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_3
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Coupe encore...","§7Still sharp...","§7STR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Puisses-tu être fier de moi, ancêtre.","§7May you be proud of me, ancestor.","§7HAS§a2 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has2_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Prêt pour le combat.","§7Ready for the fight.","§7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Lie force et finesse.","§7Combines strength and finesse.","§7STR§a1 §7SPD§a2 §7HAS§c-2 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd2_has_2_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Au meilleur des bûcherons.","§7To the best of loggers.","§7STR§a2 §7RES§c-1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_res_1_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La force vaut mieux que l'agilité.","§7Strength is better than agility.","§7STR§a1 §7HAS§c-2 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has_2_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7A Mondolin.","§7To Mondolin.","§7STR§a1 §7DAR§a2 §7SPD§c-1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_dar2_spd_1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Tombé à la guerre","§7Fallen for war","§7HAS§a2 §7DAR§a2 §7HER§c-3"]}}}}] run function att2:gameplay/equipment/effect/le/has2_dar2_her_3
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Souriez, jusqu'à la fin...","§7Smile, to the end...","§7STR§a2 §7SPD§a1 §7HAS§c-1 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_has_1_luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Plus tu en sais...","§7plus tu en tues.","§7The more you know...","§7the more you kill.","§7STR§a1 §7HAS§a3 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has3_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Rapide elle vient et rien ne l'arrête.","§7Fast it comes and nothing stops it.","§7HAS§a2 §7SPD§a2 §7STR§c-1 §7DAR§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/has2_spd2_str_1_dar_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Terre rougie par le sang","§7air souillé par le désespoir.","§7Land reddened by blood,","§7air stained by despair.","§7STR§a3 §7HAS§a2 §7SPD§c-1 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str3_has2_spd_1_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Sans failles, il protège et sert","§7la famille qui l'a vu naître.","§7Flawless, it protects and serves","§7the familly that gave birth to it.","§7STR§a1 §7RES§a1 §7LUC§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_res1_luc1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Discret, il conduit inexorablement","§7vers un froid incisif.","§7Discreet, it inexorably leads","§7to an incisive cold.","§7HAS§a4 §7DAR§a2 §7HER§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/has4_dar2_her_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7A sa manière.","§7In its own way.","§7SPD§a2 §7HAS§a3 §7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_has3_res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Insatiable, il amassa cent âmes","§7puis courut à sa perte.","§7Insatiable, he gathered a hundred souls","§7before running to his death.","§7STR§a3 §7HAS§a3"]}}}}] run function att2:gameplay/equipment/effect/le/str3_has3
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Sans douceur ni égard,","§7affronte l'âge avec violence.","§7Without gentleness or consideration,","§7faces age with violence.","§7STR§a4"]}}}}] run function att2:gameplay/equipment/effect/le/str4
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Dont l'image salie fut","§7lavée dans le sang.","§7Whose soiled image","§7was washed with blood.","§7STR§a1 §7SPD§a3 §7HER§a2"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd3_her2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La folie prend enfin un sens,","§7quand elle se laisse guider par la vengeance.","§7Madness finally gains meaning,","§7when it lets itself be guided by revenge.","§7STR§a3 §7SPD§a1 §7LUC§a1 §7HUN§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd1_luc1_hun1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7A Balien, mon frère.","§7For Balien, my brother.","§7SPD§c-2 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd_2_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Pourfendeur de pommes","§7Apple slasher","§7STR§c-1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Lys de bois","§7Wooden lily","§7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Bientôt canne à pêche.","§7Soon to be fishing rod.","§7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Précis mais encombrant","§7Precise but cumbersome","§7STR§a1 §7SPD§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Garde au loin","§7tes ennemis.","§7Keep your enemies","§7in the distance.","§7STR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Silencieux, porté par le vent.","§7Silent, carried by the wind.","§7SPD§a2 §7DAR§c-4"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_dar_4
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Juste et agile","§7Right and agile","§7SPD§a2 §7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Puisses tes flèches voler","§7à la manière du rossignol.","§7May your arrows fly","§7like a nightingale.","§7STR§a1 §7HER§a1 §7RES§c-1 §7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her1_res_1_dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Le sifflement de la dernière flèche","§7The whistle of the last arrow","§7STR§a2 §7SPD§a2 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7De nombreuse fois égaré,","§7mais toujours avec regret.","§7Many times lost,","§7but always with regret.","§7STR§a2 §7LUC§c-1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_luc_1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Envoûtant mais destructeur,","§7il chasse sans distinction d'espèce.","§7Charming but destructive,","§7it hunts without distinction of species.","§7STR§a3 §7SPD§a1 §7DAR§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd1_dar_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Pique, perce et tue, toi","§7à qui on brisa tout espoir.","§7Sting, pierce and kill, to you","§7to whom hope was shattered.","§7STR§a2 §7DAR§a3 §7LUC§c-3"]}}}}] run function att2:gameplay/equipment/effect/le/str2_dar3_luc_3
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Rien n'arrête tes projectiles","§7pas même la tempête.","§7Nothing stops your projectiles,","§7not even the storm.","§7STR§a2 §7SPD§a3 §7LUC§a1 §7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd3_luc1_res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Telles des étoiles filantes, ","§7fusent tes flèches.","§7Like shooting stars,","§7your arrows are blasting.","§7STR§a2 §7SPD§a4 §7LUC§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd4_luc1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Vas avec l'unique archère","§7car elle est l'élue de notre mère.","§7Go with the one archere","§7because she is our mother's chosen one.","§7STR§a3 §7SPD§a1 §7HER§a2 §7DAR§a4"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd1_her2_dar4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Simple et propre.","§7Simple and clean.","§7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Une petite découverte.","§7A little discovery.","§7STR§c-1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Vielle et fissurée.","§7Old and cracked.","§7HAS§c-1 §7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has_1_dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Plante les piquets.","§7Plant the poles.","§7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Propriété de Kevïn.","§7Property of Kevïn.","§7STR§c-1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_hun_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Volontairement égaré...","§7Deliberately lost....","§7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Entraînes-toi avec moi.","§7Practice with me.","§7HAS§c-2 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has_2_luc_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La confiance est un concept idiot.","§7Trust is a silly concept.","§7HAS§a1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Fléau du mendiant.","§7The beggar's plague.","§7STR§a1 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Au prix de ta propre intégrité.","§7At the cost of your own integrity.","§7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ou du moins, jusqu'alors...","§7Or at least until then...","§7DAR§a1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Élégant mais certes faible.","§7Elegant but certainly weak.","§7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Elle tiendra ","§7jusqu'à la fin de la guerre.","§7It will last","§7until the end of the war.","§7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Telles vont les choses,","§7sans retour possible.","§7That is how things are,","§7with no return possible.","§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd1_dar1_luc1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Décapita, décapite et décapitera.","§7Beheaded, beheading and will behead.","§7HAS§a3 §7DAR§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/has3_dar_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Tu es fort, très fort,","§7le plus fort d'entre nous.","§7You are strong, very strong,","§7the strongest of us.","§7STR§a2 §7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Je n'ai pas peur de la cruauté","§7ni de la violence gratuite.","§7I am not afraid of cruelty","§7or gratuitous violence.","§7STR§a2 §7HAS§a1 §7SPD§c-1 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has1_spd_1_luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Un souvenir ne protège pas,","§7une arme le peut.","§7A memory does not protect,","§7a weapon can.","§7HAS§a1 §7DAR§a3 §7HER§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/has1_dar3_her_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Une courte portée garantit","§7un coup précis et fatal.","§7A short range guarantees","§7a precise and fatal blow.","§7STR§a1 §7HAS§a1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Grave et déterminée, telle est","§7la détermination du guerrier sans maître.","§7Serious and determined, such is","§7the masterless warrior's determination.","§7HER§a1 §7DAR§a1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/her1_dar1_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Celle qui vous sort toujours","§7des mauvaises passes.","§7The one that always gets","§7you out of bad situations.","§7SPD§a2 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Guère égarées, certaines choses ","§7ne trouvent aucun digne maître.","§7Not lost, some things","§7find no true master.","§7STR§a1 §7HER§a2 §7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her2_dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ta force légendaire ne saurait être ","§7brisée par aucun d'entre nous.","§7Your legendary strength cannot","§7be broken by any of us.","§7RES§a1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/res1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Une simple frappe, une pointe,","§7et un empire entier s'effondra !","§7A single strike, a peak,","§7and an entire empire collapsed!","§7HAS§a6 §7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has6_res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Va avec fierté, car toi seule pourrait","§7contempler les ténèbres sans fléchir.","§7Go with pride, because only you could","§7contemplate the darkness without flinching.","§7STR§a3 §7SPD§a2 §7HAS§c-1 §7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has_1_dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Insoupçonnée, surprenante, éclatante","§7telle est ta morsure de cristal.","§7Unsuspected, surprising, dazzling","§7such is your crystal bite.","§7STR§a2 §7DAR§a2 §7LUC§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_dar2_luc1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Sur ton chemin se dresseront moult","§7tyrans,mais aucun ne te résistera !","§7On your way will rise many tyrants,","§7but none will resist you!","§7STR§a1 §7HAS§a3 §7HER§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has3_her1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La lumière n'est qu'illusoire, tout","§7n'est que nuit et ne se révèle qu'alors.","§7The light is only illusory, everything","§7is night and is only revealed then.","§7STR§a4 §7SPD§a1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str4_spd1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Porte-nous par ta voix et seuls les","§7initiés sauront te reconnaître, Tarja.","§7Carry us by your voice and only","§7the initiated will recognize you, Tarja.","§7STR§a1 §7RES§a1 §7HER§a1 §7DAR§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_res1_her1_dar1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Brille d'une finesse remarquable.","§7Shine of remarkable finesse.","§7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Le plus massif qui soit.","§7The most massive ever.","§7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7N'a jamais trouvé d'utilité.","§7Never found any use.","§7HAS§c-2 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has_2_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Trésor de la nature.","§7Treasure of nature.","§7STR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Personne ne le saura,","§7pas même les grands !","§7No one will know,","§7not even the older ones!","§7SPD§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/spd_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7D'autres ont une hache de guerre...","§7Others have a hatchet...","§7DAR§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/dar_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Sans valeur... pour certain...","§7Worthless... for some of us...","§7HAS§c-1 §7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has_1_dar_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Dissuasive","§7Deterring","§7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Grandis, sans jamais t'abâtardir.","§7Grow up, but never spoil yourself.","§7HAS§a2 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has2_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Comme terre.","§7As soil.","§7STR§a1 §7SPD§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_2
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Sans relâche.","§7Without respite.","§7DAR§a1 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar1_luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Sifflante en filant à travers l'air.","§7Whistles as it travels through the air.","§7LUC§a1 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/luc1_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Il périt seul, mais mieux qu'un roi.","§7He perished alone, but better than a king.","§7HAS§a1"]}}}}] run function att2:gameplay/equipment/effect/le/has1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La vérité est tienne, et toi seul","§7pourra la faire entendre.","§7The truth is yours, and only","§7you can make it heard.","§7HAS§a2 §7SPD§a1 §7STR§c-1 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has2_spd1_str_1_luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7N'attend qu'un maître pour","§7absoudre le mal.","§7Only waits for a master","§7to absolve evil.","§7STR§a2 §7HER§c-1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_her_1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Immense et inébranlable, tu persistes.","§7Immense and unshakeable, you persist.","§7STR§a2 §7HAS§c-1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has_1_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Solide comme le diamant, elle va.","§7Solid as a diamond, she goes.","§7STR§a1 §7SPD§a2 §7HUN§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd2_hun_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7A l'impact de ta table.","§7At the impact of your face.","§7HAS§a2 §7DAR§a1 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has2_dar1_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Telle tu naquis, ma sœur.","§7As you were born, my sister.","§7STR§a1 §7SPD§a1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Peut-être disparut-elle, mais ","§7jamais sa générosité ne s'effaça.","§7She may have disappeared, but","§7her generosity never vanished.","§7STR§a2 §7HAS§a2 §7HER§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has2_her_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ô temps lointains, ","§7Ô insouciance juvénile.","§7O distant times,","§7O youthful recklessness.","§7SPD§a3 §7LUC§a1 §7DAR§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/spd3_luc1_dar_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Jà à ta naissance, ta volonté brûla","§7d'une irrésistible intensité.","§7Even at your birth, your will burned","§7with an irresistible intensity.","§7STR§a3 §7SPD§a2 §7HAS§c-1 §7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has_1_dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Somptueux, rien ne te fit jamais","§7perdre de ta puissance.","§7Sumptuous, nothing ever made","§7you weaken your power.","§7STR§a1 §7HAS§a4 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has4_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Jamais tu ne te laveras du sang,","§7que tu as versé avec cruauté.","§7You will never clean yourself of the blood,","§7which you shed with cruelty.","§7STR§a2 §7HER§a2 §7DAR§c-1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_her2_dar_1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La force et l'honneur de l'immortel","§7ne s'amenuisent guère face aux ténèbres.","§7The strength and honor of the immortal hardly","§7diminishes in the face of darkness.","§7STR§a2 §7HAS§a2 §7HUN§a1 §7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has2_hun1_res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Clair comme obscure, rien ne peut bouleverser","§7l'éclat de la plus splendide des nuits.","§7Light as dark, nothing can upset","§7the brightness of the most splendid night.","§7STR§a2 §7SPD§a2 §7HAS§a2 §7LUC§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_has2_luc1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Hurle aux années perdues, ton cri fera","§7trembler ciel et cœurs jusqu'aux confins du temps.","§7Howl at the lost years, your cry will","§7make heaven and hearts tremble to the ends of time.","§7STR§a5 §7DAR§a1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str5_dar1_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La nuit est fausse et faible, laisse le jour ","§7se lover en ta lame et briller de mille éclats...","§7The night is wrong and weak, let the day","§7roll into your blade and shine with a thousand shines...","§7STR§a1 §7SPD§a4 §7HAS§a2"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd4_has2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Je boirai ton sang avec joie,","§7pour oublier le sang de Beleg.","§7I will drink thy blood gladly, that so","§7I may forget the blood of Beleg my master.","§7STR§a4 §7HAS§a3 §7HER§a2 §7DAR§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str4_has3_her2_dar1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7De manufacture Terän...","§7Made by Terän...","§7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Si si, c'est la vraie !","§7Yes indeed, it's the real one!","§7STR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Mais indestructible !","§7But indestructible!","§7HAS§c-1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has_1_spd_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Aucun mystère sur son origine.","§7No mystery as to its origin.","§7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Un bout de ferraille digne de ce nom.","§7A piece of junk worthy of the name.","§7HER§c-1 §7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/her_1_dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Mieux vaut être seul que mal accompagné.","§7Better alone than in bad company.","§7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Toutes les blessures ne guérissent pas.","§7Not all wounds heal.","§7DAR§c-2 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar_2_luc_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Jamais aucun tronc ne te résista.","§7No trunk ever resisted you.","§7DAR§a1"]}}}}] run function att2:gameplay/equipment/effect/le/dar1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Déjà désuète lors de sa conception.","§7Already obsolete at the time of its conception.","§7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Il faut au moins un bras comme","§7ça pour la manier.","§7It takes at least an arm","§7like that to handle it.","§7STR§a1 §7SPD§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_2
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Quoi de plus amusant qu'un","§7combat à l'arme.","§7What more fun than","§7a weapon fight.","§7HER§a1 §7STR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/her1_str_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Une bonne excuse pour ne rien faire.","§7A good excuse for doing nothing.","§7SPD§a2 §7HER§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_her_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Dans quelle fiction crois-tu être ?","§7What fiction do you think you're in?","§7HAS§a2 §7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has2_dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ne fait jamais défaut à ceux qui","§7la manient avec ardeur.","§7Never fails those who","§7handle it boldly.","§7SPD§a2 §7HAS§a1 §7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_has1_dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Derrière cette apparence usée, se","§7cache un esprit jeune.","§7Behind this worn-out appearance","§7lies a youthful spirit.","§7HAS§a4 §7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has4_res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Toi l'aînée dont les coups firent","§7périr tant de bêtes.","§7To you the eldest that killed so","§7many beasts with its strokes.","§7STR§a2 §7SPD§c-3 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd_3_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Elle est si robuste que même","§7la roche ploie sous sa volonté.","§7It is so robust that even the rock","§7bends under its will.","§7STR§a1 §7DAR§a1 §7HAS§c-1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_dar1_has_1_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Filante comme un éclat de","§7lumière, mais tout aussi faible.","§7Thin as a flash of light,","§7but just as weak.","§7RES§a1 §7HAS§c-4"]}}}}] run function att2:gameplay/equipment/effect/le/res1_has_4
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La trahison et le meurtre du meilleur,","§7ainsi tu sauveras ceux que tu aimes.","§7The betrayal and murder of the best,","§7so you'll save those you love.","§7STR§a1 §7HAS§a1 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has1_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Une véritable épée pour un soldat","§7immortel d'Angor.","§7A real sword for an immortal","§7soldier of Angor.","§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd1_dar1_luc1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La seule chose qui te différencie","§7d'eux, est ton ascendance...","§7The only thing that sets you apart","§7from them is your ancestry...","§7HER§a2 §7DAR§a1 §7SPD§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/her2_dar1_spd_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ainsi tes impitoyables actions ne te couvrirent","§7nullement de la gloire à laquelle tu aspirais tant ?","§7So your ruthless deeds did not in any way","§7cover you with the glory you so longed for?","§7STR§a3 §7SPD§a2 §7HAS§a1 §7LUC§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has1_luc_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Même l'insecte du fracas est pris","§7d'effroi à la vue de ton éclat tranchant !","§7Even the insect of the crash is frightened","§7at the sight of your sharp shine!","§7STR§a2 §7HER§a1 §7HUN§a1 §7SPD§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str2_her1_hun1_spd_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Tout en bas se cache l'inattendu, lové dans une","§7brise pétrifiante et brûlant d'une froideur absurde...","§7At the very bottom lies the unexpected, curled up in","§7a petrifying breeze and burning with absurd coldness...","§7HAS§a4 §7DAR§a2 §7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has4_dar2_res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Inconscient au point d'en perdre ta couleur,","§7violent au point d'en confondre ami d'ennemi.","§7Unconscious to the point of losing your colour,","§7violent to the point of confusing friend with enemy.","§7SPD§a3 §7HAS§a3"]}}}}] run function att2:gameplay/equipment/effect/le/spd3_has3
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Complaire à l'enfant du ténébreux","§7et dans ses desseins, le suivre...","§7Pleasing the child of darkness","§7and in his intentions, following him ...","§7STR§a1 §7RES§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_res1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Les bêtes Sécariennes ont jadis","§7craint tes griffes autant que ton nom.","§7The Secarian beasts once feared","§7your claws as much as your name.","§7STR§a2 §7HAS§a4"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has4
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Panache et grandiloquence ne sont","§7l'apanage que des faquins et faux héros.","§7Panache and grandiloquence are","§7the prerogative only of fake and false heroes.","§7STR§a3 §7SPD§a2 §7HAS§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Souviens-toi du temps avant le temps,","§7et transcendes-toi dans les mains du vrai maître.","§7Remember the time before time, and transcend","§7yourself through the hands of the true master.","§7STR§a1 §7HER§a2"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her2
+
+
+
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ecraser les gens en devient un passe-temps.","§7Crushing people becomes a hobby.","§7STR§a1 §7HAS§a1 §7HUN§a1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has1_hun1_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Le sang appelle le sang !","§7Blood calls blood!","§7STR§a2 §7HER§a1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_her1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ton esprit guide ma vie.","§7Your spirit guides my life.","§7STR§a4 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str4_luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Pénétrez jusqu'aux entrailles de vos ennemis.","§7Pierce until the bowels of your enemies.","§7SPD§a3 §7LUC§a1"]}}}}] run function att2:gameplay/equipment/effect/le/spd3_luc1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Des profondeurs de l'univers primordial,","§7bouillonne le courroux des anciens.","§7From the depths of the primordial universe,","§7the wrath of the ancients is boiling.","§7STR§a2 §7SPD§a2 §7DAR§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_dar_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Contemplez mon œuvre,","§7ô puissants, et désespérez !","§7Look on my works, Ye Mighty,","§7and despair!","§7STR§a3 §7RES§a1 §7HER§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str3_res1_her_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Cette lame mystérieusement forgée,","§7renferme un pouvoir inouï.","§7This mysteriously forged blade,","§7contains an uncanny power.","§7DAR§a4 §7STR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar4_str_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Puisse la lumière sacrée s'abattre inéluctablement","§7sur les adorateurs des ténèbres.","§7May the sacred light inevitably","§7fall on the worshipers of darkness.","§7STR§a1 §7SPD§a1 §7LUC§a1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd1_luc1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7C'est plus près que ce que","§7tu penses ! (en fait non)","§7It's closer than you think!","§7(no it isn't)","§7HAS§a4 §7SPD§a2 §7HER§a1 §7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has4_spd2_her1_res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Parfois, toute une vie se résume à un geste fou.","§7Sometimes your life boils down to one insane move.","§7STR§a2 §7RES§a1 §7DAR§c-1 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_res1_dar_1_her_1
+
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Rien à ajouter.","§7There' s nothing more to say.","§7SPD§c-2 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd_2_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Décevant.","§7Disappointing.","§7STR§c-1 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Plus personne ne vous dira jamais","§7que vous avez les os pointus.","§7No one will ever tell you that","§7you have pointy bones again.","§7DAR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Mieux au sol que dans vos mains.","§7Better on the ground than in your hands.","§7STR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Fera l'affaire.","§7Will do the trick.","§7HAS§a1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Pour le plus rapide de mes amis.","§7For the fastest of my friends.","§7STR§a1 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Comme si tu en possédais la force.","§7As if you had its strength.","§7STR§a1 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ici, il n'est de plus grande qualité,","§7car le froid n'exempte pas de fougue.","§7Here, there is no greater quality, because","§7the coldness does not exempt from ardour.","§7HAS§a2 §7DAR§a2 §7SPD§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/has2_dar2_spd_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Aux plus vils comme aux meilleurs.","§7To the vilest as well as the best.","§7STR§a2 §7DAR§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str2_dar_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Les poussières de ce qui fut ","§7jadis un puissant golem.","§7The dust of what was once ","§7a mighty golem.","§7SPD§a2 §7HER§a1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_her1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Derrière la beauté se cache","§7souvent un pouvoir occulte.","§7Behind beauty often","§7lies an occult power.","§7STR§a2 §7SPD§a1 §7HAS§c-1 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_has_1_luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Hymne de supplication vers la divinité","§7incapable de nous protéger de nous-même.","§7Hymn of supplication to the divinity","§7unable to protect us from ourselves.","§7STR§a3 §7HAS§a2 §7LUC§a1 §7SPD§c-4"]}}}}] run function att2:gameplay/equipment/effect/le/str3_has2_luc1_spd_4
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Nous ne pardonnerons pas.","§7Nous n'oublierons pas.","§7Forgive, we shall not.","§7Forget, we shall not.","§7STR§a1 §7HAS§a4 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has4_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Pas de repos pour ceux qui ne savent","§7mourir, pas de rêve pour ceux qui ne peuvent dormir.","§7No rest for those who cannot die,","§7no dreams for those who cannot sleep.","§7HAS§a5 §7HER§a2 §7HUN§a1"]}}}}] run function att2:gameplay/equipment/effect/le/has5_her2_hun1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Aude à l'acharnement du premier","§7inorganique, hurlement d'un roi.","§7Aude to the fierceness of the first","§7inorganic, scream of a king.","§7STR§a1 §7RES§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_res1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Même la plus stable des choses ne saura jamais","§7s'opposer à l'indéfectible dessein d'Entropie.","§7Even the most stable of things will never stand","§7in the way of Entropy's unwavering purpose.","§7STR§a4"]}}}}] run function att2:gameplay/equipment/effect/le/str4
+
+
+
+
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Presque génial, mais pas loin","§7d'absolument inutile.","§7Almost fantastic, but close to","§7absolutely useless.","§7STR§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Une bonne arme pour un fier garçon.","§7A good weapon for a brave boy.","§7RES§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Le fléau des mots et lettres.","§7The scourge of words and letters.","§7SPD§c-1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd_1_hun_1
+
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Les bêtes te craignent.","§7The beasts fear you.","§7STR§a1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ne rouille jamais.","§7Never rust.","§7HAS§a1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/has1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7La fille qui allait plus vite que l'air.","§7The girl who was faster than the air.","§7SPD§a2 §7DAR§c-1 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_dar_1_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Il a toujours été mystérieux...","§7He's always been mysterious...","§7STR§a1 §7HAS§a2 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has2_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Un signe de paix sur un outil de guerre.","§7A sign of peace on a tool of war.","§7STR§a1 §7DAR§a1 §7HAS§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_dar1_has_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Le sage à toujours un second plan.","§7The wise man always has a back seat.","§7LUC§a1 §7HER§a2 §7HUN§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/luc1_her2_hun_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7A toi, Adrian, guerrier valeureux","§7qui ne connaîtra jamais de déclin.","§7Here's to you, Adrian, a brave warrior","§7who will never go into decline.","§7DAR§a2 §7HER§a1 §7LUC§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar2_her1_luc_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Le temps ne fais pas ta décadence,","§7mais il te rendra nostalgique.","§7Time doesn't make you decadent,","§7but it will make you nostalgic.","§7STR§a2 §7HAS§a2 §7SPD§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has2_spd_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Par-delà l'horizon nous vient une","§7force qu'aucun homme ne sait dompter.","§7Beyond the horizon comes a force","§7that no man can tame.","§7RES§a1 §7SPD§a1 §7HAS§a1"]}}}}] run function att2:gameplay/equipment/effect/le/res1_spd1_has1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ô douce lumière de l'éveil,","§7ô profond espoir inaliénable.","§7O sweet light of awakening,","§7O deep and inalienable hope.","§7STR§a1 §7HER§a1 §7DAR§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her1_dar_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Né pour régner, tombé pour sauver,","§7comme le jour, il revint, et jusqu'au soir, il tint.","§7Born to reign, fallen to save, as the day,","§7he returned, and till evening he stood.","§7STR§a3 §7SPD§a2 §7HUN§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_hun1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Et ne me rappellez pas la maison","§7ou je pourrais réaliser où je suis.","§7And don't remind me of home or","§7I might notice where I am.","§7STR§a2 §7DAR§a3"]}}}}] run function att2:gameplay/equipment/effect/le/str2_dar3
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Contemplatif, quant aux lendemains inaccessibles;","§7mais impatient tout autant que désespéré par la fin.","§7Contemplative, as for the unattainable tomorrows;","§7but impatient as well as desperate for the end.","§7STR§a2 §7HAS§a4 §7RES§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has4_res1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Plus intense qu'un nuage.","§7More intense than a cloud.","§7DAR§a2 §7HER§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/dar2_her_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Ce n'est pas un instrument de musique,","§7et pourant, qu'il me plait de l'entendre.","§7It is not a musical instrument,","§7and yet, I like to hear it.","§7STR§a1 §7DAR§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str1_dar1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Le temps mauvais pèse sur son cœur","§7autant que sur sa volonté...","§7Bad weather weighs on his heart","§7as much as on his will...","§7STR§a2 §7SPD§c-3"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd_3
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Le traître ne connais pas de frère,","§7il est seul, et c'est là se force.","§7The traitor knows no brother,","§7he is alone, and that is his strength.","§7SPD§a3 §7HER§a1 §7STR§c-1"]}}}}] run function att2:gameplay/equipment/effect/le/spd3_her1_str_1
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Inlassablement, emporte les rêves","§7vers des horizonx merveilleux.","§7Untiringly, carry dreams","§7to wonderful horizons.","§7STR§a2 §7RES§a1 §7LUC§a1 §7SPD§c-2"]}}}}] run function att2:gameplay/equipment/effect/le/str2_res1_luc1_spd_2
+execute as @a[nbt={SelectedItem:{tag:{display:{Lore:["§7Tant espérées, elles annihilent les ténèbres","§7si tenaces, sans la moindre difficulté.","§7So much hoped for, they annihilate the darkness ","§7so tenacious, without the slightest difficulty.","§7STR§a2 §7SPD§a1 §7HER§a1 §7DAR§a1"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_her1_dar1

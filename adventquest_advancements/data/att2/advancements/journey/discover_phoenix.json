@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_boat"
+        },
+        "title": {"translate":"Phoenix Village"},
+        "description": {"translate":"Discover Pheonix Village"}
+    },
+    "parent": "att2:journey/discover_exiles",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_phoenix": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3868.0,"max":3883.0},
+                    "y": {"min":30.0,"max":100.0},
+                    "z": {"min":3880.0,"max":3908.0}
+                }
+            }
+        }
+    }
+}

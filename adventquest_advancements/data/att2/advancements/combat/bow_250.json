@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Ballistics fanatic"},
+        "description": {"translate":"Shoot 250 arrows with your bow"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/bow_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "bow_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

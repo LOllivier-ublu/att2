@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"Waypoint Méleïm"},
+        "description": {"translate":"Discover the waypoint of Méleïm"}
+    },
+    "parent": "att2:journey/discover_meleim",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "waypoint_meleim": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

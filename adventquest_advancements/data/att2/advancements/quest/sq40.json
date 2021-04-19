@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Sometimes, I guess there's just not enough rocks"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/sq39",
+    "rewards": {
+        "function": "att2:advancement/exploit_20"
+    },
+    "criteria": {
+        "sq40": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+##################################################
+#Made by Adventquest                             #
+#Summon Serile minions    		 				 #
+##################################################
+
+execute if score level DIFFICULTY matches -1 run summon minecraft:zombie_pigman ~ ~ ~ {NoAI:1b,IsBaby:1b,Silent:1b,Invulnerable:1,Anger:32000,Tags:["LVL0","CLASS12","NewInvo","SerilePigmanMinion","Undead"],PersistenceRequired:1,DeathLootTable:"att2:empty",ActiveEffects:[{Id:14,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:golden_shovel",Count:1},{id:"minecraft:golden_shovel",Count:1}],ArmorItems:[{},{},{id:"minecraft:golden_chestplate",Count:1},{}],Attributes:[{Name:generic.followRange,Base:20.0},{Name:generic.movementSpeed,Base:0.26}]}
+
+execute if score level DIFFICULTY matches 0 run summon minecraft:zombie_pigman ~ ~ ~ {NoAI:1b,IsBaby:1b,Silent:1b,Invulnerable:1,Anger:32000,Tags:["LVL0","CLASS12","NewInvo","SerilePigmanMinion","Undead"],PersistenceRequired:1,DeathLootTable:"att2:empty",ActiveEffects:[{Id:14,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:golden_shovel",Count:1},{id:"minecraft:golden_shovel",Count:1}],ArmorItems:[{},{},{id:"minecraft:golden_chestplate",Count:1},{}],Attributes:[{Name:generic.followRange,Base:35.0},{Name:generic.movementSpeed,Base:0.28}]}
+
+execute if score level DIFFICULTY matches 1 run summon minecraft:zombie_pigman ~ ~ ~ {NoAI:1b,IsBaby:1b,Silent:1b,Invulnerable:1,Anger:32000,Tags:["LVL0","CLASS12","NewInvo","SerilePigmanMinion","Undead"],PersistenceRequired:1,DeathLootTable:"att2:empty",ActiveEffects:[{Id:14,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:golden_shovel",Count:1},{id:"minecraft:golden_shovel",Count:1}],ArmorItems:[{},{},{id:"minecraft:golden_chestplate",Count:1},{}],Attributes:[{Name:generic.followRange,Base:50.0},{Name:generic.movementSpeed,Base:0.30}]}

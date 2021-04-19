@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Earthquake Veteran"},
+        "description": {"translate":"Reach level 5 with Earthquake spell"},
+        "frame": "goal"
+    },
+    "parent": "att2:dahal/spell10_lvl2",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "spell10_lvl5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

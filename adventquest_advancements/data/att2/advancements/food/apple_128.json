@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:apple"
+        },
+        "title": {"translate":"Apple addict"},
+        "description": {"translate":"Eat 128 apples"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/apple_64",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+            "apple_128": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

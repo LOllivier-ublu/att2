@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_rabbit"
+        },
+        "title": {"translate":"Rabbit craving"},
+        "description": {"translate":"Eat 16 cooked rabbit"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/rabbit_4",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+            "rabbit_16": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

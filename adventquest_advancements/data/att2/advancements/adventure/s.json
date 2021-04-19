@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "title": {"translate":"S"},
+        "description": {"translate":"Complete the legendary set of the S"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/leg",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "s": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

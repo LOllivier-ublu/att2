@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Budding archaeologist"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/sq36",
+    "rewards": {
+        "function": "att2:advancement/exploit_20"
+    },
+    "criteria": {
+        "sq37": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

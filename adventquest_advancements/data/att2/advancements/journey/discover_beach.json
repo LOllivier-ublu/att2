@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Stray Beach"},
+        "description": {"translate":"Discover Stray Beach"}
+    },
+    "parent": "att2:journey/discover_adanoi",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_beach": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "biome": "minecraft:beach",
+                "position": {
+                    "x": {"min":-4180.0,"max":-3940.0},
+                    "y": {"min":60.0,"max":120.0},
+                    "z": {"min":-5330.0,"max":-4860.0}
+                }
+            }
+        }
+    }
+}

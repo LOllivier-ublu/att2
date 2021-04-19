@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[0.0f,0.0f],UUIDMost:4762L,UUIDLeast:4762L,Tags:["PNJ"],NoAI:1,Invulnerable:1,CustomName:"\"TRIAS\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:golden_boots",Count:1},{id:"minecraft:golden_leggings",Count:1},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:4857628}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"7efbc312-9360-4e56-9eb1-bd5be942e513",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTkyMWRjYjI1NGU4YjA0Mjc2Y2FjNjcwODdmNWE2Y2I1NDc4Njg4M2Q0MjczY2E0Zjg4YTM0ODU3Y2FlYWY0In19fQ=="}]}}}}]}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Good bye my friend..."},
+        "description": {"translate":"Time for regrets"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_14",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 10000
+    },
+    "criteria": {
+        "mainquest_15": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

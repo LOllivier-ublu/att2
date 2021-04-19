@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:slime_block"
+        },
+        "title": {"translate":"Slimes Eliminator"},
+        "description": {"translate":"Kill 50 Slimes"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/slimes_killed_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "slimes_killed_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

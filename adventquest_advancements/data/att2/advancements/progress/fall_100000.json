@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ghast_tear"
+        },
+        "title": {"translate":"Gravity Hates Me"},
+        "description": {"translate":"Fall 1km in total"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/fall_5000",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+    },
+    "criteria": {
+        "fall_100000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

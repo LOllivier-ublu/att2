@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"We are not at the end of our journey!"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 4000
+    },
+    "criteria": {
+        "mainquest_17": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

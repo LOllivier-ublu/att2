@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "title": {"translate":"Money Money Money!"},
+        "description": {"translate":"Get your first piece of Chronotons"}
+    },
+    "parent": "att2:treasure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 25
+                },
+    "criteria": {
+        "money": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    { 
+                    "item": "minecraft:gold_nugget"
+                    }
+                ]
+            }
+        }
+    }
+}

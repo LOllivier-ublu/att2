@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Always there to help"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_17",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 6000
+    },
+    "criteria": {
+        "mainquest_18": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

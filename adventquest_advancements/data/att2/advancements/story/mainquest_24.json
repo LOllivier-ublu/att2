@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"EXPLOSION!!"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_23",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 7000
+    },
+    "criteria": {
+        "mainquest_24": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

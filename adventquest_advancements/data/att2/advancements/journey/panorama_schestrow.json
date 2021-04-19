@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Schestrow Panorama"},
+        "description": {"translate":"Discover the panorama of Schestrow ruins"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_tears_forest",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "panorama_schestrow": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "title": {"translate":"The Explorer"},
+        "description": {"translate":"Discover all panoramas"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 100000
+                },
+    "criteria": {
+        "the_explorer": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

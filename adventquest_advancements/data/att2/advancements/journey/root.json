@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "title": {"translate":"The Journey"},
+        "description": {"translate":"Discover Silberländ"},
+        "background": "minecraft:textures/block/magenta_stained_glass.png",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "discover_worlëst": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5244.0,"max":-5238.0},
+                    "y": {"min":70.0,"max":75.0},
+                    "z": {"min":-5408.0,"max":-5388.0}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150
+    }
+}

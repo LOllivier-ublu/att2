@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:leather_boots{EquipmentType:"armor",Rarity:"rar",Manufacturer:"teran",display:{Name:"\"§9Bottes des Otauriens\"",Lore:["§7Des profondeurs abyssales jusqu'au ruisseau des monts","§7 inaccessibles, octroie le pouvoir des héritiers d'Otaur.","§7From the abyssal depths to the stream of inaccessible","§7mounts, grants the power of Otaur's heirs.","§7SPD§c-2"],color:733402},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:7s},{id:"minecraft:depth_strider",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.14,Operation:0,Slot:feet,UUIDLeast:20000,UUIDMost:10004},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:1.19,Operation:1,Slot:feet,UUIDLeast:20000,UUIDMost:20004},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:feet,UUIDLeast:20000,UUIDMost:30004}]} 1

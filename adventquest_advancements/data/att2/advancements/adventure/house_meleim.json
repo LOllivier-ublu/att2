@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_planks"
+        },
+        "title": {"translate":"Méleïm house"},
+        "description": {"translate":"Get the Méleïm house"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "house_meleim": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

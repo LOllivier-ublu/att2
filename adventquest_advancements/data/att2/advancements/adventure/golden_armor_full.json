@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "title": {"translate":"Full gold!"},
+        "description": {"translate":"Protect yourself with a full set of golden armor"}
+    },
+    "parent": "att2:adventure/golden_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "golden_armor_full": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

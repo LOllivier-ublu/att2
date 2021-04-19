@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Like mother, like daughter"},
+        "description": {"translate":"Successfully complete this side quest"},
+        "frame": "goal"
+    },
+    "parent": "att2:quest/sq26",
+    "rewards": {
+        "function": "att2:advancement/exploit_20"
+    },
+    "criteria": {
+        "sq27": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

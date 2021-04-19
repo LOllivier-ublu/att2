@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"Cover Me With Diamonds!"},
+        "description": {"translate":"Find a piece of diamond armor"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "diamond_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_helmet"
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_chestplate"
+                    }
+                ]
+            }
+        },
+        "diamond_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_leggings"
+                    }
+                ]
+            }
+        },
+        "diamond_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "diamond_helmet",
+            "diamond_chestplate",
+            "diamond_leggings",
+            "diamond_boots"
+        ]
+    ]
+}

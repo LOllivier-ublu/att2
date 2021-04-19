@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Second space gem"},
+        "description": {"translate":"A painful awakening"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+    },
+    "criteria": {
+        "mainquest_6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

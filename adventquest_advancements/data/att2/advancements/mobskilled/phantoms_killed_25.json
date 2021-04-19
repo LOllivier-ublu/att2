@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "title": {"translate":"Phantoms Eliminator"},
+        "description": {"translate":"Kill 25 Phantoms"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/phantoms_killed_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "phantoms_killed_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

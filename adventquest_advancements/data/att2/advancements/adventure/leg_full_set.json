@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_axe"
+        },
+        "title": {"translate":"Full legendary set"},
+        "description": {"translate":"Get yourself equipped a full legendary armor and weapon set"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/leg",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "leg_full_set": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

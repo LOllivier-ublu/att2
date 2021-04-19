@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Anti-Air"},
+        "description": {"translate":"Shoot down a phantom with a bow"},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/shoot_arrow",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 150
+                },
+    "criteria": {
+        "killed_phantom": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true
+                },
+                "entity": {
+                    "type": "minecraft:phantom",
+                    "distance": {
+                        "absolute": {
+                            "min": 10
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

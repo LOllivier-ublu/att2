@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:melon_slice"
+        },
+        "title": {"translate":"Melon addict"},
+        "description": {"translate":"Eat 128 melon slices"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/melon_64",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+            "melon_128": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Wooden dagger hit"},
+        "description": {"translate":"Strike 250 times with a wooden dagger"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/wooden_dagger_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "wooden_dagger_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

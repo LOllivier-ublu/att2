@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {"translate":"Sniper duel"},
+        "description": {"translate":"Kill a skeleton with an arrow from more than 50 meters"},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/shoot_arrow",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "killed_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true
+                },
+                "entity": {
+                    "type": "minecraft:skeleton",
+                    "distance": {
+                        "horizontal": {
+                            "min": 50
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

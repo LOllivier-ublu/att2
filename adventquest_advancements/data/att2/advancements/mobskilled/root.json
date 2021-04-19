@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"Monster Hunter"},
+        "description": {"translate":"First blood"},
+        "background": "minecraft:textures/block/soul_sand.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "monster_hunter": {
+            "trigger": "minecraft:player_killed_entity"
+        }
+    }
+}

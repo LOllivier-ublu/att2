@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "title": {"translate":"Golden sword smash"},
+        "description": {"translate":"Strike 50 times with a golden sword"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/golden_sword_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "golden_sword_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

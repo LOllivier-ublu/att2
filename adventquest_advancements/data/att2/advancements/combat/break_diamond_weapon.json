@@ -1,0 +1,60 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Diamond weapon break"},
+        "description": {"translate":"Destroy a diamond weapon in battle"}
+    },
+    "parent": "att2:combat/break_weapon",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+                },
+    "criteria": {
+        "break_diamond_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_sword",
+                    "durability": {"max": 5,"min": 3}
+                }
+            }
+        },
+        "break_diamond_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_shovel",
+                    "durability": {"max": 5,"min": 3}
+                }
+            }
+        },
+        "break_diamond_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_axe",
+                    "durability": {"max": 7,"min": 4}
+                }
+            }
+        },
+        "break_diamond_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_pickaxe",
+                    "durability": {"max": 5,"min": 3}
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_diamond_sword",
+        "break_diamond_shovel",
+        "break_diamond_axe",
+        "break_diamond_pickaxe"
+        ]
+    ]
+}

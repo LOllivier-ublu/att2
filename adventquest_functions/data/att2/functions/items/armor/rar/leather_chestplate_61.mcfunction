@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:leather_chestplate{EquipmentType:"armor",Rarity:"rar",Manufacturer:"teran",display:{Name:"\"§9Torse des Otauriens\"",Lore:["§7Des profondeurs abyssales jusqu'au ruisseau des monts","§7 inaccessibles, octroie le pouvoir des héritiers d'Otaur.","§7From the abyssal depths to the stream of inaccessible","§7mounts, grants the power of Otaur's heirs.","§7HER§a1 §7STR§c-1"],color:1006269},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:7s},{id:"minecraft:fire_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.55,Operation:0,Slot:chest,UUIDLeast:20000,UUIDMost:10002},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:2.37,Operation:1,Slot:chest,UUIDLeast:20000,UUIDMost:20002},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:chest,UUIDLeast:20000,UUIDMost:30002}]} 1

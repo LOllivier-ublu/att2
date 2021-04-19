@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_axe"
+        },
+        "title": {"translate":"Golden axe smash"},
+        "description": {"translate":"Strike 50 times with a golden axe"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/golden_axe_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "golden_axe_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

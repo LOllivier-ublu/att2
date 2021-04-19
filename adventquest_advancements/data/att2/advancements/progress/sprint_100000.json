@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": {"translate":"One Small Step For Man"},
+        "description": {"translate":"Sprint 1km"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+    },
+    "criteria": {
+        "sprint_100000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

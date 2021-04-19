@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Like a Ghost"},
+        "description": {"translate":"Sneak 2.5km"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/sneak_10000",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "sneak_250000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

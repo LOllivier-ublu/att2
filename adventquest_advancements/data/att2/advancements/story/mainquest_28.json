@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Second time gem"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_27",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 20000
+    },
+    "criteria": {
+        "mainquest_28": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

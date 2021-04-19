@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spider_eye"
+        },
+        "title": {"translate":"Spider Genocide"},
+        "description": {"translate":"Kill 500 Spiders"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/spiders_killed_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "spiders_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot"
+        },
+        "title": {"translate":"Carrot tasty"},
+        "description": {"translate":"Eat carrot"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "carrot_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

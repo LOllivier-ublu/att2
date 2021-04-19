@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_boat"
+        },
+        "title": {"translate":"The Source of Corruption"},
+        "description": {"translate":"Discover the legendary source of corruption"}
+    },
+    "parent": "att2:journey/discover_angor_palace",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_corruption_source": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3764.0,"max":3834.0},
+                    "y": {"min":30.0,"max":100.0},
+                    "z": {"min":4694.0,"max":4714.0}
+                }
+            }
+        }
+    }
+}

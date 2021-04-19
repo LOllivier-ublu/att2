@@ -1,0 +1,60 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"Diamond armor break"},
+        "description": {"translate":"Destroy any diamond armor in battle"}
+    },
+    "parent": "att2:combat/break_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "break_diamond_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_helmet",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_diamond_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_chestplate",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_diamond_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_leggings",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_diamond_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_boots",
+                    "durability": {"max": 5}
+                    }
+                }
+            }
+        },
+    "requirements": [
+        [
+        "break_diamond_helmet",
+        "break_diamond_chestplate",
+        "break_diamond_leggings",
+        "break_diamond_boots"
+        ]
+    ]
+}

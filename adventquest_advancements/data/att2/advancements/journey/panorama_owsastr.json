@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Owsästr Panorama"},
+        "description": {"translate":"Discover the panorama of Owsästr swamp"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_owsastr",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "panorama_owsastr": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

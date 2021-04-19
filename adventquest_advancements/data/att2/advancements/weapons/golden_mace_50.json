@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "title": {"translate":"Golden mace smash"},
+        "description": {"translate":"Strike 50 times with a golden mace"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/golden_mace_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "golden_mace_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

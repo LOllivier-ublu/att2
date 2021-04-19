@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
+        "title": {"translate":"Iron dagger smash"},
+        "description": {"translate":"Strike 50 times with an iron dagger"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/iron_dagger_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "iron_dagger_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

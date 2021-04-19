@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Bears Killer"},
+        "description": {"translate":"Kill 1 Bear"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "bears_killed_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

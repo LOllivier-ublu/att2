@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"First contact"},
+        "description": {"translate":"A painful awakening"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "mainquest_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

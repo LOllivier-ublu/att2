@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:slime_block"
+        },
+        "title": {"translate":"Slimes Genocide"},
+        "description": {"translate":"Kill 500 Slimes"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/slimes_killed_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "slimes_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

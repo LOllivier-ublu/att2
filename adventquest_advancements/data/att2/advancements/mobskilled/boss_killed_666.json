@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void"
+        },
+        "title": {"translate":"Boss Genocider"},
+        "description": {"translate":"Kill 666 Boss"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/boss_killed_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 66666
+    },
+    "criteria": {
+        "boss_killed_666": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

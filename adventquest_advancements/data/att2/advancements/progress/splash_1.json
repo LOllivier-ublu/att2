@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion"
+        },
+        "title": {"translate":"Potion thrower"},
+        "description": {"translate":"Thrown a splash potion"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+    },
+    "criteria": {
+        "splash_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

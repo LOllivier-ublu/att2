@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": {"translate":"Cresus"},
+        "description": {"translate":"Raise 100000 Chronotons"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/chronotons_10000",
+        "rewards": {
+            "function": "att2:advancement/exploit_50",
+            "experience": 100000
+    },
+    "criteria": {
+        "chronotons_100000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

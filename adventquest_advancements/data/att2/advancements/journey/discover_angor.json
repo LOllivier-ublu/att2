@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_boat"
+        },
+        "title": {"translate":"Angor City"},
+        "description": {"translate":"Discover Angor City"}
+    },
+    "parent": "att2:journey/discover_phoenix",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_angor": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3526.0,"max":3586.0},
+                    "y": {"min":30.0,"max":100.0},
+                    "z": {"min":4099.0,"max":4118.0}
+                }
+            }
+        }
+    }
+}

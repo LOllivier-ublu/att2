@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"Waypoint Ryliath"},
+        "description": {"translate":"Discover the waypoint of Ryliath"}
+    },
+    "parent": "att2:journey/discover_worlest",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "waypoint_ryliath": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

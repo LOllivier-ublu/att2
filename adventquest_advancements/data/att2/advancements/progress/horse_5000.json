@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "title": {"translate":"Amateur rider"},
+        "description": {"translate":"Ride 50m on horseback"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+    },
+    "criteria": {
+        "horse_5000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

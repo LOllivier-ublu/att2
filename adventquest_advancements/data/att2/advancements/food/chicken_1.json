@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_chicken"
+        },
+        "title": {"translate":"Chicken tasty"},
+        "description": {"translate":"Eat a chicken thigh"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "chicken_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

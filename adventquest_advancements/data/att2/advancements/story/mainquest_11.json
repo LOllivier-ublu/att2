@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"It's time to understand"},
+        "description": {"translate":"Time for regrets"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2000
+    },
+    "criteria": {
+        "mainquest_11": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

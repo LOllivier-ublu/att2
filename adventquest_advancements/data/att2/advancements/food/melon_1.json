@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:melon_slice"
+        },
+        "title": {"translate":"Melon tasty"},
+        "description": {"translate":"Eat a melon slice"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "melon_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

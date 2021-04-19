@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"The Hunter"},
+        "description": {"translate":"Hunt a Squid with your bow"}
+    },
+    "parent": "att2:combat/shoot_arrow",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+                },
+    "criteria": {
+        "squid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "minecraft:squid"
+                }
+            }
+        }		
+    }
+}

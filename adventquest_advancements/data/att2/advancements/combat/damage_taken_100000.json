@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Bullied"},
+        "description": {"translate":"Take 100k damage"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/damage_taken_10000",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "damage_taken_100000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

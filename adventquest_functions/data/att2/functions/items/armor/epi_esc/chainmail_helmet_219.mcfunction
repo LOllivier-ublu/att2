@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:chainmail_helmet{EquipmentType:"armor",Rarity:"epi_esc",Manufacturer:"graceful",display:{Name:"\"§dDiadème supérieur\"",Lore:["§7Une perfection de joaillerie,  reflétant","§7l'entierté du spectre naturel de la lumière.","§7A perfection of jewelry, reflecting","§7the entire natural spectrum of light.","§7STR§a2 §7HER§a1 §7HAS§c-2"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:2s},{id:"minecraft:thorns",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.74,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:10001},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:0.66,Operation:1,Slot:head,UUIDLeast:20000,UUIDMost:20001},{AttributeName:generic.maxHealth,Name:generic.maxHealth,Amount:2.0,Operation:0,Slot:head,UUIDLeast:20000,UUIDMost:30001}]} 1

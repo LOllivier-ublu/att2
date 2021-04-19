@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_shovel"
+        },
+        "title": {"translate":"Rare"},
+        "description": {"translate":"Find a rare item"}
+    },
+    "parent": "att2:adventure/unc",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "rar": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

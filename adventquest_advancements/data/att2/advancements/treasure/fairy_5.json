@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "title": {"translate":"Hey! Don't listen!"},
+        "description": {"translate":"Catch 5 Lost Souls"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/fairy_1",
+        "rewards": {
+            "function": "att2:advancement/exploit_5",
+            "experience": 1000
+    },
+    "criteria": {
+        "fairy_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

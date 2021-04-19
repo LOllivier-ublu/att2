@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the armor list items shop 				#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Braies de seconde main>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:leather_leggings\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§2Braies de seconde main\\\"}\",Lore:[\"§7Augmente un peu votre\",\"§7récupération de Dahäl.\",\"§7Increase a bit your\",\"§7Dahäl regeneration.\",\"§7DAR§a1 §7SPD§c-1 §7HUN§c-1\"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.09,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:10003},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:0.52,Operation:1,Slot:legs,UUIDLeast:20000,UUIDMost:20003},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:1.0,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:30003}]},Damage:0}"},"extra":[{"text":" [54 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/armor/unc/leather_leggings_8"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Braies de seconde main>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:leather_leggings\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§2Braies de seconde main\\\"}\",Lore:[\"§7Augmente un peu votre\",\"§7récupération de Dahäl.\",\"§7Increase a bit your\",\"§7Dahäl regeneration.\",\"§7DAR§a1 §7SPD§c-1 §7HUN§c-1\"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.09,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:10003},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:0.52,Operation:1,Slot:legs,UUIDLeast:20000,UUIDMost:20003},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:1.0,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:30003}]},Damage:0}"},"extra":[{"text":" [54 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/armor/unc/leather_leggings_8"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

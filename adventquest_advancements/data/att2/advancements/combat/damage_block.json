@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Damage blocked"},
+        "description": {"translate":"Block damage with your shield"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 25
+                },
+    "criteria": {
+        "damage_block": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

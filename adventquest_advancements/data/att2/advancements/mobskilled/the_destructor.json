@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "title": {"translate":"The Destructor"},
+        "description": {"translate":"Validate All Advancement of Monster Hunter"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 100000
+    },
+    "criteria": {
+        "the_destructor": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

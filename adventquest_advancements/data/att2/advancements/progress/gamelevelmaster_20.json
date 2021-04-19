@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {"translate":"MASTER LEVEL 20"},
+        "description": {"translate":"Reach the level Master 20"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/gamelevel_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 5000
+                },
+    "criteria": {
+        "gamelevelmaster_20": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

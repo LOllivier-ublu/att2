@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_cod"
+        },
+        "title": {"translate":"Cod addict"},
+        "description": {"translate":"Eat 32 cooked cod"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/cod_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+            "cod_32": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

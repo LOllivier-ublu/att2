@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[-90.0f,0.0f],UUIDMost:394L,UUIDLeast:394L,Tags:["PNJ","TRADER"],NoAI:1,Invulnerable:1,CustomName:"\"OSWALD FLAMEL\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:6359939}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:6359939}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:6359939}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"ecac600a-f43b-4d62-8fe2-89c1e1116373",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2EzZDY2YzA5MjIzZDA4OTliODk2NDg3NTA1ZmRhMzg4NTg0OTQxZWM5NDY1MzRkMmE5ZTI3NzEzM2ZlMDJlIn19fQ=="}]}}}}]}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_boat"
+        },
+        "title": {"translate":"Exiles Camp"},
+        "description": {"translate":"Discover Exiles campement"}
+    },
+    "parent": "att2:journey/discover_angband",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_exiles": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3506.0,"max":3533.0},
+                    "y": {"min":20.0,"max":100.0},
+                    "z": {"min":3762.0,"max":3786.0}
+                }
+            }
+        }
+    }
+}

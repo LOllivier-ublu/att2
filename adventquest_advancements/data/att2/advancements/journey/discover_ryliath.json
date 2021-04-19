@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:polished_andesite"
+        },
+        "title": {"translate":"Ryliath"},
+        "description": {"translate":"Discover Ryliath town"}
+    },
+    "parent": "att2:journey/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_ryliath": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5036.0,"max":-5024.0},
+                    "y": {"min":60.0,"max":90.0},
+                    "z": {"min":-5059.0,"max":-5053.0}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_beef"
+        },
+        "title": {"translate":"Beef addict"},
+        "description": {"translate":"Eat 32 beef steak"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/beef_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+            "beef_32": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

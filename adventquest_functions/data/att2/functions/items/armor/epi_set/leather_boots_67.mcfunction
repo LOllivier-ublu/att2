@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:leather_boots{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"teran",display:{Name:"\"§5Bottes inquiétantes\"",Lore:["§aMauvaises augures surviennent,","§aquand le destin frappe les plus chanceux...","§aBad omens arise, when","§afate strikes the luckiest....","§7SPD§a2 §7LUC§a1 §7HER§c-1"],color:460551},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:30s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.62,Operation:0,Slot:feet,UUIDLeast:20000,UUIDMost:10004},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:1.87,Operation:1,Slot:feet,UUIDLeast:20000,UUIDMost:20004},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:1.0,Operation:0,Slot:feet,UUIDLeast:20000,UUIDMost:30004}]} 1

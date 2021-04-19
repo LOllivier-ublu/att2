@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "title": {"translate":"Addict"},
+        "description": {"translate":"Deal 25 bets"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/bets_5",
+        "rewards": {
+            "function": "att2:advancement/exploit_10",
+            "experience": 1500
+    },
+    "criteria": {
+        "bets_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

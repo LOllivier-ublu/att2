@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": {"translate":"Capitalist!"},
+        "description": {"translate":"Raise 2500 Chronotons"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/chronotons_1000",
+        "rewards": {
+            "function": "att2:advancement/exploit_10",
+            "experience": 2500
+    },
+    "criteria": {
+        "chronotons_2500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

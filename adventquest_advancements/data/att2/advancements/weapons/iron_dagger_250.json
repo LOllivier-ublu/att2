@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
+        "title": {"translate":"Iron dagger hit"},
+        "description": {"translate":"Strike 250 times with an iron dagger"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/iron_dagger_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "iron_dagger_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

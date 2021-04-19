@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": {"translate":"Dolphin Level"},
+        "description": {"translate":"Swim 5km"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/swim_100000",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+    },
+    "criteria": {
+        "swim_500000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

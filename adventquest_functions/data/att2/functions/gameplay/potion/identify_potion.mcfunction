@@ -1,0 +1,35 @@
+#############################################################
+#Made by Adventquest										#
+#Identify witch potion were previsouly hold                 #
+#############################################################
+
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Poison","§7Poison","§7HUN§a7 §7HER§c-4"]}}}}] run scoreboard players set @s POTION_ID 1
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7C'pa parsk jui bourré, que tu vam'faire la lorame","§7Is'not because I'm drunk, yo're go'uing turelec me","§7STR§a1 §7SPD§c-1 §7HUN§c-3 §7LUC§c-2"]}}}}] run scoreboard players set @s POTION_ID 2
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Difficile de s'en passer.","§7Difficult to do without.","§7HER§a1 §7HUN§c-2"]}}}}] run scoreboard players set @s POTION_ID 3
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Une peau de fer pour un soldat ","§7sans bouclier.","§7An iron skin for a soldier","§7without a shield.","§7STR§c-1 §7SPD§c-2"]}}}}] run scoreboard players set @s POTION_ID 4
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Apaise la douleur ","§7et soigne l'arthrose.","§7Soothes pain","§7and treats osteoarthritis.","§7DAR§a1 §7HAS§c-2"]}}}}] run scoreboard players set @s POTION_ID 5
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Dites aurevoir aux combustions spontanées","§7avec ignifugix !","§7Say goodbye to spontaneous combustion","§7with ignifugix!","§7STR§c-2"]}}}}] run scoreboard players set @s POTION_ID 6
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Un mélange alambiqué","§7et au goût douteux.","§7A convoluted mixture","§7with a questionable taste.","§7LUC§a1 §7HER§c-1 §7HUN§c-2"]}}}}] run scoreboard players set @s POTION_ID 7
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Tel un chat dans la nuit noire,","§7soyez à l'affût de vos proies.","§7Like a cat in the dark night,","§7be on the lookout for your prey.","§7SPD§c-2"]}}}}] run scoreboard players set @s POTION_ID 8
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Allez sans votre ombre pour que","§7toutes autres vous appartiennent.","§7Go without your shadow","§7so that all others belong to you.","§7HAS§c-2"]}}}}] run scoreboard players set @s POTION_ID 9
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Se boucher le nez,","§7semble être la meilleur solution.","§7Hold your nose,","§7seems to be the best solution.","§7DAR§a1 §7SPD§c-3"]}}}}] run scoreboard players set @s POTION_ID 10
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Pour le bien être du corps, de l'âme et de l'esprit.","§7For the well-being of body, soul and mind.","§7HER§a2 §7DAR§a2 §7HAS§c-3 §7HUN§c-3"]}}}}] run scoreboard players set @s POTION_ID 11
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7L'excès est bien souvent létal.","§7Excess is often lethal.","§7STR§a2 §7HAS§a2 §7LUC§c-2"]}}}}] run scoreboard players set @s POTION_ID 12
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Quand la parade n'est plus","§7une option...","§7When the parade is no longer","§7an option...","§7STR§c-2 §7HAS§c-4"]}}}}] run scoreboard players set @s POTION_ID 13
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Le prédateur aux aguets est toujours","§7prêt à s'abattre sur son ennemi.","§7The predator on the lookout","§7is always ready to fall on his enemy.","§7HAS§a2 §7SPD§a2 §7STR§c-3"]}}}}] run scoreboard players set @s POTION_ID 14
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Pas vu, pas pris.","§7Vu, mais pas pris quand même.","§7Out of sight, out of mind.","§7Still, anyway out of mind.","§7SPD§a4 §7STR§c-3"]}}}}] run scoreboard players set @s POTION_ID 15
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Le savoir de la transmutation.","§7The knowledge of transmutation.","§7LUC§a1 §7HUN§a2 §7STR§c-2 §7HAS§c-2"]}}}}] run scoreboard players set @s POTION_ID 16
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Une formule caché, un art maîtrisé,","§7et le tour est joué.","§7A hidden formula, an art mastered,","§7and it's done.","§7DAR§a2 §7STR§c-1"]}}}}] run scoreboard players set @s POTION_ID 17
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Stimulez vos sens.","§7Stimulate your senses.","§7HER§a1 §7DAR§a1 §7HUN§a1 §7SPD§c-3"]}}}}] run scoreboard players set @s POTION_ID 18
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7La mort est insaisissable.","§7Death is elusive.","§7STR§a2 §7HAS§a2 §7SPD§c-4"]}}}}] run scoreboard players set @s POTION_ID 19
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Seconde chance.","§7Second chance.","§7LUC§a1"]}}}}] run scoreboard players set @s POTION_ID 20
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Le silence des organes.","§7The silence of the organs.","§7RES§a1 §7STR§c-2 §7HAS§c-1"]}}}}] run scoreboard players set @s POTION_ID 21
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Quand il n'y en a plus,","§7il y en a encore.","§7When there is no more,","§7there is still more.","§7HAS§a3 §7DAR§a3 §7HER§c-2 §7HUN§c-1"]}}}}] run scoreboard players set @s POTION_ID 22
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7La réalité comme une lancinante joie","§7s'est enfin défaite de sa complexité.","§7Reality like a hauntingly joy","§7has finally undone from its complexity.","§7HER§a2 §7LUC§a1 §7HAS§c-2"]}}}}] run scoreboard players set @s POTION_ID 23
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Une folie passagère,","§7pour une furie vengeresse.","§7A passing madness,","§7for a vengeful fury.","§7STR§a3 §7HAS§a4 §7SPD§c-2 §7HER§c-1"]}}}}] run scoreboard players set @s POTION_ID 24
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Le Dahäl ne peut manquer,","§7à celui qui goute à ce breuvage.","§7The Dahäl cannot be missed","§7by anyone who tastes this beverage.","§7DAR§a4 §7HAS§c-2"]}}}}] run scoreboard players set @s POTION_ID 25
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Faites de votre peau votre armure.","§7Make your skin your armor.","§7RES§a1 §7SPD§c-4"]}}}}] run scoreboard players set @s POTION_ID 26
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Faites exploser votre force,","§7au prix d'une insatiable faim.","§7Explode your strength,","§7at the cost of insatiable hunger.","§7STR§a4 §7HUN§c-2"]}}}}] run scoreboard players set @s POTION_ID 27
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7L'existence même en dépend.","§7The very existence depends on it.","§7HER§a3 §7HUN§a3 §7STR§c-1"]}}}}] run scoreboard players set @s POTION_ID 28
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Là où l'harmonie s'opère,","§7le grand oeuvre peut s'accomplir.","§7Where harmony takes place,","§7the great work can be accomplished.","§7HAS§a4 §7SPD§a2 §7DAR§a2 §7HUN§a2"]}}}}] run scoreboard players set @s POTION_ID 29
+execute as @s[nbt={SelectedItem:{tag:{display:{Lore:["§7Rien d'organique en cette potion,","§7et pourtant quel régal.","§7Nothing organic about this potion,","§7and yet what a treat.","§7HUN§a5"]}}}}] run scoreboard players set @s POTION_ID 46

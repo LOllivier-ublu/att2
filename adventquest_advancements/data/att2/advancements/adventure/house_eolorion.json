@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_planks"
+        },
+        "title": {"translate":"Eolorion house"},
+        "description": {"translate":"Get the Eolorion house"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "house_eolorion": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_cod"
+        },
+        "title": {"translate":"Cod desire"},
+        "description": {"translate":"Eat 4 cooked cod"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/cod_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+            "cod_4": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

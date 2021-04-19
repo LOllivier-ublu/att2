@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"There are some places in the universe you don't go alone"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_36",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 12000
+    },
+    "criteria": {
+        "mainquest_37": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

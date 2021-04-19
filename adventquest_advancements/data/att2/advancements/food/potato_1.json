@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potato"
+        },
+        "title": {"translate":"Potato tasty"},
+        "description": {"translate":"Eat a baked potato"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "potato_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

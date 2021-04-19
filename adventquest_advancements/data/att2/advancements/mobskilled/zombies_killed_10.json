@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "title": {"translate":"Zombies Killer"},
+        "description": {"translate":"Kill 10 Zombies"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "zombies_killed_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

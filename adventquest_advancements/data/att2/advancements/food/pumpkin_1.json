@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "title": {"translate":"Pumpkin pie tasty"},
+        "description": {"translate":"Eat a pumpkin pie"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "pumpkin_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

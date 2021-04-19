@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": {"translate":"Plutocrat"},
+        "description": {"translate":"Raise 10000 Chronotons"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/chronotons_5000",
+        "rewards": {
+            "function": "att2:advancement/exploit_20",
+            "experience": 10000
+    },
+    "criteria": {
+        "chronotons_10000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

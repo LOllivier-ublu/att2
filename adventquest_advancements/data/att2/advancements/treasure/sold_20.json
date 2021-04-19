@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "title": {"translate":"Sell-Off"},
+        "description": {"translate":"Sell 20 items from a buyer"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/sold_1",
+        "rewards": {
+            "function": "att2:advancement/exploit_2",
+            "experience": 500
+    },
+    "criteria": {
+        "sold_20": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

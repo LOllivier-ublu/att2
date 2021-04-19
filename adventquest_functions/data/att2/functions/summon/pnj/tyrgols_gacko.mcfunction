@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[90.0f,0.0f],UUIDMost:826L,UUIDLeast:826L,Tags:["PNJ"],NoAI:1,Invulnerable:1,CustomName:"\"TYRGOLS GACKO\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:13723136}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:13723136}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:13723136}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"e3530c77-03ab-479f-b112-f67094361b74",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViNWIxMzQ4YzE4YzQ5YzUwNjMzNDkwZTNjMTU3YmUyMzIxZDE0ZDIxNDM1NzY1Mzg2NjI4ODMyYmVjMDhmOSJ9fX0="}]}}}}]}

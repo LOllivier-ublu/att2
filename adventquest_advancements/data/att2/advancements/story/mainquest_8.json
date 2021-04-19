@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"The call of the Otaurians"},
+        "description": {"translate":"A painful awakening"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_7",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 1500
+    },
+    "criteria": {
+        "mainquest_8": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

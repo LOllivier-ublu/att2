@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Open Sesame!"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_32",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 9000
+    },
+    "criteria": {
+        "mainquest_33": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

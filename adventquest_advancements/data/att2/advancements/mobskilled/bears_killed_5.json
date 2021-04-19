@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Bears Eliminator"},
+        "description": {"translate":"Kill 5 Bears"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/bears_killed_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "bears_killed_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

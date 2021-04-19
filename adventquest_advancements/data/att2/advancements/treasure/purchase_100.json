@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "title": {"translate":"Investment"},
+        "description": {"translate":"Buy 100 items from a merchant"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/purchase_25",
+        "rewards": {
+            "function": "att2:advancement/exploit_5",
+            "experience": 1000
+    },
+    "criteria": {
+        "purchase_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

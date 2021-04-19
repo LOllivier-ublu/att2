@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
+        "title": {"translate":"Slayer"},
+        "description": {"translate":"Kill 500 Monsters"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/mobs_killed_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2500
+    },
+    "criteria": {
+        "mobs_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

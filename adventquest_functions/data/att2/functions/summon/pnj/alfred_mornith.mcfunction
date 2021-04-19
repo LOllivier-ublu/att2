@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[120.0f,0.0f],UUIDMost:298L,UUIDLeast:298L,Tags:["PNJ","QUEST"],NoAI:1,Invulnerable:1,CustomName:"\"ALFRED MORNITH\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:8021811}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:8021811}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:8021811}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"f30803c0-8cb0-46f9-b99d-b7b13427e4ce",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZkYjhjZjgyMmM4N2MyYmFhZjcyOGJmN2NiNGEwOGY1OTdmZDBkZDk0YWZkMTFlZTYzNTFhZDJjMzFlMTU0In19fQ=="}]}}}}]}

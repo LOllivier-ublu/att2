@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Lost Island"},
+        "description": {"translate":"Discover Lost Island"}
+    },
+    "parent": "att2:journey/discover_asunark",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+                },
+    "criteria": {
+        "discover_island": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4125.0,"max":-3949.0},
+                    "y": {"min":42.0,"max":130.0},
+                    "z": {"min":-4445.0,"max":-4248.0}
+                }
+            }
+        }
+    }
+}

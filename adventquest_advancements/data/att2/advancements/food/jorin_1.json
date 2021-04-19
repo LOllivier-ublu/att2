@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beetroot"
+        },
+        "title": {"translate":"Jorïn tasty"},
+        "description": {"translate":"Eat a jorïn"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+            "jorin_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

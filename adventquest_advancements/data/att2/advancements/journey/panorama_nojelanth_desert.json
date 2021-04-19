@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Nojélanth Desert"},
+        "description": {"translate":"Discover the panorama of the Desert of Nojélanth"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_nojelanth",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "panorama_nojelanth_desert": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

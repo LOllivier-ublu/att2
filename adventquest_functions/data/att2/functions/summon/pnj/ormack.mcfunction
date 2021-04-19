@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[90.0f,0.0f],UUIDMost:282L,UUIDLeast:282L,Tags:["PNJ"],NoAI:1,Invulnerable:1,CustomName:"\"ORMACK\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:4422461}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:4422461}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:4422461}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"18e68107-1e16-4aea-bfad-75c9bd49dda6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQzMzc2NGIzMWM1ZDdjNzg3NTM0MThlZDZkZWJiZDJjYjZjMjYwZmZiODNkZTE1NzY2YzZlYmFjOTU5YzMxIn19fQ=="}]}}}}]}

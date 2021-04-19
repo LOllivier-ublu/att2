@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {"translate":"MASTER LEVEL 80"},
+        "description": {"translate":"Reach the level Master 80"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/gamelevelmaster_60",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "gamelevelmaster_80": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

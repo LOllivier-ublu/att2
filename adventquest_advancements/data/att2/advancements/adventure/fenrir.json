@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pink_stained_glass_pane"
+        },
+        "title": {"translate":"Fenrir"},
+        "description": {"translate":"Hold the mythical sword FENRIR"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 10000
+                },
+    "criteria": {
+        "fenrir": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

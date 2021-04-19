@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ladder"
+        },
+        "title": {"translate":"There Is a First For Everything"},
+        "description": {"translate":"Climb 10m"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+    },
+    "criteria": {
+        "climb_1000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

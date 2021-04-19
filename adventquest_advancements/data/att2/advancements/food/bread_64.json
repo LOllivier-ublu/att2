@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bread"
+        },
+        "title": {"translate":"Bread craving"},
+        "description": {"translate":"Eat 64 breads"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/bread_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+            "bread_64": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

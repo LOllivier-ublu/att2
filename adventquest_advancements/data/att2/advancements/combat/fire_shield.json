@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Fire Shield"},
+        "description": {"translate":"Block some blaze fireballs"}
+    },
+    "parent": "att2:combat/blast_shield",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 750
+                },
+    "criteria": {
+        "deflected_fireball": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"direct_entity": {
+						"type": "minecraft:small_fireball"
+					},
+					"source_entity": {
+						"type": "minecraft:blaze",
+						"distance": {
+							"absolute": {
+								"min": 1.0
+							}
+						}
+					}
+                }
+            }
+        }
+    }
+}

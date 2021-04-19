@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "title": {"translate":"Golden sword strike"},
+        "description": {"translate":"Strike once with a golden sword"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "golden_sword_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Tears Forest"},
+        "description": {"translate":"Discover Tears Forest"}
+    },
+    "parent": "att2:journey/discover_plain",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_tears_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4555.0,"max":-4370.0},
+                    "y": {"min":60.0,"max":130.0},
+                    "z": {"min":-5100.0,"max":-4835.0}
+                }
+            }
+        }
+    }
+}

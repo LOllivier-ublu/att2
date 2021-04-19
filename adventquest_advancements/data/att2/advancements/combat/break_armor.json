@@ -1,0 +1,220 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Naked"},
+        "description": {"translate":"Destroy any armor in battle"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 150
+                },
+    "criteria": {
+        "break_leather_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:leather_helmet",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_leather_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:leather_chestplate",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_leather_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:leather_leggings",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_leather_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:leather_boots",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_iron_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_helmet",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_iron_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_chestplate",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_iron_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_leggings",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_iron_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_boots",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_chainmail_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:chainmail_helmet",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_chainmail_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:chainmail_chestplate",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_chainmail_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:chainmail_leggings",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_chainmail_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:chainmail_boots",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_golden_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_helmet",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_golden_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_chestplate",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_golden_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_leggings",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_golden_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_boots",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_diamond_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_helmet",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_diamond_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_chestplate",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+            "break_diamond_leggings": {
+                "trigger": "minecraft:item_durability_changed",
+                "conditions": {
+                    "item": {
+                        "item": "minecraft:diamond_leggings",
+                        "durability": {"max": 5}
+                }
+            }
+        },
+            "break_diamond_boots": {
+                "trigger": "minecraft:item_durability_changed",
+                "conditions": {
+                    "item": {
+                        "item": "minecraft:diamond_boots",
+                        "durability": {"max": 5}
+                    }
+                }
+            }
+        },
+    "requirements": [
+        [
+        "break_leather_helmet",
+        "break_leather_chestplate",
+        "break_leather_leggings",
+        "break_leather_boots",
+        "break_chainmail_helmet",
+        "break_chainmail_chestplate",
+        "break_chainmail_leggings",
+        "break_chainmail_boots",
+        "break_iron_helmet",
+        "break_iron_chestplate",
+        "break_iron_leggings",
+        "break_iron_boots",
+        "break_golden_helmet",
+        "break_golden_chestplate",
+        "break_golden_leggings",
+        "break_golden_boots",
+        "break_diamond_helmet",
+        "break_diamond_chestplate",
+        "break_diamond_leggings",
+        "break_diamond_boots"
+        ]
+    ]
+}

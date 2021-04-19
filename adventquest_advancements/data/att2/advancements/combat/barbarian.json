@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Barbarian!"},
+        "description": {"translate":"Strong against strong"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/hulk",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "barbarian": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:strength": {
+                        "amplifier": {
+                            "min": 15,
+                            "max": 18
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

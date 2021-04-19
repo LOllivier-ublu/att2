@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_boat"
+        },
+        "title": {"translate":"Angor Palace"},
+        "description": {"translate":"Discover Angor Palace"}
+    },
+    "parent": "att2:journey/discover_angor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_angor_palace": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether",
+                "position": {
+                    "x": {"min":3510.0,"max":3546.0},
+                    "y": {"min":30.0,"max":50.0},
+                    "z": {"min":4476.0,"max":4484.0}
+                }
+            }
+        }
+    }
+}

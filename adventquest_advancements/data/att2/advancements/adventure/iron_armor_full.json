@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "title": {"translate":"Full iron!"},
+        "description": {"translate":"Protect yourself with a full set of iron armor"}
+    },
+    "parent": "att2:adventure/iron_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "iron_armor_full": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

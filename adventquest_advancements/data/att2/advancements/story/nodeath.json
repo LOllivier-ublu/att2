@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"Hardcore gamer!"},
+        "description": {"translate":"Complete the main quest without dying once in gameplay."},
+        "frame": "challenge",
+        "hidden": "true"
+    },
+    "parent": "att2:story/mainquest_43",
+    "rewards": {
+        "experience": 1000000
+    },
+    "criteria": {
+        "hardcore_gamer": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+#############################################################
+#Made by Adventquest                                		#
+#Process mechanism in SQ31 go from 720 70 849 				#
+#The SQ31 state (for SIDEQUEST) :							#
+#..0 - the quest is not active    							#
+#1..99 - trigg the quest and execute cinematic 				#
+#100.. - the quest is completed    							#
+#The cinematic1 state (for SIDEQUEST) :						#
+#0 - condition "if" player position							#
+#1 - condition "unless" wolf position 						#
+#2..300 - the iteration is enable for cinematic 			#
+#301 - condition "unless" player position					#
+#############################################################
+
+execute if score cinematic1 SQ31 matches 0 if entity @a[x=-5324,y=105,z=-5819,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/31/step2
+execute if score cinematic1 SQ31 matches 1 if entity @a[x=-5315,y=108,z=-5811,distance=..20,gamemode=adventure] unless entity @e[type=minecraft:wolf,x=-5315,y=108,z=-5811,distance=..20] run scoreboard players add cinematic1 SQ31 2
+
+execute if score cinematic1 SQ31 matches 10 run function att2:cinematic/sidequest/31/move_pnj
+execute if score cinematic1 SQ31 matches 40 as @a[x=-5324,y=105,z=-5819,distance=..30,gamemode=adventure] run tp @s -5313 109 -5817
+execute if score cinematic1 SQ31 matches 50 as @a run function att2:dialogs/sidequest/sq31/raphael/dialog_2
+execute if score cinematic1 SQ31 matches 300 as @a run function att2:dialogs/sidequest/sq31/raphael/dialog_3
+
+execute if score cinematic1 SQ31 matches 1..301 run data merge entity @e[type=minecraft:skeleton_horse,x=-5313,y=108,z=-5817,distance=..5,limit=1] {EatingHaystack:1,Rotation:[180.0f,0.0f]}
+execute if score cinematic1 SQ31 matches 301 if score SQ31 SIDEQUEST matches 3 unless entity @a[x=-5324,y=105,z=-5819,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/31/kill_pnj
+
+execute if score cinematic1 SQ31 matches 302 at 00000000-0000-086a-0000-00000000086a if entity @a[distance=..7,nbt={Inventory:[{tag:{display:{Lore:["§4§oCargo of food"]}}}]}] run function att2:cinematic/sidequest/31/end
+
+
+#============================#
+#iteration of the cinematic1 #
+#============================#
+
+execute if score cinematic1 SQ31 matches 2..300 run scoreboard players add cinematic1 SQ31 1

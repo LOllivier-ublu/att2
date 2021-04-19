@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_bricks"
+        },
+        "title": {"translate":"Homeowner"},
+        "description": {"translate":"Own a home in every town in Sylberländ"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "homeowner": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

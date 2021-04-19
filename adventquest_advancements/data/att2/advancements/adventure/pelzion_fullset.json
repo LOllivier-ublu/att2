@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {"translate":"Pelzion full set"},
+        "description": {"translate":"Complete the epic set of pelzion"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/epi",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 10000
+                },
+    "criteria": {
+        "pelzion_fullset": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

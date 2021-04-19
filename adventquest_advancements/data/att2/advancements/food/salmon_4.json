@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_salmon"
+        },
+        "title": {"translate":"Salmon desire"},
+        "description": {"translate":"Eat 4 cooked salmon"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/salmon_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+            "salmon_4": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

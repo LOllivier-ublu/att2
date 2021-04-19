@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_stained_glass_pane"
+        },
+        "title": {"translate":"Relgon"},
+        "description": {"translate":"Hold the mythical sword RUKYRION"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 5000
+                },
+    "criteria": {
+        "rukyrion": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

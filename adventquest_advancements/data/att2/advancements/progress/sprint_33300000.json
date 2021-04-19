@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": {"translate":"Insane Bolt"},
+        "description": {"translate":"Sprint on 333km"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/sprint_10000000",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+    },
+    "criteria": {
+        "sprint_33300000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain equipement                               #
+##################################################
+
+give @s minecraft:leather_leggings{EquipmentType:"armor",Rarity:"rar",Manufacturer:"teran",display:{Name:"\"§9Culotte des Otauriens\"",Lore:["§7Des profondeurs abyssales jusqu'au ruisseau des monts","§7 inaccessibles, octroie le pouvoir des héritiers d'Otaur.","§7From the abyssal depths to the stream of inaccessible","§7mounts, grants the power of Otaur's heirs.","§7LUC§a1 §7SPD§c-2"],color:739290},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:7s},{id:"minecraft:fire_protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.42,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:10003},{AttributeName:generic.armorToughness,Name:generic.armorToughness,Amount:1.78,Operation:1,Slot:legs,UUIDLeast:20000,UUIDMost:20003},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:legs,UUIDLeast:20000,UUIDMost:30003}]} 1

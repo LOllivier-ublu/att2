@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the weapon list items shop 			#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Fureur cosmique>","bold":false,"color":"light_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_axe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§dFureur cosmique\\\"}\",Lore:[\"§7Des profondeurs de l'univers primordial,\",\"§7bouillonne le courroux des anciens.\",\"§7From the depths of the primordial universe,\",\"§7the wrath of the ancients is boiling.\",\"§7STR§a2 §7SPD§a2 §7DAR§c-2\"]},Enchantments:[{id:\"minecraft:fire_aspect\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:26.6,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.6799999999999999,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001}]},Damage:784}"},"extra":[{"text":" [17 ESC]","color":"light_purple","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/epi_esc/diamond_axe_168"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Fureur cosmique>","bold":false,"color":"light_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_axe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§dFureur cosmique\\\"}\",Lore:[\"§7Des profondeurs de l'univers primordial,\",\"§7bouillonne le courroux des anciens.\",\"§7From the depths of the primordial universe,\",\"§7the wrath of the ancients is boiling.\",\"§7STR§a2 §7SPD§a2 §7DAR§c-2\"]},Enchantments:[{id:\"minecraft:fire_aspect\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:26.6,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.6799999999999999,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001}]},Damage:784}"},"extra":[{"text":" [17 ESC]","color":"light_purple","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/epi_esc/diamond_axe_168"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

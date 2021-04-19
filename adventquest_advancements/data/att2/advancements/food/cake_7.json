@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": {"translate":"Cake Time!"},
+        "description": {"translate":"Eat a whole cake"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/cake_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "cake_7": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Wooden sword smash"},
+        "description": {"translate":"Strike 50 times with a wooden sword"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/wooden_sword_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "wooden_sword_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

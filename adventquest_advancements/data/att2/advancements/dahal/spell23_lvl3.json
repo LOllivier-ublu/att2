@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Agility Pet Master"},
+        "description": {"translate":"Reach level 3 with Agility Pet spell"},
+        "frame": "challenge"
+    },
+    "parent": "att2:dahal/spell23_lvl2",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "spell23_lvl3": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

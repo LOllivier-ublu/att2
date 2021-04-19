@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Third time gem"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_34",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 25000
+    },
+    "criteria": {
+        "mainquest_35": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:birch_planks"
+        },
+        "title": {"translate":"Home sweet home"},
+        "description": {"translate":"Recover your former home"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1500
+                },
+    "criteria": {
+        "home_sweet_home": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

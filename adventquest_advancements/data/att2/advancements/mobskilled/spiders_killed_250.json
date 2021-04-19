@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spider_eye"
+        },
+        "title": {"translate":"Spider Slayer"},
+        "description": {"translate":"Kill 250 Spiders"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/spiders_killed_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "spiders_killed_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

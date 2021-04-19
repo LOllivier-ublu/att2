@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Wooden sword strike"},
+        "description": {"translate":"Strike once with a wooden sword"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "wooden_sword_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

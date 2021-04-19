@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombie_pigman ~ ~ ~ {Rotation:[0.0f,0.0f],UUIDMost:794L,UUIDLeast:794L,Tags:["PNJ","QUEST"],NoAI:1,Invulnerable:1,CustomName:"\"ROB HARTH\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:3876119}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:3876119}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:3876119}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"f0818997-65f6-4e53-8370-c770f0548bcf",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNmYjZiNjYzMzdhZmEwNjdkMGVhNjU2MmIwYWExYmUyMjMyNzY3NTE5N2QxZjgzNmUxZWMwMzY1NTUwM2M4YiJ9fX0="}]}}}}]}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "title": {"translate":"Humanoids Slayer"},
+        "description": {"translate":"Kill 250 Humanoids"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/humanoids_killed_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "humanoids_killed_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

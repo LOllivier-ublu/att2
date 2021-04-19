@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"Waypoint Asunark"},
+        "description": {"translate":"Discover the waypoint of Asunark"}
+    },
+    "parent": "att2:journey/discover_asunark",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "waypoint_asunark": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

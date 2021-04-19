@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {"translate":"I Believe I Can Fly"},
+        "description": {"translate":"Find the Elytra"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "elytra": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+                    {
+					"item": "minecraft:elytra"
+				    }
+                ]
+			}
+        }
+    }
+}

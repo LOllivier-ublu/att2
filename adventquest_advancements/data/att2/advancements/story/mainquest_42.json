@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"It's time for payback"},
+        "description": {"translate":"The end of the trip"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_41",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 50000
+    },
+    "criteria": {
+        "mainquest_42": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

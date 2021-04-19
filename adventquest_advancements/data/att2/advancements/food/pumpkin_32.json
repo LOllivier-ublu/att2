@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "title": {"translate":"Pumpkin pie craving"},
+        "description": {"translate":"Eat 32 pumpkin pie"},
+        "frame": "goal"
+    },
+    "parent": "att2:food/pumpkin_8",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+            "pumpkin_32": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Soquaï"},
+        "description": {"translate":"Discover Soquaï forest"}
+    },
+    "parent": "att2:journey/discover_worlest",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_soquai": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-5113.0,"max":-4747.0},
+                    "y": {"min":70.0,"max":120.0},
+                    "z": {"min":-5600.0,"max":-5513.0}
+                }
+            }
+        }
+    }
+}

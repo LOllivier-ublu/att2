@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"Skeletons Genocide"},
+        "description": {"translate":"Kill 500 Skeletons"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/skeletons_killed_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "skeletons_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

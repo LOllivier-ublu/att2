@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_salmon"
+        },
+        "title": {"translate":"Salmon tasty"},
+        "description": {"translate":"Eat a cooked salmon"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "salmon_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

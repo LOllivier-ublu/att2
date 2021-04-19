@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Absorption Veteran"},
+        "description": {"translate":"Reach level 5 with Absorption spell"},
+        "frame": "goal"
+    },
+    "parent": "att2:dahal/spell43_lvl2",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "spell43_lvl5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

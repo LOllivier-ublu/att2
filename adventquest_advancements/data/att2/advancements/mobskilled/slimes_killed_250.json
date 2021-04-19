@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:slime_block"
+        },
+        "title": {"translate":"Slimes Slayer"},
+        "description": {"translate":"Kill 250 Slimes"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/slimes_killed_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "slimes_killed_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_leggings"
+        },
+        "title": {"translate":"Iron leggings break"},
+        "description": {"translate":"Destroy iron leggings in battle"}
+    },
+    "parent": "att2:combat/break_iron_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "break_iron_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:iron_leggings",
+                    "durability": {"max": 5}
+                }
+            }
+        }
+    }
+}

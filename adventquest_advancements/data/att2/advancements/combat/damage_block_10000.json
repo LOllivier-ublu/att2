@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Iron barrier"},
+        "description": {"translate":"Block 10000 damages with your shield"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/damage_block_2500",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2000
+                },
+    "criteria": {
+        "damage_block_10000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

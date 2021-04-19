@@ -1,0 +1,15 @@
+#####################################################################
+#Made by Adventquest												#
+#Start the boss fight for Kum                                		#
+#####################################################################
+
+function att2:gameplay/boss/billgart/kum/emerald_trap_on
+function att2:physicmod/reg3/kum_revive
+scoreboard players set Kum_timer1 SQ53 0
+scoreboard players set Kum_timer2 SQ53 0
+scoreboard players set Kum_timer3 SQ53 0
+scoreboard players set Kum SQ53 0
+execute positioned -1560.5 27.0 -605 run function att2:summon/reg_3/kum
+function att2:gameplay/boss/billgart/kum/summoning_minion3
+function att2:gameplay/boss/billgart/kum/init_bossbar
+function att2:gameplay/checkpoint/billgart/lost0

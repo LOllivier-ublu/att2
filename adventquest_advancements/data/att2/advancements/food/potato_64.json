@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:baked_potato"
+        },
+        "title": {"translate":"Potato addict"},
+        "description": {"translate":"Eat 64 baked potatoes"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/potato_32",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+            "potato_64": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

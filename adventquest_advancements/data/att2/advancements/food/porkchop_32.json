@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_porkchop"
+        },
+        "title": {"translate":"Porkchop addict"},
+        "description": {"translate":"Eat 32 cooked porkchop"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/porkchop_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+            "porkchop_32": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

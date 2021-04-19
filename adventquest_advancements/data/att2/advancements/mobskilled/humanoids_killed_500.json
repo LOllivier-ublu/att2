@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "title": {"translate":"Humanoids Genocide"},
+        "description": {"translate":"Kill 500 Humanoids"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/humanoids_killed_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "humanoids_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

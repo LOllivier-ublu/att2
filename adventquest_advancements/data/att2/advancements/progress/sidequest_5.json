@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"5 SIDE QUESTS"},
+        "description": {"translate":"Complete 5 side quests"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/sidequest_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 1000
+    },
+    "criteria": {
+        "sidequest_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

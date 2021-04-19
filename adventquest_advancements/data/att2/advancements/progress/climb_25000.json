@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ladder"
+        },
+        "title": {"translate":"Ever Higher"},
+        "description": {"translate":"Climb 250m"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/climb_1000",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+    },
+    "criteria": {
+        "climb_25000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

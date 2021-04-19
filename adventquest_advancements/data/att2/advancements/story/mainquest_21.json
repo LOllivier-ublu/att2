@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Killing death is an option!"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_20",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 7500
+    },
+    "criteria": {
+        "mainquest_21": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

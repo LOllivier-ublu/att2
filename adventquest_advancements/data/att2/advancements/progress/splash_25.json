@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion"
+        },
+        "title": {"translate":"Thrown away"},
+        "description": {"translate":"Thrown 25 splash potions"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/splash_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 750
+    },
+    "criteria": {
+        "splash_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

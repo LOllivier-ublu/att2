@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "title": {"translate":"Wolfs Eliminator"},
+        "description": {"translate":"Kill 50 Wolfs"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/wolfs_killed_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "wolfs_killed_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

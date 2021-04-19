@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Guided tour"},
+        "description": {"translate":"A painful awakening"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 250
+    },
+    "criteria": {
+        "mainquest_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

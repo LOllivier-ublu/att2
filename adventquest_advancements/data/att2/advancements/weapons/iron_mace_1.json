@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": {"translate":"Iron mace strike"},
+        "description": {"translate":"Strike once with an iron mace"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "iron_mace_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

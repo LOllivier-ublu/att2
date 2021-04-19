@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Victim!"},
+        "description": {"translate":"Take 100 damage"}
+    },
+    "parent": "att2:combat/damage_taken",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 10
+                },
+    "criteria": {
+        "damage_taken_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

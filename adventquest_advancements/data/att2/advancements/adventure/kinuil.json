@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        "title": {"translate":"Kinuil"},
+        "description": {"translate":"Hold the mythical mace KINUIL"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "kinuil": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

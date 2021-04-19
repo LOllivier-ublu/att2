@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_axe"
+        },
+        "title": {"translate":"Full common set"},
+        "description": {"translate":"Get yourself equipped a full common armor and weapon set"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/com",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 250
+                },
+    "criteria": {
+        "com_full_set": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

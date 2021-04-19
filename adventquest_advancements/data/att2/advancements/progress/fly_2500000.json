@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"As Light As a Feather"},
+        "description": {"translate":"Fly 25km"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/fly_500000",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+    },
+    "criteria": {
+        "fly_2500000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

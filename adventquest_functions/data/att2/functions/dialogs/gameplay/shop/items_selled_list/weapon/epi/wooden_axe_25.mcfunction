@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the weapon list items shop 			#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Souvenir de guerre>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:wooden_axe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5Souvenir de guerre\\\"}\",Lore:[\"§7Terre rougie par le sang\",\"§7air souillé par le désespoir.\",\"§7Land reddened by blood,\",\"§7air stained by despair.\",\"§7STR§a3 §7HAS§a2 §7SPD§c-1 §7HER§c-1\"]},Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:34.11,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.73,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:30001}]},Damage:0}"},"extra":[{"text":" [2625 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/epi/wooden_axe_25"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Souvenir de guerre>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:wooden_axe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5Souvenir de guerre\\\"}\",Lore:[\"§7Terre rougie par le sang\",\"§7air souillé par le désespoir.\",\"§7Land reddened by blood,\",\"§7air stained by despair.\",\"§7STR§a3 §7HAS§a2 §7SPD§c-1 §7HER§c-1\"]},Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:34.11,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.73,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001},{AttributeName:generic.knockbackResistance,Name:generic.knockbackResistance,Amount:0.2,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:30001}]},Damage:0}"},"extra":[{"text":" [2625 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/epi/wooden_axe_25"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

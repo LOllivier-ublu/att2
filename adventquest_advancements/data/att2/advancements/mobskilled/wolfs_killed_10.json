@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "title": {"translate":"Wolfs Killer"},
+        "description": {"translate":"Kill 10 Wolfs"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "wolfs_killed_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

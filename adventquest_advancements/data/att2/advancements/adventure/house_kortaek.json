@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jungle_planks"
+        },
+        "title": {"translate":"Kortaek house"},
+        "description": {"translate":"Get the Kortaek house"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "house_kortaek": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Stock Apprentice"},
+        "description": {"translate":"Reach level 3 with Stock spell"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+                },
+    "criteria": {
+        "spell20_lvl3": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

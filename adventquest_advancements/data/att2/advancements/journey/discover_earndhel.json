@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"A journey to remember"},
+        "description": {"translate":"Discover Ëarndhel village"}
+    },
+    "parent": "att2:journey/discover_ryliath",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_earndhel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":29960.0,"max":29970.0},
+                    "y": {"min":70.0,"max":100.0},
+                    "z": {"min":29962.0,"max":29970.0}
+                }
+            }
+        }
+    }
+}

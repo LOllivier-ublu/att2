@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_wool"
+        },
+        "title": {"translate":"Falling Down"},
+        "description": {"translate":"Falling into the void"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+                },
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"max": 2.0
+					}
+				}
+            }
+        }	
+    }
+}

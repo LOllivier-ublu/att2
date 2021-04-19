@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "title": {"translate":"Humanoids Eliminator"},
+        "description": {"translate":"Kill 50 Humanoids"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/humanoids_killed_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "humanoids_killed_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

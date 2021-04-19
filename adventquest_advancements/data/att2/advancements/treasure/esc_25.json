@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:quartz"
+        },
+        "title": {"translate":"Avid"},
+        "description": {"translate":"Store 25 Ecailles Souveraines du Chaos"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/esc_10",
+        "rewards": {
+            "function": "att2:advancement/exploit_20",
+            "experience": 5000
+    },
+    "criteria": {
+        "esc_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

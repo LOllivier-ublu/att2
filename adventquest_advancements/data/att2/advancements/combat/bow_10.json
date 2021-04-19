@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Archery"},
+        "description": {"translate":"Shoot 10 arrows with your bow"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/bow",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+                },
+    "criteria": {
+        "bow_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

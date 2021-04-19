@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "title": {"translate":"Exterminator"},
+        "description": {"translate":"Kill 1000 Monsters"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/mobs_killed_500",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "mobs_killed_1000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

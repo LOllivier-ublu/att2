@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"Waypoint Soquaï"},
+        "description": {"translate":"Discover the waypoint of Soquaï"}
+    },
+    "parent": "att2:journey/discover_soquai",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "waypoint_soquai": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

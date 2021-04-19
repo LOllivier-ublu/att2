@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "title": {"translate":"Husks Killer"},
+        "description": {"translate":"Kill 10 Husks"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "husks_killed_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

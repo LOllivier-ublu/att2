@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Mornith"},
+        "description": {"translate":"Discover Mornith mining exploitation"}
+    },
+    "parent": "att2:journey/discover_black_forest",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 150
+                },
+    "criteria": {
+        "discover_mornith": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4227.0,"max":-4165.0},
+                    "y": {"min":70.0,"max":100.0},
+                    "z": {"min":-5976.0,"max":-5961.0}
+                }
+            }
+        }
+    }
+}

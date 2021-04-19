@@ -1,0 +1,60 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "title": {"translate":"Golden armor break"},
+        "description": {"translate":"Destroy any golden armor in battle"}
+    },
+    "parent": "att2:combat/break_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "break_golden_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_helmet",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_golden_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_chestplate",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_golden_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_leggings",
+                    "durability": {"max": 5}
+                }
+            }
+        },
+        "break_golden_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_boots",
+                    "durability": {"max": 5}
+                    }
+                }
+            }
+        },
+    "requirements": [
+        [
+        "break_golden_helmet",
+        "break_golden_chestplate",
+        "break_golden_leggings",
+        "break_golden_boots"
+        ]
+    ]
+}

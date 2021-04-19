@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Cupidon"},
+        "description": {"translate":"Shoot an arrow with your bow"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 25
+                },
+    "criteria": {
+        "bow": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

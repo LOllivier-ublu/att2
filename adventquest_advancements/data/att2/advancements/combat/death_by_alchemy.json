@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+			"nbt": "{Potion:\"minecraft:harming\"}"
+        },
+        "title": {"translate":"Death by Alchemy"},
+        "description": {"translate":"Kill a mob with a splash potion"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+                },
+    "criteria": {
+        "kill_potion": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"killing_blow": {
+					"is_magic": "true",
+					"direct_entity": {
+						"type": "minecraft:potion"
+					}
+				}
+            }
+        }
+    }
+}

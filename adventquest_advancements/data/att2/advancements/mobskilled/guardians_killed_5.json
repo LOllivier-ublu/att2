@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pufferfish"
+        },
+        "title": {"translate":"Guardian Killer"},
+        "description": {"translate":"Kill 5 Guardians"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "guardians_killed_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

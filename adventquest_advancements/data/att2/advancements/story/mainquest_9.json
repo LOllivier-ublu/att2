@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Earndhel here I am again!"},
+        "description": {"translate":"The emergence of hatred"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_8",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+    },
+    "criteria": {
+        "mainquest_9": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

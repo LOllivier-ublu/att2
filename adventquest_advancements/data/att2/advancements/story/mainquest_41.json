@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"An organism not so perfect"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_40",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 30000
+    },
+    "criteria": {
+        "mainquest_41": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

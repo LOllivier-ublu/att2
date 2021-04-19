@@ -1,0 +1,60 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "title": {"translate":"Golden weapon break"},
+        "description": {"translate":"Destroy a golden weapon in battle"}
+    },
+    "parent": "att2:combat/break_weapon",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+                },
+    "criteria": {
+        "break_golden_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_sword",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_golden_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_shovel",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_golden_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_axe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        },
+        "break_golden_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_pickaxe",
+                    "durability": {"max": 2,"min": -1}
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_golden_sword",
+        "break_golden_shovel",
+        "break_golden_axe",
+        "break_golden_pickaxe"
+        ]
+    ]
+}

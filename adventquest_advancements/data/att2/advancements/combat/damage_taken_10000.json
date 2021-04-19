@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Scapegoat"},
+        "description": {"translate":"Take 10k damage"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/damage_taken_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 100
+                },
+    "criteria": {
+        "damage_taken_10000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

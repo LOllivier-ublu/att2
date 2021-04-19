@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"Full leather!"},
+        "description": {"translate":"Protect yourself with a full set of leather armor"}
+    },
+    "parent": "att2:adventure/leather_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 125
+                },
+    "criteria": {
+        "leather_armor_full": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

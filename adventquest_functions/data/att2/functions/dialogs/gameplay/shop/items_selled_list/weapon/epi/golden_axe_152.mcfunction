@@ -1,0 +1,14 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the weapon list items shop 			#
+#################################################################
+
+
+#FRENCH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<La honte de l'assassin>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_axe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5La honte de l'assassin\\\"}\",Lore:[\"§7Ainsi tes impitoyables actions ne te couvrirent\",\"§7nullement de la gloire à laquelle tu aspirais tant ?\",\"§7So your ruthless deeds did not in any way\",\"§7cover you with the glory you so longed for?\",\"§7STR§a3 §7SPD§a2 §7HAS§a1 §7LUC§c-2\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:33.02,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.77,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001}]},Damage:0}"},"extra":[{"text":" [2231 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/epi/golden_axe_152"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+
+
+#ENGLISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<La honte de l'assassin>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_axe\",Count:1,tag:{display:{Name:\"{\\\"text\\\":\\\"§5La honte de l'assassin\\\"}\",Lore:[\"§7Ainsi tes impitoyables actions ne te couvrirent\",\"§7nullement de la gloire à laquelle tu aspirais tant ?\",\"§7So your ruthless deeds did not in any way\",\"§7cover you with the glory you so longed for?\",\"§7STR§a3 §7SPD§a2 §7HAS§a1 §7LUC§c-2\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:33.02,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.77,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001}]},Damage:0}"},"extra":[{"text":" [2231 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/selling_items/weapon/epi/golden_axe_152"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}

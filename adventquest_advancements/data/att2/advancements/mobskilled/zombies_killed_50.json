@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "title": {"translate":"Zombies Eliminator"},
+        "description": {"translate":"Kill 50 Zombies"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/zombies_killed_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "zombies_killed_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

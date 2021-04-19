@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"The past is never dead, it’s not even past"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_37",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 12500
+    },
+    "criteria": {
+        "mainquest_38": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

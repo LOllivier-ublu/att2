@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_void"
+        },
+        "title": {"translate":"Boss Killer"},
+        "description": {"translate":"Kill 1 Boss"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 500
+    },
+    "criteria": {
+        "boss_killed_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

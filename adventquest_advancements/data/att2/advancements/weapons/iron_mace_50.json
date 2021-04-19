@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": {"translate":"Iron mace smash"},
+        "description": {"translate":"Strike 50 times with an iron mace"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/iron_mace_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "iron_mace_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

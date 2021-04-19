@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate":"Free bird!"},
+        "description": {"translate":"Across The Time"},
+        "frame": "goal"
+    },
+    "parent": "att2:story/mainquest_31",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 8000
+    },
+    "criteria": {
+        "mainquest_32": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

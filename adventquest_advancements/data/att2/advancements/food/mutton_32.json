@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_mutton"
+        },
+        "title": {"translate":"Mutton addict"},
+        "description": {"translate":"Eat 32 cooked mutton"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/mutton_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+            "mutton_32": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

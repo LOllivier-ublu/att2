@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "title": {"translate":"Wolfs Slayer"},
+        "description": {"translate":"Kill 250 Wolfs"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/wolfs_killed_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "wolfs_killed_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
