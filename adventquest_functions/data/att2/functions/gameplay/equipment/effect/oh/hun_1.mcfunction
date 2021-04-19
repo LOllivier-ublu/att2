@@ -3,6 +3,6 @@
 #Process effect on player           #
 #####################################
 
-scoreboard players set @s HUN_LVL_SH -1
-scoreboard players set @s TIMER_HUN_SH 20
+scoreboard players set @s HUN_LVL_OH -1
+scoreboard players set @s TIMER_HUN_OH 20
 

@@ -350,6 +350,10 @@ scoreboard objectives remove ICED
 
 scoreboard objectives remove HOLDING_FS
 
+scoreboard objectives remove IF_MAGASIN
+scoreboard objectives remove IF_COOLDOWN
+scoreboard objectives remove SHOOTING_IF
+
 scoreboard objectives remove HOLDING_KU
 
 scoreboard objectives remove HOLDING_LS
