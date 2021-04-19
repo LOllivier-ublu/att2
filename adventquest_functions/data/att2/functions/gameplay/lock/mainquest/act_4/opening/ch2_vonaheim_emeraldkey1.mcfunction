@@ -3,7 +3,7 @@
 #Manage lock opening for emeraldkey1 in vonaheim 		#
 #########################################################
 
-clear @s minecraft:emerald{display:{Lore:["§4Emerald Key"]}} 1
+clear @s minecraft:emerald{display:{"Lore":["{\"text\":\"§4Emerald Key\"}"]}} 1
 execute positioned -5614 167 -6495 run function att2:sound/misc/unlock1
 execute positioned -5614 167 -6495 run function att2:sound/door/simple_stone_door
 function att2:physicmod/reg1/vonaheim/emerald_door1

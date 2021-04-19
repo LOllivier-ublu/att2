@@ -10,7 +10,6 @@ execute as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincar
 
 function att2:sound/misc/mission_progress
 execute as @a run function att2:gameplay/checkpoint/effect
-spawnpoint @a -5130 163 -6756
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute in minecraft:overworld run spawnpoint @a -5130 163 -6756
 
 function att2:gameplay/boss/elcheol/korlaph/display_title

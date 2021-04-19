@@ -11,5 +11,4 @@ execute positioned -4636 58 -5521 run function att2:gameplay/boss/worlest/felrot
 execute if block -4636 58 -5504 minecraft:andesite run function att2:sound/door/large_stone_door
 execute if block -4636 58 -5504 minecraft:andesite run function att2:physicmod/reg1/worlest_temple_treasureroom_door
 function att2:gameplay/boss/worlest/felroth/destroy_minions
-spawnpoint @a -4636 57 -5490
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute in minecraft:overworld run spawnpoint @a -4636 57 -5490

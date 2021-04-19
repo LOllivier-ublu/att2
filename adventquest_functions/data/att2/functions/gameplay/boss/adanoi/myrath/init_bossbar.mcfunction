@@ -8,4 +8,3 @@ bossbar set minecraft:myrath style notched_12
 bossbar set minecraft:myrath players @a
 bossbar set minecraft:myrath color purple
 bossbar set minecraft:myrath name [{"text":"Myrath","color":"red"}]
-execute store result bossbar minecraft:myrath max run data get entity 00000000-0000-001c-0000-00000000001c Attributes[0].Base

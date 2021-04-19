@@ -8,4 +8,3 @@ bossbar set minecraft:scavenger style notched_12
 bossbar set minecraft:scavenger players @a
 bossbar set minecraft:scavenger color purple
 bossbar set minecraft:scavenger name [{"text":"Scavenger","color":"red"}]
-execute store result bossbar minecraft:scavenger max run data get entity 00000000-0000-019c-0000-00000000019c Attributes[0].Base

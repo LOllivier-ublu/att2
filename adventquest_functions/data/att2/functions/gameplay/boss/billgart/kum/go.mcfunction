@@ -20,7 +20,7 @@ execute if score Kum SQ53 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scorebo
 
 # Enable Bossbar storing health of Kum
 execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] store result bossbar minecraft:kum value run data get entity 00000000-0000-021c-0000-00000000021c Health
-execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] store result bossbar minecraft:kum max run data get entity 00000000-0000-021c-0000-00000000021c Attributes[0].Base
+execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] store result bossbar minecraft:kum max run data get entity 00000000-0000-021c-0000-00000000021c Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score SQ53 SIDEQUEST matches 1..99 as @a[x=-1532,y=30,z=-606,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/kum/display_title
@@ -37,7 +37,7 @@ execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=
 execute if score Kum SQ53 matches 0.. unless entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] run function att2:gameplay/boss/billgart/kum/fail
 
 # Testing if Kum died
-execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] unless entity @e[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,nbt={UUIDMost:540L,UUIDLeast:540L}] run function att2:gameplay/boss/billgart/kum/victory
+execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] unless entity @e[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,nbt={UUID:[I;0,540,0,540]}] run function att2:gameplay/boss/billgart/kum/victory
 
 # Player can quit the arena when Kum had been defeated
 execute if score Kum SQ53 matches -2 as @a[x=-1571,y=28,z=-606,dx=0,dy=2,dz=2,gamemode=adventure] at @s run tp @s -1574 28 -605

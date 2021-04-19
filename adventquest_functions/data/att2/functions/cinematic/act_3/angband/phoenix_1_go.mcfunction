@@ -5,7 +5,7 @@
 
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 65
 execute if score Neth0 TIMER matches 2 if score phoebius_PNJ DIALOG matches 16 run function att2:physicmod/reg2/phoenix/chest_opened
-execute if score Neth0 TIMER matches 2 as @a[nbt={Inventory:[{tag:{display:{Lore:["§6§oSeal of Lava"]}}}]}] run scoreboard players set Neth0 TIMER 3
+execute if score Neth0 TIMER matches 2 as @a[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§6§oSeal of Lava\"}"]}}}]}] run scoreboard players set Neth0 TIMER 3
 
 
 #=======================#

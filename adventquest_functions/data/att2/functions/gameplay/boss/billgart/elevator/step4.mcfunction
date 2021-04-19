@@ -4,9 +4,9 @@
 #####################################################################
 
 execute at @a run function att2:sound/misc/desintegration
-execute if score level DIFFICULTY matches -1 run summon minecraft:fireball -1239 80 -615 {ExplosionPower:5,direction:[0.0,-1.2,0.0]}
-execute if score level DIFFICULTY matches 0 run summon minecraft:fireball -1239 80 -615 {ExplosionPower:6,direction:[0.0,-1.2,0.0]}
-execute if score level DIFFICULTY matches 1 run summon minecraft:fireball -1239 80 -615 {ExplosionPower:7,direction:[0.0,-1.2,0.0]}
+execute if score level DIFFICULTY matches -1 run summon minecraft:fireball -1239 80 -615 {ExplosionPower:5,Motion:[0.0,-1.2,0.0]}
+execute if score level DIFFICULTY matches 0 run summon minecraft:fireball -1239 80 -615 {ExplosionPower:6,Motion:[0.0,-1.2,0.0]}
+execute if score level DIFFICULTY matches 1 run summon minecraft:fireball -1239 80 -615 {ExplosionPower:7,Motion:[0.0,-1.2,0.0]}
 
 execute positioned -1239 76 -615 run function att2:summon/reg_3/golem4_class16
 execute positioned -1237 76 -613 run function att2:summon/reg_3/elevator_minions1

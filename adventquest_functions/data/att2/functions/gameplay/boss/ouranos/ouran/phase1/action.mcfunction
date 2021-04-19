@@ -10,28 +10,28 @@ execute if score OuranPhase1_timer1 OURANOS matches 500 run scoreboard players s
 execute if score OuranPhase1_timer1 OURANOS matches 500 as 00000000-0000-017b-0000-00000000001b at @s run teleport @s 7954 133 6829 180 0
 execute if score OuranPhase1_timer1 OURANOS matches 500 run scoreboard players set OuranPhase1_timer2 OURANOS 1
 execute if score OuranPhase1_timer1 OURANOS matches 501 as 00000000-0000-017b-0000-00000000001b at @s anchored feet facing 7954 134 6710 run teleport @s ^ ^ ^0.5 180 0
-execute if score OuranPhase1_timer1 OURANOS matches 501 if entity @e[nbt={UUIDMost:379L,UUIDLeast:27L},x=7954,y=134,z=6710,distance=..7] run scoreboard players add OuranPhase1_timer1 OURANOS 1
+execute if score OuranPhase1_timer1 OURANOS matches 501 if entity @e[nbt={UUID:[I;0,379,0,27]},x=7954,y=134,z=6710,distance=..7] run scoreboard players add OuranPhase1_timer1 OURANOS 1
 execute if score OuranPhase1_timer1 OURANOS matches 502 run scoreboard players set OuranPhase1_timer2 OURANOS 0
 execute if score OuranPhase1_timer1 OURANOS matches 550 as @e[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,type=minecraft:fireball] run kill @s
 execute if score OuranPhase1_timer1 OURANOS matches 1000 positioned 7979 137 6772 run function att2:gameplay/boss/ouranos/ouran/tp_effect
 execute if score OuranPhase1_timer1 OURANOS matches 1000 run scoreboard players set OuranPhase1_timer2 OURANOS 1
 execute if score OuranPhase1_timer1 OURANOS matches 1000 as 00000000-0000-017b-0000-00000000002b at @s run teleport @s 7979 137 6772 90 0
 execute if score OuranPhase1_timer1 OURANOS matches 1001 as 00000000-0000-017b-0000-00000000002b at @s anchored feet facing 7897 138 6772 run teleport @s ^ ^ ^0.5 90 0
-execute if score OuranPhase1_timer1 OURANOS matches 1001 if entity @e[nbt={UUIDMost:379L,UUIDLeast:43L},x=7897,y=138,z=6772,distance=..7] run scoreboard players add OuranPhase1_timer1 OURANOS 1
+execute if score OuranPhase1_timer1 OURANOS matches 1001 if entity @e[nbt={UUID:[I;0,379,0,43]},x=7897,y=138,z=6772,distance=..7] run scoreboard players add OuranPhase1_timer1 OURANOS 1
 execute if score OuranPhase1_timer1 OURANOS matches 1002 run scoreboard players set OuranPhase1_timer2 OURANOS 0
 execute if score OuranPhase1_timer1 OURANOS matches 1050 as @e[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,type=minecraft:fireball] run kill @s
 execute if score OuranPhase1_timer1 OURANOS matches 1500 positioned 7993 136 6732 run function att2:gameplay/boss/ouranos/ouran/tp_effect
 execute if score OuranPhase1_timer1 OURANOS matches 1500 run scoreboard players set OuranPhase1_timer2 OURANOS 1
 execute if score OuranPhase1_timer1 OURANOS matches 1500 as 00000000-0000-017b-0000-00000000003b at @s run teleport @s 7993 136 6732 45 0
 execute if score OuranPhase1_timer1 OURANOS matches 1501 as 00000000-0000-017b-0000-00000000003b at @s anchored feet facing 7915 137 6810 run teleport @s ^ ^ ^0.5 45 0
-execute if score OuranPhase1_timer1 OURANOS matches 1501 if entity @e[nbt={UUIDMost:379L,UUIDLeast:59L},x=7915,y=137,z=6810,distance=..7] run scoreboard players add OuranPhase1_timer1 OURANOS 1
+execute if score OuranPhase1_timer1 OURANOS matches 1501 if entity @e[nbt={UUID:[I;0,379,0,59]},x=7915,y=137,z=6810,distance=..7] run scoreboard players add OuranPhase1_timer1 OURANOS 1
 execute if score OuranPhase1_timer1 OURANOS matches 1502 run scoreboard players set OuranPhase1_timer2 OURANOS 0
 execute if score OuranPhase1_timer1 OURANOS matches 1550 as @e[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,type=minecraft:fireball] run kill @s
 execute if score OuranPhase1_timer1 OURANOS matches 2000 positioned 7921 135 6739 run function att2:gameplay/boss/ouranos/ouran/tp_effect
 execute if score OuranPhase1_timer1 OURANOS matches 2000 run scoreboard players set OuranPhase1_timer2 OURANOS 1
 execute if score OuranPhase1_timer1 OURANOS matches 2000 as 00000000-0000-017b-0000-00000000004b at @s run teleport @s 7921 135 6739 -45 0
 execute if score OuranPhase1_timer1 OURANOS matches 2001 as 00000000-0000-017b-0000-00000000004b at @s anchored feet facing 7996 136 6814 run teleport @s ^ ^ ^0.5 -45 0
-execute if score OuranPhase1_timer1 OURANOS matches 2001 if entity @e[nbt={UUIDMost:379L,UUIDLeast:75L},x=7996,y=136,z=6814,distance=..7] run scoreboard players add OuranPhase1_timer1 OURANOS 1
+execute if score OuranPhase1_timer1 OURANOS matches 2001 if entity @e[nbt={UUID:[I;0,379,0,75]},x=7996,y=136,z=6814,distance=..7] run scoreboard players add OuranPhase1_timer1 OURANOS 1
 execute if score OuranPhase1_timer1 OURANOS matches 2002 run scoreboard players set OuranPhase1_timer2 OURANOS 0
 
 # Boss Thunder Attack + Summon minions
@@ -75,10 +75,10 @@ execute if score OuranPhase1_timer1 OURANOS matches 2002..2010 run scoreboard pl
 execute if score OuranPhase1_timer1 OURANOS matches 2011.. run scoreboard players set OuranPhase1_timer1 OURANOS 0
 
 execute if score OuranPhase1_timer2 OURANOS matches 1..30 run scoreboard players add OuranPhase1_timer2 OURANOS 1
-execute if score OuranPhase1_timer2 OURANOS matches 20 as 00000000-0000-017b-0000-00000000001b at @s run summon minecraft:fireball ~ ~-3 ~ {direction:[0.0,-2.5,0.0],ExplosionPower:3}
-execute if score OuranPhase1_timer2 OURANOS matches 20 as 00000000-0000-017b-0000-00000000002b at @s run summon minecraft:fireball ~ ~-3 ~ {direction:[0.0,-2.5,0.0],ExplosionPower:3}
-execute if score OuranPhase1_timer2 OURANOS matches 20 as 00000000-0000-017b-0000-00000000003b at @s run summon minecraft:fireball ~ ~-3 ~ {direction:[0.0,-2.5,0.0],ExplosionPower:3}
-execute if score OuranPhase1_timer2 OURANOS matches 20 as 00000000-0000-017b-0000-00000000004b at @s run summon minecraft:fireball ~ ~-3 ~ {direction:[0.0,-2.5,0.0],ExplosionPower:3}
+execute if score OuranPhase1_timer2 OURANOS matches 20 as 00000000-0000-017b-0000-00000000001b at @s run summon minecraft:fireball ~ ~-3 ~ {Motion:[0.0,-2.5,0.0],ExplosionPower:3}
+execute if score OuranPhase1_timer2 OURANOS matches 20 as 00000000-0000-017b-0000-00000000002b at @s run summon minecraft:fireball ~ ~-3 ~ {Motion:[0.0,-2.5,0.0],ExplosionPower:3}
+execute if score OuranPhase1_timer2 OURANOS matches 20 as 00000000-0000-017b-0000-00000000003b at @s run summon minecraft:fireball ~ ~-3 ~ {Motion:[0.0,-2.5,0.0],ExplosionPower:3}
+execute if score OuranPhase1_timer2 OURANOS matches 20 as 00000000-0000-017b-0000-00000000004b at @s run summon minecraft:fireball ~ ~-3 ~ {Motion:[0.0,-2.5,0.0],ExplosionPower:3}
 execute if score OuranPhase1_timer2 OURANOS matches 31.. run scoreboard players set OuranPhase1_timer2 OURANOS 1
 
 execute if score OuranPhase1_timer3 OURANOS matches 0..40 run scoreboard players add OuranPhase1_timer3 OURANOS 1

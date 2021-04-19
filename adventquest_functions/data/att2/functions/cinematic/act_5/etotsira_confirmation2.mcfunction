@@ -3,7 +3,6 @@
 #Process cinematic etotsira_confirmation   		 #
 ##################################################
 
-spawnpoint @a -5030 76 -5042
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute in minecraft:overworld run spawnpoint @a -5030 76 -5042
 tp @a -5030 76 -5042
 scoreboard players set Mainquest SIDEQUEST 291

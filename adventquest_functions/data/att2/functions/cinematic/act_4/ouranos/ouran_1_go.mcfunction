@@ -26,18 +26,18 @@ execute if score Real0 TIMER matches 320 run function att2:physicmod/reg4/ouran_
 execute if score Real0 TIMER matches 320 positioned 7610 131 6765 run function att2:cinematic/act_4/ouranos/ourangate_effect1
 execute if score Real0 TIMER matches 340 run function att2:physicmod/reg4/ouran_portal_center4
 execute if score Real0 TIMER matches 340 positioned 7610 123 6779 run function att2:cinematic/act_4/ouranos/ourangate_effect1
-execute if score Real0 TIMER matches 340 run function att2:physicmod/reg4/ouran_portal_center5
-execute if score Real0 TIMER matches 340 positioned 7610 131 6779 run function att2:cinematic/act_4/ouranos/ourangate_effect1
-execute if score Real0 TIMER matches 350 run function att2:physicmod/reg4/ouran_portal_center6
-execute if score Real0 TIMER matches 350 at @a run function att2:sound/door/simple_glassdoor
-execute if score Real0 TIMER matches 360 run function att2:physicmod/reg4/ouran_portal_center7
-execute if score Real0 TIMER matches 360 at @a run function att2:sound/door/structure_falling
-execute if score Real0 TIMER matches 370 run function att2:physicmod/reg4/ouran_portal_center8
-execute if score Real0 TIMER matches 370 at @a run function att2:sound/door/structure_falling
-execute if score Real0 TIMER matches 380 run function att2:physicmod/reg4/ouran_portal_center9
+execute if score Real0 TIMER matches 360 run function att2:physicmod/reg4/ouran_portal_center5
+execute if score Real0 TIMER matches 360 positioned 7610 131 6779 run function att2:cinematic/act_4/ouranos/ourangate_effect1
+execute if score Real0 TIMER matches 370 run function att2:physicmod/reg4/ouran_portal_center6
+execute if score Real0 TIMER matches 370 at @a run function att2:sound/door/simple_glassdoor
+execute if score Real0 TIMER matches 380 run function att2:physicmod/reg4/ouran_portal_center7
 execute if score Real0 TIMER matches 380 at @a run function att2:sound/door/structure_falling
-execute if score Real0 TIMER matches 390 run function att2:physicmod/reg4/ouran_portal_center10
+execute if score Real0 TIMER matches 390 run function att2:physicmod/reg4/ouran_portal_center8
 execute if score Real0 TIMER matches 390 at @a run function att2:sound/door/structure_falling
+execute if score Real0 TIMER matches 400 run function att2:physicmod/reg4/ouran_portal_center9
+execute if score Real0 TIMER matches 400 at @a run function att2:sound/door/structure_falling
+execute if score Real0 TIMER matches 410 run function att2:physicmod/reg4/ouran_portal_center10
+execute if score Real0 TIMER matches 410 at @a run function att2:sound/door/structure_falling
 execute if score Real0 TIMER matches 450 at @a run function att2:sound/misc/resolution
 execute if score Real0 TIMER matches 500 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
 execute if score Real0 TIMER matches 501 run scoreboard players set Mainquest SIDEQUEST 216

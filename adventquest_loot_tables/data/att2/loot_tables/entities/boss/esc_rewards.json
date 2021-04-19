@@ -26,7 +26,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§e§oPetite pièce\\\"}\",Lore:[\"§e§oSmall coin\",\"§6+1 Chronoton\"]}}"
+                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§e§oPetite pièce\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§e§oSmall coin\\\"}\",\"{\\\"text\\\":\\\"§6+1 Chronoton\\\"}\"]}}"
                         }
                     ]
                 },
@@ -50,7 +50,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§e§oGrande pièce\\\"}\",Lore:[\"§e§oBig coin\",\"§6+5 Chronotons\"]}}"
+                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§e§oGrande pièce\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§e§oBig coin\\\"}\",\"{\\\"text\\\":\\\"§6+5 Chronotons\\\"}\"]}}"
                         }
                     ]
                 },
@@ -74,7 +74,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§b§oDiamant\\\"}\",Lore:[\"§b§oDiamond\",\"§6+50 Chronotons\"]}}"
+                            "tag": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§b§oDiamant\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§b§oDiamond\\\"}\",\"{\\\"text\\\":\\\"§6+50 Chronotons\\\"}\"]}}"
                         }
                     ]
                 },
@@ -98,7 +98,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"unk\",display:{Name:\"\\\"§d§oEcaille Souveraine du Chaos\\\"\",Lore:[\"§5§oPrecious!!\",\"§5Very, VERY, Precious...\"]}}"
+                            "tag": "{EquipmentType:\"misc\",Rarity:\"unk\",display:{Name:\"\\\"§d§oEcaille Souveraine du Chaos\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§5§oPrecious!!\\\"}\",\"{\\\"text\\\":\\\"§5Very, VERY, Precious...\\\"}\"]}}"
                         }
                     ]
                 }

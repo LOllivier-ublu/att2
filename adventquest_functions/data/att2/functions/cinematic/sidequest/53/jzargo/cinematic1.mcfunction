@@ -4,15 +4,15 @@
 #############################################################
 
 execute if score Real1 TIMER matches 1 run function att2:dialogs/sidequest/sq53/jzargo_1
-execute if score Real1 TIMER matches 50 positioned -1509 30 -602 run summon minecraft:fireball ~ ~ ~ {ExplosionPower:3,direction:[-1.0,0.7,-0.7]}
+execute if score Real1 TIMER matches 50 positioned -1509 30 -602 run summon minecraft:fireball ~ ~ ~ {ExplosionPower:3,Motion:[-1.0,0.7,-0.7]}
 execute if score Real1 TIMER matches 50 positioned -1509 30 -602 run function att2:sound/misc/fireball_launch
 execute if score Real1 TIMER matches 50 run function att2:dialogs/sidequest/sq53/player_1
 execute if score Real1 TIMER matches 100 positioned -1509 30 -602 run function att2:sound/misc/fire_launch
-execute if score Real1 TIMER matches 100 positioned -1509 30 -602 run summon minecraft:fireball ~ ~ ~ {ExplosionPower:0,direction:[0.0,0.0,0.0]}
+execute if score Real1 TIMER matches 100 positioned -1509 30 -602 run summon minecraft:fireball ~ ~ ~ {ExplosionPower:0,Motion:[0.0,0.0,0.0]}
 execute if score Real1 TIMER matches 120 positioned -1509 30 -602 run particle minecraft:lava ~ ~ ~ 0.25 0.25 0.25 0.5 50 normal
 execute if score Real1 TIMER matches 120 positioned -1509 30 -602 run function att2:sound/misc/fire_extinguish
 execute if score Real1 TIMER matches 120 positioned -1509 30 -602 as @e[type=minecraft:fireball,distance=..3] at @s run kill @s
-execute if score Real1 TIMER matches 175 positioned -1509 30 -602 run summon minecraft:fireball ~ ~ ~ {ExplosionPower:3,direction:[-0.35,0.05,-0.1]}
+execute if score Real1 TIMER matches 175 positioned -1509 30 -602 run summon minecraft:fireball ~ ~ ~ {ExplosionPower:3,Motion:[-0.35,0.05,-0.1]}
 execute if score Real1 TIMER matches 175 positioned -1509 30 -602 run function att2:sound/misc/fireball_launch
 execute if score Real1 TIMER matches 175 run function att2:dialogs/sidequest/sq53/jzargo_2
 execute if score Real1 TIMER matches 250 run setblock -1515 30 -603 minecraft:barrier

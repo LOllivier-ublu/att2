@@ -19,7 +19,7 @@ execute if score Naër OURANOS matches 0.. as @a[scores={MUSIC_BOSS=1..}] run sc
 
 # Enable Bossbar storing health of Naër
 execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] store result bossbar minecraft:naer value run data get entity 00000000-0000-016b-0000-00000000016b Health
-execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] store result bossbar minecraft:naer max run data get entity 00000000-0000-016b-0000-00000000016b Attributes[0].Base
+execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] store result bossbar minecraft:naer max run data get entity 00000000-0000-016b-0000-00000000016b Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 200 as @a[x=7711,y=182,z=6092,dx=-8,dy=3,dz=0,gamemode=adventure] at @s unless entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/ouranos/naer/display_title
@@ -36,7 +36,7 @@ execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=1
 execute if score Naër OURANOS matches 0.. unless entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] run function att2:gameplay/boss/ouranos/naer/fail
 
 # Testing if Naër died
-execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] unless entity @e[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,nbt={UUIDMost:363L,UUIDLeast:363L}] run function att2:gameplay/boss/ouranos/naer/victory
+execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] unless entity @e[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,nbt={UUID:[I;0,363,0,363]}] run function att2:gameplay/boss/ouranos/naer/victory
 
 # Player can quit the arena when Naër had been defeated
 execute if score Naër OURANOS matches -2 as @a[x=7711,y=182,z=5982,dx=-8,dy=3,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~-2

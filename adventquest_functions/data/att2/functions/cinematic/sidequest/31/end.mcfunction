@@ -4,7 +4,7 @@
 #################################################################
 
 scoreboard players add @a SIDEQUEST 1
-clear @a minecraft:note_block{display:{Lore:["§4§oCargo of food"]}} 64
+clear @a minecraft:note_block{display:{"Lore":["{\"text\":\"§4§oCargo of food\"}"]}} 64
 scoreboard players set SQ31 SIDEQUEST 100
 function att2:dialogs/sidequest/completed_effect
 scoreboard players set marlene_PNJ DIALOG 4

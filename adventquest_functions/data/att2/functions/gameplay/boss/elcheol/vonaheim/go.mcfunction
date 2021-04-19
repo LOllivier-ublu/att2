@@ -18,7 +18,7 @@ execute if score Vonaheim VONAHEIM matches 0.. as @a[scores={MUSIC_BOSS=1..}] ru
 
 # Enable Bossbar storing health of Vonaheim
 execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] store result bossbar minecraft:vonaheim value run data get entity 00000000-0000-006b-0000-00000000006b Health
-execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] store result bossbar minecraft:vonaheim max run data get entity 00000000-0000-006b-0000-00000000006b Attributes[0].Base
+execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] store result bossbar minecraft:vonaheim max run data get entity 00000000-0000-006b-0000-00000000006b Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Creating ice and melting ice under player (in boss area deep down)
 execute if score Vonaheim VONAHEIM matches 0.. at @a[x=-5585,y=78,z=-6481,dx=-60,dy=2,dz=-60,gamemode=adventure] if block ~ ~-1 ~ minecraft:barrier run function att2:physicmod/reg1/vonaheim/center_n/boss_player_ice
@@ -55,7 +55,7 @@ execute if score Vonaheim VONAHEIM matches 1 if entity @a[x=-5632,y=200,z=-6528,
 execute if score Vonaheim VONAHEIM matches 0.. unless entity @a[x=-5643,y=78,z=-6539,dx=58,dy=87,dz=58,gamemode=adventure] unless entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] unless entity @a[x=-5617,y=166,z=-6507,dx=6,dy=33,dz=-6,gamemode=adventure] run function att2:gameplay/boss/elcheol/vonaheim/fail
 
 # Testing if Vonaheim died
-execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] unless entity @e[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,nbt={UUIDMost:107L,UUIDLeast:107L}] run function att2:gameplay/boss/elcheol/vonaheim/victory
+execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] unless entity @e[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,nbt={UUID:[I;0,107,0,107]}] run function att2:gameplay/boss/elcheol/vonaheim/victory
 
 # Player can quit the arena when Vonaheim had been defeated
 execute if score Vonaheim VONAHEIM matches -2 as @a[x=-5615,y=189,z=-6528,dx=2,dy=2,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~-3

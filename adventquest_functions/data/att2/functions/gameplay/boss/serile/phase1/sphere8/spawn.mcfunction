@@ -14,4 +14,3 @@ bossbar set minecraft:sphere8 style notched_12
 bossbar set minecraft:sphere8 players @a
 bossbar set minecraft:sphere8 color purple
 bossbar set minecraft:sphere8 name [{"text":"☼","color":"red"}]
-execute store result bossbar minecraft:sphere8 max run data get entity 00000000-0000-022b-0000-00000000008b Attributes[0].Base

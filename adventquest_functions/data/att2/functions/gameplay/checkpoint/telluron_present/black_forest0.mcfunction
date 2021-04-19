@@ -4,5 +4,5 @@
 #################################################
 
 function att2:gameplay/checkpoint/effect
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
-spawnpoint @a -4575 70 -5757
+
+execute in minecraft:overworld run spawnpoint @a -4575 70 -5757

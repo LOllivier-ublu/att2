@@ -21,7 +21,7 @@ function att2:physicmod/reg1/source/arena_reset
 function att2:gameplay/boss/serile/phase3/attack/minion/kill
 kill 00000000-0000-022b-0000-00000000010b
 execute as @e[type=minecraft:armor_stand,x=1543.0,y=25,z=1495.0,distance=..35] at @s run kill @s
-execute as @e[type=minecraft:zombie_pigman,x=1543.0,y=25,z=1495.0,distance=..35] at @s run kill @s
+execute as @e[type=minecraft:zombified_piglin,x=1543.0,y=25,z=1495.0,distance=..35] at @s run kill @s
 function att2:gameplay/boss/serile/phase3/init_bossbar
 function att2:gameplay/checkpoint/telluron_present/ryliath_town0
 execute as @a[x=1543.0,y=25,z=1495.0,distance=..50,gamemode=adventure] run function att2:gameplay/boss/serile/display_title

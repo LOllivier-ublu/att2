@@ -1,16 +1,12 @@
 {
-	"type": "crafting_shapeless",
-	"ingredients": [
-    					{
-    						"item": "minecraft:barrier"
-    					}
-    			   ],
-    "result": {
-    "item": "minecraft:air"
-  			  },
-	"criteria": {
-		"impossible":{
-			"trigger":"minecraft:impossible"
-					 }
-				}
+  "type": "minecraft:crafting_shapeless",
+  "group": "light_gray_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:azure_bluet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_gray_dye"
+  }
 }

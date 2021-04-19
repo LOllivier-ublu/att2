@@ -3,7 +3,7 @@
 #Manage intake connecting thread in Mornith mine #
 ##################################################
 
-clear @s minecraft:string{display:{Lore:["§4§oConnecting thread"]}} 1
+clear @s minecraft:string{display:{"Lore":["{\"text\":\"§4§oConnecting thread\"}"]}} 1
 scoreboard players add intake_thread SQ7 1
 execute positioned -4267 16 -6084 run function att2:gameplay/intake/effect
 

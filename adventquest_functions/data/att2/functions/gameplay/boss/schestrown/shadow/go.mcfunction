@@ -24,7 +24,7 @@ execute if score Shadow SQ38 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scor
 
 # Enable Bossbar storing health of Shadow
 execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] store result bossbar minecraft:shadow value run data get entity 00000000-0000-008c-0000-00000000008c Health
-execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] store result bossbar minecraft:shadow max run data get entity 00000000-0000-008c-0000-00000000008c Attributes[0].Base
+execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] store result bossbar minecraft:shadow max run data get entity 00000000-0000-008c-0000-00000000008c Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score SQ38 SIDEQUEST matches 3.. as @a[x=-4389,y=54,z=-5055,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/schestrown/shadow/display_title
@@ -39,13 +39,13 @@ execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-2
 
 # Process Spike hole Shadow or Player death
 execute if score Shadow SQ38 matches -1.. as @a[x=-4380,y=42,z=-5059,dx=10,dy=2,dz=10,gamemode=adventure] at @s run kill @s
-execute if entity @e[x=-4380,y=42,z=-5059,dx=10,dy=2,dz=10,nbt={UUIDMost:156L,UUIDLeast:156L}] run function att2:gameplay/boss/schestrown/shadow/choose_pos
+execute if entity @e[x=-4380,y=42,z=-5059,dx=10,dy=2,dz=10,nbt={UUID:[I;0,156,0,156]}] run function att2:gameplay/boss/schestrown/shadow/choose_pos
 
 # Player failed destroying Shadow and died
 execute if score Shadow SQ38 matches 0.. unless entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] run function att2:gameplay/boss/schestrown/shadow/fail
 
 # Testing if Shadow died
-execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] unless entity @e[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,nbt={UUIDMost:140L,UUIDLeast:140L}] run function att2:gameplay/boss/schestrown/shadow/victory
+execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] unless entity @e[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,nbt={UUID:[I;0,140,0,140]}] run function att2:gameplay/boss/schestrown/shadow/victory
 
 # Player can quit the arena when Shadow had been defeated
 execute if score Shadow SQ38 matches -2 as @a[x=-4363,y=54,z=-5055,dx=0,dy=2,dz=2,gamemode=adventure] at @s run tp @s ~3 ~ ~

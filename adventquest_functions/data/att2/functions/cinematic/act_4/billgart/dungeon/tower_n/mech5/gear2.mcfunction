@@ -8,7 +8,7 @@ execute in minecraft:the_end run function att2:physicmod/reg3/dungeon/tower_n/me
 execute in minecraft:the_end positioned -1239 63 -691 run function att2:sound/misc/unlock1
 execute in minecraft:the_end positioned -1239 63 -691 run function att2:sound/misc/gears
 execute in minecraft:the_end positioned -1239 63 -691 run function att2:sound/misc/resolution
-clear @s minecraft:tripwire_hook{display:{Lore:["§4§oGear"]}} 1
+clear @s minecraft:tripwire_hook{display:{"Lore":["{\"text\":\"§4§oGear\"}"]}} 1
 scoreboard players set tower_n_mech5 BILLGART 1
 
 execute positioned -1224 60 -696 run function att2:summon/reg_3/golem2_class14

@@ -20,7 +20,7 @@ execute if score Rodmat SQ45 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scor
 
 # Enable Bossbar storing health of Rodmat
 execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] store result bossbar minecraft:rodmat value run data get entity 00000000-0000-011c-0000-00000000011c Health
-execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] store result bossbar minecraft:rodmat max run data get entity 00000000-0000-011c-0000-00000000011c Attributes[0].Base
+execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] store result bossbar minecraft:rodmat max run data get entity 00000000-0000-011c-0000-00000000011c Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score SQ45 SIDEQUEST matches 1..99 as @a[x=3791,y=89,z=4385,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/angband/rodmat/display_title
@@ -37,7 +37,7 @@ execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,d
 execute if score Rodmat SQ45 matches 0.. unless entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] run function att2:gameplay/boss/angband/rodmat/fail
 
 # Testing if Rodmat died
-execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] unless entity @e[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,nbt={UUIDMost:284L,UUIDLeast:284L}] run function att2:gameplay/boss/angband/rodmat/victory
+execute if score Rodmat SQ45 matches 0.. if entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] unless entity @e[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,nbt={UUID:[I;0,284,0,284]}] run function att2:gameplay/boss/angband/rodmat/victory
 
 # Player can quit the arena when Rodmat had been defeated
 execute if score Rodmat SQ45 matches -2 run tp @a[x=3735,y=89,z=4385,dx=0,dy=2,dz=2,gamemode=adventure] 3733 89 4386

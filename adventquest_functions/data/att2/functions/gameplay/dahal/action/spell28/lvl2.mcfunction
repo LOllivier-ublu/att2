@@ -3,7 +3,7 @@
 #Spectral bow lvl2												#
 #################################################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",EquipmentID:"spectralbow",Rarity:"com",Manufacturer:"traditional",Unbreakable:1,display:{Name:"\"§7Arc spectral\"",Lore:["§7Etends l'influence de ton maître","§7pour 30 secondes.","§7Extend your master's influence","§7for 30 seconds."]},Damage:382,Enchantments:[{id:"minecraft:power",lvl:2s},{id:"minecraft:infinity",lvl:1s}]} 1
+give @s minecraft:bow{EquipmentType:"rangeWeapon",EquipmentID:"spectralbow",Rarity:"com",Manufacturer:"traditional",Unbreakable:1,display:{Name:"\"§7Arc spectral\"","Lore":["{\"text\":\"§7Etends l'influence de ton maître\"}","{\"text\":\"§7pour 30 secondes.\"}","{\"text\":\"§7Extend your master's influence\"}","{\"text\":\"§7for 30 seconds."]},Damage:382,Enchantments:[{id:"minecraft:power",lvl:2s},{id:"minecraft:infinity",lvl:1s}]} 1
 
 scoreboard players remove @s DAHAL 45
 function att2:gameplay/dahal/action/spell28/cooldown

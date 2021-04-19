@@ -28,7 +28,7 @@ execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 120 r
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 120 as @a run function att2:sound/misc/arrow_shoot
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 150 run summon minecraft:arrow -5345 131 -6315 {Fire:50,Motion:[-0.9,0.35,0.4],damage:2.0,pickup:1}
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 150 as @a run function att2:sound/misc/arrow_shoot
-execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 200 run summon minecraft:small_fireball -5360 118 -6300 {direction:[-1.0,-0.45,-1.2]}
+execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 200 run summon minecraft:small_fireball -5360 118 -6300 {Motion:[-1.0,-0.45,-1.2]}
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 200 as @a run function att2:sound/misc/arrow_shoot
 
 execute if score Wave EOLORION matches 1 if score Attack1 EOLORION matches 300.. run scoreboard players set Attack1 EOLORION 0
@@ -36,13 +36,13 @@ execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 800..
 execute if score Wave EOLORION matches 1..3 if score Attack1 EOLORION matches 0.. run scoreboard players add Attack1 EOLORION 1
 
 # Wave 2 Bob L. Attack defending the gate
-execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 20 run summon minecraft:fireball -5360 118 -6300 {direction:[-1.8,-0.3,-0.9],ExplosionPower:3}
+execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 20 run summon minecraft:fireball -5360 118 -6300 {Motion:[-1.8,-0.3,-0.9],ExplosionPower:3}
 execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 20 positioned -5360 118 -6300 run function att2:sound/misc/fireball_launch
-execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 80 run summon minecraft:fireball -5360 118 -6300 {direction:[-2.0,-0.4,-1.4],ExplosionPower:3}
+execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 80 run summon minecraft:fireball -5360 118 -6300 {Motion:[-2.0,-0.4,-1.4],ExplosionPower:3}
 execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 80 positioned -5360 118 -6300 run function att2:sound/misc/fireball_launch
-execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 140 run summon minecraft:fireball -5360 118 -6300 {direction:[-1.7,-0.5,-0.4],ExplosionPower:3}
+execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 140 run summon minecraft:fireball -5360 118 -6300 {Motion:[-1.7,-0.5,-0.4],ExplosionPower:3}
 execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 140 positioned -5360 118 -6300 run function att2:sound/misc/fireball_launch
-execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 200 run summon minecraft:fireball -5360 118 -6300 {direction:[-2.0,-0.2,-0.8],ExplosionPower:3}
+execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 200 run summon minecraft:fireball -5360 118 -6300 {Motion:[-2.0,-0.2,-0.8],ExplosionPower:3}
 execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 200 positioned -5360 118 -6300 run function att2:sound/misc/fireball_launch
-execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 260 run summon minecraft:fireball -5360 118 -6300 {direction:[-1.8,-0.3,-0.3],ExplosionPower:3}
+execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 260 run summon minecraft:fireball -5360 118 -6300 {Motion:[-1.8,-0.3,-0.3],ExplosionPower:3}
 execute if score Wave EOLORION matches 3 if score Attack1 EOLORION matches 260 positioned -5360 118 -6300 run function att2:sound/misc/fireball_launch

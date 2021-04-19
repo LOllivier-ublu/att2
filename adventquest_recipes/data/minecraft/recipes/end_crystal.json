@@ -1,16 +1,22 @@
 {
-	"type": "crafting_shapeless",
-	"ingredients": [
-    					{
-    						"item": "minecraft:barrier"
-    					}
-    			   ],
-    "result": {
-    "item": "minecraft:air"
-  			  },
-	"criteria": {
-		"impossible":{
-			"trigger":"minecraft:impossible"
-					 }
-				}
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:ghast_tear"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal"
+  }
 }

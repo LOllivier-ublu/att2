@@ -31,6 +31,7 @@ execute if score Neth0 TIMER matches 75 at @a[scores={DIMENSION=6}] run function
 execute if score Neth0 TIMER matches 175 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/war_1_action_1
 execute if score Neth0 TIMER matches 175 in minecraft:the_nether run kill @e[type=minecraft:wither_skeleton,tag=!PNJ,x=3531,y=40,z=4419,dx=-12,dy=2,dz=-50]
 execute if score Neth0 TIMER matches 175 in minecraft:the_nether as @a[scores={DIMENSION=6}] run function att2:gameplay/speceffect/disincarnate/end
+execute if score Neth0 TIMER matches 180 in minecraft:the_nether run tp @a 3512 41 4458
 
 #Dialog
 execute if score Neth0 TIMER matches 200 run function att2:dialogs/mainquest/act_3/ch5_relgon_1
@@ -42,7 +43,7 @@ execute if score Neth0 TIMER matches 550 run function att2:dialogs/mainquest/act
 #Relgon Final Speech
 execute if score Neth0 TIMER matches 550 in minecraft:the_nether as 00000000-0000-007a-0000-00000000007a at @s run tp @s ~ ~ ~ ~ 0
 execute if score Neth0 TIMER matches 601 in minecraft:the_nether as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing 3525 41 4456 run teleport @s ^ ^ ^0.09 ~ ~
-execute if score Neth0 TIMER matches 601 in minecraft:the_nether if entity @e[nbt={UUIDMost:122L,UUIDLeast:122L},x=3525.5,y=41.0,z=4456.5,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 601 in minecraft:the_nether if entity @e[nbt={UUID:[I;0,122,0,122]},x=3525.5,y=41.0,z=4456.5,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 610 in minecraft:the_nether as 00000000-0000-007a-0000-00000000007a at @s run tp @s 3525 41 4456 180 ~
 execute if score Neth0 TIMER matches 610 run function att2:dialogs/mainquest/act_3/ch5_relgon_3
 execute if score Neth0 TIMER matches 850 run scoreboard players set Mainquest SIDEQUEST 77

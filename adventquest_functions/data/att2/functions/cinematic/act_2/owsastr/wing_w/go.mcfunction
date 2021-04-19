@@ -37,10 +37,10 @@ execute if score wingw_n OWSASTR matches 1 run scoreboard players set wingw_n OW
 
 # Step 1
 execute if score wingw OWSASTR matches 40 run function att2:physicmod/reg1/owsastr/wingw_waterraising0
-execute if score wingw OWSASTR matches 40 as @e[nbt={UUIDMost:65351L,UUIDLeast:65351L}] at @s run tp @s ~ ~1 ~
+execute if score wingw OWSASTR matches 40 as @e[nbt={UUID:[I;0,65351,0,65351]}] at @s run tp @s ~ ~1 ~
 execute if score wingw OWSASTR matches 40 positioned -4997 71 -4381 run function att2:sound/misc/water_brewing
 execute if score wingw OWSASTR matches 80 run function att2:physicmod/reg1/owsastr/wingw_waterraising1
-execute if score wingw OWSASTR matches 80 as @e[nbt={UUIDMost:65351L,UUIDLeast:65351L}] at @s run tp @s ~ ~1 ~
+execute if score wingw OWSASTR matches 80 as @e[nbt={UUID:[I;0,65351,0,65351]}] at @s run tp @s ~ ~1 ~
 execute if score wingw OWSASTR matches 80 positioned -4997 72 -4381 run function att2:sound/misc/water_brewing
 execute if score wingw OWSASTR matches 80 positioned -4999 76 -4387 run function att2:summon/reg_1/zombie0_class7
 execute if score wingw OWSASTR matches 80 positioned -4995 76 -4375 run function att2:summon/reg_1/zombie0_class7
@@ -55,10 +55,10 @@ execute if score wingw OWSASTR matches 80 positioned -5003 82 -4393 run function
 
 #Step 2
 execute if score wingw OWSASTR matches 120 run function att2:physicmod/reg1/owsastr/wingw_waterraising2
-execute if score wingw OWSASTR matches 120 as @e[nbt={UUIDMost:65351L,UUIDLeast:65351L}] at @s run tp @s ~ ~1 ~
+execute if score wingw OWSASTR matches 120 as @e[nbt={UUID:[I;0,65351,0,65351]}] at @s run tp @s ~ ~1 ~
 execute if score wingw OWSASTR matches 120 positioned -4997 73 -4381 run function att2:sound/misc/water_brewing
 execute if score wingw OWSASTR matches 160 run function att2:physicmod/reg1/owsastr/wingw_waterraising3
-execute if score wingw OWSASTR matches 160 as @e[nbt={UUIDMost:65351L,UUIDLeast:65351L}] at @s run tp @s ~ ~1 ~
+execute if score wingw OWSASTR matches 160 as @e[nbt={UUID:[I;0,65351,0,65351]}] at @s run tp @s ~ ~1 ~
 execute if score wingw OWSASTR matches 160 positioned -4997 74 -4381 run function att2:sound/misc/water_brewing
 execute if score wingw OWSASTR matches 160 positioned -5014 76 -4383 run function att2:summon/reg_1/cavespider0_class3
 execute if score wingw OWSASTR matches 160 positioned -5017 76 -4383 run function att2:summon/reg_1/cavespider0_class3

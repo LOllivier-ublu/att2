@@ -1,16 +1,12 @@
 {
-	"type": "crafting_shapeless",
-	"ingredients": [
-    					{
-    						"item": "minecraft:barrier"
-    					}
-    			   ],
-    "result": {
-    "item": "minecraft:air"
-  			  },
-	"criteria": {
-		"impossible":{
-			"trigger":"minecraft:impossible"
-					 }
-				}
+  "type": "minecraft:crafting_shapeless",
+  "group": "orange_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_dye"
+  }
 }

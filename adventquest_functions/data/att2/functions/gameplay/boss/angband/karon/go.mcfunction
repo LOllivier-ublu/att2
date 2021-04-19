@@ -20,7 +20,7 @@ execute if score Karon ANGOR matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scor
 
 # Enable Bossbar storing health of Karön
 execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] store result bossbar minecraft:karon value run data get entity 00000000-0000-005b-0000-00000000005b Health
-execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] store result bossbar minecraft:karon max run data get entity 00000000-0000-005b-0000-00000000005b Attributes[0].Base
+execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] store result bossbar minecraft:karon max run data get entity 00000000-0000-005b-0000-00000000005b Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 71 in minecraft:the_nether as @a[x=3509,y=123,z=4513,dx=0,dy=4,dz=4,gamemode=adventure] at @s unless entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/angband/karon/display_title
@@ -37,7 +37,7 @@ execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=
 execute if score Karon ANGOR matches 0.. in minecraft:the_nether unless entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] run function att2:gameplay/boss/angband/karon/fail
 
 # Testing if Karon died
-execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] unless entity @e[x=3538,y=123,z=4497,dx=-27,dy=4,dz=50,nbt={UUIDLeast:91L,UUIDMost:91L}] run function att2:gameplay/boss/angband/karon/victory
+execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] unless entity @e[x=3538,y=123,z=4497,dx=-27,dy=4,dz=50,nbt={UUID:[I;0,91,0,91]}] run function att2:gameplay/boss/angband/karon/victory
 
 # Player can quit the arena when Karon had been defeated
 execute if score Karon ANGOR matches -2 in minecraft:the_nether run tp @a[x=3538,y=123,z=4513,dx=0,dy=4,dz=4,gamemode=adventure] 3540 123 4515

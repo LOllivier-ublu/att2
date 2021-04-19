@@ -1,16 +1,23 @@
 {
-	"type": "crafting_shapeless",
-	"ingredients": [
-    					{
-    						"item": "minecraft:barrier"
-    					}
-    			   ],
-    "result": {
-    "item": "minecraft:air"
-  			  },
-	"criteria": {
-		"impossible":{
-			"trigger":"minecraft:impossible"
-					 }
-				}
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ]
+  ],
+  "result": {
+    "item": "minecraft:fire_charge",
+    "count": 3
+  }
 }

@@ -8,4 +8,3 @@ bossbar set minecraft:felroth style notched_12
 bossbar set minecraft:felroth players @a
 bossbar set minecraft:felroth color purple
 bossbar set minecraft:felroth name [{"text":"Felroth","color":"red"}]
-execute store result bossbar minecraft:felroth max run data get entity 00000000-0000-001b-0000-00000000001b Attributes[0].Base

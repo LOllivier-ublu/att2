@@ -3,7 +3,7 @@
 #Manage opening for Mysterious Crystal					#
 #########################################################
 
-clear @s minecraft:red_stained_glass{display:{Lore:["§4Mysterious Crystal"]}} 1
+clear @s minecraft:red_stained_glass{display:{"Lore":["{\"text\":\"§4Mysterious Crystal\"}"]}} 1
 scoreboard players set Neth1 TIMER 250
 scoreboard players set wingwd_mech7 ANGOR 1
 

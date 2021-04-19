@@ -13,7 +13,7 @@ scoreboard players set Total_point EXPLOIT 5953
 scoreboard objectives add statMOBSKILLED minecraft.custom:minecraft.mob_kills
 scoreboard objectives add statZOMBIEKILLED minecraft.killed:minecraft.zombie
 scoreboard objectives add statSKELETKILLED minecraft.killed:minecraft.skeleton
-scoreboard objectives add statPIGMANKILLED minecraft.killed:minecraft.zombie_pigman
+scoreboard objectives add statPIGMANKILLED minecraft.killed:minecraft.zombified_piglin
 scoreboard objectives add statCREEPKILLED minecraft.killed:minecraft.creeper
 scoreboard objectives add statHUSKKILLED minecraft.killed:minecraft.husk
 scoreboard objectives add statVINDICKILLED minecraft.killed:minecraft.vindicator

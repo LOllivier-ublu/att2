@@ -4,7 +4,7 @@
 ##################################################
 
 function att2:physicmod/reg1/owsastr/wings_button0
-execute as @e[nbt={UUIDMost:66319L,UUIDLeast:66319L}] run data merge entity @s {Pose:{LeftArm:[90f,0f,45f],RightArm:[90f,0f,45f]}}
+execute as @e[nbt={UUID:[I;0,66319,0,66319]}] run data merge entity @s {Pose:{LeftArm:[90f,0f,45f],RightArm:[90f,0f,45f]}}
 execute positioned -5010 89 -4301 run function att2:sound/misc/mirror_moving
 scoreboard players set wingS OWSASTR 1
 

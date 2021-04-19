@@ -1,24 +1,8 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:red_nether_bricks"
-        },
-        "title": {
-            "translate": "advancements.nether.root.title"
-        },
-        "description": {
-            "translate": "advancements.nether.root.description"
-        },
-        "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
-        "show_toast": false,
-        "announce_to_chat": false
-    },
+    "parent": "totally_not_possible",
     "criteria": {
-        "entered_nether": {
-            "trigger": "minecraft:impossible",
-            "conditions": {
-                "to": "the_nether"
-            }
+        "impossible": {
+            "trigger": "minecraft:impossible"
         }
     }
 }

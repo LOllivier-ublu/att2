@@ -17,7 +17,7 @@ execute if score Blobby SQ54 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scor
 
 # Enable Bossbar storing health of Blobby
 execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] store result bossbar minecraft:blobby value run data get entity 00000000-0000-022c-0000-00000000022c Health
-execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] store result bossbar minecraft:blobby max run data get entity 00000000-0000-022c-0000-00000000022c Attributes[0].Base
+execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] store result bossbar minecraft:blobby max run data get entity 00000000-0000-022c-0000-00000000022c Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score SQ54 SIDEQUEST matches 1..99 as @a[x=-5358,y=71,z=-5000,dx=6,dy=5,dz=0,gamemode=adventure] at @s unless entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/worlest/blobby/display_title
@@ -34,7 +34,7 @@ execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77
 execute if score Blobby SQ54 matches 0.. unless entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] run function att2:gameplay/boss/worlest/blobby/fail
 
 # Testing if Blobby died
-execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] unless entity @e[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,nbt={UUIDMost:556L,UUIDLeast:556L}] run function att2:gameplay/boss/worlest/blobby/victory
+execute if score Blobby SQ54 matches 0.. if entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] unless entity @e[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,nbt={UUID:[I;0,556,0,556]}] run function att2:gameplay/boss/worlest/blobby/victory
 
 # Player can quit the arena when Blobby had been defeated
 execute if score Blobby SQ54 matches -2 as @a[x=-5358,y=39,z=-4923,dx=4,dy=5,dz=0,gamemode=adventure] at @s run tp @s -5356 39 -4920

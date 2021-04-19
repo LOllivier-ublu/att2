@@ -34,15 +34,15 @@ execute if score GolemBoss BILLGART matches 1.. if score GolemBoss_timer1 BILLGA
 execute if score GolemBoss BILLGART matches 2.. if score GolemBoss_timer1 BILLGART matches 750 run function att2:gameplay/boss/billgart/golem/arrows
 execute if score GolemBoss BILLGART matches 3.. if score GolemBoss_timer1 BILLGART matches 1000 run function att2:gameplay/boss/billgart/golem/arrows
 
-execute if score GolemBoss BILLGART matches 1.. if score GolemBoss_timer1 BILLGART matches 100 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,direction:[-0.4,-0.7,-2.8]}
-execute if score GolemBoss BILLGART matches 2.. if score GolemBoss_timer1 BILLGART matches 200 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,direction:[-0.7,-0.7,-2.8]}
-execute if score GolemBoss BILLGART matches 3.. if score GolemBoss_timer1 BILLGART matches 300 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,direction:[-0.9,-0.9,-2.5]}
-execute if score GolemBoss BILLGART matches 1.. if score GolemBoss_timer1 BILLGART matches 400 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,direction:[-0.6,-0.9,-2.5]}
-execute if score GolemBoss BILLGART matches 2.. if score GolemBoss_timer1 BILLGART matches 500 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,direction:[-0.3,-0.9,-2.5]}
-execute if score GolemBoss BILLGART matches 3.. if score GolemBoss_timer1 BILLGART matches 600 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,direction:[0.1,-0.9,-2.5]}
-execute if score GolemBoss BILLGART matches 1.. if score GolemBoss_timer1 BILLGART matches 700 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,direction:[0.4,-0.9,-2.5]}
-execute if score GolemBoss BILLGART matches 2.. if score GolemBoss_timer1 BILLGART matches 800 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,direction:[0.6,-0.8,-2.2]}
-execute if score GolemBoss BILLGART matches 3.. if score GolemBoss_timer1 BILLGART matches 900 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,direction:[1.4,-0.6,-1.2]}
+execute if score GolemBoss BILLGART matches 1.. if score GolemBoss_timer1 BILLGART matches 100 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,Motion:[-0.4,-0.7,-2.8]}
+execute if score GolemBoss BILLGART matches 2.. if score GolemBoss_timer1 BILLGART matches 200 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,Motion:[-0.7,-0.7,-2.8]}
+execute if score GolemBoss BILLGART matches 3.. if score GolemBoss_timer1 BILLGART matches 300 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,Motion:[-0.9,-0.9,-2.5]}
+execute if score GolemBoss BILLGART matches 1.. if score GolemBoss_timer1 BILLGART matches 400 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,Motion:[-0.6,-0.9,-2.5]}
+execute if score GolemBoss BILLGART matches 2.. if score GolemBoss_timer1 BILLGART matches 500 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,Motion:[-0.3,-0.9,-2.5]}
+execute if score GolemBoss BILLGART matches 3.. if score GolemBoss_timer1 BILLGART matches 600 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,Motion:[0.1,-0.9,-2.5]}
+execute if score GolemBoss BILLGART matches 1.. if score GolemBoss_timer1 BILLGART matches 700 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,Motion:[0.4,-0.9,-2.5]}
+execute if score GolemBoss BILLGART matches 2.. if score GolemBoss_timer1 BILLGART matches 800 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,Motion:[0.6,-0.8,-2.2]}
+execute if score GolemBoss BILLGART matches 3.. if score GolemBoss_timer1 BILLGART matches 900 run summon minecraft:fireball -1306 161 -551 {ExplosionPower:3,Motion:[1.4,-0.6,-1.2]}
 execute if score GolemBoss BILLGART matches 3.. run particle minecraft:explosion -1322 170 -564 1 1 1 0.5 1 normal
 
 ### Push Attack

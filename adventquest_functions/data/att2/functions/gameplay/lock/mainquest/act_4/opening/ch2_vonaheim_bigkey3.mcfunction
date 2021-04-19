@@ -3,7 +3,7 @@
 #Manage lock opening for bigkey3 in vonaheim 			#
 #########################################################
 
-clear @s minecraft:nether_brick{display:{Lore:["§4Big Key"]}} 1
+clear @s minecraft:nether_brick{display:{"Lore":["{\"text\":\"§4Big Key\"}"]}} 1
 execute positioned -5586 156 -6495 run function att2:sound/misc/unlock1
 execute positioned -5586 156 -6495 run function att2:sound/door/simple_stone_door
 function att2:physicmod/reg1/vonaheim/big_door2

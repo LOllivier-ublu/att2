@@ -8,4 +8,3 @@ bossbar set minecraft:undead style notched_20
 bossbar set minecraft:undead players @a
 bossbar set minecraft:undead color purple
 bossbar set minecraft:undead name [{"text":"DummyUndead","color":"red"}]
-execute store result bossbar minecraft:undead max run data get entity @e[type=minecraft:husk,tag=Dummy,limit=1] Attributes[0].Base

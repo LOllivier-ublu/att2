@@ -14,7 +14,7 @@ execute if score FlammeNoire ANGOR_BOSS matches 160 as @a[scores={DIMENSION=6}] 
 execute if score FlammeNoire ANGOR_BOSS matches 160 in minecraft:the_nether run function att2:physicmod/reg2/source/fn_head_normal
 execute if score FlammeNoire ANGOR_BOSS matches 2..160 run function att2:gameplay/boss/angband/flamme_noire/attack/power_ray/launch
 execute if score FlammeNoire ANGOR_BOSS matches 2 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_breathe_out
-execute if score FlammeNoire ANGOR_BOSS matches 1 run kill @e[type=minecraft:zombie_pigman,tag=FNPowerRayFollower]
-execute if score FlammeNoire ANGOR_BOSS matches 1 run kill @e[type=minecraft:zombie_pigman,tag=FNPowerRayLauncher]
+execute if score FlammeNoire ANGOR_BOSS matches 1 run kill @e[type=minecraft:zombified_piglin,tag=FNPowerRayFollower]
+execute if score FlammeNoire ANGOR_BOSS matches 1 run kill @e[type=minecraft:zombified_piglin,tag=FNPowerRayLauncher]
 execute if score FlammeNoire ANGOR_BOSS matches 1 run kill @e[type=minecraft:armor_stand,tag=FNPowerRayLauncherEffect]
 execute if score FlammeNoire ANGOR_BOSS matches 1 run scoreboard players set FlammeNoire ANGOR 8

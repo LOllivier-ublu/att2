@@ -1,12 +1,8 @@
 {
-  "criteria": {
-    "impossible": {
-      "trigger": "minecraft:impossible"
+    "parent": "totally_not_possible",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
     }
-  },
-  "requirements": [
-    [
-      "impossible"
-    ]
-  ]
 }

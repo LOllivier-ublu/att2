@@ -1,16 +1,9 @@
 {
-	"type": "crafting_shapeless",
-	"ingredients": [
-    					{
-    						"item": "minecraft:barrier"
-    					}
-    			   ],
-    "result": {
-    "item": "minecraft:air"
-  			  },
-	"criteria": {
-		"impossible":{
-			"trigger":"minecraft:impossible"
-					 }
-				}
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:nether_quartz_ore"
+  },
+  "result": "minecraft:quartz",
+  "experience": 0.2,
+  "cookingtime": 200
 }

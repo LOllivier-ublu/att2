@@ -4,5 +4,5 @@
 #####################################################################
 
 function att2:dialogs/sidequest/assistance/sq18/step1
-execute in minecraft:the_nether positioned 3338 39 4317 unless entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
-execute at @e[tag=Dermist] if entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
+execute in minecraft:the_nether positioned 3338 39 4317 run function att2:gameplay/gps/summon_arrow
+execute in minecraft:the_nether as @e[tag=newGPS] at @s anchored feet facing 3338 39 4317 run function att2:gameplay/gps/tp_arrow

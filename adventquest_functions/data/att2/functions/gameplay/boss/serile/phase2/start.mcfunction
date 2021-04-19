@@ -7,8 +7,7 @@ gamerule doDaylightCycle true
 stopsound @a
 execute as @a run tag @s add NoAutoMusic
 tp @a 2286 96 1945 -90 0
-spawnpoint @a 2286 96 1945
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute in minecraft:overworld run spawnpoint @a 2286 96 1945
 tp 00000000-0000-022b-0000-00000000022b 2326 105 1945 90 10
 scoreboard players set @a MUSIC_BOSS 0
 scoreboard players set Timer1 SERILE 0

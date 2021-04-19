@@ -17,5 +17,4 @@ scoreboard players set OuranPhase1_timer2 OURANOS 0
 scoreboard players set OuranPhase1_timer3 OURANOS 0
 scoreboard players set OuranPhase1_timer4 OURANOS 0
 function att2:gameplay/boss/ouranos/ouran/phase1/init_bossbar
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
-spawnpoint @a 7842 123 6772
+execute in minecraft:overworld run spawnpoint @a 7842 123 6772

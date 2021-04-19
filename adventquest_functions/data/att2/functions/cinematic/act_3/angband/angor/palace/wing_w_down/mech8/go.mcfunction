@@ -7,6 +7,6 @@
 #########################################################
 
 # Testing if all mobs died
-execute in minecraft:the_nether unless entity @e[type=minecraft:zombie_pigman,x=3481,y=57,z=4516,distance=..8] run function att2:cinematic/act_3/angband/angor/palace/wing_w_down/mech8/end
+execute in minecraft:the_nether unless entity @e[type=minecraft:zombified_piglin,x=3481,y=57,z=4516,distance=..8] run function att2:cinematic/act_3/angband/angor/palace/wing_w_down/mech8/end
 
 

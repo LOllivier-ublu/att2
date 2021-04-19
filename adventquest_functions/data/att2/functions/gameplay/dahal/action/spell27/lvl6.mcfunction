@@ -3,7 +3,7 @@
 #Spectral Axe lvl6												#
 #################################################################
 
-give @s minecraft:diamond_axe{EquipmentType:"meleeWeapon",EquipmentID:"spectralaxe",Rarity:"rar",Manufacturer:"delightful",Unbreakable:1,display:{Name:"\"§9Hache spectrale\"",Lore:["§7Renforce la volonté de ton maître","§7pour 90 secondes.","§7Strengthen your master's will","§7for 90 seconds."]},Damage:1560,AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:19.18,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.83,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001}]} 1
+give @s minecraft:diamond_axe{EquipmentType:"meleeWeapon",EquipmentID:"spectralaxe",Rarity:"rar",Manufacturer:"delightful",Unbreakable:1,display:{Name:"\"§9Hache spectrale\"","Lore":["{\"text\":\"§7Renforce la volonté de ton maître\"}","{\"text\":\"§7pour 90 secondes.\"}","{\"text\":\"§7Strengthen your master's will\"}","{\"text\":\"§7for 90 seconds."]},Damage:1560,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:19.18,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.83,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1
 
 scoreboard players remove @s DAHAL 155
 function att2:gameplay/dahal/action/spell27/cooldown

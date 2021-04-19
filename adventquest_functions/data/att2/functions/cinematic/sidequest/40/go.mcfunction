@@ -7,4 +7,4 @@
 #100.. - the quest is completed    							#
 #############################################################
 
-execute if score SQ40 SIDEQUEST matches 2 if entity @a[x=-4172,y=68,z=-5003,distance=..10,gamemode=adventure,nbt={Inventory:[{id:"minecraft:brick",Count:1b,tag:{display:{Lore:["§4Pirate Key"]}}}]}] run function att2:cinematic/sidequest/40/step3
+execute if score SQ40 SIDEQUEST matches 2 if entity @a[x=-4172,y=68,z=-5003,distance=..10,gamemode=adventure,nbt={Inventory:[{id:"minecraft:brick",Count:1b,tag:{display:{"Lore":["{\"text\":\"§4Pirate Key\"}"]}}}]}] run function att2:cinematic/sidequest/40/step3

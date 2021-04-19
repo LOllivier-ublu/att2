@@ -8,7 +8,7 @@ scoreboard players set SQ21 SIDEQUEST 100
 scoreboard players set vulk_PNJ DIALOG 5
 function att2:dialogs/sidequest/completed_effect
 function att2:gameplay/reputation/add_4
-clear @a minecraft:stone_pickaxe{display:{Lore:["§4§oOld mace"]}}
+clear @a minecraft:stone_pickaxe{display:{"Lore":["{\"text\":\"§4§oOld mace\"}"]}}
 
 function att2:gameplay/pnj_talk/dialog_playsound/vulk
 execute at 00000000-0000-067a-0000-00000000067a as @p[distance=..10] run function att2:dialogs/sidequest/sq21/vulk/answer_end

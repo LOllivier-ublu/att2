@@ -8,4 +8,4 @@
 #############################################################
 
 # Quest Completed when player is close to PNJ Vulk with old mace
-execute if score SQ21 SIDEQUEST matches 1 at 00000000-0000-067a-0000-00000000067a if entity @a[distance=..5,nbt={SelectedItem:{tag:{display:{Lore:["§4§oOld mace"]}}}}] run function att2:cinematic/sidequest/21/end
+execute if score SQ21 SIDEQUEST matches 1 at 00000000-0000-067a-0000-00000000067a if entity @a[distance=..5,nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§4§oOld mace\"}"]}}}}] run function att2:cinematic/sidequest/21/end

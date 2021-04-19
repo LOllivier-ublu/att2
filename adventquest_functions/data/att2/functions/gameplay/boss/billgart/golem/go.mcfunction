@@ -20,7 +20,7 @@ execute if score GolemBoss BILLGART matches 0.. as @a[scores={MUSIC_BOSS=1..}] r
 
 # Enable Bossbar storing health of GolemBoss
 execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] store result bossbar minecraft:golem value run data get entity 00000000-0000-009b-0000-00000000009b Health
-execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] store result bossbar minecraft:golem max run data get entity 00000000-0000-009b-0000-00000000009b Attributes[0].Base
+execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] store result bossbar minecraft:golem max run data get entity 00000000-0000-009b-0000-00000000009b Attributes[{Name:"minecraft:generic.max_health"}].Base
 execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end store result score 00000000-0000-009b-0000-00000000009b BILLGART run data get entity 00000000-0000-009b-0000-00000000009b Health 1
 
 # Make challengers enters the arena
@@ -41,7 +41,7 @@ execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @
 execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end unless entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] run function att2:gameplay/boss/billgart/golem/fail
 
 # Testing if GolemBoss died
-execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] unless entity @e[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,nbt={UUIDMost:155L,UUIDLeast:155L}] run function att2:gameplay/boss/billgart/golem/victory
+execute if score GolemBoss BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] unless entity @e[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,nbt={UUID:[I;0,155,0,155]}] run function att2:gameplay/boss/billgart/golem/victory
 
 # Player can quit the arena when GolemBoss had been defeated
 execute if score GolemBoss BILLGART matches -2 if score Mainquest SIDEQUEST matches 140.. in minecraft:the_end as @a[x=-1330,y=124,z=-586,dx=0,dy=-3,dz=4,gamemode=adventure] at @s run tp @s ~-2 ~ ~

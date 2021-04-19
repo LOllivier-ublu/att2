@@ -56,7 +56,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:dandelion_yellow",
+                    "name": "minecraft:yellow_dye",
                     "weight": 1,
                     "conditions": [
                         {
@@ -104,7 +104,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:rose_red",
+                    "name": "minecraft:red_dye",
                     "weight": 1,
                     "conditions": [
                         {

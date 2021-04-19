@@ -8,4 +8,3 @@ bossbar set minecraft:aozathreyon style notched_12
 bossbar set minecraft:aozathreyon players @a
 bossbar set minecraft:aozathreyon color purple
 bossbar set minecraft:aozathreyon name [{"text":"Aozathreyon","color":"red"}]
-execute store result bossbar minecraft:aozathreyon max run data get entity 00000000-0000-015b-0000-00000000015b Attributes[0].Base

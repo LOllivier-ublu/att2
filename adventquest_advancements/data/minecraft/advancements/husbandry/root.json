@@ -1,20 +1,7 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:hay_block"
-        },
-        "title": {
-            "translate": "advancements.husbandry.root.title"
-        },
-        "description": {
-            "translate": "advancements.husbandry.root.description"
-        },
-        "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
-        "show_toast": false,
-        "announce_to_chat": false
-    },
+    "parent": "totally_not_possible",
     "criteria": {
-        "consumed_item": {
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     }

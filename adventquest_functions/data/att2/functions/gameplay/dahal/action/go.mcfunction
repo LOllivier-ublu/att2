@@ -5,8 +5,8 @@
 #################################################################
 
 #testing if player is holding the magic sphere
-scoreboard players set @a[gamemode=adventure,nbt={SelectedItem:{tag:{display:{Lore:["§4◸§8/ §4◞§c⎝§4⸜ §8\\§4◹","§8⧼  §4〈§c✧§4〉  §8⧽","§4◺§8\\§4 ᐠ§c⎞§4◜ §8/§4◿"]}}}}] HOLDING_MS 2
-scoreboard players set @a[gamemode=adventure,nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:["§4◸§8/ §4◞§c⎝§4⸜ §8\\§4◹","§8⧼  §4〈§c✧§4〉  §8⧽","§4◺§8\\§4 ᐠ§c⎞§4◜ §8/§4◿"]}}}]}] HOLDING_MS 2
+scoreboard players set @a[gamemode=adventure,nbt={SelectedItem:{id:"minecraft:fishing_rod"}}] HOLDING_MS 2
+scoreboard players set @a[gamemode=adventure,nbt={Inventory:[{Slot:-106b,id:"minecraft:fishing_rod"}]}] HOLDING_MS 2
 
 #testing if player used the magicsphere
 execute as @a[scores={HOLDING_MS=1..,MAGICSPH=1..}] run function att2:gameplay/dahal/action/launch

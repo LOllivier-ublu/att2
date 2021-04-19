@@ -3,7 +3,7 @@
 #Manage lock opening for emeraldkey4 in billgart 		#
 #########################################################
 
-clear @s minecraft:emerald{display:{Lore:["§4Emerald Key"]}} 1
+clear @s minecraft:emerald{display:{"Lore":["{\"text\":\"§4Emerald Key\"}"]}} 1
 execute in minecraft:the_end positioned -1217 52 -739 run function att2:sound/misc/unlock1
 execute in minecraft:the_end positioned -1217 52 -739 run function att2:sound/door/large_stone_door
 execute in minecraft:the_end run function att2:physicmod/reg3/dungeon/emerald_door3

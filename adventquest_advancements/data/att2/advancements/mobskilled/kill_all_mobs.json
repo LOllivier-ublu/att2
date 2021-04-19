@@ -33,11 +33,11 @@
         }
       }
     },
-    "minecraft:zombie_pigman": {
+    "minecraft:zombified_piglin": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombie_pigman"
+          "type": "minecraft:zombified_piglin"
         }
       }
     },

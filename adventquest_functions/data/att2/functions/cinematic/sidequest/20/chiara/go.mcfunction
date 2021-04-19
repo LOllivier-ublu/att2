@@ -14,4 +14,4 @@
 execute if score summon SQ20 matches 0 if entity @a[x=29921,y=104,z=30031,distance=15..20,gamemode=adventure] run function att2:cinematic/sidequest/20/chiara/summon_pnj_to_earndhel
 
 # Begin detection fight with PNJ Chiara in Earndhel
-execute if score summon SQ20 matches 2 if entity @a[x=29924,y=104,z=30031,distance=..20,gamemode=adventure] unless entity @e[type=minecraft:zombie_pigman,x=29924,y=104,z=30031,distance=..20,nbt={UUIDMost:1626L,UUIDLeast:1626L}] run function att2:cinematic/sidequest/20/chiara/fight_end
+execute if score summon SQ20 matches 2 if entity @a[x=29924,y=104,z=30031,distance=..20,gamemode=adventure] unless entity @e[type=minecraft:zombified_piglin,x=29924,y=104,z=30031,distance=..20,nbt={UUID:[I;0,1626,0,1626]}] run function att2:cinematic/sidequest/20/chiara/fight_end

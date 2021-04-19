@@ -3,5 +3,5 @@
 #Display text and physical help for SQ13 SIDEQUEST matches 2       	#
 #####################################################################
 
-execute in minecraft:the_nether positioned 3904 28 3858 unless entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
-execute at 00000000-0000-053a-0000-00000000053a if entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
+execute in minecraft:the_nether positioned 3904 28 3858 run function att2:gameplay/gps/summon_arrow
+execute in minecraft:the_nether as @e[tag=newGPS] at @s anchored feet facing 3904 28 3858 run function att2:gameplay/gps/tp_arrow

@@ -4,7 +4,7 @@
 ##################################################
 
 execute if score Real0 TIMER matches 0 positioned -7408 161 -5979 run function att2:sound/misc/scary
-execute if score Real0 TIMER matches 0..45 as @a at @s anchored feet facing entity @e[x=-7408,y=161,z=-5979,distance=..5,type=minecraft:armor_stand,tag=Corps,limit=1] feet run teleport @s ^ ^ ^0.00001 ~ ~
+execute if score Real0 TIMER matches 0..45 as @a at @s anchored feet facing entity @e[x=-7408,y=161,z=-5979,distance=..5,type=minecraft:armor_stand,tag=Corps,limit=1] feet run teleport @s ^ ^0.01 ^0.00001 ~ ~
 execute if score Real0 TIMER matches 2 run data merge entity @e[x=-7408,y=161,z=-5979,distance=..5,type=minecraft:armor_stand,tag=Corps,limit=1] {Pose:{Head:[65f,0f,0f],RightArm:[345f,8f,0f]}}
 execute if score Real0 TIMER matches 4 run data merge entity @e[x=-7408,y=161,z=-5979,distance=..5,type=minecraft:armor_stand,tag=Corps,limit=1] {Pose:{Head:[60f,0f,0f],RightArm:[335f,8f,0f]}}
 execute if score Real0 TIMER matches 6 run data merge entity @e[x=-7408,y=161,z=-5979,distance=..5,type=minecraft:armor_stand,tag=Corps,limit=1] {Pose:{Head:[55f,0f,0f],RightArm:[325f,8f,0f]}}

@@ -17,7 +17,7 @@ execute if score Scavenger SQ51 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run s
 
 # Enable Bossbar storing health of Scavenger
 execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] store result bossbar minecraft:scavenger value run data get entity 00000000-0000-019c-0000-00000000019c Health
-execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] store result bossbar minecraft:scavenger max run data get entity 00000000-0000-019c-0000-00000000019c Attributes[0].Base
+execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] store result bossbar minecraft:scavenger max run data get entity 00000000-0000-019c-0000-00000000019c Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score SQ51 SIDEQUEST matches 1..99 as @a[x=-5553,y=52,z=-4578,dx=2,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/kert/scavenger/display_title
@@ -34,7 +34,7 @@ execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx
 execute if score Scavenger SQ51 matches 0.. unless entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] run function att2:gameplay/boss/kert/scavenger/fail
 
 # Testing if Scavenger died
-execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] unless entity @e[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,nbt={UUIDMost:412L,UUIDLeast:412L}] run function att2:gameplay/boss/kert/scavenger/victory
+execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] unless entity @e[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,nbt={UUID:[I;0,412,0,412]}] run function att2:gameplay/boss/kert/scavenger/victory
 
 # Player can quit the arena when Scavenger had been defeated
 execute if score Scavenger SQ51 matches -2 as @a[x=-5553,y=49,z=-4542,dx=2,dy=2,dz=0,gamemode=adventure] at @s run tp @s -5552 49 -4539

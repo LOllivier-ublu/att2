@@ -10,5 +10,4 @@ execute positioned -7430 109 -4381 run function att2:gameplay/boss/rewards_start
 execute positioned -7430 109 -4381 run function att2:gameplay/boss/nojelanth/subjects/rewards
 function att2:gameplay/boss/nojelanth/subjects/destroy_minions
 function att2:physicmod/reg1/nojelanth/subjects_end
-spawnpoint @a -7410 95 -4401
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute in minecraft:overworld run spawnpoint @a -7410 95 -4401

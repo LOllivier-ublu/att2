@@ -3,4 +3,4 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:iron_axe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",display:{Name:"\"§2Coupe bois\"",Lore:["§7Mais aussi les os !","§7But also the bones !"]},Damage:175,AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:10.29,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10001},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.92,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20001}]} 1
+give @s minecraft:iron_axe{EquipmentType:"meleeWeapon",Rarity:"unc",Manufacturer:"traditional",display:{Name:"\"§2Coupe bois\"","Lore":["{\"text\":\"§7Mais aussi les os !\"}","{\"text\":\"§7But also the bones !\"}"]},Damage:175,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.29,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.92,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]} 1

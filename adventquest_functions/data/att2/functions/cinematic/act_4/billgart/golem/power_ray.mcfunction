@@ -10,8 +10,8 @@ execute if score golem_mech1_timer BILLGART matches 10 run function att2:dialogs
 execute if score golem_mech1_timer BILLGART matches 5..200 positioned -862 92 -640 run particle minecraft:enchant ~ ~ ~ 0.8 0.8 0 0 2 normal
 execute if score golem_mech1_timer BILLGART matches 5..190 as @e[tag=GolemPowerRayLauncherEffect] run function att2:gameplay/misc/circle/rotate
 execute if score golem_mech1_timer BILLGART matches 5..160 run function att2:cinematic/act_4/billgart/golem/power_ray/launch
-execute if score golem_mech1_timer BILLGART matches 2 run kill @e[type=minecraft:zombie_pigman,tag=GolemPowerRayFollower]
-execute if score golem_mech1_timer BILLGART matches 2 run kill @e[type=minecraft:zombie_pigman,tag=GolemPowerRayLauncher]
+execute if score golem_mech1_timer BILLGART matches 2 run kill @e[type=minecraft:zombified_piglin,tag=GolemPowerRayFollower]
+execute if score golem_mech1_timer BILLGART matches 2 run kill @e[type=minecraft:zombified_piglin,tag=GolemPowerRayLauncher]
 execute if score golem_mech1_timer BILLGART matches 2 run kill @e[type=minecraft:armor_stand,tag=GolemPowerRayLauncherEffect]
 
 #=======================#

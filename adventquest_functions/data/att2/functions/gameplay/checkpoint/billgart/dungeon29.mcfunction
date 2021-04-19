@@ -4,7 +4,5 @@
 #################################################
 
 function att2:gameplay/checkpoint/effect
-scoreboard players set @a CHECKPOINT_BIL 34
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
-tag @a add checkpointBillgart
-execute as @a run function att2:gameplay/checkpoint/spawnpointdim
+
+execute in minecraft:the_end run spawnpoint @a -1130 66 -569

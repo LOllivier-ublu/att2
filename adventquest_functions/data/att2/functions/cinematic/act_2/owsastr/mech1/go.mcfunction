@@ -63,6 +63,6 @@ execute if score mech1 OWSASTR matches 7 run particle minecraft:end_rod -4970 85
 
 execute if score mech1 OWSASTR matches 7 if block -4948 77 -4374 minecraft:mossy_stone_bricks positioned -4948 77 -4374 as @a[distance=..5] run scoreboard players set @s SHAKE_H 80
 execute if score mech1 OWSASTR matches 7 if block -4948 77 -4374 minecraft:mossy_stone_bricks positioned -4948 77 -4374 as @a[distance=6..20] run scoreboard players set @s SHAKE_L 80
-execute if score mech1 OWSASTR matches 7 if block -4948 77 -4374 minecraft:mossy_stone_bricks positioned -4942 75 -4374 run function att2:sound/door/large_stone_door
+execute if score mech1 OWSASTR matches 7 if block -4948 77 -4374 minecraft:mossy_stone_bricks as @a at @s run function att2:sound/door/large_stone_door
 execute if score mech1 OWSASTR matches 7 if block -4948 77 -4374 minecraft:mossy_stone_bricks run function att2:physicmod/reg1/owsastr/door1
 

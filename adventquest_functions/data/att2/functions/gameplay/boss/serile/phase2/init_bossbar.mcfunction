@@ -8,4 +8,3 @@ bossbar set minecraft:sphere9 style notched_12
 bossbar set minecraft:sphere9 players @a
 bossbar set minecraft:sphere9 color purple
 bossbar set minecraft:sphere9 name [{"text":"⬤","color":"red"}]
-execute store result bossbar minecraft:sphere9 max run data get entity 00000000-0000-022b-0000-00000000009b Attributes[0].Base

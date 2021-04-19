@@ -3,4 +3,4 @@
 #Process mirror north west rotation                             	#
 #####################################################################
 
-execute as @e[tag=UtoWN,nbt={UUIDMost:70479L,UUIDLeast:70479L}] run function att2:gameplay/boss/owsastr/owlkar/button_wn
+execute as @e[tag=UtoWN,nbt={UUID:[I;0,70479,0,70479]}] run function att2:gameplay/boss/owsastr/owlkar/button_wn

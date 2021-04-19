@@ -20,7 +20,7 @@ execute if score Real0 TIMER matches 1500 as 00000000-0000-003a-0000-00000000003
 execute if score Real0 TIMER matches 1520..1551 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5030 76 -5043 run teleport @s ^ ^ ^0.4 ~ ~
 execute if score Real0 TIMER matches 1550 run function att2:cinematic/act_2/sylvandre_1_action_3
 
-execute if score Real0 TIMER matches 1551 if entity @e[nbt={UUIDLeast:58L,UUIDMost:58L},x=-5030,y=76,z=-5042,distance=..1] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 1551 if entity @e[nbt={UUID:[I;0,58,0,58]},x=-5030,y=76,z=-5042,distance=..1] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 1552 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p[x=-5030,y=75,z=-5042] feet run teleport @s ^ ^ ^ ~ ~
 execute if score Real0 TIMER matches 1552 run scoreboard players set Mainquest SIDEQUEST 4
 

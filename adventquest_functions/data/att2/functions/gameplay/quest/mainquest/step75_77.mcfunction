@@ -5,5 +5,5 @@
 
 scoreboard players set Objective GPS_DIM 6
 function att2:dialogs/mainquest/assistance/step75_77
-execute in minecraft:the_nether positioned 3525 41 4476 unless entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
-execute at 00000000-0000-007a-0000-00000000007a if entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
+execute in minecraft:the_nether positioned 3525 41 4476 run function att2:gameplay/gps/summon_arrow
+execute in minecraft:the_nether as @e[tag=newGPS] at @s anchored feet facing 3525 41 4476 run function att2:gameplay/gps/tp_arrow

@@ -18,6 +18,6 @@ kill @e[type=minecraft:end_crystal,x=3545,y=70,z=4887,dx=-77,dy=-40,dz=43]
 
 # Move Eyes
 # Right eye
-execute as @e[type=minecraft:zombie_pigman,nbt={UUIDMost:91L,UUIDLeast:123L}] at @s run teleport @s 3517.3 46.6 4933 165 0
+execute as @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,91,0,123]}] at @s run teleport @s 3517.3 46.6 4933 165 0
 # Left eye
-execute as @e[type=minecraft:zombie_pigman,nbt={UUIDMost:91L,UUIDLeast:139L}] at @s run teleport @s 3510.3 46.6 4933 165 0
+execute as @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,91,0,139]}] at @s run teleport @s 3510.3 46.6 4933 165 0

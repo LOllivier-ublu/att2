@@ -23,5 +23,6 @@ execute if score OuranPhase2_timer1 OURANOS matches 100..1000 anchored feet as @
 execute if score OuranPhase2_timer1 OURANOS matches 200 run function att2:gameplay/boss/ouranos/ouran/phase2/arrows
 execute if score OuranPhase2_timer1 OURANOS matches 500 as @a at @s positioned ~ ~25 ~ run function att2:summon/reg_4/ouran_stalker
 execute if score OuranPhase2_timer1 OURANOS matches 700 run function att2:gameplay/boss/ouranos/ouran/phase2/arrows
+execute if score OuranPhase2_timer1 OURANOS matches 750 run function att2:gameplay/boss/ouranos/ouran/phase2/bells_indication
 execute if score OuranPhase2_timer1 OURANOS matches 1000 run function att2:gameplay/boss/ouranos/ouran/phase2/summon_bow
 execute if score OuranPhase2_timer1 OURANOS matches 1001.. run scoreboard players set OuranPhase2_timer1 OURANOS 100

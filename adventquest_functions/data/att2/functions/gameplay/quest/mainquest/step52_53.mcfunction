@@ -5,5 +5,5 @@
 
 scoreboard players set Objective GPS_DIM 1
 function att2:dialogs/mainquest/assistance/step52_53
-execute in minecraft:overworld positioned 30009 76 29943 unless entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
-execute at 00000000-0000-008b-0000-00000000008a if entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
+execute in minecraft:overworld positioned 30009 76 29943 run function att2:gameplay/gps/summon_arrow
+execute in minecraft:overworld as @e[tag=newGPS] at @s anchored feet facing 30009 76 29943 run function att2:gameplay/gps/tp_arrow

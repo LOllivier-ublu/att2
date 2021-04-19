@@ -27,10 +27,10 @@ execute if score Real0 TIMER matches 85..99 run particle minecraft:block minecra
 execute if score Real0 TIMER matches 85 run function att2:physicmod/reg1/owsastr/center_woodburning2
 
 execute if score Real0 TIMER matches 99 run scoreboard players set center OWSASTR 1
-execute if score Real0 TIMER matches 99 as @e[nbt={UUIDMost:66431L,UUIDLeast:66431L}] run teleport @s -4957.9 78.9 -4389.9 90 0
-execute if score Real0 TIMER matches 99 as @e[nbt={UUIDMost:66431L,UUIDLeast:66431L}] run data merge entity @s {Pose:{LeftArm:[90f,0f,45f],RightArm:[90f,0f,45f]}}
-execute if score Real0 TIMER matches 99 as @e[nbt={UUIDMost:66447L,UUIDLeast:66447L}] run teleport @s -4957.1 78.9 -4371.0 -90 0
-execute if score Real0 TIMER matches 99 as @e[nbt={UUIDMost:66447L,UUIDLeast:66447L}] run data merge entity @s {Pose:{LeftArm:[90f,0f,45f],RightArm:[90f,0f,45f]}}
+execute if score Real0 TIMER matches 99 as @e[nbt={UUID:[I;0,66431,0,66431]}] run teleport @s -4957.9 78.9 -4389.9 90 0
+execute if score Real0 TIMER matches 99 as @e[nbt={UUID:[I;0,66431,0,66431]}] run data merge entity @s {Pose:{LeftArm:[90f,0f,45f],RightArm:[90f,0f,45f]}}
+execute if score Real0 TIMER matches 99 as @e[nbt={UUID:[I;0,66447,0,66447]}] run teleport @s -4957.1 78.9 -4371.0 -90 0
+execute if score Real0 TIMER matches 99 as @e[nbt={UUID:[I;0,66447,0,66447]}] run data merge entity @s {Pose:{LeftArm:[90f,0f,45f],RightArm:[90f,0f,45f]}}
 
 execute if score Real0 TIMER matches 100 as @p[x=-4968,y=71,z=-4381,distance=..6] run function att2:dialogs/mainquest/act_2/ch5_player_5
 execute if score Real0 TIMER matches 100 as @p[x=-4968,y=71,z=-4381,distance=..6] run function att2:cinematic/real0_iteration

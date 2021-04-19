@@ -8,4 +8,3 @@ bossbar set minecraft:doom style notched_12
 bossbar set minecraft:doom players @a
 bossbar set minecraft:doom color purple
 bossbar set minecraft:doom name [{"text":"DooM","color":"red"}]
-execute store result bossbar minecraft:doom max run data get entity 00000000-0000-026c-0000-00000000026c Attributes[0].Base

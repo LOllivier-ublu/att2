@@ -8,4 +8,3 @@ bossbar set minecraft:swarm style notched_12
 bossbar set minecraft:swarm players @a
 bossbar set minecraft:swarm color white
 bossbar set minecraft:swarm name [{"text":"Swarm","color":"white"}]
-execute store result bossbar minecraft:swarm max run data get entity 00000000-0000-017b-0000-00000000005b Attributes[0].Base

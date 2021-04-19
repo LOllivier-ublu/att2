@@ -19,4 +19,7 @@ setblock -7444 158 -5880 minecraft:orange_concrete_powder
 fill -7444 157 -5879 -7446 157 -5879 minecraft:air
 setblock -7446 156 -5879 minecraft:air
 
+fill -7447 159 -5878 -7447 157 -5877 minecraft:air
+
 setblock -7452 157 -5877 minecraft:air
+setblock -7447 158 -5879 minecraft:air

@@ -8,10 +8,10 @@
 #############################################################
 
 # Step 2 when Player take Tina Jacket in cave
-execute if score SQ25 SIDEQUEST matches 1 if entity @a[x=-4623,y=71,z=-5053,distance=..5,nbt={Inventory:[{tag:{display:{Lore:["§4§oTina's Jacket"]}}}]}] run function att2:cinematic/sidequest/25/step2
+execute if score SQ25 SIDEQUEST matches 1 if entity @a[x=-4623,y=71,z=-5053,distance=..5,nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oTina's Jacket\"}"]}}}]}] run function att2:cinematic/sidequest/25/step2
 
 # Complete step2 when Player is close to Emerald with Tina jacket
-execute if score SQ25 SIDEQUEST matches 2 at 00000000-0000-005a-0000-00000000005a if entity @a[distance=..5,nbt={Inventory:[{tag:{display:{Lore:["§4§oTina's Jacket"]}}}]}] run function att2:cinematic/sidequest/25/end
+execute if score SQ25 SIDEQUEST matches 2 at 00000000-0000-005a-0000-00000000005a if entity @a[distance=..5,nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oTina's Jacket\"}"]}}}]}] run function att2:cinematic/sidequest/25/end
 
 # Move PNJ Emerald from Plain
 execute if score SQ25 SIDEQUEST matches 3 if score move_emerald SQ25 matches 0 unless entity @a[x=-4330,y=72,z=-5207,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/25/emerald/move_pnj

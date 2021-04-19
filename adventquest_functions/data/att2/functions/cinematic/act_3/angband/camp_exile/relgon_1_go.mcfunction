@@ -12,9 +12,9 @@ execute if score Neth0 TIMER matches 1 run function att2:physicmod/reg2/camp_exi
 
 #Walking Namrin in exile camp
 execute if score Neth0 TIMER matches 2 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing 3486.5 60.0 3781.5 run function att2:cinematic/act_3/angband/namrin_walking
-execute if score Neth0 TIMER matches 2 if entity @e[nbt={UUIDMost:106L,UUIDLeast:106L},x=3486.5,y=60.0,z=3781.5,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 2 if entity @e[nbt={UUID:[I;0,106,0,106]},x=3486.5,y=60.0,z=3781.5,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 3 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing 3483.5 60 3781.5 run function att2:cinematic/act_3/angband/namrin_walking
-execute if score Neth0 TIMER matches 3 if entity @e[nbt={UUIDMost:106L,UUIDLeast:106L},x=3483.5,y=60.0,z=3781.5,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 3 if entity @e[nbt={UUID:[I;0,106,0,106]},x=3483.5,y=60.0,z=3781.5,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 4 in minecraft:the_nether run tp 00000000-0000-006a-0000-00000000006a 3483 60 3781 90 0
 
 #Dialog with Relgon/Etotsira/Namrin/Serile

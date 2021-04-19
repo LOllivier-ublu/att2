@@ -22,24 +22,24 @@ execute if score Neth0 TIMER matches 450 as 00000000-0000-001a-0000-00000000001a
 execute if score Neth0 TIMER matches 500 positioned 3525 87.4 4521 run function att2:summon/pnj/azazel
 
 execute if score Neth0 TIMER matches 501 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3498 76 4466 run teleport @s ^ ^ ^0.07 ~ ~
-execute if score Neth0 TIMER matches 501 if entity @e[nbt={UUIDMost:26L,UUIDLeast:26L},x=3498,y=76,z=4466,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 501 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3498,y=76,z=4466,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 502 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3498 72 4470 run teleport @s ^ ^ ^0.07 ~ ~
-execute if score Neth0 TIMER matches 502 if entity @e[nbt={UUIDMost:26L,UUIDLeast:26L},x=3498,y=72,z=4470,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 502 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3498,y=72,z=4470,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 503 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3511 72 4477 run teleport @s ^ ^ ^0.07 ~ ~
-execute if score Neth0 TIMER matches 503 if entity @e[nbt={UUIDMost:26L,UUIDLeast:26L},x=3511,y=72,z=4477,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 503 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3511,y=72,z=4477,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 504 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3521 72 4479 run teleport @s ^ ^ ^0.07 ~ ~
-execute if score Neth0 TIMER matches 504 if entity @e[nbt={UUIDMost:26L,UUIDLeast:26L},x=3521,y=72,z=4479,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 504 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3521,y=72,z=4479,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 505 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3525 72 4483 run teleport @s ^ ^ ^0.07 ~ ~
-execute if score Neth0 TIMER matches 505 if entity @e[nbt={UUIDMost:26L,UUIDLeast:26L},x=3525,y=72,z=4483,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 505 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3525,y=72,z=4483,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 506 as @a[gamemode=spectator] in minecraft:the_nether run tp @s 3525 90 4500 180 30
 execute if score Neth0 TIMER matches 506 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3525 80 4491 run teleport @s ^ ^ ^0.07 ~ ~
-execute if score Neth0 TIMER matches 506 if entity @e[nbt={UUIDMost:26L,UUIDLeast:26L},x=3525,y=80,z=4491,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 506 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3525,y=80,z=4491,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 507..1399 as @a[gamemode=spectator] in minecraft:the_nether run tp @s 3533 90 4522 145 10
 execute if score Neth0 TIMER matches 507 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3525 88 4500 run teleport @s ^ ^ ^0.07 ~ ~
-execute if score Neth0 TIMER matches 507 if entity @e[nbt={UUIDMost:26L,UUIDLeast:26L},x=3525,y=88,z=4500,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 507 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3525,y=88,z=4500,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 508 run function att2:dialogs/mainquest/act_5/ch2_azazel_1
 execute if score Neth0 TIMER matches 510 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3525 88 4514 run teleport @s ^ ^ ^0.07 ~ 10
-execute if score Neth0 TIMER matches 510 if entity @e[nbt={UUIDMost:26L,UUIDLeast:26L},x=3525,y=88,z=4514,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 510 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3525,y=88,z=4514,distance=..0.6] run function att2:cinematic/neth0_iteration
 
 execute if score Neth0 TIMER matches 520 run function att2:dialogs/mainquest/act_5/ch2_azazel_2
 execute if score Neth0 TIMER matches 800 run function att2:dialogs/mainquest/act_5/ch2_azazel_3

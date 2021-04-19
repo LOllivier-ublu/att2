@@ -4,7 +4,7 @@
             "item": "minecraft:cake"
         },
         "title": {"translate":"Happy Birthday!"},
-        "description": {"translate":"Eat 28 cakes"},
+        "description": {"translate":"Eat 4 cakes"},
         "frame": "goal"
     },
     "parent": "att2:food/cake_7",

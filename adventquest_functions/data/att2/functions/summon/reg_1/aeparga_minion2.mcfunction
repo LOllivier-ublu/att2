@@ -3,4 +3,4 @@
 #Summon Aeparga Minion 2 		     			 #
 ##################################################
 
-summon minecraft:spider ~ ~ ~ {UUIDMost:75L,UUIDLeast:77L,DeathLootTable:"att2:empty",PersistenceRequired:1}
+summon minecraft:spider ~ ~ ~ {UUID:[I;0,75,0,77],DeathLootTable:"att2:empty",PersistenceRequired:1}

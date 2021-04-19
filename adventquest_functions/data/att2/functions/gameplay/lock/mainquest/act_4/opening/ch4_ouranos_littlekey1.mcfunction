@@ -3,7 +3,7 @@
 #Manage lock opening for littlekey1 in ouranos	 #
 ##################################################
 
-clear @s minecraft:brick{display:{Lore:["§4Little Key"]}} 1
+clear @s minecraft:brick{display:{"Lore":["{\"text\":\"§4Little Key\"}"]}} 1
 execute positioned 6760 136 6744 run function att2:sound/door/simple_stone_door
 execute positioned 6760 136 6744 run function att2:sound/misc/unlock1
 function att2:physicmod/reg4/little_door1

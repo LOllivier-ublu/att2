@@ -8,4 +8,3 @@ bossbar set minecraft:kum style notched_12
 bossbar set minecraft:kum players @a
 bossbar set minecraft:kum color purple
 bossbar set minecraft:kum name [{"text":"Kum","color":"red"}]
-execute store result bossbar minecraft:kum max run data get entity 00000000-0000-021c-0000-00000000021c Attributes[0].Base

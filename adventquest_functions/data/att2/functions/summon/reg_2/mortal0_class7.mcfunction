@@ -3,4 +3,4 @@
 #Summon zombie pigman class_7 region_2  		 #
 ##################################################
 
-summon minecraft:zombie_pigman ~ ~ ~ {Attributes:[{Name:generic.movementSpeed,Base:0.22}],Tags:["LVL0","CLASS7","Reg2","Undead"],Anger:32000}
+summon minecraft:zombified_piglin ~ ~ ~ {Attributes:[{Name:generic.movement_speed,Base:0.22}],Tags:["LVL0","CLASS7","Reg2","Undead"],AngerTime:1000000}

@@ -20,18 +20,18 @@ execute if score Real0 TIMER matches 980 run function att2:dialogs/mainquest/act
 execute if score Real0 TIMER matches 1080 run function att2:dialogs/mainquest/act_3/ch1_etotsira_13
 
 execute if score Real0 TIMER matches 1081 as 00000000-0000-008b-0000-00000000008a at @s anchored feet facing 30002 73 29967 run function att2:cinematic/act_3/earndhel/etotsira_walking
-execute if score Real0 TIMER matches 1081 if entity @e[nbt={UUIDMost:139L,UUIDLeast:138L},x=30002,y=73,z=29967,distance=..0.6] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 1081 if entity @e[nbt={UUID:[I;0,139,0,138]},x=30002,y=73,z=29967,distance=..0.6] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 1082 as 00000000-0000-008b-0000-00000000008a at @s anchored feet facing 30002 73 29959 run function att2:cinematic/act_3/earndhel/etotsira_walking
-execute if score Real0 TIMER matches 1082 if entity @e[nbt={UUIDMost:139L,UUIDLeast:138L},x=30002,y=73,z=29964,distance=..1] unless block 30002 73 29963 minecraft:air run function att2:cinematic/act_3/earndhel/etotsira_secretdoor
-execute if score Real0 TIMER matches 1082 if entity @e[nbt={UUIDMost:139L,UUIDLeast:138L},x=30002.5,y=73.0,z=29959.8,distance=..1] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 1082 if entity @e[nbt={UUID:[I;0,139,0,138]},x=30002,y=73,z=29964,distance=..1] unless block 30002 73 29963 minecraft:air run function att2:cinematic/act_3/earndhel/etotsira_secretdoor
+execute if score Real0 TIMER matches 1082 if entity @e[nbt={UUID:[I;0,139,0,138]},x=30002.5,y=73.0,z=29959.8,distance=..1] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 1083 as 00000000-0000-008b-0000-00000000008a at @s anchored feet facing 30002.5 76.8 29955.5 run function att2:cinematic/act_3/earndhel/etotsira_walking
-execute if score Real0 TIMER matches 1083 if entity @e[nbt={UUIDMost:139L,UUIDLeast:138L},x=30002.5,y=76.5,z=29955.5,distance=..0.6] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 1083 if entity @e[nbt={UUID:[I;0,139,0,138]},x=30002.5,y=76.5,z=29955.5,distance=..0.6] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 1084 as 00000000-0000-008b-0000-00000000008a at @s anchored feet facing 30012.0 76.5 29955.5 run function att2:cinematic/act_3/earndhel/etotsira_walking
-execute if score Real0 TIMER matches 1084 if entity @e[nbt={UUIDMost:139L,UUIDLeast:138L},x=30012.0,y=76.5,z=29955.5,distance=..0.6] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 1084 if entity @e[nbt={UUID:[I;0,139,0,138]},x=30012.0,y=76.5,z=29955.5,distance=..0.6] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 1085 as 00000000-0000-008b-0000-00000000008a at @s anchored feet facing 30012.0 76.5 29945.5 run function att2:cinematic/act_3/earndhel/etotsira_walking
-execute if score Real0 TIMER matches 1085 if entity @e[nbt={UUIDMost:139L,UUIDLeast:138L},x=30012.0,y=76.5,z=29945.5,distance=..0.6] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 1085 if entity @e[nbt={UUID:[I;0,139,0,138]},x=30012.0,y=76.5,z=29945.5,distance=..0.6] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 1086 as 00000000-0000-008b-0000-00000000008a at @s anchored feet facing 30009.5 77.0 29943.5 run function att2:cinematic/act_3/earndhel/etotsira_walking
-execute if score Real0 TIMER matches 1086 if entity @e[nbt={UUIDMost:139L,UUIDLeast:138L},x=30009.5,y=77.0,z=29943.5,distance=..0.6] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 1086 if entity @e[nbt={UUID:[I;0,139,0,138]},x=30009.5,y=77.0,z=29943.5,distance=..0.6] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 1087 as 00000000-0000-008b-0000-00000000008a at @s run tp @s 30009 77 29943 -45 ~
 execute if score Real0 TIMER matches 1087 if entity @a[x=30009.5,y=77.0,z=29943.5,distance=..6] run function att2:cinematic/real0_iteration
 
@@ -42,7 +42,7 @@ execute if score Real0 TIMER matches 1250 run function att2:physicmod/reg1/earnd
 execute if score Real0 TIMER matches 1250 run function att2:dialogs/mainquest/act_3/ch1_etotsira_15
 execute if score Real0 TIMER matches 1300 run scoreboard players set etotsira_old_PNJ DIALOG 1
 execute if score Real0 TIMER matches 1350 positioned 30011 75 29937 run function att2:sound/door/portal_dimension
-execute if score Real0 TIMER matches 1350 positioned as 00000000-0000-008b-0000-00000000008a run summon minecraft:villager ~0.05 ~ ~0.05 {Rotation:[-45.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movementSpeed,Base:0.001},{Name:generic.maxHealth,Base:1.0}],Health:1.0,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
+execute if score Real0 TIMER matches 1350 positioned as 00000000-0000-008b-0000-00000000008a run summon minecraft:villager ~0.05 ~ ~0.05 {Rotation:[-45.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
 execute if score Real0 TIMER matches 1351 run scoreboard players set Mainquest SIDEQUEST 53
 
 

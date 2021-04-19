@@ -16,7 +16,7 @@ execute if score Miehanov VONAHEIM matches 0.. as @a[scores={MUSIC_BOSS=1..}] ru
 
 # Enable Bossbar storing health of Miehanov
 execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov value run data get entity 00000000-0000-008b-0000-00000000008b Health
-execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov max run data get entity 00000000-0000-008b-0000-00000000008b Attributes[0].Base
+execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51,gamemode=adventure] store result bossbar minecraft:miehanov max run data get entity 00000000-0000-008b-0000-00000000008b Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 113 as @a[x=-5613,y=163,z=-6388,dx=-2,dy=2,dz=-2,gamemode=adventure] at @s unless entity @a[x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/miehanov/display_title
@@ -37,7 +37,7 @@ execute if score Miehanov VONAHEIM matches 0 as 00000000-0000-008b-0000-00000000
 execute if score Miehanov VONAHEIM matches 0.. unless entity @a[x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51,gamemode=adventure] run function att2:gameplay/boss/elcheol/miehanov/fail
 
 # Testing if Miehanov died
-execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51,gamemode=adventure] unless entity @e[x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51,nbt={UUIDMost:139L,UUIDLeast:139L}] run function att2:gameplay/boss/elcheol/miehanov/victory
+execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51,gamemode=adventure] unless entity @e[x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51,nbt={UUID:[I;0,139,0,139]}] run function att2:gameplay/boss/elcheol/miehanov/victory
 
 # Player can quit the arena when Miehanov had been defeated
 execute if score Miehanov VONAHEIM matches -2 as @a[x=-5611,y=166,z=-6392,dx=-6,dy=2,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~-3

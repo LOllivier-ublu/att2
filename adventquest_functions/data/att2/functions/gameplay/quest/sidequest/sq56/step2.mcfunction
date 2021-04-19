@@ -4,4 +4,5 @@
 #####################################################################
 
 function att2:dialogs/sidequest/assistance/sq56/step2
-execute in minecraft:overworld positioned -5229 144 -6295 run function att2:gameplay/quest/mainquest/show_main_objective
+execute in minecraft:overworld positioned -5229 144 -6295 run function att2:gameplay/gps/summon_arrow
+execute in minecraft:overworld as @e[tag=newGPS] at @s anchored feet facing -5229 144 -6295 run function att2:gameplay/gps/tp_arrow

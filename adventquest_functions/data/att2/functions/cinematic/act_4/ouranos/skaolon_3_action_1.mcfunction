@@ -3,6 +3,7 @@
 #Process action_1 for skaolon_3 cinematic		 #
 ##################################################
 
+scoreboard players set skaolon_PNJ DIALOG 2
 clear @a minecraft:sunflower 2
 #Kill Trias
 kill 00000000-0000-129a-0000-00000000129a

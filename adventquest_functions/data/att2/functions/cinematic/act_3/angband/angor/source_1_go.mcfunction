@@ -36,7 +36,7 @@ execute if score Neth0 TIMER matches 500..650 as @a[scores={DIMENSION=6}] at @s 
 execute if score Neth0 TIMER matches 550 in minecraft:the_nether run tp 00000000-0000-007a-0000-00000000007a 3511 42 4689 0 10
 execute if score Neth0 TIMER matches 550 run function att2:dialogs/mainquest/act_3/ch5_relgon_5
 execute if score Neth0 TIMER matches 601 in minecraft:the_nether as 00000000-0000-007a-0000-00000000007a at @s anchored feet facing 3511 42 4691 run teleport @s ^ ^ ^0.04 ~ ~
-execute if score Neth0 TIMER matches 601 in minecraft:the_nether if entity @e[nbt={UUIDMost:122L,UUIDLeast:122L},x=3511.5,y=42.0,z=4691.5,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 601 in minecraft:the_nether if entity @e[nbt={UUID:[I;0,122,0,122]},x=3511.5,y=42.0,z=4691.5,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 620 in minecraft:the_nether run function att2:cinematic/act_3/angband/angor/source_1_action_5
 execute if score Neth0 TIMER matches 650 run function att2:dialogs/mainquest/act_3/ch5_relgon_6
 
@@ -59,7 +59,7 @@ execute if score Neth0 TIMER matches 950..1000 in minecraft:the_nether run parti
 execute if score Neth0 TIMER matches 1000 run function att2:cinematic/act_3/angband/angor/source_1_action_9
 execute if score Neth0 TIMER matches 1000 run function att2:dialogs/mainquest/act_3/ch5_namrin_10
 execute if score Neth0 TIMER matches 1051 in minecraft:the_nether as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing 3508 41 4691 run teleport @s ^ ^ ^0.09 ~ ~
-execute if score Neth0 TIMER matches 1051 in minecraft:the_nether if entity @e[nbt={UUIDMost:138L,UUIDLeast:138L},x=3508.5,y=41.0,z=4691.5,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 1051 in minecraft:the_nether if entity @e[nbt={UUID:[I;0,138,0,138]},x=3508.5,y=41.0,z=4691.5,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 1060 in minecraft:the_nether as 00000000-0000-008a-0000-00000000008a at @s run tp @s 3508 41 4691 -80 0
 execute if score Neth0 TIMER matches 1100 run function att2:dialogs/mainquest/act_3/ch5_etotsira_3
 execute if score Neth0 TIMER matches 1100 run scoreboard players set 00000000-0000-008a-0000-00000000008a TALKING 1

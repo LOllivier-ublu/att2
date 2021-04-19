@@ -15,7 +15,7 @@ execute if score SQ38 SIDEQUEST matches 1 if entity @a[x=-4411,y=86,z=-5086,dist
 execute if score SQ38 SIDEQUEST matches 2 if entity @a[x=-4375,y=55,z=-5054,distance=..25,gamemode=adventure] positioned -4375 60 -5054 run function att2:cinematic/sidequest/38/artefact/effect1
 
 # Artefact Trigger
-execute if score SQ38 SIDEQUEST matches 2 if score artefact SQ38 matches 0 as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure,nbt={Inventory:[{id:"minecraft:player_head",Count:1b,tag:{display:{Lore:["§4§oAncient artefact"]}}}]}] run function att2:cinematic/sidequest/38/artefact/start_cinematic
+execute if score SQ38 SIDEQUEST matches 2 if score artefact SQ38 matches 0 as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure,nbt={Inventory:[{id:"minecraft:player_head",Count:1b,tag:{display:{"Lore":["{\"text\":\"§4§oAncient artefact\"}"]}}}]}] run function att2:cinematic/sidequest/38/artefact/start_cinematic
 
 # Artefact Cinematic
 execute if score SQ38 SIDEQUEST matches 2 if score artefact SQ38 matches 1 if entity @a run function att2:cinematic/sidequest/38/artefact/cinematic

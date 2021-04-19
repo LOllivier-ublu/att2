@@ -10,4 +10,4 @@ particle minecraft:end_rod -7434 135 -6011 1 1 1 0.8 500
 particle minecraft:item minecraft:orange_stained_glass_pane -7434 135 -6011 1 1 1 0.8 500
 function att2:physicmod/reg1/ithax/guardian_end
 execute as @a[x=-7431,y=133,z=-6008,dx=-6,dy=5,dz=-6,gamemode=adventure] at @s run tp @s -7434 134 -6007
-execute as @e[x=-7431,y=133,z=-6008,dx=-6,dy=5,dz=-6,nbt={UUIDMost:123L,UUIDLeast:123L}] at @s run tp @s -7434 134 -6016
+execute as @e[x=-7431,y=133,z=-6008,dx=-6,dy=5,dz=-6,nbt={UUID:[I;0,123,0,123]}] at @s run tp @s -7434 134 -6016

@@ -8,4 +8,3 @@ bossbar set minecraft:guardian style notched_12
 bossbar set minecraft:guardian players @a
 bossbar set minecraft:guardian color white
 bossbar set minecraft:guardian name [{"text":"Guardian","color":"black"}]
-execute store result bossbar minecraft:guardian max run data get entity 00000000-0000-007b-0000-00000000007b Attributes[0].Base

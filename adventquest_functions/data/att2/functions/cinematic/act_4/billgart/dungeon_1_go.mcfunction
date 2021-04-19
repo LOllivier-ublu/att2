@@ -6,6 +6,7 @@
 execute if score End0 TIMER matches 1 in minecraft:the_end as @a[x=-1239,y=178,z=-604,distance=..100] run function att2:gameplay/speceffect/disincarnate/start
 execute if score End0 TIMER matches 1..189 in minecraft:the_end as @a[gamemode=spectator] run tp @s -1239 178 -604 180 0
 execute if score End0 TIMER matches 20 in minecraft:the_end run function att2:cinematic/act_4/billgart/dungeon_1_action_1
+execute if score End0 TIMER matches 25 in minecraft:the_end as @e[type=shulker_bullet,x=-1239,y=182,z=-615,distance=..20] run data modify entity @s Target set from entity 00000000-0000-006f-0000-00000000006f UUID
 execute if score End0 TIMER matches 190..249 in minecraft:the_end as @a[gamemode=spectator] run tp @s -1239 178 -608 180 0
 execute if score End0 TIMER matches 200 in minecraft:the_end run function att2:cinematic/act_4/billgart/dungeon_1_action_2
 execute if score End0 TIMER matches 250..259 in minecraft:the_end as @a[gamemode=spectator] run tp @s -1239 180 -615 180 90

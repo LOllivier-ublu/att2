@@ -5,9 +5,9 @@
 
 execute if score Real1 TIMER matches 0 run function att2:gameplay/checkpoint/telluron_present/schestrown3
 execute if score Real1 TIMER matches 0 run function att2:dialogs/sidequest/sq38/player_1
-execute if score Real1 TIMER matches 0 as @a[nbt={Inventory:[{id:"minecraft:player_head",tag:{display:{Lore:["§4§oAncient artefact"]}}}]}] run tag @s add Artefact
-execute if score Real1 TIMER matches 1 as @a[tag=Artefact] run clear @s minecraft:player_head{display:{Lore:["§4§oAncient artefact"]}} 1
-execute if score Real1 TIMER matches 1 at @a[tag=Artefact] run summon minecraft:armor_stand ~ ~ ~ {Tags:["Artefact"],Rotation:[90.0f,0.0f],HandItems:[{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:"85539318-37d9-44d2-94f6-fc9b7f67bfc6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MyYzU5ZmNkOTI2MjVlYzRkNTc4MTU5YTVmZDViZDQyNDdlMzgyZDQ5NDcyODRjZjUwZjk5OWM4NDExNmMwIn19fQ=="}]}}}},{}],ShowArms:1,Invisible:1,NoGravity:1,DisabledSlots:2039583,Pose:{RightArm:[-90f,0f,0f]}}
+execute if score Real1 TIMER matches 0 as @a[nbt={Inventory:[{id:"minecraft:player_head",tag:{display:{"Lore":["{\"text\":\"§4§oAncient artefact\"}"]}}}]}] run tag @s add Artefact
+execute if score Real1 TIMER matches 1 as @a[tag=Artefact] run clear @s minecraft:player_head{display:{"Lore":["{\"text\":\"§4§oAncient artefact\"}"]}} 1
+execute if score Real1 TIMER matches 1 at @a[tag=Artefact] run summon minecraft:armor_stand ~ ~ ~ {Tags:["Artefact"],Rotation:[90.0f,0.0f],HandItems:[{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:[I;-2058120424,936985810,-1795752805,2137505734],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MyYzU5ZmNkOTI2MjVlYzRkNTc4MTU5YTVmZDViZDQyNDdlMzgyZDQ5NDcyODRjZjUwZjk5OWM4NDExNmMwIn19fQ=="}]}}}},{}],ShowArms:1,Invisible:1,NoGravity:1,DisabledSlots:2039583,Pose:{RightArm:[-90f,0f,0f]}}
 execute if score Real1 TIMER matches 1 at @a[tag=Artefact] run function att2:sound/misc/space_gem_animate
 execute if score Real1 TIMER matches 2 as @e[type=minecraft:armor_stand,tag=Artefact] at @s anchored feet facing -4373.77 58.6 -5053.12 run teleport @s ^ ^ ^0.1 ~ ~
 execute if score Real1 TIMER matches 2 positioned -4373.77 58.6 -5053.12 as @e[type=minecraft:armor_stand,tag=Artefact,distance=..1] run function att2:cinematic/sidequest/38/artefact/reach

@@ -8,4 +8,3 @@ bossbar set minecraft:miehanov style notched_12
 bossbar set minecraft:miehanov players @a
 bossbar set minecraft:miehanov color purple
 bossbar set minecraft:miehanov name [{"text":"Miehanov","color":"red"}]
-execute store result bossbar minecraft:miehanov max run data get entity 00000000-0000-008b-0000-00000000008b Attributes[0].Base

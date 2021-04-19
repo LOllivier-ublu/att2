@@ -9,7 +9,7 @@ execute if score Real0 TIMER matches 11..149 as @a[gamemode=spectator] run tp @s
 execute if score Real0 TIMER matches 30 run function att2:dialogs/mainquest/act_4/ch1_guard_1
 execute if score Real0 TIMER matches 150 run effect give @a[gamemode=spectator] minecraft:blindness 3 0 true
 execute if score Real0 TIMER matches 150..189 as @a[gamemode=spectator] run tp @s -5030 77 -5041 0 -90
-execute if score Real0 TIMER matches 170 run kill @e[type=minecraft:zombie_pigman,x=-5030,y=76,z=-5043,distance=..3]
+execute if score Real0 TIMER matches 170 run kill @e[type=minecraft:zombified_piglin,x=-5030,y=76,z=-5043,distance=..3]
 execute if score Real0 TIMER matches 190 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
 execute if score Real0 TIMER matches 200 as @a[gamemode=adventure] run tp @s -4968 134 -4927 0 0
 execute if score Real0 TIMER matches 201 positioned -4968 134 -4933 run function att2:cinematic/act_4/ryliath/1_action_1

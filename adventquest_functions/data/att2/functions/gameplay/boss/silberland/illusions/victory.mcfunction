@@ -11,7 +11,6 @@ execute positioned -4247 19 -5621 run function att2:gameplay/boss/rewards_start
 execute positioned -4247 19 -5621 run function att2:gameplay/boss/silberland/illusions/rewards
 function att2:gameplay/boss/silberland/illusions/destroy_minions
 function att2:physicmod/reg1/silberland/illusions_end
-spawnpoint @a -4263 57 -5620
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute in minecraft:overworld run spawnpoint @a -4263 57 -5620
 effect clear @a minecraft:blindness
 effect clear @a minecraft:nausea

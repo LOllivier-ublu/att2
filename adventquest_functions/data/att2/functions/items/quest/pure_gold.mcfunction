@@ -3,4 +3,4 @@
 #Obtain Pure Gold                           	 #
 ##################################################
 
-give @s minecraft:dandelion_yellow{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cOr Pur\"",Lore:["§4§oPure Gold"]}} 1
+give @s minecraft:yellow_dye{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cOr Pur\"","Lore":["{\"text\":\"§4§oPure Gold\"}"]}} 1

@@ -21,7 +21,7 @@
 			               	},
 					        {
                             "function": "set_nbt",
-			    "tag": "{display:{Name:\"{\\\"text\\\":\\\"§e§oPetite pièce\\\"}\",Lore:[\"§e§oSmall coin\",\"§6+1 Chronoton\"]}}"
+			    "tag": "{display:{Name:\"{\\\"text\\\":\\\"§e§oPetite pièce\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§e§oSmall coin\\\"}\",\"{\\\"text\\\":\\\"§6+1 Chronoton\\\"}\"]}}"
 					   }
                     ]
                 }

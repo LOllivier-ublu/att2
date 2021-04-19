@@ -12,5 +12,5 @@ scoreboard players set path3_mech2_timer2 OURANOS 0
 scoreboard players set path3_mech2_circles OURANOS 0
 
 kill @e[type=minecraft:wolf,tag=BattleMusic]
-kill @e[type=minecraft:armor_stand,nbt={UUIDMost:65647L,UUIDLeast:303L}]
+kill @e[type=minecraft:armor_stand,nbt={UUID:[I;0,65647,0,303]}]
 scoreboard players set path3_mech2 OURANOS 3

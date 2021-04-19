@@ -8,4 +8,3 @@ bossbar set minecraft:karon style notched_12
 bossbar set minecraft:karon players @a
 bossbar set minecraft:karon color purple
 bossbar set minecraft:karon name [{"text":"Karön","color":"red"}]
-execute store result bossbar minecraft:karon max run data get entity 00000000-0000-005b-0000-00000000005b Attributes[0].Base

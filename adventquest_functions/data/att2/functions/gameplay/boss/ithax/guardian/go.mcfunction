@@ -33,7 +33,7 @@ execute if score Guardian ITHAX matches 0.. as @a[scores={MUSIC_BOSS=1..}] run s
 # Enable Bossbar storing health of Guardian
 # Guardian
 execute if score Guardian ITHAX matches 0.. if entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure] store result bossbar minecraft:guardian value run data get entity 00000000-0000-007b-0000-00000000007b Health
-execute if score Guardian ITHAX matches 0.. if entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure] store result bossbar minecraft:guardian max run data get entity 00000000-0000-007b-0000-00000000007b Attributes[0].Base
+execute if score Guardian ITHAX matches 0.. if entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure] store result bossbar minecraft:guardian max run data get entity 00000000-0000-007b-0000-00000000007b Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score Mainquest SIDEQUEST matches 274 as @a[x=-7441,y=134,z=-5998,dx=-2,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/ithax/guardian/display_title
@@ -50,7 +50,7 @@ execute if score Guardian ITHAX matches 0.. if entity @a[x=-7451,y=133,z=-5999,d
 execute if score Guardian ITHAX matches 0.. unless entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure] run function att2:gameplay/boss/ithax/guardian/fail
 
 # Testing if Guardian died
-execute if score Guardian ITHAX matches 0.. if entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure] unless entity @e[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,nbt={UUIDMost:123L,UUIDLeast:123L}] run function att2:gameplay/boss/ithax/guardian/victory
+execute if score Guardian ITHAX matches 0.. if entity @a[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,gamemode=adventure] unless entity @e[x=-7451,y=133,z=-5999,dx=34,dy=16,dz=-27,nbt={UUID:[I;0,123,0,123]}] run function att2:gameplay/boss/ithax/guardian/victory
 
 # Player can quit the arena when Guardian had been defeated
 execute if score Guardian ITHAX matches -2 as @a[x=-7425,y=134,z=-6000,dx=-2,dy=1,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~3

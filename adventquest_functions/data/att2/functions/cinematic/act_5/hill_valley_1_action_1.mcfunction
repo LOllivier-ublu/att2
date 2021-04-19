@@ -3,8 +3,7 @@
 #Process action_1 for hill_valley_1 cinematic	 #
 ##################################################
 
-spawnpoint @a 2201 99 1945
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute in minecraft:overworld run spawnpoint @a 2201 99 1945
 weather thunder 100000
 time set 14000
 execute positioned 2185 92 1945 run function att2:summon/pnj/serile_old

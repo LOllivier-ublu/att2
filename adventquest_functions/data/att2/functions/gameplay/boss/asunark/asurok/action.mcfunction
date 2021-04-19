@@ -33,7 +33,7 @@ execute if score Asurok ASUNARK matches 1800..2000 as @a[x=-3297,y=14,z=-4942,di
 execute if score Asurok ASUNARK matches 1800..2000 as @a[x=-3297,y=14,z=-4942,distance=..4,gamemode=adventure] at @s run scoreboard players set @s TIMER_HER_EXT 2
 execute if score Asurok ASUNARK matches 1800 run function att2:gameplay/boss/asunark/asurok/trap_closing
 execute if score Asurok ASUNARK matches 1900..2000 as @a[x=-3317,y=2,z=-4922,dx=41,dy=23,dz=-41,gamemode=adventure] at @s run tp @s ~ ~ ~ facing entity 00000000-0000-003b-0000-00000000003b
-execute if score Asurok ASUNARK matches 1900..2000 as @a[x=-3317,y=2,z=-4922,dx=41,dy=23,dz=-41,gamemode=adventure] at 00000000-0000-003b-0000-00000000003b anchored feet at @s if entity @e[distance=1..,nbt={UUIDLeast:59L,UUIDMost:59L}] run teleport @s ^ ^ ^0.05 ~ ~
+execute if score Asurok ASUNARK matches 1900..2000 as @a[x=-3317,y=2,z=-4922,dx=41,dy=23,dz=-41,gamemode=adventure] at 00000000-0000-003b-0000-00000000003b anchored feet at @s if entity @e[distance=1..,nbt={UUID:[I;0,59,0,59]}] run teleport @s ^ ^ ^0.05 ~ ~
 execute if score Asurok ASUNARK matches 2000 positioned -3312 13 -4942 run function att2:summon/reg_1/asurok_minion1
 execute if score Asurok ASUNARK matches 2000 positioned -3297 13 -4956 run function att2:summon/reg_1/asurok_minion1
 execute if score Asurok ASUNARK matches 2000 positioned -3282 13 -4942 run function att2:summon/reg_1/asurok_minion1

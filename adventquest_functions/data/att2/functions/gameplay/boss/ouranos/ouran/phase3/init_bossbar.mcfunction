@@ -8,4 +8,3 @@ bossbar set minecraft:ouran style notched_12
 bossbar set minecraft:ouran players @a
 bossbar set minecraft:ouran color yellow
 bossbar set minecraft:ouran name [{"text":"Ouran","color":"gold"}]
-execute store result bossbar minecraft:ouran max run data get entity 00000000-0000-017b-0000-00000000017b Attributes[0].Base

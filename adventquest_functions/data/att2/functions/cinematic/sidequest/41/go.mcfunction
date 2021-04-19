@@ -8,7 +8,7 @@
 #############################################################
 
 # Step2 when player discover the shipwreck treasure
-execute if score SQ41 SIDEQUEST matches 1 if entity @a[x=-4516,y=40,z=-4205,distance=..7,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_brick",Count:1b,tag:{display:{Lore:["§4Secret Key"]}}}]}] run function att2:cinematic/sidequest/41/step2
+execute if score SQ41 SIDEQUEST matches 1 if entity @a[x=-4516,y=40,z=-4205,distance=..7,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_brick",Count:1b,tag:{display:{"Lore":["{\"text\":\"§4Secret Key\"}"]}}}]}] run function att2:cinematic/sidequest/41/step2
 
 # Securite shipwreck sand block
 execute if score SQ41 SIDEQUEST matches 1 if entity @a[x=-4516,y=40,z=-4205,distance=..25,gamemode=adventure] run setblock -4513 37 -4208 minecraft:water

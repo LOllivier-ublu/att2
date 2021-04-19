@@ -4,7 +4,8 @@
 #####################################################################
 
 function att2:dialogs/sidequest/assistance/sq33/step1
-execute in minecraft:overworld positioned -5341 113 -6241 run function att2:gameplay/quest/mainquest/show_main_objective
+execute in minecraft:overworld positioned -5341 113 -6241 run function att2:gameplay/gps/summon_arrow
+execute in minecraft:overworld as @e[tag=newGPS] at @s anchored feet facing -5341 113 -6241 run function att2:gameplay/gps/tp_arrow
 execute in minecraft:overworld positioned -5314 74 -5199 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld positioned -4283 69 -4731 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld positioned -4726 75 -4613 run function att2:gameplay/quest/mainquest/show_secondary_objective

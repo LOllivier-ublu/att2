@@ -4,5 +4,5 @@
 #####################################################################
 
 function att2:dialogs/sidequest/assistance/sq6/step1
-execute in minecraft:overworld positioned -4962 77 -5019 unless entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
-execute at 00000000-0000-043a-0000-00000000043a if entity @a[distance=..100] run function att2:gameplay/quest/mainquest/show_main_objective
+execute in minecraft:overworld positioned -4962 77 -5019 run function att2:gameplay/gps/summon_arrow
+execute in minecraft:overworld as @e[tag=newGPS] at @s anchored feet facing -4962 77 -5019 run function att2:gameplay/gps/tp_arrow

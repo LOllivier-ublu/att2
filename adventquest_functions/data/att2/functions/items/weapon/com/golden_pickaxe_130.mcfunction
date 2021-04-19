@@ -3,4 +3,4 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:golden_pickaxe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",display:{Name:"\"§7Inutilisable\"",Lore:["§7Mais indestructible !","§7But indestructible!","§7HAS§c-1 §7SPD§c-1"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attackDamage,Name:generic.attackDamage,Amount:10.92,Operation:0,Slot:mainhand,UUIDLeast:10000,UUIDMost:10002},{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.97,Operation:1,Slot:mainhand,UUIDLeast:10000,UUIDMost:20002}]} 1
+give @s minecraft:golden_pickaxe{EquipmentType:"meleeWeapon",Rarity:"com",Manufacturer:"eternan",display:{Name:"\"§7Inutilisable\"","Lore":["{\"text\":\"§7Mais indestructible !\"}","{\"text\":\"§7But indestructible!\"}","{\"text\":\"§7HAS§c-1 §7SPD§c-1\"}"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.92,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.97,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]} 1

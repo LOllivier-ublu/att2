@@ -4,7 +4,7 @@
 ##################################################
 
 execute if score Real0 TIMER matches 1 in minecraft:overworld as @a[gamemode=adventure] run tp @s -4968 134 -4906 0 0
-execute if score Real0 TIMER matches 1 run kill @e[type=minecraft:zombie_pigman,x=-4968,y=134,z=-4933,distance=..3]
+execute if score Real0 TIMER matches 1 run kill @e[type=minecraft:zombified_piglin,x=-4968,y=134,z=-4933,distance=..3]
 execute if score Real0 TIMER matches 1 run function att2:physicmod/reg1/ryliath_palace2
 execute if score Real0 TIMER matches 10..1300 as 00000000-0000-084a-0000-00000000084a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_4/ch1_adrian_1

@@ -12,3 +12,10 @@ gamerule doLimitedCrafting true
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamerule disableElytraMovementCheck true
+gamerule universalAnger true
+gamerule disableRaids true
+gamerule doInsomnia false
+gamerule doImmediateRespawn false
+gamerule doPatrolSpawning false
+gamerule forgiveDeadPlayers false
+gamerule spectatorsGenerateChunks true

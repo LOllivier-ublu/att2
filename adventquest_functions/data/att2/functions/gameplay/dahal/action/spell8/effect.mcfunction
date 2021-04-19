@@ -5,3 +5,4 @@
 
 execute as @a[distance=..15] run function att2:sound/dahal/spell8_effect
 particle minecraft:explosion ~ ~2 ~ 0 0 0 0 5 normal
+particle minecraft:flash ~ ~2 ~ 0.01 0.01 0.01 0 5

@@ -21,7 +21,7 @@ execute if score Rackham SQ41 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run sco
 
 # Enable Bossbar storing health of Rackham
 execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] store result bossbar minecraft:rackham value run data get entity 00000000-0000-010c-0000-00000000010c Health
-execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] store result bossbar minecraft:rackham max run data get entity 00000000-0000-010c-0000-00000000010c Attributes[0].Base
+execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] store result bossbar minecraft:rackham max run data get entity 00000000-0000-010c-0000-00000000010c Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
 execute if score SQ41 SIDEQUEST matches 1..99 as @a[x=-4002,y=37,z=-4281,dx=0,dy=3,dz=4,gamemode=adventure] at @s unless entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/asunark/rackham/display_title
@@ -38,7 +38,7 @@ execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=2
 execute if score Rackham SQ41 matches 0.. unless entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] run function att2:gameplay/boss/asunark/rackham/fail
 
 # Testing if Rackham died
-execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] unless entity @e[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,nbt={UUIDMost:268L,UUIDLeast:268L}] run function att2:gameplay/boss/asunark/rackham/victory
+execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] unless entity @e[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,nbt={UUID:[I;0,268,0,268]}] run function att2:gameplay/boss/asunark/rackham/victory
 
 # Player can quit the arena when Rackham had been defeated
 execute if score Rackham SQ41 matches -2 run tp @a[x=-4027,y=37,z=-4281,dx=0,dy=3,dz=4,gamemode=adventure] -4033 38 -4279

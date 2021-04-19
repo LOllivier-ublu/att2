@@ -12,6 +12,6 @@ execute in minecraft:the_nether run function att2:physicmod/reg2/source/fn_pose_
 scoreboard players set @a[scores={DIMENSION=6}] SHAKE_L 30
 function att2:gameplay/boss/angband/flamme_noire/switch_eyes_normal
 # Right eye
-execute as @e[type=minecraft:zombie_pigman,nbt={UUIDMost:91L,UUIDLeast:123L}] at @s run teleport @s 3517.3 54.6 4931
+execute as @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,91,0,123]}] at @s run teleport @s 3517.3 54.6 4931
 # Left eye
-execute as @e[type=minecraft:zombie_pigman,nbt={UUIDMost:91L,UUIDLeast:139L}] at @s run teleport @s 3510.7 54.6 4931
+execute as @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,91,0,139]}] at @s run teleport @s 3510.7 54.6 4931

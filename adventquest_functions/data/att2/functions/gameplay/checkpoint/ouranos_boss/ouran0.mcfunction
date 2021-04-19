@@ -4,6 +4,5 @@
 #################################################
 
 function att2:gameplay/checkpoint/effect
-execute as @a run function att2:gameplay/checkpoint/remove_dimtag
-tag @a add checkpointOuranosBoss
-execute as @a run function att2:gameplay/checkpoint/spawnpointdim
+
+execute in minecraft:the_end run spawnpoint @a 18 68 0

@@ -19,7 +19,7 @@ execute if score Neth0 TIMER matches 950 run function att2:dialogs/mainquest/act
 execute if score Neth0 TIMER matches 1100 run function att2:dialogs/mainquest/act_3/ch6_player_3
 execute if score Neth0 TIMER matches 1100 in minecraft:the_nether run tp 00000000-0000-008a-0000-00000000008a 3479 67 3758 -90 -20
 execute if score Neth0 TIMER matches 1101 in minecraft:the_nether as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing 3483 70.5 3758 run teleport @s ^ ^ ^0.05 ~ ~
-execute if score Neth0 TIMER matches 1101 in minecraft:the_nether if entity @e[nbt={UUIDMost:138L,UUIDLeast:138L},x=3483.5,y=70.5,z=3758.5,distance=..0.6] run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 1101 in minecraft:the_nether if entity @e[nbt={UUID:[I;0,138,0,138]},x=3483.5,y=70.5,z=3758.5,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 1105 in minecraft:the_nether as 00000000-0000-008a-0000-00000000008a at @s run tp @s 3483 70.5 3758 50 0
 execute if score Neth0 TIMER matches 1105..1200 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity @a[scores={NUMEROJOUEUR=1}] feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 1105 run function att2:dialogs/mainquest/act_3/ch6_etotsira_1

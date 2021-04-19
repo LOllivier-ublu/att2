@@ -47,7 +47,7 @@ execute if score path3_mech2_circles OURANOS matches 8 if entity @a[scores={OURA
 execute if score path3_mech2_circles OURANOS matches 9 if entity @a[scores={OURANOS=-1},x=7707,y=67,z=6231,distance=..10,gamemode=adventure] positioned 7707 65 6234 run function att2:cinematic/act_4/ouranos/tower3_path/mech2/circle_end
 
 # Last cloud effect
-execute if score path3_mech2_circles OURANOS matches 10 as @e[type=minecraft:armor_stand,nbt={UUIDMost:65647L,UUIDLeast:303L}] at @s run function att2:cinematic/act_4/ouranos/tower3_path/mech2/cloud_effect
+execute if score path3_mech2_circles OURANOS matches 10 as @e[type=minecraft:armor_stand,nbt={UUID:[I;0,65647,0,303]}] at @s run function att2:cinematic/act_4/ouranos/tower3_path/mech2/cloud_effect
 
 
 # Timer ending

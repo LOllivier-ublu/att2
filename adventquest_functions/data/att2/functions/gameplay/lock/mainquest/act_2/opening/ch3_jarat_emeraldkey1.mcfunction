@@ -3,7 +3,7 @@
 #Manage lock opening for emeraldkey1 in jarat	 #
 ##################################################
 
-clear @s minecraft:emerald{display:{Lore:["§4Emerald Key"]}} 1
+clear @s minecraft:emerald{display:{"Lore":["{\"text\":\"§4Emerald Key\"}"]}} 1
 execute positioned -4593 78 -5526 run function att2:sound/door/large_stone_door
 execute positioned -4593 78 -5526 run function att2:sound/misc/unlock1
 execute positioned -4593 78 -5526 as @a[distance=..5] run scoreboard players set @s SHAKE_H 80

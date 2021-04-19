@@ -3,4 +3,4 @@
 #Obtain Explosive                			 	 #
 ##################################################
 
-give @s minecraft:firework_star{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cExplosif\"",Lore:["§4§oExplosive"]}} 1
+give @s minecraft:firework_star{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§cExplosif\"","Lore":["{\"text\":\"§4§oExplosive\"}"]}} 1

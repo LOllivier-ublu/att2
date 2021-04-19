@@ -30,7 +30,7 @@ execute if score area_trigg SQ5 matches 2 run function att2:cinematic/sidequest/
 
 # Player trigg position following the decision
 execute if score area_trigg SQ5 matches 4 if score choice SQ5 matches 1 if entity @a[x=-3864,y=81,z=-6027,distance=..4,gamemode=adventure] run function att2:cinematic/sidequest/5/cave/save_mia
-execute if score area_trigg SQ5 matches 4 if score choice SQ5 matches 2 if entity @a[x=-3855,y=87,z=-6042,distance=..20,gamemode=adventure] unless entity @e[type=minecraft:zombie_pigman,x=-3855,y=87,z=-6042,distance=..20] run function att2:cinematic/sidequest/5/cave/kill_alphonse
+execute if score area_trigg SQ5 matches 4 if score choice SQ5 matches 2 if entity @a[x=-3855,y=87,z=-6042,distance=..20,gamemode=adventure] unless entity @e[type=minecraft:zombified_piglin,x=-3855,y=87,z=-6042,distance=..20] run function att2:cinematic/sidequest/5/cave/kill_alphonse
 execute if score area_trigg SQ5 matches 4 if score choice SQ5 matches 3 unless entity @e[type=minecraft:wolf,x=-3864,y=81,z=-6027,distance=..7] run function att2:cinematic/sidequest/5/cave/kill_mia
 
 # Kill PNJ Alphonse

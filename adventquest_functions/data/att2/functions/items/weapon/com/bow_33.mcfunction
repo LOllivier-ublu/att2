@@ -3,4 +3,4 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",display:{Name:"\"§7Vieille branche\"",Lore:["§7A Balien, mon frère.","§7For Balien, my brother.","§7SPD§c-2 §7HUN§c-1"]},Damage:370,Enchantments:[{id:"minecraft:power",lvl:1s},{id:"minecraft:punch",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.7,Operation:1,Slot:mainhand,UUIDLeast:50001,UUIDMost:50002}]} 1
+give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"com",Manufacturer:"traditional",display:{Name:"\"§7Vieille branche\"","Lore":["{\"text\":\"§7A Balien, mon frère.\"}","{\"text\":\"§7For Balien, my brother.\"}","{\"text\":\"§7SPD§c-2 §7HUN§c-1\"}"]},Damage:370,Enchantments:[{id:"minecraft:power",lvl:1s},{id:"minecraft:punch",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1

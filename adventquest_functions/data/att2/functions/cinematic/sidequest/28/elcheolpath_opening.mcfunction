@@ -10,4 +10,4 @@ summon minecraft:armor_stand -5091 129.5 -6422.7 {Invulnerable:1b,PersistenceReq
 
 summon minecraft:armor_stand -5088.8 128.7 -6422.8 {Rotation:[-75.0f,0.0f],HandItems:[{id:"minecraft:iron_shovel",Count:1},{}],ShowArms:1,Invisible:1,NoGravity:1,Pose:{Body:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[90f,0f,90f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],Head:[0f,0f,0f]},DisabledSlots:2039583}
 
-kill @e[type=minecraft:zombie_pigman,x=-5087,y=130,z=-6421,distance=..10]
+kill @e[type=minecraft:zombified_piglin,x=-5087,y=130,z=-6421,distance=..10]

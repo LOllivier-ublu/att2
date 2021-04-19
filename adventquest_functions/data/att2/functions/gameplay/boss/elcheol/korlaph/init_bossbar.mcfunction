@@ -8,4 +8,3 @@ bossbar set minecraft:korlaph style notched_12
 bossbar set minecraft:korlaph players @a
 bossbar set minecraft:korlaph color purple
 bossbar set minecraft:korlaph name [{"text":"Korlaph","color":"red"}]
-execute store result bossbar minecraft:korlaph max run data get entity 00000000-0000-004c-0000-00000000004c Attributes[0].Base

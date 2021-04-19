@@ -3,4 +3,4 @@
 #Obtain equipement                               #
 ##################################################
 
-give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"epi_esc",Manufacturer:"traditional",display:{Name:"\"§dDernière ombre\"",Lore:["§7Parfois, toute une vie se résume à un geste fou.","§7Sometimes your life boils down to one insane move.","§7STR§a2 §7RES§a1 §7DAR§c-1 §7HER§c-1"]},Damage:0,Enchantments:[{id:"minecraft:power",lvl:10s}],AttributeModifiers:[{AttributeName:generic.attackSpeed,Name:generic.attackSpeed,Amount:-0.7,Operation:1,Slot:mainhand,UUIDLeast:50001,UUIDMost:50002}]} 1
+give @s minecraft:bow{EquipmentType:"rangeWeapon",Rarity:"epi_esc",Manufacturer:"traditional",display:{Name:"\"§dDernière ombre\"","Lore":["{\"text\":\"§7Parfois, toute une vie se résume à un geste fou.\"}","{\"text\":\"§7Sometimes your life boils down to one insane move.\"}","{\"text\":\"§7STR§a2 §7RES§a1 §7DAR§c-1 §7HER§c-1\"}"]},Damage:0,Enchantments:[{id:"minecraft:power",lvl:10s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]} 1

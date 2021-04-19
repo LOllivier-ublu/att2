@@ -54,7 +54,7 @@ execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,
 
 # Enable Bossbar storing health of Umbra'Tyanth
 execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth value run data get entity 00000000-0000-012c-0000-00000000012c Health
-execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth max run data get entity 00000000-0000-012c-0000-00000000012c Attributes[0].Base
+execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth max run data get entity 00000000-0000-012c-0000-00000000012c Attributes[{Name:"minecraft:generic.max_health"}].Base
 execute if score Boss UMBRATYANTH matches 0.. store result score 00000000-0000-012c-0000-00000000012c UMBRATYANTH run data get entity 00000000-0000-012c-0000-00000000012c Health 1
 
 # Portal transition between elcheol temple and boss arena
@@ -79,4 +79,4 @@ execute if score Boss UMBRATYANTH matches -1 if entity @a[x=-5158,y=119,z=-6911,
 execute if score Boss UMBRATYANTH matches 0.. unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run function att2:gameplay/boss/ether/umbratyanth/fail
 
 # Testing if Umbra'Tyanth died
-execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] unless entity @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,nbt={UUIDMost:300L,UUIDLeast:300L}] run function att2:gameplay/boss/ether/umbratyanth/victory
+execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] unless entity @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,nbt={UUID:[I;0,300,0,300]}] run function att2:gameplay/boss/ether/umbratyanth/victory

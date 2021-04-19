@@ -4,6 +4,7 @@
 #############################################################
 
 # Launch sidequest with mainquest + reputation + position trigger
+execute if score Mainquest SIDEQUEST matches 151.. if score vulk_PNJ DIALOG matches 1 at 00000000-0000-067a-0000-00000000067a if entity @a[distance=..30] run function att2:cinematic/sidequest/21/vulk/update_dialog
 execute if score Mainquest SIDEQUEST matches 43.. if score heros REPUTATION matches 50.. if score ragnar_lorth_PNJ DIALOG matches 1..3 if score SQ29 SIDEQUEST matches 0 at 00000000-0000-036a-0000-00000000036a if entity @a[distance=..30] run function att2:cinematic/sidequest/29/ragnar_lorth/update_dialog
 execute if score Mainquest SIDEQUEST matches 122.. if score heros REPUTATION matches 100.. if score adrian_PNJ DIALOG matches 1 if score SQ30 SIDEQUEST matches 0..99 at 00000000-0000-084a-0000-00000000084a if entity @a[distance=..30] run function att2:cinematic/sidequest/30/adrian/update_dialog
 execute if score Mainquest SIDEQUEST matches 1.. if score heros REPUTATION matches 75.. if score nestor_PNJ DIALOG matches 1 at 00000000-0000-135a-0000-00000000135a if entity @a[distance=..30] run function att2:cinematic/sidequest/35/nestor/update_dialog

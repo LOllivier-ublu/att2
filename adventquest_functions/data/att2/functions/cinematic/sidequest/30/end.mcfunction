@@ -8,7 +8,7 @@ scoreboard players set SQ30 SIDEQUEST 100
 scoreboard players set adrian_PNJ DIALOG 1
 function att2:dialogs/sidequest/completed_effect
 function att2:gameplay/pnj_talk/dialog_playsound/adrian
-clear @a minecraft:paper{display:{Lore:["§4§oPlan of Ryliath palace"]}}
+clear @a minecraft:paper{display:{"Lore":["{\"text\":\"§4§oPlan of Ryliath palace\"}"]}}
 
 execute if score choice SQ30 matches 1 run function att2:gameplay/reputation/add_7
 execute if score choice SQ30 matches 1 run function att2:cinematic/sidequest/30/jaris/move_pnj

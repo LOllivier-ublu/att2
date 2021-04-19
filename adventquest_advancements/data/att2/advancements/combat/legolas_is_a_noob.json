@@ -55,7 +55,7 @@
                 }
             }
         },
-        "zombie_pigman": {
+        "zombified_piglin": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
@@ -65,7 +65,7 @@
                         }
                 },
                 "entity": {
-                    "type": "minecraft:zombie_pigman"
+                    "type": "minecraft:zombified_piglin"
                 }
             }
         },

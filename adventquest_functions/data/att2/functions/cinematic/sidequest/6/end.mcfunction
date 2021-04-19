@@ -14,7 +14,7 @@ execute if score choice SQ6 matches 1..2 as @p[distance=..10] run function att2:
 execute if score choice SQ6 matches 3 as @p[distance=..10] run function att2:dialogs/sidequest/sq6/player_2
 execute as @p[distance=..10] run function att2:dialogs/sidequest/sq6/hurriel_sun/answer_end
 
-clear @a minecraft:brick{display:{Lore:["§4Hurriel's Key"]}} 1
+clear @a minecraft:brick{display:{"Lore":["{\"text\":\"§4Hurriel's Key\"}"]}} 1
 
 #REWARDS
 xp add @a 3500 points

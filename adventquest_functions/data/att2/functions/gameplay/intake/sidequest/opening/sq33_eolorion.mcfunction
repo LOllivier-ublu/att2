@@ -3,7 +3,7 @@
 #Manage intake goods in Eolorion	 	 	 	 #
 ##################################################
 
-clear @s minecraft:chiseled_stone_bricks{display:{Lore:["§4§oOld chipped stone"]}} 1
+clear @s minecraft:chiseled_stone_bricks{display:{"Lore":["{\"text\":\"§4§oOld chipped stone\"}"]}} 1
 scoreboard players add intake_old_chipped_stone SQ33 1
 execute positioned -5341 113 -6241 run function att2:gameplay/intake/effect
 

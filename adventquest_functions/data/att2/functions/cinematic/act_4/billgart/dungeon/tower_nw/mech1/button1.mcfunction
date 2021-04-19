@@ -27,12 +27,7 @@ execute positioned -1336 18 -666 run function att2:summon/reg_3/villager_tower_n
 execute positioned -1336 18 -666 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1336 18 -666 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1336 18 -666 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1336 18 -666 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1336 18 -666 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1336 18 -666 run function att2:summon/reg_3/villager_tower_nw_mech1
 
-execute positioned -1339 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1339 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1339 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1339 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1339 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
@@ -44,9 +39,7 @@ execute positioned -1349 18 -680 run function att2:summon/reg_3/villager_tower_n
 execute positioned -1349 18 -680 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1349 18 -680 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1349 18 -680 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1349 18 -680 run function att2:summon/reg_3/villager_tower_nw_mech1
 
-execute positioned -1337 18 -676 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1337 18 -676 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1337 18 -676 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1337 18 -676 run function att2:summon/reg_3/villager_tower_nw_mech1
@@ -64,22 +57,13 @@ execute positioned -1330 18 -656 run function att2:summon/reg_3/villager_tower_n
 execute positioned -1330 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1330 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1330 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1330 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1330 18 -656 run function att2:summon/reg_3/villager_tower_nw_mech1
 
 execute positioned -1326 18 -681 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1326 18 -681 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1326 18 -681 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1326 18 -681 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1326 18 -681 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1326 18 -681 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1326 18 -681 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1326 18 -681 run function att2:summon/reg_3/villager_tower_nw_mech1
 
-execute positioned -1349 18 -655 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1349 18 -655 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1349 18 -655 run function att2:summon/reg_3/villager_tower_nw_mech1
-execute positioned -1349 18 -655 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1349 18 -655 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1349 18 -655 run function att2:summon/reg_3/villager_tower_nw_mech1
 execute positioned -1349 18 -655 run function att2:summon/reg_3/villager_tower_nw_mech1

@@ -7,4 +7,4 @@
 #100.. - the quest is completed    							#
 #############################################################
 
-execute if score SQ6 SIDEQUEST matches 2 at 00000000-0000-032a-0000-00000000032a if entity @a[distance=..5,nbt={Inventory:[{tag:{display:{Lore:["§4Hurriel's Key"]}}}]}] run function att2:cinematic/sidequest/6/end
+execute if score SQ6 SIDEQUEST matches 2 at 00000000-0000-032a-0000-00000000032a if entity @a[distance=..5,nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4Hurriel's Key\"}"]}}}]}] run function att2:cinematic/sidequest/6/end

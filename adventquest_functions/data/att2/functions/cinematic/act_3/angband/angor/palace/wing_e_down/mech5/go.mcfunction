@@ -22,7 +22,7 @@ execute if score winged_mech5 ANGOR matches 1 if score winged_mech5_w ANGOR matc
 execute if score winged_mech5 ANGOR matches 3 if blocks 3550 44 4561 3572 44 4583 3550 36 4561 masked run function att2:cinematic/act_3/angband/angor/palace/wing_e_down/mech5/end
 
 execute if score winged_mech5 ANGOR matches 1..3 in minecraft:the_nether as @a[x=3549,y=44,z=4584,dx=24,dy=3,dz=-24,gamemode=adventure] at @s if block ~ ~-1 ~ minecraft:quartz_block run function att2:cinematic/act_3/angband/angor/palace/wing_e_down/mech5/replace1
-execute if score winged_mech5 ANGOR matches 1..3 in minecraft:the_nether as @e[type=minecraft:zombie_pigman,x=3549,y=44,z=4584,dx=24,dy=3,dz=-24] at @s if block ~ ~-1 ~ minecraft:black_terracotta run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:quartz_block replace minecraft:black_terracotta
+execute if score winged_mech5 ANGOR matches 1..3 in minecraft:the_nether as @e[type=minecraft:zombified_piglin,x=3549,y=44,z=4584,dx=24,dy=3,dz=-24] at @s if block ~ ~-1 ~ minecraft:black_terracotta run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:quartz_block replace minecraft:black_terracotta
 
 execute if score winged_mech5 ANGOR matches 1 if score Neth1 TIMER matches 0..179 run scoreboard players add Neth1 TIMER 1
 execute if score winged_mech5 ANGOR matches 1 if score Neth1 TIMER matches 180.. run scoreboard players set Neth1 TIMER 0
