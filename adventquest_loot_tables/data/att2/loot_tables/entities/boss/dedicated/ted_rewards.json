@@ -1,0 +1,156 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_sword",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.025
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"teran\",display:{Name:\"\\\"§6Dernières volontés d'Hélène\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La folie prend enfin un sens,\\\"}\",\"{\\\"text\\\":\\\"§7quand elle se laisse guider par la vengeance.\\\"}\",\"{\\\"text\\\":\\\"§7Madness finally gains meaning,\\\"}\",\"{\\\"text\\\":\\\"§7when it lets itself be guided by revenge.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a1 §7LUC§a1 §7HUN§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:11s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:11.22,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.35,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.025
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"delightful\",display:{Name:\"\\\"§6La voix du maître\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Hurle aux années perdues, ton cri fera\\\"}\",\"{\\\"text\\\":\\\"§7trembler ciel et cœurs jusqu'aux confins du temps.\\\"}\",\"{\\\"text\\\":\\\"§7Howl at the lost years, your cry will\\\"}\",\"{\\\"text\\\":\\\"§7make heaven and hearts tremble to the ends of time.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a5\\\"}\"]},Damage:700,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:7s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:90.87,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"traditional\",display:{Name:\"\\\"§6Sentence du Chaos\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDormant de mille précipices féconds ne sachant comment se manifester,\\\"}\",\"{\\\"text\\\":\\\"§aEntropy trouva en succombant sa forme à travers la chute des montagnes.\\\"}\",\"{\\\"text\\\":\\\"§aSleeping on a thousand fruitful precipices not knowing how to manifest himself,\\\"}\",\"{\\\"text\\\":\\\"§aEntropy found his form succumbing through the fall of the mountains.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7SPD§a2 §7DAR§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:5.26,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.05,Operation:1,Slot:head,UUID:[I;0,20001,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"traditional\",display:{Name:\"\\\"§6Artisan du Chaos\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDormant de mille précipices féconds ne sachant comment se manifester,\\\"}\",\"{\\\"text\\\":\\\"§aEntropy trouva en succombant sa forme à travers la chute des montagnes.\\\"}\",\"{\\\"text\\\":\\\"§aSleeping on a thousand fruitful precipices not knowing how to manifest himself,\\\"}\",\"{\\\"text\\\":\\\"§aEntropy found his form succumbing through the fall of the mountains.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HAS§a2 §7DAR§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:10.53,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.21,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"traditional\",display:{Name:\"\\\"§6Complice du Chaos\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDormant de mille précipices féconds ne sachant comment se manifester,\\\"}\",\"{\\\"text\\\":\\\"§aEntropy trouva en succombant sa forme à travers la chute des montagnes.\\\"}\",\"{\\\"text\\\":\\\"§aSleeping on a thousand fruitful precipices not knowing how to manifest himself,\\\"}\",\"{\\\"text\\\":\\\"§aEntropy found his form succumbing through the fall of the mountains.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HAS§a2 §7DAR§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:7.9,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.16,Operation:1,Slot:legs,UUID:[I;0,20003,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"leg_armset\",Manufacturer:\"traditional\",display:{Name:\"\\\"§6Voie du Chaos\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aDormant de mille précipices féconds ne sachant comment se manifester,\\\"}\",\"{\\\"text\\\":\\\"§aEntropy trouva en succombant sa forme à travers la chute des montagnes.\\\"}\",\"{\\\"text\\\":\\\"§aSleeping on a thousand fruitful precipices not knowing how to manifest himself,\\\"}\",\"{\\\"text\\\":\\\"§aEntropy found his form succumbing through the fall of the mountains.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7SPD§a2 §7DAR§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.63,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.11,Operation:1,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -27,3 +27,5 @@ function att2:summon/reg_1/korlaph_rewards
 function att2:summon/reg_1/korlaph_rewards
 function att2:summon/reg_1/korlaph_rewards
 function att2:summon/reg_1/korlaph_rewards
+
+function att2:summon/reg_1/korlaph_rewards_dedicated

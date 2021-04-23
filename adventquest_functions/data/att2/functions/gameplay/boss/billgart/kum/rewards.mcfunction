@@ -25,3 +25,5 @@ function att2:summon/reg_3/kum_rewards
 function att2:summon/reg_3/kum_rewards
 function att2:summon/reg_3/kum_rewards
 function att2:summon/reg_3/kum_rewards
+
+function att2:summon/reg_3/kum_rewards_dedicated

@@ -122,3 +122,5 @@ function att2:summon/reg_4/umbratyanth_rewards
 function att2:summon/reg_4/umbratyanth_rewards
 function att2:summon/reg_4/umbratyanth_rewards
 function att2:summon/reg_4/umbratyanth_rewards
+
+function att2:summon/reg_4/umbratyanth_rewards_dedicated

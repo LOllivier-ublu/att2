@@ -25,3 +25,5 @@ function att2:summon/reg_4/naer_rewards
 function att2:summon/reg_4/naer_rewards
 function att2:summon/reg_4/naer_rewards
 function att2:summon/reg_4/naer_rewards
+
+function att2:summon/reg_4/naer_rewards_dedicated

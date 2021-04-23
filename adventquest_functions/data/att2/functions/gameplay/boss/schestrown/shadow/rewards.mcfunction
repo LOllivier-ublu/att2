@@ -26,3 +26,5 @@ function att2:summon/reg_1/shadow_rewards
 function att2:summon/reg_1/shadow_rewards
 function att2:summon/reg_1/shadow_rewards
 function att2:summon/reg_1/shadow_rewards
+
+function att2:summon/reg_1/shadow_rewards_dedicated

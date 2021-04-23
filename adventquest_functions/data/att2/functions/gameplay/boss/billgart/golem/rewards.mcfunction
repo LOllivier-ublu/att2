@@ -25,3 +25,5 @@ function att2:summon/reg_3/golem_rewards
 function att2:summon/reg_3/golem_rewards
 function att2:summon/reg_3/golem_rewards
 function att2:summon/reg_3/golem_rewards
+
+function att2:summon/reg_3/golem_rewards_dedicated

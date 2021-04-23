@@ -1,0 +1,228 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_axe",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"epi\",Manufacturer:\"eternan\",display:{Name:\"\\\"§5La honte de l'assassin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ainsi tes impitoyables actions ne te couvrirent\\\"}\",\"{\\\"text\\\":\\\"§7nullement de la gloire à laquelle tu aspirais tant ?\\\"}\",\"{\\\"text\\\":\\\"§7So your ruthless deeds did not in any way\\\"}\",\"{\\\"text\\\":\\\"§7cover you with the glory you so longed for?\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7HAS§a1 §7LUC§c-2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:33.02,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.77,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_pickaxe",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"epi\",Manufacturer:\"eternan\",display:{Name:\"\\\"§5Fracasseur d'atricanth\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Même l'insecte du fracas est pris\\\"}\",\"{\\\"text\\\":\\\"§7d'effroi à la vue de ton éclat tranchant !\\\"}\",\"{\\\"text\\\":\\\"§7Even the insect of the crash is frightened\\\"}\",\"{\\\"text\\\":\\\"§7at the sight of your sharp shine!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7HUN§a1 §7SPD§c-2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:61.18,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.84,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_shovel",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"epi\",Manufacturer:\"eternan\",display:{Name:\"\\\"§5Tréfonds glaciaux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tout en bas se cache l'inattendu, lové dans une\\\"}\",\"{\\\"text\\\":\\\"§7brise pétrifiante et brûlant d'une froideur absurde...\\\"}\",\"{\\\"text\\\":\\\"§7At the very bottom lies the unexpected, curled up in\\\"}\",\"{\\\"text\\\":\\\"§7a petrifying breeze and burning with absurd coldness...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7DAR§a2 §7RES§c-1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:sweeping\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:5.37,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.19999999999999996,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"epi\",Manufacturer:\"eternan\",display:{Name:\"\\\"§5Sombre dévotion\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inconscient au point d'en perdre ta couleur,\\\"}\",\"{\\\"text\\\":\\\"§7violent au point d'en confondre ami d'ennemi.\\\"}\",\"{\\\"text\\\":\\\"§7Unconscious to the point of losing your colour,\\\"}\",\"{\\\"text\\\":\\\"§7violent to the point of confusing friend with enemy.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7HAS§a3\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:17.72,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.62,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_hoe",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"leg\",Manufacturer:\"eternan\",display:{Name:\"\\\"§6Majestueuse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le bruit de chacun de ses coups instille la terreur\\\"}\",\"{\\\"text\\\":\\\"§7dans le cœur de ceux qui l’entendent.\\\"}\",\"{\\\"text\\\":\\\"§7The sound of each of his blows instills terror\\\"}\",\"{\\\"text\\\":\\\"§7in the hearts of those who hear him.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HER§a1 §7DAR§a1 §7HUN§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:sharpness\",lvl:7s},{id:\"minecraft:sweeping\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:33.85,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.6599999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_helmet",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"eternan\",display:{Name:\"\\\"§5Parure du soldat Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\\\"}\",\"{\\\"text\\\":\\\"§a s’érigeront toujours en sentinelles de ce monde.\\\"}\",\"{\\\"text\\\":\\\"§aThe disciples who walk in the footsteps of him who is eternal\\\"}\",\"{\\\"text\\\":\\\"§awill always set themselves up as sentinels of this world.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7DAR§c-1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.16,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.91,Operation:1,Slot:head,UUID:[I;0,20001,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"eternan\",display:{Name:\"\\\"§5Atour du soldat Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\\\"}\",\"{\\\"text\\\":\\\"§a s’érigeront toujours en sentinelles de ce monde.\\\"}\",\"{\\\"text\\\":\\\"§aThe disciples who walk in the footsteps of him who is eternal\\\"}\",\"{\\\"text\\\":\\\"§awill always set themselves up as sentinels of this world.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.32,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.64,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_leggings",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"eternan\",display:{Name:\"\\\"§5Jambards du soldat Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\\\"}\",\"{\\\"text\\\":\\\"§a s’érigeront toujours en sentinelles de ce monde.\\\"}\",\"{\\\"text\\\":\\\"§aThe disciples who walk in the footsteps of him who is eternal\\\"}\",\"{\\\"text\\\":\\\"§awill always set themselves up as sentinels of this world.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.74,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.73,Operation:1,Slot:legs,UUID:[I;0,20003,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"epi_set\",Manufacturer:\"eternan\",display:{Name:\"\\\"§5Empreinte du soldat Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLes disciples qui marchent dans les pas de celui qui est éternel,\\\"}\",\"{\\\"text\\\":\\\"§a s’érigeront toujours en sentinelles de ce monde.\\\"}\",\"{\\\"text\\\":\\\"§aThe disciples who walk in the footsteps of him who is eternal\\\"}\",\"{\\\"text\\\":\\\"§awill always set themselves up as sentinels of this world.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7STR§c-1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.58,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.82,Operation:1,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
