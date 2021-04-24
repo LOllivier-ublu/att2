@@ -4,6 +4,5 @@
 #################################################################
 
 function att2:sound/dialogs/simple
-scoreboard players set Objective GPS_DIM 6
-execute if score SQ57 SIDEQUEST matches 1 run function att2:gameplay/quest/sidequest/sq57/step1
-execute if score SQ57 SIDEQUEST matches 2 run function att2:gameplay/quest/sidequest/sq57/step2
+scoreboard players set Objective GPS_DIM -1
+execute if score SQ59 SIDEQUEST matches 1 run function att2:dialogs/sidequest/assistance/sq59/step1

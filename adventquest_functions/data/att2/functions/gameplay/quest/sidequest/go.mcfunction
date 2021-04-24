@@ -5,7 +5,19 @@
 
 function att2:sound/dialogs/simple
 
-#SQ57 - L'ultime challenge (PNJ : /)
+#SQ59 - L'ultime challenge (PNJ : /)
+execute if score SQ59 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
+execute if score SQ59 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
+execute if score SQ59 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq59/progress
+execute if score SQ59 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq59/complete
+
+#SQ58 - Les vestiges du passé (PNJ : /)
+execute if score SQ58 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
+execute if score SQ58 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
+execute if score SQ58 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq58/progress
+execute if score SQ58 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq58/complete
+
+#SQ57 - Nettoyer le nid (PNJ : Feanorth)
 execute if score SQ57 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
 execute if score SQ57 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
 execute if score SQ57 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq57/progress

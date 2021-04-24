@@ -15,7 +15,7 @@ execute if score Mainquest SIDEQUEST matches 218.. if entity @a[x=6628,y=99,z=67
 execute if score Mainquest SIDEQUEST matches 218.. if score SQ48 SIDEQUEST matches 0 if entity @a[x=6627,y=94,z=6767,distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/48/step1
 execute if score Mainquest SIDEQUEST matches 1.. if entity @a[x=7668,y=190,z=7189,distance=..50,gamemode=adventure] run function att2:cinematic/sidequest/48/ghost/go
 execute if score Mainquest SIDEQUEST matches 218.. if score SQ50 SIDEQUEST matches 0 if score cassandre_PNJ DIALOG matches 1 if entity @a[x=-5301,y=115,z=-6302,dx=1,dy=-4,dz=13,gamemode=adventure] run function att2:cinematic/sidequest/50/cassandre/update_dialog
-
+execute if score Mainquest SIDEQUEST matches 120.. if score SQ57 SIDEQUEST matches 0 if score move_feanorth SQ57 matches 0 in minecraft:the_nether positioned 3419 31 3763 if entity @a[distance=..25,gamemode=adventure] run function att2:cinematic/sidequest/57/feanorth/summon_pnj
 
 # Processing go of all sidequests
 execute in minecraft:overworld if score SQ2 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/2/go
@@ -86,4 +86,5 @@ execute in minecraft:the_end if score SQ53 SIDEQUEST matches 1..99 run function 
 execute in minecraft:overworld if score SQ54 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/54/go
 execute in minecraft:overworld if score SQ55 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/55/go
 execute in minecraft:overworld if score SQ56 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/56/go
-execute if score SQ57 SIDEQUEST matches 1..99 if entity @a[scores={EXPLOIT=7113..}] run function att2:cinematic/sidequest/57/end
+execute in minecraft:the_nether if score SQ57 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/57/go
+execute if score SQ59 SIDEQUEST matches 1..99 if entity @a[scores={EXPLOIT=7133..}] run function att2:cinematic/sidequest/59/end

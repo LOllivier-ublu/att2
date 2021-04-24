@@ -60,3 +60,5 @@ function att2:cinematic/sidequest/54/initialize
 function att2:cinematic/sidequest/55/initialize
 function att2:cinematic/sidequest/56/initialize
 function att2:cinematic/sidequest/57/initialize
+function att2:cinematic/sidequest/58/initialize
+function att2:cinematic/sidequest/59/initialize
