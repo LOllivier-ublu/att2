@@ -1,9 +1,9 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process the SQ54 step3 						#
+#Use function to process the SQ57 end 						    #
 #################################################################
 
-scoreboard players add @s SIDEQUEST 1
+scoreboard players add @a SIDEQUEST 1
 scoreboard players set SQ57 SIDEQUEST 100
 scoreboard players set feanorth_PNJ DIALOG 4
 function att2:dialogs/sidequest/completed_effect
