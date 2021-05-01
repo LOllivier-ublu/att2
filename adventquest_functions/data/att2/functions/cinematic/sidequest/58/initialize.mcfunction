@@ -5,3 +5,4 @@
 
 scoreboard objectives add SQ58 dummy
 scoreboard players set cinematic SQ58 0
+scoreboard players set water SQ58 0
