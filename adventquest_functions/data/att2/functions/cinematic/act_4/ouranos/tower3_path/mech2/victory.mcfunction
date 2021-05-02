@@ -14,3 +14,6 @@ scoreboard players set path3_mech2_circles OURANOS 0
 kill @e[type=minecraft:wolf,tag=BattleMusic]
 kill @e[type=minecraft:armor_stand,nbt={UUID:[I;0,65647,0,303]}]
 scoreboard players set path3_mech2 OURANOS 3
+
+bossbar set minecraft:ouranos_timer visible false
+bossbar remove minecraft:ouranos_timer

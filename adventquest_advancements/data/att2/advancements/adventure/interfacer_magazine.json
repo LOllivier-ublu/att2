@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:orange_stained_glass_pane"
+        },
+        "title": {"translate":"Interfacer Dahäl Magazine"},
+        "description": {"translate":"Hold the legendary firearm INTERFACER magazine"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:adventure/interfacer",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 25000
+                },
+    "criteria": {
+        "interfacer_magazine": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
