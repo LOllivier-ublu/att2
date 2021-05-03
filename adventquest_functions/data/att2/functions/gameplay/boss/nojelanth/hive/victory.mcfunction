@@ -10,3 +10,6 @@ execute positioned -7548 70 -4177 run function att2:gameplay/boss/rewards_start
 execute positioned -7548 70 -4177 run function att2:gameplay/boss/nojelanth/hive/rewards
 function att2:gameplay/boss/nojelanth/hive/destroy_minions
 execute in minecraft:overworld run spawnpoint @a -7541 59 -4165
+
+# Discover the Dahäl loader Interfacer
+setblock -7543 62 -4184 minecraft:air

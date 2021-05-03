@@ -1,22 +1,27 @@
 #####################################################################
 #Made by Adventquest												#
-#Manage Hive                                               #
-#Hive can have multiple state stored in the SQ58 score     #
-#   -1 Hive didn't appear yet                              #
-#   0..60 Hive is fighting                                 #
-#   -2 Hive had been defeated                              #
+#Manage Hive                                                        #
+#Hive can have multiple state stored in the SQ58 score              #
+#   -1 Hive didn't appear yet                                       #
+#   0..60 Hive is fighting                                          #
+#   -2 Hive had been defeated                                       #
 #####################################################################
 
 # Particules for entrance and exit of the arena
-execute if score Hive SQ58 matches -1.. run particle minecraft:dust 1 0 0 1 -7548 83.5 -4177 1 0 1 1 2 normal
-execute if score Hive SQ58 matches -1.. run particle minecraft:dust 1 0 0 1 -7547 70.5 -4162 1 1 0 1 2 normal
+particle minecraft:dust 1 0 0 1 -7548 83.5 -4177 1 0 1 1 2 normal
+particle minecraft:dust 1 0 0 1 -7547 70.5 -4162 1 1 0 1 2 normal
+
+# Sound security
+stopsound @a * minecraft:entity.bee.loop
+stopsound @a * minecraft:entity.bee.loop_aggressive
+stopsound @a * minecraft:entity.bee.hurt
 
 # Music management
 execute if score Hive SQ58 matches 0.. as @a[x=-7536,y=78,z=-4163,dx=-21,dy=-10,dz=-24,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
 execute if score Hive SQ58 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Hive
-execute if score Hive SQ58 matches 0.. as @e[x=-7536,y=78,z=-4163,dx=-21,dy=-10,dz=-24,type=minecraft:bee,tag=hive] store result score Bees_count SQ58 run execute if entity @e[x=-7536,y=78,z=-4163,dx=-21,dy=-10,dz=-24,type=minecraft:bee,tag=hive]
+execute if score Hive SQ58 matches 0.. as @e[x=-7536,y=78,z=-4163,dx=-21,dy=-10,dz=-24,type=minecraft:bee] store result score Bees_count SQ58 run execute if entity @e[x=-7536,y=78,z=-4163,dx=-21,dy=-10,dz=-24,type=minecraft:bee]
 execute if score Hive SQ58 matches 0.. if entity @a[x=-7536,y=78,z=-4163,dx=-21,dy=-10,dz=-24,gamemode=adventure] store result bossbar minecraft:hive value run scoreboard players get Bees_count SQ58
 
 # Make challengers enters the arena

@@ -9,7 +9,7 @@ execute if score Real2 TIMER matches 1..40 run particle minecraft:falling_nectar
 execute if score Real2 TIMER matches 5 run function att2:sound/misc/desintegration
 execute if score Real2 TIMER matches 40 run function att2:cinematic/sidequest/58/honey_falling
 execute if score Real2 TIMER matches 75..199 as @a[gamemode=spectator] run tp @s -7542 92 -4172 135 25
-execute if score Real2 TIMER matches 135 run function att2:cinematic/sidequest/58/honey_impact
+execute if score Real2 TIMER matches 150 run function att2:cinematic/sidequest/58/honey_impact
 execute if score Real2 TIMER matches 200 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
 
 

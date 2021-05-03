@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-execute if score Abmup_Nomit SQ58 matches -1.. run particle minecraft:dust 1 0 0 1 -7620 17 -4222 1 1 0 1 2 normal
-execute if score Abmup_Nomit SQ58 matches -1.. run particle minecraft:dust 1 0 0 1 -7617 24.5 -4173 1 1 0 1 2 normal
+particle minecraft:dust 1 0 0 1 -7620 17 -4222 1 1 0 1 2 normal
+particle minecraft:dust 1 0 0 1 -7617 24.5 -4173 1 1 0 1 2 normal
 
 # Music management
 execute if score Abmup_Nomit SQ58 matches 0.. as @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss

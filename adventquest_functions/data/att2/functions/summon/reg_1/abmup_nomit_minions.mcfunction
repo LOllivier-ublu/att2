@@ -3,4 +3,4 @@
 #Summon abmup nomit baby minions  		       	 #
 ##################################################
 
-summon minecraft:hoglin ~ ~ ~ {Tags:["LVL0","CLASS16","Reg1"],Age:-32000,IsImmuneToZombification:0,TimeInOverworld:-3000,CannotBeHunted:1}
+summon minecraft:hoglin ~ ~ ~ {Tags:["LVL0","CLASS16","Reg1"],Age:-32000,IsImmuneToZombification:1,CannotBeHunted:1}
