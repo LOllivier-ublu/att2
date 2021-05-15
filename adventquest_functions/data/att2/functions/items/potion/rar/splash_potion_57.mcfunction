@@ -3,4 +3,4 @@
 #Obtain potion Liquide aveuglant        		 #
 ##################################################
 
-give @s minecraft:splash_potion{EquipmentType:"misc",Rarity:"rar",display:{Name:"\"§9Tenebrae\"","Lore":["{\"text\":\"§7Obscurum per obscurius.\"}","{\"text\":\"§7Ignotum per ignotius.\"}"]},CustomPotionColor:983040,CustomPotionEffects:[{Id:20,Amplifier:4,Duration:500,ShowParticles:0b},{Id:18,Amplifier:2,Duration:400,ShowParticles:0b},{Id:15,Amplifier:0,Duration:300,ShowParticles:0b}]} 1
+give @s minecraft:splash_potion{EquipmentType:"potion",Rarity:"unc",Effect:"",display:{Name:"\"§2Révulsif\"","Lore":["{\"text\":\"§7Décongestionne certaine partie du corps.\"}","{\"text\":\"§7Decongests certain part of the body.\"}"]},CustomPotionColor:5740891,CustomPotionEffects:[{Id:6,Amplifier:2,Duration:0,ShowParticles:0b}]} 1
