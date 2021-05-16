@@ -3,8 +3,8 @@
 #Process equipment effect on player                      	#
 #############################################################
 
-execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/equipment/armor/go
-execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/equipment/weapon/go
+execute if score tic TIMECOUNTER matches 10 as @a run function att2:gameplay/equipment/armor/go
+execute if score tic TIMECOUNTER matches 10 as @a unless entity @s[nbt={SelectedItem:{tag:{EquipmentType:"potion"}}}] unless entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor"}}}] run function att2:gameplay/equipment/weapon/go
 
 execute as @a run function att2:gameplay/equipment/eternan
 
