@@ -3,8 +3,7 @@
 #Display boss defeat effetc 					 #
 ##################################################
 
-playsound minecraft:entity.player.levelup master @a ~ ~ ~ 5 0.6
-playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~ 5 2
+execute at @a run function att2:sound/misc/boss_victory
 particle minecraft:end_rod ~ ~1 ~ 0 0 0 1 100 force @a
 particle minecraft:crit ~ ~1 ~ 0 0 0 5 100 force @a
 particle minecraft:item minecraft:gold_block ~ ~ ~ 0 0 0 1 100 force @a
