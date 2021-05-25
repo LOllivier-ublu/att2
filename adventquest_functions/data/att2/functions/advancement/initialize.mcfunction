@@ -102,7 +102,7 @@ scoreboard objectives add statSALMON minecraft.used:minecraft.cooked_salmon
 scoreboard objectives add statFLESH minecraft.used:minecraft.rotten_flesh
 scoreboard objectives add statJORIN minecraft.used:minecraft.beetroot
 
-scoreboard objectives add TIMEPLAY minecraft.custom:minecraft.play_one_minute
+scoreboard objectives add TIMEPLAY minecraft.custom:minecraft.play_time
 
 scoreboard objectives add HOUSE dummy
 
