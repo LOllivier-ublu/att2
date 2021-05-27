@@ -17,7 +17,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_helmet"
+                        "item": "minecraft:leather_helmet",
+                        "count": 1
                     }
                 ]
             }
@@ -27,7 +28,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_chestplate"
+                        "item": "minecraft:leather_chestplate",
+                        "count": 1
                     }
                 ]
             }
@@ -37,7 +39,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings"
+                        "item": "minecraft:leather_leggings",
+                        "count": 1
                     }
                 ]
             }
@@ -47,7 +50,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_boots"
+                        "item": "minecraft:leather_boots",
+                        "count": 1
                     }
                 ]
             }

@@ -17,7 +17,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chainmail_helmet"
+                        "item": "minecraft:chainmail_helmet",
+                        "count": 1
                     }
                 ]
             }
@@ -27,7 +28,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chainmail_chestplate"
+                        "item": "minecraft:chainmail_chestplate",
+                        "count": 1
                     }
                 ]
             }
@@ -37,7 +39,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chainmail_leggings"
+                        "item": "minecraft:chainmail_leggings",
+                        "count": 1
                     }
                 ]
             }
@@ -47,7 +50,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chainmail_boots"
+                        "item": "minecraft:chainmail_boots",
+                        "count": 1
                     }
                 ]
             }

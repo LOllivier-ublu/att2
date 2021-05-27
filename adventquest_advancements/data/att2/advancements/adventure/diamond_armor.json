@@ -17,7 +17,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_helmet"
+                        "item": "minecraft:diamond_helmet",
+                        "count": 1
                     }
                 ]
             }
@@ -27,7 +28,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_chestplate"
+                        "item": "minecraft:diamond_chestplate",
+                        "count": 1
                     }
                 ]
             }
@@ -37,7 +39,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_leggings"
+                        "item": "minecraft:diamond_leggings",
+                        "count": 1
                     }
                 ]
             }
@@ -47,7 +50,8 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_boots"
+                        "item": "minecraft:diamond_boots",
+                        "count": 1
                     }
                 ]
             }

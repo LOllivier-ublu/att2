@@ -5,8 +5,8 @@
 
 clone 1962 87 1999 1970 91 2007 1962 96 1999 masked
 clone 1981 87 1984 1989 91 1994 1981 96 1984 masked
-playsound siren2 master @a 1972 97 2003 1 1 1
-playsound siren2 master @a 1985 97 1990 1 1 1
+playsound siren2 master @a 1972 97 2003 0.5 1
+playsound siren2 master @a 1985 97 1990 0.5 1
 
 summon minecraft:zombified_piglin 1987 97 1991 {Rotation:[0.0f,0.0f],NoAI:1,Invulnerable:1,CustomName:"\"POLICE\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attack_damage,Base:0.0},{Name:generic.max_health,Base:1.0}],Health:1,ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:2966667}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:2966667}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:2966667}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:[I;1263673185,-237680335,-1818815138,365983087],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYyZjM2ODg4NGJjMzVmMTYyNjI0OTc0ZDZlYTgzNjg2MzJmMGU4MDlmZmMxNmNhNzYyZDE2ZTM3ZTI2ZGUifX19"}]}}}}]}
 

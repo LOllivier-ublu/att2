@@ -18,7 +18,8 @@
             "conditions": {
                 "items": [
                     { 
-                    "item": "minecraft:diamond"
+                    "item": "minecraft:diamond",
+                    "count": 1
                     }
                 ]
             }
