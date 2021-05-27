@@ -17,7 +17,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:wooden_sword",
-                    "durability": {"max": 5,"min": 2}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         },
@@ -26,7 +26,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:wooden_shovel",
-                    "durability": {"max": 1,"min": -1}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         },
@@ -35,7 +35,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:wooden_axe",
-                    "durability": {"max": 1,"min": -1}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         },
@@ -44,7 +44,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:wooden_pickaxe",
-                    "durability": {"max": 1,"min": -1}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         }

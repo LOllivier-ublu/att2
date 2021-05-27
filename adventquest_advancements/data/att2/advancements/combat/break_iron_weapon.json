@@ -17,7 +17,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:iron_sword",
-                    "durability": {"max": 5,"min": 2}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         },

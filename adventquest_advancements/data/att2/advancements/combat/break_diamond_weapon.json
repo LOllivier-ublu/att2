@@ -17,7 +17,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:diamond_sword",
-                    "durability": {"max": 5,"min": 3}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         },
@@ -26,7 +26,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:diamond_shovel",
-                    "durability": {"max": 5,"min": 3}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         },
@@ -35,7 +35,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:diamond_axe",
-                    "durability": {"max": 7,"min": 4}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         },
@@ -44,7 +44,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:diamond_hoe",
-                    "durability": {"max": 13,"min": 10}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         },
@@ -53,7 +53,7 @@
             "conditions": {
                 "item": {
                     "item": "minecraft:diamond_pickaxe",
-                    "durability": {"max": 5,"min": 3}
+                    "durability": {"max": 2,"min": -1}
                 }
             }
         }
