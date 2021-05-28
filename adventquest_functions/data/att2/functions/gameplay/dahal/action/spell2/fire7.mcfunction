@@ -5,7 +5,7 @@
 
 particle minecraft:dust 1 0.3 0 2 ~ ~ ~ 0 0 0 0 1 normal
 particle minecraft:dust 0.3 0 0.3 0.5 ~ ~ ~ 0 0 0 0 1 normal
-particle minecraft:flame ~ ~ ~ 0 0 0 0 3 normal
+particle minecraft:small_flame ~ ~ ~ 0 0 0 0 3 normal
 execute as @e[distance=..2,scores={GAMELEVEL=0..},team=hostile] run data merge entity @s {Fire:140s}
 execute as @e[distance=..2,scores={GAMELEVEL=0..},team=hostile] run effect give @s minecraft:weakness 8 1
 execute as @e[distance=..2,scores={GAMELEVEL=0..},team=hostile,tag=!Undead] run effect give @s minecraft:instant_damage 2 3

@@ -16,6 +16,7 @@ execute as @e[type=minecraft:mule,scores={SPELL20_EFFECT=62..},tag=!NewInvo] at 
 execute as @e[type=minecraft:mule,scores={SPELL20_EFFECT=2..},tag=!NewInvo] at @s unless entity @a[distance=..15] run scoreboard players set @s SPELL20_EFFECT 0
 execute as @e[type=minecraft:mule,scores={SPELL20_EFFECT=2..60},tag=!NewInvo] at @s run particle minecraft:glow ~ ~ ~ 0.25 0.25 0.25 0.1 5 normal @a
 execute as @e[type=minecraft:mule,scores={SPELL20_EFFECT=2..40},tag=!NewInvo] at @s run particle minecraft:sneeze ~ ~ ~ 0.25 0.25 0.25 0.2 2 normal @a
+execute as @e[type=minecraft:mule,scores={SPELL20_EFFECT=20},tag=!NewInvo] at @s run function att2:sound/misc/desintegration
 execute as @e[type=minecraft:mule,scores={SPELL20_EFFECT=2..20},tag=!NewInvo] at @s run particle minecraft:glow_squid_ink ~ ~ ~ 0.25 0.25 0.25 0.2 2 normal @a
 execute as @e[type=minecraft:mule,scores={SPELL20_EFFECT=0..2},tag=!NewInvo] at @s run particle minecraft:flash ~ ~ ~ 0 0 0 0 1 normal @a
 execute as @e[type=minecraft:mule,scores={SPELL20_EFFECT=..2},tag=!NewInvo] in minecraft:overworld run function att2:gameplay/dahal/action/spell20/copy_mule_to_chest
