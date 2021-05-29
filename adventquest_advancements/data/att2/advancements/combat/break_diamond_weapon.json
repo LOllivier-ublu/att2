@@ -10,61 +10,27 @@
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 500
-                },
+    },
     "criteria": {
-        "break_diamond_sword": {
+        "break_diamond_weapon": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
+                "durability": {"max": 2},
                 "item": {
-                    "item": "minecraft:diamond_sword",
-                    "durability": {"max": 2,"min": -1}
-                }
-            }
-        },
-        "break_diamond_shovel": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:diamond_shovel",
-                    "durability": {"max": 2,"min": -1}
-                }
-            }
-        },
-        "break_diamond_axe": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:diamond_axe",
-                    "durability": {"max": 2,"min": -1}
-                }
-            }
-        },
-        "break_diamond_hoe": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:diamond_hoe",
-                    "durability": {"max": 2,"min": -1}
-                }
-            }
-        },
-        "break_diamond_pickaxe": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:diamond_pickaxe",
-                    "durability": {"max": 2,"min": -1}
+                    "items": [
+                    "minecraft:diamond_sword",
+                    "minecraft:diamond_shovel",
+                    "minecraft:diamond_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:diamond_hoe"
+                    ]
                 }
             }
         }
     },
     "requirements": [
         [
-        "break_diamond_sword",
-        "break_diamond_shovel",
-        "break_diamond_axe",
-        "break_diamond_hoe",
-        "break_diamond_pickaxe"
+        "break_diamond_weapon"
         ]
     ]
 }

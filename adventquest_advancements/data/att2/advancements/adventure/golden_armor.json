@@ -17,8 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_helmet",
-                        "count": 1
+                        "items": [
+                            "minecraft:golden_helmet",
+                        ]
                     }
                 ]
             }
@@ -28,8 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_chestplate",
-                        "count": 1
+                        "items": [
+                            "minecraft:golden_chestplate",
+                        ]
                     }
                 ]
             }
@@ -39,8 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_leggings",
-                        "count": 1
+                        "items": [
+                            "minecraft:golden_leggings",
+                        ]
                     }
                 ]
             }
@@ -50,8 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_boots",
-                        "count": 1
+                        "items": [
+                            "minecraft:golden_boots",
+                        ]
                     }
                 ]
             }

@@ -10,51 +10,26 @@
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 250
-                },
+    },
     "criteria": {
-        "break_chainmail_helmet": {
+        "break_chainmail_armor": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
+                "durability": {"max": 5},
                 "item": {
-                    "item": "minecraft:chainmail_helmet",
-                    "durability": {"max": 5}
+                    "items": [ 
+                    "minecraft:chainmail_helmet",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:chainmail_boots"
+                    ]
                 }
             }
-        },
-        "break_chainmail_chestplate": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:chainmail_chestplate",
-                    "durability": {"max": 5}
-                }
-            }
-        },
-        "break_chainmail_leggings": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:chainmail_leggings",
-                    "durability": {"max": 5}
-                }
-            }
-        },
-        "break_chainmail_boots": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:chainmail_boots",
-                    "durability": {"max": 5}
-                    }
-                }
-            }
-        },
+        }
+    },
     "requirements": [
         [
-        "break_chainmail_helmet",
-        "break_chainmail_chestplate",
-        "break_chainmail_leggings",
-        "break_chainmail_boots"
+        "break_chainmail_armor"
         ]
     ]
 }

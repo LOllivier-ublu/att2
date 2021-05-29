@@ -15,9 +15,9 @@
         "bow": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
+                "durability": {"max": 2},
                 "item": {
-                    "item": "minecraft:bow",
-                    "durability": {"max": 2,"min": -1}
+                    "item": "minecraft:bow"
                 }
             }
         }
