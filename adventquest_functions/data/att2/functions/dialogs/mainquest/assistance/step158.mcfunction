@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je dois trouver une une clef d'émeraude, mais pour cela il faut que j'active un mécanisme et j'ai besoin de trois engrenages. Ils doivent se trouver sûrement dans la salle même.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je dois trouver une clef d'émeraude, mais pour cela il faut que j'active un mécanisme et j'ai besoin de trois engrenages. Ils doivent se trouver sûrement dans la salle même.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 
