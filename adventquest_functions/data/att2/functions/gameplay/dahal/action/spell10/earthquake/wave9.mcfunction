@@ -3,12 +3,13 @@
 #Manage earthquake wave 9 effects				#
 #################################################
 
-particle minecraft:falling_dust minecraft:dirt ~ ~0.5 ~ 8 0.5 8 0 180 normal
-particle minecraft:falling_dust minecraft:dark_oak_wood ~ ~0.5 ~ 8 0.5 8 0 180 normal
-particle minecraft:falling_dust minecraft:gray_concrete ~ ~0.5 ~ 8 0.5 8 0 180 normal
-particle minecraft:item minecraft:iron_block ~ ~0.5 ~ 8 0.25 8 0.4 180 normal
-particle minecraft:item minecraft:gray_concrete ~ ~0.5 ~ 8 0.25 8 0.4 180 normal
-particle minecraft:item minecraft:dirt ~ ~0.5 ~ 8 0.25 8 0.4 180 normal
+particle minecraft:falling_dust minecraft:dirt ~ ~0.5 ~ 4.5 0.5 4.5 0 180 normal
+particle minecraft:falling_dust minecraft:dark_oak_wood ~ ~0.5 ~ 4.5 0.5 4.5 0 180 normal
+particle minecraft:falling_dust minecraft:gray_concrete ~ ~0.5 ~ 4.5 0.5 4.5 0 180 normal
+particle minecraft:item minecraft:iron_block ~ ~0.5 ~ 4.5 0.25 4.5 0.4 180 normal
+particle minecraft:item minecraft:gray_concrete ~ ~0.5 ~ 4.5 0.25 4.5 0.4 180 normal
+particle minecraft:item minecraft:dirt ~ ~0.5 ~ 4.5 0.25 4.5 0.4 180 normal
+particle minecraft:campfire_signal_smoke ~ ~ ~ 4.5 0.25 4.5 0.1 90 normal
 
 execute at @s as @a run function att2:gameplay/dahal/action/spell10/sound_effect2
 

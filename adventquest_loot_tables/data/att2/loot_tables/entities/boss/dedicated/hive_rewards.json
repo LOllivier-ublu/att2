@@ -1,0 +1,84 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.033
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"potion\",Rarity:\"leg\",Effect:\"str4\",display:{Name:\"\\\"§6Puissance Ineffable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Faites exploser votre force,\\\"}\",\"{\\\"text\\\":\\\"§7au prix d'une insatiable faim.\\\"}\",\"{\\\"text\\\":\\\"§7Explode your strength,\\\"}\",\"{\\\"text\\\":\\\"§7at the cost of insatiable hunger.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4\\\"}\"]},CustomPotionColor:4738620,CustomPotionEffects:[{Id:6,Amplifier:1,Duration:2,ShowParticles:0b}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.033
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"potion\",Rarity:\"leg\",Effect:\"has4_spd2_dar2_hun2\",display:{Name:\"\\\"§6Quintessence\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Là où l'harmonie s'opère,\\\"}\",\"{\\\"text\\\":\\\"§7le grand oeuvre peut s'accomplir.\\\"}\",\"{\\\"text\\\":\\\"§7Where harmony takes place,\\\"}\",\"{\\\"text\\\":\\\"§7the great work can be accomplished.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7SPD§a2 §7DAR§a2 §7HUN§a2\\\"}\"]},CustomPotionColor:7012497,CustomPotionEffects:[{Id:6,Amplifier:0,Duration:2,ShowParticles:0b}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.033
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"potion\",Rarity:\"leg\",Effect:\"str3_res1_luc2\",display:{Name:\"\\\"§6Nectar somptueux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Boisson légendaire royale dont seul les plus\\\"}\",\"{\\\"text\\\":\\\"§7fortunés ont la chance d'y gouter.\\\"}\",\"{\\\"text\\\":\\\"§7Legendary royal drink which only\\\"}\",\"{\\\"text\\\":\\\"§7the wealthy have the chance to taste.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1 §7LUC§a2\\\"}\"]},CustomPotionColor:16187275,CustomPotionEffects:[{Id:6,Amplifier:7,Duration:0,ShowParticles:0b},{Id:16,Amplifier:0,Duration:1200,ShowParticles:0b},{Id:12,Amplifier:0,Duration:400,ShowParticles:0b}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -17,5 +17,5 @@ execute in minecraft:the_nether run particle minecraft:large_smoke 3525 50 4472 
 # Eyes
 execute in minecraft:the_nether positioned 3528.3 51.6 4473 run function att2:summon/reg_2/flamme_noire_right_eye
 execute in minecraft:the_nether positioned 3521.7 51.6 4473 run function att2:summon/reg_2/flamme_noire_left_eye
-data merge entity @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,91,0,123]},limit=1] {Rotation:[180.0f,5.0f],ArmorItems:[{},{},{},{id:"minecraft:stone_hoe",tag:{Damage:130s},Count:1}]}
-data merge entity @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,91,0,139]},limit=1] {Rotation:[180.0f,5.0f],ArmorItems:[{},{},{},{id:"minecraft:stone_hoe",tag:{Damage:130s},Count:1}]}
+data merge entity @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,91,0,123]},limit=1] {Rotation:[180.0f,5.0f],ArmorItems:[{},{},{},{id:"minecraft:shears",tag:{CustomModelData:10010012},Count:1}]}
+data merge entity @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,91,0,139]},limit=1] {Rotation:[180.0f,5.0f],ArmorItems:[{},{},{},{id:"minecraft:shears",tag:{CustomModelData:10010012},Count:1}]}

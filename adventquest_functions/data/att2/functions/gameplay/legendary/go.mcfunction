@@ -17,6 +17,4 @@ function att2:gameplay/legendary/ultima/go
 function att2:gameplay/legendary/warlord/go
 function att2:gameplay/equipment/weapon/spear/go
 
-function att2:gameplay/legendary/skinsecurity
-
 scoreboard players set @a[scores={DAMAGE=1..}] DAMAGE 0

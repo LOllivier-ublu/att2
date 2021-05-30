@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/ragnar_lorth
 function att2:gameplay/reputation/add_2
+function att2:sound/misc/mission_progress
 
 scoreboard players set ragnar_lorth_PNJ DIALOG 2
 

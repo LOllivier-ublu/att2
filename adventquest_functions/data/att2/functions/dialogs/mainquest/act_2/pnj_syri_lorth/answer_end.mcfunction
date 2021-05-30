@@ -7,6 +7,7 @@ scoreboard players set syri_lorth_meleim_PNJ DIALOG 5
 scoreboard players set Real0 TIMER 2
 function att2:gameplay/pnj_talk/dialog_playsound/syri_lorth
 function att2:gameplay/reputation/add_7
+function att2:sound/misc/mission_progress
 
 
 #FRENCH LANGUAGE

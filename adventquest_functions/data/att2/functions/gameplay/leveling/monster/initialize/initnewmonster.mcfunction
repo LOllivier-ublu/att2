@@ -39,6 +39,7 @@ execute as @s[scores={CLASSLEVEL=22..}] run scoreboard players set @s CLASSLEVEL
 
 # Updating monster
 function att2:gameplay/leveling/monster/monsterupdate
+execute if score level DIFFICULTY matches -1 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:18,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0},{Id:2,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0}]}
 execute if score level DIFFICULTY matches 0 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:11,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0}]}
 execute if score level DIFFICULTY matches 1 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:11,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
 execute if score level DIFFICULTY matches 2 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:11,Amplifier:2,Duration:2147483647,Ambient:1,ShowParticles:0},{Id:1,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0},{Id:5,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}

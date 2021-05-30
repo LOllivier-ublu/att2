@@ -76,3 +76,5 @@ function att2:summon/reg_1/serile_rewards
 function att2:summon/reg_1/serile_rewards
 function att2:summon/reg_1/serile_rewards
 function att2:summon/reg_1/serile_rewards
+
+function att2:summon/reg_1/serile_rewards_dedicated

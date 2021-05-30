@@ -25,3 +25,5 @@ function att2:summon/reg_1/ted_rewards
 function att2:summon/reg_1/ted_rewards
 function att2:summon/reg_1/ted_rewards
 function att2:summon/reg_1/ted_rewards
+
+function att2:summon/reg_1/ted_rewards_dedicated

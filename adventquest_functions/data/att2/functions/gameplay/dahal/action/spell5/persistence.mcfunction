@@ -6,6 +6,7 @@
 execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=50..60}] at @s run particle minecraft:enchant ~ ~0.1 ~ 2 0 2 0 15 normal
 execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=60}] at @s as @a run function att2:sound/dahal/imminent
 execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run particle minecraft:end_rod ~ ~ ~ 1 0 1 0 10
+execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run particle minecraft:electric_spark ~ ~ ~ 1 0 1 0 10
 execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run particle minecraft:dolphin ~ ~2 ~ 0 1 0 0 5 normal
 execute as @e[type=minecraft:armor_stand,scores={SPELL5_EFFECT=-100..}] at @s run particle minecraft:end_rod ~ ~2 ~ 0.2 1 0.2 0 3 normal
 

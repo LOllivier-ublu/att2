@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Interfacer"},
+        "description": {"translate":"Hold the mythical weapon INTERFACER"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 5000
+                },
+    "criteria": {
+        "interfacer": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

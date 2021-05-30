@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-execute if score Torkant SQ52 matches -1.. run particle minecraft:dust 1 0 0 1 -5552 53 -4577 1 1 0 1 2 normal
-execute if score Torkant SQ52 matches -1.. run particle minecraft:dust 1 0 0 1 -5552 50 -4541 1 1 0 1 2 normal
+particle minecraft:dust 1 0 0 1 -5552 53 -4577 1 1 0 1 2 normal
+particle minecraft:dust 1 0 0 1 -5552 50 -4541 1 1 0 1 2 normal
 
 # Sound security
 stopsound @a * minecraft:block.bubble_column.bubble_pop

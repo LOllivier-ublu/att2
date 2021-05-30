@@ -10,51 +10,27 @@
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 500
-                },
+    },
     "criteria": {
-        "break_wooden_sword": {
+        "break_wooden_weapon": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
+                "durability": {"max": 2},
                 "item": {
-                    "item": "minecraft:wooden_sword",
-                    "durability": {"max": 5,"min": 2}
-                }
-            }
-        },
-        "break_wooden_shovel": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:wooden_shovel",
-                    "durability": {"max": 1,"min": -1}
-                }
-            }
-        },
-        "break_wooden_axe": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:wooden_axe",
-                    "durability": {"max": 1,"min": -1}
-                }
-            }
-        },
-        "break_wooden_pickaxe": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:wooden_pickaxe",
-                    "durability": {"max": 1,"min": -1}
+                    "items": [
+                    "minecraft:wooden_sword",
+                    "minecraft:wooden_shovel",
+                    "minecraft:wooden_axe",
+                    "minecraft:wooden_pickaxe",
+                    "minecraft:wooden_hoe"
+                    ]
                 }
             }
         }
     },
     "requirements": [
         [
-        "break_wooden_sword",
-        "break_wooden_shovel",
-        "break_wooden_axe",
-        "break_wooden_pickaxe"
+        "break_wooden_weapon"
         ]
     ]
 }

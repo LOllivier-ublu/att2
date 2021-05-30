@@ -10,6 +10,7 @@ scoreboard objectives setdisplay sidebar DAHAL
 execute as @a run function att2:cinematic/act_2/corruption/effect_soft
 execute as @a run function att2:gameplay/dahal/action/spell1/obtain
 execute as @a run function att2:gameplay/dahal/obtain
+scoreboard objectives setdisplay sidebar DAHAL
 scoreboard players set spells TUTORIAL 1
 fill 1991 101 1992 1977 96 2006 minecraft:barrier replace minecraft:air
 fill 1990 101 1993 1978 96 2005 minecraft:air replace minecraft:barrier

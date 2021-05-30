@@ -12,31 +12,24 @@
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 1000
-                },
+    },
     "criteria": {
-        "break_stone_shovel": {
+        "break_ouranos_weapon": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
+                "durability": {"max": 2},
                 "item": {
-                    "item": "minecraft:stone_shovel",
-                    "durability": {"max": 2,"min": -1}
-                }
-            }
-        },
-        "break_stone_axe": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:stone_axe",
-                    "durability": {"max": 2,"min": -1}
+                    "items": [
+                    "minecraft:stone_shovel",
+                    "minecraft:stone_axe"
+                    ]
                 }
             }
         }
     },
     "requirements": [
         [
-        "break_stone_shovel",
-        "break_stone_axe"
+        "break_ouranos_weapon"
         ]
     ]
 }

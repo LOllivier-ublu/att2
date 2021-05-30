@@ -15,9 +15,9 @@
         "shield": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
+                "durability": {"max": 3},
                 "item": {
-                    "item": "minecraft:shield",
-                    "durability": {"max": 3,"min": -1}
+                    "item": "minecraft:shield"
                 }
             }
         }

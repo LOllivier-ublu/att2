@@ -25,3 +25,5 @@ function att2:summon/reg_4/aozathreyon_rewards
 function att2:summon/reg_4/aozathreyon_rewards
 function att2:summon/reg_4/aozathreyon_rewards
 function att2:summon/reg_4/aozathreyon_rewards
+
+function att2:summon/reg_4/aozathreyon_rewards_dedicated
