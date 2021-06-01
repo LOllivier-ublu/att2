@@ -3,4 +3,5 @@
 #Use function to process the dialog playsound for each PNJ		#
 #################################################################
 
-execute as 00000000-0000-016a-0000-00000000016a at @s run function att2:gameplay/pnj_talk/dialog_effect
+function att2:sound/dialogs/simple
+playsound minecraft:entity.villager.trade ambient @a ~ ~ ~ 0.25 1.25

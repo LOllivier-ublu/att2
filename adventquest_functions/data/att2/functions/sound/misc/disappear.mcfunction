@@ -3,4 +3,4 @@
 #Play sound for disappear                 				#
 #########################################################
 
-playsound minecraft:entity.zombie.infect neutral @a ~ ~ ~ 1 0.7
+playsound minecraft:entity.zombie.infect ambient @a ~ ~ ~ 1 0.7

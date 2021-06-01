@@ -14,7 +14,7 @@ execute if score Dash EARNDHEL matches 5 at 00000000-0000-008b-0000-00000000008a
 execute if score Dash EARNDHEL matches 3 at 00000000-0000-008b-0000-00000000008a run function att2:gameplay/boss/earndhel/etotsira/effect_charge4
 execute if score Dash EARNDHEL matches 2 at 00000000-0000-008b-0000-00000000008a as @a[distance=..4] run effect give @s minecraft:instant_damage 1 1 true
 execute if score Dash EARNDHEL matches 2 run data merge entity 00000000-0000-008b-0000-00000000008a {Attributes:[{Name:generic.movement_speed,Base:0.2}]}
-execute if score Dash EARNDHEL matches 1..10 if score Etotsira EARNDHEL matches 1 at 00000000-0000-008b-0000-00000000008a as @a[distance=..4] run effect give @s minecraft:instant_damage 1 3 true
+execute if score Dash EARNDHEL matches 1..10 if score Etotsira EARNDHEL matches 1 at 00000000-0000-008b-0000-00000000008a as @a[distance=..4] run effect give @s minecraft:instant_damage 1 2 true
 execute if score Dash EARNDHEL matches 1..10 if score Etotsira EARNDHEL matches 1 at 00000000-0000-008b-0000-00000000008a run particle minecraft:explosion_emitter ~ ~1 ~ 0 0 0 1 1 force
 execute if score Dash EARNDHEL matches 1..30 as 00000000-0000-008b-0000-00000000008a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.000001 ~ ~
 

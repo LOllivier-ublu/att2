@@ -3,5 +3,5 @@
 #Play sound for vonaheim teleportation					#
 #########################################################
 
-playsound minecraft:flyby neutral @s ~ ~ ~ 2 1
-playsound minecraft:teleportation neutral @s ~ ~ ~ 2 2
+playsound minecraft:flyby ambient @s ~ ~ ~ 2 1
+playsound minecraft:teleportation ambient @s ~ ~ ~ 2 2

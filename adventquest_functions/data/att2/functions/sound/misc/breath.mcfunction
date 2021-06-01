@@ -3,4 +3,4 @@
 #Play sound for breath  								#
 #########################################################
 
-playsound minecraft:breath1 neutral @a ~ ~ ~ 1 1
+playsound minecraft:breath1 player @a ~ ~ ~ 1 1
