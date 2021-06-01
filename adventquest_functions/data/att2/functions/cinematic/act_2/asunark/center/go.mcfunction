@@ -20,7 +20,7 @@ execute if score Pillars ASUNARK matches 0..4 run particle minecraft:enchanted_h
 execute if score Pillars ASUNARK matches 4 as @a[x=-3334,y=16,z=-4937,dx=-70,dy=-5,dz=-10] at @s run scoreboard players set @s SPD_LVL_EXT -4
 execute if score Pillars ASUNARK matches 4 as @a[x=-3334,y=16,z=-4937,dx=-70,dy=-5,dz=-10] at @s run scoreboard players set @s TIMER_SPD_EXT 2
 
-execute if score Pillar_NE ASUNARK matches 16 run particle minecraft:crit -3422 31.5 -4963 0.3 1.5 0.3 0.1 15
-execute if score Pillar_NW ASUNARK matches 16 run particle minecraft:crit -3464 31.5 -4963 0.3 1.5 0.3 0.1 15
-execute if score Pillar_SE ASUNARK matches 16 run particle minecraft:crit -3422 31.5 -4921 0.3 1.5 0.3 0.1 15
-execute if score Pillar_SW ASUNARK matches 16 run particle minecraft:crit -3464 31.5 -4921 0.3 1.5 0.3 0.1 15
+execute if score Pillar_NE ASUNARK matches 16 run particle minecraft:electric_spark -3422 31.5 -4963 0.3 1.5 0.3 0.1 15
+execute if score Pillar_NW ASUNARK matches 16 run particle minecraft:electric_spark -3464 31.5 -4963 0.3 1.5 0.3 0.1 15
+execute if score Pillar_SE ASUNARK matches 16 run particle minecraft:electric_spark -3422 31.5 -4921 0.3 1.5 0.3 0.1 15
+execute if score Pillar_SW ASUNARK matches 16 run particle minecraft:electric_spark -3464 31.5 -4921 0.3 1.5 0.3 0.1 15

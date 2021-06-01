@@ -3,7 +3,7 @@
 #Use function to process the SQ3 step4							#
 #################################################################
 
-function att2:sound/misc/mission_progress
+execute at @a run function att2:sound/misc/mission_progress
 scoreboard players set SQ3 SIDEQUEST 4
 scoreboard players set tyrgols_gacko_move SQ3 1
 scoreboard players set tyrgols_gacko_PNJ DIALOG 1

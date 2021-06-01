@@ -3,7 +3,7 @@
 #Process action_1 for ryliathportal_3 cinematic		#
 #####################################################
 
-tag @e[tag=spaceGem] remove spaceGem
+function att2:cinematic/act_2/ryliathportal_gem_remove
 function att2:dialogs/title/a3_ch1_title1
 function att2:dialogs/title/a3_ch1_subtitle1
 function att2:dialogs/mainquest/act_3/ch1_player_1

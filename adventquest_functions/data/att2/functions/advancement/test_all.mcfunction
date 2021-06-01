@@ -7,8 +7,8 @@
 recipe take @a *
 
 ### Percentage exploit calcul
-scoreboard players operation Game_percentage EXPLOIT = Points_completion EXPLOIT
-scoreboard players operation Game_percentage EXPLOIT *= Points_completion 100
+scoreboard players operation Game_percentage EXPLOIT = game_completion EXPLOIT
+scoreboard players operation Game_percentage EXPLOIT *= Points_completion EXPLOIT
 scoreboard players operation Game_percentage EXPLOIT /= Total_objectives EXPLOIT
 
 ### Test advancement

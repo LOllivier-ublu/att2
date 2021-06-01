@@ -4,7 +4,8 @@
 ##################################################
 
 clear @s minecraft:brown_mushroom{display:{"Lore":["{\"text\":\"§4§oEdible mushroom\"}"]}} 1
-scoreboard players add intake_mushroom SQ3 1
+scoreboard players add intake_mushroom SQ4 1
 execute positioned -5080 77 -5036 run function att2:gameplay/intake/effect
 
-execute if score intake_mushroom SQ3 matches 20.. run function att2:cinematic/sidequest/4/end
+execute if score intake_mushroom SQ4 matches 5.. run stopsound @a block minecraft:airblast
+execute if score intake_mushroom SQ4 matches 20.. run function att2:cinematic/sidequest/4/end

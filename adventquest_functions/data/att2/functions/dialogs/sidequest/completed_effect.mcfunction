@@ -3,8 +3,8 @@
 #Use function to activate the sidequest effect	#
 #################################################
 
-function att2:sound/misc/quest_completed
-particle minecraft:dust 1 1 0 1 ~ ~1 ~ 1 1 1 0 100 normal
+execute at @a run function att2:sound/misc/quest_completed
+execute at @a run particle minecraft:dust 1 1 0 1 ~ ~1 ~ 1 1 1 0 100 normal
 
 
 #FRENCH LANGUAGE

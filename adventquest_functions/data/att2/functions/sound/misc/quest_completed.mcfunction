@@ -3,4 +3,4 @@
 #Play sound for quest completed effect  				#
 #########################################################
 
-playsound minecraft:quest player @a ~ ~ ~ 1 1
+playsound minecraft:quest player @s ~ ~ ~ 1 1
