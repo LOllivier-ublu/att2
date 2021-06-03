@@ -3,7 +3,7 @@
 #Use function to activate the sidequest effect	#
 #################################################
 
-execute at @a run function att2:sound/misc/quest_completed
+execute as @a at @s run function att2:sound/misc/quest_completed
 execute at @a run particle minecraft:dust 1 1 0 1 ~ ~1 ~ 1 1 1 0 100 normal
 
 
