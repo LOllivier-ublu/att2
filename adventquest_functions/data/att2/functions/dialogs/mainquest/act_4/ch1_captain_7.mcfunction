@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","extra":[{"text":"Alors vous nous quittez déjà ? On m'a dit pour votre quête. Je ne peux que vous souhaiter bonne chance : trop peux sont revenus des expéditions vers le donjon de Vonaheim... Mais, si il y a bien quelqu'un qui peut réussir, je suis sûr que ce sera vous ! Allez les gars ! Ouvrez-lui donc la porte !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","extra":[{"text":"Alors vous nous quittez déjà ? On m'a dit pour votre quête. Je ne peux que vous souhaiter bonne chance : trop peu sont revenus des expéditions vers le donjon de Vonaheim... Mais, si il y a bien quelqu'un qui peut réussir, je suis sûr que ce sera vous ! Allez les gars ! Ouvrez-lui donc la porte !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
