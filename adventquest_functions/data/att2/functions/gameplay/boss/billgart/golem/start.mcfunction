@@ -22,6 +22,7 @@ scoreboard players set GolemBoss_hurt12 BILLGART 0
 scoreboard players set GolemBoss_hurt13 BILLGART 0
 scoreboard players set GolemBoss_hurt14 BILLGART 0
 scoreboard players set GolemBoss_hurt15 BILLGART 0
+effect give 00000000-0000-009b-0000-00000000009b minecraft:instant_health 1 10 true
 function att2:gameplay/boss/billgart/golem/init_bossbar
 function att2:gameplay/checkpoint/billgart/dungeon16
 function att2:gameplay/boss/billgart/golem/summon_bow

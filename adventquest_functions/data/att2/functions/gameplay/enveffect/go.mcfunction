@@ -20,4 +20,5 @@ execute if score tower_s_mech2 BILLGART matches 4 in minecraft:the_end if entity
 execute if score tower_n_mech5 BILLGART matches 1 in minecraft:the_end if entity @a[x=-1239,y=63,z=-692,distance=..25] run function att2:gameplay/enveffect/gear/go
 execute if score tower_n_mech7 BILLGART matches 3 in minecraft:the_end if entity @a[x=-1239,y=91,z=-755,distance=..25] run function att2:gameplay/enveffect/gear/go
 execute if score tower_se_mech3 BILLGART matches 3..5 in minecraft:the_end if entity @a[x=-1132,y=51,z=-592,distance=..25] run function att2:gameplay/enveffect/gear/go
+execute if score tower_se_mech7 BILLGART matches 1 in minecraft:the_end if entity @a[x=-1183,y=96,z=-571,distance=..25] run function att2:gameplay/enveffect/gear/go
 execute if score tower_ne_mech11 BILLGART matches 1 in minecraft:the_end if entity @a[x=-1174,y=130,z=-682,distance=..25] run function att2:gameplay/enveffect/gear/go

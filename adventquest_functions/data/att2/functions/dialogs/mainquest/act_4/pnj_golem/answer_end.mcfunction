@@ -3,6 +3,8 @@
 #Use function to process the answer end 						#
 #################################################################
 
+execute at @s run function att2:sound/mobs/golem_death
+
 
 #FRENCH LANGUAGE
 

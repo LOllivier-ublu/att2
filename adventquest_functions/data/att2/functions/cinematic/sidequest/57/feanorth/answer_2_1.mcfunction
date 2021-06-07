@@ -4,7 +4,7 @@
 #################################################################
 
 scoreboard players set choice SQ57 2
-scoreboard players set feanorth_PNJ SQ57 3
+scoreboard players set feanorth_PNJ DIALOG 3
 function att2:gameplay/reputation/add_1
 function att2:cinematic/sidequest/57/step1
 function att2:gameplay/pnj_talk/dialog_playsound/feanorth

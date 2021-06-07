@@ -3,7 +3,8 @@
 #Use function to process the green answer 						#
 #################################################################
 
-function att2:sound/dialogs/simple
+execute at @s run function att2:sound/dialogs/simple
+execute at @s run function att2:sound/mobs/golem_death
 execute if score golem_PNJ DIALOG matches 1 run function att2:gameplay/reputation/remove_4
 scoreboard players set golem_PNJ DIALOG 4
 scoreboard players set golem_mech1_timer BILLGART 200
