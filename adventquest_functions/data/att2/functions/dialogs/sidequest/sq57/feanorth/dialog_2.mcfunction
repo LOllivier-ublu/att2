@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Feanorth : ","color":"green","ext
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Feanorth : ","color":"green","extra":[{"text":"Hey! You're back in the region, that's good! I know that after the exploits you have accomplished, I might ask for a lot, but I would need help with an Atricanth nest... These still juvenile critters, fortunately much less dangerous than the adults, is a real plague. They have taken their ease in certain districts of Angor and many warriors have already died during the war... I don't have many people left to take care of this problem, that's why I'm asking for your fighting skills.","color":"dark_aqua"}]}
+
+
+function att2:dialogs/sidequest/sq57/feanorth/player_proposal_1/choice_1
+function att2:dialogs/sidequest/sq57/feanorth/player_proposal_1/choice_2

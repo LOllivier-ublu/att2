@@ -7,7 +7,7 @@
 ##################################################
 
 # Timer bar
-execute store result bossbar minecraft:ouranos_timer value run scoreboard players get tower2_mech3_circles OURANOS
+execute store result bossbar minecraft:ouranos_timer value run scoreboard players get tower2_mech3 OURANOS
 
 # Circles trigger area
 execute if score tower2_mech3_circles OURANOS matches 0 if entity @a[x=7403,y=146,z=6460,distance=..3,gamemode=adventure] positioned 7403 146 6460 run function att2:cinematic/act_4/ouranos/tower2/mech3/circle_true

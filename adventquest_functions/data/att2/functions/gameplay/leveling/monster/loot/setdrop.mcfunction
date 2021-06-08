@@ -38,11 +38,8 @@ execute as @s[tag=Reg2,scores={CLASSLEVEL=12}] run function att2:gameplay/leveli
 execute as @s[tag=Reg2,scores={CLASSLEVEL=13..15}] run function att2:gameplay/leveling/drop/reg2/p7
 execute as @s[tag=Reg2,scores={CLASSLEVEL=16}] run function att2:gameplay/leveling/drop/reg2/p8
 execute as @s[tag=Reg2,scores={CLASSLEVEL=17..19}] run function att2:gameplay/leveling/drop/reg2/p9
-execute as @s[tag=Reg2,tag=SQ45,scores={CLASSLEVEL=17..19}] run function att2:gameplay/leveling/drop/reg2/p9_sq45
 execute as @s[tag=Reg2,scores={CLASSLEVEL=20}] run function att2:gameplay/leveling/drop/reg2/p10
-execute as @s[tag=Reg2,tag=SQ45,scores={CLASSLEVEL=20}] run function att2:gameplay/leveling/drop/reg2/p10_sq45
 execute as @s[tag=Reg2,scores={CLASSLEVEL=21..}] run function att2:gameplay/leveling/drop/reg2/p11
-execute as @s[tag=Reg2,tag=SQ45,scores={CLASSLEVEL=21..}] run function att2:gameplay/leveling/drop/reg2/p11_sq45
 
 # Process in game only CLASSLEVEL 9-21
 execute as @s[tag=Reg3,scores={CLASSLEVEL=0..3}] run function att2:gameplay/leveling/drop/reg3/p1
