@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:orange_stained_glass_pane"
+            "item": "minecraft:purple_stained_glass_pane"
         },
         "title": {"translate":"Aveugle Rempart"},
         "description": {"translate":"Hold the mythical shield AVEUGLE REMPART"},

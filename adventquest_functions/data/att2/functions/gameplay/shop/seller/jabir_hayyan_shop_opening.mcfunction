@@ -11,7 +11,7 @@ function att2:dialogs/gameplay/shop/items_selled_list/potion/unc/potion_15
 function att2:dialogs/gameplay/shop/items_selled_list/potion/rar/potion_19
 function att2:dialogs/gameplay/shop/items_selled_list/potion/leg/potion_28
 
-function att2:dialogs/gameplay/shop/items_selled_list/potion_thrown_list
+function att2:dialogs/gameplay/shop/items_selled_list/potion_splash_list
 function att2:dialogs/gameplay/shop/items_selled_list/potion/rar/splash_potion_36
 function att2:dialogs/gameplay/shop/items_selled_list/potion/epi/splash_potion_38
 

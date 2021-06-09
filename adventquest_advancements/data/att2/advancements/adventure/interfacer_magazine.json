@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:orange_stained_glass_pane"
+            "item": "minecraft:brewing_stand"
         },
         "title": {"translate":"Interfacer Dahäl Magazine"},
         "description": {"translate":"Hold the legendary firearm INTERFACER magazine"},

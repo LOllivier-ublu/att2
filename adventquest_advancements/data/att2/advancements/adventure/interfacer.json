@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:crossbow"
+            "item": "minecraft:orange_stained_glass_pane"
         },
         "title": {"translate":"Interfacer"},
         "description": {"translate":"Hold the mythical weapon INTERFACER"},

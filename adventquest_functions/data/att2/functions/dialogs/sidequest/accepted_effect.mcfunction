@@ -3,7 +3,7 @@
 #Use function to activate the sidequest effect	#
 #################################################
 
-function att2:sound/misc/quest_accepted
+execute at @a run function att2:sound/misc/quest_accepted
 scoreboard players set Accepted SIDEQUEST 1
 
 #FRENCH LANGUAGE

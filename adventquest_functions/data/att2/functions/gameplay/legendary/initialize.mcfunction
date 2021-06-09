@@ -6,6 +6,7 @@
 
 scoreboard objectives add DAMAGE minecraft.custom:minecraft.damage_dealt
 
+function att2:gameplay/legendary/blindshield/initialize
 function att2:gameplay/legendary/bloodeater/initialize
 function att2:gameplay/legendary/fortuity/initialize
 function att2:gameplay/legendary/fenrir/initialize
