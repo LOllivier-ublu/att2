@@ -15,7 +15,7 @@ particle minecraft:dust 1 0 0 1 3425 33.5 4303 1.5 0.1 1.5 0 5 force
 particle minecraft:dust 1 0 0 1 3446 20.5 4303 0.1 1.2 1.2 0 5 force
 
 # Music management
-execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether as @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
+execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether as @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Atricanth SQ57 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Atricanth

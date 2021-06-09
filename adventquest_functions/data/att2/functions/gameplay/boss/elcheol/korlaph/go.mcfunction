@@ -8,7 +8,7 @@
 #####################################################################
 
 # Music management
-execute if score Korlaph SQ28 matches 0.. as @a[x=-5111.5,y=165,z=-6755.5,distance=..15,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Korlaph SQ28 matches 0.. as @a[x=-5111.5,y=165,z=-6755.5,distance=..15,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Korlaph SQ28 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Korlaph

@@ -15,7 +15,7 @@ execute if score Kum SQ53 matches -2.. run particle minecraft:dust 1 0 0 1 -1533
 execute if score Kum SQ53 matches -2.. run particle minecraft:dust 1 0 0 1 -1572 29 -605 0 1 1 1 2 normal
 
 # Music management
-execute if score Kum SQ53 matches 0.. as @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Kum SQ53 matches 0.. as @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Kum SQ53 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Kum

@@ -15,7 +15,7 @@ particle minecraft:dust 1 0 0 1 6657.5 149.5 7058.0 0.1 1 1 0 2 normal
 particle minecraft:dust 1 0 0 1 6748 129 7067 0.1 1 1 0 1 normal
 
 # Music management
-execute if score Somniophages SQ48 matches 0.. as @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Somniophages SQ48 matches 0.. as @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Somniophages SQ48 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Make challengers enters the arena

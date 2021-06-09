@@ -12,7 +12,7 @@ execute if score Scavenger SQ51 matches -2.. run particle minecraft:dust 1 0 0 1
 execute if score Scavenger SQ51 matches -2.. run particle minecraft:dust 1 0 0 1 -5552 50 -4541 1 1 0 1 2 normal
 
 # Music management
-execute if score Scavenger SQ51 matches 0.. as @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Scavenger SQ51 matches 0.. as @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Scavenger SQ51 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Scavenger

@@ -12,7 +12,7 @@ particle minecraft:dust 1 0 0 1 -3892 85 -5592 1 2 0 1 5 normal
 particle minecraft:dust 1 0 0 1 -3892 85 -5616 1 2 0 1 5 normal
 
 # Music management
-execute if score Myrath SQ26 matches 0.. as @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Myrath SQ26 matches 0.. as @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Myrath SQ26 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Myrath

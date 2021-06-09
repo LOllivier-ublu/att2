@@ -8,7 +8,7 @@
 #####################################################################
 
 # Music management
-execute if score arena SASTR matches 0.. as @a[x=-4912,y=10,z=-4433,dx=-130,dy=34,dz=104,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score arena SASTR matches 0.. as @a[x=-4912,y=10,z=-4433,dx=-130,dy=34,dz=104,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score arena SASTR matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Start the arena fight (summoning Minions)

@@ -16,7 +16,7 @@ stopsound @a * minecraft:block.fire.ambient
 stopsound @a * minecraft:block.fire.extinguish
 
 # Music management
-execute if score Rackham SQ41 matches 0.. as @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Rackham SQ41 matches 0.. as @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Rackham SQ41 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Rackham

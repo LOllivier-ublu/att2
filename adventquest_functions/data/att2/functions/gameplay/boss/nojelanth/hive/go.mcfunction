@@ -17,7 +17,7 @@ stopsound @a * minecraft:entity.bee.loop_aggressive
 stopsound @a * minecraft:entity.bee.hurt
 
 # Music management
-execute if score Hive SQ58 matches 0.. as @a[x=-7536,y=78,z=-4163,dx=-21,dy=-10,dz=-24,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
+execute if score Hive SQ58 matches 0.. as @a[x=-7536,y=78,z=-4163,dx=-21,dy=-10,dz=-24,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Hive SQ58 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Hive
