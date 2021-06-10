@@ -16,6 +16,11 @@ execute positioned 6690 90 7089 run function att2:gameplay/boss/ouranos/somnioph
 execute positioned 6730 60 7067 run function att2:summon/reg_4/somniophages5
 execute positioned 6730 60 7067 run function att2:gameplay/boss/ouranos/somniophages/summon_minions1
 function att2:gameplay/boss/ouranos/somniophages/summon_minions2
+effect give 00000000-0000-014c-0000-00000000014c minecraft:instant_health 1 10 true
+effect give 00000000-0000-015c-0000-00000000015c minecraft:instant_health 1 10 true
+effect give 00000000-0000-016c-0000-00000000016c minecraft:instant_health 1 10 true
+effect give 00000000-0000-017c-0000-00000000017c minecraft:instant_health 1 10 true
+effect give 00000000-0000-018c-0000-00000000018c minecraft:instant_health 1 10 true
 scoreboard players set Somniophages SQ48 0
 scoreboard players set @a MUSIC_BOSS 0
 function att2:gameplay/boss/ouranos/somniophages/init_bossbar

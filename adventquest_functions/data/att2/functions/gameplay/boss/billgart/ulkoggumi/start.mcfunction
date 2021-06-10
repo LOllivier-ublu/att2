@@ -21,7 +21,7 @@ scoreboard players set Ulkoggumi_spike2_quart2 BILLGART 0
 scoreboard players set Ulkoggumi_spike2_quart3 BILLGART 0
 scoreboard players set Ulkoggumi_spike2_quart4 BILLGART 0
 scoreboard players set Ulkoggumi_spike3 BILLGART 0
-
+effect give 00000000-0000-010b-0000-00000000010b minecraft:instant_health 1 10 true
 function att2:gameplay/checkpoint/billgart/dungeon31
 function att2:gameplay/boss/billgart/ulkoggumi/init_bossbar
 function att2:gameplay/boss/billgart/ulkoggumi/spike_attack3/down
