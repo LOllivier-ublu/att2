@@ -21,7 +21,7 @@ scoreboard players set @a[nbt={Inventory:[{Slot:-106b,tag:{EquipmentID:"interfac
 execute as @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}},Inventory:[{Slot:-106b,tag:{Tags:["IFMagasin"]}}]},scores={IF_MAGASIN=..0,IF_COOLDOWN=..0}] run function att2:gameplay/legendary/interfacer/reload
 
 #Detect dahäl magasin in offhand and consume dahäl
-execute as @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}},Inventory:[{Slot:-106b,tag:{Tags:["IFDahalMagasin"]}}]},scores={IF_MAGASIN=..0,IF_COOLDOWN=..0,DAHAL=200..}] run function att2:gameplay/legendary/interfacer/reload_dahal
+execute as @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}},Inventory:[{Slot:-106b,tag:{Tags:["IFDahalMagasin"]}}]},scores={IF_MAGASIN=..0,IF_COOLDOWN=..0,DAHAL=250..}] run function att2:gameplay/legendary/interfacer/reload_dahal
 
 #Detect combinaison of interfacer and dahäl magasin
 execute as @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}},Inventory:[{Slot:-106b,tag:{Tags:["IFDahalMagasin"]}}]}] run function att2:gameplay/legendary/interfacer/set_bonus
