@@ -65,7 +65,7 @@ particle minecraft:instant_effect 6620 115 6899 1 7 1 0.2 5 normal
 particle minecraft:instant_effect 6616 125 6924 1 10 1 0.2 5 normal
 particle minecraft:instant_effect 6593 125 6913 1 7 1 0.2 5 normal
 particle minecraft:instant_effect 6587 135 6933 1 10 1 0.2 5 normal
-particle minecraft:instant_effect 6609 145 6933 1 10 1 0.2 5 normal
+particle minecraft:instant_effect 6609 145 6941 1 10 1 0.2 5 normal
 particle minecraft:instant_effect 6601 155 6925 1 10 1 0.2 5 normal
 
 particle minecraft:instant_effect 6582.0 115 6971.0 2 10 2 0.2 10 normal

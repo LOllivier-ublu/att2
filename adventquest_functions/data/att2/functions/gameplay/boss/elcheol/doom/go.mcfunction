@@ -17,6 +17,7 @@ execute if score Doom SQ56 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreb
 # Enable Bossbar storing health of Doom
 execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom value run data get entity 00000000-0000-026c-0000-00000000026c Health
 execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] store result bossbar minecraft:doom max run data get entity 00000000-0000-026c-0000-00000000026c Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Doom SQ56 matches 0.. store result score 00000000-0000-026c-0000-00000000026c SQ56 run data get entity 00000000-0000-026c-0000-00000000026c Health 1
 
 # Make challengers enters the arena
 execute if score Doom SQ56 matches -1.. if score SQ56 SIDEQUEST matches 3 as @a[x=-5229,y=144,z=-6293,dx=0,dy=2,dz=0,gamemode=adventure] at @s unless entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/elcheol/doom/display_title
@@ -40,5 +41,7 @@ execute if score Doom SQ56 matches 0.. unless entity @a[x=-5229,y=47,z=-6293,dis
 execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] unless entity @e[x=-5229,y=47,z=-6293,distance=..25,nbt={UUID:[I;0,620,0,620]}] run function att2:gameplay/boss/elcheol/doom/victory
 
 
-# Testing if player drop the medaillon and open the secret in the academy after SQ56
+# Testing if player drop the medaillon and open the secret in the academy after SQ56 completed
 execute if score SQ56 SIDEQUEST matches 100 if score secret SQ56 matches 0 if entity @a[x=-5254,y=104,z=-6338,distance=..4,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_star",Count:1b,tag:{display:{"Lore":["{\"text\":\"§4§oMedaillon\"}"]}}}]}] run function att2:gameplay/boss/elcheol/doom/secret_medaillon
+# Clean medaillon if player drop it after opend the secret in the academy after SQ56 completed
+execute if score SQ56 SIDEQUEST matches 100 if score secret SQ56 matches 1 as @a[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oMedaillon\"}"]}}}]}] at @s run clear @s minecraft:nether_star{display:{"Lore":["{\"text\":\"§4§oMedaillon\"}"]}}

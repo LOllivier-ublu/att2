@@ -12,5 +12,3 @@ function att2:gameplay/boss/elcheol/doom/summoning_minion
 function att2:gameplay/boss/elcheol/doom/init_bossbar
 execute in minecraft:overworld run spawnpoint @a -5229 137 -6297
 effect give 00000000-0000-026c-0000-00000000026c minecraft:instant_damage 1 10 true
-
-execute if score secret SQ56 matches 0 if score SQ56 SIDEQUEST matches 7..100 run data merge entity 00000000-0000-026c-0000-00000000026c {HandDropChances:[-2.0F,0.1F],HandItems:[{},{id:"minecraft:nether_star",Count:1b,tag:{EquipmentType:"que",Rarity:"que",display:{Name:"{\"text\":\"§cMédaillon\"}","Lore":["{\"text\":\"§4§oMedaillon\"}"]}}}]}

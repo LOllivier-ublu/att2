@@ -22,8 +22,8 @@ execute as @e[type=minecraft:armor_stand,scores={SPELL6_EFFECT=..0,SPELL_SLCT=0.
 execute as @e[type=minecraft:armor_stand,scores={SPELL6_EFFECT=0..}] run scoreboard players remove @s SPELL6_EFFECT 1
 
 execute as @e[type=minecraft:armor_stand,scores={SPELL6_EFFECT=0..}] at @s run particle minecraft:instant_effect ~ ~ ~ 0.75 0 0.75 0 2 normal
-execute as @e[type=minecraft:armor_stand,scores={SPELL6_EFFECT=0..}] at @s run particle minecraft:white_ash ~ ~ ~ 0.75 0 0.75 0 5 normal
-execute as @e[type=minecraft:armor_stand,scores={SPELL6_EFFECT=0..}] at @s run particle minecraft:warped_spore ~ ~ ~ 0.5 0 0.5 0 1 normal
+execute as @e[type=minecraft:armor_stand,scores={SPELL6_EFFECT=0..}] at @s run particle minecraft:white_ash ~ ~0.5 ~ 0.75 0.5 0.75 0 5 normal
+execute as @e[type=minecraft:armor_stand,scores={SPELL6_EFFECT=0..}] at @s run particle minecraft:warped_spore ~ ~ ~ 0.5 0 0.5 0 5 normal
 
 # Explosion
 execute as @e[type=minecraft:armor_stand,scores={SPELL_SLCT=51}] at @s if entity @e[scores={GAMELEVEL=0..},team=hostile,distance=..1] run function att2:gameplay/dahal/action/spell6/explosion1
