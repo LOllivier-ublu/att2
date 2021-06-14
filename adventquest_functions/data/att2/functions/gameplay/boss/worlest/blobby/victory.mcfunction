@@ -11,3 +11,5 @@ execute positioned -5355 35 -4959 run function att2:gameplay/boss/worlest/blobby
 function att2:gameplay/boss/worlest/blobby/destroy_minions
 execute in minecraft:overworld run spawnpoint @a -5356 39 -4918
 function att2:physicmod/reg1/worlest_blobby_open
+
+advancement grant @a only att2:hunting/blobby

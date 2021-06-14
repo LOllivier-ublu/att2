@@ -14,3 +14,5 @@ function att2:physicmod/reg1/silberland/illusions_end
 execute in minecraft:overworld run spawnpoint @a -4263 57 -5620
 effect clear @a minecraft:blindness
 effect clear @a minecraft:nausea
+
+advancement grant @a only att2:hunting/illusions

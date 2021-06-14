@@ -19,3 +19,5 @@ particle minecraft:explosion_emitter -1326 145 -562 5 10 5 0 100 normal
 execute at @a run function att2:sound/mobs/golem_death
 
 execute if score Mainquest SIDEQUEST matches 142.. run function att2:gameplay/checkpoint/billgart/dungeon1
+
+advancement grant @a only att2:hunting/golem

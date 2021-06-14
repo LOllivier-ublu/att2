@@ -11,3 +11,5 @@ execute positioned -5117 123 -6870 run function att2:gameplay/boss/ether/umbraty
 function att2:gameplay/boss/ether/umbratyanth/destroy_minions
 execute positioned -5117 119 -6870 run function att2:summon/reg_1/umbra
 execute if score SQ46 SIDEQUEST matches 1..3 run function att2:cinematic/sidequest/46/step4
+
+advancement grant @a only att2:hunting/umbratyanth

@@ -12,3 +12,5 @@ function att2:physicmod/reg4/ouran_end
 function att2:gameplay/checkpoint/ouranos/ouran0
 function att2:cinematic/real0_init
 scoreboard players set Ouran OURANOS 1
+
+advancement grant @a only att2:hunting/ouran

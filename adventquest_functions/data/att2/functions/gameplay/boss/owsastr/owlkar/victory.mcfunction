@@ -11,3 +11,5 @@ execute if score Mainquest SIDEQUEST matches 26 run scoreboard players set final
 function att2:gameplay/boss/owsastr/owlkar/destroy_minions
 function att2:physicmod/reg1/owsastr/bossshell_destroy
 execute in minecraft:overworld run spawnpoint @a -5088 80 -4381
+
+advancement grant @a only att2:hunting/owlkar

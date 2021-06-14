@@ -25,4 +25,5 @@ execute if score FlammeNoire ANGOR_BOSS matches 50 as @e[type=minecraft:zombifie
 execute if score FlammeNoire ANGOR_BOSS matches 5 run tag @a remove CheckpointFN
 execute if score FlammeNoire ANGOR_BOSS matches 5 as @a[scores={DIMENSION=6}] run stopsound @s
 execute if score FlammeNoire ANGOR_BOSS matches 5 as @a[scores={DIMENSION=6}] run scoreboard players set @s MUSIC_BOSS 0
+execute if score FlammeNoire ANGOR_BOSS matches 3 run advancement grant @a only att2:hunting/flamme_noire
 execute if score FlammeNoire ANGOR_BOSS matches 1 run tp @a[scores={DIMENSION=6}] 3501 42 4689 -50 0

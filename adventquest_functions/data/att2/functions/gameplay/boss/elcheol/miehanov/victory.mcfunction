@@ -15,3 +15,5 @@ execute if score Mainquest SIDEQUEST matches 113 at @a run function att2:sound/d
 execute if score Mainquest SIDEQUEST matches 113 run function att2:dialogs/mainquest/act_4/ch2_player_11
 
 execute in minecraft:overworld run spawnpoint @a -5614 166 -6399
+
+advancement grant @a only att2:hunting/miehanov

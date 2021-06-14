@@ -10,3 +10,5 @@ execute positioned -7619 17 -4196 run function att2:gameplay/boss/rewards_start
 execute positioned -7619 17 -4196 run function att2:gameplay/boss/nojelanth/abmup_nomit/rewards
 function att2:gameplay/boss/nojelanth/abmup_nomit/destroy_minions
 function att2:gameplay/checkpoint/telluron_past/nojelanth15
+
+advancement grant @a only att2:hunting/abmup_nomit

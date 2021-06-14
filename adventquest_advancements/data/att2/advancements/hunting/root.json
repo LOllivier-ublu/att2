@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sunflower"
+        },
+        "title": {"translate":"Boss Trophies"},
+        "description": {"translate":"Predators"},
+        "background": "minecraft:textures/block/obsidian.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "hunting_trophies": {
+            "trigger": "minecraft:player_killed_entity"
+        }
+    }
+}

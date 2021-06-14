@@ -11,3 +11,5 @@ execute positioned 6708 149 7065 run function att2:gameplay/boss/ouranos/somniop
 function att2:physicmod/reg4/somniophages_end
 function att2:gameplay/boss/ouranos/somniophages/destroy_minions
 execute in minecraft:overworld run spawnpoint @a 6788 127 7067
+
+advancement grant @a only att2:hunting/somniophages

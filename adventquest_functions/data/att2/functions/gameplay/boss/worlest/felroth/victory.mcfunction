@@ -12,3 +12,5 @@ execute if block -4636 58 -5504 minecraft:andesite run function att2:sound/door/
 execute if block -4636 58 -5504 minecraft:andesite run function att2:physicmod/reg1/worlest_temple_treasureroom_door
 function att2:gameplay/boss/worlest/felroth/destroy_minions
 execute in minecraft:overworld run spawnpoint @a -4636 57 -5490
+
+advancement grant @a only att2:hunting/felroth

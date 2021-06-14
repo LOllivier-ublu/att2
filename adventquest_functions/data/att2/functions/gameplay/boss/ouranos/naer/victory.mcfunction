@@ -14,3 +14,5 @@ function att2:physicmod/reg4/naer_fire_reset
 function att2:physicmod/reg4/naer_shield_reset
 function att2:sound/door/simple_glassdoor
 function att2:gameplay/checkpoint/ouranos/tower3_road6
+
+advancement grant @a only att2:hunting/naer

@@ -14,3 +14,5 @@ function att2:physicmod/reg1/asunark/bossroom_clean
 function att2:gameplay/boss/asunark/asurok/destroy_minions
 execute in minecraft:overworld run spawnpoint @a -3358 30 -4942
 execute as @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] at @s run effect give @s minecraft:slow_falling 10 0 true
+
+advancement grant @a only att2:hunting/asurok

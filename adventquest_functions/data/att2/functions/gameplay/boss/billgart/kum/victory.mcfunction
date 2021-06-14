@@ -12,3 +12,5 @@ execute positioned -1553 27 -605 run function att2:gameplay/boss/rewards_start
 execute positioned -1553 27 -605 run function att2:gameplay/boss/billgart/kum/rewards
 function att2:gameplay/boss/billgart/kum/destroy_minions
 function att2:gameplay/checkpoint/billgart/lost1
+
+advancement grant @a only att2:hunting/kum

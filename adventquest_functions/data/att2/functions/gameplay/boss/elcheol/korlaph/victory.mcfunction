@@ -12,3 +12,5 @@ function att2:gameplay/boss/elcheol/korlaph/destroy_minions
 function att2:physicmod/reg1/elcheol_temple_barrier1
 
 function att2:cinematic/sidequest/28/step3
+
+advancement grant @a only att2:hunting/korlaph

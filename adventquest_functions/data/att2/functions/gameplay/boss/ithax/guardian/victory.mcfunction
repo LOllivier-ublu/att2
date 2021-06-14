@@ -11,3 +11,5 @@ execute positioned -7434 135 -6011 run function att2:gameplay/boss/rewards_start
 execute positioned -7434 135 -6011 run function att2:gameplay/boss/ithax/guardian/rewards
 function att2:gameplay/boss/ithax/guardian/destroy_minions
 function att2:gameplay/boss/ithax/guardian/generator_end
+
+advancement grant @a only att2:hunting/guardian
