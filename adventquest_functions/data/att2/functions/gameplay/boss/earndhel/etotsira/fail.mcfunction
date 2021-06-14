@@ -3,7 +3,7 @@
 #Process player failure for Earndhel                                #
 #####################################################################
 
-execute as 00000000-0000-008b-0000-00000000008a at @s run tp @s ~ 0 ~
+execute as 00000000-0000-008b-0000-00000000008a at @s run tp @s ~ -2 ~
 kill 00000000-0000-008b-0000-00000000008a
 scoreboard players set Real0 TIMER 0
 scoreboard players set Etotsira EARNDHEL -2

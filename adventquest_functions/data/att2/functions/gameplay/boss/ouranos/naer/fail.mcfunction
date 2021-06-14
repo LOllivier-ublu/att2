@@ -5,7 +5,7 @@
 
 scoreboard players set Naër OURANOS -1
 scoreboard players set EnterArena OURANOS 100
-execute as 00000000-0000-016b-0000-00000000016b at @s run tp @s ~ 0 ~
+execute as 00000000-0000-016b-0000-00000000016b at @s run tp @s ~ -2 ~
 kill 00000000-0000-016b-0000-00000000016b
 execute as @a run function att2:gameplay/boss/ouranos/naer/stop
 function att2:gameplay/boss/ouranos/naer/destroy_minions

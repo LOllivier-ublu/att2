@@ -5,7 +5,7 @@
 
 scoreboard players set Myrath SQ26 -1
 scoreboard players set EnterArena SQ26 100
-execute as 00000000-0000-001c-0000-00000000001c at @s run tp @s ~ 0 ~
+execute as 00000000-0000-001c-0000-00000000001c at @s run tp @s ~ -2 ~
 kill 00000000-0000-001c-0000-00000000001c
 execute as @a run function att2:gameplay/boss/adanoi/myrath/stop
 execute as @a run function att2:sound/misc/fail_boss

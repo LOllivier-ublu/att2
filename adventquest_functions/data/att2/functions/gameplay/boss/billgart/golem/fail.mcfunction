@@ -5,7 +5,7 @@
 
 scoreboard players set GolemBoss BILLGART -1
 scoreboard players set EnterArena BILLGART 100
-execute as 00000000-0000-009b-0000-00000000009b at @s run tp @s ~ 0 ~
+execute as 00000000-0000-009b-0000-00000000009b at @s run tp @s ~ -2 ~
 kill 00000000-0000-009b-0000-00000000009b
 execute as @a run function att2:gameplay/boss/billgart/golem/stop
 function att2:physicmod/reg3/dungeon/golemboss_clearstone
