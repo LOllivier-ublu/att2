@@ -4,7 +4,7 @@
 #################################################################
 
 function att2:gameplay/dahal/action/spell42/effect
-particle minecraft:dust 0.95 0.11 0.23 5.0 ~ ~1 ~ 1.0 0.1 1.0 0 20 normal @7
+particle minecraft:dust 0.95 0.11 0.23 5.0 ~ ~1 ~ 1.0 0.1 1.0 0 20 normal @a
 particle minecraft:dust 0.95 0.11 0.23 3.0 ~ ~1 ~ 0.2 1 0.2 0 30 normal @a[distance=1..]
 particle minecraft:crimson_spore ~ ~1 ~ 0.2 1 0.2 0 100 normal @a
 effect give @s minecraft:instant_health 1 9 true

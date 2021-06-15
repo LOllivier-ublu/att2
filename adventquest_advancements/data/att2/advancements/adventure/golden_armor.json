@@ -18,7 +18,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:golden_helmet",
+                            "minecraft:golden_helmet"
                         ]
                     }
                 ]
@@ -30,7 +30,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:golden_chestplate",
+                            "minecraft:golden_chestplate"
                         ]
                     }
                 ]
@@ -42,7 +42,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:golden_leggings",
+                            "minecraft:golden_leggings"
                         ]
                     }
                 ]
@@ -54,7 +54,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:golden_boots",
+                            "minecraft:golden_boots"
                         ]
                     }
                 ]
