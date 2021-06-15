@@ -17,8 +17,9 @@
             "conditions": {
                 "items": [
                     { 
-                    "item": "minecraft:shield",
-                    "count": 1
+                    "items": [
+                        "minecraft:shield"
+                        ]
                     }
                 ]
             }
