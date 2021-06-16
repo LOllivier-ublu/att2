@@ -16,8 +16,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:mushroom_stew",
-                    "count": 1
+                    "items": [
+                        "minecraft:mushroom_stew"
+                    ]
                 }
             }
         }

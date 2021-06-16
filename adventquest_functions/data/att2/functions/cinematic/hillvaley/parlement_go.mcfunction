@@ -50,8 +50,7 @@ execute if score Real0 TIMER matches 8 run function att2:cinematic/real0_iterati
 #Cinematic part 2	#
 #===================#
 
-execute if score Real0 TIMER matches 60 run playsound screeching master @a ~-20 ~ ~40 3 1
-execute if score Real0 TIMER matches 60 run playsound siren2 master @a ~-20 ~ ~40 3 1
+execute if score Real0 TIMER matches 60 run playsound siren2 master @a ~ ~ ~ 0.25 1 1
 execute if score Real0 TIMER matches 80 run function att2:dialogs/mainquest/act_1/ch0_police_2
 execute if score Real0 TIMER matches 130 run function att2:dialogs/mainquest/act_1/ch0_serile_16
 

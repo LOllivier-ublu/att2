@@ -17,8 +17,9 @@
             "conditions": {
                 "item":
                     {
-                    "item": "minecraft:beetroot_soup",
-                    "count": 1
+                    "items": [
+                        "minecraft:beetroot_soup"
+                    ]
                 }
             }
         }
