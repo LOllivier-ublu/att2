@@ -5,7 +5,7 @@
 
 scoreboard players set Guardian ITHAX -1
 scoreboard players set EnterArena ITHAX 100
-execute as 00000000-0000-007b-0000-00000000007b at @s run tp @s ~ 0 ~
+execute as 00000000-0000-007b-0000-00000000007b at @s run tp @s ~ -2 ~
 kill 00000000-0000-007b-0000-00000000007b
 kill @e[type=minecraft:enderman,tag=GuardianMinions]
 execute as @a run function att2:gameplay/boss/ithax/guardian/stop

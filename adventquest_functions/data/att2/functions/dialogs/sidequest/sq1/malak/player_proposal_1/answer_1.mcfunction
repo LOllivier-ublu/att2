@@ -11,4 +11,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Malak : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Anward? Of course. Also you will make the happiness of an old... Alas I do not know everything about their identity, or their hiding place. You will go see the village chief, he has taken great plains to hunt them, in vain. His hut is right by the front door of the camp and he won't be long in coming.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Reward? Of course. Also you will make the happiness of an old... Alas I do not know everything about their identity, or their hiding place. You will go see the village chief, he has taken great plains to hunt them, in vain. His hut is right by the front door of the camp and he won't be long in coming.","color":"dark_aqua"}]}

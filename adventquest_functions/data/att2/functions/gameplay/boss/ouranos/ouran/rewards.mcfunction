@@ -48,3 +48,5 @@ function att2:summon/reg_4/ouran_rewards
 function att2:summon/reg_4/ouran_rewards
 function att2:summon/reg_4/ouran_rewards
 function att2:summon/reg_4/ouran_rewards
+
+function att2:summon/reg_4/ouran_rewards_dedicated

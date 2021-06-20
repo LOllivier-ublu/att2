@@ -5,7 +5,7 @@
 
 scoreboard players set Ulkoggumi BILLGART -1
 scoreboard players set EnterArena BILLGART 100
-execute as 00000000-0000-010b-0000-00000000010b at @s run tp @s ~ 0 ~
+execute as 00000000-0000-010b-0000-00000000010b at @s run tp @s ~ -2 ~
 kill 00000000-0000-010b-0000-00000000010b
 execute as @a run function att2:gameplay/boss/billgart/ulkoggumi/stop
 function att2:gameplay/boss/billgart/ulkoggumi/destroy_minions

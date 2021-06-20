@@ -9,3 +9,5 @@ kill 00000000-0000-022b-0000-00000000022b
 kill 00000000-0000-022b-0000-00000000010b
 execute positioned 1543.0 20 1495.0 run function att2:gameplay/boss/rewards_start
 execute positioned 1543.0 20 1495.0 run function att2:gameplay/boss/serile/phase4/rewards
+
+advancement grant @a only att2:hunting/serile

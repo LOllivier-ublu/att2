@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Friendly fire"},
+        "description": {"translate":"Shoot 100 arrows with your crossbow"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/crossbow_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "crossbow_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

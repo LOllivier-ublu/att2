@@ -3,11 +3,14 @@
         "icon": {
             "item": "minecraft:barrier"
         },
-        "title": {"translate":"The ultimate challenge"},
+        "title": {"translate":"Clean the nest"},
         "description": {"translate":"Successfully complete this side quest"},
-        "frame": "challenge"
+        "frame": "goal"
     },
     "parent": "att2:quest/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_completion_20"
+    },
     "criteria": {
         "sq57": {
             "trigger": "minecraft:impossible"

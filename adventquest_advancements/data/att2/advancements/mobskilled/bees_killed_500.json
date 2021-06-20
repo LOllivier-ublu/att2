@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:honeycomb"
+        },
+        "title": {"translate":"Bees Genocide"},
+        "description": {"translate":"Kill 500 Bees"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/bees_killed_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "bees_killed_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

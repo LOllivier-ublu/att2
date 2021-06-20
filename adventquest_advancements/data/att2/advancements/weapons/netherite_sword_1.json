@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": {"translate":"Obsidian sword strike"},
+        "description": {"translate":"Strike once with an obsidian sword"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "netherite_sword_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -4,7 +4,9 @@
 #This function have to be use for a designed player	#
 #####################################################
 
-scoreboard objectives add SHOOTING minecraft.used:minecraft.bow
+scoreboard objectives add SHOOTING_B minecraft.used:minecraft.bow
+scoreboard objectives add SHOOTING_CB minecraft.used:minecraft.crossbow
+scoreboard objectives add SHOOTING dummy
 scoreboard objectives add ARR_POWER dummy
 scoreboard objectives add ARR_POWER2 dummy
 

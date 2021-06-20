@@ -10,51 +10,27 @@
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 500
-                },
+    },
     "criteria": {
-        "break_diamond_sword": {
+        "break_diamond_weapon": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
+                "durability": {"max": 2},
                 "item": {
-                    "item": "minecraft:diamond_sword",
-                    "durability": {"max": 5,"min": 3}
-                }
-            }
-        },
-        "break_diamond_shovel": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:diamond_shovel",
-                    "durability": {"max": 5,"min": 3}
-                }
-            }
-        },
-        "break_diamond_axe": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:diamond_axe",
-                    "durability": {"max": 7,"min": 4}
-                }
-            }
-        },
-        "break_diamond_pickaxe": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:diamond_pickaxe",
-                    "durability": {"max": 5,"min": 3}
+                    "items": [
+                    "minecraft:diamond_sword",
+                    "minecraft:diamond_shovel",
+                    "minecraft:diamond_axe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:diamond_hoe"
+                    ]
                 }
             }
         }
     },
     "requirements": [
         [
-        "break_diamond_sword",
-        "break_diamond_shovel",
-        "break_diamond_axe",
-        "break_diamond_pickaxe"
+        "break_diamond_weapon"
         ]
     ]
 }

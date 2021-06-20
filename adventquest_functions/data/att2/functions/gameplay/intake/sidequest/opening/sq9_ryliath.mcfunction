@@ -7,4 +7,5 @@ clear @s minecraft:spruce_log{display:{"Lore":["{\"text\":\"§4§oLog of wood\"}
 scoreboard players add intake_wood SQ9 1
 execute positioned -5057 76 -5059 run function att2:gameplay/intake/effect
 
+execute if score intake_wood SQ9 matches 10.. run stopsound @a block minecraft:airblast
 execute if score intake_wood SQ9 matches 16.. run function att2:cinematic/sidequest/9/end

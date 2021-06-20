@@ -8,9 +8,10 @@ execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5,tag=Undead] run e
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run data merge entity @s {Fire:120}
 execute if entity @a[tag=fireMelting] run function att2:gameplay/dahal/action/spell3/enable_fire_melting
 
-particle minecraft:item minecraft:blaze_powder ~ ~1 ~ 0 0 0 1 150 normal
-particle minecraft:flame ~ ~1 ~ 0 0 0 1 150 normal
-particle minecraft:dust 1 0.5 0 1.5 ~ ~1 ~ 0.5 0.5 0.5 0 50 normal
+particle minecraft:item minecraft:soul_lantern ~ ~1 ~ 0 0 0 1 75 normal
+particle minecraft:soul ~ ~1 ~ 0 0 0 0.5 75 normal
+particle minecraft:soul_fire_flame ~ ~1 ~ 0 0 0 1 150 normal
+particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.25 0.25 0.25 0.25 50 normal
 execute as @a[distance=..10] run function att2:sound/dahal/spell3_effect
 
 scoreboard players remove @s DAHAL 120

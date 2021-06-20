@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Consolidation"},
+        "description": {"translate":"Repairs 100 items"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mending_25",
+        "rewards": {
+            "function": "att2:advancement/exploit_25",
+            "experience": 5000
+    },
+    "criteria": {
+        "mending_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

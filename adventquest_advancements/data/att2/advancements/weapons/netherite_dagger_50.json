@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_shovel"
+        },
+        "title": {"translate":"Obsidian dagger smash"},
+        "description": {"translate":"Strike 50 times with an obsidian dagger"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/netherite_dagger_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "netherite_dagger_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

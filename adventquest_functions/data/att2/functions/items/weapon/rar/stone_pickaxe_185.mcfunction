@@ -1,6 +1,0 @@
-##################################################
-#Made by Adventquest                             #
-#Obtain equipement                               #
-##################################################
-
-give @s minecraft:stone_pickaxe{EquipmentType:"meleeWeapon",Rarity:"rar",Manufacturer:"graceful",display:{Name:"\"§9Emeraude de force\"","Lore":["{\"text\":\"§7Dernière la beauté se cache\"}","{\"text\":\"§7souvent un pouvoir occulte.\"}","{\"text\":\"§7Behind beauty often\"}","{\"text\":\"§7lies an occult power.\"}","{\"text\":\"§7STR§a2 §7SPD§a1 §7HAS§c-1 §7LUC§c-1\"}"]},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:10s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:26.32,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.9,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]}]} 1

@@ -8,8 +8,8 @@
 #####################################################################
 
 # Music management
-execute as @a[x=0,y=109,z=0,distance=..300,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
-execute if score OuranPhase3 OURANOS matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
+execute if score OuranPhase3_engage OURANOS matches -1 as @a[x=0,y=109,z=0,distance=..300,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
+execute if score OuranPhase3_engage OURANOS matches -1 if score OuranPhase3 OURANOS matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Sound security
 stopsound @a * minecraft:entity.ender_dragon.ambient

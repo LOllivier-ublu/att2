@@ -6,7 +6,7 @@
 # Absorption
 execute if score level DIFFICULTY matches -1 as 00000000-0000-022b-0000-00000000022b if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:5.0f}
 execute if score level DIFFICULTY matches 0 as 00000000-0000-022b-0000-00000000022b if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:10.0f}
-execute if score level DIFFICULTY matches 1 as 00000000-0000-022b-0000-00000000022b if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:15.0f}
+execute if score level DIFFICULTY matches 1.. as 00000000-0000-022b-0000-00000000022b if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:15.0f}
 
 # Attack choosing
 execute if score Timer1 SERILE matches 1..600 run scoreboard players add Timer1 SERILE 1

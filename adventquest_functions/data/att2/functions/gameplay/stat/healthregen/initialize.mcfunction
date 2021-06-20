@@ -12,6 +12,9 @@ scoreboard players set @s HER_BASE 0
 scoreboard objectives add HER_LVL_LE dummy
 scoreboard players set @s HER_LVL_LE 0
 
+scoreboard objectives add HER_LVL_OH dummy
+scoreboard players set @s HER_LVL_OH 0
+
 scoreboard objectives add HER_LVL_PO dummy
 scoreboard players set @s HER_LVL_PO 0
 
@@ -44,6 +47,7 @@ scoreboard objectives add HER_FOOD food
 scoreboard objectives add TIMER_HER_TOT dummy
 scoreboard players set @s TIMER_HER_TOT 10
 scoreboard objectives add TIMER_HER_LE dummy
+scoreboard objectives add TIMER_HER_OH dummy
 scoreboard objectives add TIMER_HER_PO dummy
 scoreboard objectives add TIMER_HER_DAB dummy
 scoreboard objectives add TIMER_HER_DAM dummy

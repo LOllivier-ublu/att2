@@ -13,3 +13,5 @@ execute positioned -1134 200 -679 run function att2:gameplay/boss/billgart/gestr
 function att2:gameplay/boss/billgart/gestrom/destroy_minions
 
 function att2:gameplay/checkpoint/billgart/dungeon37
+
+advancement grant @a only att2:hunting/gestrom

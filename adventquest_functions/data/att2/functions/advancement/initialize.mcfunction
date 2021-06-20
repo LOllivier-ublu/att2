@@ -5,10 +5,10 @@
 
 gamerule announceAdvancements true
 
-scoreboard objectives add 100 dummy
-scoreboard players set @s 100 100
 scoreboard objectives add EXPLOIT dummy
-scoreboard players set Total_point EXPLOIT 5953
+scoreboard players set Points_completion EXPLOIT 100
+scoreboard players set Total_objectives EXPLOIT 102
+scoreboard players set Total_point EXPLOIT 7743
 
 scoreboard objectives add statMOBSKILLED minecraft.custom:minecraft.mob_kills
 scoreboard objectives add statZOMBIEKILLED minecraft.killed:minecraft.zombie
@@ -28,6 +28,9 @@ scoreboard objectives add statDROWNKILLED minecraft.killed:minecraft.drowned
 scoreboard objectives add statPHANTOKILLED minecraft.killed:minecraft.phantom
 scoreboard objectives add statWOLFKILLED minecraft.killed:minecraft.wolf
 scoreboard objectives add statBEARKILLED minecraft.killed:minecraft.polar_bear
+scoreboard objectives add statBEEKILLED minecraft.killed:minecraft.bee
+scoreboard objectives add statHOGLINKILLED minecraft.killed:minecraft.hoglin
+scoreboard objectives add statPILLAKILLED minecraft.killed:minecraft.pillager
 
 scoreboard objectives add statSWIM minecraft.custom:minecraft.swim_one_cm
 scoreboard objectives add statSPRINT minecraft.custom:minecraft.sprint_one_cm
@@ -50,9 +53,11 @@ scoreboard objectives add statSPLASHUSED minecraft.used:minecraft.splash_potion
 scoreboard objectives add statLINGERUSED minecraft.used:minecraft.lingering_potion
 
 scoreboard objectives add statBOW minecraft.used:minecraft.bow
+scoreboard objectives add statCROSSBOW minecraft.used:minecraft.crossbow
 
 scoreboard objectives add statWOODSWORD minecraft.used:minecraft.wooden_sword
 scoreboard objectives add statWOODAXE minecraft.used:minecraft.wooden_axe
+scoreboard objectives add statWOODSPEAR minecraft.used:minecraft.wooden_hoe
 scoreboard objectives add statWOODMACE minecraft.used:minecraft.wooden_pickaxe
 scoreboard objectives add statWOODDAG minecraft.used:minecraft.wooden_shovel
 scoreboard objectives add statSTONESWORD minecraft.used:minecraft.stone_sword
@@ -61,16 +66,24 @@ scoreboard objectives add statSTONEMACE minecraft.used:minecraft.stone_pickaxe
 scoreboard objectives add statSTONEDAG minecraft.used:minecraft.stone_shovel
 scoreboard objectives add statGOLDSWORD minecraft.used:minecraft.golden_sword
 scoreboard objectives add statGOLDAXE minecraft.used:minecraft.golden_axe
+scoreboard objectives add statGOLDSPEAR minecraft.used:minecraft.golden_hoe
 scoreboard objectives add statGOLDMACE minecraft.used:minecraft.golden_pickaxe
 scoreboard objectives add statGOLDDAG minecraft.used:minecraft.golden_shovel
 scoreboard objectives add statIRONSWORD minecraft.used:minecraft.iron_sword
 scoreboard objectives add statIRONAXE minecraft.used:minecraft.iron_axe
+scoreboard objectives add statIRONSPEAR minecraft.used:minecraft.iron_hoe
 scoreboard objectives add statIRONMACE minecraft.used:minecraft.iron_pickaxe
 scoreboard objectives add statIRONDAG minecraft.used:minecraft.iron_shovel
 scoreboard objectives add statDIAMONDSWORD minecraft.used:minecraft.diamond_sword
 scoreboard objectives add statDIAMONDAXE minecraft.used:minecraft.diamond_axe
+scoreboard objectives add statDIAMONDSPEAR minecraft.used:minecraft.diamond_hoe
 scoreboard objectives add statDIAMONDMACE minecraft.used:minecraft.diamond_pickaxe
 scoreboard objectives add statDIAMONDDAG minecraft.used:minecraft.diamond_shovel
+scoreboard objectives add statNETHERSWORD minecraft.used:minecraft.netherite_sword
+scoreboard objectives add statNETHERAXE minecraft.used:minecraft.netherite_axe
+scoreboard objectives add statNETHERSPEAR minecraft.used:minecraft.netherite_hoe
+scoreboard objectives add statNETHERMACE minecraft.used:minecraft.netherite_pickaxe
+scoreboard objectives add statNETHERDAG minecraft.used:minecraft.netherite_shovel
 
 scoreboard objectives add statMELON minecraft.used:minecraft.melon_slice
 scoreboard objectives add statAPPLE minecraft.used:minecraft.apple
@@ -88,7 +101,7 @@ scoreboard objectives add statSALMON minecraft.used:minecraft.cooked_salmon
 scoreboard objectives add statFLESH minecraft.used:minecraft.rotten_flesh
 scoreboard objectives add statJORIN minecraft.used:minecraft.beetroot
 
-scoreboard objectives add TIMEPLAY minecraft.custom:minecraft.play_one_minute
+scoreboard objectives add TIMEPLAY minecraft.custom:minecraft.play_time
 
 scoreboard objectives add HOUSE dummy
 
@@ -113,6 +126,9 @@ scoreboard players set @s statDROWNKILLED 0
 scoreboard players set @s statPHANTOKILLED 0
 scoreboard players set @s statWOLFKILLED 0
 scoreboard players set @s statBEARKILLED 0
+scoreboard players set @s statBEEKILLED 0
+scoreboard players set @s statHOGLINKILLED 0
+scoreboard players set @s statPILLAKILLED 0
 
 scoreboard players set @s statSWIM 0
 scoreboard players set @s statSPRIN 0
@@ -135,6 +151,7 @@ scoreboard players set @s statBOW 0
 
 scoreboard players set @s statWOODSWORD 0
 scoreboard players set @s statWOODAXE 0
+scoreboard players set @s statWOODSPEAR 0
 scoreboard players set @s statWOODMACE 0
 scoreboard players set @s statWOODDAG 0
 scoreboard players set @s statSTONESWORD 0
@@ -143,16 +160,24 @@ scoreboard players set @s statSTONEMACE 0
 scoreboard players set @s statSTONEDAG 0
 scoreboard players set @s statGOLDSWORD 0
 scoreboard players set @s statGOLDAXE 0
+scoreboard players set @s statGOLDSPEAR 0
 scoreboard players set @s statGOLDMACE 0
 scoreboard players set @s statGOLDDAG 0
 scoreboard players set @s statIRONSWORD 0
 scoreboard players set @s statIRONAXE 0
+scoreboard players set @s statIRONSPEAR 0
 scoreboard players set @s statIRONMACE 0
 scoreboard players set @s statIRONDAG 0
 scoreboard players set @s statDIAMONDSWORD 0
 scoreboard players set @s statDIAMONDAXE 0
+scoreboard players set @s statDIAMONDSPEAR 0
 scoreboard players set @s statDIAMONDMACE 0
 scoreboard players set @s statDIAMONDDAG 0
+scoreboard players set @s statNETHERSWORD 0
+scoreboard players set @s statNETHERAXE 0
+scoreboard players set @s statNETHERSPEAR 0
+scoreboard players set @s statNETHERMACE 0
+scoreboard players set @s statNETHERDAG 0
 
 scoreboard players set @s statMELON 0
 scoreboard players set @s statAPPLE 0

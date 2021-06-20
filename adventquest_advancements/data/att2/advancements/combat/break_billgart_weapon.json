@@ -12,31 +12,24 @@
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 1000
-                },
+    },
     "criteria": {
-        "break_stone_sword": {
+        "break_billgart_weapon": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
+                "durability": {"max": 2},
                 "item": {
-                    "item": "minecraft:stone_sword",
-                    "durability": {"max": 2,"min": -1}
-                }
-            }
-        },
-        "break_stone_pickaxe": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:stone_pickaxe",
-                    "durability": {"max": 2,"min": -1}
+                    "items": [
+                    "minecraft:stone_sword",
+                    "minecraft:stone_pickaxe"
+                    ]
                 }
             }
         }
     },
     "requirements": [
         [
-        "break_stone_sword",
-        "break_stone_pickaxe"
+        "break_billgart_weapon"
         ]
     ]
 }

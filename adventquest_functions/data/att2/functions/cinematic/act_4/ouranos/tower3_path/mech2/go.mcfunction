@@ -49,6 +49,8 @@ execute if score path3_mech2_circles OURANOS matches 9 if entity @a[scores={OURA
 # Last cloud effect
 execute if score path3_mech2_circles OURANOS matches 10 as @e[type=minecraft:armor_stand,nbt={UUID:[I;0,65647,0,303]}] at @s run function att2:cinematic/act_4/ouranos/tower3_path/mech2/cloud_effect
 
+# Timer bar
+execute store result bossbar minecraft:ouranos_timer value run scoreboard players get path3_mech2_timer1 OURANOS
 
 # Timer ending
 execute if score path3_mech2_timer1 OURANOS matches 100 at @a[scores={OURANOS=-1}] run function att2:sound/misc/fly

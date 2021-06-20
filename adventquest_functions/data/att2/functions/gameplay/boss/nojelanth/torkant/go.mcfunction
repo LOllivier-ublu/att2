@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-execute if score Torkant SQ52 matches -1.. run particle minecraft:dust 1 0 0 1 -5552 53 -4577 1 1 0 1 2 normal
-execute if score Torkant SQ52 matches -1.. run particle minecraft:dust 1 0 0 1 -5552 50 -4541 1 1 0 1 2 normal
+particle minecraft:dust 1 0 0 1 -5552 53 -4577 1 1 0 1 2 normal
+particle minecraft:dust 1 0 0 1 -5552 50 -4541 1 1 0 1 2 normal
 
 # Sound security
 stopsound @a * minecraft:block.bubble_column.bubble_pop
@@ -19,7 +19,7 @@ stopsound @a * minecraft:block.bubble_column.whirlpool_ambient
 stopsound @a * minecraft:block.bubble_column.upwards_ambient
 
 # Music management
-execute if score Torkant SQ52 matches 0.. as @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Torkant SQ52 matches 0.. as @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Torkant SQ52 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Torkant

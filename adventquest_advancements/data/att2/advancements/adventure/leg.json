@@ -9,7 +9,7 @@
     },
     "parent": "att2:adventure/epi",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
+        "function": "att2:advancement/exploit_25",
         "experience": 5000
                 },
     "criteria": {

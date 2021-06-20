@@ -12,6 +12,9 @@ scoreboard players set @s STR_BASE 0
 scoreboard objectives add STR_LVL_LE dummy
 scoreboard players set @s STR_LVL_LE 0
 
+scoreboard objectives add STR_LVL_OH dummy
+scoreboard players set @s STR_LVL_OH 0
+
 scoreboard objectives add STR_LVL_PO dummy
 scoreboard players set @s STR_LVL_PO 0
 
@@ -40,6 +43,7 @@ scoreboard objectives add STR_LVL_EXT dummy
 scoreboard players set @s STR_LVL_EXT 0
 
 scoreboard objectives add TIMER_STR_LE dummy
+scoreboard objectives add TIMER_STR_OH dummy
 scoreboard objectives add TIMER_STR_PO dummy
 scoreboard objectives add TIMER_STR_DAB dummy
 scoreboard objectives add TIMER_STR_DAM dummy

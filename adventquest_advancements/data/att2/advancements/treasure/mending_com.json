@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gray_dye"
+        },
+        "title": {"translate":"Common mending"},
+        "description": {"translate":"Repairs a common item"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_2",
+            "experience": 250
+    },
+    "criteria": {
+        "mending_com": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

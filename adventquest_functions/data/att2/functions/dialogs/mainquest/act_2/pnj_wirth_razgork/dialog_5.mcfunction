@@ -4,6 +4,7 @@
 #################################################################
 
 function att2:gameplay/pnj_talk/dialog_playsound/wirth_razgork
+function att2:sound/misc/mission_progress
 
 
 #FRENCH LANGUAGE

@@ -3,6 +3,8 @@
 #Use function to process the Dialog 2 of Golem 					#
 #################################################################
 
+execute at @s run function att2:sound/mobs/golem_death
+
 
 #FRENCH LANGUAGE
 

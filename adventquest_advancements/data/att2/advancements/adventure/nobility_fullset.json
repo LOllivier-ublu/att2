@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_chestplate"
+        },
+        "title": {"translate":"The nobility full set"},
+        "description": {"translate":"Complete the nobility legendary set"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/leg",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "nobility_fullset": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

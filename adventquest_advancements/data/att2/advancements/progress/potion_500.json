@@ -9,7 +9,7 @@
     },
     "parent": "att2:progress/potion_100",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
+        "function": "att2:advancement/exploit_25",
         "experience": 25000
     },
     "criteria": {

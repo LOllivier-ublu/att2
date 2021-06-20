@@ -9,7 +9,7 @@
     },
     "parent": "att2:quest/sq53",
     "rewards": {
-        "function": "att2:advancement/exploit_10"
+        "function": "att2:advancement/exploit_completion_20"
     },
     "criteria": {
         "sq54": {

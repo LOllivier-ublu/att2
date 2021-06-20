@@ -5,7 +5,7 @@
 
 scoreboard players set Scavenger SQ51 -1
 scoreboard players set EnterArena SQ51 100
-execute as 00000000-0000-019c-0000-00000000019c at @s run tp @s ~ 0 ~
+execute as 00000000-0000-019c-0000-00000000019c at @s run tp @s ~ -2 ~
 kill 00000000-0000-019c-0000-00000000019c
 execute as @a run function att2:gameplay/boss/kert/scavenger/stop
 execute as @a run function att2:sound/misc/fail_boss

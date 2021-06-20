@@ -78,3 +78,5 @@ scoreboard players set SQ54 SIDEQUEST 0
 scoreboard players set SQ55 SIDEQUEST 0
 scoreboard players set SQ56 SIDEQUEST 0
 scoreboard players set SQ57 SIDEQUEST 0
+scoreboard players set SQ58 SIDEQUEST 0
+scoreboard players set SQ59 SIDEQUEST 0

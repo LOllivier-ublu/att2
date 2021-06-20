@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:polished_andesite"
+        },
+        "title": {"translate":"Ryliath house expansion"},
+        "description": {"translate":"Buy the Ryliath house expansion"},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/ryliath_house",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+                },
+    "criteria": {
+        "house_ryliath_expansion": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

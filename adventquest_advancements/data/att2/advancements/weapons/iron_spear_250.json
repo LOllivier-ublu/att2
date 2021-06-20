@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_hoe"
+        },
+        "title": {"translate":"Iron spear hit"},
+        "description": {"translate":"Strike 250 times with an iron spear"},
+        "frame": "goal"
+    },
+    "parent": "att2:weapons/iron_spear_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "iron_spear_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

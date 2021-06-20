@@ -3,4 +3,4 @@
 #Playsound for bell alert						#
 #################################################
 
-playsound minecraft:bell3 ambient @a ~ ~ ~ 5 1.5
+playsound minecraft:bell3 block @a ~ ~ ~ 5 1.5

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:orange_dye"
+        },
+        "title": {"translate":"Legendary mending"},
+        "description": {"translate":"Repairs a lengendary item"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/mending_epi_esc",
+        "rewards": {
+            "function": "att2:advancement/exploit_50",
+            "experience": 10000
+    },
+    "criteria": {
+        "mending_leg": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

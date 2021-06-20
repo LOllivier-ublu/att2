@@ -6,7 +6,7 @@
 function att2:gameplay/pnj_talk/dialog_playsound/troublemakers
 
 #test entity dialog
-execute if score troublemakers_PNJ DIALOG matches 1..1 run function att2:dialogs/sidequest/sq11/troublemakers/dialog_1
+execute as @a[distance=..7] if score troublemakers_PNJ DIALOG matches 1..1 run function att2:dialogs/sidequest/sq11/troublemakers/dialog_1
 
 #Activation entity head movement
 scoreboard players set 00000000-0000-046a-0000-00000000046a TALKING 101

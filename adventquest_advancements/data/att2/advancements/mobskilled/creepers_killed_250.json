@@ -3,14 +3,14 @@
         "icon": {
             "item": "minecraft:creeper_head"
         },
-        "title": {"translate":"Creepers Slayer"},
+        "title": {"translate":"Creepers Genocide"},
         "description": {"translate":"Kill 250 Creepers"},
-        "frame": "goal"
+        "frame": "challenge"
     },
-    "parent": "att2:mobskilled/creepers_killed_50",
+    "parent": "att2:mobskilled/creepers_killed_100",
     "rewards": {
-        "function": "att2:advancement/exploit_5",
-        "experience": 1000
+        "function": "att2:advancement/exploit_10",
+        "experience": 10000
     },
     "criteria": {
         "creepers_killed_250": {

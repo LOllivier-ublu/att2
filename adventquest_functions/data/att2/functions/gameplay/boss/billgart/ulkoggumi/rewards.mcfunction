@@ -25,3 +25,5 @@ function att2:summon/reg_3/ulkoggumi_rewards
 function att2:summon/reg_3/ulkoggumi_rewards
 function att2:summon/reg_3/ulkoggumi_rewards
 function att2:summon/reg_3/ulkoggumi_rewards
+
+function att2:summon/reg_3/ulkoggumi_rewards_dedicated

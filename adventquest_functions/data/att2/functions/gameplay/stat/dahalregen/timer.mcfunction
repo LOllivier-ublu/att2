@@ -4,6 +4,7 @@
 ##################################################
 
 scoreboard players remove @a[scores={TIMER_DAR_LE=0..}] TIMER_DAR_LE 20
+scoreboard players remove @a[scores={TIMER_DAR_OH=0..}] TIMER_DAR_OH 20
 scoreboard players remove @a[scores={TIMER_DAR_PO=0..}] TIMER_DAR_PO 20
 scoreboard players remove @a[scores={TIMER_DAR_DAB=0..}] TIMER_DAR_DAB 20
 scoreboard players remove @a[scores={TIMER_DAR_DAM=0..}] TIMER_DAR_DAM 20
@@ -15,6 +16,7 @@ scoreboard players remove @a[scores={TIMER_DAR_SET=0..}] TIMER_DAR_SET 20
 scoreboard players remove @a[scores={TIMER_DAR_EXT=0..}] TIMER_DAR_EXT 20
 
 scoreboard players set @a[scores={TIMER_DAR_LE=..0}] DAR_LVL_LE 0
+scoreboard players set @a[scores={TIMER_DAR_OH=..0}] DAR_LVL_OH 0
 scoreboard players set @a[scores={TIMER_DAR_PO=..0}] DAR_LVL_PO 0
 scoreboard players set @a[scores={TIMER_DAR_DAB=..0}] DAR_LVL_DAB 0
 scoreboard players set @a[scores={TIMER_DAR_DAM=..0}] DAR_LVL_DAM 0

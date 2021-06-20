@@ -16,3 +16,4 @@ execute as @e[type=minecraft:squid,tag=ShadowPart] run team join black @s
 function att2:physicmod/reg1/schestrown_shadow_start
 function att2:gameplay/boss/schestrown/shadow/init_bossbar
 function att2:gameplay/boss/schestrown/shadow/summon_minions_area0
+effect give 00000000-0000-008c-0000-00000000008c minecraft:instant_health 1 10 true

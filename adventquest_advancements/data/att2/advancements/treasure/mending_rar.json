@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_dye"
+        },
+        "title": {"translate":"Rare mending"},
+        "description": {"translate":"Repairs a rare item"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mending_unc",
+        "rewards": {
+            "function": "att2:advancement/exploit_10",
+            "experience": 1000
+    },
+    "criteria": {
+        "mending_rar": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

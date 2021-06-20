@@ -26,6 +26,9 @@ scoreboard objectives remove statDROWNKILLED
 scoreboard objectives remove statPHANTOKILLED
 scoreboard objectives remove statWOLFKILLED
 scoreboard objectives remove statBEARKILLED
+scoreboard objectives remove statBEEKILLED
+scoreboard objectives remove statHOGLINKILLED
+scoreboard objectives remove statPILLAKILLED
 
 scoreboard objectives remove statSWIM
 scoreboard objectives remove statSPRINT
@@ -143,6 +146,7 @@ scoreboard objectives remove BANK_OP
 scoreboard objectives remove ESC
 scoreboard objectives remove SHOP
 scoreboard objectives remove GAMBLING
+scoreboard objectives remove MENDING
 
 scoreboard objectives remove CHRONOTON
 scoreboard objectives remove CHRONOTONbis
@@ -328,25 +332,16 @@ scoreboard objectives remove ITEM_LIFETIME
 scoreboard objectives remove FAIRY
 
 # Equipment
-scoreboard objectives remove LE_HEALTH
-scoreboard objectives remove EQ1_HEALTH
-scoreboard objectives remove EQ2_HEALTH
-scoreboard objectives remove EQ3_HEALTH
-scoreboard objectives remove EQ4_HEALTH
-scoreboard objectives remove EQ5_HEALTH
-scoreboard objectives remove ETERN_EQ1_INV
-scoreboard objectives remove ETERN_EQ1_SLOT
-scoreboard objectives remove ETERN_EQ2_INV
-scoreboard objectives remove ETERN_EQ2_SLOT
-scoreboard objectives remove ETERN_EQ3_INV
-scoreboard objectives remove ETERN_EQ3_SLOT
-scoreboard objectives remove ETERN_EQ4_INV
-scoreboard objectives remove ETERN_EQ4_SLOT
-scoreboard objectives remove ETERN_EQ5_INV
-scoreboard objectives remove ETERN_EQ5_SLOT
+scoreboard objectives remove ETERN_ARM_TIMER
+scoreboard objectives remove ETERN_WEP_TIMER
+scoreboard objectives remove SPEAR_FATIGUE
 
 # Legendary
 scoreboard objectives remove DAMAGE
+
+scoreboard objectives remove HOLDING_BS
+scoreboard objectives remove BS_USED
+scoreboard objectives remove BS_EFFECT
 
 scoreboard objectives remove HOLDING_BE
 
@@ -354,6 +349,10 @@ scoreboard objectives remove HOLDING_FR
 scoreboard objectives remove ICED
 
 scoreboard objectives remove HOLDING_FS
+
+scoreboard objectives remove IF_MAGASIN
+scoreboard objectives remove IF_COOLDOWN
+scoreboard objectives remove SHOOTING_IF
 
 scoreboard objectives remove HOLDING_KU
 

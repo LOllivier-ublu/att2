@@ -6,3 +6,4 @@ eq3 correspond à l'effet de l'objet placé sur les jambes du joueur. La statist
 eq4 correspond à l'effet de l'objet placé sur les pieds du joueur. La statistique correspondante est EQ4.
 
 le correspond à l'effet de l'objet placé en main principale du joueur. La statistique correspondante est LE.
+oh correspond à l'effet de l'objet placé en main secondaire du joueur. La statistique correspondante est OH.

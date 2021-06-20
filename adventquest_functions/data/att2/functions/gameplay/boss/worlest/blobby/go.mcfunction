@@ -12,7 +12,7 @@ execute if score Blobby SQ54 matches -2.. run particle minecraft:dust 1 0 0 1 -5
 execute if score Blobby SQ54 matches -2.. run particle minecraft:dust 1 0 0 1 -5356 42 -4922 2 2 0 1 4 normal
 
 # Music management
-execute if score Blobby SQ54 matches 0.. as @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Blobby SQ54 matches 0.. as @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Blobby SQ54 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Blobby

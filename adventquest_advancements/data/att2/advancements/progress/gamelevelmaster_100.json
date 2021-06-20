@@ -3,13 +3,13 @@
         "icon": {
             "item": "minecraft:experience_bottle"
         },
-        "title": {"translate":"GRANDMASTER"},
+        "title": {"translate":"MASTER LEVEL 100"},
         "description": {"translate":"Reach the level Master 100"},
         "frame": "challenge"
     },
     "parent": "att2:progress/gamelevelmaster_80",
     "rewards": {
-        "function": "att2:advancement/exploit_50",
+        "function": "att2:advancement/exploit_25",
         "experience": 100000
                 },
     "criteria": {

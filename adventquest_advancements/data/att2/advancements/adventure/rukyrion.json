@@ -10,7 +10,7 @@
     },
     "parent": "att2:adventure/root",
     "rewards": {
-        "function": "att2:advancement/exploit_50",
+        "function": "att2:advancement/exploit_25",
         "experience": 5000
                 },
     "criteria": {

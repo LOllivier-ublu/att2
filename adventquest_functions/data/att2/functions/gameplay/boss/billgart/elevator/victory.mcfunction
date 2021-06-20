@@ -13,3 +13,5 @@ execute positioned -1239 30 -615 run function att2:gameplay/boss/billgart/elevat
 function att2:gameplay/boss/billgart/elevator/destroy_minions
 
 function att2:gameplay/checkpoint/billgart/dungeon1
+
+advancement grant @a only att2:hunting/elevator

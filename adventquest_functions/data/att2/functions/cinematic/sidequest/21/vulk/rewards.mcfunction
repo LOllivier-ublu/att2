@@ -11,4 +11,4 @@ function att2:gameplay/pnj_talk/dialog_playsound/vulk
 execute at 00000000-0000-067a-0000-00000000067a as @p[distance=..10] run function att2:dialogs/sidequest/sq21/vulk/answer_rewards
 
 #REWARDS
-execute at 00000000-0000-067a-0000-00000000067a as @p run function att2:items/weapon/epi/stone_pickaxe_186
+execute at 00000000-0000-067a-0000-00000000067a as @p run function att2:items/weapon/leg/stone_pickaxe_189

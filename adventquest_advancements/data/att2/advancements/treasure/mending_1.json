@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Mending"},
+        "description": {"translate":"Repairs 1 item"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_1",
+            "experience": 100
+    },
+    "criteria": {
+        "mending_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

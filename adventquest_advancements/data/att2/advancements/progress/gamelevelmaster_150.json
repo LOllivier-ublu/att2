@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {"translate":"GRAND MASTER LEVEL 150"},
+        "description": {"translate":"Reach the level Master 150"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/gamelevelmaster_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 150000
+                },
+    "criteria": {
+        "gamelevelmaster_150": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

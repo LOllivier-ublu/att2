@@ -10,6 +10,7 @@ scoreboard players set Rackham_phase SQ41 0
 scoreboard players set Rackham_timer1 SQ41 0
 scoreboard players set Rackham_timer2 SQ41 0
 scoreboard players set Rackham SQ41 0
+effect give 00000000-0000-010c-0000-00000000010c minecraft:instant_damage 1 10 true
 function att2:physicmod/reg1/asunark/buttons_off
 function att2:physicmod/reg1/asunark/rackham_fire_off
 function att2:physicmod/reg1/asunark/rackham_fire4_on

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magenta_dye"
+        },
+        "title": {"translate":"Sovereign mending"},
+        "description": {"translate":"Repairs a sovereign item"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mending_epi",
+        "rewards": {
+            "function": "att2:advancement/exploit_25",
+            "experience": 5000
+    },
+    "criteria": {
+        "mending_epi_esc": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

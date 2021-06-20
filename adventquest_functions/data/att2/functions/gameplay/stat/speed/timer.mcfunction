@@ -4,6 +4,7 @@
 ##################################################
 
 scoreboard players remove @a[scores={TIMER_SPD_LE=0..}] TIMER_SPD_LE 20
+scoreboard players remove @a[scores={TIMER_SPD_OH=0..}] TIMER_SPD_OH 20
 scoreboard players remove @a[scores={TIMER_SPD_PO=0..}] TIMER_SPD_PO 20
 scoreboard players remove @a[scores={TIMER_SPD_DAB=0..}] TIMER_SPD_DAB 20
 scoreboard players remove @a[scores={TIMER_SPD_DAM=0..}] TIMER_SPD_DAM 20
@@ -15,6 +16,7 @@ scoreboard players remove @a[scores={TIMER_SPD_SET=0..}] TIMER_SPD_SET 20
 scoreboard players remove @a[scores={TIMER_SPD_EXT=0..}] TIMER_SPD_EXT 20
 
 scoreboard players set @a[scores={TIMER_SPD_LE=..0}] SPD_LVL_LE 0
+scoreboard players set @a[scores={TIMER_SPD_OH=..0}] SPD_LVL_OH 0
 scoreboard players set @a[scores={TIMER_SPD_PO=..0}] SPD_LVL_PO 0
 scoreboard players set @a[scores={TIMER_SPD_DAB=..0}] SPD_LVL_DAB 0
 scoreboard players set @a[scores={TIMER_SPD_DAM=..0}] SPD_LVL_DAM 0

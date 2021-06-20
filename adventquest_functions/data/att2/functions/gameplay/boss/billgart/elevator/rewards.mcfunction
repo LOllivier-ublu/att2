@@ -26,3 +26,5 @@ function att2:summon/reg_3/elevator_rewards
 function att2:summon/reg_3/elevator_rewards
 function att2:summon/reg_3/elevator_rewards
 function att2:summon/reg_3/elevator_rewards
+
+function att2:summon/reg_3/elevator_rewards_dedicated

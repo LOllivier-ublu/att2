@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:honeycomb"
+        },
+        "title": {"translate":"Bees Slayer"},
+        "description": {"translate":"Kill 250 Bees"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/bees_killed_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+    },
+    "criteria": {
+        "bees_killed_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

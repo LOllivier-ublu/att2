@@ -19,7 +19,7 @@
                     "minecraft:strength": {
                         "amplifier": {
                             "min": 5,
-                            "max": 7
+                            "max": 10
                         }
                     }
                 }

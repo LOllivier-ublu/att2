@@ -9,7 +9,7 @@
     },
     "parent": "att2:treasure/chronotons_5000",
         "rewards": {
-            "function": "att2:advancement/exploit_20",
+            "function": "att2:advancement/exploit_30",
             "experience": 10000
     },
     "criteria": {

@@ -3,7 +3,7 @@
 #Process action_1 for ryliathportal_3 cinematic		#
 #####################################################
 
-tag @e[tag=timeGem] remove timeGem
+function att2:cinematic/act_4/ryliathportal_gem_remove
 function att2:dialogs/title/a4_ch5_title1
 function att2:dialogs/title/a4_ch5_subtitle1
 function att2:dialogs/mainquest/act_4/ch4_player_61

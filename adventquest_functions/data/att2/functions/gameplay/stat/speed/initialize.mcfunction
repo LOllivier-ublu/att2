@@ -12,6 +12,9 @@ scoreboard players set @s SPD_BASE 0
 scoreboard objectives add SPD_LVL_LE dummy
 scoreboard players set @s SPD_LVL_LE 0
 
+scoreboard objectives add SPD_LVL_OH dummy
+scoreboard players set @s SPD_LVL_OH 0
+
 scoreboard objectives add SPD_LVL_PO dummy
 scoreboard players set @s SPD_LVL_PO 0
 
@@ -40,6 +43,7 @@ scoreboard objectives add SPD_LVL_EXT dummy
 scoreboard players set @s SPD_LVL_EXT 0
 
 scoreboard objectives add TIMER_SPD_LE dummy
+scoreboard objectives add TIMER_SPD_OH dummy
 scoreboard objectives add TIMER_SPD_PO dummy
 scoreboard objectives add TIMER_SPD_DAB dummy
 scoreboard objectives add TIMER_SPD_DAM dummy

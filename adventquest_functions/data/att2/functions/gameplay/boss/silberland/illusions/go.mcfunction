@@ -12,7 +12,7 @@ particle minecraft:dust 1 0 0 1 -4264 58 -5620 0.1 1 1 0 2 normal
 particle minecraft:dust 1 0 0 1 -4232 18 -5621 0.1 1 1 0 2 normal
 
 # Music management
-execute if score Illusions SILBERLAND matches 0.. as @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Illusions SILBERLAND matches 0.. as @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Illusions SILBERLAND matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Illusions

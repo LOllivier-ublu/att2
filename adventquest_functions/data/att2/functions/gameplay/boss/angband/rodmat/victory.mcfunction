@@ -13,3 +13,5 @@ function att2:physicmod/reg2/angor/sectarian_boss_opening
 function att2:physicmod/reg2/angor/rodmat_lava_clean
 
 function att2:gameplay/checkpoint/angband/angor18
+
+advancement grant @a only att2:hunting/rodmat

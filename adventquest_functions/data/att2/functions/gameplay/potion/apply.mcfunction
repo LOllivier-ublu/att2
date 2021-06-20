@@ -32,7 +32,15 @@ execute as @s[scores={POTION_ID=23}] run function att2:gameplay/equipment/effect
 execute as @s[scores={POTION_ID=24}] run function att2:gameplay/equipment/effect/po/str3_has4_spd_2_her_1
 execute as @s[scores={POTION_ID=25}] run function att2:gameplay/equipment/effect/po/dar4_has_2
 execute as @s[scores={POTION_ID=26}] run function att2:gameplay/equipment/effect/po/res1_spd_4
-execute as @s[scores={POTION_ID=27}] run function att2:gameplay/equipment/effect/po/str4_hun_2
-execute as @s[scores={POTION_ID=28}] run function att2:gameplay/equipment/effect/po/her3_hun3_str_1
+execute as @s[scores={POTION_ID=27}] run function att2:gameplay/equipment/effect/po/str4
+execute as @s[scores={POTION_ID=28}] run function att2:gameplay/equipment/effect/po/her3_hun3
 execute as @s[scores={POTION_ID=29}] run function att2:gameplay/equipment/effect/po/has4_spd2_dar2_hun2
 execute as @s[scores={POTION_ID=46}] run function att2:gameplay/equipment/effect/po/hun5
+execute as @s[scores={POTION_ID=48}] run function att2:gameplay/equipment/effect/po/spd1_dar1_str_1
+execute as @s[scores={POTION_ID=49}] run function att2:gameplay/equipment/effect/po/str1_res_1
+execute as @s[scores={POTION_ID=50}] run function att2:gameplay/equipment/effect/po/hun3_her_1
+execute as @s[scores={POTION_ID=51}] run function att2:gameplay/equipment/effect/po/dar3_spd_2
+execute as @s[scores={POTION_ID=52}] run function att2:gameplay/equipment/effect/po/her2_has_1
+execute as @s[scores={POTION_ID=53}] run function att2:gameplay/equipment/effect/po/str1_has1_spd1_hun_4
+execute as @s[scores={POTION_ID=54}] run function att2:gameplay/equipment/effect/po/str2_spd3_hun1_dar_2
+execute as @s[scores={POTION_ID=55}] run function att2:gameplay/equipment/effect/po/str3_res1_luc2

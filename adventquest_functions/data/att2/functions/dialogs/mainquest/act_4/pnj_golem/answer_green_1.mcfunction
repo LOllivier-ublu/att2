@@ -3,7 +3,8 @@
 #Use function to process the green answer 						#
 #################################################################
 
-function att2:sound/dialogs/simple
+execute at @s run function att2:sound/dialogs/simple
+execute at @s run function att2:sound/mobs/golem_death
 
 
 #FRENCH LANGUAGE

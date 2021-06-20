@@ -6,7 +6,7 @@
 execute at @a run function att2:sound/misc/desintegration
 execute if score level DIFFICULTY matches -1 run summon minecraft:fireball -1239 150 -615 {ExplosionPower:3,Motion:[0.0,-1.2,0.0]}
 execute if score level DIFFICULTY matches 0 run summon minecraft:fireball -1239 150 -615 {ExplosionPower:4,Motion:[0.0,-1.2,0.0]}
-execute if score level DIFFICULTY matches 1 run summon minecraft:fireball -1239 150 -615 {ExplosionPower:5,Motion:[0.0,-1.2,0.0]}
+execute if score level DIFFICULTY matches 1.. run summon minecraft:fireball -1239 150 -615 {ExplosionPower:5,Motion:[0.0,-1.2,0.0]}
 
 execute positioned -1241 150 -619 run function att2:summon/reg_3/silverfish0_class9
 execute positioned -1237 150 -619 run function att2:summon/reg_3/silverfish0_class9

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "title": {"translate":"Golden spear strike"},
+        "description": {"translate":"Strike once with a golden spear"}
+    },
+    "parent": "att2:weapons/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "golden_spear_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

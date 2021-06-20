@@ -4,4 +4,4 @@
 #################################################################
 
 scoreboard players set @s HAS_LVL_LE 2
-scoreboard players set @s TIMER_HAS_LE 30
+scoreboard players set @s TIMER_HAS_LE 40

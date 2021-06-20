@@ -15,6 +15,7 @@ scoreboard players set @s CHRONOTONbis 0
 scoreboard players set @s CHRONOTONquart 0
 scoreboard players set @s OP_CHRONOTON1 1
 scoreboard players set @s OP_CHRONOTON2 20
+scoreboard players set @s OP_CHRONOTON3 10
 scoreboard players set @s CHRONOTON_TODROP 0
 
 scoreboard objectives setdisplay list CHRONOTON

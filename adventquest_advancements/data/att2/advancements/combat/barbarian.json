@@ -19,8 +19,8 @@
                 "effects": {
                     "minecraft:strength": {
                         "amplifier": {
-                            "min": 15,
-                            "max": 18
+                            "min": 30,
+                            "max": 70
                         }
                     }
                 }

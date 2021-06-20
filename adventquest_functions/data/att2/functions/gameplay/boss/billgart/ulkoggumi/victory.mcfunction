@@ -14,3 +14,5 @@ function att2:gameplay/boss/billgart/ulkoggumi/destroy_minions
 function att2:gameplay/checkpoint/billgart/dungeon32
 function att2:gameplay/boss/billgart/ulkoggumi/spike_attack3/down
 function att2:physicmod/reg3/dungeon/ulkoggumi_ladders_up
+
+advancement grant @a only att2:hunting/ulkoggumi

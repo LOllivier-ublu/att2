@@ -12,7 +12,7 @@ function att2:dialogs/gameplay/shop/items_selled_list/potion/unc/potion_12
 function att2:dialogs/gameplay/shop/items_selled_list/potion/rar/potion_21
 function att2:dialogs/gameplay/shop/items_selled_list/potion/epi/potion_23
 
-function att2:dialogs/gameplay/shop/items_selled_list/potion_thrown_list
+function att2:dialogs/gameplay/shop/items_selled_list/potion_splash_list
 function att2:dialogs/gameplay/shop/items_selled_list/potion/com/splash_potion_32
 function att2:dialogs/gameplay/shop/items_selled_list/potion/unc/splash_potion_35
 

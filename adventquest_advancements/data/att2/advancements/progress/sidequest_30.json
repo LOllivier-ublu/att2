@@ -9,7 +9,7 @@
     },
     "parent": "att2:progress/sidequest_20",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
+        "function": "att2:advancement/exploit_30",
         "experience": 10000
     },
     "criteria": {

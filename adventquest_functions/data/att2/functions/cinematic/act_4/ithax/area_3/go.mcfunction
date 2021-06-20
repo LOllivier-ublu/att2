@@ -38,8 +38,10 @@ execute if score area3_event14 ITHAX matches 1 run function att2:cinematic/act_4
 execute if score area3_labo2_mech1 ITHAX matches 1 run function att2:cinematic/act_4/ithax/area_3/labo_2/cinematic2
 
 # Labo electric water effect
-execute if score area3_labo_electricity ITHAX matches 0 run function att2:cinematic/act_4/ithax/area_3/labo_1/electric_effect
+execute if score area3_labo_electricity ITHAX matches 0 run particle minecraft:firework -7417 156 -5925 5 0.5 5 0.3 5 normal
+execute if score area3_labo_electricity ITHAX matches 0 run particle minecraft:crit -7417 156 -5925 5 0.5 5 0.3 10 normal
 execute if score area3_labo_water ITHAX matches 0..15 run scoreboard players add area3_labo_water ITHAX 1
+execute if score area3_labo_water ITHAX matches 0..16 run particle minecraft:electric_spark -7417 156 -5925 5 0.5 5 0 100 normal
 execute if score area3_labo_water ITHAX matches 14 as @a[x=-7431,y=159,z=-5916,dx=21,dy=-3,dz=-19,gamemode=adventure] at @s if block ~ ~ ~ minecraft:water run function att2:cinematic/act_4/ithax/area_3/labo_1/water_effect
 execute if score area3_labo_water ITHAX matches 16.. run scoreboard players set area3_labo_water ITHAX 0
 execute if score area3_event19 ITHAX matches 1 run function att2:cinematic/act_4/ithax/area_3/corridor/laser_effect

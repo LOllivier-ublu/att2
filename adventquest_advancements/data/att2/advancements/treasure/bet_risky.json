@@ -9,7 +9,7 @@
     },
     "parent": "att2:treasure/bets_1",
         "rewards": {
-            "function": "att2:advancement/exploit_20",
+            "function": "att2:advancement/exploit_25",
             "experience": 2500
     },
     "criteria": {

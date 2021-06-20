@@ -11,3 +11,6 @@ scoreboard players set path3_mech2_circles OURANOS 0
 execute positioned 7415 192 6461 run function att2:sound/misc/power_failure
 execute positioned 7415 192 6461 run function att2:sound/misc/fail1
 function att2:physicmod/reg4/tower3_path/mech2_reset
+
+bossbar set minecraft:ouranos_timer visible false
+bossbar remove minecraft:ouranos_timer

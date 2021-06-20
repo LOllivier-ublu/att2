@@ -15,7 +15,7 @@ particle minecraft:dust 1 0 0 1 6657.5 149.5 7058.0 0.1 1 1 0 2 normal
 particle minecraft:dust 1 0 0 1 6748 129 7067 0.1 1 1 0 1 normal
 
 # Music management
-execute if score Somniophages SQ48 matches 0.. as @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
+execute if score Somniophages SQ48 matches 0.. as @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
 execute if score Somniophages SQ48 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Make challengers enters the arena
@@ -24,16 +24,19 @@ execute if score EnterArena SQ48 matches ..0 as @a[x=6656,y=148,z=7056,dx=0,dy=3
 execute if score EnterArena SQ48 matches 1.. run scoreboard players remove EnterArena SQ48 1
 
 # Enable Bossbar storing health of Somniophages
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage1 value run data get entity 00000000-0000-014c-0000-00000000014c Health
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage1 max run data get entity 00000000-0000-014c-0000-00000000014c Attributes[{Name:"minecraft:generic.max_health"}].Base
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage2 value run data get entity 00000000-0000-015c-0000-00000000015c Health
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage2 max run data get entity 00000000-0000-015c-0000-00000000015c Attributes[{Name:"minecraft:generic.max_health"}].Base
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage3 value run data get entity 00000000-0000-016c-0000-00000000016c Health
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage3 max run data get entity 00000000-0000-016c-0000-00000000016c Attributes[{Name:"minecraft:generic.max_health"}].Base
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage4 value run data get entity 00000000-0000-017c-0000-00000000017c Health
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage4 max run data get entity 00000000-0000-017c-0000-00000000017c Attributes[{Name:"minecraft:generic.max_health"}].Base
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage5 value run data get entity 00000000-0000-018c-0000-00000000018c Health
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage5 max run data get entity 00000000-0000-018c-0000-00000000018c Attributes[{Name:"minecraft:generic.max_health"}].Base
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage1 value run data get entity 00000000-0000-014c-0000-00000000014c Health
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage1 max run data get entity 00000000-0000-014c-0000-00000000014c Attributes[{Name:"minecraft:generic.max_health"}].Base
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage2 value run data get entity 00000000-0000-015c-0000-00000000015c Health
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage2 max run data get entity 00000000-0000-015c-0000-00000000015c Attributes[{Name:"minecraft:generic.max_health"}].Base
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage3 value run data get entity 00000000-0000-016c-0000-00000000016c Health
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage3 max run data get entity 00000000-0000-016c-0000-00000000016c Attributes[{Name:"minecraft:generic.max_health"}].Base
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage4 value run data get entity 00000000-0000-017c-0000-00000000017c Health
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage4 max run data get entity 00000000-0000-017c-0000-00000000017c Attributes[{Name:"minecraft:generic.max_health"}].Base
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage5 value run data get entity 00000000-0000-018c-0000-00000000018c Health
+#execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophage5 max run data get entity 00000000-0000-018c-0000-00000000018c Attributes[{Name:"minecraft:generic.max_health"}].Base
+
+execute if score Somniophages SQ48 matches 0.. as @e[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,type=minecraft:ghast,tag=Somniophages] store result score Somniophages_count SQ48 run execute if entity @e[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,type=minecraft:ghast,tag=Somniophages]
+execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] store result bossbar minecraft:somniophages value run scoreboard players get Somniophages_count SQ48
 
 # Start the boss fight (summoning Somniophages)
 execute if score Somniophages SQ48 matches -1 if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] run function att2:gameplay/boss/ouranos/somniophages/start

@@ -25,3 +25,5 @@ function att2:summon/reg_1/illusions_rewards
 function att2:summon/reg_1/illusions_rewards
 function att2:summon/reg_1/illusions_rewards
 function att2:summon/reg_1/illusions_rewards
+
+function att2:summon/reg_1/illusions_rewards_dedicated

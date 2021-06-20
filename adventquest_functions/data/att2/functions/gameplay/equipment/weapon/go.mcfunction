@@ -3,55 +3,227 @@
 #Process weapon effect on player                           	#
 #############################################################
 
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7A peine contondante.\"}","{\"text\":\"§7Barrely blunt.\"}","{\"text\":\"§7HAS§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Lourde\"}","{\"text\":\"§7Heavy\"}","{\"text\":\"§7STR§c-1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Très lourde\"}","{\"text\":\"§7Very heavy\"}","{\"text\":\"§7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_2"}}}] run function att2:gameplay/equipment/effect/le/has_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str_1_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1"}}}] run function att2:gameplay/equipment/effect/le/has_1
 
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Surestimé, quasiment inutile.\"}","{\"text\":\"§7Overrated, just useless.\"}","{\"text\":\"§7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7A table\"}","{\"text\":\"§7Dinner's ready\"}","{\"text\":\"§7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Pas peur du danger !\"}","{\"text\":\"§7Not scary about danger!\"}","{\"text\":\"§7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Emoussée\"}","{\"text\":\"§7Blunt\"}","{\"text\":\"§7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Outil indispensable du guerrier\"}","{\"text\":\"§7Essential tool of the warrior\"}","{\"text\":\"§7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun_1"}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_1"}}}] run function att2:gameplay/equipment/effect/le/spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1"}}}] run function att2:gameplay/equipment/effect/le/has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res_1"}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar_1"}}}] run function att2:gameplay/equipment/effect/le/dar_1
 
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Frappe, cogne...\"}","{\"text\":\"§7Knock, knock...\"}","{\"text\":\"§7DAR§a1 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar1_luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Briser les os.\"}","{\"text\":\"§7Break bones.\"}","{\"text\":\"§7STR§a1 §7SPD§c-3\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_3
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Coupe encore...\"}","{\"text\":\"§7Still sharp...\"}","{\"text\":\"§7STR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/dar1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd_3"}}}] run function att2:gameplay/equipment/effect/le/str1_spd_3
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1"}}}] run function att2:gameplay/equipment/effect/le/str_1
 
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Puisses-tu être fier de moi, ancêtre.\"}","{\"text\":\"§7May you be proud of me, ancestor.\"}","{\"text\":\"§7HAS§a2 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has2_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Prêt pour le combat.\"}","{\"text\":\"§7Ready for the fight.\"}","{\"text\":\"§7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Lie force et finesse.\"}","{\"text\":\"§7Combines strength and finesse.\"}","{\"text\":\"§7STR§a1 §7SPD§a2 §7HAS§c-2 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd2_has_2_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Au meilleur des bûcherons.\"}","{\"text\":\"§7To the best of loggers.\"}","{\"text\":\"§7STR§a2 §7RES§c-1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_res_1_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La force vaut mieux que l'agilité.\"}","{\"text\":\"§7Strength is better than agility.\"}","{\"text\":\"§7STR§a1 §7HAS§c-2 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has_2_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7A Mondolin.\"}","{\"text\":\"§7To Mondolin.\"}","{\"text\":\"§7STR§a1 §7DAR§a2 §7SPD§c-1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_dar2_spd_1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Tombé à la guerre\"}","{\"text\":\"§7Fallen for war\"}","{\"text\":\"§7HAS§a2 §7DAR§a2 §7HER§c-3\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has2_dar2_her_3
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Souriez, jusqu'à la fin...\"}","{\"text\":\"§7Smile, to the end...\"}","{\"text\":\"§7STR§a2 §7SPD§a1 §7HAS§c-1 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_has_1_luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Plus tu en sais...\"}","{\"text\":\"§7plus tu en tues.\"}","{\"text\":\"§7The more you know...\"}","{\"text\":\"§7the more you kill.\"}","{\"text\":\"§7STR§a1 §7HAS§a3 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has3_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Rapide elle vient et rien ne l'arrête.\"}","{\"text\":\"§7Fast it comes and nothing stops it.\"}","{\"text\":\"§7HAS§a2 §7SPD§a2 §7STR§c-1 §7DAR§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has2_spd2_str_1_dar_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Terre rougie par le sang\"}","{\"text\":\"§7air souillé par le désespoir.\"}","{\"text\":\"§7Land reddened by blood,\"}","{\"text\":\"§7air stained by despair.\"}","{\"text\":\"§7STR§a3 §7HAS§a2 §7SPD§c-1 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_has2_spd_1_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Sans failles, il protège et sert\"}","{\"text\":\"§7la famille qui l'a vu naître.\"}","{\"text\":\"§7Flawless, it protects and serves\"}","{\"text\":\"§7the familly that gave birth to it.\"}","{\"text\":\"§7STR§a1 §7RES§a1 §7LUC§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_res1_luc1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Discret, il conduit inexorablement\"}","{\"text\":\"§7vers un froid incisif.\"}","{\"text\":\"§7Discreet, it inexorably leads\"}","{\"text\":\"§7to an incisive cold.\"}","{\"text\":\"§7HAS§a4 §7DAR§a2 §7HER§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has4_dar2_her_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7A sa manière.\"}","{\"text\":\"§7In its own way.\"}","{\"text\":\"§7SPD§a2 §7HAS§a3 §7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_has3_res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Insatiable, il amassa cent âmes\"}","{\"text\":\"§7puis courut à sa perte.\"}","{\"text\":\"§7Insatiable, he gathered a hundred souls\"}","{\"text\":\"§7before running to his death.\"}","{\"text\":\"§7STR§a3 §7HAS§a3\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_has3
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Sans douceur ni égard,\"}","{\"text\":\"§7affronte l'âge avec violence.\"}","{\"text\":\"§7Without gentleness or consideration,\"}","{\"text\":\"§7faces age with violence.\"}","{\"text\":\"§7STR§a4\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str4
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Dont l'image salie fut\"}","{\"text\":\"§7lavée dans le sang.\"}","{\"text\":\"§7Whose soiled image\"}","{\"text\":\"§7was washed with blood.\"}","{\"text\":\"§7STR§a1 §7SPD§a3 §7HER§a2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd3_her2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La folie prend enfin un sens,\"}","{\"text\":\"§7quand elle se laisse guider par la vengeance.\"}","{\"text\":\"§7Madness finally gains meaning,\"}","{\"text\":\"§7when it lets itself be guided by revenge.\"}","{\"text\":\"§7STR§a3 §7SPD§a1 §7LUC§a1 §7HUN§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd1_luc1_hun1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7A Balien, mon frère.\"}","{\"text\":\"§7For Balien, my brother.\"}","{\"text\":\"§7SPD§c-2 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd_2_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Pourfendeur de pommes\"}","{\"text\":\"§7Apple slasher\"}","{\"text\":\"§7STR§c-1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Lys de bois\"}","{\"text\":\"§7Wooden lily\"}","{\"text\":\"§7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Bientôt canne à pêche.\"}","{\"text\":\"§7Soon to be fishing rod.\"}","{\"text\":\"§7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Précis mais encombrant\"}","{\"text\":\"§7Precise but cumbersome\"}","{\"text\":\"§7STR§a1 §7SPD§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Garde au loin\"}","{\"text\":\"§7tes ennemis.\"}","{\"text\":\"§7Keep your enemies\"}","{\"text\":\"§7in the distance.\"}","{\"text\":\"§7STR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Silencieux, porté par le vent.\"}","{\"text\":\"§7Silent, carried by the wind.\"}","{\"text\":\"§7SPD§a2 §7DAR§c-4\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_dar_4
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_her_1"}}}] run function att2:gameplay/equipment/effect/le/has2_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1"}}}] run function att2:gameplay/equipment/effect/le/has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd2_has_2_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str1_spd2_has_2_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_res_1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str2_res_1_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has_2_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has_2_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_dar2_spd_1_has_1"}}}] run function att2:gameplay/equipment/effect/le/str1_dar2_spd_1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_dar2_her_3"}}}] run function att2:gameplay/equipment/effect/le/has2_dar2_her_3
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd1_has_1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_has_1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has3_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has3_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_spd2_str_1_dar_2"}}}] run function att2:gameplay/equipment/effect/le/has2_spd2_str_1_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_has2_spd_1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str3_has2_spd_1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_res1_luc1"}}}] run function att2:gameplay/equipment/effect/le/str1_res1_luc1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has4_dar2_her_2"}}}] run function att2:gameplay/equipment/effect/le/has4_dar2_her_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_has3_res_1"}}}] run function att2:gameplay/equipment/effect/le/spd2_has3_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_has3"}}}] run function att2:gameplay/equipment/effect/le/str3_has3
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4"}}}] run function att2:gameplay/equipment/effect/le/str4
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd3_her2"}}}] run function att2:gameplay/equipment/effect/le/str1_spd3_her2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd1_luc1_hun1"}}}] run function att2:gameplay/equipment/effect/le/str3_spd1_luc1_hun1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_2_hun_1"}}}] run function att2:gameplay/equipment/effect/le/spd_2_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1_has_1"}}}] run function att2:gameplay/equipment/effect/le/str_1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar_1"}}}] run function att2:gameplay/equipment/effect/le/dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res_1"}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd_2"}}}] run function att2:gameplay/equipment/effect/le/str1_spd_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1"}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_dar_4"}}}] run function att2:gameplay/equipment/effect/le/spd2_dar_4
 
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Juste et agile\"}","{\"text\":\"§7Right and agile\"}","{\"text\":\"§7SPD§a2 §7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Puisses tes flèches voler\"}","{\"text\":\"§7à la manière du rossignol.\"}","{\"text\":\"§7May your arrows fly\"}","{\"text\":\"§7like a nightingale.\"}","{\"text\":\"§7STR§a1 §7HER§a1 §7RES§c-1 §7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her1_res_1_dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Le sifflement de la dernière flèche\"}","{\"text\":\"§7The whistle of the last arrow\"}","{\"text\":\"§7STR§a2 §7SPD§a2 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7De nombreuse fois égaré,\"}","{\"text\":\"§7mais toujours avec regret.\"}","{\"text\":\"§7Many times lost,\"}","{\"text\":\"§7but always with regret.\"}","{\"text\":\"§7STR§a2 §7LUC§c-1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_luc_1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Envoûtant mais destructeur,\"}","{\"text\":\"§7il chasse sans distinction d'espèce.\"}","{\"text\":\"§7Charming but destructive,\"}","{\"text\":\"§7it hunts without distinction of species.\"}","{\"text\":\"§7STR§a3 §7SPD§a1 §7DAR§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd1_dar_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Pique, perce et tue, toi\"}","{\"text\":\"§7à qui on brisa tout espoir.\"}","{\"text\":\"§7Sting, pierce and kill, to you\"}","{\"text\":\"§7to whom hope was shattered.\"}","{\"text\":\"§7STR§a2 §7DAR§a3 §7LUC§c-3\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_dar3_luc_3
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Rien n'arrête tes projectiles\"}","{\"text\":\"§7pas même la tempête.\"}","{\"text\":\"§7Nothing stops your projectiles,\"}","{\"text\":\"§7not even the storm.\"}","{\"text\":\"§7STR§a2 §7SPD§a3 §7LUC§a1 §7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd3_luc1_res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Telles des étoiles filantes, \"}","{\"text\":\"§7fusent tes flèches.\"}","{\"text\":\"§7Like shooting stars,\"}","{\"text\":\"§7your arrows are blasting.\"}","{\"text\":\"§7STR§a2 §7SPD§a4 §7LUC§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd4_luc1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Vas avec l'unique archère\"}","{\"text\":\"§7car elle est l'élue de notre mère.\"}","{\"text\":\"§7Go with the one archere\"}","{\"text\":\"§7because she is our mother's chosen one.\"}","{\"text\":\"§7STR§a3 §7SPD§a1 §7HER§a2 §7DAR§a4\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd1_her2_dar4
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_res_1"}}}] run function att2:gameplay/equipment/effect/le/spd2_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_her1_res_1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/str1_her1_res_1_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd2_her_1"}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_luc_1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str2_luc_1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd1_dar_2"}}}] run function att2:gameplay/equipment/effect/le/str3_spd1_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_dar3_luc_2"}}}] run function att2:gameplay/equipment/effect/le/str2_dar3_luc_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd3_luc1_res_1"}}}] run function att2:gameplay/equipment/effect/le/str2_spd3_luc1_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_luc1_hun2"}}}] run function att2:gameplay/equipment/effect/le/str2_luc1_hun2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd1_her2_dar2"}}}] run function att2:gameplay/equipment/effect/le/str3_spd1_her2_dar2
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"has_2"}}]}] run function att2:gameplay/equipment/effect/oh/has_2
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"luc_1"}}]}] run function att2:gameplay/equipment/effect/oh/luc_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd_2"}}]}] run function att2:gameplay/equipment/effect/oh/spd_2
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"has1_dar_1"}}]}] run function att2:gameplay/equipment/effect/oh/has1_dar_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd2_her_1"}}]}] run function att2:gameplay/equipment/effect/oh/spd2_her_1
+
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"dar1_str_1"}}]}] run function att2:gameplay/equipment/effect/oh/dar1_str_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"hun_1"}}]}] run function att2:gameplay/equipment/effect/oh/hun_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str1"}}]}] run function att2:gameplay/equipment/effect/oh/str1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"res1_spd_3"}}]}] run function att2:gameplay/equipment/effect/oh/res1_spd_3
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"has2_spd1_hun_1"}}]}] run function att2:gameplay/equipment/effect/oh/has2_spd1_hun_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str2_her1_luc_1"}}]}] run function att2:gameplay/equipment/effect/oh/str2_her1_luc_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd2_dar2"}}]}] run function att2:gameplay/equipment/effect/oh/spd2_dar2
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str1_res1_her1_luc1"}}]}] run function att2:gameplay/equipment/effect/oh/str1_res1_her1_luc1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res_1"}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str_1_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/has_1_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun_1"}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str_1_hun_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_1"}}}] run function att2:gameplay/equipment/effect/le/spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_2_luc_1"}}}] run function att2:gameplay/equipment/effect/le/has_2_luc_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/has1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"luc_1"}}}] run function att2:gameplay/equipment/effect/le/luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar1_has_1"}}}] run function att2:gameplay/equipment/effect/le/dar1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res_1"}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar_1"}}}] run function att2:gameplay/equipment/effect/le/dar_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd1_dar1_luc1_has_2"}}}] run function att2:gameplay/equipment/effect/le/spd1_dar1_luc1_has_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has3_dar_2"}}}] run function att2:gameplay/equipment/effect/le/has3_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_res_1"}}}] run function att2:gameplay/equipment/effect/le/str2_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has1_spd_1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/str2_has1_spd_1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has1_dar3_her_2"}}}] run function att2:gameplay/equipment/effect/le/has1_dar3_her_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her1_dar1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/her1_dar1_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_her_1"}}}] run function att2:gameplay/equipment/effect/le/spd2_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_her2_dar_1"}}}] run function att2:gameplay/equipment/effect/le/str1_her2_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/res1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has6_dar2_res_1"}}}] run function att2:gameplay/equipment/effect/le/has6_dar2_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd2_has_1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has_1_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_dar2_luc1"}}}] run function att2:gameplay/equipment/effect/le/str2_dar2_luc1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has3_her1"}}}] run function att2:gameplay/equipment/effect/le/str1_has3_her1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd2"}}}] run function att2:gameplay/equipment/effect/le/str3_spd2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_res1_her1_dar1"}}}] run function att2:gameplay/equipment/effect/le/str1_res1_her1_dar1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1"}}}] run function att2:gameplay/equipment/effect/le/has_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her_1"}}}] run function att2:gameplay/equipment/effect/le/her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_2_spd_1"}}}] run function att2:gameplay/equipment/effect/le/has_2_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1"}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_2"}}}] run function att2:gameplay/equipment/effect/le/spd_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar_2"}}}] run function att2:gameplay/equipment/effect/le/dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/has_1_dar_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun_1"}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_hun_1"}}}] run function att2:gameplay/equipment/effect/le/has2_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd_2"}}}] run function att2:gameplay/equipment/effect/le/str1_spd_2
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/dar1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"luc1_her_2"}}}] run function att2:gameplay/equipment/effect/le/luc1_her_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has1"}}}] run function att2:gameplay/equipment/effect/le/has1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has3_spd1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/has3_spd1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_her_1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str2_her_1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has_1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str2_has_1_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd2_hun_2"}}}] run function att2:gameplay/equipment/effect/le/str1_spd2_hun_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_dar1_her_1"}}}] run function att2:gameplay/equipment/effect/le/has2_dar1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd1_has_1"}}}] run function att2:gameplay/equipment/effect/le/str1_spd1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has2_her_2"}}}] run function att2:gameplay/equipment/effect/le/str2_has2_her_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_luc1_dar_2"}}}] run function att2:gameplay/equipment/effect/le/spd2_luc1_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd2_has_1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has_1_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has4_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has4_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_her2_dar_1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str2_her2_dar_1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has2_hun1_res_1"}}}] run function att2:gameplay/equipment/effect/le/str2_has2_hun1_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd2_has2_luc1"}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_has2_luc1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str5"}}}] run function att2:gameplay/equipment/effect/le/str5
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd4_has4"}}}] run function att2:gameplay/equipment/effect/le/str1_spd4_has4
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4_has3_her2_dar1"}}}] run function att2:gameplay/equipment/effect/le/str4_has3_her2_dar1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_1"}}}] run function att2:gameplay/equipment/effect/le/spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1"}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/has_1_spd_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res_1"}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her_1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/her_1_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun_1"}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar_2_luc_1"}}}] run function att2:gameplay/equipment/effect/le/dar_2_luc_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar1"}}}] run function att2:gameplay/equipment/effect/le/dar1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun_1"}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd_2"}}}] run function att2:gameplay/equipment/effect/le/str1_spd_2
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her1_str_1"}}}] run function att2:gameplay/equipment/effect/le/her1_str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_her_2"}}}] run function att2:gameplay/equipment/effect/le/spd2_her_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun1_dar_2"}}}] run function att2:gameplay/equipment/effect/le/hun1_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_spd2_str_1"}}}] run function att2:gameplay/equipment/effect/le/has2_spd2_str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has4_res_1"}}}] run function att2:gameplay/equipment/effect/le/has4_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd_3_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str2_spd_3_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_dar1_has_1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str1_dar1_has_1_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res1_has_4"}}}] run function att2:gameplay/equipment/effect/le/res1_has_4
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd1_dar1_luc1_has_1"}}}] run function att2:gameplay/equipment/effect/le/spd1_dar1_luc1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her1_dar1_spd_2"}}}] run function att2:gameplay/equipment/effect/le/her1_dar1_spd_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd2_has1_luc_2"}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has1_luc_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_her1_hun1_spd_2"}}}] run function att2:gameplay/equipment/effect/le/str2_her1_hun1_spd_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has4_dar2_res_1"}}}] run function att2:gameplay/equipment/effect/le/has4_dar2_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd3_has3"}}}] run function att2:gameplay/equipment/effect/le/spd3_has3
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_res1_luc1"}}}] run function att2:gameplay/equipment/effect/le/str1_res1_luc1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has4"}}}] run function att2:gameplay/equipment/effect/le/str2_has4
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd2_has1"}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_her2_dar2"}}}] run function att2:gameplay/equipment/effect/le/str1_her2_dar2
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"dar_2"}}]}] run function att2:gameplay/equipment/effect/oh/dar_2
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd2_str_1"}}]}] run function att2:gameplay/equipment/effect/oh/spd2_str_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str1_has_1"}}]}] run function att2:gameplay/equipment/effect/oh/str1_has_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str2_her2_dar2"}}]}] run function att2:gameplay/equipment/effect/oh/str2_her2_dar2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has1_hun1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has1_hun1_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_her1_has_1"}}}] run function att2:gameplay/equipment/effect/le/str2_her1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4_luc_1"}}}] run function att2:gameplay/equipment/effect/le/str4_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd3_luc1"}}}] run function att2:gameplay/equipment/effect/le/spd3_luc1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd2_dar_2"}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_res1_her_2"}}}] run function att2:gameplay/equipment/effect/le/str3_res1_her_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar4_str_1"}}}] run function att2:gameplay/equipment/effect/le/dar4_str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd1_luc1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str1_spd1_luc1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has4_spd2_her1_res_1"}}}] run function att2:gameplay/equipment/effect/le/has4_spd2_her1_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_res1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_res1_her_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"res1_her1_dar1_has_4"}}]}] run function att2:gameplay/equipment/effect/oh/res1_her1_dar1_has_4
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_2_hun_1"}}}] run function att2:gameplay/equipment/effect/le/spd_2_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/str_1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar_1"}}}] run function att2:gameplay/equipment/effect/le/dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1"}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/has1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str1_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_dar2_spd_2"}}}] run function att2:gameplay/equipment/effect/le/has2_dar2_spd_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_dar_2"}}}] run function att2:gameplay/equipment/effect/le/str2_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_her1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/spd2_her1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_has2_luc1_spd_4"}}}] run function att2:gameplay/equipment/effect/le/str3_has2_luc1_spd_4
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has4_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has4_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has5_her2_hun1"}}}] run function att2:gameplay/equipment/effect/le/has5_her2_hun1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_res1"}}}] run function att2:gameplay/equipment/effect/le/str2_res1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4"}}}] run function att2:gameplay/equipment/effect/le/str4
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd_2"}}]}] run function att2:gameplay/equipment/effect/oh/spd_2
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str1_her_1"}}]}] run function att2:gameplay/equipment/effect/oh/str1_her_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"has2_hun1_dar_3"}}]}] run function att2:gameplay/equipment/effect/oh/has2_hun1_dar_3
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd2_res1_luc1_str_1"}}]}] run function att2:gameplay/equipment/effect/oh/spd2_res1_luc1_str_1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str2_dar2_hun2"}}]}] run function att2:gameplay/equipment/effect/oh/str2_dar2_hun2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_2"}}}] run function att2:gameplay/equipment/effect/le/str_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res_1"}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/spd_1_hun_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/has1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_dar_1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/spd2_dar_1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has2_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has2_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_dar1_has_1"}}}] run function att2:gameplay/equipment/effect/le/str1_dar1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her1_luc1_hun_2"}}}] run function att2:gameplay/equipment/effect/le/her1_luc1_hun_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has4_dar2_luc_1"}}}] run function att2:gameplay/equipment/effect/le/has4_dar2_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has2_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str2_has2_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res1_spd1_has1"}}}] run function att2:gameplay/equipment/effect/le/res1_spd1_has1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_her1_dar_2"}}}] run function att2:gameplay/equipment/effect/le/str1_her1_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd2_hun1"}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_hun1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_dar3"}}}] run function att2:gameplay/equipment/effect/le/str2_dar3
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has4_res1"}}}] run function att2:gameplay/equipment/effect/le/str2_has4_res1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar2_her_1"}}}] run function att2:gameplay/equipment/effect/le/dar2_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_dar1"}}}] run function att2:gameplay/equipment/effect/le/str1_dar1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd_3"}}}] run function att2:gameplay/equipment/effect/le/str2_spd_3
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd4_her2_str_1"}}}] run function att2:gameplay/equipment/effect/le/spd4_her2_str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd1_luc1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/str1_spd1_luc1_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_res1_hun2"}}}] run function att2:gameplay/equipment/effect/le/str2_res1_hun2
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd1"}}]}] run function att2:gameplay/equipment/effect/oh/spd1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"her1_dar_1"}}]}] run function att2:gameplay/equipment/effect/oh/her1_dar_1
 
 
 
@@ -66,159 +238,104 @@ execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Vas avec 
 
 
 
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Simple et propre.\"}","{\"text\":\"§7Simple and clean.\"}","{\"text\":\"§7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Une petite découverte.\"}","{\"text\":\"§7A little discovery.\"}","{\"text\":\"§7STR§c-1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Vielle et fissurée.\"}","{\"text\":\"§7Old and cracked.\"}","{\"text\":\"§7HAS§c-1 §7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_1_dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Plante les piquets.\"}","{\"text\":\"§7Plant the poles.\"}","{\"text\":\"§7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Propriété de Kevïn.\"}","{\"text\":\"§7Property of Kevïn.\"}","{\"text\":\"§7STR§c-1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_hun_1
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Volontairement égaré...\"}","{\"text\":\"§7Deliberately lost....\"}","{\"text\":\"§7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Entraînes-toi avec moi.\"}","{\"text\":\"§7Practice with me.\"}","{\"text\":\"§7HAS§c-2 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_2_luc_1
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La confiance est un concept idiot.\"}","{\"text\":\"§7Trust is a silly concept.\"}","{\"text\":\"§7HAS§a1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Fléau du mendiant.\"}","{\"text\":\"§7The beggar's plague.\"}","{\"text\":\"§7STR§a1 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Au prix de ta propre intégrité.\"}","{\"text\":\"§7At the cost of your own integrity.\"}","{\"text\":\"§7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ou du moins, jusqu'alors...\"}","{\"text\":\"§7Or at least until then...\"}","{\"text\":\"§7DAR§a1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Élégant mais certes faible.\"}","{\"text\":\"§7Elegant but certainly weak.\"}","{\"text\":\"§7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Elle tiendra \"}","{\"text\":\"§7jusqu'à la fin de la guerre.\"}","{\"text\":\"§7It will last\"}","{\"text\":\"§7until the end of the war.\"}","{\"text\":\"§7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar_1
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Telles vont les choses,\"}","{\"text\":\"§7sans retour possible.\"}","{\"text\":\"§7That is how things are,\"}","{\"text\":\"§7with no return possible.\"}","{\"text\":\"§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd1_dar1_luc1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Décapita, décapite et décapitera.\"}","{\"text\":\"§7Beheaded, beheading and will behead.\"}","{\"text\":\"§7HAS§a3 §7DAR§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has3_dar_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Tu es fort, très fort,\"}","{\"text\":\"§7le plus fort d'entre nous.\"}","{\"text\":\"§7You are strong, very strong,\"}","{\"text\":\"§7the strongest of us.\"}","{\"text\":\"§7STR§a2 §7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Je n'ai pas peur de la cruauté\"}","{\"text\":\"§7ni de la violence gratuite.\"}","{\"text\":\"§7I am not afraid of cruelty\"}","{\"text\":\"§7or gratuitous violence.\"}","{\"text\":\"§7STR§a2 §7HAS§a1 §7SPD§c-1 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has1_spd_1_luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Un souvenir ne protège pas,\"}","{\"text\":\"§7une arme le peut.\"}","{\"text\":\"§7A memory does not protect,\"}","{\"text\":\"§7a weapon can.\"}","{\"text\":\"§7HAS§a1 §7DAR§a3 §7HER§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has1_dar3_her_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Une courte portée garantit\"}","{\"text\":\"§7un coup précis et fatal.\"}","{\"text\":\"§7A short range guarantees\"}","{\"text\":\"§7a precise and fatal blow.\"}","{\"text\":\"§7STR§a1 §7HAS§a1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Grave et déterminée, telle est\"}","{\"text\":\"§7la détermination du guerrier sans maître.\"}","{\"text\":\"§7Serious and determined, such is\"}","{\"text\":\"§7the masterless warrior's determination.\"}","{\"text\":\"§7HER§a1 §7DAR§a1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/her1_dar1_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Celle qui vous sort toujours\"}","{\"text\":\"§7des mauvaises passes.\"}","{\"text\":\"§7The one that always gets\"}","{\"text\":\"§7you out of bad situations.\"}","{\"text\":\"§7SPD§a2 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Guère égarées, certaines choses \"}","{\"text\":\"§7ne trouvent aucun digne maître.\"}","{\"text\":\"§7Not lost, some things\"}","{\"text\":\"§7find no true master.\"}","{\"text\":\"§7STR§a1 §7HER§a2 §7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her2_dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ta force légendaire ne saurait être \"}","{\"text\":\"§7brisée par aucun d'entre nous.\"}","{\"text\":\"§7Your legendary strength cannot\"}","{\"text\":\"§7be broken by any of us.\"}","{\"text\":\"§7RES§a1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/res1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Une simple frappe, une pointe,\"}","{\"text\":\"§7et un empire entier s'effondra !\"}","{\"text\":\"§7A single strike, a peak,\"}","{\"text\":\"§7and an entire empire collapsed!\"}","{\"text\":\"§7HAS§a6 §7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has6_res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Va avec fierté, car toi seule pourrait\"}","{\"text\":\"§7contempler les ténèbres sans fléchir.\"}","{\"text\":\"§7Go with pride, because only you could\"}","{\"text\":\"§7contemplate the darkness without flinching.\"}","{\"text\":\"§7STR§a3 §7SPD§a2 §7HAS§c-1 §7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has_1_dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Insoupçonnée, surprenante, éclatante\"}","{\"text\":\"§7telle est ta morsure de cristal.\"}","{\"text\":\"§7Unsuspected, surprising, dazzling\"}","{\"text\":\"§7such is your crystal bite.\"}","{\"text\":\"§7STR§a2 §7DAR§a2 §7LUC§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_dar2_luc1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Sur ton chemin se dresseront moult\"}","{\"text\":\"§7tyrans,mais aucun ne te résistera !\"}","{\"text\":\"§7On your way will rise many tyrants,\"}","{\"text\":\"§7but none will resist you!\"}","{\"text\":\"§7STR§a1 §7HAS§a3 §7HER§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has3_her1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La lumière n'est qu'illusoire, tout\"}","{\"text\":\"§7n'est que nuit et ne se révèle qu'alors.\"}","{\"text\":\"§7The light is only illusory, everything\"}","{\"text\":\"§7is night and is only revealed then.\"}","{\"text\":\"§7STR§a4 §7SPD§a1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str4_spd1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Porte-nous par ta voix et seuls les\"}","{\"text\":\"§7initiés sauront te reconnaître, Tarja.\"}","{\"text\":\"§7Carry us by your voice and only\"}","{\"text\":\"§7the initiated will recognize you, Tarja.\"}","{\"text\":\"§7STR§a1 §7RES§a1 §7HER§a1 §7DAR§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_res1_her1_dar1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Brille d'une finesse remarquable.\"}","{\"text\":\"§7Shine of remarkable finesse.\"}","{\"text\":\"§7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_1
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Le plus massif qui soit.\"}","{\"text\":\"§7The most massive ever.\"}","{\"text\":\"§7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7N'a jamais trouvé d'utilité.\"}","{\"text\":\"§7Never found any use.\"}","{\"text\":\"§7HAS§c-2 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_2_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Trésor de la nature.\"}","{\"text\":\"§7Treasure of nature.\"}","{\"text\":\"§7STR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Personne ne le saura,\"}","{\"text\":\"§7pas même les grands !\"}","{\"text\":\"§7No one will know,\"}","{\"text\":\"§7not even the older ones!\"}","{\"text\":\"§7SPD§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7D'autres ont une hache de guerre...\"}","{\"text\":\"§7Others have a hatchet...\"}","{\"text\":\"§7DAR§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Sans valeur... pour certain...\"}","{\"text\":\"§7Worthless... for some of us...\"}","{\"text\":\"§7HAS§c-1 §7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_1_dar_1
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Dissuasive\"}","{\"text\":\"§7Deterring\"}","{\"text\":\"§7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Grandis, sans jamais t'abâtardir.\"}","{\"text\":\"§7Grow up, but never spoil yourself.\"}","{\"text\":\"§7HAS§a2 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has2_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Comme terre.\"}","{\"text\":\"§7As soil.\"}","{\"text\":\"§7STR§a1 §7SPD§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_2
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Sans relâche.\"}","{\"text\":\"§7Without respite.\"}","{\"text\":\"§7DAR§a1 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar1_luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Sifflante en filant à travers l'air.\"}","{\"text\":\"§7Whistles as it travels through the air.\"}","{\"text\":\"§7LUC§a1 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/luc1_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Il périt seul, mais mieux qu'un roi.\"}","{\"text\":\"§7He perished alone, but better than a king.\"}","{\"text\":\"§7HAS§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La vérité est tienne, et toi seul\"}","{\"text\":\"§7pourra la faire entendre.\"}","{\"text\":\"§7The truth is yours, and only\"}","{\"text\":\"§7you can make it heard.\"}","{\"text\":\"§7HAS§a2 §7SPD§a1 §7STR§c-1 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has2_spd1_str_1_luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7N'attend qu'un maître pour\"}","{\"text\":\"§7absoudre le mal.\"}","{\"text\":\"§7Only waits for a master\"}","{\"text\":\"§7to absolve evil.\"}","{\"text\":\"§7STR§a2 §7HER§c-1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_her_1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Immense et inébranlable, tu persistes.\"}","{\"text\":\"§7Immense and unshakeable, you persist.\"}","{\"text\":\"§7STR§a2 §7HAS§c-1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has_1_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Solide comme le diamant, elle va.\"}","{\"text\":\"§7Solid as a diamond, she goes.\"}","{\"text\":\"§7STR§a1 §7SPD§a2 §7HUN§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd2_hun_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7A l'impact de ta table.\"}","{\"text\":\"§7At the impact of your face.\"}","{\"text\":\"§7HAS§a2 §7DAR§a1 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has2_dar1_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Telle tu naquis, ma sœur.\"}","{\"text\":\"§7As you were born, my sister.\"}","{\"text\":\"§7STR§a1 §7SPD§a1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Peut-être disparut-elle, mais \"}","{\"text\":\"§7jamais sa générosité ne s'effaça.\"}","{\"text\":\"§7She may have disappeared, but\"}","{\"text\":\"§7her generosity never vanished.\"}","{\"text\":\"§7STR§a2 §7HAS§a2 §7HER§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has2_her_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ô temps lointains, \"}","{\"text\":\"§7Ô insouciance juvénile.\"}","{\"text\":\"§7O distant times,\"}","{\"text\":\"§7O youthful recklessness.\"}","{\"text\":\"§7SPD§a3 §7LUC§a1 §7DAR§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd3_luc1_dar_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Jà à ta naissance, ta volonté brûla\"}","{\"text\":\"§7d'une irrésistible intensité.\"}","{\"text\":\"§7Even at your birth, your will burned\"}","{\"text\":\"§7with an irresistible intensity.\"}","{\"text\":\"§7STR§a3 §7SPD§a2 §7HAS§c-1 §7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has_1_dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Somptueux, rien ne te fit jamais\"}","{\"text\":\"§7perdre de ta puissance.\"}","{\"text\":\"§7Sumptuous, nothing ever made\"}","{\"text\":\"§7you weaken your power.\"}","{\"text\":\"§7STR§a1 §7HAS§a4 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has4_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Jamais tu ne te laveras du sang,\"}","{\"text\":\"§7que tu as versé avec cruauté.\"}","{\"text\":\"§7You will never clean yourself of the blood,\"}","{\"text\":\"§7which you shed with cruelty.\"}","{\"text\":\"§7STR§a2 §7HER§a2 §7DAR§c-1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_her2_dar_1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La force et l'honneur de l'immortel\"}","{\"text\":\"§7ne s'amenuisent guère face aux ténèbres.\"}","{\"text\":\"§7The strength and honor of the immortal hardly\"}","{\"text\":\"§7diminishes in the face of darkness.\"}","{\"text\":\"§7STR§a2 §7HAS§a2 §7HUN§a1 §7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has2_hun1_res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Clair comme obscure, rien ne peut bouleverser\"}","{\"text\":\"§7l'éclat de la plus splendide des nuits.\"}","{\"text\":\"§7Light as dark, nothing can upset\"}","{\"text\":\"§7the brightness of the most splendid night.\"}","{\"text\":\"§7STR§a2 §7SPD§a2 §7HAS§a2 §7LUC§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_has2_luc1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Hurle aux années perdues, ton cri fera\"}","{\"text\":\"§7trembler ciel et cœurs jusqu'aux confins du temps.\"}","{\"text\":\"§7Howl at the lost years, your cry will\"}","{\"text\":\"§7make heaven and hearts tremble to the ends of time.\"}","{\"text\":\"§7STR§a5 §7DAR§a1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str5_dar1_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La nuit est fausse et faible, laisse le jour \"}","{\"text\":\"§7se lover en ta lame et briller de mille éclats...\"}","{\"text\":\"§7The night is wrong and weak, let the day\"}","{\"text\":\"§7roll into your blade and shine with a thousand shines...\"}","{\"text\":\"§7STR§a1 §7SPD§a4 §7HAS§a2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd4_has2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Je boirai ton sang avec joie,\"}","{\"text\":\"§7pour oublier le sang de Beleg.\"}","{\"text\":\"§7I will drink thy blood gladly, that so\"}","{\"text\":\"§7I may forget the blood of Beleg my master.\"}","{\"text\":\"§7STR§a4 §7HAS§a3 §7HER§a2 §7DAR§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str4_has3_her2_dar1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7De manufacture Terän...\"}","{\"text\":\"§7Made by Terän...\"}","{\"text\":\"§7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Si si, c'est la vraie !\"}","{\"text\":\"§7Yes indeed, it's the real one!\"}","{\"text\":\"§7STR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Mais indestructible !\"}","{\"text\":\"§7But indestructible!\"}","{\"text\":\"§7HAS§c-1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has_1_spd_1
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Aucun mystère sur son origine.\"}","{\"text\":\"§7No mystery as to its origin.\"}","{\"text\":\"§7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Un bout de ferraille digne de ce nom.\"}","{\"text\":\"§7A piece of junk worthy of the name.\"}","{\"text\":\"§7HER§c-1 §7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/her_1_dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Mieux vaut être seul que mal accompagné.\"}","{\"text\":\"§7Better alone than in bad company.\"}","{\"text\":\"§7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Toutes les blessures ne guérissent pas.\"}","{\"text\":\"§7Not all wounds heal.\"}","{\"text\":\"§7DAR§c-2 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar_2_luc_1
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Jamais aucun tronc ne te résista.\"}","{\"text\":\"§7No trunk ever resisted you.\"}","{\"text\":\"§7DAR§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Déjà désuète lors de sa conception.\"}","{\"text\":\"§7Already obsolete at the time of its conception.\"}","{\"text\":\"§7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Il faut au moins un bras comme\"}","{\"text\":\"§7ça pour la manier.\"}","{\"text\":\"§7It takes at least an arm\"}","{\"text\":\"§7like that to handle it.\"}","{\"text\":\"§7STR§a1 §7SPD§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_2
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Quoi de plus amusant qu'un\"}","{\"text\":\"§7combat à l'arme.\"}","{\"text\":\"§7What more fun than\"}","{\"text\":\"§7a weapon fight.\"}","{\"text\":\"§7HER§a1 §7STR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/her1_str_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Une bonne excuse pour ne rien faire.\"}","{\"text\":\"§7A good excuse for doing nothing.\"}","{\"text\":\"§7SPD§a2 §7HER§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_her_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Dans quelle fiction crois-tu être ?\"}","{\"text\":\"§7What fiction do you think you're in?\"}","{\"text\":\"§7HAS§a2 §7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has2_dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ne fait jamais défaut à ceux qui\"}","{\"text\":\"§7la manient avec ardeur.\"}","{\"text\":\"§7Never fails those who\"}","{\"text\":\"§7handle it boldly.\"}","{\"text\":\"§7SPD§a2 §7HAS§a1 §7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_has1_dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Derrière cette apparence usée, se\"}","{\"text\":\"§7cache un esprit jeune.\"}","{\"text\":\"§7Behind this worn-out appearance\"}","{\"text\":\"§7lies a youthful spirit.\"}","{\"text\":\"§7HAS§a4 §7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has4_res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Toi l'aînée dont les coups firent\"}","{\"text\":\"§7périr tant de bêtes.\"}","{\"text\":\"§7To you the eldest that killed so\"}","{\"text\":\"§7many beasts with its strokes.\"}","{\"text\":\"§7STR§a2 §7SPD§c-3 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd_3_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Elle est si robuste que même\"}","{\"text\":\"§7la roche ploie sous sa volonté.\"}","{\"text\":\"§7It is so robust that even the rock\"}","{\"text\":\"§7bends under its will.\"}","{\"text\":\"§7STR§a1 §7DAR§a1 §7HAS§c-1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_dar1_has_1_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Filante comme un éclat de\"}","{\"text\":\"§7lumière, mais tout aussi faible.\"}","{\"text\":\"§7Thin as a flash of light,\"}","{\"text\":\"§7but just as weak.\"}","{\"text\":\"§7RES§a1 §7HAS§c-4\"}"]}}}}] run function att2:gameplay/equipment/effect/le/res1_has_4
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La trahison et le meurtre du meilleur,\"}","{\"text\":\"§7ainsi tu sauveras ceux que tu aimes.\"}","{\"text\":\"§7The betrayal and murder of the best,\"}","{\"text\":\"§7so you'll save those you love.\"}","{\"text\":\"§7STR§a1 §7HAS§a1 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has1_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Une véritable épée pour un soldat\"}","{\"text\":\"§7immortel d'Angor.\"}","{\"text\":\"§7A real sword for an immortal\"}","{\"text\":\"§7soldier of Angor.\"}","{\"text\":\"§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd1_dar1_luc1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La seule chose qui te différencie\"}","{\"text\":\"§7d'eux, est ton ascendance...\"}","{\"text\":\"§7The only thing that sets you apart\"}","{\"text\":\"§7from them is your ancestry...\"}","{\"text\":\"§7HER§a2 §7DAR§a1 §7SPD§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/her2_dar1_spd_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ainsi tes impitoyables actions ne te couvrirent\"}","{\"text\":\"§7nullement de la gloire à laquelle tu aspirais tant ?\"}","{\"text\":\"§7So your ruthless deeds did not in any way\"}","{\"text\":\"§7cover you with the glory you so longed for?\"}","{\"text\":\"§7STR§a3 §7SPD§a2 §7HAS§a1 §7LUC§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has1_luc_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Même l'insecte du fracas est pris\"}","{\"text\":\"§7d'effroi à la vue de ton éclat tranchant !\"}","{\"text\":\"§7Even the insect of the crash is frightened\"}","{\"text\":\"§7at the sight of your sharp shine!\"}","{\"text\":\"§7STR§a2 §7HER§a1 §7HUN§a1 §7SPD§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_her1_hun1_spd_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Tout en bas se cache l'inattendu, lové dans une\"}","{\"text\":\"§7brise pétrifiante et brûlant d'une froideur absurde...\"}","{\"text\":\"§7At the very bottom lies the unexpected, curled up in\"}","{\"text\":\"§7a petrifying breeze and burning with absurd coldness...\"}","{\"text\":\"§7HAS§a4 §7DAR§a2 §7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has4_dar2_res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Inconscient au point d'en perdre ta couleur,\"}","{\"text\":\"§7violent au point d'en confondre ami d'ennemi.\"}","{\"text\":\"§7Unconscious to the point of losing your colour,\"}","{\"text\":\"§7violent to the point of confusing friend with enemy.\"}","{\"text\":\"§7SPD§a3 §7HAS§a3\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd3_has3
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Complaire à l'enfant du ténébreux\"}","{\"text\":\"§7et dans ses desseins, le suivre...\"}","{\"text\":\"§7Pleasing the child of darkness\"}","{\"text\":\"§7and in his intentions, following him ...\"}","{\"text\":\"§7STR§a1 §7RES§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_res1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Les bêtes Sécariennes ont jadis\"}","{\"text\":\"§7craint tes griffes autant que ton nom.\"}","{\"text\":\"§7The Secarian beasts once feared\"}","{\"text\":\"§7your claws as much as your name.\"}","{\"text\":\"§7STR§a2 §7HAS§a4\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has4
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Panache et grandiloquence ne sont\"}","{\"text\":\"§7l'apanage que des faquins et faux héros.\"}","{\"text\":\"§7Panache and grandiloquence are\"}","{\"text\":\"§7the prerogative only of fake and false heroes.\"}","{\"text\":\"§7STR§a3 §7SPD§a2 §7HAS§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_has1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Souviens-toi du temps avant le temps,\"}","{\"text\":\"§7et transcendes-toi dans les mains du vrai maître.\"}","{\"text\":\"§7Remember the time before time, and transcend\"}","{\"text\":\"§7yourself through the hands of the true master.\"}","{\"text\":\"§7STR§a1 §7HER§a2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her2
-
-
-
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ecraser les gens en devient un passe-temps.\"}","{\"text\":\"§7Crushing people becomes a hobby.\"}","{\"text\":\"§7STR§a1 §7HAS§a1 §7HUN§a1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has1_hun1_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Le sang appelle le sang !\"}","{\"text\":\"§7Blood calls blood!\"}","{\"text\":\"§7STR§a2 §7HER§a1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_her1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ton esprit guide ma vie.\"}","{\"text\":\"§7Your spirit guides my life.\"}","{\"text\":\"§7STR§a4 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str4_luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Pénétrez jusqu'aux entrailles de vos ennemis.\"}","{\"text\":\"§7Pierce until the bowels of your enemies.\"}","{\"text\":\"§7SPD§a3 §7LUC§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd3_luc1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Des profondeurs de l'univers primordial,\"}","{\"text\":\"§7bouillonne le courroux des anciens.\"}","{\"text\":\"§7From the depths of the primordial universe,\"}","{\"text\":\"§7the wrath of the ancients is boiling.\"}","{\"text\":\"§7STR§a2 §7SPD§a2 §7DAR§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_dar_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Contemplez mon œuvre,\"}","{\"text\":\"§7ô puissants, et désespérez !\"}","{\"text\":\"§7Look on my works, Ye Mighty,\"}","{\"text\":\"§7and despair!\"}","{\"text\":\"§7STR§a3 §7RES§a1 §7HER§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_res1_her_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Cette lame mystérieusement forgée,\"}","{\"text\":\"§7renferme un pouvoir inouï.\"}","{\"text\":\"§7This mysteriously forged blade,\"}","{\"text\":\"§7contains an uncanny power.\"}","{\"text\":\"§7DAR§a4 §7STR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar4_str_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Puisse la lumière sacrée s'abattre inéluctablement\"}","{\"text\":\"§7sur les adorateurs des ténèbres.\"}","{\"text\":\"§7May the sacred light inevitably\"}","{\"text\":\"§7fall on the worshipers of darkness.\"}","{\"text\":\"§7STR§a1 §7SPD§a1 §7LUC§a1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd1_luc1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7C'est plus près que ce que\"}","{\"text\":\"§7tu penses ! (en fait non)\"}","{\"text\":\"§7It's closer than you think!\"}","{\"text\":\"§7(no it isn't)\"}","{\"text\":\"§7HAS§a4 §7SPD§a2 §7HER§a1 §7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has4_spd2_her1_res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Parfois, toute une vie se résume à un geste fou.\"}","{\"text\":\"§7Sometimes your life boils down to one insane move.\"}","{\"text\":\"§7STR§a2 §7RES§a1 §7DAR§c-1 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_res1_dar_1_her_1
-
-
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Rien à ajouter.\"}","{\"text\":\"§7There' s nothing more to say.\"}","{\"text\":\"§7SPD§c-2 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd_2_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Décevant.\"}","{\"text\":\"§7Disappointing.\"}","{\"text\":\"§7STR§c-1 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1_luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Plus personne ne vous dira jamais\"}","{\"text\":\"§7que vous avez les os pointus.\"}","{\"text\":\"§7No one will ever tell you that\"}","{\"text\":\"§7you have pointy bones again.\"}","{\"text\":\"§7DAR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Mieux au sol que dans vos mains.\"}","{\"text\":\"§7Better on the ground than in your hands.\"}","{\"text\":\"§7STR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Fera l'affaire.\"}","{\"text\":\"§7Will do the trick.\"}","{\"text\":\"§7HAS§a1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Pour le plus rapide de mes amis.\"}","{\"text\":\"§7For the fastest of my friends.\"}","{\"text\":\"§7STR§a1 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Comme si tu en possédais la force.\"}","{\"text\":\"§7As if you had its strength.\"}","{\"text\":\"§7STR§a1 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ici, il n'est de plus grande qualité,\"}","{\"text\":\"§7car le froid n'exempte pas de fougue.\"}","{\"text\":\"§7Here, there is no greater quality, because\"}","{\"text\":\"§7the coldness does not exempt from ardour.\"}","{\"text\":\"§7HAS§a2 §7DAR§a2 §7SPD§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has2_dar2_spd_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Aux plus vils comme aux meilleurs.\"}","{\"text\":\"§7To the vilest as well as the best.\"}","{\"text\":\"§7STR§a2 §7DAR§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_dar_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Les poussières de ce qui fut \"}","{\"text\":\"§7jadis un puissant golem.\"}","{\"text\":\"§7The dust of what was once \"}","{\"text\":\"§7a mighty golem.\"}","{\"text\":\"§7SPD§a2 §7HER§a1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_her1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Derrière la beauté se cache\"}","{\"text\":\"§7souvent un pouvoir occulte.\"}","{\"text\":\"§7Behind beauty often\"}","{\"text\":\"§7lies an occult power.\"}","{\"text\":\"§7STR§a2 §7SPD§a1 §7HAS§c-1 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_has_1_luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Hymne de supplication vers la divinité\"}","{\"text\":\"§7incapable de nous protéger de nous-même.\"}","{\"text\":\"§7Hymn of supplication to the divinity\"}","{\"text\":\"§7unable to protect us from ourselves.\"}","{\"text\":\"§7STR§a3 §7HAS§a2 §7LUC§a1 §7SPD§c-4\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_has2_luc1_spd_4
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Nous ne pardonnerons pas.\"}","{\"text\":\"§7Nous n'oublierons pas.\"}","{\"text\":\"§7Forgive, we shall not.\"}","{\"text\":\"§7Forget, we shall not.\"}","{\"text\":\"§7STR§a1 §7HAS§a4 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has4_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Pas de repos pour ceux qui ne savent\"}","{\"text\":\"§7mourir, pas de rêve pour ceux qui ne peuvent dormir.\"}","{\"text\":\"§7No rest for those who cannot die,\"}","{\"text\":\"§7no dreams for those who cannot sleep.\"}","{\"text\":\"§7HAS§a5 §7HER§a2 §7HUN§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has5_her2_hun1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Aude à l'acharnement du premier\"}","{\"text\":\"§7inorganique, hurlement d'un roi.\"}","{\"text\":\"§7Aude to the fierceness of the first\"}","{\"text\":\"§7inorganic, scream of a king.\"}","{\"text\":\"§7STR§a1 §7RES§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_res1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Même la plus stable des choses ne saura jamais\"}","{\"text\":\"§7s'opposer à l'indéfectible dessein d'Entropie.\"}","{\"text\":\"§7Even the most stable of things will never stand\"}","{\"text\":\"§7in the way of Entropy's unwavering purpose.\"}","{\"text\":\"§7STR§a4\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str4
 
 
 
 
 
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Presque génial, mais pas loin\"}","{\"text\":\"§7d'absolument inutile.\"}","{\"text\":\"§7Almost fantastic, but close to\"}","{\"text\":\"§7absolutely useless.\"}","{\"text\":\"§7STR§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Une bonne arme pour un fier garçon.\"}","{\"text\":\"§7A good weapon for a brave boy.\"}","{\"text\":\"§7RES§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/res_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Le fléau des mots et lettres.\"}","{\"text\":\"§7The scourge of words and letters.\"}","{\"text\":\"§7SPD§c-1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd_1_hun_1
 
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Les bêtes te craignent.\"}","{\"text\":\"§7The beasts fear you.\"}","{\"text\":\"§7STR§a1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ne rouille jamais.\"}","{\"text\":\"§7Never rust.\"}","{\"text\":\"§7HAS§a1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/has1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7La fille qui allait plus vite que l'air.\"}","{\"text\":\"§7The girl who was faster than the air.\"}","{\"text\":\"§7SPD§a2 §7DAR§c-1 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd2_dar_1_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Il a toujours été mystérieux...\"}","{\"text\":\"§7He's always been mysterious...\"}","{\"text\":\"§7STR§a1 §7HAS§a2 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_has2_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Un signe de paix sur un outil de guerre.\"}","{\"text\":\"§7A sign of peace on a tool of war.\"}","{\"text\":\"§7STR§a1 §7DAR§a1 §7HAS§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_dar1_has_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Le sage à toujours un second plan.\"}","{\"text\":\"§7The wise man always has a back seat.\"}","{\"text\":\"§7LUC§a1 §7HER§a2 §7HUN§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/luc1_her2_hun_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7A toi, Adrian, guerrier valeureux\"}","{\"text\":\"§7qui ne connaîtra jamais de déclin.\"}","{\"text\":\"§7Here's to you, Adrian, a brave warrior\"}","{\"text\":\"§7who will never go into decline.\"}","{\"text\":\"§7DAR§a2 §7HER§a1 §7LUC§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar2_her1_luc_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Le temps ne fais pas ta décadence,\"}","{\"text\":\"§7mais il te rendra nostalgique.\"}","{\"text\":\"§7Time doesn't make you decadent,\"}","{\"text\":\"§7but it will make you nostalgic.\"}","{\"text\":\"§7STR§a2 §7HAS§a2 §7SPD§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has2_spd_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Par-delà l'horizon nous vient une\"}","{\"text\":\"§7force qu'aucun homme ne sait dompter.\"}","{\"text\":\"§7Beyond the horizon comes a force\"}","{\"text\":\"§7that no man can tame.\"}","{\"text\":\"§7RES§a1 §7SPD§a1 §7HAS§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/res1_spd1_has1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ô douce lumière de l'éveil,\"}","{\"text\":\"§7ô profond espoir inaliénable.\"}","{\"text\":\"§7O sweet light of awakening,\"}","{\"text\":\"§7O deep and inalienable hope.\"}","{\"text\":\"§7STR§a1 §7HER§a1 §7DAR§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_her1_dar_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Né pour régner, tombé pour sauver,\"}","{\"text\":\"§7comme le jour, il revint, et jusqu'au soir, il tint.\"}","{\"text\":\"§7Born to reign, fallen to save, as the day,\"}","{\"text\":\"§7he returned, and till evening he stood.\"}","{\"text\":\"§7STR§a3 §7SPD§a2 §7HUN§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str3_spd2_hun1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Et ne me rappellez pas la maison\"}","{\"text\":\"§7ou je pourrais réaliser où je suis.\"}","{\"text\":\"§7And don't remind me of home or\"}","{\"text\":\"§7I might notice where I am.\"}","{\"text\":\"§7STR§a2 §7DAR§a3\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_dar3
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Contemplatif, quant aux lendemains inaccessibles;\"}","{\"text\":\"§7mais impatient tout autant que désespéré par la fin.\"}","{\"text\":\"§7Contemplative, as for the unattainable tomorrows;\"}","{\"text\":\"§7but impatient as well as desperate for the end.\"}","{\"text\":\"§7STR§a2 §7HAS§a4 §7RES§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_has4_res1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Plus intense qu'un nuage.\"}","{\"text\":\"§7More intense than a cloud.\"}","{\"text\":\"§7DAR§a2 §7HER§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/dar2_her_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Ce n'est pas un instrument de musique,\"}","{\"text\":\"§7et pourant, qu'il me plait de l'entendre.\"}","{\"text\":\"§7It is not a musical instrument,\"}","{\"text\":\"§7and yet, I like to hear it.\"}","{\"text\":\"§7STR§a1 §7DAR§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str1_dar1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Le temps mauvais pèse sur son cœur\"}","{\"text\":\"§7autant que sur sa volonté...\"}","{\"text\":\"§7Bad weather weighs on his heart\"}","{\"text\":\"§7as much as on his will...\"}","{\"text\":\"§7STR§a2 §7SPD§c-3\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd_3
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Le traître ne connais pas de frère,\"}","{\"text\":\"§7il est seul, et c'est là se force.\"}","{\"text\":\"§7The traitor knows no brother,\"}","{\"text\":\"§7he is alone, and that is his strength.\"}","{\"text\":\"§7SPD§a3 §7HER§a1 §7STR§c-1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/spd3_her1_str_1
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Inlassablement, emporte les rêves\"}","{\"text\":\"§7vers des horizonx merveilleux.\"}","{\"text\":\"§7Untiringly, carry dreams\"}","{\"text\":\"§7to wonderful horizons.\"}","{\"text\":\"§7STR§a2 §7RES§a1 §7LUC§a1 §7SPD§c-2\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_res1_luc1_spd_2
-execute as @a[nbt={SelectedItem:{tag:{display:{"Lore":["{\"text\":\"§7Tant espérées, elles annihilent les ténèbres\"}","{\"text\":\"§7si tenaces, sans la moindre difficulté.\"}","{\"text\":\"§7So much hoped for, they annihilate the darkness \"}","{\"text\":\"§7so tenacious, without the slightest difficulty.\"}","{\"text\":\"§7STR§a2 §7SPD§a1 §7HER§a1 §7DAR§a1\"}"]}}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_her1_dar1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str_1"}}}] run function att2:gameplay/equipment/effect/le/str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/has_1_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res_1"}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_spd_1"}}}] run function att2:gameplay/equipment/effect/le/has2_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar1"}}}] run function att2:gameplay/equipment/effect/le/dar1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/hun1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has_2"}}}] run function att2:gameplay/equipment/effect/le/str2_has_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_her1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/spd2_her1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_res1_luc1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_res1_luc1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_has2_spd_2"}}}] run function att2:gameplay/equipment/effect/le/str3_has2_spd_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4_dar2_hun1"}}}] run function att2:gameplay/equipment/effect/le/str4_dar2_hun1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun_1"}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her_1"}}}] run function att2:gameplay/equipment/effect/le/her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has1"}}}] run function att2:gameplay/equipment/effect/le/has1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd_2"}}}] run function att2:gameplay/equipment/effect/le/str2_spd_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_spd1_dar_2"}}}] run function att2:gameplay/equipment/effect/le/has2_spd1_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_her1_has_2"}}}] run function att2:gameplay/equipment/effect/le/str2_her1_has_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_res1_dar2"}}}] run function att2:gameplay/equipment/effect/le/str2_res1_dar2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res_1"}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_2"}}}] run function att2:gameplay/equipment/effect/le/has_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd1"}}}] run function att2:gameplay/equipment/effect/le/spd1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar1_str_1"}}}] run function att2:gameplay/equipment/effect/le/dar1_str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_hun1_her_1"}}}] run function att2:gameplay/equipment/effect/le/has2_hun1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd1_luc1_dar_2"}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_luc1_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4_her1"}}}] run function att2:gameplay/equipment/effect/le/str4_her1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun_1"}}}] run function att2:gameplay/equipment/effect/le/hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_1"}}}] run function att2:gameplay/equipment/effect/le/spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar1"}}}] run function att2:gameplay/equipment/effect/le/dar1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has_3"}}}] run function att2:gameplay/equipment/effect/le/str1_has_3
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_hun2_spd_2"}}}] run function att2:gameplay/equipment/effect/le/has2_hun2_spd_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has3_luc1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has3_luc1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_res1_hun2"}}}] run function att2:gameplay/equipment/effect/le/str3_res1_hun2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"luc_1"}}}] run function att2:gameplay/equipment/effect/le/luc_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_2"}}}] run function att2:gameplay/equipment/effect/le/has_2
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her_1"}}}] run function att2:gameplay/equipment/effect/le/her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1"}}}] run function att2:gameplay/equipment/effect/le/has_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_1"}}}] run function att2:gameplay/equipment/effect/le/spd_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res_1"}}}] run function att2:gameplay/equipment/effect/le/res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_hun_1"}}}] run function att2:gameplay/equipment/effect/le/spd2_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str1_spd_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_str_1"}}}] run function att2:gameplay/equipment/effect/le/has2_str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar1"}}}] run function att2:gameplay/equipment/effect/le/dar1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd1_dar_2"}}}] run function att2:gameplay/equipment/effect/le/spd1_dar_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun1_has_2"}}}] run function att2:gameplay/equipment/effect/le/hun1_has_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her1_luc_1"}}}] run function att2:gameplay/equipment/effect/le/her1_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_her_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has3_spd1_str_1"}}}] run function att2:gameplay/equipment/effect/le/has3_spd1_str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar2_hun1_res_1"}}}] run function att2:gameplay/equipment/effect/le/dar2_hun1_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has_2"}}}] run function att2:gameplay/equipment/effect/le/str2_has_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has1_spd_2"}}}] run function att2:gameplay/equipment/effect/le/str1_has1_spd_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her1_dar1_has_1"}}}] run function att2:gameplay/equipment/effect/le/her1_dar1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_her_1"}}}] run function att2:gameplay/equipment/effect/le/str2_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"res1_str_1"}}}] run function att2:gameplay/equipment/effect/le/res1_str_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_luc1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str1_luc1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"hun2_dar_1"}}}] run function att2:gameplay/equipment/effect/le/hun2_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str2_spd1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_her1_hun1_has_1"}}}] run function att2:gameplay/equipment/effect/le/str1_her1_hun1_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str3_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_res1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/str2_res1_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"her2_dar2_has_1"}}}] run function att2:gameplay/equipment/effect/le/her2_dar2_has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_has4_luc1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_has4_luc1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_res1"}}}] run function att2:gameplay/equipment/effect/le/str3_res1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd2_hun2"}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_hun2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_has2_her1"}}}] run function att2:gameplay/equipment/effect/le/str3_has2_her1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4_luc1"}}}] run function att2:gameplay/equipment/effect/le/str4_luc1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_dar4"}}}] run function att2:gameplay/equipment/effect/le/str2_dar4
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has_1"}}}] run function att2:gameplay/equipment/effect/le/has_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_1"}}}] run function att2:gameplay/equipment/effect/le/spd_1
+
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_res_1"}}}] run function att2:gameplay/equipment/effect/le/str1_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_her_1"}}}] run function att2:gameplay/equipment/effect/le/str2_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"dar2_spd1_has_2"}}}] run function att2:gameplay/equipment/effect/le/dar2_spd1_has_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_res1_luc1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str1_res1_luc1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4_her1_dar1_hun1"}}}] run function att2:gameplay/equipment/effect/le/str4_her1_dar1_hun1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str1_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_hun1_res_1"}}}] run function att2:gameplay/equipment/effect/le/has2_hun1_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_spd2_has_2"}}}] run function att2:gameplay/equipment/effect/le/str2_spd2_has_2
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4_her1_dar1"}}}] run function att2:gameplay/equipment/effect/le/str4_her1_dar1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_luc1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str3_luc1_her_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_has1_hun1_dar_1"}}}] run function att2:gameplay/equipment/effect/le/str2_has1_hun1_dar_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str2_res1_has2_luc_1"}}}] run function att2:gameplay/equipment/effect/le/str2_res1_has2_luc_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_her1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str3_her1_hun_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd1_dar1_hun1"}}}] run function att2:gameplay/equipment/effect/le/str1_spd1_dar1_hun1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str4_has_2_spd_1"}}}] run function att2:gameplay/equipment/effect/le/str4_has_2_spd_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_has3_spd3_dar_3"}}}] run function att2:gameplay/equipment/effect/le/str3_has3_spd3_dar_3

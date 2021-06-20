@@ -21,6 +21,7 @@ function att2:gameplay/boss/owsastr/owlkar/initialize
 function att2:gameplay/boss/owsastr/sastr/initialize
 function att2:gameplay/boss/asunark/asurok/initialize
 function att2:gameplay/boss/asunark/rackham/initialize
+function att2:gameplay/boss/angband/atricanth/initialize
 function att2:gameplay/boss/angband/karon/initialize
 function att2:gameplay/boss/angband/rodmat/initialize
 function att2:gameplay/boss/angband/flamme_noire/initialize
@@ -37,6 +38,8 @@ function att2:gameplay/boss/billgart/ulkoggumi/initialize
 function att2:gameplay/boss/billgart/elevator/initialize
 function att2:gameplay/boss/nojelanth/subjects/initialize
 function att2:gameplay/boss/nojelanth/torkant/initialize
+function att2:gameplay/boss/nojelanth/abmup_nomit/initialize
+function att2:gameplay/boss/nojelanth/hive/initialize
 function att2:gameplay/boss/ithax/guardian/initialize
 function att2:gameplay/boss/silberland/illusions/initialize
 function att2:gameplay/boss/schestrown/shadow/initialize

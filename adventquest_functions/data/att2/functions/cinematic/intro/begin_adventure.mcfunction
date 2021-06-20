@@ -11,7 +11,6 @@ fill 788 80 893 802 84 893 minecraft:glass
 gamerule announceAdvancements false
 scoreboard objectives setdisplay list
 scoreboard objectives setdisplay belowName
-scoreboard objectives setdisplay sidebar DAHAL
 scoreboard players set update INTRO -1
 effect clear @a
 effect give @a minecraft:slow_falling 10 10 true

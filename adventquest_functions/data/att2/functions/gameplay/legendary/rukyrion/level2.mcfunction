@@ -5,9 +5,9 @@
 
 scoreboard players add @s RUK_EFFECT 35
 scoreboard players set @s STR_LVL_LE 6
-scoreboard players set @s TIMER_STR_LE 50
+scoreboard players set @s TIMER_STR_LE 60
 scoreboard players set @s SPD_LVL_LE 6
-scoreboard players set @s TIMER_SPD_LE 50
+scoreboard players set @s TIMER_SPD_LE 60
 scoreboard players remove @s DAHAL 25
 
 # Visual effect

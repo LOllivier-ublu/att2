@@ -12,4 +12,5 @@ scoreboard players set Kum SQ53 0
 execute positioned -1560.5 27.0 -605 run function att2:summon/reg_3/kum
 function att2:gameplay/boss/billgart/kum/summoning_minion3
 function att2:gameplay/boss/billgart/kum/init_bossbar
+effect give 00000000-0000-021c-0000-00000000021c minecraft:instant_health 1 10 true
 function att2:gameplay/checkpoint/billgart/lost0

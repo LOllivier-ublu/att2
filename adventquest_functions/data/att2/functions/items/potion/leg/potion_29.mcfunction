@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Obtain potion Quintessence        				 #
+#Obtain potion Nectar somptueux        			 #
 ##################################################
 
-give @s minecraft:potion{EquipmentType:"misc",Rarity:"leg",display:{Name:"\"§6Quintessence\"","Lore":["{\"text\":\"§7Là où l'harmonie s'opère,\"}","{\"text\":\"§7le grand oeuvre peut s'accomplir.\"}","{\"text\":\"§7Where harmony takes place,\"}","{\"text\":\"§7the great work can be accomplished.\"}","{\"text\":\"§7HAS§a4 §7SPD§a2 §7DAR§a2 §7HUN§a2\"}"]},CustomPotionColor:7012497,CustomPotionEffects:[{Id:6,Amplifier:0,Duration:2,ShowParticles:0b}]} 1
+give @s minecraft:potion{EquipmentType:"potion",Rarity:"leg",Effect:"str3_res1_luc2",display:{Name:"\"§6Nectar somptueux\"","Lore":["{\"text\":\"§7Boisson légendaire royal dont seul les plus\"}","{\"text\":\"§7fortunés ont la chance d'y gouter.\"}","{\"text\":\"§7Legendary royal drink which only\"}","{\"text\":\"§7the wealthy have the chance to taste.\"}","{\"text\":\"§7STR§a3 §7RES§a1 §7LUC§a2\"}"]},CustomPotionColor:16187275,CustomPotionEffects:[{Id:6,Amplifier:7,Duration:0,ShowParticles:0b},{Id:16,Amplifier:0,Duration:1200,ShowParticles:0b},{Id:12,Amplifier:0,Duration:400,ShowParticles:0b}]} 1

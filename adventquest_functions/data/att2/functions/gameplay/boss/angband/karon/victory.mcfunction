@@ -14,3 +14,5 @@ execute in minecraft:the_nether run function att2:physicmod/reg2/angor_palace/bo
 execute in minecraft:the_nether positioned 3539 124 4515 run function att2:sound/door/simple_wooden_door
 
 function att2:gameplay/checkpoint/angband/angor_palace17
+
+advancement grant @a only att2:hunting/karon

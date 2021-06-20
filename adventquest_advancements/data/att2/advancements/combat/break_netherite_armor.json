@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "title": {"translate":"Obsidian armor break"},
+        "description": {"translate":"Destroy any obsidian armor in battle"}
+    },
+    "parent": "att2:combat/break_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+    },
+    "criteria": {
+        "break_netherite_armor": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": {"max": 5},
+                "item": {
+                    "items": [ 
+                    "minecraft:netherite_helmet",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:netherite_leggings",
+                    "minecraft:netherite_boots"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_netherite_armor"
+        ]
+    ]
+}

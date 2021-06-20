@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lime_dye"
+        },
+        "title": {"translate":"Uncommon mending"},
+        "description": {"translate":"Repairs an uncommon item"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mending_com",
+        "rewards": {
+            "function": "att2:advancement/exploit_5",
+            "experience": 500
+    },
+    "criteria": {
+        "mending_unc": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

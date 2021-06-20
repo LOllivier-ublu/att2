@@ -16,3 +16,5 @@ function att2:gameplay/checkpoint/ouranos/tower3_road3
 
 particle minecraft:item minecraft:blue_stained_glass 7293 175 6577 1 7 1 1 500 normal
 particle minecraft:item minecraft:yellow_stained_glass 7293 175 6577 1 7 1 1 200 normal
+
+advancement grant @a only att2:hunting/aozathreyon

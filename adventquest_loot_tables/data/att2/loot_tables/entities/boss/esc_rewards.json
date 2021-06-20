@@ -98,7 +98,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"misc\",Rarity:\"unk\",display:{Name:\"\\\"§d§oEcaille Souveraine du Chaos\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§5§oPrecious!!\\\"}\",\"{\\\"text\\\":\\\"§5Very, VERY, Precious...\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"misc\",Rarity:\"unk\",display:{Name:\"\\\"§d§oEcaille Souveraine du Chaos\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§5§oPrecious!!\\\"}\",\"{\\\"text\\\":\\\"§5Very, VERY, Precious...\\\"}\"]}}"
                         }
                     ]
                 }

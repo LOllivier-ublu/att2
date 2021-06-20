@@ -9,8 +9,8 @@
     },
     "parent": "att2:combat/bow_250",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
-        "experience": 10000
+        "function": "att2:advancement/exploit_25",
+        "experience": 5000
                 },
     "criteria": {
         "bow_1000": {

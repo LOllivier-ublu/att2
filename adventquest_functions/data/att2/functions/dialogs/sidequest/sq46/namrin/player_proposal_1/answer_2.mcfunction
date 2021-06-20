@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon était véritbalement invincible, et affronter des demi-dieu faisait parti de son quotidien.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon était véritablement invincible, et affronter des demi-dieu faisait parti de son quotidien.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
