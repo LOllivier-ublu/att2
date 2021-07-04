@@ -7,7 +7,7 @@
         "description": {"translate":"Buy the Ryliath house expansion"},
         "frame": "goal"
     },
-    "parent": "att2:adventure/ryliath_house",
+    "parent": "att2:adventure/house_ryliath",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 10000

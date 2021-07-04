@@ -17,7 +17,9 @@
             "conditions": {
                 "durability": {"max": 2},
                 "item": {
-                    "item": "minecraft:bow"
+                    "items": [
+                        "minecraft:bow"
+                    ]
                 }
             }
         }

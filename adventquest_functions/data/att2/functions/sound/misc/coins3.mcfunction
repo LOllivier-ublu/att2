@@ -3,4 +3,4 @@
 #Play sound for the falling coins      		 	 #
 ##################################################
 
-playsound piece2 block @a ~ ~ ~ 0.5 0.777
+playsound piece2 block @a ~ ~ ~ 0.25 0.777

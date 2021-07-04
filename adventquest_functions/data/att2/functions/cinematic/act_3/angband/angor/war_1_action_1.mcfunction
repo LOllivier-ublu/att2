@@ -6,7 +6,7 @@
 function att2:physicmod/reg2/angor/barrier1
 tag 00000000-0000-007a-0000-00000000007a remove rukOnBack
 execute unless entity 00000000-0000-007a-0000-00000000007a positioned 3521 40.5 4459 run function att2:summon/pnj/relgon
-execute as 00000000-0000-007a-0000-00000000007a run data merge entity @s {HandItems:[{id:"minecraft:diamond_sword",tag:{Damage:1560s},Count:1},{}]}
+execute as 00000000-0000-007a-0000-00000000007a run data merge entity @s {HandItems:[{id:"minecraft:diamond_sword",tag:{CustomModelData:10000003},Count:1},{}]}
 
 #TP NAMRIN
 tp 00000000-0000-006a-0000-00000000006a 3519 40.5 4457 -18 -12
