@@ -29,6 +29,7 @@ scoreboard objectives add statPHANTOKILLED minecraft.killed:minecraft.phantom
 scoreboard objectives add statWOLFKILLED minecraft.killed:minecraft.wolf
 scoreboard objectives add statBEARKILLED minecraft.killed:minecraft.polar_bear
 scoreboard objectives add statBEEKILLED minecraft.killed:minecraft.bee
+scoreboard objectives add statVEXKILLED minecraft.killed:minecraft.vex
 scoreboard objectives add statHOGLINKILLED minecraft.killed:minecraft.hoglin
 scoreboard objectives add statPILLAKILLED minecraft.killed:minecraft.pillager
 
@@ -127,6 +128,7 @@ scoreboard players set @s statPHANTOKILLED 0
 scoreboard players set @s statWOLFKILLED 0
 scoreboard players set @s statBEARKILLED 0
 scoreboard players set @s statBEEKILLED 0
+scoreboard players set @s statVEXKILLED 0
 scoreboard players set @s statHOGLINKILLED 0
 scoreboard players set @s statPILLAKILLED 0
 

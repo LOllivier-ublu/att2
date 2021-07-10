@@ -567,9 +567,6 @@ advancement grant @a[scores={MENDING=5..}] only att2:treasure/mending_5
 advancement grant @a[scores={MENDING=25..}] only att2:treasure/mending_25
 advancement grant @a[scores={MENDING=100..}] only att2:treasure/mending_100
 
-advancement grant @a[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§7Epic sparkle\"}\"}"]}}}]}] only att2:treasure/sparkle_epi
-advancement grant @a[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§7Legendary sparkle\"}\"}"]}}}]}] only att2:treasure/sparkle_leg
-
 
 # Progress
 
