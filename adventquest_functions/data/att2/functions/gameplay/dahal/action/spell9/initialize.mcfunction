@@ -18,7 +18,7 @@ scoreboard players set cap3 SPELL9_LVL 12
 scoreboard players set cap4 SPELL9_LVL 35
 scoreboard players set cap5 SPELL9_LVL 70
 scoreboard players set cap6 SPELL9_LVL 135
-scoreboard players set cap9 SPELL9_LVL 220
+scoreboard players set cap7 SPELL9_LVL 220
 scoreboard players set cap8 SPELL9_LVL 350
 scoreboard players set cap9 SPELL9_LVL 550
 scoreboard players set cap10 SPELL9_LVL 950
