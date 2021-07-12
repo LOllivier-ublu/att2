@@ -10,4 +10,4 @@ scoreboard players set @s IF_MAGASIN 12
 scoreboard players set @s IF_COOLDOWN 0
 scoreboard players set @s SHOOTING_IF 0
 
-execute unless entity @e[type=armor_stand,tag=InterfacerHolder] run function att2:gameplay/legendary/interfacer/summon_holder
+#execute unless entity @e[type=armor_stand,tag=InterfacerHolder] run function att2:gameplay/legendary/interfacer/summon_holder

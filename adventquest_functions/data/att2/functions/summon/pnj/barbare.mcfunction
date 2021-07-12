@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombified_piglin ~ ~ ~ {Rotation:[0.0f,10.0f],UUID:[I;0,4170,0,4170],Tags:[PNJ],NoAI:1,Invulnerable:1,CustomName:"\"BARBARE\"",CustomNameVisible:0,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attackDamage,Base:0.0},{Name:generic.maxHealth,Base:1.0}],Health:1,HandItems:[{id:"minecraft:wooden_sword",Count:1},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:6202454}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:6202454}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:6202454}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:[I;-1815698322,-1557576803,-1445788368,299149132],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRiMmI1ZWExZTgwOTA3MmVmOWI2YjY5ZTcxZGM3ZDA2OWViYmY0NzIxOTE5YTk5MmU0YmY3NDJjZDRlYmI3YiJ9fX0="}]}}}}]}
