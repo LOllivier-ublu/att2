@@ -1,5 +1,5 @@
 {
   "function": "set_damage",
-  "damage": 0.50,
+  "damage": 1.00,
   "add": true
 }
