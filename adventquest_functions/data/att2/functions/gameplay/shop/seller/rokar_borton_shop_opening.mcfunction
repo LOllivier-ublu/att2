@@ -13,6 +13,9 @@ function att2:dialogs/gameplay/shop/items_selled_list/weapon/unc/golden_sword_14
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/rar/golden_shovel_149
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/rar/golden_pickaxe_146
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi/golden_axe_152
+function att2:dialogs/gameplay/shop/items_selled_list/weapon/unc/bow_40
+function att2:dialogs/gameplay/shop/items_selled_list/weapon/rar/bow_44
+function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi/bow_47
 
 function att2:dialogs/gameplay/shop/items_selled_list/armor_list
 function att2:dialogs/gameplay/shop/items_selled_list/armor/com/golden_helmet_131
