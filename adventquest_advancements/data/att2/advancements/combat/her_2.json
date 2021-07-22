@@ -12,18 +12,8 @@
         "experience": 10
                 },
     "criteria": {
-        "regen": {
-            "trigger": "minecraft:effects_changed",
-            "conditions": {
-                "effects": {
-                    "minecraft:regeneration": {
-                        "amplifier": {
-                            "min": 0,
-                            "max": 3
-                        }
-                    }
-                }
-            }
+        "her_2": {
+            "trigger": "minecraft:impossible"
         }
     }
 }

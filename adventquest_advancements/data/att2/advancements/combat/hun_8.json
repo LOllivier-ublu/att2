@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {"translate":"Buffet dinner"},
+        "description": {"translate":"Binge eating disorder"}
+    },
+    "parent": "att2:adventure/hun_4",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "hun_8": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

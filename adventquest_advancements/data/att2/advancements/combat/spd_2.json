@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Speedy!"},
+        "description": {"translate":"Go to"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 25
+                },
+    "criteria": {
+        "spd_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

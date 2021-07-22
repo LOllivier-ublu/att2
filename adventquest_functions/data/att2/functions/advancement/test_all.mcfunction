@@ -159,6 +159,47 @@ advancement grant @a[scores={statCROSSBOW=100..}] only att2:combat/crossbow_100
 advancement grant @a[scores={statCROSSBOW=500..}] only att2:combat/crossbow_500
 advancement grant @a[scores={statCROSSBOW=1000..}] only att2:combat/crossbow_1000
 
+advancement grant @a[scores={STR_TOT=2..}] only att2:combat/str_2
+advancement grant @a[scores={STR_TOT=6..}] only att2:combat/str_6
+advancement grant @a[scores={STR_TOT=10..}] only att2:combat/str_10
+advancement grant @a[scores={STR_TOT=16..}] only att2:combat/str_16
+advancement grant @a[scores={STR_TOT=25..}] only att2:combat/str_25
+
+advancement grant @a[scores={SPD_TOT=2..}] only att2:combat/spd_2
+advancement grant @a[scores={SPD_TOT=6..}] only att2:combat/spd_6
+advancement grant @a[scores={SPD_TOT=12..}] only att2:combat/spd_12
+advancement grant @a[scores={SPD_TOT=20..}] only att2:combat/spd_20
+
+advancement grant @a[scores={HAS_TOT=2..}] only att2:combat/has_2
+advancement grant @a[scores={HAS_TOT=6..}] only att2:combat/has_6
+advancement grant @a[scores={HAS_TOT=12..}] only att2:combat/has_12
+advancement grant @a[scores={HAS_TOT=20..}] only att2:combat/has_20
+
+advancement grant @a[scores={RES_TOT=2..}] only att2:combat/res_2
+advancement grant @a[scores={RES_TOT=4..}] only att2:combat/res_4
+advancement grant @a[scores={RES_TOT=6..}] only att2:combat/res_6
+advancement grant @a[scores={RES_TOT=8..}] only att2:combat/res_8
+
+advancement grant @a[scores={HER_TOT=2..}] only att2:combat/her_2
+advancement grant @a[scores={HER_TOT=5..}] only att2:combat/her_5
+advancement grant @a[scores={HER_TOT=10..}] only att2:combat/her_10
+advancement grant @a[scores={HER_TOT=16..}] only att2:combat/her_16
+
+advancement grant @a[scores={DAR_TOT=2..}] only att2:combat/dar_2
+advancement grant @a[scores={DAR_TOT=6..}] only att2:combat/dar_6
+advancement grant @a[scores={DAR_TOT=12..}] only att2:combat/dar_12
+advancement grant @a[scores={DAR_TOT=20..}] only att2:combat/dar_20
+
+advancement grant @a[scores={HUN_TOT=2..}] only att2:combat/hun_2
+advancement grant @a[scores={HUN_TOT=4..}] only att2:combat/hun_4
+advancement grant @a[scores={HUN_TOT=8..}] only att2:combat/hun_8
+advancement grant @a[scores={HUN_TOT=12..}] only att2:combat/hun_12
+
+advancement grant @a[scores={LUC_TOT=2..}] only att2:combat/luc_2
+advancement grant @a[scores={LUC_TOT=4..}] only att2:combat/luc_4
+advancement grant @a[scores={LUC_TOT=10..}] only att2:combat/luc_10
+advancement grant @a[scores={LUC_TOT=18..}] only att2:combat/luc_18
+
 
 # Weapons
 

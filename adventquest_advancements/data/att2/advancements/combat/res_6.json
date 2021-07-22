@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:turtle_helmet"
+        },
+        "title": {"translate":"Steel skin"},
+        "description": {"translate":"The finest steel has to go through the hottest fire"}
+    },
+    "parent": "att2:combat/res_4",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "res_6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

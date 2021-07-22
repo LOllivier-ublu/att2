@@ -12,18 +12,8 @@
         "experience": 10
                 },
     "criteria": {
-        "dexterity": {
-            "trigger": "minecraft:effects_changed",
-            "conditions": {
-                "effects": {
-                    "minecraft:haste": {
-                        "amplifier": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                }
-            }
+        "has_2": {
+            "trigger": "minecraft:impossible"
         }
     }
 }

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:turtle_helmet"
+        },
+        "title": {"translate":"Toughness"},
+        "description": {"translate":"When you are going through hell, keep going"},
+		"frame": "goal"
+    },
+    "parent": "att2:combat/res_6",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "res_8": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

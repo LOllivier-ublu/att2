@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {"translate":"Treatment!"},
+        "description": {"translate":"Healed his wounds"},
+		"frame": "goal"
+    },
+    "parent": "att2:adventure/her_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "her_16": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

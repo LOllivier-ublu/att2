@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Badass!"},
+        "description": {"translate":"Biggest badass in the Tellurön"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/str_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 10000
+                },
+    "criteria": {
+        "str_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

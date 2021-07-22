@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Successfulness!"},
+        "description": {"translate":"The luck of the devil"}
+    },
+    "parent": "att2:combat/luc_4",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "luc_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

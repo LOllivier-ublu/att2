@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {"translate":"Medic!"},
+        "description": {"translate":"Use powerful regenerating magic"}
+    },
+    "parent": "att2:adventure/her_2",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 100
+                },
+    "criteria": {
+        "her_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

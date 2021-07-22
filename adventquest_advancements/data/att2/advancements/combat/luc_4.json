@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Fortunate!"},
+        "description": {"translate":"Taking actions to maximise your chances"}
+    },
+    "parent": "att2:combat/luc_2",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "luc_4": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

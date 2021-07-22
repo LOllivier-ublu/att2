@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Barbarian!"},
+        "description": {"translate":"Strong against strong"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/str_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "str_16": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

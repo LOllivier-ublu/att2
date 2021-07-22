@@ -8,7 +8,7 @@ gamerule announceAdvancements true
 scoreboard objectives add EXPLOIT dummy
 scoreboard players set Points_completion EXPLOIT 100
 scoreboard players set Total_objectives EXPLOIT 102
-scoreboard players set Total_point EXPLOIT 7750
+scoreboard players set Total_point EXPLOIT 7944
 
 scoreboard objectives add statMOBSKILLED minecraft.custom:minecraft.mob_kills
 scoreboard objectives add statZOMBIEKILLED minecraft.killed:minecraft.zombie

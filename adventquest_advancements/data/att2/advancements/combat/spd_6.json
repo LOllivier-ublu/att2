@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Feather!"},
+        "description": {"translate":"As light as a feather"}
+    },
+    "parent": "att2:combat/spd_2",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 100
+                },
+    "criteria": {
+        "spd_6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

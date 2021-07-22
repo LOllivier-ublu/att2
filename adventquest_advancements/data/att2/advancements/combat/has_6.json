@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Fluency!"},
+        "description": {"translate":"Like a cat"}
+    },
+    "parent": "att2:combat/has_2",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "has_6": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

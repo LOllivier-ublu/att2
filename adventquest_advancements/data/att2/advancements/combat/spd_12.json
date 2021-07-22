@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Fast and Furious!"},
+        "description": {"translate":"Still a buster"}
+    },
+    "parent": "att2:combat/spd_6",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "spd_12": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

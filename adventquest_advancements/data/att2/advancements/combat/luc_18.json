@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Baraka!"},
+        "description": {"translate":"When you are going through hell, keep going"},
+		"frame": "goal"
+    },
+    "parent": "att2:combat/luc_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "luc_18": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

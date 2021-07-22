@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "title": {"translate":"Hysteria!"},
+        "description": {"translate":"Give me your heart and your soul"},
+		"frame": "goal"
+    },
+    "parent": "att2:combat/has_12",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "has_20": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

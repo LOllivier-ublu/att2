@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:turtle_helmet"
+        },
+        "title": {"translate":"Shielding"},
+        "description": {"translate":"Become resistant"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 50
+                },
+    "criteria": {
+        "res_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

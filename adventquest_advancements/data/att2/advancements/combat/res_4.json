@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:turtle_helmet"
+        },
+        "title": {"translate":"Tank"},
+        "description": {"translate":"If the tanks succeed, then victory follows"}
+    },
+    "parent": "att2:combat/res_2",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "res_4": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

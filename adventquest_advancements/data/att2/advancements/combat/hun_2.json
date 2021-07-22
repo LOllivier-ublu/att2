@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {"translate":"Quick meal"},
+        "description": {"translate":"Saved from starvation"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "hun_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

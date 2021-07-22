@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Hulk!"},
+        "description": {"translate":"Leave me alone"}
+    },
+    "parent": "att2:combat/str_6",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "str_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

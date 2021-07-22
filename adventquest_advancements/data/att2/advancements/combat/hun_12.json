@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {"translate":"Great feast"},
+        "description": {"translate":"Fill your belly"},
+		"frame": "goal"
+    },
+    "parent": "att2:adventure/hun_8",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "hun_12": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
