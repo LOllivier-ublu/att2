@@ -25,6 +25,8 @@ execute if score Kortaek HOUSE matches 2 run advancement grant @a only att2:adve
 execute if score Ryliath HOUSE matches 1.. if score Meleim HOUSE matches 1.. if score Eolorion HOUSE matches 1.. if score Kortaek HOUSE matches 1.. run advancement grant @a only att2:adventure/homeowner
 execute if score Ryliath HOUSE matches 2.. if score Meleim HOUSE matches 2.. if score Eolorion HOUSE matches 2.. if score Kortaek HOUSE matches 2.. run advancement grant @a only att2:adventure/conservative
 
+advancement grant @a[scores={statENDERCHEST=1..}] only att2:adventure/ether_chest
+
 advancement grant @a[nbt={Inventory:[{tag:{Rarity:"com"}}]}] only att2:adventure/com
 advancement grant @a[nbt={Inventory:[{tag:{Rarity:"unc"}}]}] only att2:adventure/unc
 advancement grant @a[nbt={Inventory:[{tag:{Rarity:"rar"}}]}] only att2:adventure/rar
@@ -43,6 +45,7 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"ultima"}}]}] only att2:a
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"rukyrion"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"bloodeater"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"blindshield"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"interfacer"}}]}] only att2:adventure/myt
 
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"blindshield"}}}] only att2:adventure/aveugle_rempart
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"kinuil"}}}] only att2:adventure/kinuil
@@ -565,6 +568,7 @@ advancement grant @a[nbt={Inventory:[{tag:{Rarity:"unk"}}]}] only att2:treasure/
 advancement grant @a[scores={ESC=10..}] only att2:treasure/esc_10
 advancement grant @a[scores={ESC=25..}] only att2:treasure/esc_25
 advancement grant @a[scores={ESC=100..}] only att2:treasure/esc_100
+advancement grant @a[scores={ESC=500..}] only att2:treasure/esc_500
 
 execute if score Caught_total FAIRY matches 1.. run advancement grant @a only att2:treasure/fairy_1
 execute if score Caught_total FAIRY matches 5.. run advancement grant @a only att2:treasure/fairy_5

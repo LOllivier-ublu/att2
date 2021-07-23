@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_chest"
+        },
+        "title": {"translate":"Ether Chest"},
+        "description": {"translate":"Interact with an enderchest for the first time"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "ether_chest": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

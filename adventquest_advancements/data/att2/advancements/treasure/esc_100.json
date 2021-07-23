@@ -9,7 +9,7 @@
     },
     "parent": "att2:treasure/esc_25",
         "rewards": {
-            "function": "att2:advancement/exploit_50",
+            "function": "att2:advancement/exploit_30",
             "experience": 10000
     },
     "criteria": {

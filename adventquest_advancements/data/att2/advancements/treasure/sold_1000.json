@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Welfare economics"},
         "description": {"translate":"Sell 1000 items from a buyer"},
-        "frame": "challenge"
+        "frame": "goal"
     },
     "parent": "att2:treasure/sold_250",
         "rewards": {

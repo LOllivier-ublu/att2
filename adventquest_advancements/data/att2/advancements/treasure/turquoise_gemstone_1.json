@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "title": {"translate":"Asunark Gemstone"},
+        "description": {"translate":"Find an Asunark gemstone"}
+    },
+    "parent": "att2:treasure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "turquoise_gemstone_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_crystals",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
