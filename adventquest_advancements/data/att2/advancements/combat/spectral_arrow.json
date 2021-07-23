@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "title": {"translate":"Farsighted"},
+        "description": {"translate":"Stack 64 spectral arrows"}
+    },
+    "parent": "att2:combat/arrow",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "spectral_arrow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spectral_arrow",
+                        "count": {
+                            "min": 64,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

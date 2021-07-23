@@ -1,25 +1,25 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:arrow"
+            "item": "minecraft:spectral_arrow"
         },
-        "title": {"translate":"Take Aim"},
-        "description": {"translate":"Shoot something with an arrow"}
+        "title": {"translate":"Targeting"},
+        "description": {"translate":"Shoot something with a spectral arrow"}
     },
-    "parent": "att2:combat/root",
+    "parent": "att2:combat/shoot_arrow",
     "rewards": {
-        "function": "att2:advancement/exploit_1",
-        "experience": 10
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
                 },
     "criteria": {
-        "shoot_arrow": {
+        "shoot_spectral_arrow": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
                     "type": {
                         "is_projectile": true,
                         "direct_entity": {
-                            "type": "minecraft:arrow"
+                            "type": "minecraft:spectral_arrow"
                         }
                     }
                 }

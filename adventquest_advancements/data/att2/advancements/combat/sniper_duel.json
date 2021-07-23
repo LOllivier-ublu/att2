@@ -4,7 +4,7 @@
             "item": "minecraft:arrow"
         },
         "title": {"translate":"Sniper duel"},
-        "description": {"translate":"Kill a skeleton with an arrow from more than 50 meters"},
+        "description": {"translate":"Kill a skeleton with an arrow from more than 40 meters"},
         "frame": "challenge"
     },
     "parent": "att2:combat/shoot_arrow",
@@ -23,7 +23,7 @@
                     "type": "minecraft:skeleton",
                     "distance": {
                         "horizontal": {
-                            "min": 50
+                            "min": 40
                         }
                     }
                 }

@@ -4,7 +4,7 @@
             "item": "minecraft:bow"
         },
         "title": {"translate":"Anti-Air"},
-        "description": {"translate":"Shoot down a phantom with a bow"},
+        "description": {"translate":"Shoot down a phantom with a bow or crossbow"},
         "frame": "challenge"
     },
     "parent": "att2:combat/shoot_arrow",

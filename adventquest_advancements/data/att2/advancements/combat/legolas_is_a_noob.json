@@ -4,7 +4,7 @@
             "item": "minecraft:arrow"
         },
         "title": {"translate":"Legolas Is A Noob"},
-        "description": {"translate":"Kill all types of animals and monsters with a bow"},
+        "description": {"translate":"Kill all types of animals and monsters with an arrow"},
         "frame": "challenge"
     },
     "parent": "att2:combat/hunter",
