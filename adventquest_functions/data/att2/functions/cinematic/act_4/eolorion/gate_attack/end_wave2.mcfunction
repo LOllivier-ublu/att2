@@ -10,5 +10,6 @@ function att2:cinematic/act_4/eolorion/gate_attack/gate_opening
 function att2:gameplay/reputation/add_8
 scoreboard players set Real0 TIMER 1550
 scoreboard players set Wave EOLORION 4
+scoreboard players set @s MUSIC_BOSS 0
 scoreboard players set captain_PNJ DIALOG 5
 scoreboard players set aramis_PNJ DIALOG 4
