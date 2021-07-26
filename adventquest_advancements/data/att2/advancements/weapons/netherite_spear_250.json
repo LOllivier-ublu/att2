@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_hoe"
+            "item": "minecraft:netherite_hoe"
         },
         "title": {"translate":"Obsidian spear hit"},
         "description": {"translate":"Strike 250 times with an obsidian spear"},

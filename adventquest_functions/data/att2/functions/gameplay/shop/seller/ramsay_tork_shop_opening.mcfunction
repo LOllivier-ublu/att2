@@ -9,6 +9,8 @@ function att2:dialogs/gameplay/shop/items_selled_list/weapon_list
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/com/golden_shovel_133
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/unc/golden_pickaxe_138
 function att2:dialogs/gameplay/shop/items_selled_list/weapon/rar/golden_sword_151
+function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi/golden_hoe_324
+function att2:dialogs/gameplay/shop/items_selled_list/weapon/leg/golden_axe_156
 
 function att2:dialogs/gameplay/shop/items_selled_list/armor_list
 function att2:dialogs/gameplay/shop/items_selled_list/armor/com/golden_leggings_135
@@ -16,3 +18,4 @@ function att2:dialogs/gameplay/shop/items_selled_list/armor/unc/golden_helmet_13
 function att2:dialogs/gameplay/shop/items_selled_list/armor/unc/golden_boots_146
 function att2:dialogs/gameplay/shop/items_selled_list/armor/rar/golden_chestplate_149
 function att2:dialogs/gameplay/shop/items_selled_list/armor/epi/golden_helmet_155
+function att2:dialogs/gameplay/shop/items_selled_list/armor/leg/golden_boots_162

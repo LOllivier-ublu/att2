@@ -6,9 +6,9 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Semeurs de troubles : ","color":"green","extra":[{"text":"Regrettable pour toi, abruti !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Semeurs de troubles : ","color":"green","extra":[{"text":"Regrettable pour toi, abruti !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"Regrettable for you, asshole!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"Regrettable for you, asshole!","color":"dark_aqua"}]}
