@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:rabbit_foot"
+            "item": "minecraft:gunpowder"
         },
         "title": {"translate":"Frenzy!"},
         "description": {"translate":"Faster than lightning"}

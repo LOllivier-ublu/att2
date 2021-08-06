@@ -4,7 +4,7 @@
 #############################################################
 
 # Process in game only CLASSLEVEL 0-21
-# Process in game only asunarkstone CLASSLEVEL 3-4
+# Process in game only asunarkstone CLASSLEVEL 5-8 + 17-21
 execute as @s[tag=Reg1,scores={CLASSLEVEL=0..3}] run function att2:gameplay/leveling/drop/reg1/p1
 execute as @s[tag=Reg1,tag=asunarkstone,scores={CLASSLEVEL=1..3}] run function att2:gameplay/leveling/drop/reg1/p1_asunarkstone
 execute as @s[tag=Reg1,scores={CLASSLEVEL=4}] run function att2:gameplay/leveling/drop/reg1/p2

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:rabbit_foot"
+            "item": "minecraft:gunpowder"
         },
         "title": {"translate":"Dexterity!"},
         "description": {"translate":"Accumulate haste"}
