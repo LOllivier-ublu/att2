@@ -8,8 +8,6 @@ execute if score Real0 TIMER matches 10..150 as 00000000-0000-094a-0000-00000000
 execute if score Real0 TIMER matches 20 run function att2:dialogs/mainquest/act_4/ch3_ithil_4
 execute if score Real0 TIMER matches 100 run function att2:cinematic/act_4/ryliath/ithil_2_action_1
 execute if score Real0 TIMER matches 200 as 00000000-0000-094a-0000-00000000094a at @s run tp @s ~ ~ ~ 180 0
-execute if score Real0 TIMER matches 200 run function att2:dialogs/title/a4_ch4_title1
-execute if score Real0 TIMER matches 200 run function att2:dialogs/title/a4_ch4_subtitle1
 execute if score Real0 TIMER matches 201 run scoreboard players set Mainquest SIDEQUEST 181
 
 #=======================#
