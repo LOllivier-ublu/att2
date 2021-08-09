@@ -14,9 +14,6 @@ execute if score Real0 TIMER matches 650 run function att2:dialogs/mainquest/act
 execute if score Real0 TIMER matches 850 run function att2:dialogs/mainquest/act_4/ch5_player_6
 execute if score Real0 TIMER matches 1000 run function att2:dialogs/mainquest/act_4/ch5_etotsira_4
 execute if score Real0 TIMER matches 1000 run function att2:physicmod/reg1/earndhel/etotsira_doorhouse_open
-execute if score Real0 TIMER matches 1100 run scoreboard players add @a SPELL20_LVL 1
-execute if score Real0 TIMER matches 1100 run scoreboard players add @a SPELL20_CAP 1
-execute if score Real0 TIMER matches 1100 as @a run function att2:gameplay/dahal/action/spell20/lvlup
 execute if score Real0 TIMER matches 1101 run scoreboard players set Mainquest SIDEQUEST 221
 
 #=======================#
