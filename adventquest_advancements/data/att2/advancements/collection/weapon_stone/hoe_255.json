@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"Défectueuse"},
+        "description": {"translate":"Weapon that has aged far too much..."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone/hoe_254",
+    "criteria": {
+        "wooden_hoe_255": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§7Défectueuse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Arme qui a bien trop vieilli...\\\"}\",\"{\\\"text\\\":\\\"§7Weapon that has aged far too much...\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

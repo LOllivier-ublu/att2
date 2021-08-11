@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:16749568}"
+        },
+        "title": {"translate":"Jus d'orange"},
+        "description": {"translate":"Sweet but sour."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_10",
+    "criteria": {
+        "potion_48": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Jus d'orange\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sucré mais aigre.\\\"}\",\"{\\\"text\\\":\\\"§7Sweet but sour.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§a1 §7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {"translate":"Cœur de Myla"},
+        "description": {"translate":"That is how things are, with no return possible."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_iron/axe_73",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "iron_axe_80": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_axe"],
+                    "nbt": "{display:{Name:\"\\\"§9Cœur de Myla\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telles vont les choses,\\\"}\",\"{\\\"text\\\":\\\"§7sans retour possible.\\\"}\",\"{\\\"text\\\":\\\"§7That is how things are,\\\"}\",\"{\\\"text\\\":\\\"§7with no return possible.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

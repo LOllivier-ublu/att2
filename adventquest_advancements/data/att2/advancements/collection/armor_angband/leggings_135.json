@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_leggings"
+        },
+        "title": {"translate":"Jambière de l'Eternän"},
+        "description": {"translate":"A little too long...."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_angband",
+    "criteria": {
+        "golden_leggings_135": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§7Jambière de l'Eternän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un peu trop grandes...\\\"}\",\"{\\\"text\\\":\\\"§7A little too long....\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

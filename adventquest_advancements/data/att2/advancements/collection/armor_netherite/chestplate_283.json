@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "title": {"translate":"Résiliente broigne"},
+        "description": {"translate":"Strengthen the body, preserve your mind."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_netherite/chestplate_276",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "netherite_chestplate_283": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§9Résiliente broigne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fortifie le corps, garde ton esprit.\\\"}\",\"{\\\"text\\\":\\\"§7Strengthen the body, preserve your mind.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

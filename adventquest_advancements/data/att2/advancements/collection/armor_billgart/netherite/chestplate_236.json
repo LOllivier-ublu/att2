@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "title": {"translate":"Cœur d'or"},
+        "description": {"translate":"The chosen one of this world, to whom time and space obey, knows no limit to his will."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_billgart/netherite/chestplate_241",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "netherite_chestplate_236": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§5Cœur d'or\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aL'élu de ce monde, à qui obéissent temps et\\\"}\",\"{\\\"text\\\":\\\"§aespace, ne connaît aucune limite à sa volonté.\\\"}\",\"{\\\"text\\\":\\\"§aThe chosen one of this world, to whom\\\"}\",\"{\\\"text\\\":\\\"§atime and space obey, knows no limit to his will.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§c-3\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {"translate":"Gourdin"},
+        "description": {"translate":"Throw it in the fire."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone/pickaxe_3",
+    "criteria": {
+        "wooden_pickaxe_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§7Gourdin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A jeter au feu.\\\"}\",\"{\\\"text\\\":\\\"§7Throw it in the fire.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

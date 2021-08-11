@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "title": {"translate":"Diamant-chardon"},
+        "description": {"translate":"Very pungent."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_diamond/hoe_271",
+    "criteria": {
+        "diamond_hoe_272": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§2Diamant-chardon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Très piquante.\\\"}\",\"{\\\"text\\\":\\\"§7Very pungent.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

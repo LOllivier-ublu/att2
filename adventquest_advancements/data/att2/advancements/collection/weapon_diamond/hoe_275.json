@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "title": {"translate":"Faîte des jeux"},
+        "description": {"translate":"Faster, higher, stronger!"},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_diamond/hoe_274",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_hoe_275": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§9Faîte des jeux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus vite, plus haut, plus fort !\\\"}\",\"{\\\"text\\\":\\\"§7Faster, higher, stronger!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

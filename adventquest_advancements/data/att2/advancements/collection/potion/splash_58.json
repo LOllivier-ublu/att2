@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:1920810}"
+        },
+        "title": {"translate":"Gaz nauséabond"},
+        "description": {"translate":"Creates a sickening cloud causing nausea."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/splash_38",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "splash_potion_58": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:splash_potion"],
+                    "nbt": "{display:{Name:\"\\\"§5Gaz nauséabond\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Crée un nuage trouble écœurant\\\"}\",\"{\\\"text\\\":\\\"§7et causant ainsi des nausées.\\\"}\",\"{\\\"text\\\":\\\"§7Creates a sickening cloud causing nausea.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

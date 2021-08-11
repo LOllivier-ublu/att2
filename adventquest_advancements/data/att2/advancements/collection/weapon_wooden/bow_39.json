@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Furtif"},
+        "description": {"translate":"Silent, carried by the wind."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_wooden/bow_38",
+    "criteria": {
+        "bow_39": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:bow"],
+                    "nbt": "{display:{Name:\"\\\"§2Furtif\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Silencieux, porté par le vent.\\\"}\",\"{\\\"text\\\":\\\"§7Silent, carried by the wind.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7DAR§c-4\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

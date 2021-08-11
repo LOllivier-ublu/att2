@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "title": {"translate":"Plastron de métal"},
+        "description": {"translate":"Classic but effective."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_iron/chestplate_109",
+    "criteria": {
+        "iron_chestplate_110": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§2Plastron de métal\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Classique mais efficace.\\\"}\",\"{\\\"text\\\":\\\"§7Classic but effective.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

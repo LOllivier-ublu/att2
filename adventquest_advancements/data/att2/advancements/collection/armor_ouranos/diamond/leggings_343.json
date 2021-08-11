@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_leggings"
+        },
+        "title": {"translate":"Colère d'Aoran"},
+        "description": {"translate":"Will you risk putting on that which will make you as irascible as the King of Ouranos?"},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_ouranos/diamond/leggings_339",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_leggings_343": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§9Colère d'Aoran\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vous risquerez-vous à revêtir ce qui vous rendra aussi\\\"}\",\"{\\\"text\\\":\\\"§7irascible que le Roi d'Ouranos ?\\\"}\",\"{\\\"text\\\":\\\"§7Will you risk putting on that which will make you\\\"}\",\"{\\\"text\\\":\\\"§7as irascible as the King of Ouranos?\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

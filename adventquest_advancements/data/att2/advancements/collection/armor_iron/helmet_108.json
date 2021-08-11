@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_helmet"
+        },
+        "title": {"translate":"Pesti gris"},
+        "description": {"translate":"Mistigri."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_iron/helmet_107",
+    "criteria": {
+        "iron_helmet_108": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§2Pesti gris\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mistigri.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

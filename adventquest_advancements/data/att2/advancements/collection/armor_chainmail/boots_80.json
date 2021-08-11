@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_boots"
+        },
+        "title": {"translate":"Anti-rat"},
+        "description": {"translate":"No rodents will be able to pierce them."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_chainmail/boots_75",
+    "criteria": {
+        "chainmail_boots_80": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:chainmail_boots"],
+                    "nbt": "{display:{Name:\"\\\"§2Anti-rat\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aucun rongeur ne pourra les percer.\\\"}\",\"{\\\"text\\\":\\\"§7No rodents will be able to pierce them.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

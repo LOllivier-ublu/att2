@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "title": {"translate":"Trop longue lame"},
+        "description": {"translate":"What fiction do you think you're in?"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband/sword_142",
+    "criteria": {
+        "golden_sword_143": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_sword"],
+                    "nbt": "{display:{Name:\"\\\"§2Trop longue lame\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dans quelle fiction crois-tu être ?\\\"}\",\"{\\\"text\\\":\\\"§7What fiction do you think you're in?\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a1 §7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

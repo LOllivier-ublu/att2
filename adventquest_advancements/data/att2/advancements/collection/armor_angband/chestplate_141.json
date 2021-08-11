@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "title": {"translate":"Plastron Obélien"},
+        "description": {"translate":"Just like in the old style."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_angband/chestplate_134",
+    "criteria": {
+        "golden_chestplate_141": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§2Plastron Obélien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Comme dans l'ancien style.\\\"}\",\"{\\\"text\\\":\\\"§7Just like in the old style.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

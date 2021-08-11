@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"Pertuisane"},
+        "description": {"translate":"Break the guards of its opponents, to take them by the throat..."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_stone/hoe_258",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "wooden_hoe_259": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§9Pertuisane\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brise les gardes de ses adversaires,\\\"}\",\"{\\\"text\\\":\\\"§7pour les prendre à la gorge...\\\"}\",\"{\\\"text\\\":\\\"§7Break the guards of its opponents,\\\"}\",\"{\\\"text\\\":\\\"§7to take them by the throat...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§a1 §7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

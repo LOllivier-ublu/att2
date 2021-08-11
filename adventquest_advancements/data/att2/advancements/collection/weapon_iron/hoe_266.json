@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_hoe"
+        },
+        "title": {"translate":"Flêche de fer"},
+        "description": {"translate":"Sharp as a razor blade."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_iron/hoe_257",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "iron_hoe_266": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§9Flêche de fer\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tranchant comme une lame de rasoir.\\\"}\",\"{\\\"text\\\":\\\"§7Sharp as a razor blade.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

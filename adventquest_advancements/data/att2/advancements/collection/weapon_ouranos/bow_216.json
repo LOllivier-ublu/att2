@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Air lourd"},
+        "description": {"translate":"Bad weather weighs on his heart as much as on his will..."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_ouranos/bow_215",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "bow_216": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:bow"],
+                    "nbt": "{display:{Name:\"\\\"§9Air lourd\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le temps mauvais pèse sur son cœur\\\"}\",\"{\\\"text\\\":\\\"§7autant que sur sa volonté...\\\"}\",\"{\\\"text\\\":\\\"§7Bad weather weighs on his heart\\\"}\",\"{\\\"text\\\":\\\"§7as much as on his will...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-3\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": {"translate":"Masse du garde"},
+        "description": {"translate":"The beggar's plague."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_iron/pickaxe_67",
+    "criteria": {
+        "iron_pickaxe_74": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§2Masse du garde\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fléau du mendiant.\\\"}\",\"{\\\"text\\\":\\\"§7The beggar's plague.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

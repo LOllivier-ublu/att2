@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion",
+            "nbt": "{CustomPotionColor:16679856}"
+        },
+        "title": {"translate":"Remède explosif"},
+        "description": {"translate":"Has in its formula a substrate generating a sudden fulmination healing all wounds."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/lingering_44",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "lingering_potion_62": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:lingering_potion"],
+                    "nbt": "{display:{Name:\"\\\"§5Remède explosif\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Possède dans sa formule un substrat provoquant\\\"}\",\"{\\\"text\\\":\\\"§7une fulmination soudaine guérissant toutes blessures.\\\"}\",\"{\\\"text\\\":\\\"§7Has in its formula a substrate generating\\\"}\",\"{\\\"text\\\":\\\"§7a sudden fulmination healing all wounds.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

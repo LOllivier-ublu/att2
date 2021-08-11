@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"Cristal"},
+        "description": {"translate":"Irresistible but selfish."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_diamond/chestplate_186",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_chestplate_187": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§9Cristal\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Irrésistible mais égoïste.\\\"}\",\"{\\\"text\\\":\\\"§7Irresistible but selfish.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_shovel"
+        },
+        "title": {"translate":"Dernier recours"},
+        "description": {"translate":"The wise man always has a back seat."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_ouranos/shovel_203",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "stone_shovel_206": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§9Dernier recours\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le sage à toujours un second plan.\\\"}\",\"{\\\"text\\\":\\\"§7The wise man always has a back seat.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7LUC§a1 §7HUN§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

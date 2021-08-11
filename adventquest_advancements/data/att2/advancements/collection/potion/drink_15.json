@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:16777108}"
+        },
+        "title": {"translate":"Ecran de Fumée"},
+        "description": {"translate":"Out of sight, out of mind. Still, anyway out of mind."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_14",
+    "criteria": {
+        "potion_15": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Ecran de Fumée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas vu, pas pris.\\\"}\",\"{\\\"text\\\":\\\"§7Vu, mais pas pris quand même.\\\"}\",\"{\\\"text\\\":\\\"§7Out of sight, out of mind.\\\"}\",\"{\\\"text\\\":\\\"§7Still, anyway out of mind.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a4 §7STR§c-3\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

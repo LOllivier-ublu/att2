@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_leggings"
+        },
+        "title": {"translate":"Reine de la nuit"},
+        "description": {"translate":"Cry forever in the darkest of nightmares and see your power born in the most primordial of frights."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_diamond/leggings_202",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "diamond_leggings_198": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§6Reine de la nuit\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pleure à jamais dans le plus ténébreux des cauchemars\\\"}\",\"{\\\"text\\\":\\\"§7et vois naître ta puissance en plus primordial des effrois.\\\"}\",\"{\\\"text\\\":\\\"§7Cry forever in the darkest of nightmares and\\\"}\",\"{\\\"text\\\":\\\"§7see your power born in the most primordial of frights.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7HER§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

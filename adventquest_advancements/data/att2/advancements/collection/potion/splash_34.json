@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:7631942}"
+        },
+        "title": {"translate":"Grenade"},
+        "description": {"translate":"Blindness of the Alchimistes."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion",
+    "criteria": {
+        "splash_potion_34": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:splash_potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Grenade\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fourvoiement des alchimistes.\\\"}\",\"{\\\"text\\\":\\\"§7Blindness of the Alchimistes.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "title": {"translate":"Simpléclat"},
+        "description": {"translate":"Shine of remarkable finesse."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_diamond",
+    "criteria": {
+        "diamond_axe_96": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_axe"],
+                    "nbt": "{display:{Name:\"\\\"§7Simpléclat\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brille d'une finesse remarquable.\\\"}\",\"{\\\"text\\\":\\\"§7Shine of remarkable finesse.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

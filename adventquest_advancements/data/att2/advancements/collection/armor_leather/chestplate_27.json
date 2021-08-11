@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"Gilet sale"},
+        "description": {"translate":"Better than nothing."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather/chestplate_26",
+    "criteria": {
+        "leather_chestplate_27": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§7Gilet sale\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mieux que rien.\\\"}\",\"{\\\"text\\\":\\\"§7Better than nothing.\\\"}\"],color:14137496}}"
+                    }
+                ]
+            }
+        }
+    }
+}

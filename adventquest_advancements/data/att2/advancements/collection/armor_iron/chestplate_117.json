@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "title": {"translate":"Armure de Cédrin"},
+        "description": {"translate":"Apotheosis of the craftsmen of Temerian country."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_iron/chestplate_110",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "iron_chestplate_117": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§9Armure de Cédrin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Apothéose des artisans du pays\\\"}\",\"{\\\"text\\\":\\\"§7de Témérien.\\\"}\",\"{\\\"text\\\":\\\"§7Apotheosis of the craftsmen\\\"}\",\"{\\\"text\\\":\\\"§7of Temerian country.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

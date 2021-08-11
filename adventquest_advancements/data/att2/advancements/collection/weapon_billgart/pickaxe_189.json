@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "title": {"translate":"Supplice éternel"},
+        "description": {"translate":"No rest for those who cannot die, no dreams for those who cannot sleep."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_billgart/pickaxe_187",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "stone_pickaxe_189": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§6Supplice éternel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas de repos pour ceux qui ne savent\\\"}\",\"{\\\"text\\\":\\\"§7mourir, pas de rêve pour ceux qui ne peuvent dormir.\\\"}\",\"{\\\"text\\\":\\\"§7No rest for those who cannot die,\\\"}\",\"{\\\"text\\\":\\\"§7no dreams for those who cannot sleep.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a5 §7HER§a2 §7HUN§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

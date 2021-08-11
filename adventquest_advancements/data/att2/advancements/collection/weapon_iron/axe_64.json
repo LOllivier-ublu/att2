@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {"translate":"Hache"},
+        "description": {"translate":"Simple and clean."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_iron",
+    "criteria": {
+        "iron_axe_64": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_axe"],
+                    "nbt": "{display:{Name:\"\\\"§7Hache\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Simple et propre.\\\"}\",\"{\\\"text\\\":\\\"§7Simple and clean.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

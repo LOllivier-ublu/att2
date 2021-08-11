@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"Habit du garde"},
+        "description": {"translate":"In line with its title."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_leather/chestplate_42",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_chestplate_43": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§9Habit du garde\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A la hauteur de son titre.\\\"}\",\"{\\\"text\\\":\\\"§7In line with its title.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HUN§c-1\\\"}\"],color:14122608}}"
+                    }
+                ]
+            }
+        }
+    }
+}

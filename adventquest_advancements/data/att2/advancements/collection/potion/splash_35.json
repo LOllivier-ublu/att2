@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:3087904}"
+        },
+        "title": {"translate":"Venin du géro"},
+        "description": {"translate":"Liquefies flesh and bones."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/splash_34",
+    "criteria": {
+        "splash_potion_35": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:splash_potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Venin du géro\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Liquéfie les chairs et les os.\\\"}\",\"{\\\"text\\\":\\\"§7Liquefies flesh and bones.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

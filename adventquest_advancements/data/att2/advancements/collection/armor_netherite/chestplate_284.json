@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "title": {"translate":"Blindage obsidien"},
+        "description": {"translate":"And we're still waiting for rubies..."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_netherite/chestplate_283",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "netherite_chestplate_284": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§9Blindage obsidien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Et on attend toujours les rubis...\\\"}\",\"{\\\"text\\\":\\\"§7And we're still waiting for rubies...\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

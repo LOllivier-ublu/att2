@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:12501185}"
+        },
+        "title": {"translate":"Bombe argenté"},
+        "description": {"translate":"Clean all the impurities."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "splash_potion_38": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:splash_potion"],
+                    "nbt": "{display:{Name:\"\\\"§5Bombe argenté\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Nettoyez toute les impuretés.\\\"}\",\"{\\\"text\\\":\\\"§7Clean all the impurities.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_helmet"
+        },
+        "title": {"translate":"Vieil heaume"},
+        "description": {"translate":"From the Eastern Army."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_iron/helmet_100",
+    "criteria": {
+        "iron_helmet_107": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§2Vieil heaume\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7De l'armée de l'Est.\\\"}\",\"{\\\"text\\\":\\\"§7From the Eastern Army.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

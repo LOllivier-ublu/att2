@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_shovel"
+        },
+        "title": {"translate":"Petit Oïbrin"},
+        "description": {"translate":"Won't always be overlooked."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_netherite/shovel_282",
+    "criteria": {
+        "netherite_shovel_283": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§7Petit Oïbrin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ne sera pas toujours négligé.\\\"}\",\"{\\\"text\\\":\\\"§7Won't always be overlooked.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

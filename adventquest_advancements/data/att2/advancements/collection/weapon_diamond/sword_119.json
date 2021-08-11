@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Souvenir perdu"},
+        "description": {"translate":"O distant times, O youthful recklessness."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_diamond/sword_118",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_sword_119": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_sword"],
+                    "nbt": "{display:{Name:\"\\\"§9Souvenir perdu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ô temps lointains, \\\"}\",\"{\\\"text\\\":\\\"§7Ô insouciance juvénile.\\\"}\",\"{\\\"text\\\":\\\"§7O distant times,\\\"}\",\"{\\\"text\\\":\\\"§7O youthful recklessness.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7LUC§a1 §7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

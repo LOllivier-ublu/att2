@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_shovel"
+        },
+        "title": {"translate":"Coupe papier"},
+        "description": {"translate":"The scourge of words and letters."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_ouranos",
+    "criteria": {
+        "stone_shovel_199": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§7Coupe papier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le fléau des mots et lettres.\\\"}\",\"{\\\"text\\\":\\\"§7The scourge of words and letters.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

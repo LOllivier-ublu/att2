@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:16754081}"
+        },
+        "title": {"translate":"Ration de Survie"},
+        "description": {"translate":"The very existence depends on it."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/drink_27",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "potion_28": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§6Ration de Survie\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'existence même en dépend.\\\"}\",\"{\\\"text\\\":\\\"§7The very existence depends on it.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a3 §7HUN§a3\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

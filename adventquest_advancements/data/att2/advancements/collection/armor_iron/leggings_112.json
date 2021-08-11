@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_leggings"
+        },
+        "title": {"translate":"Les jambes du grand-père"},
+        "description": {"translate":"Never giving up."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_iron/leggings_111",
+    "criteria": {
+        "iron_leggings_112": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§2Les jambes du grand-père\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7N'ont jamais lâché.\\\"}\",\"{\\\"text\\\":\\\"§7Never giving up.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion",
+            "nbt": "{CustomPotionColor:1315080}"
+        },
+        "title": {"translate":"Sang de l'abyssal"},
+        "description": {"translate":"Certain things should never come to the surface."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "lingering_potion_45": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:lingering_potion"],
+                    "nbt": "{display:{Name:\"\\\"§6Sang de l'abyssal\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Certaine choses ne devraient\\\"}\",\"{\\\"text\\\":\\\"§7jamais revenir à la surface.\\\"}\",\"{\\\"text\\\":\\\"§7Certain things should\\\"}\",\"{\\\"text\\\":\\\"§7never come to the surface.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

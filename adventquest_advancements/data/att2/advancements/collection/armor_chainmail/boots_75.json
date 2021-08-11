@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_boots"
+        },
+        "title": {"translate":"Bottes de Cédrin"},
+        "description": {"translate":"Uncomfortable and useless."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_chainmail/boots_74",
+    "criteria": {
+        "chainmail_boots_75": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:chainmail_boots"],
+                    "nbt": "{display:{Name:\"\\\"§7Bottes de Cédrin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inconfortables et inutiles.\\\"}\",\"{\\\"text\\\":\\\"§7Uncomfortable and useless.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

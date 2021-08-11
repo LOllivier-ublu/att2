@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:10526975}"
+        },
+        "title": {"translate":"Alchemia"},
+        "description": {"translate":"A convoluted mixture with a questionable taste."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_6",
+    "criteria": {
+        "potion_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Alchemia\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un mélange alambiqué\\\"}\",\"{\\\"text\\\":\\\"§7et au goût douteux.\\\"}\",\"{\\\"text\\\":\\\"§7A convoluted mixture\\\"}\",\"{\\\"text\\\":\\\"§7with a questionable taste.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HER§c-1 §7HUN§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

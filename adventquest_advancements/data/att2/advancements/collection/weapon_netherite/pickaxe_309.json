@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "title": {"translate":"Concasseur d'os"},
+        "description": {"translate":"Seeing her, many are the warriors who took their legs around their necks."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_netherite/pickaxe_301",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "netherite_pickaxe_309": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§5Concasseur d'os\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En la voyant, nombreux sont les guerriers\\\"}\",\"{\\\"text\\\":\\\"§7qui ont pris leurs jambes à leur cou.\\\"}\",\"{\\\"text\\\":\\\"§7Seeing her, many are the warriors\\\"}\",\"{\\\"text\\\":\\\"§7who took their legs around their necks.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

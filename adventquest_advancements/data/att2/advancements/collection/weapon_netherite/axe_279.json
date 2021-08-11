@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_axe"
+        },
+        "title": {"translate":"Aissette discontinue"},
+        "description": {"translate":"Round head cutting hammer."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_netherite/axe_278",
+    "criteria": {
+        "netherite_axe_279": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_axe"],
+                    "nbt": "{display:{Name:\"\\\"§7Aissette discontinue\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Marteau coupant à tête ronde.\\\"}\",\"{\\\"text\\\":\\\"§7Round head cutting hammer.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion",
+            "nbt": "{CustomPotionColor:4868162}"
+        },
+        "title": {"translate":"Souillure"},
+        "description": {"translate":"Trapped in unsanitary filth."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion",
+    "criteria": {
+        "lingering_potion_40": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:lingering_potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Souillure\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Piègé dans une crasse insalubre.\\\"}\",\"{\\\"text\\\":\\\"§7Trapped in unsanitary filth.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

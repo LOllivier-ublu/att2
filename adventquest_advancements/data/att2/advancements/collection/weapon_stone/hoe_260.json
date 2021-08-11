@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"Esponton saillant"},
+        "description": {"translate":"Brandishes vertically, is the pride of the soldier and the plague of the rascal."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_stone/hoe_259",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "wooden_hoe_260": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§5Esponton saillant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brandie verticalement,\\\"}\",\"{\\\"text\\\":\\\"§7 fait la fierté du soldat et la peste du faquin.\\\"}\",\"{\\\"text\\\":\\\"§7Brandishes vertically,\\\"}\",\"{\\\"text\\\":\\\"§7is the pride of the soldier and the plague of the rascal.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

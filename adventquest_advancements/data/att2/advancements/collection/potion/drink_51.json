@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:9548221}"
+        },
+        "title": {"translate":"Dépuratif simple"},
+        "description": {"translate":"Purifies the body."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_50",
+    "criteria": {
+        "potion_51": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Dépuratif simple\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Purifie l'organisme.\\\"}\",\"{\\\"text\\\":\\\"§7Purifies the body.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a3 §7SPD§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:40188}"
+        },
+        "title": {"translate":"Cataplasme"},
+        "description": {"translate":"Effective medicinal porridge thus promoting the rapid elimination of toxins."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/drink_52",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "potion_53": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§9Cataplasme\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bouillie médicinale effectif favorisant\\\"}\",\"{\\\"text\\\":\\\"§7ainsi l'élimination rapide des toxines.\\\"}\",\"{\\\"text\\\":\\\"§7Effective medicinal porridge thus promoting\\\"}\",\"{\\\"text\\\":\\\"§7the rapid elimination of toxins.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7SPD§a1 §7HUN§c-4\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

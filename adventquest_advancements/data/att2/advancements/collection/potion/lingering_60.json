@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion",
+            "nbt": "{CustomPotionColor:8289280}"
+        },
+        "title": {"translate":"Diurétique"},
+        "description": {"translate":"Used to treat hypertension."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/lingering_41",
+    "criteria": {
+        "lingering_potion_60": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:lingering_potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Diurétique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utilisée pour traiter l'hypertension.\\\"}\",\"{\\\"text\\\":\\\"§7Used to treat hypertension.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

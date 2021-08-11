@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "title": {"translate":"Taquinerie"},
+        "description": {"translate":"Child's play."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband/hoe_319",
+    "criteria": {
+        "golden_hoe_320": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§2Taquinerie\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un jeu d'enfant.\\\"}\",\"{\\\"text\\\":\\\"§7Child's play.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "title": {"translate":"Bas Chacelïn"},
+        "description": {"translate":"Happy at breakfast, but not the rest of the time. Although the opposite, or even both."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_ouranos/diamond/boots_336",
+    "criteria": {
+        "diamond_boots_340": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_boots"],
+                    "nbt": "{display:{Name:\"\\\"§2Bas Chacelïn\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Content au petit déjeuné, mais pas le reste du temps.\\\"}\",\"{\\\"text\\\":\\\"§7Quoique l'inverse, ou même les deux.\\\"}\",\"{\\\"text\\\":\\\"§7Happy at breakfast, but not the rest of the time.\\\"}\",\"{\\\"text\\\":\\\"§7Although the opposite, or even both.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7STR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

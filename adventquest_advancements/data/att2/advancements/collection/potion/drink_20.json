@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:65280}"
+        },
+        "title": {"translate":"Baraka"},
+        "description": {"translate":"Second chance."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/drink_19",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "potion_20": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§9Baraka\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Seconde chance.\\\"}\",\"{\\\"text\\\":\\\"§7Second chance.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

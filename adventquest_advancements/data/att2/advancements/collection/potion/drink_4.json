@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:16769335}"
+        },
+        "title": {"translate":"Cuirasse"},
+        "description": {"translate":"An iron skin for a soldier without a shield."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_3",
+    "criteria": {
+        "potion_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Cuirasse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une peau de fer pour un soldat \\\"}\",\"{\\\"text\\\":\\\"§7sans bouclier.\\\"}\",\"{\\\"text\\\":\\\"§7An iron skin for a soldier\\\"}\",\"{\\\"text\\\":\\\"§7without a shield.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1 §7SPD§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

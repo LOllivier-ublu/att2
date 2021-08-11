@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_axe"
+        },
+        "title": {"translate":"Herminette de Cédrin"},
+        "description": {"translate":"We will not entrust it to the nervous one..."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_netherite/axe_289",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "netherite_axe_298": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_axe"],
+                    "nbt": "{display:{Name:\"\\\"§9Herminette de Cédrin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7On se gardera de la confier au nerveux...\\\"}\",\"{\\\"text\\\":\\\"§7We will not entrust it to the nervous one...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7SPD§a1 §7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

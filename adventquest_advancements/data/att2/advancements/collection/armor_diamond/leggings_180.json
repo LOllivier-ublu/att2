@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_leggings"
+        },
+        "title": {"translate":"Sublime coupe vent"},
+        "description": {"translate":"But not the most subtle..."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_diamond/leggings_173",
+    "criteria": {
+        "diamond_leggings_180": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§2Sublime coupe vent\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mais pas le plus subtil...\\\"}\",\"{\\\"text\\\":\\\"§7But not the most subtle...\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

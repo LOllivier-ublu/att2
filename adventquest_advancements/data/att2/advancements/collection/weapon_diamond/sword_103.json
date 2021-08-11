@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Epée de Dramio"},
+        "description": {"translate":"Worthless... for some of us..."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_diamond/sword_102",
+    "criteria": {
+        "diamond_sword_103": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_sword"],
+                    "nbt": "{display:{Name:\"\\\"§7Epée de Dramio\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sans valeur... pour certain...\\\"}\",\"{\\\"text\\\":\\\"§7Worthless... for some of us...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

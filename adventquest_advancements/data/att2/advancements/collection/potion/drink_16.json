@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:65432}"
+        },
+        "title": {"translate":"Esuna"},
+        "description": {"translate":"The knowledge of transmutation."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_15",
+    "criteria": {
+        "potion_16": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Esuna\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le savoir de la transmutation.\\\"}\",\"{\\\"text\\\":\\\"§7The knowledge of transmutation.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HUN§a2 §7STR§c-2 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

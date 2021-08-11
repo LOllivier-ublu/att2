@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_shovel"
+        },
+        "title": {"translate":"Dépeçoir"},
+        "description": {"translate":"The hunter's creed."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_netherite/shovel_292",
+    "criteria": {
+        "netherite_shovel_293": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§2Dépeçoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le crédo du chasseur.\\\"}\",\"{\\\"text\\\":\\\"§7The hunter's creed.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

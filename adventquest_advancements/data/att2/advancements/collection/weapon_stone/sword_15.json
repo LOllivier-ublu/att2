@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Aïeul"},
+        "description": {"translate":"May you be proud of me, ancestor."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone/sword_8",
+    "criteria": {
+        "wooden_sword_15": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_sword"],
+                    "nbt": "{display:{Name:\"\\\"§2Aïeul\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puisses-tu être fier de moi, ancêtre.\\\"}\",\"{\\\"text\\\":\\\"§7May you be proud of me, ancestor.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

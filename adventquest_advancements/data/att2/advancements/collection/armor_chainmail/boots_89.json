@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_boots"
+        },
+        "title": {"translate":"Cheville d'argent"},
+        "description": {"translate":"Your feet will remain your greatest allies. Then take care of them, Lucie."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_chainmail/boots_88",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "chainmail_boots_89": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:chainmail_boots"],
+                    "nbt": "{display:{Name:\"\\\"§9Cheville d'argent\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tes pieds resteront tes plus grands\\\"}\",\"{\\\"text\\\":\\\"§7alliés. Alors soigne-les, Lucie.\\\"}\",\"{\\\"text\\\":\\\"§7Your feet will remain your greatest allies.\\\"}\",\"{\\\"text\\\":\\\"§7Then take care of them, Lucie.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a1 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

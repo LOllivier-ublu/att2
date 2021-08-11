@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Excroissance"},
+        "description": {"translate":"When a blister becomes a weapon."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_wooden/crossbow_247",
+    "criteria": {
+        "crossbow_248": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:crossbow"],
+                    "nbt": "{display:{Name:\"\\\"§2Excroissance\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand une boursouflure devient une arme.\\\"}\",\"{\\\"text\\\":\\\"§7When a blister becomes a weapon.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a1 §7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

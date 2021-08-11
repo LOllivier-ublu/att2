@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "title": {"translate":"Braies stupéfiantes"},
+        "description": {"translate":"Drasticaly increase your Dahäl regeneration."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_leather/leggings_16",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "leather_leggings_21": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§6Braies stupéfiantes\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAugmente drastiquement votre\\\"}\",\"{\\\"text\\\":\\\"§arécupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§aDrasticaly increase your\\\"}\",\"{\\\"text\\\":\\\"§aDahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a3 §7STR§c-1 §7RES§c-1\\\"}\"],color:0}}"
+                    }
+                ]
+            }
+        }
+    }
+}

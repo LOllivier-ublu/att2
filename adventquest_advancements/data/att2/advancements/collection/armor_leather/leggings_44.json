@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "title": {"translate":"Braies propres"},
+        "description": {"translate":"Anonymity is priceless."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_leather/leggings_37",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_leggings_44": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§9Braies propres\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'anonymat n'a pas de prix.\\\"}\",\"{\\\"text\\\":\\\"§7Anonymity is priceless.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7HAS§c-2\\\"}\"],color:5645236}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"Tunique"},
+        "description": {"translate":"Soft and warm."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather",
+    "criteria": {
+        "leather_chestplate_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§7Tunique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Doux et chaleureux.\\\"}\",\"{\\\"text\\\":\\\"§7Soft and warm.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"],color:10454850}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:5311231}"
+        },
+        "title": {"translate":"Vision Nocturne"},
+        "description": {"translate":"Like a cat in the dark night, be on the lookout for your prey."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_7",
+    "criteria": {
+        "potion_8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Vision Nocturne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tel un chat dans la nuit noire,\\\"}\",\"{\\\"text\\\":\\\"§7soyez à l'affût de vos proies.\\\"}\",\"{\\\"text\\\":\\\"§7Like a cat in the dark night,\\\"}\",\"{\\\"text\\\":\\\"§7be on the lookout for your prey.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

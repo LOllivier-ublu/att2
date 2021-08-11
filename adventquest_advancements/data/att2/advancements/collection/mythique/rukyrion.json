@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{CustomModelData:10000003}"
+        },
+        "title": {"translate":"Relgon"},
+        "description": {"translate":"Hold the mythical sword RUKYRION"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_40",
+        "experience": 5000
+                },
+    "criteria": {
+        "rukyrion": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

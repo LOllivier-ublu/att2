@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:983040}"
+        },
+        "title": {"translate":"Tenebrae"},
+        "description": {"translate":"Obscurum per obscurius. Ignotum per ignotius."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/splash_36",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "splash_potion_37": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:splash_potion"],
+                    "nbt": "{display:{Name:\"\\\"§9Tenebrae\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Obscurum per obscurius.\\\"}\",\"{\\\"text\\\":\\\"§7Ignotum per ignotius.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

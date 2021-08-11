@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Epée"},
+        "description": {"translate":"Blunt."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone/sword_7",
+    "criteria": {
+        "wooden_sword_8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_sword"],
+                    "nbt": "{display:{Name:\"\\\"§7Epée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Emoussée.\\\"}\",\"{\\\"text\\\":\\\"§7Blunt.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

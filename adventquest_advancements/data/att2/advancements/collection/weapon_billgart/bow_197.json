@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Fa oveur man"},
+        "description": {"translate":"Almost fantastic, but close to	absolutely useless."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_billgart",
+    "criteria": {
+        "bow_197": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:bow"],
+                    "nbt": "{display:{Name:\"\\\"§2Fa oveur man\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Presque génial, mais pas loin\\\"}\",\"{\\\"text\\\":\\\"§7d'absolument inutile.\\\"}\",\"{\\\"text\\\":\\\"§7Almost fantastic, but close to\\\"}\",\"{\\\"text\\\":\\\"§7absolutely useless.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

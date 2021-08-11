@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_shovel"
+        },
+        "title": {"translate":"Canivet"},
+        "description": {"translate":"Instead of the pocketknife."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_netherite",
+    "criteria": {
+        "netherite_shovel_282": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§7Canivet\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Canif à la place du canif.\\\"}\",\"{\\\"text\\\":\\\"§7Instead of the pocketknife.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

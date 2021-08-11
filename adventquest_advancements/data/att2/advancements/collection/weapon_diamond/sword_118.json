@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Le présent d'Ithil première"},
+        "description": {"translate":"She may have disappeared, but her generosity never vanished."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_diamond/sword_111",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_sword_118": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_sword"],
+                    "nbt": "{display:{Name:\"\\\"§9Le présent d'Ithil première\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Peut-être disparut-elle, mais \\\"}\",\"{\\\"text\\\":\\\"§7jamais sa générosité ne s'effaça.\\\"}\",\"{\\\"text\\\":\\\"§7She may have disappeared, but\\\"}\",\"{\\\"text\\\":\\\"§7her generosity never vanished.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7HER§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

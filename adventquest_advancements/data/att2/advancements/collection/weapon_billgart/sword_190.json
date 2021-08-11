@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": {"translate":"Ame d'Ulik'atar"},
+        "description": {"translate":"Aude to the fierceness of the first inorganic, scream of a king."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_billgart/sword_188",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "stone_sword_190": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_sword"],
+                    "nbt": "{display:{Name:\"\\\"§6Ame d'Ulik'atar\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aude à l'acharnement du premier\\\"}\",\"{\\\"text\\\":\\\"§7inorganique, hurlement d'un roi.\\\"}\",\"{\\\"text\\\":\\\"§7Aude to the fierceness of the first\\\"}\",\"{\\\"text\\\":\\\"§7inorganic, scream of a king.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

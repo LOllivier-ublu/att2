@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": {"translate":"Sceptre "},
+        "description": {"translate":"The most massive ever."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_diamond",
+    "criteria": {
+        "diamond_pickaxe_98": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§7Sceptre \\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le plus massif qui soit.\\\"}\",\"{\\\"text\\\":\\\"§7The most massive ever.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

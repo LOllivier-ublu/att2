@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:9548132}"
+        },
+        "title": {"translate":"Amertume"},
+        "description": {"translate":"No need to be tasty to be useful."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_18",
+    "criteria": {
+        "potion_50": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Amertume\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas besoin d'être gouteux pour être utile.\\\"}\",\"{\\\"text\\\":\\\"§7No need to be tasty to be useful.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a3 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

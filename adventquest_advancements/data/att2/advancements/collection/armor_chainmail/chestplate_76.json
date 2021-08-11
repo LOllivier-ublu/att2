@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_chestplate"
+        },
+        "title": {"translate":"Peste du nain."},
+        "description": {"translate":"It's a little tight across the chest."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_chainmail/chestplate_71",
+    "criteria": {
+        "chainmail_chestplate_76": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:chainmail_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§2Peste du nain.\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle est un peu serrée à la poitrine.\\\"}\",\"{\\\"text\\\":\\\"§7It's a little tight across the chest.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "title": {"translate":"Petit Thoréën"},
+        "description": {"translate":"Like in great shape!"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_billgart/netherite/chestplate_226",
+    "criteria": {
+        "netherite_chestplate_317": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§2Petit Thoréën\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Comme en pleine forme !\\\"}\",\"{\\\"text\\\":\\\"§7Like in great shape!\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a1 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

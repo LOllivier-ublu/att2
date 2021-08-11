@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:7507199}"
+        },
+        "title": {"translate":"Mixture Esotérique"},
+        "description": {"translate":"When there is no more, there is still more."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/drink_21",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "potion_22": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§9Mixture Esotérique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand il n'y en a plus,\\\"}\",\"{\\\"text\\\":\\\"§7il y en a encore.\\\"}\",\"{\\\"text\\\":\\\"§7When there is no more,\\\"}\",\"{\\\"text\\\":\\\"§7there is still more.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7DAR§a3 §7HER§c-2 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

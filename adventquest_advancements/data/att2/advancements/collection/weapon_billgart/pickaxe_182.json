@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "title": {"translate":"Bras du golem"},
+        "description": {"translate":"As if you had its strength."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_billgart/pickaxe_179",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "stone_pickaxe_182": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§9Bras du golem\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Comme si tu en possédais la force.\\\"}\",\"{\\\"text\\\":\\\"§7As if you had its strength.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_shovel"
+        },
+        "title": {"translate":"Semi-sabre"},
+        "description": {"translate":"Long as a mortal sword."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband/shovel_134",
+    "criteria": {
+        "golden_shovel_140": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§2Semi-sabre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Long comme une épée de mortel.\\\"}\",\"{\\\"text\\\":\\\"§7Long as a mortal sword.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

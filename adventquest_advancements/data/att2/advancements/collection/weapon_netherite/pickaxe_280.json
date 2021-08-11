@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "title": {"translate":"Matraque basique"},
+        "description": {"translate":"To quell the kids."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_netherite",
+    "criteria": {
+        "netherite_pickaxe_280": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§7Matraque basique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pour mâter les mioches.\\\"}\",\"{\\\"text\\\":\\\"§7To quell the kids.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

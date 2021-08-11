@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Mÿre"},
+        "description": {"translate":"As determined as unexpected"},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_wooden/crossbow_248",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "crossbow_249": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:crossbow"],
+                    "nbt": "{display:{Name:\"\\\"§9Mÿre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aussi déterminé qu'inopiné\\\"}\",\"{\\\"text\\\":\\\"§7As determined as unexpected\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

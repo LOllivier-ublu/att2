@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_boots"
+        },
+        "title": {"translate":"Socque inconsistant"},
+        "description": {"translate":"Life is a tragedy."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_netherite/boots_271",
+    "criteria": {
+        "netherite_boots_272": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_boots"],
+                    "nbt": "{display:{Name:\"\\\"§7Socque inconsistant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La vie est une tragédie.\\\"}\",\"{\\\"text\\\":\\\"§7Life is a tragedy.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

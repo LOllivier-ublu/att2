@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "title": {"translate":"S"},
+        "description": {"translate":"The uniform of a million challenges reveals in you the exception of the chosen ones."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_angband/chestplate_160",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "golden_chestplate_164": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§6S\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aL'uniforme aux millions d'épreuves\\\"}\",\"{\\\"text\\\":\\\"§arévèle chez vous l'exception des élus.\\\"}\",\"{\\\"text\\\":\\\"§aThe uniform of a million challenges reveals\\\"}\",\"{\\\"text\\\":\\\"§ain you the exception of the chosen ones.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7DAR§a2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

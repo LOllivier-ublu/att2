@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion",
+            "nbt": "{CustomPotionColor:16743033}"
+        },
+        "title": {"translate":"Désinfectant"},
+        "description": {"translate":"Cleanliness is half the health."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/lingering_40",
+    "criteria": {
+        "lingering_potion_41": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:lingering_potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Désinfectant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La propreté est la moitié de la santé.\\\"}\",\"{\\\"text\\\":\\\"§7Cleanliness is half the health.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

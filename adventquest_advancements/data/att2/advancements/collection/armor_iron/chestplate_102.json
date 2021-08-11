@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "title": {"translate":"Chevalier de la rosette"},
+        "description": {"translate":"He lacks manhood."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_iron/chestplate_101",
+    "criteria": {
+        "iron_chestplate_102": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§7Chevalier de la rosette\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il manque de virilité.\\\"}\",\"{\\\"text\\\":\\\"§7He lacks manhood.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

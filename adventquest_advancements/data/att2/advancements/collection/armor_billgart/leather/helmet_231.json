@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Tête de l'érudit"},
+        "description": {"translate":"Protects your thoughts, literally."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_billgart/leather/helmet_223",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_helmet_231": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9Tête de l'érudit\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Protège vos pensées, littéralement.\\\"}\",\"{\\\"text\\\":\\\"§7Protects your thoughts, literally.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a1 §7HUN§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

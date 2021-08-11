@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_shovel"
+        },
+        "title": {"translate":"Souffle roche"},
+        "description": {"translate":"Thin as a flash of light, but just as weak."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_angband/shovel_141",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "golden_shovel_148": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§9Pointe d'or\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Filante comme un éclat de\\\"}\",\"{\\\"text\\\":\\\"§7lumière, mais tout aussi faible.\\\"}\",\"{\\\"text\\\":\\\"§7Thin as a flash of light,\\\"}\",\"{\\\"text\\\":\\\"§7but just as weak.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HAS§c-4\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

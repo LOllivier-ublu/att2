@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Capuche légère"},
+        "description": {"translate":"Less soft than useful."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_leather/helmet_33",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_helmet_40": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9Chapeau\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un couvre-chef de choix.\\\"}\",\"{\\\"text\\\":\\\"§7A great headgear.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7LUC§a1 §7STR§c-2\\\"}\"],color:14791239}}"
+                    }
+                ]
+            }
+        }
+    }
+}

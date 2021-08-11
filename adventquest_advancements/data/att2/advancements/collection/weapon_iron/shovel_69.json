@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
+        "title": {"translate":"Couteau"},
+        "description": {"translate":"To meat lovers."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_iron/shovel_68",
+    "criteria": {
+        "iron_shovel_69": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§7Couteau\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aux amateurs de viande.\\\"}\",\"{\\\"text\\\":\\\"§7To meat lovers.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

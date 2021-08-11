@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:14591393}"
+        },
+        "title": {"translate":"Santé de Fer"},
+        "description": {"translate":"The silence of the organs."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/drink_20",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "potion_21": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§9Santé de Fer\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le silence des organes.\\\"}\",\"{\\\"text\\\":\\\"§7The silence of the organs.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7STR§c-2 §7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

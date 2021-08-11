@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "title": {"translate":"Eternité"},
+        "description": {"translate":"As you are, you will persist."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_diamond/shovel_101",
+    "criteria": {
+        "diamond_shovel_108": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§2Eternité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tel que tu es, tu resteras.\\\"}\",\"{\\\"text\\\":\\\"§7As you are, you will persist.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

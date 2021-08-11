@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_hoe"
+        },
+        "title": {"translate":"Aiguillon"},
+        "description": {"translate":"Small needle on pruned branch."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_iron/hoe_255",
+    "criteria": {
+        "iron_hoe_264": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§2Aiguillon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Petite aiguille sur branche taillée.\\\"}\",\"{\\\"text\\\":\\\"§7Small needle on pruned branch.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

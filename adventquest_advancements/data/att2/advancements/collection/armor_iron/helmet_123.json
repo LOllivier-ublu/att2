@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_helmet"
+        },
+        "title": {"translate":"Distinciton du capitaine"},
+        "description": {"translate":"May your head shine proudly in the eyes of both your own and your enemies."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_iron/helmet_116",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "iron_helmet_123": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§5Distinciton du capitaine\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puisse ta tête briller fièrement\\\"}\",\"{\\\"text\\\":\\\"§7aux yeux des tiens et ceux de tes ennemis.\\\"}\",\"{\\\"text\\\":\\\"§7May your head shine proudly in the eyes\\\"}\",\"{\\\"text\\\":\\\"§7of both your own and your enemies.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7DAR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

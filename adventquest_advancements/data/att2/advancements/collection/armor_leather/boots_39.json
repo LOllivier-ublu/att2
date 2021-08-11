@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Chaussures inconfortables"},
+        "description": {"translate":"But less than clogs."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather/boots_38",
+    "criteria": {
+        "leather_boots_39": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_boots"],
+                    "nbt": "{display:{Name:\"\\\"§2Chaussures inconfortables\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mais moins que des sabots.\\\"}\",\"{\\\"text\\\":\\\"§7But less than clogs.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"],color:4020859}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow",
+            "nbt": "{CustomModelData:10000100}"
+        },
+        "title": {"translate":"Lost Past"},
+        "description": {"translate":"Hold the mythical bow LOST PAST"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "lost_past": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

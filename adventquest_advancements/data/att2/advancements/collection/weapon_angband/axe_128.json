@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_axe"
+        },
+        "title": {"translate":"Mauvaise réplique"},
+        "description": {"translate":"Made by Terän..."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband",
+    "criteria": {
+        "golden_axe_128": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_axe"],
+                    "nbt": "{display:{Name:\"\\\"§7Mauvaise réplique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7De manufacture Terän...\\\"}\",\"{\\\"text\\\":\\\"§7Made by Terän...\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

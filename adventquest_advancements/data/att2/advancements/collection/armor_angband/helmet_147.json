@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "title": {"translate":"Casque du courageux"},
+        "description": {"translate":"Covered with notches, it bears the marks of many victories."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_angband/helmet_140",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "golden_helmet_147": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9Casque du courageux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Couvert d'entailles, il arbore\\\"}\",\"{\\\"text\\\":\\\"§7les marques de nombreuses victoires.\\\"}\",\"{\\\"text\\\":\\\"§7Covered with notches, it bears\\\"}\",\"{\\\"text\\\":\\\"§7the marks of many victories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7RES§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

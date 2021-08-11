@@ -47,18 +47,19 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"bloodeater"}}]}] only at
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"blindshield"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"interfacer"}}]}] only att2:adventure/myt
 
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"blindshield"}}}] only att2:adventure/aveugle_rempart
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"kinuil"}}}] only att2:adventure/kinuil
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"loneshadow"}}}] only att2:adventure/lone_shadow
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"warlord"}}}] only att2:adventure/warlord
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"lostpast"}}}] only att2:adventure/lost_past
-execute if score arena SASTR matches -2 run advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"sastr"}}}] only att2:adventure/sastr
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"ultima"}}}] only att2:adventure/ultima
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"bloodeater"}}}] only att2:adventure/blutfresser
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fenrir"}}}] only att2:adventure/fenrir
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"rukyrion"}}}] only att2:adventure/rukyrion
-advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}}}] only att2:adventure/interfacer
-advancement grant @a[nbt={Inventory:[{tag:{Tags:["IFDahalMagasin"]}}]}] only att2:adventure/interfacer_magazine
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fortuity"}}}] only att2:collection/mythique/fortuity
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"blindshield"}}}] only att2:collection/mythique/aveugle_rempart
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"kinuil"}}}] only att2:collection/mythique/kinuil
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"loneshadow"}}}] only att2:collection/mythique/lone_shadow
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"warlord"}}}] only att2:collection/mythique/warlord
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"lostpast"}}}] only att2:collection/mythique/lost_past
+execute if score arena SASTR matches -2 run advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"sastr"}}}] only att2:collection/mythique/sastr
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"ultima"}}}] only att2:collection/mythique/ultima
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"bloodeater"}}}] only att2:collection/mythique/blutfresser
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fenrir"}}}] only att2:collection/mythique/fenrir
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"rukyrion"}}}] only att2:collection/mythique/rukyrion
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}}}] only att2:collection/mythique/interfacer
+advancement grant @a[nbt={Inventory:[{tag:{Tags:["IFDahalMagasin"]}}]}] only att2:collection/mythique/interfacer_magazine
 
 
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{Effect:"dar2_str_1_has_1",SetId:"1"}},{Slot:102b,tag:{Effect:"dar2_str_1_res_1",SetId:"1"}},{Slot:101b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}},{Slot:100b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}}]}] only att2:adventure/dahal_apprentice

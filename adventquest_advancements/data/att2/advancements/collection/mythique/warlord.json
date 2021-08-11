@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow",
+            "nbt": "{CustomModelData:10000101}"
+        },
+        "title": {"translate":"Warlord"},
+        "description": {"translate":"Hold the mythical bow WARLORD"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+                },
+    "criteria": {
+        "warlord": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

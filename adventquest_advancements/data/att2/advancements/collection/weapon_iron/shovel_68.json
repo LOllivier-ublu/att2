@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
+        "title": {"translate":"Dague"},
+        "description": {"translate":"Property of Kevïn."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_iron",
+    "criteria": {
+        "iron_shovel_68": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§7Dague\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Propriété de Kevïn.\\\"}\",\"{\\\"text\\\":\\\"§7Property of Kevïn.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

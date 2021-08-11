@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {"translate":"Pétrin"},
+        "description": {"translate":"To Mondolin."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_stone/pickaxe_19",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "wooden_pickaxe_20": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§9Pétrin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A Mondolin.\\\"}\",\"{\\\"text\\\":\\\"§7To Mondolin.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7DAR§a2 §7SPD§c-1 §7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

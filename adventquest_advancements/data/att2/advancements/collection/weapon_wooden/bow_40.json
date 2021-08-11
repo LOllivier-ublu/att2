@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Arc de combat"},
+        "description": {"translate":"Skin piercer."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_wooden/bow_39",
+    "criteria": {
+        "bow_40": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:bow"],
+                    "nbt": "display:{Name:\"\\\"§2Arc de combat\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Perce peau.\\\"}\",\"{\\\"text\\\":\\\"§7Skin piercer.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

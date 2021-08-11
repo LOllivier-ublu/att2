@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_leggings"
+        },
+        "title": {"translate":"Pantallon du robuste"},
+        "description": {"translate":"Combines flexibility and protection."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_chainmail/leggings_73",
+    "criteria": {
+        "chainmail_leggings_78": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:chainmail_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§2Pantallon du robuste\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Combine souplesse et protection.\\\"}\",\"{\\\"text\\\":\\\"§7Combines flexibility and protection.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

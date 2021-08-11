@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Bandana"},
+        "description": {"translate":"Not as white as before."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather/helmet_32",
+    "criteria": {
+        "leather_helmet_33": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§2Bandana\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus aussi blanc qu'avant.\\\"}\",\"{\\\"text\\\":\\\"§7Not as white as before.\\\"}\"],color:14540253}}"
+                    }
+                ]
+            }
+        }
+    }
+}

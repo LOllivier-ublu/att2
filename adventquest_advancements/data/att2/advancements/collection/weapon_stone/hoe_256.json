@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"Epieu"},
+        "description": {"translate":"Useful for game hunting."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone/hoe_255",
+    "criteria": {
+        "wooden_hoe_256": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§2Epieu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utile pour la chasse au gibier.\\\"}\",\"{\\\"text\\\":\\\"§7Useful for game hunting.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

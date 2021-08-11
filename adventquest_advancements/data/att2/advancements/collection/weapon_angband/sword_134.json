@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "title": {"translate":"Pseudo guerrier"},
+        "description": {"translate":"Better alone than in bad company."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband",
+    "criteria": {
+        "golden_sword_134": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_sword"],
+                    "nbt": "{display:{Name:\"\\\"§7Pseudo guerrier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mieux vaut être seul que mal accompagné.\\\"}\",\"{\\\"text\\\":\\\"§7Better alone than in bad company.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

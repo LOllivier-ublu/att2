@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "title": {"translate":"Pantalon de paysan"},
+        "description": {"translate":"Too many projects, too many regrets."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather/leggings_29",
+    "criteria": {
+        "leather_leggings_36": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§2Pantalon de paysan\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trop de projets, trop de regrets.\\\"}\",\"{\\\"text\\\":\\\"§7Too many projects, too many regrets.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"],color:2591784}}"
+                    }
+                ]
+            }
+        }
+    }
+}

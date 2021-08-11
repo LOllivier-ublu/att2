@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Fierté du village"},
+        "description": {"translate":"Others have a hatchet..."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_diamond",
+    "criteria": {
+        "diamond_sword_102": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_sword"],
+                    "nbt": "{display:{Name:\"\\\"§7Fierté du village\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7D'autres ont une hache de guerre...\\\"}\",\"{\\\"text\\\":\\\"§7Others have a hatchet...\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

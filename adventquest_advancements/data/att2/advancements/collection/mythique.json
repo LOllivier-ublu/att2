@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"Mythique"},
+        "description": {"translate":"Weapon"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/root",
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:fishing_rod"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

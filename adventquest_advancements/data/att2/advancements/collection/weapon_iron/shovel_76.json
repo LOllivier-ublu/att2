@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
+        "title": {"translate":"Dague d'élite"},
+        "description": {"translate":"Or at least until then..."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_iron/shovel_69",
+    "criteria": {
+        "iron_shovel_76": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§2Dague d'élite\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ou du moins, jusqu'alors...\\\"}\",\"{\\\"text\\\":\\\"§7Or at least until then...\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"Tunique de paysan"},
+        "description": {"translate":"No projects, no trouble."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather/chestplate_27",
+    "criteria": {
+        "leather_chestplate_34": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§2Tunique de paysan\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas de projet, pas d'ennuis.\\\"}\",\"{\\\"text\\\":\\\"§7No projects, no trouble.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"],color:14021098}}"
+                    }
+                ]
+            }
+        }
+    }
+}

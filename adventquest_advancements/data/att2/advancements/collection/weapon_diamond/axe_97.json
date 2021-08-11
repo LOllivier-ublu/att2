@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "title": {"translate":"Hache d'ornement"},
+        "description": {"translate":"To the pomp of a powerful dignitary."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_diamond/axe_96",
+    "criteria": {
+        "diamond_axe_97": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_axe"],
+                    "nbt": "{display:{Name:\"\\\"§7Hache d'ornement\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A l'apparat d'un puissant dignitaire.\\\"}\",\"{\\\"text\\\":\\\"§7To the pomp of a powerful dignitary.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

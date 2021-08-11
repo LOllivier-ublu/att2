@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Persiflage"},
+        "description": {"translate":"When ingenuity works of charity for the purest beauty."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_ouranos",
+    "criteria": {
+        "crossbow_326": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:crossbow"],
+                    "nbt": "{display:{Name:\"\\\"§2Persiflage\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand l'ingéniosité fait œuvre de charité\\\"}\",\"{\\\"text\\\":\\\"§7à la beauté la plus pure.\\\"}\",\"{\\\"text\\\":\\\"§7When ingenuity works of charity\\\"}\",\"{\\\"text\\\":\\\"§7for the purest beauty.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

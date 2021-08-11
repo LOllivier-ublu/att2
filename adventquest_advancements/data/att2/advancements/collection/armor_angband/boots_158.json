@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_boots"
+        },
+        "title": {"translate":"Vavianth invid"},
+        "description": {"translate":"The will vanishes when the ultimate quest of your existence is destroyed."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_angband/boots_154",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "golden_boots_158": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_boots"],
+                    "nbt": "{display:{Name:\"\\\"§5Vavianth invid\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La volonté s'évanouit quand l'ultime \\\"}\",\"{\\\"text\\\":\\\"§7quête de votre existence est anéantie.\\\"}\",\"{\\\"text\\\":\\\"§7The will vanishes when the ultimate quest\\\"}\",\"{\\\"text\\\":\\\"§7of your existence is destroyed.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7SPD§a2 §7DAR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

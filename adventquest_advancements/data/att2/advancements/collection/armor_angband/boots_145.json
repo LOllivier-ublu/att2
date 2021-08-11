@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_boots"
+        },
+        "title": {"translate":"Bottes de l'ordre"},
+        "description": {"translate":"For feet in disorder."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_angband/boots_138",
+    "criteria": {
+        "golden_boots_145": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_boots"],
+                    "nbt": "{display:{Name:\"\\\"§2Bottes de l'ordre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pour des pieds en désordre.\\\"}\",\"{\\\"text\\\":\\\"§7For feet in disorder.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Brise brise"},
+        "description": {"translate":"A shell that doesn't just protect against blows..."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_ouranos/shield_220",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "shield_221": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:shield"],
+                    "nbt": "{display:{Name:\"\\\"§9Brise brise\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une carapace qui ne protège\\\"}\",\"{\\\"text\\\":\\\"§7pas que des coups...\\\"}\",\"{\\\"text\\\":\\\"§7A shell that doesn't just\\\"}\",\"{\\\"text\\\":\\\"§7protect against blows...\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

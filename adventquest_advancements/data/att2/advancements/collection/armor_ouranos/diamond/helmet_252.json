@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_helmet"
+        },
+        "title": {"translate":"Esprit du guerrier"},
+        "description": {"translate":"Fighting doesn't have the same savour in all worlds."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_ouranos/diamond/helmet_341",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_helmet_252": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9Esprit du guerrier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le combat n'a pas la même\\\"}\",\"{\\\"text\\\":\\\"§7saveur dans tous les mondes.\\\"}\",\"{\\\"text\\\":\\\"§7Fighting doesn't have the same\\\"}\",\"{\\\"text\\\":\\\"§7savour in all worlds.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

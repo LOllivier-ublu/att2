@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:8881843}"
+        },
+        "title": {"translate":"Tonique"},
+        "description": {"translate":"Stimulate your senses."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_17",
+    "criteria": {
+        "potion_18": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Tonique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Stimulez vos sens.\\\"}\",\"{\\\"text\\\":\\\"§7Stimulate your senses.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7HUN§a1 §7SPD§c-3\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

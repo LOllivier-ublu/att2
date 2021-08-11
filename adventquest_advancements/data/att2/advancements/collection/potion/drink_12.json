@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:9457212}"
+        },
+        "title": {"translate":"Adrénaline"},
+        "description": {"translate":"Excess is often lethal."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_11",
+    "criteria": {
+        "potion_12": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Adrénaline\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'excès est bien souvent létal.\\\"}\",\"{\\\"text\\\":\\\"§7Excess is often lethal.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7LUC§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

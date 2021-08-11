@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Bottines usées"},
+        "description": {"translate":"Never suited anyone."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather/boots_31",
+    "criteria": {
+        "leather_boots_38": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_boots"],
+                    "nbt": "{display:{Name:\"\\\"§2Bottines usées\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7N'ont jamais convenu à personne.\\\"}\",\"{\\\"text\\\":\\\"§7Never suited anyone.\\\"}\"],color:9600315}}"
+                    }
+                ]
+            }
+        }
+    }
+}

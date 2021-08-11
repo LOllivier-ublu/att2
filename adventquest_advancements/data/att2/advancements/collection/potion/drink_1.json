@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:16777215}"
+        },
+        "title": {"translate":"V.I.T.R.I.O.L"},
+        "description": {"translate":"Poison."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion",
+    "criteria": {
+        "potion_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§7V.I.T.R.I.O.L\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Poison\\\"}\",\"{\\\"text\\\":\\\"§7Poison.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a7 §7HER§c-4\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

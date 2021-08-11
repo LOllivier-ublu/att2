@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Héda le père"},
+        "description": {"translate":"Fallen for war."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_stone/shovel_14",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "wooden_shovel_21": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§9Héda le père\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tombé à la guerre.\\\"}\",\"{\\\"text\\\":\\\"§7Fallen for war.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7DAR§a2 §7HER§c-3\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

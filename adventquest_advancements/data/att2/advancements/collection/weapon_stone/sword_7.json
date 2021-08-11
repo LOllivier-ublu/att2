@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Nathaniel"},
+        "description": {"translate":"Not scary about danger!"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone",
+    "criteria": {
+        "wooden_sword_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_sword"],
+                    "nbt": "{display:{Name:\"\\\"§7Nathaniel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas peur du danger !\\\"}\",\"{\\\"text\\\":\\\"§7Not scary about danger!\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

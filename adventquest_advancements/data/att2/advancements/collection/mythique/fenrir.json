@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{CustomModelData:10000002}"
+        },
+        "title": {"translate":"Fenrir"},
+        "description": {"translate":"Hold the mythical sword FENRIR"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "fenrir": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

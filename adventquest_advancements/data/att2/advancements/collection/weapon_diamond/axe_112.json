@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "title": {"translate":"Sacédon"},
+        "description": {"translate":"The truth is yours, and only you can make it heard."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_diamond/axe_105",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_axe_112": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_axe"],
+                    "nbt": "{display:{Name:\"\\\"§9Sacédon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La vérité est tienne, et toi seul\\\"}\",\"{\\\"text\\\":\\\"§7pourra la faire entendre.\\\"}\",\"{\\\"text\\\":\\\"§7The truth is yours, and only\\\"}\",\"{\\\"text\\\":\\\"§7you can make it heard.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7SPD§a1 §7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:16715280}"
+        },
+        "title": {"translate":"Vertu"},
+        "description": {"translate":"All the benefits of nature, in such a small vial."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "splash_potion_36": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:splash_potion"],
+                    "nbt": "{display:{Name:\"\\\"§9Vertu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tous les bienfaits de la nature,\\\"}\",\"{\\\"text\\\":\\\"§7dans une si petite fiole.\\\"}\",\"{\\\"text\\\":\\\"§7All the benefits of nature,\\\"}\",\"{\\\"text\\\":\\\"§7 in such a small vial.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

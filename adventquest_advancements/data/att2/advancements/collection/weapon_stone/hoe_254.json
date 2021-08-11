@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"Battaison"},
+        "description": {"translate":"Piece of wood."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone",
+    "criteria": {
+        "wooden_hoe_254": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§7Battaison\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Morceau de bois.\\\"}\",\"{\\\"text\\\":\\\"§7Piece of wood.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

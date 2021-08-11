@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "title": {"translate":"Le marginal"},
+        "description": {"translate":"If he had a restless youth, I promise him a peaceful old age..."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_netherite/chestplate_284",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "netherite_chestplate_290": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§5Le marginal\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7S'il a eu une jeunesse agitée,\\\"}\",\"{\\\"text\\\":\\\"§7je lui promets une vieillesse paisible...\\\"}\",\"{\\\"text\\\":\\\"§7If he had a restless youth,\\\"}\",\"{\\\"text\\\":\\\"§7I promise him a peaceful old age...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§a1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

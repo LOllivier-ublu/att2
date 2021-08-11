@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_shovel"
+        },
+        "title": {"translate":"Dague d'Améthyste"},
+        "description": {"translate":"The betrayal and murder of the best, so you'll save those you love."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_angband/shovel_148",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "golden_shovel_149": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§9Dague d'Améthyste\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La trahison et le meurtre du meilleur,\\\"}\",\"{\\\"text\\\":\\\"§7ainsi tu sauveras ceux que tu aimes.\\\"}\",\"{\\\"text\\\":\\\"§7The betrayal and murder of the best,\\\"}\",\"{\\\"text\\\":\\\"§7so you'll save those you love.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

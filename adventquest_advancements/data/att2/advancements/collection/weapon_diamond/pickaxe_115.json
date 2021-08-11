@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": {"translate":"Tenacité de Marion"},
+        "description": {"translate":"Solid as a diamond, she goes."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_diamond/pickaxe_114",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_pickaxe_115": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§9Tenacité de Marion\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Solide comme le diamant, elle va.\\\"}\",\"{\\\"text\\\":\\\"§7Solid as a diamond, she goes.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a2 §7HUN§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

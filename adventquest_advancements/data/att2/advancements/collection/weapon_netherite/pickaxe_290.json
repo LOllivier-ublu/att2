@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "title": {"translate":"Le talent d'Aldor"},
+        "description": {"translate":"Serving only to hurt."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_netherite/pickaxe_281",
+    "criteria": {
+        "netherite_pickaxe_290": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§2Le talent d'Aldor\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Servant uniquement à faire mal.\\\"}\",\"{\\\"text\\\":\\\"§7Serving only to hurt.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

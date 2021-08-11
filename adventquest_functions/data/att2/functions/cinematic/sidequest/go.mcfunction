@@ -89,4 +89,4 @@ execute in minecraft:overworld if score SQ55 SIDEQUEST matches 1..99 run functio
 execute in minecraft:overworld if score SQ56 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/56/go
 execute in minecraft:the_nether if score SQ57 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/57/go
 execute in minecraft:overworld if score SQ58 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/58/go
-execute if score SQ59 SIDEQUEST matches 1..99 if entity @a[scores={EXPLOIT=7876..}] run function att2:cinematic/sidequest/59/end
+execute if score SQ59 SIDEQUEST matches 1..99 if entity @a[scores={EXPLOIT=8491..}] run function att2:cinematic/sidequest/59/end

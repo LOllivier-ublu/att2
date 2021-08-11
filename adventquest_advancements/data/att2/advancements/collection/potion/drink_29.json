@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:7012497}"
+        },
+        "title": {"translate":"Quintessence"},
+        "description": {"translate":"Where harmony takes place, the great work can be accomplished."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/drink_28",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "potion_29": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§6Quintessence\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Là où l'harmonie s'opère,\\\"}\",\"{\\\"text\\\":\\\"§7le grand oeuvre peut s'accomplir.\\\"}\",\"{\\\"text\\\":\\\"§7Where harmony takes place,\\\"}\",\"{\\\"text\\\":\\\"§7the great work can be accomplished.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7SPD§a2 §7DAR§a2 §7HUN§a2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:12022783}"
+        },
+        "title": {"translate":"Préparation Subtile"},
+        "description": {"translate":"A hidden formula, an art mastered, and it's done."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_16",
+    "criteria": {
+        "potion_17": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§2Préparation Subtile\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une formule cachée, un art maîtrisé,\\\"}\",\"{\\\"text\\\":\\\"§7et le tour est joué.\\\"}\",\"{\\\"text\\\":\\\"§7A hidden formula, an art mastered,\\\"}\",\"{\\\"text\\\":\\\"§7and it's done.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

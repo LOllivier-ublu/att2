@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": {"translate":"Flamberge"},
+        "description": {"translate":"The barbarian's favorite sword."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_netherite/sword_304",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "netherite_sword_305": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_sword"],
+                    "nbt": "{display:{Name:\"\\\"§9Flamberge\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'épée préférée du barbare.\\\"}\",\"{\\\"text\\\":\\\"§7The barbarian's favorite sword.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§a1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

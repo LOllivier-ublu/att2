@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_helmet"
+        },
+        "title": {"translate":"Fausse couronne"},
+        "description": {"translate":"Almost as expensive."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_diamond/helmet_169",
+    "criteria": {
+        "diamond_helmet_176": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§2Fausse couronne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Presque aussi cher.\\\"}\",\"{\\\"text\\\":\\\"§7Almost as expensive.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

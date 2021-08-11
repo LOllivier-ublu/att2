@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Tranche"},
+        "description": {"translate":"Fast it comes and nothing stops it."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_stone/sword_23",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "wooden_sword_24": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_sword"],
+                    "nbt": "{display:{Name:\"\\\"§9Tranche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rapide elle vient et rien ne l'arrête.\\\"}\",\"{\\\"text\\\":\\\"§7Fast it comes and nothing stops it.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§a2 §7STR§c-1 §7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

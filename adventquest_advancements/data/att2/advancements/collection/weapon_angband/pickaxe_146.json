@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "title": {"translate":"Post-cataclysme"},
+        "description": {"translate":"To you the eldest that killed so many beasts with its strokes."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_angband/pickaxe_139",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "golden_pickaxe_146": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§9Post-cataclysme\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Toi l'aînée dont les coups firent\\\"}\",\"{\\\"text\\\":\\\"§7périr tant de bêtes.\\\"}\",\"{\\\"text\\\":\\\"§7To you the eldest that killed so\\\"}\",\"{\\\"text\\\":\\\"§7many beasts with its strokes.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-3 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

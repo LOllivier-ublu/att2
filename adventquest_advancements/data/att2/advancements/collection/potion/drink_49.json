@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:6579300}"
+        },
+        "title": {"translate":"Potion ratée"},
+        "description": {"translate":"For sorcerer's apprentices."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_48",
+    "criteria": {
+        "potion_49": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Potion ratée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pour les apprentis sorciers.\\\"}\",\"{\\\"text\\\":\\\"§7For sorcerer's apprentices.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

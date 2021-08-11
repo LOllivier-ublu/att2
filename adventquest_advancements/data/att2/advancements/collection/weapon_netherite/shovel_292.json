@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_shovel"
+        },
+        "title": {"translate":"Serpe"},
+        "description": {"translate":"Brushing becomes your hobby."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_netherite/shovel_283",
+    "criteria": {
+        "netherite_shovel_292": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§2Serpe\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Débroussailler devient ton passe-temps.\\\"}\",\"{\\\"text\\\":\\\"§7Brushing becomes your hobby.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

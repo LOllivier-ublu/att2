@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Soulier du dimanche"},
+        "description": {"translate":"Elegance will make you pleased."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_leather/boots_39",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_boots_46": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_boots"],
+                    "nbt": "{display:{Name:\"\\\"§9Soulier du dimanche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'élégance vous rendra heureux.\\\"}\",\"{\\\"text\\\":\\\"§7Elegance will make you pleased.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7SPD§c-2\\\"}\"],color:5558126}}"
+                    }
+                ]
+            }
+        }
+    }
+}

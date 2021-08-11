@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Absolue Tenacité"},
+        "description": {"translate":"Endures, proud as the sky, tenacious as time, to the unattainable horizon of perseverance."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_billgart/shield_195",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "shield_196": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:shield"],
+                    "nbt": "{display:{Name:\"\\\"§6Absolue Tenacité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Endure, fier comme le ciel, tenace comme le temps,\\\"}\",\"{\\\"text\\\":\\\"§7jusqu'à l'horizon inaccessible de persévérance.\\\"}\",\"{\\\"text\\\":\\\"§7Endures, proud as the sky, tenacious as time,\\\"}\",\"{\\\"text\\\":\\\"§7to the unattainable horizon of perseverance.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a2 §7HUN§a2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

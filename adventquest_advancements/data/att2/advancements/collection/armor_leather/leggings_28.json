@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "title": {"translate":"Braies pauvres"},
+        "description": {"translate":"Too many times soiled."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather",
+    "criteria": {
+        "leather_leggings_28": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§7Baies pauvres\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trop de fois souillées.\\\"}\",\"{\\\"text\\\":\\\"§7Too many times soiled.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1 §7SPD§c-1\\\"}\"],color:6446425}}"
+                    }
+                ]
+            }
+        }
+    }
+}

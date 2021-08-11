@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_hoe"
+        },
+        "title": {"translate":"Râle d'agonie"},
+        "description": {"translate":"Son of the cries of suffering,	eternal memory of the unfortunate ones who fell under its yoke."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_iron/hoe_260",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "iron_hoe_269": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§6Râle d'agonie\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fils des cris de souffrance,\\\"}\",\"{\\\"text\\\":\\\"§7éternel souvenir des malheureux tombés sous son joug.\\\"}\",\"{\\\"text\\\":\\\"§7Son of the cries of suffering,\\\"}\",\"{\\\"text\\\":\\\"§7eternal memory of the unfortunate ones who fell under its yoke.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HER§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

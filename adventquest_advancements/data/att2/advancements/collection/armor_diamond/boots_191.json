@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "title": {"translate":"Ecrin de célérité"},
+        "description": {"translate":"They carry you everywhere so be worthy and give them the best protection."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_diamond/boots_190",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_boots_191": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_boots"],
+                    "nbt": "{display:{Name:\"\\\"§9Ecrin de célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ils vous porte partout alors soyez-en\\\"}\",\"{\\\"text\\\":\\\"§7digne et donnez leur la plus belle des protections.\\\"}\",\"{\\\"text\\\":\\\"§7They carry you everywhere so be worthy\\\"}\",\"{\\\"text\\\":\\\"§7and give them the best protection.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7RES§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

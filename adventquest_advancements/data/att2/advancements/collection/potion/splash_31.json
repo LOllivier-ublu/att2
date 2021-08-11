@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:6472250}"
+        },
+        "title": {"translate":"Mort aux rats"},
+        "description": {"translate":"Altered effects on dark beings."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/splash_30",
+    "criteria": {
+        "splash_potion_31": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:splash_potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Mort aux rats\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Effets altérés sur les êtres ténébreux.\\\"}\",\"{\\\"text\\\":\\\"§7Altered effects on dark beings.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:11735039}"
+        },
+        "title": {"translate":"Elixir Prestigieux"},
+        "description": {"translate":"The Dahäl cannot be missed by anyone who tastes this beverage."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/drink_24",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "potion_25": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§5Elixir Prestigieux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le Dahäl ne peut manquer,\\\"}\",\"{\\\"text\\\":\\\"§7à celui qui goute à ce breuvage.\\\"}\",\"{\\\"text\\\":\\\"§7The Dahäl cannot be missed\\\"}\",\"{\\\"text\\\":\\\"§7by anyone who tastes this beverage.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a4 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

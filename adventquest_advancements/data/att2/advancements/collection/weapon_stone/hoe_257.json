@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"Haste banale"},
+        "description": {"translate":"Convenient for defending yourself from cavalry."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone/hoe_256",
+    "criteria": {
+        "wooden_hoe_257": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§2Haste banale\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pratique pour se défendre de la cavalerie.\\\"}\",\"{\\\"text\\\":\\\"§7Convenient for defending yourself from cavalry.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

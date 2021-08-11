@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "title": {"translate":"Collection"},
+        "description": {"translate":"Catch them all !"},
+        "background": "minecraft:textures/block/diamond_block.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:fishing_rod"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": {"translate":"Erosion"},
+        "description": {"translate":"The dust of what was once a mighty golem."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_billgart/sword_184",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "stone_sword_185": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_sword"],
+                    "nbt": "{display:{Name:\"\\\"§9Erosion\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les poussières de ce qui fut \\\"}\",\"{\\\"text\\\":\\\"§7jadis un puissant golem.\\\"}\",\"{\\\"text\\\":\\\"§7The dust of what was once \\\"}\",\"{\\\"text\\\":\\\"§7a mighty golem.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HER§a1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": {"translate":"Estoc de l'asservi"},
+        "description": {"translate":"Equipment of the infantryman, forced to the allegiance of his king."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_netherite/sword_295",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "netherite_sword_304": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_sword"],
+                    "nbt": "{display:{Name:\"\\\"§9Estoc de l'asservi\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Equipement du fantassin, contraint\\\"}\",\"{\\\"text\\\":\\\"§7à l'allégeance de son roi.\\\"}\",\"{\\\"text\\\":\\\"§7Equipment of the infantryman, forced\\\"}\",\"{\\\"text\\\":\\\"§7to the allegiance of his king.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

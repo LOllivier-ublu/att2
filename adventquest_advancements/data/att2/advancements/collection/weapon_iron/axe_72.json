@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {"translate":"Coupe bois"},
+        "description": {"translate":"But also the bones !"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_iron/axe_65",
+    "criteria": {
+        "iron_axe_72": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_axe"],
+                    "nbt": "{display:{Name:\"\\\"§2Coupe bois\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mais aussi les os !\\\"}\",\"{\\\"text\\\":\\\"§7But also the bones !\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

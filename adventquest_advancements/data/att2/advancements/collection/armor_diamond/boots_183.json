@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "title": {"translate":"Botte du premier enfant"},
+        "description": {"translate":"All that remains are relics of the old traditions."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_diamond/boots_182",
+    "criteria": {
+        "diamond_boots_183": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_boots"],
+                    "nbt": "{display:{Name:\"\\\"§2Botte du premier enfant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il ne reste plus que des reliques\\\"}\",\"{\\\"text\\\":\\\"§7des vielles traditions.\\\"}\",\"{\\\"text\\\":\\\"§7All that remains are relics\\\"}\",\"{\\\"text\\\":\\\"§7of the old traditions.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

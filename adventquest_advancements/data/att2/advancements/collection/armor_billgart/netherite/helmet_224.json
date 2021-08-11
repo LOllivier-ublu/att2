@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_helmet"
+        },
+        "title": {"translate":"Tête luisante"},
+        "description": {"translate":"Never reveals itself."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_billgart",
+    "criteria": {
+        "netherite_helmet_224": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§2Tête luisante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ne se dévoile jamais.\\\"}\",\"{\\\"text\\\":\\\"§7Never reveals itself.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

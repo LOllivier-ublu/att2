@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:10708955}"
+        },
+        "title": {"translate":"Philtre magique"},
+        "description": {"translate":"Enough to prove the sincerity of intentions, laudable to the creations of these infusions."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion/drink_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "potion_54": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§5Philtre magique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7De quoi prouver la sincérité des intentions,\\\"}\",\"{\\\"text\\\":\\\"§7louables à la créations de ces infusions.\\\"}\",\"{\\\"text\\\":\\\"§7Enough to prove the sincerity of intentions,\\\"}\",\"{\\\"text\\\":\\\"§7laudable to the creations of these infusions.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a3 §7HUN§a1 §7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_shovel"
+        },
+        "title": {"translate":"Tentative d'Hérold"},
+        "description": {"translate":"A piece of junk worthy of the name."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband",
+    "criteria": {
+        "golden_shovel_133": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§7Tentative d'Hérold\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un bout de ferraille digne de ce nom.\\\"}\",\"{\\\"text\\\":\\\"§7A piece of junk worthy of the name.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1 §7DAR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "title": {"translate":"Bâton travaillé"},
+        "description": {"translate":"Rather primitive as an instrument..."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband/hoe_320",
+    "criteria": {
+        "golden_hoe_321": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§2Bâton travaillé\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plutôt primitif comme instrument...\\\"}\",\"{\\\"text\\\":\\\"§7Rather primitive as an instrument...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

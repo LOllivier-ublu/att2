@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_helmet"
+        },
+        "title": {"translate":"Fausse toque"},
+        "description": {"translate":"Definitely not for cooking."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_diamond/helmet_168",
+    "criteria": {
+        "diamond_helmet_169": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§7Fausse toque\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Décidément pas pour la cuisine.\\\"}\",\"{\\\"text\\\":\\\"§7Definitely not for cooking.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

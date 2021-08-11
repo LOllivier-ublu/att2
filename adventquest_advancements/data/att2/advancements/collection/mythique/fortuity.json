@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword",
+            "nbt": "{CustomModelData:10000000}"
+        },
+        "title": {"translate":"Fortuity"},
+        "description": {"translate":"Hold the mythical sword FORTUITY"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 50
+                },
+    "criteria": {
+        "fortuity": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

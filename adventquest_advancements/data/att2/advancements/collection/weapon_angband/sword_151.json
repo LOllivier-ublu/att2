@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "title": {"translate":"Anteterän"},
+        "description": {"translate":"The only thing that sets you apart	from them is your ancestry..."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_angband/sword_150",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "golden_sword_151": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_sword"],
+                    "nbt": "{display:{Name:\"\\\"§9Anteterän\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La seule chose qui te différencie\\\"}\",\"{\\\"text\\\":\\\"§7d'eux, est ton ascendance...\\\"}\",\"{\\\"text\\\":\\\"§7The only thing that sets you apart\\\"}\",\"{\\\"text\\\":\\\"§7from them is your ancestry...\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7SPD§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

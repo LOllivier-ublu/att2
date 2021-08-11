@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "title": {"translate":"Pantalon de Pascal"},
+        "description": {"translate":"He's still looking for them."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather/leggings_28",
+    "criteria": {
+        "leather_leggings_29": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§7Pantalon de Pascal\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il les cherche encore.\\\"}\",\"{\\\"text\\\":\\\"§7He's still looking for them.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7HUN§c-1\\\"}\"],color:10440503}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe",
+            "nbt": "{CustomModelData:10000005}"
+        },
+        "title": {"translate":"Sästr"},
+        "description": {"translate":"Hold the mythical mace SÄSTR"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "sastr": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

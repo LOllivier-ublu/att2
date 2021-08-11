@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_leggings"
+        },
+        "title": {"translate":"Porte bleu"},
+        "description": {"translate":"Does not protect against bruising."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_chainmail",
+    "criteria": {
+        "chainmail_leggings_72": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:chainmail_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§7Porte bleu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ne protège pas des hématomes.\\\"}\",\"{\\\"text\\\":\\\"§7Does not protect against bruising.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

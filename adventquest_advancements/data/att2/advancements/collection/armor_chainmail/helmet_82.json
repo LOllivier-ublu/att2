@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_helmet"
+        },
+        "title": {"translate":"La dame des bois"},
+        "description": {"translate":"Graceful, her elegance shines through and punishes the villain."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_chainmail",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "chainmail_helmet_82": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:chainmail_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9La dame des bois\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Gracieuse, son élégance rayonne\\\"}\",\"{\\\"text\\\":\\\"§7et châtie le vilain.\\\"}\",\"{\\\"text\\\":\\\"§7Graceful, her elegance shines through\\\"}\",\"{\\\"text\\\":\\\"§7and punishes the villain.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§a1 §7DAR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

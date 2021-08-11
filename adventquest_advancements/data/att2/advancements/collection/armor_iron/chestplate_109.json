@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "title": {"translate":"Plaque percée"},
+        "description": {"translate":"At many points it survived."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_iron/chestplate_102",
+    "criteria": {
+        "iron_chestplate_109": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§2Plaque percée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A de nombreuses pointes elle survécut.\\\"}\",\"{\\\"text\\\":\\\"§7At many points it survived.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

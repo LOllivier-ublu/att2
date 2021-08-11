@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": {"translate":"Méloquien"},
+        "description": {"translate":"Immense and unshakeable, you persist."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_diamond/pickaxe_107",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_pickaxe_114": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§9Méloquien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Immense et inébranlable, tu persistes.\\\"}\",\"{\\\"text\\\":\\\"§7Immense and unshakeable, you persist.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-1 §7SPD§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

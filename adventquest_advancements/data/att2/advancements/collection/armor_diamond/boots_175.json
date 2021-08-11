@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "title": {"translate":"Pointe-pied"},
+        "description": {"translate":"She wore them so elegantly."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_diamond/boots_174",
+    "criteria": {
+        "diamond_boots_175": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_boots"],
+                    "nbt": "{display:{Name:\"\\\"§7Pointe-pied\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle les portait avec tant d'élégance.\\\"}\",\"{\\\"text\\\":\\\"§7She wore them so elegantly.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

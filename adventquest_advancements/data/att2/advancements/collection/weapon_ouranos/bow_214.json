@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Fumée claire"},
+        "description": {"translate":"More intense than a cloud."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_ouranos",
+    "criteria": {
+        "bow_214": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:bow"],
+                    "nbt": "{display:{Name:\"\\\"§2Fumée claire\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus intense qu'un nuage.\\\"}\",\"{\\\"text\\\":\\\"§7More intense than a cloud.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

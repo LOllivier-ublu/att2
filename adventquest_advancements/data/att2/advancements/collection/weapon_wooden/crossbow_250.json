@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Empaumure modifiée"},
+        "description": {"translate":"A cabinet maker with an imagination might surprise you."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_wooden/crossbow_249",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "crossbow_250": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:crossbow"],
+                    "nbt": "{display:{Name:\"\\\"§9Empaumure modifiée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un ébeniste avec de l'imagination\\\"}\",\"{\\\"text\\\":\\\"§7pourrait vous surprendre.\\\"}\",\"{\\\"text\\\":\\\"§7A cabinet maker with an imagination\\\"}\",\"{\\\"text\\\":\\\"§7might surprise you.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HER§a1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

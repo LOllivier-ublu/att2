@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "title": {"translate":"Broigne fragile"},
+        "description": {"translate":"Compact but not very defensive."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_netherite",
+    "criteria": {
+        "netherite_chestplate_267": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§7Broigne fragile\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Peu encombrant mais peu défensif.\\\"}\",\"{\\\"text\\\":\\\"§7Compact but not very defensive.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

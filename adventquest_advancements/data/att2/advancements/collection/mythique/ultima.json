@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{CustomModelData:10000004}"
+        },
+        "title": {"translate":"Ultima"},
+        "description": {"translate":"Hold the mythical sword ULTIMA"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "experience": 50000
+                },
+    "criteria": {
+        "ultima": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

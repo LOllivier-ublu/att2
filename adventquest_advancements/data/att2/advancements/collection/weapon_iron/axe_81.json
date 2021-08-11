@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {"translate":"Exécuteur"},
+        "description": {"translate":"Beheaded, beheading and will behead."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_iron/axe_80",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "iron_axe_81": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_axe"],
+                    "nbt": "{display:{Name:\"\\\"§9Exécuteur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Décapita, décapite et décapitera.\\\"}\",\"{\\\"text\\\":\\\"§7Beheaded, beheading and will behead.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

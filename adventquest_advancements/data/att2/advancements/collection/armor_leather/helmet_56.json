@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Capuche suspecte"},
+        "description": {"translate":"Among the crowd he knows how to hide, and without anyone seeing, he strikes."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_leather/helmet_41",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_helmet_56": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9Capuche suspecte\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Parmi la foule il sait se cacher,\\\"}\",\"{\\\"text\\\":\\\"§7et sans que personne ne voit, il frappe.\\\"}\",\"{\\\"text\\\":\\\"§7Among the crowd he knows how to hide,\\\"}\",\"{\\\"text\\\":\\\"§7and without anyone seeing, he strikes.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§c-2\\\"}\"],color:5507847}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Ecu de Scheströwn"},
+        "description": {"translate":"Wears the Scheströwn emblem."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_wooden/shield_54",
+    "criteria": {
+        "shield_55": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:shield"],
+                    "nbt": "{display:{Name:\"\\\"§2Ecu de Scheströwn\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Arbore l'emblème de Scheströwn.\\\"}\",\"{\\\"text\\\":\\\"§7Wears the Scheströwn emblem.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

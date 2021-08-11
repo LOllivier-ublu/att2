@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Sabots"},
+        "description": {"translate":"Uncomfortable, but hot."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather",
+    "criteria": {
+        "leather_boots_30": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_boots"],
+                    "nbt": "{display:{Name:\"\\\"§7Sabots\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inconfortable, mais chaud.\\\"}\",\"{\\\"text\\\":\\\"§7Uncomfortable, but hot.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2\\\"}\"],color:13418131}}"
+                    }
+                ]
+            }
+        }
+    }
+}

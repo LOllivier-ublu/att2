@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_leggings"
+        },
+        "title": {"translate":"Haut-de-chausses"},
+        "description": {"translate":"One can be elegant and just as tough."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_netherite/leggings_285",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "netherite_leggings_286": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§9Haut-de-chausses\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7On peut être élégant et tout aussi endurci.\\\"}\",\"{\\\"text\\\":\\\"§7One can be elegant and just as tough.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7DAR§a1 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

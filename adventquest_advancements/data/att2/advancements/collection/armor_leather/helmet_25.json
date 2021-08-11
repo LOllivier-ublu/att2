@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Couvre-chef"},
+        "description": {"translate":"Protects from the sun."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather/helmet_24",
+    "criteria": {
+        "leather_helmet_25": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§7Couvre-chef\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Protège du soleil.\\\"}\",\"{\\\"text\\\":\\\"§7Protects from the sun.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"],color:3044734}}"
+                    }
+                ]
+            }
+        }
+    }
+}

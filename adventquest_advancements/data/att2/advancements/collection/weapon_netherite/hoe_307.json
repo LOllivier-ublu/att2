@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_hoe"
+        },
+        "title": {"translate":"Perfection du lancier"},
+        "description": {"translate":"Who seeks perfection, will achieve excellence."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_netherite/hoe_306",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "netherite_hoe_307": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§9Perfection du lancier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Qui cherche la perfection,\\\"}\",\"{\\\"text\\\":\\\"§7aboutira à l'excellence.\\\"}\",\"{\\\"text\\\":\\\"§7Who seeks perfection,\\\"}\",\"{\\\"text\\\":\\\"§7will achieve excellence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

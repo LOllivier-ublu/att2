@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"Faux Skéléo"},
+        "description": {"translate":"The best, of the best, of... the worst."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_ouranos",
+    "criteria": {
+        "diamond_chestplate_334": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§2Faux Skéléo\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le meilleur, du meilleur, du... plus nul.\\\"}\",\"{\\\"text\\\":\\\"§7The best, of the best, of... the worst.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7SPD§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

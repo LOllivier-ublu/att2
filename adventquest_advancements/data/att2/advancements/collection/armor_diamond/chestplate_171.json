@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"Plastron usé"},
+        "description": {"translate":"It is still here, though."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_diamond/chestplate_170",
+    "criteria": {
+        "diamond_chestplate_171": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§7Plastron usé\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il est pourtant encore là.\\\"}\",\"{\\\"text\\\":\\\"§7It is still here, though.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-1 §7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

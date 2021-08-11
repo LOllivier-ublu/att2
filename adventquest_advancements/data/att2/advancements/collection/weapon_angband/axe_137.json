@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_axe"
+        },
+        "title": {"translate":"Fléau des orgaves"},
+        "description": {"translate":"No trunk ever resisted you."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband/axe_136",
+    "criteria": {
+        "golden_axe_137": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_axe"],
+                    "nbt": "{display:{Name:\"\\\"§2Fléau des orgaves\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Jamais aucun tronc ne te résista.\\\"}\",\"{\\\"text\\\":\\\"§7No trunk ever resisted you.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

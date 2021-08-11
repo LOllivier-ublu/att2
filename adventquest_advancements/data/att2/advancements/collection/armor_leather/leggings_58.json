@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "title": {"translate":"Collants suspects"},
+        "description": {"translate":"Among the crowd he knows how to hide, and without anyone seeing, he strikes."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_leather/leggings_45",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_leggings_58": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§9Collants suspects\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Parmi la foule il sait se cacher,\\\"}\",\"{\\\"text\\\":\\\"§7et sans que personne ne voit, il frappe.\\\"}\",\"{\\\"text\\\":\\\"§7Among the crowd he knows how to hide,\\\"}\",\"{\\\"text\\\":\\\"§7and without anyone seeing, he strikes.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7RES§c-2\\\"}\"],color:5507847}}"
+                    }
+                ]
+            }
+        }
+    }
+}

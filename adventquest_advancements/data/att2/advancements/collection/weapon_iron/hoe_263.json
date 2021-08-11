@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_hoe"
+        },
+        "title": {"translate":"Javelot lourd"},
+        "description": {"translate":"Very difficult to handle."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_iron/hoe_262",
+    "criteria": {
+        "iron_hoe_263": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§7Javelot lourd\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Très difficile à manier.\\\"}\",\"{\\\"text\\\":\\\"§7Very difficult to handle.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

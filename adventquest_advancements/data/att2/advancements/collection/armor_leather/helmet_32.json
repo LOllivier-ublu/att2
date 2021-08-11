@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Voile épais"},
+        "description": {"translate":"Not even elegant."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather/helmet_25",
+    "criteria": {
+        "leather_helmet_32": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§2Voile épais\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Même pas élégant.\\\"}\",\"{\\\"text\\\":\\\"§7Not even elegant.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1\\\"}\"],color:5346949}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": {"translate":"Rark ul"},
+        "description": {"translate":"Disappointing."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_billgart",
+    "criteria": {
+        "stone_sword_177": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_sword"],
+                    "nbt": "{display:{Name:\"\\\"§7Rark ul\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Décevant.\\\"}\",\"{\\\"text\\\":\\\"§7Disappointing.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1 §7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

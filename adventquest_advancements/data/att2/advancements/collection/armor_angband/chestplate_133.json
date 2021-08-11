@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "title": {"translate":"Palque en or"},
+        "description": {"translate":"More beautiful than useful."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_angband",
+    "criteria": {
+        "golden_chestplate_133": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§7Palque en or\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus belle qu'utile.\\\"}\",\"{\\\"text\\\":\\\"§7More beautiful than useful.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "title": {"translate":"Braies délabrées"},
+        "description": {"translate":"Slightly increase your	Dahäl regeneration."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather",
+    "criteria": {
+        "leather_leggings_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§7Braies délabrées\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Augmente légèrement votre\\\"}\",\"{\\\"text\\\":\\\"§7récupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§7Slightly increase your\\\"}\",\"{\\\"text\\\":\\\"§7Dahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7STR§c-1 §7SPD§c-1 §7HUN§c-1\\\"}\"],color:6568012}}"
+                    }
+                ]
+            }
+        }
+    }
+}

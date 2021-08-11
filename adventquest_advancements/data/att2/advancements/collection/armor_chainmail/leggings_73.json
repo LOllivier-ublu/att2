@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_leggings"
+        },
+        "title": {"translate":"Froide peau"},
+        "description": {"translate":"And slimy too."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_chainmail/leggings_72",
+    "criteria": {
+        "chainmail_leggings_73": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:chainmail_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§7Froide peau\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Et gluante en plus.\\\"}\",\"{\\\"text\\\":\\\"§7And slimy too.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1 §7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

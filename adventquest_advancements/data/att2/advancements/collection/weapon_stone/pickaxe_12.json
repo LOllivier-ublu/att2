@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {"translate":"Frappeur"},
+        "description": {"translate":"Knock, knock..."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone/pickaxe_11",
+    "criteria": {
+        "wooden_pickaxe_12": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§2Frappeur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Briser les os.\\\"}\",\"{\\\"text\\\":\\\"§7Break bones.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-3\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

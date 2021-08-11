@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"Buste superbe"},
+        "description": {"translate":"You'll wear it with pride!"},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_ouranos/diamond/chestplate_342",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_chestplate_253": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§9Buste superbe\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tu le porteras avec fierté !\\\"}\",\"{\\\"text\\\":\\\"§7You'll wear it with pride!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7LUC§a1 §7SPD§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

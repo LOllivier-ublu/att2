@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Compagnon"},
+        "description": {"translate":"A journey is more pleasant with friends."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_ouranos/crossbow_326",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "crossbow_327": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:crossbow"],
+                    "nbt": "{display:{Name:\"\\\"§9Compagnon\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un périple est plus agréable entre amis.\\\"}\",\"{\\\"text\\\":\\\"§7A journey is more pleasant with friends.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HUN§a1 §7RES§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

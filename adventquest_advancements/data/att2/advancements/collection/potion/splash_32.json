@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:11846248}"
+        },
+        "title": {"translate":"Erratum"},
+        "description": {"translate":"Dangerous, heretical decoction."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/splash_31",
+    "criteria": {
+        "splash_potion_32": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:splash_potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Erratum\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Décoction dangereuse, hérétique.\\\"}\",\"{\\\"text\\\":\\\"§7Dangerous, heretical decoction.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword",
+            "nbt": "{CustomModelData:10000007}"
+        },
+        "title": {"translate":"Blutfresser"},
+        "description": {"translate":"Hold the mythical sword BLUTFRESSER"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
+                },
+    "criteria": {
+        "blutfresser": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_shovel"
+        },
+        "title": {"translate":"Veille finale"},
+        "description": {"translate":"Contemplative, as for the unattainable tomorrows; but impatient as well as desperate for the end."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_ouranos/shovel_212",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "stone_shovel_213": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§6Veille finale\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Contemplatif, quant aux lendemains inaccessibles;\\\"}\",\"{\\\"text\\\":\\\"§7mais impatient tout autant que désespéré par la fin.\\\"}\",\"{\\\"text\\\":\\\"§7Contemplative, as for the unattainable tomorrows;\\\"}\",\"{\\\"text\\\":\\\"§7but impatient as well as desperate for the end.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a4 §7RES§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

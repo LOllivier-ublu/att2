@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "title": {"translate":"Coupecoupe"},
+        "description": {"translate":"Still sharp..."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone/shovel_6",
+    "criteria": {
+        "wooden_shovel_13": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§2Coupecoupe\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Coupe encore...\\\"}\",\"{\\\"text\\\":\\\"§7Still sharp...\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "title": {"translate":"Heaume ancien"},
+        "description": {"translate":"Rub it to make it shine."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_angband",
+    "criteria": {
+        "golden_helmet_131": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§7Heaume ancien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Frottez-le pour le faire briller.\\\"}\",\"{\\\"text\\\":\\\"§7Rub it to make it shine.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

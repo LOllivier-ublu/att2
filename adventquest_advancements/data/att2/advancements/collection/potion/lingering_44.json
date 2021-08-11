@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lingering_potion",
+            "nbt": "{CustomPotionColor:1315080}"
+        },
+        "title": {"translate":"Embuscade"},
+        "description": {"translate":"Thus closes the trap on the carefree and the idiots."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/potion",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "lingering_potion_44": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:lingering_potion"],
+                    "nbt": "{display:{Name:\"\\\"§5Embuscade\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ainsi se referme le traquenard\\\"}\",\"{\\\"text\\\":\\\"§7sur les insouciants et les idiots.\\\"}\",\"{\\\"text\\\":\\\"§7Thus closes the trap\\\"}\",\"{\\\"text\\\":\\\"§7on the carefree and the idiots.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

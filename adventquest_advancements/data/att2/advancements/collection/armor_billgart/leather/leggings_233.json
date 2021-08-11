@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "title": {"translate":"Grèves ensanglantées"},
+        "description": {"translate":"Were violently pierced by the wide fangs of the nisirion."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_billgart/leather/leggings_226",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_leggings_233": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§9Grèves ensanglantées\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Furent violemment percées par\\\"}\",\"{\\\"text\\\":\\\"§7les larges crocs du nisirion.\\\"}\",\"{\\\"text\\\":\\\"§7Were violently pierced by\\\"}\",\"{\\\"text\\\":\\\"§7the wide fangs of the nisirion.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

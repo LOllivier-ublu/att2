@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {"translate":"Masse"},
+        "description": {"translate":"Very heavy."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_stone",
+    "criteria": {
+        "wooden_pickaxe_3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§7Masse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vielle et fissurée.\\\"}\",\"{\\\"text\\\":\\\"§7Old and cracked.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

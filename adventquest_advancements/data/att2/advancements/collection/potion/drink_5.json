@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:11195266}"
+        },
+        "title": {"translate":"Tisane"},
+        "description": {"translate":"Soothes pain and treats osteoarthritis."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_4",
+    "criteria": {
+        "potion_5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Tisane\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Apaise la douleur \\\"}\",\"{\\\"text\\\":\\\"§7et soigne l'arthrose.\\\"}\",\"{\\\"text\\\":\\\"§7Soothes pain\\\"}\",\"{\\\"text\\\":\\\"§7and treats osteoarthritis.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

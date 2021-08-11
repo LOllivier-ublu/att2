@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Vieille capuche"},
+        "description": {"translate":"Dragged on the floor."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_leather",
+    "criteria": {
+        "leather_helmet_24": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§7Vieille capuche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A traîné par terre.\\\"}\",\"{\\\"text\\\":\\\"§7Dragged on the floor.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7HUN§c-1\\\"}\"],color:8948846}}"
+                    }
+                ]
+            }
+        }
+    }
+}

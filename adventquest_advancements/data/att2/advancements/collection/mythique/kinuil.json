@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe",
+            "nbt": "{CustomModelData:10000001}"
+        },
+        "title": {"translate":"Kinuil"},
+        "description": {"translate":"Hold the mythical axe KINUIL"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 50000
+                },
+    "criteria": {
+        "kinuil": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

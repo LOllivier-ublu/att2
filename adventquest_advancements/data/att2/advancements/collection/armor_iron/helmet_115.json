@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_helmet"
+        },
+        "title": {"translate":"Tête de l'érudit"},
+        "description": {"translate":"Protects your thoughts, literally."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_iron/helmet_108",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "iron_helmet_115": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9Tête de l'érudit\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Protège vos pensées, littéralement.\\\"}\",\"{\\\"text\\\":\\\"§7Protects your thoughts, literally.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a1 §7HUN§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

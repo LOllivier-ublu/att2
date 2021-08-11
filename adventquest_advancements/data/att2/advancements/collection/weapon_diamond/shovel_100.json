@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "title": {"translate":"Gemme coupante"},
+        "description": {"translate":"Treasure of nature."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_diamond",
+    "criteria": {
+        "diamond_shovel_100": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§7Gemme coupante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trésor de la nature.\\\"}\",\"{\\\"text\\\":\\\"§7Treasure of nature.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

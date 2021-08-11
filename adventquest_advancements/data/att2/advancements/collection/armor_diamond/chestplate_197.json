@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"Umbra métilnuji"},
+        "description": {"translate":"A diamond among diamonds, a deity-like rescue."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_diamond/chestplate_201",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "diamond_chestplate_197": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§6Umbra métilnuji\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une diamant parmi les diamants,\\\"}\",\"{\\\"text\\\":\\\"§7un secours seyant celui d'une déité.\\\"}\",\"{\\\"text\\\":\\\"§7A diamond among diamonds,\\\"}\",\"{\\\"text\\\":\\\"§7a deity-like rescue.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a2 §7HAS§a2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

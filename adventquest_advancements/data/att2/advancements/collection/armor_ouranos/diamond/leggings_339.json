@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_leggings"
+        },
+        "title": {"translate":"Trépas du marcheur blanc"},
+        "description": {"translate":"Unlucky is the one who will wear this. A futal that stinks."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_ouranos/diamond/leggings_335",
+    "criteria": {
+        "diamond_leggings_339": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§2Trépas du marcheur blanc\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Malchanceux celui qui portera ceci.\\\"}\",\"{\\\"text\\\":\\\"§7Un futal qui pue quoi.\\\"}\",\"{\\\"text\\\":\\\"§7Unlucky is the one who will wear this.\\\"}\",\"{\\\"text\\\":\\\"§7A futal that stinks.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7LUC§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

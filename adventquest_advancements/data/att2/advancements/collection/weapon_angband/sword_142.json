@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_sword"
+        },
+        "title": {"translate":"Paresse de Dégiel"},
+        "description": {"translate":"A good excuse for doing nothing."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband/sword_135",
+    "criteria": {
+        "golden_sword_142": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_sword"],
+                    "nbt": "{display:{Name:\"\\\"§2Paresse de Dégiel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une bonne excuse pour ne rien faire.\\\"}\",\"{\\\"text\\\":\\\"§7A good excuse for doing nothing.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HER§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

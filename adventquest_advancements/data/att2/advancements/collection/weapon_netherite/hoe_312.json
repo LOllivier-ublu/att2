@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_hoe"
+        },
+        "title": {"translate":"Fin Doldro"},
+        "description": {"translate":"Only the dead see the end of the war..."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_netherite/hoe_307",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "netherite_hoe_312": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§5Fin Doldro\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Seuls les morts voient\\\"}\",\"{\\\"text\\\":\\\"§7la fin de la guerre...\\\"}\",\"{\\\"text\\\":\\\"§7Only the dead see\\\"}\",\"{\\\"text\\\":\\\"§7the end of the war...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a4 §7LUC§a1 §7HER§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

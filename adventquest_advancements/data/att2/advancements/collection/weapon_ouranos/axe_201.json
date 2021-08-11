@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_axe"
+        },
+        "title": {"translate":"Equarisseur"},
+        "description": {"translate":"The beasts fear you."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_ouranos/axe_200",
+    "criteria": {
+        "stone_axe_201": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_axe"],
+                    "nbt": "{display:{Name:\"\\\"§2Equarisseur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les bêtes te craignent.\\\"}\",\"{\\\"text\\\":\\\"§7The beasts fear you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

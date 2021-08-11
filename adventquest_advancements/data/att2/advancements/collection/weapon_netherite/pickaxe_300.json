@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "title": {"translate":"Maillet argenté"},
+        "description": {"translate":"A glimmer of hope."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_netherite/pickaxe_291",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "netherite_pickaxe_300": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§9Maillet argenté\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une lueur d'espoir.\\\"}\",\"{\\\"text\\\":\\\"§7A glimmer of hope.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

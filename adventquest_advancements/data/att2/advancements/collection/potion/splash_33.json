@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{CustomPotionColor:5262918}"
+        },
+        "title": {"translate":"Dissolvant"},
+        "description": {"translate":"Solve et coagula."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/splash_32",
+    "criteria": {
+        "splash_potion_33": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:splash_potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Dissolvant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Solve et coagula.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

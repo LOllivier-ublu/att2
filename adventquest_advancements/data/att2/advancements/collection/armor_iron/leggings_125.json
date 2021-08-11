@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_leggings"
+        },
+        "title": {"translate":"Mirobolantes"},
+        "description": {"translate":"Are to the firmament what starlight is."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_iron/leggings_120",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "iron_leggings_125": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_leggings"],
+                    "nbt": "{display:{Name:\"\\\"§5Mirobolantes\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sont au firmament ce qu'est\\\"}\",\"{\\\"text\\\":\\\"§7la lumière des étoiles.\\\"}\",\"{\\\"text\\\":\\\"§7Are to the firmament\\\"}\",\"{\\\"text\\\":\\\"§7what starlight is.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1 §7SPD§a1 §7DAR§a1 §7LUC§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "title": {"translate":"Pointe rudimentaire"},
+        "description": {"translate":"Ineffective at will."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_angband",
+    "criteria": {
+        "golden_hoe_318": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§7Pointe rudimentaire\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Inefficace à souhait.\\\"}\",\"{\\\"text\\\":\\\"§7Ineffective at will.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

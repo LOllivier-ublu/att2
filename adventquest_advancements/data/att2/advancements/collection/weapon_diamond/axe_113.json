@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "title": {"translate":"Hache bénie"},
+        "description": {"translate":"Only waits for a master to absolve evil."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_diamond/axe_112",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_axe_113": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_axe"],
+                    "nbt": "{display:{Name:\"\\\"§9Hache bénie\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7N'attend qu'un maître pour\\\"}\",\"{\\\"text\\\":\\\"§7absoudre le mal.\\\"}\",\"{\\\"text\\\":\\\"§7Only waits for a master\\\"}\",\"{\\\"text\\\":\\\"§7to absolve evil.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§c-1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

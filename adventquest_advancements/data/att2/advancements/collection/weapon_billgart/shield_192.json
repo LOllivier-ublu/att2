@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Plaque de verre"},
+        "description": {"translate":"Fragile, like glass."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_billgart",
+    "criteria": {
+        "shield_192": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:shield"],
+                    "nbt": "{display:{Name:\"\\\"§7Plaque de verre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Fragile, comme du verre.\\\"}\",\"{\\\"text\\\":\\\"§7Fragile, like glass.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

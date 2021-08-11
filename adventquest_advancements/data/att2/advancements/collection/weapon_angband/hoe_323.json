@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_hoe"
+        },
+        "title": {"translate":"Epine Obelcanth"},
+        "description": {"translate":"Borrowed from one of the oldest of them"},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_angband/hoe_322",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "golden_hoe_323": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_hoe"],
+                    "nbt": "{display:{Name:\"\\\"§9Epine Obelcanth\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Emprunté à un des plus anciens d'entre eux\\\"}\",\"{\\\"text\\\":\\\"§7Borrowed from one of the oldest of them\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7SPD§a1 §7HAS§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

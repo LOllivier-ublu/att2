@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "title": {"translate":"Âme volcanique"},
+        "description": {"translate":"As you were born, my sister."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_diamond/shovel_116",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "diamond_shovel_117": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_shovel"],
+                    "nbt": "{display:{Name:\"\\\"§9Âme volcanique\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telle tu naquis, ma sœur.\\\"}\",\"{\\\"text\\\":\\\"§7As you were born, my sister.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a1 §7HAS§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

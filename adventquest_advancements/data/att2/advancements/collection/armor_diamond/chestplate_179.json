@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"translate":"Petit cœur"},
+        "description": {"translate":"In his icy armoru."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_diamond/chestplate_178",
+    "criteria": {
+        "diamond_chestplate_179": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§2Petit cœur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dans son armure glaciale.\\\"}\",\"{\\\"text\\\":\\\"§7In his icy armoru.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

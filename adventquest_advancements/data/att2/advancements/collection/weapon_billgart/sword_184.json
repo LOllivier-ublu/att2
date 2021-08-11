@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": {"translate":"Outum oblijt"},
+        "description": {"translate":"To the vilest as well as the best."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_billgart/sword_181",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "stone_sword_184": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_sword"],
+                    "nbt": "{display:{Name:\"\\\"§9Outum oblijt\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aux plus vils comme aux meilleurs.\\\"}\",\"{\\\"text\\\":\\\"§7To the vilest as well as the best.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

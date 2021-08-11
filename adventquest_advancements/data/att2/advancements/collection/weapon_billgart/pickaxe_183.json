@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "title": {"translate":"Cœur de marbre"},
+        "description": {"translate":"Here, there is no greater quality, because	the coldness does not exempt from ardour."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_billgart/pickaxe_182",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "stone_pickaxe_183": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_pickaxe"],
+                    "nbt": "{display:{Name:\"\\\"§9Cœur de marbre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ici, il n'est de plus grande qualité,\\\"}\",\"{\\\"text\\\":\\\"§7car le froid n'exempte pas de fougue.\\\"}\",\"{\\\"text\\\":\\\"§7Here, there is no greater quality, because\\\"}\",\"{\\\"text\\\":\\\"§7the coldness does not exempt from ardour.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7DAR§a2 §7SPD§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

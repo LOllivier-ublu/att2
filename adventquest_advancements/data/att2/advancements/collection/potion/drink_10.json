@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:12028367}"
+        },
+        "title": {"translate":"Boisson Infecte"},
+        "description": {"translate":"Hold your nose, seems to be the best solution."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_9",
+    "criteria": {
+        "potion_10": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Boisson Infecte\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Se boucher le nez,\\\"}\",\"{\\\"text\\\":\\\"§7semble être la meilleur solution.\\\"}\",\"{\\\"text\\\":\\\"§7Hold your nose,\\\"}\",\"{\\\"text\\\":\\\"§7seems to be the best solution.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7SPD§c-3\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

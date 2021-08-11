@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:15178789}"
+        },
+        "title": {"translate":"Anti-inflammatoire"},
+        "description": {"translate":"Say goodbye to spontaneous combustion with ignifugix!"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/potion/drink_5",
+    "criteria": {
+        "potion_6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:potion"],
+                    "nbt": "{display:{Name:\"\\\"§7Anti-inflammatoire\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dites aurevoir aux combustions spontanées\\\"}\",\"{\\\"text\\\":\\\"§7avec ignifugix !\\\"}\",\"{\\\"text\\\":\\\"§7Say goodbye to spontaneous combustion\\\"}\",\"{\\\"text\\\":\\\"§7with ignifugix!\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

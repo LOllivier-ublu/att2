@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "title": {"translate":"Pseudo uniforme"},
+        "description": {"translate":"Disguise or uniform, what's the difference?"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_angband/chestplate_133",
+    "criteria": {
+        "golden_chestplate_134": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§7Pseudo uniforme\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Déguisement ou uniforme, quelle différence ?\\\"}\",\"{\\\"text\\\":\\\"§7Disguise or uniform, what's the difference?\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Casque Rétin"},
+        "description": {"translate":"As old as the world."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_billgart",
+    "criteria": {
+        "leather_helmet_223": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§7Casque Rétin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vieux comme le monde.\\\"}\",\"{\\\"text\\\":\\\"§7As old as the world.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-1 §7HUN§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

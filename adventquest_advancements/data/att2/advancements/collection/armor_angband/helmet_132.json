@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "title": {"translate":"Chute dorée"},
+        "description": {"translate":"Finally found a use."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/armor_angband/helmet_131",
+    "criteria": {
+        "golden_helmet_132": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:golden_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§7Chute dorée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trouva finalement une utilité.\\\"}\",\"{\\\"text\\\":\\\"§7Finally found a use.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

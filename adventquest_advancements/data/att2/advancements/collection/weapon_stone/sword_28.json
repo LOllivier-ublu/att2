@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Affable"},
+        "description": {"translate":"In its own way."},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/weapon_stone/sword_24",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "wooden_sword_28": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:wooden_sword"],
+                    "nbt": "{display:{Name:\"\\\"§5Affable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A sa manière.\\\"}\",\"{\\\"text\\\":\\\"§7In its own way.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HAS§a3 §7RES§c-1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

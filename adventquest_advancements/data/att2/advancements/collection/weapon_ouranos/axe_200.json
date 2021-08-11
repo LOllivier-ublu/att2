@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_axe"
+        },
+        "title": {"translate":"Petit cri"},
+        "description": {"translate":"It's a beginning."},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:collection/weapon_ouranos/axe_198",
+    "criteria": {
+        "stone_axe_200": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_axe"],
+                    "nbt": "{display:{Name:\"\\\"§2Petit cri\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7C'est un début.\\\"}\",\"{\\\"text\\\":\\\"§7It's a beginning.\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}
