@@ -27,7 +27,7 @@ execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-56
 execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] store result bossbar minecraft:illusion3 max run data get entity 00000000-0000-007c-0000-00000000007c Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
-execute if score SQ33 SIDEQUEST matches 3 as @a[x=-4265,y=57,z=-5621,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/silberland/illusions/display_title
+execute if score SQ33 SIDEQUEST matches 1..99 as @a[x=-4265,y=57,z=-5621,dx=0,dy=2,dz=2,gamemode=adventure] at @s unless entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/silberland/illusions/display_title
 execute if score EnterArena SILBERLAND matches ..0 as @a[x=-4265,y=57,z=-5621,dx=0,dy=2,dz=2,gamemode=adventure] run function att2:gameplay/boss/silberland/illusions/enter_arena
 execute if score EnterArena SILBERLAND matches 1.. run scoreboard players remove EnterArena SILBERLAND 1
 

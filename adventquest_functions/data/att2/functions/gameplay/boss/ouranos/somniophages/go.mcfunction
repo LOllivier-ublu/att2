@@ -19,7 +19,7 @@ execute if score Somniophages SQ48 matches 0.. as @a[x=6657,y=2,z=7013,dx=91,dy=
 execute if score Somniophages SQ48 matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Make challengers enters the arena
-execute as @a[x=6656,y=148,z=7056,dx=0,dy=3,dz=3,gamemode=adventure] at @s unless entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure,tag=!Dead] as @a[distance=..100] run function att2:gameplay/boss/ouranos/somniophages/display_title
+execute if score SQ48 SIDEQUEST matches 1..99 as @a[x=6656,y=148,z=7056,dx=0,dy=3,dz=3,gamemode=adventure] at @s unless entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure,tag=!Dead] as @a[distance=..100] run function att2:gameplay/boss/ouranos/somniophages/display_title
 execute if score EnterArena SQ48 matches ..0 as @a[x=6656,y=148,z=7056,dx=0,dy=3,dz=3,gamemode=adventure] run function att2:gameplay/boss/ouranos/somniophages/enter_arena
 execute if score EnterArena SQ48 matches 1.. run scoreboard players remove EnterArena SQ48 1
 

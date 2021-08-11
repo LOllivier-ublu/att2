@@ -22,7 +22,7 @@ execute if score Aozathreyon OURANOS matches 0.. if entity @a[x=7316,y=154,z=655
 execute if score Aozathreyon OURANOS matches 0.. if entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure] store result bossbar minecraft:aozathreyon max run data get entity 00000000-0000-015b-0000-00000000015b Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
-execute if score Mainquest SIDEQUEST matches 200 as @a[x=7317,y=175,z=6580,dx=0,dy=6,dz=-6,gamemode=adventure] at @s unless entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/ouranos/aozathreyon/display_title
+execute if score Mainquest SIDEQUEST matches 206 as @a[x=7317,y=175,z=6580,dx=0,dy=6,dz=-6,gamemode=adventure] at @s unless entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/ouranos/aozathreyon/display_title
 execute if score EnterArena OURANOS matches ..0 as @a[x=7317,y=175,z=6580,dx=0,dy=6,dz=-6,gamemode=adventure] run function att2:gameplay/boss/ouranos/aozathreyon/enter_arena
 execute if score EnterArena OURANOS matches 1.. run scoreboard players remove EnterArena OURANOS 1
 
