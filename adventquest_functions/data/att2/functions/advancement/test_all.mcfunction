@@ -7,7 +7,7 @@
 recipe take @a *
 
 ### Percentage exploit calcul
-scoreboard players operation Game_percentage EXPLOIT = game_completion EXPLOIT
+scoreboard players operation Game_percentage EXPLOIT = @a[scores={NUMEROJOUEUR=1}] COMPLETION
 scoreboard players operation Game_percentage EXPLOIT *= Points_completion EXPLOIT
 scoreboard players operation Game_percentage EXPLOIT /= Total_objectives EXPLOIT
 

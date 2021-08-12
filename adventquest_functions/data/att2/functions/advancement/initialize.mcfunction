@@ -6,6 +6,8 @@
 gamerule announceAdvancements true
 
 scoreboard objectives add EXPLOIT dummy
+scoreboard objectives add COMPLETION dummy
+scoreboard players set @s COMPLETION 0
 scoreboard players set Points_completion EXPLOIT 100
 scoreboard players set Total_objectives EXPLOIT 102
 scoreboard players set Total_point EXPLOIT 8491
