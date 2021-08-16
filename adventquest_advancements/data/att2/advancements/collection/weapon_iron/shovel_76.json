@@ -6,7 +6,7 @@
         "title": {"translate":"Dague d'élite"},
         "description": {"translate":"Or at least until then..."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_iron/shovel_69",
     "criteria": {

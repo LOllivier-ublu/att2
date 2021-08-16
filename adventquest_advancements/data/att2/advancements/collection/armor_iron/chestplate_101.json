@@ -6,7 +6,7 @@
         "title": {"translate":"Chef-d'œuvre d'Arnaud"},
         "description": {"translate":"He'll be a great blacksmith!"},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_iron",
     "criteria": {

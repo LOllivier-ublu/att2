@@ -6,7 +6,7 @@
         "title": {"translate":"Le talent d'Aldor"},
         "description": {"translate":"Serving only to hurt."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite/pickaxe_281",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Rondelle abîmé"},
         "description": {"translate":"Judicious to give up the fight with this in hand..."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite/sword_284",
     "criteria": {

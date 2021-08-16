@@ -6,7 +6,7 @@
         "title": {"translate":"Fléau des orgaves"},
         "description": {"translate":"No trunk ever resisted you."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/axe_136",
     "criteria": {

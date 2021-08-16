@@ -6,7 +6,7 @@
         "title": {"translate":"Pied lourd"},
         "description": {"translate":"For a bully's step."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_iron/boots_106",
     "criteria": {

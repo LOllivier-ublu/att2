@@ -6,7 +6,7 @@
         "title": {"translate":"Cheville cassée"},
         "description": {"translate":"You have been warned."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/boots_137",
     "criteria": {

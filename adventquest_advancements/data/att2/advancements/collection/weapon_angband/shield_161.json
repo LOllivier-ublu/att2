@@ -6,7 +6,7 @@
         "title": {"translate":"Garde de Phœnix"},
         "description": {"translate":"Wears the Phœnix emblem."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/shield_160",
     "criteria": {

@@ -18,11 +18,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:prismarine_crystals",
-                        "count": {
-                            "min": 64,
-                            "max": 64
-                        }
+                    "items": [
+                        "minecraft:prismarine_crystals"
+                        ],
+                    "count": 64
                     }
                 ]
             }

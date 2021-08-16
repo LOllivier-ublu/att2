@@ -6,7 +6,7 @@
         "title": {"translate":"Bourguignotte"},
         "description": {"translate":"You can't see much, but it protects."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_netherite/helmet_273",
     "criteria": {

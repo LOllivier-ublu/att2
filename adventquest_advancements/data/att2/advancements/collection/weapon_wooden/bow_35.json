@@ -6,7 +6,7 @@
         "title": {"translate":"Petite corde"},
         "description": {"translate":"Wooden lily."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_wooden/bow_34",
     "criteria": {

@@ -7,7 +7,7 @@
         "description": {"translate":"Dahäl flows in your veins"},
 		"frame": "goal"
     },
-    "parent": "att2:adventure/dar_12",
+    "parent": "att2:combat/dar_12",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 5000

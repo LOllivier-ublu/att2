@@ -6,7 +6,7 @@
         "title": {"translate":"Pantalon brillant"},
         "description": {"translate":"Neither swims nor flies."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/leggings_136",
     "criteria": {

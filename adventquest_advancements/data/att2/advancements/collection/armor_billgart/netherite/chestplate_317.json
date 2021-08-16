@@ -6,7 +6,7 @@
         "title": {"translate":"Petit Thoréën"},
         "description": {"translate":"Like in great shape!"},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_billgart/netherite/chestplate_226",
     "criteria": {

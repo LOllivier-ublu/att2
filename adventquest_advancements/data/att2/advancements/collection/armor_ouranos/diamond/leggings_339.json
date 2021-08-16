@@ -6,7 +6,7 @@
         "title": {"translate":"Trépas du marcheur blanc"},
         "description": {"translate":"Unlucky is the one who will wear this. A futal that stinks."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_ouranos/diamond/leggings_335",
     "criteria": {

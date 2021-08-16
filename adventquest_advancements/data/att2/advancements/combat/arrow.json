@@ -17,11 +17,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:arrow",
-                        "count": {
-                            "min": 64,
-                            "max": 64
-                        }
+                        "items": [
+                            "minecraft:arrow"
+                            ],
+                        "count": 64
                     }
                 ]
             }

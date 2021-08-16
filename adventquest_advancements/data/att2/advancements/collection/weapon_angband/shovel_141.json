@@ -6,7 +6,7 @@
         "title": {"translate":"Dague de jeu"},
         "description": {"translate":"What more fun than	a weapon fight."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/shovel_140",
     "criteria": {

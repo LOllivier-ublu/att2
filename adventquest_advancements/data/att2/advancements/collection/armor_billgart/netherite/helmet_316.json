@@ -6,7 +6,7 @@
         "title": {"translate":"Coquille vide"},
         "description": {"translate":"Duh..."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_billgart/netherite/helmet_224",
     "criteria": {

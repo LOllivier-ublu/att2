@@ -6,7 +6,7 @@
         "title": {"translate":"Couvre sommet"},
         "description": {"translate":"Better than a hat, but heavier."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/helmet_139",
     "criteria": {

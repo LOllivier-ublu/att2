@@ -6,7 +6,7 @@
         "title": {"translate":"Epée de Dramio"},
         "description": {"translate":"Worthless... for some of us..."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_diamond/sword_102",
     "criteria": {

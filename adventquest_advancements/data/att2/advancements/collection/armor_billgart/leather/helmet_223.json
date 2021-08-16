@@ -6,7 +6,7 @@
         "title": {"translate":"Casque Rétin"},
         "description": {"translate":"As old as the world."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_billgart",
     "criteria": {

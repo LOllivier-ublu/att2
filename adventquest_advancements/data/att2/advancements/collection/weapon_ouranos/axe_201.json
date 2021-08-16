@@ -6,7 +6,7 @@
         "title": {"translate":"Equarisseur"},
         "description": {"translate":"The beasts fear you."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_ouranos/axe_200",
     "criteria": {

@@ -7,7 +7,7 @@
         "title": {"translate":"Mort aux rats"},
         "description": {"translate":"Altered effects on dark beings."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/splash_30",
     "criteria": {

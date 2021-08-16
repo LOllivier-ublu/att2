@@ -6,7 +6,7 @@
         "title": {"translate":"Grand haubergeon"},
         "description": {"translate":"Gives you modest melee protection."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_netherite/chestplate_268",
     "criteria": {

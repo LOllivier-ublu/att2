@@ -6,7 +6,7 @@
         "title": {"translate":"Rage de Sôrän"},
         "description": {"translate":"Let us break this peace so quiet, that even the eternal mornings may fear us."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_ouranos",
     "rewards": {

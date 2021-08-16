@@ -6,9 +6,9 @@
         "title": {"translate":"Aiguillon"},
         "description": {"translate":"Small needle on pruned branch."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
-    "parent": "att2:collection/weapon_iron/hoe_255",
+    "parent": "att2:collection/weapon_iron/hoe_263",
     "criteria": {
         "iron_hoe_264": {
             "trigger": "minecraft:inventory_changed",

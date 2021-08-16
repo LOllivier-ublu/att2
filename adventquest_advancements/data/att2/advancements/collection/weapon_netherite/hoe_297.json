@@ -6,7 +6,7 @@
         "title": {"translate":"Arête solide"},
         "description": {"translate":"Finally a utility to the fauna of Asunark."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite/hoe_296",
     "criteria": {

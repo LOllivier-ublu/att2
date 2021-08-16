@@ -6,7 +6,7 @@
         "title": {"translate":"Empreinte sombre"},
         "description": {"translate":"Already been there..."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_billgart/netherite/boots_230",
     "criteria": {

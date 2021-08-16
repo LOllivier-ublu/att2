@@ -6,7 +6,7 @@
         "title": {"translate":"Pointe d'acier"},
         "description": {"translate":"It will last until the end of the war."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_iron/sword_71",
     "criteria": {

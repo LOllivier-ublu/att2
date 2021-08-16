@@ -6,7 +6,7 @@
         "title": {"translate":"Fierté du village"},
         "description": {"translate":"Others have a hatchet..."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_diamond",
     "criteria": {

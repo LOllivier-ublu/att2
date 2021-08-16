@@ -7,7 +7,7 @@
         "title": {"translate":"Préparation Subtile"},
         "description": {"translate":"A hidden formula, an art mastered, and it's done."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/drink_16",
     "criteria": {

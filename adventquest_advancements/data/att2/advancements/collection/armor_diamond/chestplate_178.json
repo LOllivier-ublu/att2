@@ -6,7 +6,7 @@
         "title": {"translate":"Faquin"},
         "description": {"translate":"A nice uniform that does not prove anything."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_diamond/chestplate_171",
     "criteria": {

@@ -7,7 +7,7 @@
         "description": {"translate":"Healed his wounds"},
 		"frame": "goal"
     },
-    "parent": "att2:adventure/her_10",
+    "parent": "att2:combat/her_10",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 5000

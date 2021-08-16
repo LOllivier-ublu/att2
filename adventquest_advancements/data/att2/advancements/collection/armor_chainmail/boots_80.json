@@ -6,7 +6,7 @@
         "title": {"translate":"Anti-rat"},
         "description": {"translate":"No rodents will be able to pierce them."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_chainmail/boots_75",
     "criteria": {

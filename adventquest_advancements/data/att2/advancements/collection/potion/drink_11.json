@@ -7,7 +7,7 @@
         "title": {"translate":"Revigorant"},
         "description": {"translate":"For the well-being of body, soul and mind."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion",
     "criteria": {

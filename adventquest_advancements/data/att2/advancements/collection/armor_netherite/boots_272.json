@@ -6,7 +6,7 @@
         "title": {"translate":"Socque inconsistant"},
         "description": {"translate":"Life is a tragedy."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_netherite/boots_271",
     "criteria": {

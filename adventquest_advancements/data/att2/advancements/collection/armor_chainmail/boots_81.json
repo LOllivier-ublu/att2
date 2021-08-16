@@ -6,7 +6,7 @@
         "title": {"translate":"Lourde patte"},
         "description": {"translate":"Without enthusiasm or discretion."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_chainmail/boots_80",
     "criteria": {

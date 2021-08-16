@@ -7,7 +7,7 @@
         "title": {"translate":"Dissolvant"},
         "description": {"translate":"Solve et coagula."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/splash_32",
     "criteria": {

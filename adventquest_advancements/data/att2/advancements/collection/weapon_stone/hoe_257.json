@@ -6,7 +6,7 @@
         "title": {"translate":"Haste banale"},
         "description": {"translate":"Convenient for defending yourself from cavalry."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_stone/hoe_256",
     "criteria": {

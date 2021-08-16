@@ -6,7 +6,7 @@
         "title": {"translate":"Espadon moyen"},
         "description": {"translate":"Frequent in the hands of the soldier."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite/sword_294",
     "criteria": {

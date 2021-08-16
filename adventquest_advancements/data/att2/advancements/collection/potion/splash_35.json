@@ -7,7 +7,7 @@
         "title": {"translate":"Venin du géro"},
         "description": {"translate":"Liquefies flesh and bones."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/splash_34",
     "criteria": {

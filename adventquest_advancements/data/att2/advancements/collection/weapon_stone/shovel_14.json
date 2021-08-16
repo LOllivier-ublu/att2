@@ -6,7 +6,7 @@
         "title": {"translate":"Dague"},
         "description": {"translate":"Doesn't have any friend."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_stone/shovel_13",
     "criteria": {

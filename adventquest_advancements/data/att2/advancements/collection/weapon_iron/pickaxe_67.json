@@ -6,7 +6,7 @@
         "title": {"translate":"Marteau"},
         "description": {"translate":"Plant the poles."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_iron/pickaxe_66",
     "criteria": {

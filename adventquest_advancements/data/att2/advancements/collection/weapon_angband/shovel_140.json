@@ -6,7 +6,7 @@
         "title": {"translate":"Semi-sabre"},
         "description": {"translate":"Long as a mortal sword."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/shovel_134",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Les jambes du grand-père"},
         "description": {"translate":"Never giving up."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_iron/leggings_111",
     "criteria": {

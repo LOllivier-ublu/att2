@@ -6,7 +6,7 @@
         "title": {"translate":"Paresse de Dégiel"},
         "description": {"translate":"A good excuse for doing nothing."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/sword_135",
     "criteria": {

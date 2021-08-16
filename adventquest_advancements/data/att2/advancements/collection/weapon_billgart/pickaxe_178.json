@@ -6,7 +6,7 @@
         "title": {"translate":"Os du minéral"},
         "description": {"translate":"No one will ever tell you that	you have pointy bones again."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_billgart/pickaxe_176",
     "criteria": {

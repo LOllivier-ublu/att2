@@ -6,7 +6,7 @@
         "title": {"translate":"Cimeterre ébranlé"},
         "description": {"translate":"Curved like your enemy."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite/sword_285",
     "criteria": {

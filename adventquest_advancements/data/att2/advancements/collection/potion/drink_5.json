@@ -7,7 +7,7 @@
         "title": {"translate":"Tisane"},
         "description": {"translate":"Soothes pain and treats osteoarthritis."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/drink_4",
     "criteria": {

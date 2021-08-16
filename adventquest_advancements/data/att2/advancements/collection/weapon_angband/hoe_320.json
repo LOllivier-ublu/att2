@@ -6,7 +6,7 @@
         "title": {"translate":"Taquinerie"},
         "description": {"translate":"Child's play."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/hoe_319",
     "criteria": {

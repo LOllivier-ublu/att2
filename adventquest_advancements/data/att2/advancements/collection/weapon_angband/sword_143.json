@@ -6,7 +6,7 @@
         "title": {"translate":"Trop longue lame"},
         "description": {"translate":"What fiction do you think you're in?"},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/sword_142",
     "criteria": {

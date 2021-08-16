@@ -6,7 +6,7 @@
         "title": {"translate":"Camisole"},
         "description": {"translate":"The madness of the unconscious."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_netherite/chestplate_267",
     "criteria": {

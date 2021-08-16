@@ -6,7 +6,7 @@
         "title": {"translate":"Capuche délabrée"},
         "description": {"translate":"Slightly increase your	Dahäl regeneration."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_leather",
     "criteria": {

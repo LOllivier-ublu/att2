@@ -6,7 +6,7 @@
         "title": {"translate":"Buffet dinner"},
         "description": {"translate":"Binge eating disorder"}
     },
-    "parent": "att2:adventure/hun_4",
+    "parent": "att2:combat/hun_4",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 1000

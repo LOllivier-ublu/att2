@@ -6,7 +6,7 @@
         "title": {"translate":"Eternité"},
         "description": {"translate":"As you are, you will persist."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_diamond/shovel_101",
     "criteria": {

@@ -17,11 +17,10 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spectral_arrow",
-                        "count": {
-                            "min": 64,
-                            "max": 64
-                        }
+                    "items": [
+                        "minecraft:spectral_arrow"
+                        ],
+                    "count": 64
                     }
                 ]
             }

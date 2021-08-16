@@ -6,7 +6,7 @@
         "title": {"translate":"Aissette discontinue"},
         "description": {"translate":"Round head cutting hammer."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite/axe_278",
     "criteria": {

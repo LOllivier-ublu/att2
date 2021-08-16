@@ -6,7 +6,7 @@
         "title": {"translate":"Canivet"},
         "description": {"translate":"Instead of the pocketknife."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite",
     "criteria": {

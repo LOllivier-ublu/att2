@@ -6,7 +6,7 @@
         "title": {"translate":"Aveugle"},
         "description": {"translate":"It will block your view."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_iron/helmet_99",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Pointe aiguisée"},
         "description": {"translate":"For the fastest of my friends."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_billgart/sword_180",
     "criteria": {

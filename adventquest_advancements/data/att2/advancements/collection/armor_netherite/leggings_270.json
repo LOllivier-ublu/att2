@@ -6,7 +6,7 @@
         "title": {"translate":"Caleçon de Jaris"},
         "description": {"translate":"Avoid breathing"},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_netherite/leggings_269",
     "criteria": {

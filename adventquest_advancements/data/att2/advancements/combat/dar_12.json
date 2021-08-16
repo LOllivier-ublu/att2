@@ -6,7 +6,7 @@
         "title": {"translate":"Quenched"},
         "description": {"translate":"Lust for power"}
     },
-    "parent": "att2:adventure/dar_6",
+    "parent": "att2:combat/dar_6",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 1500

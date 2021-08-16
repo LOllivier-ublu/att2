@@ -6,7 +6,7 @@
         "title": {"translate":"Cotte basse"},
         "description": {"translate":"Take care of your legs, Maxime."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_chainmail/leggings_78",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Hache d'ornement"},
         "description": {"translate":"To the pomp of a powerful dignitary."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_diamond/axe_96",
     "criteria": {

@@ -9,7 +9,7 @@
         "show_toast": false,
         "announce_to_chat": true
     },
-    "parent": "att2:collection/weapon_netherite/pickaxe_301",
+    "parent": "att2:collection/weapon_netherite/pickaxe_300",
     "rewards": {
         "function": "att2:advancement/exploit_1"
         },

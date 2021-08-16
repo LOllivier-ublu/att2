@@ -6,7 +6,7 @@
         "title": {"translate":"Fa oveur man"},
         "description": {"translate":"Almost fantastic, but close to	absolutely useless."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_billgart",
     "criteria": {

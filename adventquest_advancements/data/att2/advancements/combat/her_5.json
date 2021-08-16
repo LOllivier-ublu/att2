@@ -6,7 +6,7 @@
         "title": {"translate":"Medic!"},
         "description": {"translate":"Use powerful regenerating magic"}
     },
-    "parent": "att2:adventure/her_2",
+    "parent": "att2:combat/her_2",
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 100

@@ -6,7 +6,7 @@
         "title": {"translate":"Roche simple"},
         "description": {"translate":"Will do the trick."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_billgart/sword_177",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Carefulness!"},
         "description": {"translate":"Calculating risk-benefit"}
     },
-    "parent": "att2:adventure/her_5",
+    "parent": "att2:combat/her_5",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 1000

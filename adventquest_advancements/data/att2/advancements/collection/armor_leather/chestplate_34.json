@@ -6,7 +6,7 @@
         "title": {"translate":"Tunique de paysan"},
         "description": {"translate":"No projects, no trouble."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_leather/chestplate_27",
     "criteria": {

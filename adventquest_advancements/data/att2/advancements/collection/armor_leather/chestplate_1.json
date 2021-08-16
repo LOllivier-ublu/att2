@@ -6,7 +6,7 @@
         "title": {"translate":"Tunique"},
         "description": {"translate":"Soft and warm."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_leather",
     "criteria": {

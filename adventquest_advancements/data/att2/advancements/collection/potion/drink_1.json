@@ -7,7 +7,7 @@
         "title": {"translate":"V.I.T.R.I.O.L"},
         "description": {"translate":"Poison."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion",
     "criteria": {

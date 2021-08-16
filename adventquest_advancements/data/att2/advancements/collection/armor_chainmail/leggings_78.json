@@ -6,7 +6,7 @@
         "title": {"translate":"Pantallon du robuste"},
         "description": {"translate":"Combines flexibility and protection."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_chainmail/leggings_73",
     "criteria": {

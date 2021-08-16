@@ -7,7 +7,7 @@
         "title": {"translate":"Anti-inflammatoire"},
         "description": {"translate":"Say goodbye to spontaneous combustion with ignifugix!"},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/drink_5",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Jambière impeccable"},
         "description": {"translate":"It's all a matter of perspective."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/leggings_143",
     "criteria": {

@@ -7,7 +7,7 @@
         "title": {"translate":"Falcon"},
         "description": {"translate":"The predator on the lookout is always ready to fall on his enemy."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/drink_13",
     "criteria": {

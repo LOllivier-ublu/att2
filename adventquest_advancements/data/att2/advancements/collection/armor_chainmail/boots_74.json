@@ -6,7 +6,7 @@
         "title": {"translate":"Glisse froid"},
         "description": {"translate":"You'll lose your toes in it."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_chainmail",
     "criteria": {

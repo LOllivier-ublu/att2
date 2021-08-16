@@ -6,7 +6,7 @@
         "title": {"translate":"Bottes de Cédrin"},
         "description": {"translate":"Uncomfortable and useless."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_chainmail/boots_74",
     "criteria": {

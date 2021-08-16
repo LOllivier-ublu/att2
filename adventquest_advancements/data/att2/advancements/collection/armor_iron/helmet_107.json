@@ -6,7 +6,7 @@
         "title": {"translate":"Vieil heaume"},
         "description": {"translate":"From the Eastern Army."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_iron/helmet_100",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Little supper"},
         "description": {"translate":"Enough to satiate"}
     },
-    "parent": "att2:adventure/hun_2",
+    "parent": "att2:combat/hun_2",
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 100

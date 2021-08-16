@@ -6,7 +6,7 @@
         "title": {"translate":"Casque Eternän"},
         "description": {"translate":"Has not been used for centuries."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/helmet_132",
     "criteria": {

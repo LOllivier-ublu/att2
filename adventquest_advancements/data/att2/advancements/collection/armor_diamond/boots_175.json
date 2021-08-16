@@ -6,7 +6,7 @@
         "title": {"translate":"Pointe-pied"},
         "description": {"translate":"She wore them so elegantly."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_diamond/boots_174",
     "criteria": {

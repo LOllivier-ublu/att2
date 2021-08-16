@@ -6,7 +6,7 @@
         "title": {"translate":"Fumée claire"},
         "description": {"translate":"More intense than a cloud."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_ouranos",
     "criteria": {

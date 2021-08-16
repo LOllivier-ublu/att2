@@ -6,7 +6,7 @@
         "title": {"translate":"Pih'um totritkl"},
         "description": {"translate":"Do not use it as a shield.	Thank you."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_billgart/shield_192",
     "criteria": {

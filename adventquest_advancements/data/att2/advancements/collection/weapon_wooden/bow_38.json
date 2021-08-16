@@ -6,7 +6,7 @@
         "title": {"translate":"Arc de Bâtilen"},
         "description": {"translate":"Keep your enemies in the distance."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_wooden/bow_37",
     "criteria": {

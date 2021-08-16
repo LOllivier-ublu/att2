@@ -6,7 +6,7 @@
         "title": {"translate":"Rorkt'acel"},
         "description": {"translate":"Better on the ground than in your hands."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_billgart/pickaxe_178",
     "criteria": {

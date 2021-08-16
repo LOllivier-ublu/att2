@@ -7,7 +7,7 @@
         "title": {"translate":"Potion ratée"},
         "description": {"translate":"For sorcerer's apprentices."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/drink_48",
     "criteria": {

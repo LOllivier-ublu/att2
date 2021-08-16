@@ -8,7 +8,7 @@
         "frame": "challenge",
         "hidden":true
     },
-    "parent": "att2:collection/interfacer",
+    "parent": "att2:collection/mythique/interfacer",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 25000

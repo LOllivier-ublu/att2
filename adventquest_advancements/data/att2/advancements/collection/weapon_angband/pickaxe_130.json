@@ -6,7 +6,7 @@
         "title": {"translate":"Inutilisable"},
         "description": {"translate":"But indestructible!"},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband",
     "criteria": {

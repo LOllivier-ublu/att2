@@ -7,7 +7,7 @@
         "description": {"translate":"Fill your belly"},
 		"frame": "goal"
     },
-    "parent": "att2:adventure/hun_8",
+    "parent": "att2:combat/hun_8",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 5000

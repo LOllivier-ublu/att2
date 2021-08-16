@@ -6,7 +6,7 @@
         "title": {"translate":"Pantalon de paysan"},
         "description": {"translate":"Too many projects, too many regrets."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_leather/leggings_29",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Fausse toque"},
         "description": {"translate":"Definitely not for cooking."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_diamond/helmet_168",
     "criteria": {

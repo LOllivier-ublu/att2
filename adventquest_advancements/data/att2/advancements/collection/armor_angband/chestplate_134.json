@@ -6,7 +6,7 @@
         "title": {"translate":"Pseudo uniforme"},
         "description": {"translate":"Disguise or uniform, what's the difference?"},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/chestplate_133",
     "criteria": {

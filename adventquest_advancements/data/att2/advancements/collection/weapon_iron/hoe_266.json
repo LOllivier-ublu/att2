@@ -9,7 +9,7 @@
         "show_toast": false,
         "announce_to_chat": true
     },
-    "parent": "att2:collection/weapon_iron/hoe_257",
+    "parent": "att2:collection/weapon_iron/hoe_265",
     "rewards": {
         "function": "att2:advancement/exploit_1"
         },

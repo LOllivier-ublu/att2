@@ -6,7 +6,7 @@
         "title": {"translate":"Self-sufficiency"},
         "description": {"translate":"Free yourself right now"}
     },
-    "parent": "att2:adventure/dar_2",
+    "parent": "att2:combat/dar_2",
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 250

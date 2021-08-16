@@ -6,7 +6,7 @@
         "title": {"translate":"Bûche façonnée"},
         "description": {"translate":"Confection of an annoyed logger."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_wooden/crossbow_245",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Sublime coupe vent"},
         "description": {"translate":"But not the most subtle..."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_diamond/leggings_173",
     "criteria": {

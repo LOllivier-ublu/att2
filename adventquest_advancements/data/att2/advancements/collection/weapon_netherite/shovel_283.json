@@ -6,7 +6,7 @@
         "title": {"translate":"Petit Oïbrin"},
         "description": {"translate":"Won't always be overlooked."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite/shovel_282",
     "criteria": {

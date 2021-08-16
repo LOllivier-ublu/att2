@@ -6,7 +6,7 @@
         "title": {"translate":"Francisque"},
         "description": {"translate":"Light axe with curved blade."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite/axe_279",
     "criteria": {

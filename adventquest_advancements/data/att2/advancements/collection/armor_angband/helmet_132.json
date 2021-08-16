@@ -6,7 +6,7 @@
         "title": {"translate":"Chute dorée"},
         "description": {"translate":"Finally found a use."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/helmet_131",
     "criteria": {

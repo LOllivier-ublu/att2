@@ -6,7 +6,7 @@
         "title": {"translate":"Loquien"},
         "description": {"translate":"Grow up, but never spoil yourself."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_diamond/pickaxe_99",
     "criteria": {

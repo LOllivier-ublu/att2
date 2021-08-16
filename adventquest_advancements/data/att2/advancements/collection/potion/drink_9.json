@@ -7,7 +7,7 @@
         "title": {"translate":"Dissimulation"},
         "description": {"translate":"Go without your shadow so that all others belong to you."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/drink_8",
     "criteria": {

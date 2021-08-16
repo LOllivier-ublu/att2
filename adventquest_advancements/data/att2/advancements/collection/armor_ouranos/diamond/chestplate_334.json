@@ -6,7 +6,7 @@
         "title": {"translate":"Faux Skéléo"},
         "description": {"translate":"The best, of the best, of... the worst."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_ouranos",
     "criteria": {

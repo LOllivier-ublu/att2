@@ -6,7 +6,7 @@
         "title": {"translate":"Calotte frêle"},
         "description": {"translate":"Maybe useful against a breeze."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_netherite",
     "criteria": {

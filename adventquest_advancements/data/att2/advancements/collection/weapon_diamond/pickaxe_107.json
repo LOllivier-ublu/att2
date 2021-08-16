@@ -6,7 +6,7 @@
         "title": {"translate":"Frappe ciel"},
         "description": {"translate":"As soil."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_diamond/pickaxe_106",
     "criteria": {

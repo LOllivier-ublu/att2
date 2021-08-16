@@ -6,7 +6,7 @@
         "title": {"translate":"Capuche de seconde main"},
         "description": {"translate":"Increase a bit your Dahäl regeneration."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_leather/helmet_2",
     "criteria": {

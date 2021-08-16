@@ -7,7 +7,7 @@
         "title": {"translate":"Ténacité"},
         "description": {"translate":"When the parade is no longer an option..."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/drink_12",
     "criteria": {

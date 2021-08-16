@@ -6,7 +6,7 @@
         "title": {"translate":"Bottes de l'ordre"},
         "description": {"translate":"For feet in disorder."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/boots_138",
     "criteria": {

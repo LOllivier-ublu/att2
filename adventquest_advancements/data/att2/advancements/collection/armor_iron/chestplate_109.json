@@ -6,7 +6,7 @@
         "title": {"translate":"Plaque percée"},
         "description": {"translate":"At many points it survived."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_iron/chestplate_102",
     "criteria": {

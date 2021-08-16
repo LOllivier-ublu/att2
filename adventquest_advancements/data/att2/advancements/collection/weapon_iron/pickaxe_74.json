@@ -6,7 +6,7 @@
         "title": {"translate":"Masse du garde"},
         "description": {"translate":"The beggar's plague."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_iron/pickaxe_67",
     "criteria": {

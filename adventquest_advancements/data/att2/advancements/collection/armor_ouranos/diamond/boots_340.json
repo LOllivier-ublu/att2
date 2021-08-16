@@ -6,7 +6,7 @@
         "title": {"translate":"Bas Chacelïn"},
         "description": {"translate":"Happy at breakfast, but not the rest of the time. Although the opposite, or even both."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_ouranos/diamond/boots_336",
     "criteria": {

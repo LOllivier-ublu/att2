@@ -6,7 +6,7 @@
         "title": {"translate":"Epieu"},
         "description": {"translate":"Useful for game hunting."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_stone/hoe_255",
     "criteria": {

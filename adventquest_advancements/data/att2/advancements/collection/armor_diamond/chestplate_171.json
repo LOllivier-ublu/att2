@@ -6,7 +6,7 @@
         "title": {"translate":"Plastron usé"},
         "description": {"translate":"It is still here, though."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_diamond/chestplate_170",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Contrefaçon"},
         "description": {"translate":"No mystery as to its origin."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/shovel_133",
     "criteria": {

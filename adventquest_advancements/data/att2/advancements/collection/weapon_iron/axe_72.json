@@ -6,7 +6,7 @@
         "title": {"translate":"Coupe bois"},
         "description": {"translate":"But also the bones !"},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_iron/axe_65",
     "criteria": {

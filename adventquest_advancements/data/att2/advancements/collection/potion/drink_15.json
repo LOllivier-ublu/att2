@@ -7,7 +7,7 @@
         "title": {"translate":"Ecran de Fumée"},
         "description": {"translate":"Out of sight, out of mind. Still, anyway out of mind."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/drink_14",
     "criteria": {

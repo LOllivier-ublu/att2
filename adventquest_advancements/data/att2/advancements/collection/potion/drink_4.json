@@ -7,7 +7,7 @@
         "title": {"translate":"Cuirasse"},
         "description": {"translate":"An iron skin for a soldier without a shield."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/drink_3",
     "criteria": {

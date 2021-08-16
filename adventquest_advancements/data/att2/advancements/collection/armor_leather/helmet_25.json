@@ -6,7 +6,7 @@
         "title": {"translate":"Couvre-chef"},
         "description": {"translate":"Protects from the sun."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_leather/helmet_24",
     "criteria": {

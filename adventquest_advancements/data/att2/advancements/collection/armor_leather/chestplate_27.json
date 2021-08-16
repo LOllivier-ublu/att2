@@ -6,7 +6,7 @@
         "title": {"translate":"Gilet sale"},
         "description": {"translate":"Better than nothing."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_leather/chestplate_26",
     "criteria": {

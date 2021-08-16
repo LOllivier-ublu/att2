@@ -6,7 +6,7 @@
         "title": {"translate":"Aspän"},
         "description": {"translate":"A gift from your cousin."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/leggings_135",
     "criteria": {

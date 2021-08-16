@@ -6,7 +6,7 @@
         "title": {"translate":"Brise de Damien"},
         "description": {"translate":"A good weapon for a brave boy."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_ouranos",
     "criteria": {

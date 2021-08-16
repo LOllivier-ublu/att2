@@ -6,7 +6,7 @@
         "title": {"translate":"Hache de jeu"},
         "description": {"translate":"A toy for the Eternäns."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/axe_129",
     "criteria": {

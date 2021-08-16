@@ -6,7 +6,7 @@
         "title": {"translate":"Béquille d'obsidienne"},
         "description": {"translate":"In honor of those who have died, waiting for the sequel to the elder scroll 5."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_billgart/netherite/leggings_228",
     "criteria": {

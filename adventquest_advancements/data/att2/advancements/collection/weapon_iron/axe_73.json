@@ -6,7 +6,7 @@
         "title": {"translate":"Hache vénale"},
         "description": {"translate":"Trust is a silly concept."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_iron/axe_72",
     "criteria": {

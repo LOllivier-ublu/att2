@@ -6,7 +6,7 @@
         "title": {"translate":"Le bras du géant"},
         "description": {"translate":"It takes at least an arm like that to handle it."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/pickaxe_138",
     "criteria": {

@@ -6,7 +6,7 @@
         "title": {"translate":"Petit cri"},
         "description": {"translate":"It's a beginning."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_ouranos/axe_198",
     "criteria": {

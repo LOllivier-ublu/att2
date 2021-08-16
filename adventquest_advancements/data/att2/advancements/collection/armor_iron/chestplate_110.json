@@ -6,7 +6,7 @@
         "title": {"translate":"Plastron de métal"},
         "description": {"translate":"Classic but effective."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_iron/chestplate_109",
     "criteria": {

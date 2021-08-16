@@ -6,7 +6,7 @@
         "title": {"translate":"Tentative d'Hérold"},
         "description": {"translate":"A piece of junk worthy of the name."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband",
     "criteria": {

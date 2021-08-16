@@ -7,7 +7,7 @@
         "title": {"translate":"Révulsif"},
         "description": {"translate":"Decongests certain part of the body."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/potion/splash_35",
     "criteria": {

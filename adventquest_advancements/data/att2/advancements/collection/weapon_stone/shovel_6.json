@@ -6,7 +6,7 @@
         "title": {"translate":"Couteau"},
         "description": {"translate":"Dinner's ready."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_stone/shovel_5",
     "criteria": {

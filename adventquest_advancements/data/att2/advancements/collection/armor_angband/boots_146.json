@@ -6,7 +6,7 @@
         "title": {"translate":"Soulier d'Hygrien"},
         "description": {"translate":"To the glory of the captains of Teltion."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/boots_145",
     "criteria": {

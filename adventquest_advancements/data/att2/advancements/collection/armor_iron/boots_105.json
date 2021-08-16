@@ -6,7 +6,7 @@
         "title": {"translate":"Bottes de métal"},
         "description": {"translate":"A failed attempt."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/armor_iron",
     "criteria": {

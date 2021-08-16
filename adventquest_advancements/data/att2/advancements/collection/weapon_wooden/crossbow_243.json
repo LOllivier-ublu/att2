@@ -6,7 +6,7 @@
         "title": {"translate":"Arbalète de mauvaise facture"},
         "description": {"translate":"A weapon that has been used far too much."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_wooden",
     "criteria": {

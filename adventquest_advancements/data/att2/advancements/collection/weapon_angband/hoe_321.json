@@ -6,7 +6,7 @@
         "title": {"translate":"Bâton travaillé"},
         "description": {"translate":"Rather primitive as an instrument..."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/hoe_320",
     "criteria": {

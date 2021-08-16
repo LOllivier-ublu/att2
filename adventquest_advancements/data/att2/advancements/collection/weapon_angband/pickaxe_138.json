@@ -6,7 +6,7 @@
         "title": {"translate":"Vielle hallebarde"},
         "description": {"translate":"Already obsolete at the time of its conception."},
         "show_toast": false,
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/pickaxe_131",
     "criteria": {
