@@ -127,6 +127,7 @@ scoreboard objectives remove LIFE_EXPECTANCY
 
 # Position/motion
 scoreboard objectives remove POSITIONX
+scoreboard objectives remove POSITIONY
 
 scoreboard objectives remove MOTIONX
 scoreboard objectives remove MOTIONY
@@ -145,6 +146,7 @@ scoreboard objectives remove BANK_OP
 # Shop
 scoreboard objectives remove ESC
 scoreboard objectives remove SHOP
+scoreboard objectives remove SHOP_OP1
 scoreboard objectives remove GAMBLING
 scoreboard objectives remove MENDING
 

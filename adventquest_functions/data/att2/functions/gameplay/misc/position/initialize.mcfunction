@@ -4,3 +4,4 @@
 #################################################################
 
 scoreboard objectives add POSITIONX dummy
+scoreboard objectives add POSITIONY dummy
