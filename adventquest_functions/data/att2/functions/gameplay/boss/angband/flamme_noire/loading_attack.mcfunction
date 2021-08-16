@@ -14,6 +14,7 @@ execute if score FlammeNoire ANGOR_BOSS matches 10..300 run particle minecraft:d
 execute if score FlammeNoire ANGOR_BOSS matches 10..200 run particle minecraft:entity_effect 3514.0 59 4938 3 2 5 0 10 force @a
 execute if score FlammeNoire ANGOR_BOSS matches 10..100 run particle minecraft:large_smoke 3514.0 59 4938 3 2 5 0 10 force @a
 execute if score FlammeNoire ANGOR_BOSS matches 1 run function att2:gameplay/misc/position/get_x_1000
-execute if score FlammeNoire ANGOR_BOSS matches 1 run scoreboard players operation @s POSITIONX %= 2 ANGOR
-execute if score FlammeNoire ANGOR_BOSS matches 1 if score @s POSITIONX matches 0 run scoreboard players set FlammeNoire ANGOR 2
-execute if score FlammeNoire ANGOR_BOSS matches 1 if score @s POSITIONX matches 1 run scoreboard players set FlammeNoire ANGOR 3
+execute if score FlammeNoire ANGOR_BOSS matches 1 run scoreboard players operation random ANGOR = @s POSITIONX
+execute if score FlammeNoire ANGOR_BOSS matches 1 run scoreboard players operation random ANGOR %= 2 ANGOR
+execute if score FlammeNoire ANGOR_BOSS matches 1 if score random ANGOR matches 0 run scoreboard players set FlammeNoire ANGOR 2
+execute if score FlammeNoire ANGOR_BOSS matches 1 if score random ANGOR matches 1 run scoreboard players set FlammeNoire ANGOR 3
