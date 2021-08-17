@@ -1,7 +1,7 @@
 #################################################################
 #Made by Adventquest											#
-#Regsiter position X of player in score POSITIONX               #
+#Regsiter position Y of player in score POSITIONY               #
 #with milimetric precision						                #
 #################################################################
 
-execute store result score @s POSITIONX run data get entity @s Pos[0] 1000000.0
+execute store result score @s POSITIONY run data get entity @s Pos[2] 10000.0

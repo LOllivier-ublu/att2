@@ -4,8 +4,8 @@
 #################################################################
 
 # First, we consider that the function is launched by the first player / the closest player from 0 0 0
-function att2:gameplay/misc/position/get_x_10_6
-function att2:gameplay/misc/position/get_y_10_6
+function att2:gameplay/misc/position/get_x_10_4
+function att2:gameplay/misc/position/get_y_10_4
 
 scoreboard players operation x SHOP_OP1 = @s POSITIONX
 scoreboard players operation y SHOP_OP1 = @s POSITIONY
