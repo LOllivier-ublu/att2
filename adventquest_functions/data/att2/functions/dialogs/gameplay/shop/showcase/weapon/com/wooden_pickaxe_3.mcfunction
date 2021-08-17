@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item wooden_pickaxe_3 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Masse>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:wooden_pickaxe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Masse\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Très lourde.\\\"}\",\"{\\\"text\\\":\\\"§7Very heavy.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:knockback\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.85,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.94,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30002,0,10000]}]},Damage:0}"},"extra":[{"text":" [68 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/com/wooden_pickaxe_3"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

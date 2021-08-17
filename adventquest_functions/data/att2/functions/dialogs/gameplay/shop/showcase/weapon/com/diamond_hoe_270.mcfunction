@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_hoe_270 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Framée>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_hoe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Framée\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pièce traditionnelle.\\\"}\",\"{\\\"text\\\":\\\"§7Traditional piece.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:4.9,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.91,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]},Damage:1475}"},"extra":[{"text":" [53 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/com/diamond_hoe_270"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

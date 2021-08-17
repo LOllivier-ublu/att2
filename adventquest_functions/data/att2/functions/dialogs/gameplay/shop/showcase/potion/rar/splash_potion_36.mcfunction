@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item splash_potion_36 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Vertu>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:splash_potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Vertu\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tous les bienfaits de la nature,\\\"}\",\"{\\\"text\\\":\\\"§7dans une si petite fiole.\\\"}\",\"{\\\"text\\\":\\\"§7All the benefits of nature,\\\"}\",\"{\\\"text\\\":\\\"§7 in such a small vial.\\\"}\"]},CustomPotionColor:16715280,CustomPotionEffects:[{Id:6,Amplifier:4,Duration:0,ShowParticles:0b}]}}"},"extra":[{"text":" [47 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/rar/splash_potion_36"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

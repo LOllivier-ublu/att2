@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item lingering_potion_61 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Irritant>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:lingering_potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Irritant\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Occasionne des inflammations cutanées très désagréables.\\\"}\",\"{\\\"text\\\":\\\"§7Causes very unpleasant skin inflammation.\\\"}\"]},CustomPotionColor:9592157,CustomPotionEffects:[{Id:20,Amplifier:5,Duration:500,ShowParticles:0b},{Id:4,Amplifier:4,Duration:250,ShowParticles:0b},{Id:7,Amplifier:3,Duration:0,ShowParticles:0b}]}}"},"extra":[{"text":" [54 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/rar/lingering_potion_61"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

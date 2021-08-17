@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item golden_helmet_148 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Tête platinée>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_helmet\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Tête platinée\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Protège avec longévité le plus\\\"}\",\"{\\\"text\\\":\\\"§7important de vos atouts.\\\"}\",\"{\\\"text\\\":\\\"§7Protects with longevity the most\\\"}\",\"{\\\"text\\\":\\\"§7important of your assets.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7LUC§a1 §7STR§c-2\\\"}\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.71,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.33,Operation:1,Slot:head,UUID:[I;0,20001,0,20000]}]},Damage:0}"},"extra":[{"text":" [203 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/golden_helmet_148"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

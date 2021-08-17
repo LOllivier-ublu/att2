@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_24 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Berserk>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Berserk\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une folie passagère,\\\"}\",\"{\\\"text\\\":\\\"§7pour une furie vengeresse.\\\"}\",\"{\\\"text\\\":\\\"§7A passing madness,\\\"}\",\"{\\\"text\\\":\\\"§7for a vengeful fury.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a4 §7SPD§c-2 §7HER§c-1\\\"}\"]},CustomPotionColor:14438144}}"},"extra":[{"text":" [157 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/epi/potion_24"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

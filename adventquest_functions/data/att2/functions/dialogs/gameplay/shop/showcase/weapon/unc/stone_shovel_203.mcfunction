@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item stone_shovel_203 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Sassaza>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:stone_shovel\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Sassaza\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7La fille qui allait plus vite que l'air.\\\"}\",\"{\\\"text\\\":\\\"§7The girl who was faster than the air.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7DAR§c-1 §7HUN§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:1.95,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.63,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]},Damage:43}"},"extra":[{"text":" [214 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/stone_shovel_203"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

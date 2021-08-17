@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item iron_hoe_263 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Javelot lourd>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:iron_hoe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Javelot lourd\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Très difficile à manier.\\\"}\",\"{\\\"text\\\":\\\"§7Very difficult to handle.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:3.78,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.91,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]},Damage:200}"},"extra":[{"text":" [41 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/com/iron_hoe_263"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

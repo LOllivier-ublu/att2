@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Obtain item leather_chestplate_245          #
+#####################################
+
+give @s minecraft:leather_chestplate{EquipmentType:"armor",Rarity:"leg",Manufacturer:"teran",Effect:"has5_her5_luc1_hun_6",display:{Name:"\"§6Raison inexistante\"","Lore":["{\"text\":\"§7A l'intersection de l'extrême pensée et du dernier\"}","{\"text\":\"§7quart d'heure, se trouve une grande pile de tissus.\"}","{\"text\":\"§7At the intersection of extreme thinking and the last\"}","{\"text\":\"§7quarter of an hour, there is a large pile of tissue.\"}","{\"text\":\"§7HAS§a5 §7HER§a5 §7LUC§a1 §7HUN§c-6\"}"],color:16714478},Damage:0,Enchantments:[{id:"minecraft:unbreaking",lvl:50s},{id:"minecraft:mending",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:8.99,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3.85,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]} 1

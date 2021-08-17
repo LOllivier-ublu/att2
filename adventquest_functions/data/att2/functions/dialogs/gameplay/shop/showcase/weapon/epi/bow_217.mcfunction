@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_217 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Arc du félon>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Arc du félon\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le traître ne connais pas de frère,\\\"}\",\"{\\\"text\\\":\\\"§7il est seul, et c'est là se force.\\\"}\",\"{\\\"text\\\":\\\"§7The traitor knows no brother,\\\"}\",\"{\\\"text\\\":\\\"§7he is alone, and that is his strength.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a4 §7HER§a2 §7STR§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:8s},{id:\"minecraft:punch\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}]},Damage:260}"},"extra":[{"text":" [2625 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi/bow_217"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

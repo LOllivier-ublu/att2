@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_27 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Puissance Ineffable>","bold":false,"color":"gold","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§6Puissance Ineffable\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Faites exploser votre force,\\\"}\",\"{\\\"text\\\":\\\"§7au prix d'une insatiable faim.\\\"}\",\"{\\\"text\\\":\\\"§7Explode your strength,\\\"}\",\"{\\\"text\\\":\\\"§7at the cost of insatiable hunger.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4\\\"}\"]},CustomPotionColor:4738620,CustomPotionEffects:[{Id:6,Amplifier:1,Duration:2,ShowParticles:0b}]}}"},"extra":[{"text":" [378 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/leg/potion_27"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

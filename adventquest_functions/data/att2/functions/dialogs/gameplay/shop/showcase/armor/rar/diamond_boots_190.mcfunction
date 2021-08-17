@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_boots_190 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Marque-terre>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_boots\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Marque-terre\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une emprunte pour laquelle aucun\\\"}\",\"{\\\"text\\\":\\\"§7sol ne résiste, pas même la roche.\\\"}\",\"{\\\"text\\\":\\\"§7A footprint for which no soil\\\"}\",\"{\\\"text\\\":\\\"§7can resist, not even rock.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7HER§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:feather_falling\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.27,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.59,Operation:1,Slot:feet,UUID:[I;0,20004,0,20000]}]},Damage:280}"},"extra":[{"text":" [169 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/diamond_boots_190"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

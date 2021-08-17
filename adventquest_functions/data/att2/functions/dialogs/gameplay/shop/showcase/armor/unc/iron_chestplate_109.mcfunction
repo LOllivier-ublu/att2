@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item iron_chestplate_109 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Plaque percée>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:iron_chestplate\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Plaque percée\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7A de nombreuses pointes elle survécut.\\\"}\",\"{\\\"text\\\":\\\"§7At many points it survived.\\\"}\"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.79,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.57,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]}]},Damage:140}"},"extra":[{"text":" [96 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/unc/iron_chestplate_109"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

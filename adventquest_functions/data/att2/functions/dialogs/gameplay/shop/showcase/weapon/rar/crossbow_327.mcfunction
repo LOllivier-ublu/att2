@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item crossbow_327 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Compagnon>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:crossbow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Compagnon\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un périple est plus agréable entre amis.\\\"}\",\"{\\\"text\\\":\\\"§7A journey is more pleasant with friends.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HUN§a1 §7RES§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:3s},{id:\"minecraft:quick_charge\",lvl:1s}]},Damage:250}"},"extra":[{"text":" [675 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/crossbow_327"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

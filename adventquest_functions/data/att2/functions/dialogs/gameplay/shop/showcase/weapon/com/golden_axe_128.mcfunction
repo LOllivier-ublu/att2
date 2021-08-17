@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item golden_axe_128 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Mauvaise réplique>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_axe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Mauvaise réplique\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7De manufacture Terän...\\\"}\",\"{\\\"text\\\":\\\"§7Made by Terän...\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.7,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.92,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]},Damage:12}"},"extra":[{"text":" [38 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/com/golden_axe_128"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

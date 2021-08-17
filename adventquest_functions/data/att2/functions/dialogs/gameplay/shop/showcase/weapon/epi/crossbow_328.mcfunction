@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item crossbow_328 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Inspiration de Lucas>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:crossbow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Inspiration de Lucas\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Si créativité naît de patience,\\\"}\",\"{\\\"text\\\":\\\"§7perséverénce est mère d'efficacité...\\\"}\",\"{\\\"text\\\":\\\"§7If creativity is born of patience,\\\"}\",\"{\\\"text\\\":\\\"§7perseverance is the mother of efficiency...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HAS§c-2\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:6s},{id:\"minecraft:quick_charge\",lvl:2s}]},Damage:150}"},"extra":[{"text":" [2625 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi/crossbow_328"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

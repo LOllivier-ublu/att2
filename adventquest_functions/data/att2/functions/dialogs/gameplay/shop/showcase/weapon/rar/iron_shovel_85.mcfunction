@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item iron_shovel_85 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Fine lame>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:iron_shovel\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Fine lame\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une courte portée garantit\\\"}\",\"{\\\"text\\\":\\\"§7un coup précis et fatal.\\\"}\",\"{\\\"text\\\":\\\"§7A short range guarantees\\\"}\",\"{\\\"text\\\":\\\"§7a precise and fatal blow.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HUN§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:4.42,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.76,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]},Damage:125}"},"extra":[{"text":" [338 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/iron_shovel_85"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item iron_chestplate_117 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Armure de Cédrin>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:iron_chestplate\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Armure de Cédrin\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Apothéose des artisans du pays\\\"}\",\"{\\\"text\\\":\\\"§7de Témérien.\\\"}\",\"{\\\"text\\\":\\\"§7Apotheosis of the craftsmen\\\"}\",\"{\\\"text\\\":\\\"§7of Temerian country.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HUN§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:thorns\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:5.8,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.34,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]}]},Damage:95}"},"extra":[{"text":" [219 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/iron_chestplate_117"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

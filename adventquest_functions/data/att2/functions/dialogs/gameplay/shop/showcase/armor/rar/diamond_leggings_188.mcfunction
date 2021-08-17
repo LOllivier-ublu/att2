@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_leggings_188 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Pénombre>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_leggings\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Pénombre\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7L'étrenne nuit ne semble plus\\\"}\",\"{\\\"text\\\":\\\"§7aussi lointaine.\\\"}\",\"{\\\"text\\\":\\\"§7The primordial night doesn't seem\\\"}\",\"{\\\"text\\\":\\\"§7that far away anymore.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HUN§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:fire_protection\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.27,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.42,Operation:1,Slot:legs,UUID:[I;0,20003,0,20000]}]},Damage:320}"},"extra":[{"text":" [304 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/diamond_leggings_188"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item crossbow_251 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Chance insolante>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:crossbow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Chance insolante\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Même les plus mauvais tireurs\\\"}\",\"{\\\"text\\\":\\\"§7sauraient mettre dans le mille !\\\"}\",\"{\\\"text\\\":\\\"§7Even the worst shooters\\\"}\",\"{\\\"text\\\":\\\"§7can hit the bull's eye!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7LUC§a1 §7HER§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:quick_charge\",lvl:3s}]},Damage:130}"},"extra":[{"text":" [2625 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi/crossbow_251"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

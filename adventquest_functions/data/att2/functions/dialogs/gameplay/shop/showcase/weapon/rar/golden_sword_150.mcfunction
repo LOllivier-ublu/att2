@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item golden_sword_150 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Epée du soldat>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_sword\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Epée du soldat\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une véritable épée pour un soldat\\\"}\",\"{\\\"text\\\":\\\"§7immortel d'Angor.\\\"}\",\"{\\\"text\\\":\\\"§7A real sword for an immortal\\\"}\",\"{\\\"text\\\":\\\"§7soldier of Angor.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.96,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.83,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]},Damage:0}"},"extra":[{"text":" [473 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/golden_sword_150"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

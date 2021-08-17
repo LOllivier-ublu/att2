@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_chestplate_334 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Faux Skéléo>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_chestplate\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Faux Skéléo\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le meilleur, du meilleur, du... plus nul.\\\"}\",\"{\\\"text\\\":\\\"§7The best, of the best, of... the worst.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7SPD§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3.33,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.96,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]}]},Damage:400}"},"extra":[{"text":" [113 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/unc/diamond_chestplate_334"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

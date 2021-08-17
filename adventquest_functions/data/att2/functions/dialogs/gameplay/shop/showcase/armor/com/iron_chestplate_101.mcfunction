@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item iron_chestplate_101 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Chef-d'œuvre d'Arnaud>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:iron_chestplate\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Chef-d'œuvre d'Arnaud\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il sera un grand forgeron !\\\"}\",\"{\\\"text\\\":\\\"§7He'll be a great blacksmith!\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.04,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]}]},Damage:145}"},"extra":[{"text":" [19 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/com/iron_chestplate_101"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

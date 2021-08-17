@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item splash_potion_58 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Gaz nauséabond>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:splash_potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Gaz nauséabond\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Crée un nuage trouble écœurant\\\"}\",\"{\\\"text\\\":\\\"§7et causant ainsi des nausées.\\\"}\",\"{\\\"text\\\":\\\"§7Creates a sickening cloud causing nausea.\\\"}\"]},CustomPotionColor:1920810,CustomPotionEffects:[{Id:20,Amplifier:6,Duration:500,ShowParticles:0b},{Id:15,Amplifier:0,Duration:500,ShowParticles:0b},{Id:7,Amplifier:6,Duration:0,ShowParticles:0b}]}}"},"extra":[{"text":" [79 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/epi/splash_potion_58"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

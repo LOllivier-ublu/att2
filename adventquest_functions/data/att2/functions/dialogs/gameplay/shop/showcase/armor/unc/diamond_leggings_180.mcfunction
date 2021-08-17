@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_leggings_180 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Sublime coupe vent>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_leggings\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Sublime coupe vent\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Mais pas le plus subtil...\\\"}\",\"{\\\"text\\\":\\\"§7But not the most subtle...\\\"}\"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.55,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.35,Operation:1,Slot:legs,UUID:[I;0,20003,0,20000]}]},Damage:355}"},"extra":[{"text":" [56 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/unc/diamond_leggings_180"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

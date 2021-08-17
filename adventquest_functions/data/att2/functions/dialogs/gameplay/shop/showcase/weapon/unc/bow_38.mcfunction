@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_38 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Arc de Bâtilen>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Arc de Bâtilen\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Garde au loin\\\"}\",\"{\\\"text\\\":\\\"§7tes ennemis.\\\"}\",\"{\\\"text\\\":\\\"§7Keep your enemies\\\"}\",\"{\\\"text\\\":\\\"§7in the distance.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:1s},{id:\"minecraft:punch\",lvl:2s}]},Damage:350}"},"extra":[{"text":" [225 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/bow_38"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

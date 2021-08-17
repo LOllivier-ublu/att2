@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_219 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Lueurs du matin>","bold":false,"color":"gold","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§6Lueurs du matin\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tant espérées, elles annihilent les ténèbres\\\"}\",\"{\\\"text\\\":\\\"§7si tenaces, sans la moindre difficulté.\\\"}\",\"{\\\"text\\\":\\\"§7So much hoped for, they annihilate the darkness \\\"}\",\"{\\\"text\\\":\\\"§7so tenacious, without the slightest difficulty.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7HUN§a2\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:12s},{id:\"minecraft:flame\",lvl:5s}]},Damage:0}"},"extra":[{"text":" [5250 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/leg/bow_219"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

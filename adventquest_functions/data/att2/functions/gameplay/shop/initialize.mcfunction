@@ -24,6 +24,6 @@ scoreboard players set 60 SHOP_OP1 60
 scoreboard players set 1000 SHOP_OP1 1000
 scoreboard players set 100000 SHOP_OP1 100000
 
-execute positioned 777 77 788 run function att2:gameplay/shop/slot_management/summon_holder
+execute positioned 775 71 781 run function att2:gameplay/shop/slot_management/summon_holder
 scoreboard players set @e[nbt={Tags:["ShotSlotHolder"]}] SHOP_OP1 0
 function att2:gameplay/shop/slot_management/randomise

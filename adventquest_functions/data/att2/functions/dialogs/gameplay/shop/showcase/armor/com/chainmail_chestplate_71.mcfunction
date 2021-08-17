@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item chainmail_chestplate_71 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Maille>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:chainmail_chestplate\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Maille\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Jadis appartenant à un faquin.\\\"}\",\"{\\\"text\\\":\\\"§7Once owned by a fake.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§c-1 §7HUN§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.43,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:1,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:chest,UUID:[I;0,30002,0,20000]}]},Damage:175}"},"extra":[{"text":" [15 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/com/chainmail_chestplate_71"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

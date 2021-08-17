@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item crossbow_250 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Empaumure modifiée>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:crossbow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Empaumure modifiée\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un ébeniste avec de l'imagination\\\"}\",\"{\\\"text\\\":\\\"§7pourrait vous surprendre.\\\"}\",\"{\\\"text\\\":\\\"§7A cabinet maker with an imagination\\\"}\",\"{\\\"text\\\":\\\"§7might surprise you.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HER§a1 §7HUN§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:3s},{id:\"minecraft:quick_charge\",lvl:2s}]},Damage:225}"},"extra":[{"text":" [675 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/crossbow_250"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

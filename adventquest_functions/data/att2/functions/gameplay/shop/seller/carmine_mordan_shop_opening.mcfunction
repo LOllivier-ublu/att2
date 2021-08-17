@@ -6,28 +6,19 @@
 function att2:sound/shop/opening
 
 function att2:dialogs/gameplay/shop/items_selled_list/weapon_list
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/com/wooden_pickaxe_3
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/com/diamond_shovel_100
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/com/iron_sword_71
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/unc/wooden_shovel_13
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/unc/iron_pickaxe_75
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/unc/shield_56
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/rar/wooden_axe_17
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/rar/diamond_axe_113
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/rar/diamond_sword_119
-function att2:dialogs/gameplay/shop/items_selled_list/weapon/epi/netherite_pickaxe_309
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot1"]}] run function att2:gameplay/shop/slot_management/showcase/weapon_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot2"]}] run function att2:gameplay/shop/slot_management/showcase/weapon_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot3"]}] run function att2:gameplay/shop/slot_management/showcase/weapon_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot4"]}] run function att2:gameplay/shop/slot_management/showcase/weapon_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot5"]}] run function att2:gameplay/shop/slot_management/showcase/weapon_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot6"]}] run function att2:gameplay/shop/slot_management/showcase/weapon_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot7"]}] run function att2:gameplay/shop/slot_management/showcase/weapon_carmin_mordan
 
 function att2:dialogs/gameplay/shop/items_selled_list/armor_list
-function att2:dialogs/gameplay/shop/items_selled_list/armor/com/chainmail_leggings_73
-function att2:dialogs/gameplay/shop/items_selled_list/armor/com/iron_helmet_99
-function att2:dialogs/gameplay/shop/items_selled_list/armor/com/diamond_boots_175
-function att2:dialogs/gameplay/shop/items_selled_list/armor/com/iron_chestplate_101
-function att2:dialogs/gameplay/shop/items_selled_list/armor/unc/chainmail_boots_81
-function att2:dialogs/gameplay/shop/items_selled_list/armor/unc/iron_leggings_112
-function att2:dialogs/gameplay/shop/items_selled_list/armor/unc/diamond_helmet_176
-function att2:dialogs/gameplay/shop/items_selled_list/armor/unc/netherite_chestplate_276
-function att2:dialogs/gameplay/shop/items_selled_list/armor/rar/diamond_boots_190
-function att2:dialogs/gameplay/shop/items_selled_list/armor/rar/netherite_helmet_281
-function att2:dialogs/gameplay/shop/items_selled_list/armor/rar/diamond_leggings_188
-function att2:dialogs/gameplay/shop/items_selled_list/armor/epi/diamond_chestplate_193
-function att2:dialogs/gameplay/shop/items_selled_list/armor/epi/netherite_helmet_289
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot1"]}] run function att2:gameplay/shop/slot_management/showcase/armor_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot2"]}] run function att2:gameplay/shop/slot_management/showcase/armor_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot3"]}] run function att2:gameplay/shop/slot_management/showcase/armor_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot4"]}] run function att2:gameplay/shop/slot_management/showcase/armor_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot5"]}] run function att2:gameplay/shop/slot_management/showcase/armor_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot6"]}] run function att2:gameplay/shop/slot_management/showcase/armor_carmin_mordan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot7"]}] run function att2:gameplay/shop/slot_management/showcase/armor_carmin_mordan

@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item golden_pickaxe_131 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Peinture dorée>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_pickaxe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Peinture dorée\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Au moins c'est joli.\\\"}\",\"{\\\"text\\\":\\\"§7At least it's nice.\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.94,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.95,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]},Damage:20}"},"extra":[{"text":" [26 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/com/golden_pickaxe_131"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

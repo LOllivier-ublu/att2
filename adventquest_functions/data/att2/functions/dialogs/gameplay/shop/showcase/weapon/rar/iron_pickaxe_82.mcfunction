@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item iron_pickaxe_82 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Guédéron>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:iron_pickaxe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Guédéron\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tu es fort, très fort,\\\"}\",\"{\\\"text\\\":\\\"§7le plus fort d'entre nous.\\\"}\",\"{\\\"text\\\":\\\"§7You are strong, very strong,\\\"}\",\"{\\\"text\\\":\\\"§7the strongest of us.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:32.28,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.9299999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]},Damage:125}"},"extra":[{"text":" [439 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/iron_pickaxe_82"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

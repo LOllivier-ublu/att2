@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_pickaxe_114 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Méloquien>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_pickaxe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Méloquien\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Immense et inébranlable, tu persistes.\\\"}\",\"{\\\"text\\\":\\\"§7Immense and unshakeable, you persist.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§c-1 §7SPD§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:34.53,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.92,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]},Damage:1350}"},"extra":[{"text":" [540 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/diamond_pickaxe_114"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

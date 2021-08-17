@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_45 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Äpril>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Äpril\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Envoûtant mais destructeur,\\\"}\",\"{\\\"text\\\":\\\"§7il chasse sans distinction d'espèce.\\\"}\",\"{\\\"text\\\":\\\"§7Charming but destructive,\\\"}\",\"{\\\"text\\\":\\\"§7it hunts without distinction of species.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a1 §7DAR§c-2\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:6s}]},Damage:200}"},"extra":[{"text":" [2625 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi/bow_45"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

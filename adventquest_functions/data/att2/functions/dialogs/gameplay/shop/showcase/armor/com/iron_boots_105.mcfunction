@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item iron_boots_105 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Bottes de métal>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:iron_boots\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Bottes de métal\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un essai raté.\\\"}\",\"{\\\"text\\\":\\\"§7A failed attempt.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.75,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0,Operation:1,Slot:feet,UUID:[I;0,20004,0,20000]}]},Damage:110}"},"extra":[{"text":" [24 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/com/iron_boots_105"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

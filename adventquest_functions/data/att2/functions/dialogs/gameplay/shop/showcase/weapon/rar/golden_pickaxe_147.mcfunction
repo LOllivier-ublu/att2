@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item golden_pickaxe_147 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Pourfend-roche>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_pickaxe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Pourfend-roche\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle est si robuste que même\\\"}\",\"{\\\"text\\\":\\\"§7la roche ploie sous sa volonté.\\\"}\",\"{\\\"text\\\":\\\"§7It is so robust that even the rock\\\"}\",\"{\\\"text\\\":\\\"§7bends under its will.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7DAR§a1 §7HAS§c-1 §7SPD§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:30.66,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.89,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]},Damage:0}"},"extra":[{"text":" [641 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/golden_pickaxe_147"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

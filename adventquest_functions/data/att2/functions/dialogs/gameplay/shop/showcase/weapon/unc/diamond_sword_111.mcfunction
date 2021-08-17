@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_sword_111 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Courage de Samaël>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_sword\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Courage de Samaël\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il périt seul, mais mieux qu'un roi.\\\"}\",\"{\\\"text\\\":\\\"§7He perished alone, but better than a king.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.57,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.89,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]},Damage:1375}"},"extra":[{"text":" [180 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/diamond_sword_111"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

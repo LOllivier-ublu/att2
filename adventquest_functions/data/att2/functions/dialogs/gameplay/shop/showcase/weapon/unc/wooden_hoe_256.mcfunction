@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item wooden_hoe_256 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Epieu>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:wooden_hoe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Epieu\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utile pour la chasse au gibier.\\\"}\",\"{\\\"text\\\":\\\"§7Useful for game hunting.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.57,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30005,0,10000]}]},Damage:0}"},"extra":[{"text":" [180 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/wooden_hoe_256"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

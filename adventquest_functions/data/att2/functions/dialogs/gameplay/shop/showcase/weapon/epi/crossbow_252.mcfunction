@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item crossbow_252 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Arrondisseuse d'angle>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:crossbow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Arrondisseuse d'angle\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Quand il y a besoin d'atténuer les tentions,\\\"}\",\"{\\\"text\\\":\\\"§7rien ne vaut le silence éternel des protagonistes.\\\"}\",\"{\\\"text\\\":\\\"§7When there is a need to reduce the temptations,\\\"}\",\"{\\\"text\\\":\\\"§7nothing beats the eternal silence of the protagonists.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a2 §7SPD§c-2\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:6s},{id:\"minecraft:quick_charge\",lvl:1s}]},Damage:115}"},"extra":[{"text":" [2625 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi/crossbow_252"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

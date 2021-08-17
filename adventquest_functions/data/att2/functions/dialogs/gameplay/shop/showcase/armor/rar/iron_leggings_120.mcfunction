@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item iron_leggings_120 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Jambières robustes>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:iron_leggings\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Jambières robustes\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Solides, plus que ses sœurs.\\\"}\",\"{\\\"text\\\":\\\"§7Stronger than its sisters.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:projectile_protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:4.43,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.22,Operation:1,Slot:legs,UUID:[I;0,20003,0,20000]}]},Damage:85}"},"extra":[{"text":" [270 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/iron_leggings_120"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

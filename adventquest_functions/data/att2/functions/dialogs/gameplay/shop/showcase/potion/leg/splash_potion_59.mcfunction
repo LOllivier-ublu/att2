@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item splash_potion_59 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Intense analgésique>","bold":false,"color":"gold","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:splash_potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§6Intense analgésique\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Supprime ou atténue la sensibilité à la douleur,\\\"}\",\"{\\\"text\\\":\\\"§7vous donnant ainsi la capacité de continuer le combat.\\\"}\",\"{\\\"text\\\":\\\"§7Removes or alleviates pain sensitivity,\\\"}\",\"{\\\"text\\\":\\\"§7giving you the ability to keep fighting.\\\"}\"]},CustomPotionColor:16777215,CustomPotionEffects:[{Id:6,Amplifier:10,Duration:0,ShowParticles:0b}]}}"},"extra":[{"text":" [131 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/leg/splash_potion_59"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

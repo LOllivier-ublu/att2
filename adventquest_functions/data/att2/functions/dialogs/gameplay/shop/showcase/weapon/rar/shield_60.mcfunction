@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item shield_60 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Fierté de Lodera>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:shield\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Fierté de Lodera\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bien que jamais tu n'allasses au\\\"}\",\"{\\\"text\\\":\\\"§7combat, ils te reconnurent toujours.\\\"}\",\"{\\\"text\\\":\\\"§7Even though you never went into battle,\\\"}\",\"{\\\"text\\\":\\\"§7they always remembered you.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§a1 §7HUN§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]},Damage:160}"},"extra":[{"text":" [338 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/shield_60"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

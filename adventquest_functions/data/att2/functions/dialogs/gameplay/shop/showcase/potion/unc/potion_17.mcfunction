@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_17 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Préparation Subtile>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Préparation Subtile\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une formule cachée, un art maîtrisé,\\\"}\",\"{\\\"text\\\":\\\"§7et le tour est joué.\\\"}\",\"{\\\"text\\\":\\\"§7A hidden formula, an art mastered,\\\"}\",\"{\\\"text\\\":\\\"§7and it's done.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1\\\"}\"]},CustomPotionColor:12022783}}"},"extra":[{"text":" [40 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/unc/potion_17"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

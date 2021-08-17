@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_7 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Alchemia>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Alchemia\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un mélange alambiqué\\\"}\",\"{\\\"text\\\":\\\"§7et au goût douteux.\\\"}\",\"{\\\"text\\\":\\\"§7A convoluted mixture\\\"}\",\"{\\\"text\\\":\\\"§7with a questionable taste.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HER§c-1 §7HUN§c-2\\\"}\"]},CustomPotionColor:10526975,CustomPotionEffects:[{Id:12,Amplifier:0,Duration:8000,ShowParticles:0b},{Id:16,Amplifier:0,Duration:8000,ShowParticles:0b}]}}"},"extra":[{"text":" [17 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/com/potion_7"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

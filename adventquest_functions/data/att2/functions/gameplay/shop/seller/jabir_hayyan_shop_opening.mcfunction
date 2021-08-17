@@ -6,14 +6,10 @@
 function att2:sound/shop/opening
 
 function att2:dialogs/gameplay/shop/items_selled_list/potion_list
-function att2:dialogs/gameplay/shop/items_selled_list/potion/com/potion_9
-function att2:dialogs/gameplay/shop/items_selled_list/potion/unc/potion_15
-function att2:dialogs/gameplay/shop/items_selled_list/potion/rar/potion_19
-function att2:dialogs/gameplay/shop/items_selled_list/potion/leg/potion_28
-
-function att2:dialogs/gameplay/shop/items_selled_list/potion_splash_list
-function att2:dialogs/gameplay/shop/items_selled_list/potion/rar/splash_potion_36
-function att2:dialogs/gameplay/shop/items_selled_list/potion/epi/splash_potion_38
-
-function att2:dialogs/gameplay/shop/items_selled_list/potion_lingering_list
-function att2:dialogs/gameplay/shop/items_selled_list/potion/epi/lingering_potion_44
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot1"]}] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot2"]}] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot3"]}] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot4"]}] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot5"]}] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot6"]}] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["ShotSlotHolder","slot7"]}] run function att2:gameplay/shop/slot_management/showcase/potion_jabir_hayyan

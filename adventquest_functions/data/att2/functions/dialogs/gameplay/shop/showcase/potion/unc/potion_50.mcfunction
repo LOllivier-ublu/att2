@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_50 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Amertume>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Amertume\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas besoin d'être gouteux pour être utile.\\\"}\",\"{\\\"text\\\":\\\"§7No need to be tasty to be useful.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a3 §7HER§c-1\\\"}\"]},CustomPotionColor:9548132,CustomPotionEffects:[{Id:6,Amplifier:0,Duration:2,ShowParticles:0b}]}}"},"extra":[{"text":" [34 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/unc/potion_50"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

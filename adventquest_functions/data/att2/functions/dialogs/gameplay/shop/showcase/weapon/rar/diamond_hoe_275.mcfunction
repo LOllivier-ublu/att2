@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_hoe_275 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Faîte des jeux>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_hoe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Faîte des jeux\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus vite, plus haut, plus fort !\\\"}\",\"{\\\"text\\\":\\\"§7Faster, higher, stronger!\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7LUC§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:smite\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:13.06,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.6599999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]}]},Damage:1250}"},"extra":[{"text":" [641 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/diamond_hoe_275"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

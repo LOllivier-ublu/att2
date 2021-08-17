@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_46 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Oncle de sang>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Oncle de sang\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pique, perce et tue, toi\\\"}\",\"{\\\"text\\\":\\\"§7à qui on brisa tout espoir.\\\"}\",\"{\\\"text\\\":\\\"§7Sting, pierce and kill, to you\\\"}\",\"{\\\"text\\\":\\\"§7to whom hope was shattered.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a3 §7LUC§c-2\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:punch\",lvl:2s}]},Damage:225}"},"extra":[{"text":" [2625 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi/bow_46"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

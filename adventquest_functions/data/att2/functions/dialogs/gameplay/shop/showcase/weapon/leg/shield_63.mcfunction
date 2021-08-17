@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item shield_63 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Témérité>","bold":false,"color":"gold","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:shield\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§6Témérité\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telle est la vertu des meilleurs, car eux\\\"}\",\"{\\\"text\\\":\\\"§7seuls atteignirent l'inatteignable.\\\"}\",\"{\\\"text\\\":\\\"§7This is the virtue of the best, because\\\"}\",\"{\\\"text\\\":\\\"§7only them achieved the unachievable.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7RES§a1 §7HER§a1 §7LUC§a1\\\"}\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}]},Damage:50}"},"extra":[{"text":" [2625 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/leg/shield_63"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item crossbow_253 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Mÿre Suprême>","bold":false,"color":"gold","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:crossbow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§6Mÿre Suprême\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Confère au plus simple morceau de bois,\\\"}\",\"{\\\"text\\\":\\\"§7une implacable puissance destructrice.\\\"}\",\"{\\\"text\\\":\\\"§7Confers the simplest piece of wood,\\\"}\",\"{\\\"text\\\":\\\"§7with relentless destructive power.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7DAR§a2 §7HUN§a1\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:10s},{id:\"minecraft:piercing\",lvl:1s}]},Damage:30}"},"extra":[{"text":" [5250 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/leg/crossbow_253"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

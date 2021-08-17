@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_48 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Sompteuse célérité>","bold":false,"color":"gold","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§6Sompteuse célérité\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telles des étoiles filantes, \\\"}\",\"{\\\"text\\\":\\\"§7fusent tes flèches.\\\"}\",\"{\\\"text\\\":\\\"§7Like shooting stars,\\\"}\",\"{\\\"text\\\":\\\"§7your arrows are blasting.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7LUC§a1 §7HUN§a2\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:8s},{id:\"minecraft:punch\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:1s}]},Damage:75}"},"extra":[{"text":" [5250 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/leg/bow_48"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_helmet_185 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<L'improbable>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_helmet\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9L'improbable\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il ne suffit pas d'y croire,\\\"}\",\"{\\\"text\\\":\\\"§7pour que ça se produise.\\\"}\",\"{\\\"text\\\":\\\"§7You don't just have to believe in it\\\"}\",\"{\\\"text\\\":\\\"§7to make it happen.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:blast_protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.4,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.53,Operation:1,Slot:head,UUID:[I;0,20001,0,20000]}]},Damage:230}"},"extra":[{"text":" [287 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/diamond_helmet_185"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

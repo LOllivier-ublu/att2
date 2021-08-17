@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_42 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Rossignol>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Rossignol\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puisses tes flèches voler\\\"}\",\"{\\\"text\\\":\\\"§7à la manière du rossignol.\\\"}\",\"{\\\"text\\\":\\\"§7May your arrows fly\\\"}\",\"{\\\"text\\\":\\\"§7like a nightingale.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7RES§c-1 §7DAR§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:4s},{id:\"minecraft:punch\",lvl:2s}]},Damage:320}"},"extra":[{"text":" [675 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/bow_42"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

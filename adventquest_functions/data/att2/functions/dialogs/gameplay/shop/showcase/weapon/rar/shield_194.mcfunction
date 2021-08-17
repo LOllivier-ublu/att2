@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item shield_194 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Emeraude tenace>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:shield\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Emeraude tenace\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7La couleur de l'espoir animera\\\"}\",\"{\\\"text\\\":\\\"§7ta volonté, ma sœur.\\\"}\",\"{\\\"text\\\":\\\"§7The color of hope will enliven\\\"}\",\"{\\\"text\\\":\\\"§7your will, sister.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HUN§a1 §7DAR§c-3\\\"}\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]},Damage:150}"},"extra":[{"text":" [338 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/shield_194"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

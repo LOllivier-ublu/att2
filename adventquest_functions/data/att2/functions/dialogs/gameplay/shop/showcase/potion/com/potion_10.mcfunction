@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_10 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Boisson Infecte>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Boisson Infecte\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Se boucher le nez,\\\"}\",\"{\\\"text\\\":\\\"§7semble être la meilleur solution.\\\"}\",\"{\\\"text\\\":\\\"§7Hold your nose,\\\"}\",\"{\\\"text\\\":\\\"§7seems to be the best solution.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7SPD§c-3\\\"}\"]},CustomPotionColor:12028367}}"},"extra":[{"text":" [23 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/com/potion_10"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

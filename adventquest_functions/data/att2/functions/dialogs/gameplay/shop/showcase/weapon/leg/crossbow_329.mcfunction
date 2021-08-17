@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item crossbow_329 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Unkempt Harold>","bold":false,"color":"gold","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:crossbow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§6Unkempt Harold\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7J'ai tiré quoi, six fois ? Ou Cinq ?\\\"}\",\"{\\\"text\\\":\\\"§7Trois ? Sept. Peu Importe.\\\"}\",\"{\\\"text\\\":\\\"§7Did I fire six shots, or only five?\\\"}\",\"{\\\"text\\\":\\\"§7Three? Seven. Whatever.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HER§a1 §7DAR§a1\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:8s},{id:\"minecraft:multishot\",lvl:1s}]},Damage:50}"},"extra":[{"text":" [5250 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/leg/crossbow_329"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

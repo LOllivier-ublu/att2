@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_197 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Fa oveur man>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Fa oveur man\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Presque génial, mais pas loin\\\"}\",\"{\\\"text\\\":\\\"§7d'absolument inutile.\\\"}\",\"{\\\"text\\\":\\\"§7Almost fantastic, but close to\\\"}\",\"{\\\"text\\\":\\\"§7absolutely useless.\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-2\\\"}\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:infinity\",lvl:1s}]},Damage:310}"},"extra":[{"text":" [225 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/bow_197"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

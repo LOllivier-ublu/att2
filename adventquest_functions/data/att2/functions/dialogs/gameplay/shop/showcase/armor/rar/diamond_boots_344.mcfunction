@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_boots_344 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Patte de la brume>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_boots\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Patte de la brume\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il n'y a pas de fumée sans feu.\\\"}\",\"{\\\"text\\\":\\\"§7Ni de coffre sans butin.\\\"}\",\"{\\\"text\\\":\\\"§7Where there's smoke there's fire.\\\"}\",\"{\\\"text\\\":\\\"§7As does loot for chest.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HAS§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.1,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.36,Operation:1,Slot:feet,UUID:[I;0,20004,0,20000]}]},Damage:275}"},"extra":[{"text":" [338 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/diamond_boots_344"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

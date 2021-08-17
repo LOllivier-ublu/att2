@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Obtain item netherite_leggings_237          #
+#####################################
+
+give @s minecraft:netherite_leggings{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"harmonious",Effect:"res1_dar2_has_2_spd_1",SetId:"8",display:{Name:"\"§5Volonté de fer\"","Lore":["{\"text\":\"§aL'élu de ce monde, à qui obéissent temps et\"}","{\"text\":\"§aespace, ne connaît aucune limite à sa volonté.\"}","{\"text\":\"§aThe chosen one of this world, to whom\"}","{\"text\":\"§atime and space obey, knows no limit to his will.\"}","{\"text\":\"§7RES§a1 §7DAR§a2 §7HAS§c-2 §7SPD§c-1\"}"]},Damage:150,Enchantments:[{id:"minecraft:protection",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:2.4,Operation:1,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]} 1

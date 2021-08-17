@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item shield_221 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Brise brise>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:shield\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Brise brise\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une carapace qui ne protège\\\"}\",\"{\\\"text\\\":\\\"§7pas que des coups...\\\"}\",\"{\\\"text\\\":\\\"§7A shell that doesn't just\\\"}\",\"{\\\"text\\\":\\\"§7protect against blows...\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§c-1\\\"}\"]}},Damage:180}"},"extra":[{"text":" [338 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/shield_221"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

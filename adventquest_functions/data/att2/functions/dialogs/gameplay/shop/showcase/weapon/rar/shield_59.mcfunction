@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item shield_59 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Roc>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:shield\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Roc\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vieux comme le monde\\\"}\",\"{\\\"text\\\":\\\"§7et pourtant si résistant.\\\"}\",\"{\\\"text\\\":\\\"§7Old as the world but still\\\"}\",\"{\\\"text\\\":\\\"§7so resilient.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7SPD§c-3\\\"}\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]},Damage:190}"},"extra":[{"text":" [338 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/shield_59"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

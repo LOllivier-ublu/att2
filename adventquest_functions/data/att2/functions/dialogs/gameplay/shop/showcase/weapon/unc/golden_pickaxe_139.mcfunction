@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item golden_pickaxe_139 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Le bras du géant>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:golden_pickaxe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Le bras du géant\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il faut au moins un bras comme\\\"}\",\"{\\\"text\\\":\\\"§7ça pour la manier.\\\"}\",\"{\\\"text\\\":\\\"§7It takes at least an arm\\\"}\",\"{\\\"text\\\":\\\"§7like that to handle it.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§c-2\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:12.54,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.94,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]},Damage:0}"},"extra":[{"text":" [158 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/golden_pickaxe_139"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

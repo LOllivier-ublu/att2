@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item iron_sword_78 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Pointe d'acier>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:iron_sword\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Pointe d'acier\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle tiendra \\\"}\",\"{\\\"text\\\":\\\"§7jusqu'à la fin de la guerre.\\\"}\",\"{\\\"text\\\":\\\"§7It will last\\\"}\",\"{\\\"text\\\":\\\"§7until the end of the war.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.68,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.88,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]},Damage:175}"},"extra":[{"text":" [203 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/unc/iron_sword_78"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_leggings_335 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Grimpant de treillis>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_leggings\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Grimpant de treillis\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Armature de membres inférieurs.\\\"}\",\"{\\\"text\\\":\\\"§7Armature of lower limbs.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.34,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.5,Operation:1,Slot:legs,UUID:[I;0,20003,0,20000]}]},Damage:350}"},"extra":[{"text":" [73 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/unc/diamond_leggings_335"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

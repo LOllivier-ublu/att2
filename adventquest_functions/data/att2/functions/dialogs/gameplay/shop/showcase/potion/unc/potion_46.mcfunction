@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_46 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Satiété>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§2Satiété\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rien d'organique en cette potion,\\\"}\",\"{\\\"text\\\":\\\"§7et pourtant quel régal.\\\"}\",\"{\\\"text\\\":\\\"§7Nothing organic about this potion,\\\"}\",\"{\\\"text\\\":\\\"§7and yet what a treat.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a5\\\"}\"]},CustomPotionColor:65535}}"},"extra":[{"text":" [225 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/unc/potion_46"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_axe_113 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Hache bénie>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_axe\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Hache bénie\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7N'attend qu'un maître pour\\\"}\",\"{\\\"text\\\":\\\"§7absoudre le mal.\\\"}\",\"{\\\"text\\\":\\\"§7Only waits for a master\\\"}\",\"{\\\"text\\\":\\\"§7to absolve evil.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§c-1 §7HUN§c-1\\\"}\"]},Enchantments:[{id:\"minecraft:smite\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:13.91,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.85,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]},Damage:1325}"},"extra":[{"text":" [439 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/diamond_axe_113"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

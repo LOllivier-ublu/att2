@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_shovel_116 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Souffle roche>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_shovel\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Souffle roche\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7A l'impact de ta table.\\\"}\",\"{\\\"text\\\":\\\"§7At the impact of your face.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7DAR§a1 §7HER§c-1\\\"}\"]},AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:5.23,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.72,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]},Damage:1275}"},"extra":[{"text":" [473 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/diamond_shovel_116"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

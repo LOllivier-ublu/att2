@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_215 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Chant du vent>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Chant du vent\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ce n'est pas un instrument de musique,\\\"}\",\"{\\\"text\\\":\\\"§7et pourant, qu'il me plait de l'entendre.\\\"}\",\"{\\\"text\\\":\\\"§7It is not a musical instrument,\\\"}\",\"{\\\"text\\\":\\\"§7and yet, I like to hear it.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7DAR§a1\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:1s}]},Damage:275}"},"extra":[{"text":" [675 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/rar/bow_215"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

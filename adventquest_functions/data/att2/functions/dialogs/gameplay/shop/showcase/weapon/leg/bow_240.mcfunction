@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item bow_240 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Arc spectral>","bold":false,"color":"gold","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:bow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§6Arc spectral\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Etends l'influence de ton maître\\\"}\",\"{\\\"text\\\":\\\"§7pour 30 secondes.\\\"}\",\"{\\\"text\\\":\\\"§7Extend your master's influence\\\"}\",\"{\\\"text\\\":\\\"§7for 30 seconds.\\\"}\"]},Enchantments:[{id:\"minecraft:power\",lvl:15s},{id:\"minecraft:infinity\",lvl:1s}]},Damage:382}"},"extra":[{"text":" [5250 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/leg/bow_240"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

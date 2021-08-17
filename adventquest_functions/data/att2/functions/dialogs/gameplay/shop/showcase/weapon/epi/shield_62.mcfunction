@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item shield_62 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Désespoir>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:shield\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Désespoir\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tout est perdu, la fin est si proche, mais elle ne viendra pas\\\"}\",\"{\\\"text\\\":\\\"§7tant que l'énergie du désespoir t'habitera.\\\"}\",\"{\\\"text\\\":\\\"§7All is lost, the end is so near, but it will\\\"}\",\"{\\\"text\\\":\\\"§7not come as long as the energy of despair lives in you.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7DAR§a2\\\"}\"]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s}]},Damage:330}"},"extra":[{"text":" [1313 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/weapon/epi/shield_62"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

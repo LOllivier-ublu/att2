@@ -1,6 +1,6 @@
-##################################################
-#Made by Adventquest                             #
-#Obtain equipement                               #
-##################################################
+#####################################
+#Made by Adventquest                #
+#Obtain item netherite_boots_292          #
+#####################################
 
 give @s minecraft:netherite_boots{EquipmentType:"armor",Rarity:"epi",Manufacturer:"harmonious",Effect:"res1_has3_her_1",display:{Name:"\"§5Vagabondage dimensionnel\"","Lore":["{\"text\":\"§7Du bel acier bien lourd, une bonne élasticité aux chevilles,\"}","{\"text\":\"§7 un poids équilibré sur les orteils.\"}","{\"text\":\"§7Beautiful heavy steel, good elasticity at the ankles,\"}","{\"text\":\"§7a balanced weight on the toes.\"}","{\"text\":\"§7RES§a1 §7HAS§a3 §7HER§c-1\"}"]},Damage:125,Enchantments:[{id:"minecraft:fire_protection",lvl:3s},{id:"minecraft:blast_protection",lvl:3s},{id:"minecraft:projectile_protection",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:2.07,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.55,Operation:1,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]} 1

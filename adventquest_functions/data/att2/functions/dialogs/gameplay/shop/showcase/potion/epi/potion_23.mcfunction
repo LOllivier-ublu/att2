@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_23 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Beatitude>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Beatitude\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7La réalité comme une lancinante joie\\\"}\",\"{\\\"text\\\":\\\"§7s'est enfin défaite de sa complexité.\\\"}\",\"{\\\"text\\\":\\\"§7Reality like a hauntingly joy\\\"}\",\"{\\\"text\\\":\\\"§7has finally undone from its complexity.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a2 §7LUC§a1 §7HAS§c-2\\\"}\"]},CustomPotionColor:65535,CustomPotionEffects:[{Id:6,Amplifier:2,Duration:2,ShowParticles:0b}]}}"},"extra":[{"text":" [184 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/epi/potion_23"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}

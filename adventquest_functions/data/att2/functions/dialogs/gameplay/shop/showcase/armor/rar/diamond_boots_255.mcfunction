@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item diamond_boots_255 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Chaussures du grimpeur>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:diamond_boots\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Chaussures du grimpeur\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Même les nuages s'escaladent.\\\"}\",\"{\\\"text\\\":\\\"§7Even the clouds are climbable.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7HAS§c-2\\\"}\"]},Enchantments:[{id:\"minecraft:feather_falling\",lvl:3s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.52,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.81,Operation:1,Slot:feet,UUID:[I;0,20004,0,20000]}]},Damage:290}"},"extra":[{"text":" [277 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/armor/rar/diamond_boots_255"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy"}}]}]}
