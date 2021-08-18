@@ -46,6 +46,7 @@ execute in minecraft:overworld if score SQ25 SIDEQUEST matches 1..99 run functio
 execute in minecraft:overworld if score SQ26 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/26/go
 execute in minecraft:overworld if score SQ27 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/27/go
 execute in minecraft:overworld if score SQ28 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/28/go
+execute in minecraft:overworld if score SQ28 SIDEQUEST matches 4..100 if score move_emerald SQ28 matches 0 unless entity @a[x=-5112,y=165,z=-6756,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/28/emerald/kill_pnj
 execute in minecraft:overworld if score SQ28 SIDEQUEST matches 4..100 if score move_emerald SQ28 matches 1 if entity @a[x=-5309,y=102,z=-6195,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/28/emerald/move_pnj
 execute in minecraft:overworld if score SQ28 SIDEQUEST matches 100 if score choice SQ28 matches 2 if entity @a[x=-4895,y=72,z=-4381,distance=..7,gamemode=adventure] run function att2:cinematic/sidequest/28/sastr_secret_opening
 execute in minecraft:overworld if score SQ29 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/29/go

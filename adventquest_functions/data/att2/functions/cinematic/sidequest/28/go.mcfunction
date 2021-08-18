@@ -48,8 +48,5 @@ execute if score SQ28 SIDEQUEST matches 2 run function att2:gameplay/boss/elcheo
 # Step3 when Player is close to Sélène
 execute if score SQ28 SIDEQUEST matches 3 if score cinematic SQ28 matches 0 if entity @a[x=-5095,y=163,z=-6751,distance=..3,gamemode=adventure] run function att2:cinematic/sidequest/28/start_selene_cinematic
 
-# Kill Emerald and Serile in temple if player is far away from them
-execute if score SQ28 SIDEQUEST matches 4 if score move_emerald SQ28 matches 0 unless entity @a[x=-5112,y=165,z=-6756,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/28/emerald/kill_pnj
-
 # Open Sästr secret if player come back to Owsästr dungeon
 execute if score SQ28 SIDEQUEST matches 4 if entity @a[x=-4895,y=72,z=-4381,distance=..7,gamemode=adventure] run function att2:cinematic/sidequest/28/end

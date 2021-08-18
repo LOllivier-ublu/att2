@@ -15,6 +15,9 @@ scoreboard players set @s MUSIC_BOSS 0
 scoreboard players set @s LANGUAGE 1
 scoreboard players set @s PANORAMA 0
 scoreboard players set @s SIDEQUEST 0
+scoreboard players set @s ESC 0
+scoreboard players set @s SHOP 0
+scoreboard players set @s MENDING 0
 
 function att2:gameplay/bank/initialize
 function att2:gameplay/bow/initialize
@@ -30,7 +33,6 @@ function att2:gameplay/leveling/initialize
 function att2:gameplay/misc/horse/initialize
 function att2:gameplay/music/initialize
 function att2:gameplay/potion/initialize
-function att2:gameplay/shop/initialize
 function att2:gameplay/speceffect/initialize
 function att2:gameplay/stat/initialize
 function att2:advancement/initialize
