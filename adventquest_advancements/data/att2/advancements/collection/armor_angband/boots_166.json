@@ -9,7 +9,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "att2:collection/armor_angband/boots_166",
+    "parent": "att2:collection/armor_angband/boots_162",
     "rewards": {
         "function": "att2:advancement/exploit_3"
         },

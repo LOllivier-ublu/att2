@@ -3,13 +3,13 @@
         "icon": {
             "item": "minecraft:leather_boots"
         },
-        "title": {"translate":"Bottes de guerre"},
-        "description": {"translate":"Carried as many people as terrible memories."},
+        "title": {"translate":"Pas du rock"},
+        "description": {"translate":"Slow as a rock, fast as a landslide."},
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true
     },
-    "parent": "att2:collection/armor_billgart/leather/boots_227",
+    "parent": "att2:collection/armor_billgart/leather/boots_229",
     "rewards": {
         "function": "att2:advancement/exploit_1"
         },
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Bottes de guerre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ont porté autant de personnes\\\"}\",\"{\\\"text\\\":\\\"§7que de terribles souvenirs.\\\"}\",\"{\\\"text\\\":\\\"§7Carried as many people\\\"}\",\"{\\\"text\\\":\\\"§7as terrible memories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7SPD§a1 §7DAR§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Pas du rock\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Lent comme une pierre,\\\"}\",\"{\\\"text\\\":\\\"§7rapide comme un éboulement.\\\"}\",\"{\\\"text\\\":\\\"§7Slow as a rock,\\\"}\",\"{\\\"text\\\":\\\"§7fast as a landslide.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-1\\\"}\"],color:2127385}}"
                     }
                 ]
             }

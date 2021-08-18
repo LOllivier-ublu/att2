@@ -3,13 +3,13 @@
         "icon": {
             "item": "minecraft:leather_leggings"
         },
-        "title": {"translate":"Grèves ensanglantées"},
-        "description": {"translate":"Were violently pierced by the wide fangs of the nisirion."},
+        "title": {"translate":"Jambes infatiguables"},
+        "description": {"translate":"In great rumblings, you go on your way."},
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true
     },
-    "parent": "att2:collection/armor_billgart/leather/leggings_226",
+    "parent": "att2:collection/armor_billgart/leather/leggings_227",
     "rewards": {
         "function": "att2:advancement/exploit_1"
         },
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Grèves ensanglantées\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Furent violemment percées par\\\"}\",\"{\\\"text\\\":\\\"§7les larges crocs du nisirion.\\\"}\",\"{\\\"text\\\":\\\"§7Were violently pierced by\\\"}\",\"{\\\"text\\\":\\\"§7the wide fangs of the nisirion.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HAS§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Jambes infatiguables\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En de grands grondements,\\\"}\",\"{\\\"text\\\":\\\"§7se poursuit ta route.\\\"}\",\"{\\\"text\\\":\\\"§7In great rumblings,\\\"}\",\"{\\\"text\\\":\\\"§7you go on your way.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§c-1\\\"}\"],color:2127385}}"
                     }
                 ]
             }

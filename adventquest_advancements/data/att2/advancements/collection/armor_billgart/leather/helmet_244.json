@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:leather_helmet"
         },
-        "title": {"translate":"Cornes"},
-        "description": {"translate":"Surmount your skull and breathe stupor and nightmares into even the worst."},
+        "title": {"translate":"1-j#!A"},
+        "description": {"translate":"As the fool says: meaning is only a matter of point of view."},
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§6Cornes\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Surmonte ton crâne et insuffle stupeurs\\\"}\",\"{\\\"text\\\":\\\"§7et cauchemars même aux plus mauvais.\\\"}\",\"{\\\"text\\\":\\\"§7Surmount your skull and breathe stupor\\\"}\",\"{\\\"text\\\":\\\"§7and nightmares into even the worst.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a3 §7HUN§a1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§61-j#!A\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Comme dit si bien le fou : le sens n'est\\\"}\",\"{\\\"text\\\":\\\"§7qu'une question de point de vue.\\\"}\",\"{\\\"text\\\":\\\"§7As the fool says: meaning is only\\\"}\",\"{\\\"text\\\":\\\"§7a matter of point of view.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1\\\"}\"],color:15465761}}"
                     }
                 ]
             }

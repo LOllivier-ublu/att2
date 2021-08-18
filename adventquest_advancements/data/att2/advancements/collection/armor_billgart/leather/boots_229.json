@@ -3,20 +3,20 @@
         "icon": {
             "item": "minecraft:leather_boots"
         },
-        "title": {"translate":"Bottes de métal"},
-        "description": {"translate":"A failed attempt."},
+        "title": {"translate":"Chaussures stagnante"},
+        "description": {"translate":"Thus by age and to infinity."},
         "show_toast": false,
         "announce_to_chat": true
     },
     "parent": "att2:collection/armor_billgart",
     "criteria": {
-        "leather_boots_227": {
+        "leather_boots_229": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                     "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§7Bottes de métal\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un essai raté.\\\"}\",\"{\\\"text\\\":\\\"§7A failed attempt.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§2Chaussures stagnante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ainsi par l'âge et jusqu'à l'infini.\\\"}\",\"{\\\"text\\\":\\\"§7Thus by age and to infinity.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7SPD§c-1\\\"}\"],color:4218913}}"
                     }
                 ]
             }

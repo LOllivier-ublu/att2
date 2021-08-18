@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:leather_chestplate"
         },
-        "title": {"translate":"Armure de Cédrin"},
-        "description": {"translate":"Apotheosis of the craftsmen of Temerian country."},
+        "title": {"translate":"Corps sans âge"},
+        "description": {"translate":"Challenges the most reckless, like those whose lives have no meaning."},
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Armure de Cédrin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Apothéose des artisans du pays\\\"}\",\"{\\\"text\\\":\\\"§7de Témérien.\\\"}\",\"{\\\"text\\\":\\\"§7Apotheosis of the craftsmen\\\"}\",\"{\\\"text\\\":\\\"§7of Temerian country.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7HUN§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Corps sans âge\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Défie-les plus téméraires, comme\\\"}\",\"{\\\"text\\\":\\\"§7ceux dont la vie n'a pas de sens.\\\"}\",\"{\\\"text\\\":\\\"§7Challenges the most reckless, like\\\"}\",\"{\\\"text\\\":\\\"§7those whose lives have no meaning.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a2 §7HUN§a1 §7STR§c-1\\\"}\"],color:2127385}}"
                     }
                 ]
             }

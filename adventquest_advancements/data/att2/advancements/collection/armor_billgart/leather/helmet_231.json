@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:leather_helmet"
         },
-        "title": {"translate":"Tête de l'érudit"},
+        "title": {"translate":"Standing at the very top, nothing can reach it."},
         "description": {"translate":"Protects your thoughts, literally."},
         "frame": "goal",
         "show_toast": false,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Tête de l'érudit\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Protège vos pensées, littéralement.\\\"}\",\"{\\\"text\\\":\\\"§7Protects your thoughts, literally.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a1 §7HUN§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Sommet immuable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trônant tout en haut,\\\"}\",\"{\\\"text\\\":\\\"§7rien ne l'atteint.\\\"}\",\"{\\\"text\\\":\\\"§7Standing at the very top,\\\"}\",\"{\\\"text\\\":\\\"§7nothing can reach it.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HAS§c-2\\\"}\"],color:2127385}}"
                     }
                 ]
             }

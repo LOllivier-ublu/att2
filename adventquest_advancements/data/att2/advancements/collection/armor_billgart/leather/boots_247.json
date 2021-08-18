@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:leather_boots"
         },
-        "title": {"translate":"Pas de vif argent"},
-        "description": {"translate":"Neither beauty nor speed are you lacking and for you, none will fade."},
+        "title": {"translate":"Obscurité éblouissante"},
+        "description": {"translate":"A billion screams, confined in a colourless silence, but of a cold and terrifying heat."},
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Pas de vif argent\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ni beauté, ni célérité ne te manque\\\"}\",\"{\\\"text\\\":\\\"§7et pour toi, aucune ne s'estompera.\\\"}\",\"{\\\"text\\\":\\\"§7Neither beauty nor speed are you lacking\\\"}\",\"{\\\"text\\\":\\\"§7and for you, none will fade.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a2 §7SPD§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§6Obscurité éblouissante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un milliard de hurlements, confinés dans un silence\\\"}\",\"{\\\"text\\\":\\\"§7sans couleur, mais d'une chaleur froide et terrifiante.\\\"}\",\"{\\\"text\\\":\\\"§7A billion screams, confined in a colourless silence,\\\"}\",\"{\\\"text\\\":\\\"§7but of a cold and terrifying heat.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3 §7HER§a1\\\"}\"],color:695551}}"
                     }
                 ]
             }

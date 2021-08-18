@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:leather_helmet"
         },
-        "title": {"translate":"Casque Rétin"},
-        "description": {"translate":"As old as the world."},
+        "title": {"translate":"Capuche immobile"},
+        "description": {"translate":"Pass the time, fast or slow."},
         "show_toast": false,
         "announce_to_chat": true
     },
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§7Casque Rétin\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vieux comme le monde.\\\"}\",\"{\\\"text\\\":\\\"§7As old as the world.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-1 §7HUN§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§2Capuche immobile\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Passe le temps, vite ou lentement.\\\"}\",\"{\\\"text\\\":\\\"§7Pass the time, fast or slow.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a3 §7SPD§c-2\\\"}\"],color:4218913}}"
                     }
                 ]
             }

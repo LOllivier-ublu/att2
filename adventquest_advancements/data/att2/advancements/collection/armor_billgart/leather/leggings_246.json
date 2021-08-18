@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:leather_leggings"
         },
-        "title": {"translate":"Porte-nuit"},
-        "description": {"translate":"Crawling, crawling on the icy ground, the tenuous shadow never dies."},
+        "title": {"translate":"Course éperdue"},
+        "description": {"translate":"Get away, run away, fly away, lead me astray, to dreamer's hideaway"},
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§6Porte-nuit\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rampante, traînant sur le sol glacial,\\\"}\",\"{\\\"text\\\":\\\"§7l'ombre ténue ne meure jamais.\\\"}\",\"{\\\"text\\\":\\\"§7Crawling, crawling on the icy ground,\\\"}\",\"{\\\"text\\\":\\\"§7the tenuous shadow never dies.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§6Course éperdue\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sauvez-vous, fuyez, envolez-vous,\\\"}\",\"{\\\"text\\\":\\\"§7égarez-moi, dans la cachette du rêveur\\\"}\",\"{\\\"text\\\":\\\"§7Get away, run away, fly away,\\\"}\",\"{\\\"text\\\":\\\"§7lead me astray, to dreamer's hideaway\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a4 §7DAR§a3\\\"}\"],color:12470537}}"
                     }
                 ]
             }

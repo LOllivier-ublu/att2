@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:leather_chestplate"
         },
-        "title": {"translate":"Aigle rayonnant"},
-        "description": {"translate":"Imperial, with a single wing movement, he asserted his superiority."},
+        "title": {"translate":"Raison inexistante"},
+        "description": {"translate":"At the intersection of extreme thinking and the last quarter of an hour, there is a large pile of tissue."},
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§6Aigle rayonnant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Impérial, d'un unique mouvement\\\"}\",\"{\\\"text\\\":\\\"§7d'aile, il affirma sa supériorité.\\\"}\",\"{\\\"text\\\":\\\"§7Imperial, with a single wing movement,\\\"}\",\"{\\\"text\\\":\\\"§7he asserted his superiority.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7LUC§a1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§6Raison inexistante\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A l'intersection de l'extrême pensée et du dernier\\\"}\",\"{\\\"text\\\":\\\"§7quart d'heure, se trouve une grande pile de tissus.\\\"}\",\"{\\\"text\\\":\\\"§7At the intersection of extreme thinking and the last\\\"}\",\"{\\\"text\\\":\\\"§7quarter of an hour, there is a large pile of tissue.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a5 §7HER§a5 §7LUC§a1 §7HUN§c-6\\\"}\"],color:16714478}}"
                     }
                 ]
             }
