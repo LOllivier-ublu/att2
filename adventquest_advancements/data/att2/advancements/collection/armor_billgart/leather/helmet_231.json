@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:leather_helmet"
         },
-        "title": {"translate":"Standing at the very top, nothing can reach it."},
-        "description": {"translate":"Protects your thoughts, literally."},
+        "title": {"translate":"Sommet immuable"},
+        "description": {"translate":"Standing at the very top, nothing can reach it."},
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true

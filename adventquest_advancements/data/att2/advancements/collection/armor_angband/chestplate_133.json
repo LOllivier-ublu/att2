@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:golden_chestplate"
         },
-        "title": {"translate":"Palque en or"},
+        "title": {"translate":"Plaque en or"},
         "description": {"translate":"More beautiful than useful."},
         "show_toast": false,
         "announce_to_chat": true
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:golden_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§7Palque en or\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus belle qu'utile.\\\"}\",\"{\\\"text\\\":\\\"§7More beautiful than useful.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Plaque en or\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus belle qu'utile.\\\"}\",\"{\\\"text\\\":\\\"§7More beautiful than useful.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§c-1\\\"}\"]}}"
                     }
                 ]
             }

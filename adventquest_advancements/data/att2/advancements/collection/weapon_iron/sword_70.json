@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:iron_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Glaive\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Volontairement égaré...\\\"}\",\"{\\\"text\\\":\\\"§7Deliberately lost....\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Glaive\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Volontairement égaré...\\\"}\",\"{\\\"text\\\":\\\"§7Deliberately lost...\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
                     }
                 ]
             }

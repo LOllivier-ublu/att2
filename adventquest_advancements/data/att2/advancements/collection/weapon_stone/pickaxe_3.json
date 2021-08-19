@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:wooden_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§7Masse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Vielle et fissurée.\\\"}\",\"{\\\"text\\\":\\\"§7Old and cracked.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Masse\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Très lourde.\\\"}\",\"{\\\"text\\\":\\\"§7Very heavy.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
                     }
                 ]
             }

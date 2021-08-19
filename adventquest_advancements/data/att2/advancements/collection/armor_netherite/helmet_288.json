@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:netherite_helmet"
         },
-        "title": {"translate":"Toque de fer"},
-        "description": {"translate":"Greater title than zinc saucier, but twice cheaper."},
+        "title": {"translate":"Armet sanglant"},
+        "description": {"translate":"No battle ever made him old"},
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true
@@ -14,13 +14,13 @@
         "function": "att2:advancement/exploit_1"
         },
     "criteria": {
-        "netherite_helmet_282": {
+        "netherite_helmet_288": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                     "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Toque de fer\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Plus prestigieux que saucière de zinc,\\\"}\",\"{\\\"text\\\":\\\"§7mais deux fois moins cher.\\\"}\",\"{\\\"text\\\":\\\"§7Greater title than zinc saucier,\\\"}\",\"{\\\"text\\\":\\\"§7but twice cheaper.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HUN§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Armet sanglant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aucune bataille ne le fit jamais vieillir\\\"}\",\"{\\\"text\\\":\\\"§7No battle ever made him old\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-2\\\"}\"]}}"
                     }
                 ]
             }

@@ -3,12 +3,12 @@
         "icon": {
             "item": "minecraft:netherite_helmet"
         },
-        "title": {"translate":"Espièglerie"},
-        "description": {"translate":"Hood of the cub."},
+        "title": {"translate":"Amateur"},
+        "description": {"translate":"For novices."},
         "show_toast": false,
         "announce_to_chat": true
     },
-    "parent": "att2:collection/armor_netherite/helmet_266",
+    "parent": "att2:collection/armor_netherite/helmet_272",
     "criteria": {
         "netherite_helmet_273": {
             "trigger": "minecraft:inventory_changed",
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Espièglerie\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Cagoule du gamin.\\\"}\",\"{\\\"text\\\":\\\"§7Hood of the cub.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Amateur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pour les novices.\\\"}\",\"{\\\"text\\\":\\\"§7For novices.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§c-1\\\"}\"]}}"
                     }
                 ]
             }

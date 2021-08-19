@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:stone_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§7Kot'ho\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rien à ajouter.\\\"}\",\"{\\\"text\\\":\\\"§7There' s nothing more to say.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2 §7HUN§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Kot'ho\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rien à ajouter.\\\"}\",\"{\\\"text\\\":\\\"§7There's nothing more to say.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-2 §7HUN§c-1\\\"}\"]}}"
                     }
                 ]
             }

@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§7Baies pauvres\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trop de fois souillées.\\\"}\",\"{\\\"text\\\":\\\"§7Too many times soiled.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1 §7SPD§c-1\\\"}\"],color:6446425}}"
+                    "nbt": "{display:{Name:\"\\\"§7Braies pauvres\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trop de fois souillées.\\\"}\",\"{\\\"text\\\":\\\"§7Too many times soiled.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1 §7SPD§c-1\\\"}\"],color:6446425}}"
                     }
                 ]
             }
