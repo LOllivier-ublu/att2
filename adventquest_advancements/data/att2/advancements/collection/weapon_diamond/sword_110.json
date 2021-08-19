@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Infime mélodie\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sifflante en filant à travers l'air.\\\"}\",\"{\\\"text\\\":\\\"§7Whistles as it travels through the air.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HER§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§2Infime mélodie\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sifflante en filant à travers l'air.\\\"}\",\"{\\\"text\\\":\\\"§7Whistles as it travels through the air.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7RES§c-1\\\"}\"]}}"
                     }
                 ]
             }

@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:iron_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Couvre-chef gayalien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les vieilles guerres laissent\\\"}\",\"{\\\"text\\\":\\\"§7quelques souvenirs d'elles.\\\"}\",\"{\\\"text\\\":\\\"§7The old wars leave\\\"}\",\"{\\\"text\\\":\\\"§7some memories of them.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7LUC§a1 §7STR§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Couvre-chef gayalien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les vieilles guerres laissent\\\"}\",\"{\\\"text\\\":\\\"§7quelques souvenirs d'elles.\\\"}\",\"{\\\"text\\\":\\\"§7The old wars leave\\\"}\",\"{\\\"text\\\":\\\"§7some memories of them.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HUN§a1 §7STR§c-2\\\"}\"]}}"
                     }
                 ]
             }

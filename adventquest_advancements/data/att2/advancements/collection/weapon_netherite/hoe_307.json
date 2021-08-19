@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Perfection du lancier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Qui cherche la perfection,\\\"}\",\"{\\\"text\\\":\\\"§7aboutira à l'excellence.\\\"}\",\"{\\\"text\\\":\\\"§7Who seeks perfection,\\\"}\",\"{\\\"text\\\":\\\"§7will achieve excellence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7HER§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Perfection du lancier\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Qui cherche la perfection,\\\"}\",\"{\\\"text\\\":\\\"§7aboutira à l'excellence.\\\"}\",\"{\\\"text\\\":\\\"§7Who seeks perfection,\\\"}\",\"{\\\"text\\\":\\\"§7will achieve excellence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7LUC§c-1\\\"}\"]}}"
                     }
                 ]
             }

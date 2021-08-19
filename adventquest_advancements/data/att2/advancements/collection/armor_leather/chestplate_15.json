@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§5Tunique remarquable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAugmente grandement votre\\\"}\",\"{\\\"text\\\":\\\"§arécupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§aGreatly increase your\\\"}\",\"{\\\"text\\\":\\\"§aDahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1 §7RES§c-1\\\"}\"],color:4171030}}"
+                    "nbt": "{display:{Name:\"\\\"§5Tunique remarquable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAugmente grandement votre\\\"}\",\"{\\\"text\\\":\\\"§arécupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§aGreatly increase your\\\"}\",\"{\\\"text\\\":\\\"§aDahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7RES§c-1\\\"}\"],color:4171030}}"
                     }
                 ]
             }

@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:golden_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Casque du courageux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Couvert d'entailles, il arbore\\\"}\",\"{\\\"text\\\":\\\"§7les marques de nombreuses victoires.\\\"}\",\"{\\\"text\\\":\\\"§7Covered with notches, it bears\\\"}\",\"{\\\"text\\\":\\\"§7the marks of many victories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7RES§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Casque du courageux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Couvert d'entailles, il arbore\\\"}\",\"{\\\"text\\\":\\\"§7les marques de nombreuses victoires.\\\"}\",\"{\\\"text\\\":\\\"§7Covered with notches, it bears\\\"}\",\"{\\\"text\\\":\\\"§7the marks of many victories.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a1 §7RES§c-1\\\"}\"]}}"
                     }
                 ]
             }

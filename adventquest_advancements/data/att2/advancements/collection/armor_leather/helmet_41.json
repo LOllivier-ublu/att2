@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Chapeau\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un couvre-chef de choix.\\\"}\",\"{\\\"text\\\":\\\"§7A great headgear.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7LUC§a1 §7STR§c-2\\\"}\"],color:14791239}}"
+                    "nbt": "{display:{Name:\"\\\"§9Chapeau\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un couvre-chef de choix.\\\"}\",\"{\\\"text\\\":\\\"§7A great headgear.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a1 §7LUC§a1 §7STR§c-2\\\"}\"],color:14791239}}"
                     }
                 ]
             }

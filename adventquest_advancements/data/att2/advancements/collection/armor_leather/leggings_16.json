@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§5Braies remarquables\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAugmente grandement votre\\\"}\",\"{\\\"text\\\":\\\"§arécupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§aGreatly increase your\\\"}\",\"{\\\"text\\\":\\\"§aDahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1 §7SPD§c-1\\\"}\"],color:4171030}}"
+                    "nbt": "{display:{Name:\"\\\"§5Braies remarquables\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAugmente grandement votre\\\"}\",\"{\\\"text\\\":\\\"§arécupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§aGreatly increase your\\\"}\",\"{\\\"text\\\":\\\"§aDahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1\\\"}\"],color:4171030}}"
                     }
                 ]
             }

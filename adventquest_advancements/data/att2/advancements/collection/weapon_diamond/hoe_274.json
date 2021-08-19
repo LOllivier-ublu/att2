@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Burin aiguisé\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En devient une affaire personnelle.\\\"}\",\"{\\\"text\\\":\\\"§7It becomes a personal matter.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HUN§a2 §7SPD§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Burin aiguisé\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En devient une affaire personnelle.\\\"}\",\"{\\\"text\\\":\\\"§7It becomes a personal matter.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7LUC§a1 §7DAR§c-2\\\"}\"]}}"
                     }
                 ]
             }
