@@ -16,3 +16,6 @@ scoreboard players operation minuteRemain SHOP_OP1 %= 30 SHOP_OP1
 scoreboard players set secondRemain SHOP_OP1 60
 scoreboard players operation secondRemain SHOP_OP1 -= second TIMECOUNTER
 scoreboard players operation secondRemain SHOP_OP1 %= 60 SHOP_OP1
+
+# Update every second the time shop remaining in the sign
+execute if score tic TIMECOUNTER matches 0 run function att2:gameplay/shop/slot_management/update_time_remaining

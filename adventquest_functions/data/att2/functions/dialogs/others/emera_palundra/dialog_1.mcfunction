@@ -14,4 +14,3 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Emera Palundra : ","color":"green
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Emera Palundra : ","color":"green","extra":[{"text":"Hi ! Are you interested in my bows and crossbows? See what I got for you.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/emera_palundra_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Emera is selling."}}]}]}
 
 
-function att2:dialogs/gameplay/shop/showcase/timeshop_remaining
