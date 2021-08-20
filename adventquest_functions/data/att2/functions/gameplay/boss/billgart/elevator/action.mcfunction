@@ -20,9 +20,11 @@ execute if score Elevator_iron BILLGART matches 0 unless entity @e[x=-1243,y=180
 execute if score Elevator_silver BILLGART matches 0 unless entity @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,nbt={UUID:[I;0,283,0,283]}] run function att2:gameplay/boss/billgart/elevator/guardian_silver_dying
 
 # Choose pos and fire Golem
-execute if score Elevator_timer1 BILLGART matches 200 in minecraft:the_end as @p[x=-1243,y=100,z=-619] run function att2:gameplay/boss/billgart/elevator/choose_pos
-execute if score Elevator_timer1 BILLGART matches 0..200 run scoreboard players add Elevator_timer1 BILLGART 1
-execute if score Elevator_timer1 BILLGART matches 201.. run scoreboard players set Elevator_timer1 BILLGART 0
+execute if score Elevator_timer1 BILLGART matches 125 in minecraft:the_end as @p[x=-1243,y=100,z=-619] run function att2:gameplay/boss/billgart/elevator/choose_pos
+execute if score Elevator_timer1 BILLGART matches 0.. run scoreboard players add Elevator_timer1 BILLGART 1
+execute if score level DIFFICULTY matches -1 if score Elevator_timer1 BILLGART matches 251.. run scoreboard players set Elevator_timer1 BILLGART 0
+execute if score level DIFFICULTY matches 0 if score Elevator_timer1 BILLGART matches 201.. run scoreboard players set Elevator_timer1 BILLGART 0
+execute if score level DIFFICULTY matches 1.. if score Elevator_timer1 BILLGART matches 151.. run scoreboard players set Elevator_timer1 BILLGART 0
 
 # Elevator Level bar
 execute if score Elevator_level BILLGART matches 1 if entity @e[x=-1243,y=165,z=-619,dx=8,dy=0,dz=8,type=minecraft:armor_stand,tag=Elevator] run function att2:gameplay/boss/billgart/elevator/elevator_update

@@ -9,12 +9,12 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "att2:collection/armor_netherite/helmet_296",
+    "parent": "att2:collection/armor_netherite/helmet_289",
     "rewards": {
         "function": "att2:advancement/exploit_3"
         },
     "criteria": {
-        "netherite_helmet_300": {
+        "netherite_helmet_293": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

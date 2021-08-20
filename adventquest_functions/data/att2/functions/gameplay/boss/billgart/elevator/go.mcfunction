@@ -48,7 +48,7 @@ execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a
 execute if score Elevator BILLGART matches 0.. in minecraft:the_end as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8] at @s run effect give @s minecraft:slow_falling 2 0 true
 
 # Player failed to protect Guardians Elevator
-execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] unless entity @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:iron_golem,tag=Guardian] run kill @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure]
+execute if score Elevator BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] unless entity @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,type=minecraft:iron_golem,tag=Guardian] run function att2:gameplay/boss/billgart/elevator/fail_tp
 execute if score Elevator BILLGART matches 0.. in minecraft:the_end unless entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] run function att2:gameplay/boss/billgart/elevator/fail
 
 # Testing if Elevator is down with success
