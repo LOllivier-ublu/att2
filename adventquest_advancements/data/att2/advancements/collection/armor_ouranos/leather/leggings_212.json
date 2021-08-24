@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings"
+        },
+        "title": {"translate":"Toge de légertée"},
+        "description": {"translate":"The distance becomes subjective, the altitude anodyne, the speed affable, when the knowledge of Iio's children carries you."},
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_ouranos/leather/chestplate_211",
+    "rewards": {
+        "function": "att2:advancement/exploit_2"
+        },
+    "criteria": {
+        "leather_leggings_212": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§5Toge de légertée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aLa distance devient subjective, l'altitude anodine, la vitesse\\\"}\",\"{\\\"text\\\":\\\"§aaffable, quand vous porte le savoir des enfants d'Iio.\\\"}\",\"{\\\"text\\\":\\\"§aThe distance becomes subjective, the altitude anodyne, the speed\\\"}\",\"{\\\"text\\\":\\\"§aaffable, when the knowledge of Iio's children carries you.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7DAR§c-2\\\"}\"],color:15790050}}"
+                    }
+                ]
+            }
+        }
+    }
+}
