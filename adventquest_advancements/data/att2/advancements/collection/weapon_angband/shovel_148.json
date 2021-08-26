@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:golden_shovel"
         },
-        "title": {"translate":"Souffle roche"},
+        "title": {"translate":"Pointe d'or"},
         "description": {"translate":"Thin as a flash of light, but just as weak."},
         "frame": "goal",
         "show_toast": false,
