@@ -4,7 +4,7 @@
             "item": "minecraft:netherite_pickaxe"
         },
         "title": {"translate":"Obsidian mace combo"},
-        "description": {"translate":"Strike 1000 times with an obsidian mace"},
+        "description": {"translate":"Strike 500 times with an obsidian mace"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/netherite_mace_250",

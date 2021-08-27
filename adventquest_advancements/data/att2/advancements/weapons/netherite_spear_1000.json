@@ -4,7 +4,7 @@
             "item": "minecraft:netherite_hoe"
         },
         "title": {"translate":"Obsidian spear combo"},
-        "description": {"translate":"Strike 1000 times with an obsidian spear"},
+        "description": {"translate":"Strike 900 times with an obsidian spear"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/netherite_spear_250",

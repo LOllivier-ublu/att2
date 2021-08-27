@@ -4,7 +4,7 @@
             "item": "minecraft:golden_axe"
         },
         "title": {"translate":"Golden axe combo"},
-        "description": {"translate":"Strike 1000 times with a golden axe"},
+        "description": {"translate":"Strike 600 times with a golden axe"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/golden_axe_250",

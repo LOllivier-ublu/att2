@@ -4,7 +4,7 @@
             "item": "minecraft:iron_pickaxe"
         },
         "title": {"translate":"Iron mace combo"},
-        "description": {"translate":"Strike 1000 times with an iron mace"},
+        "description": {"translate":"Strike 500 times with an iron mace"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/iron_mace_250",

@@ -4,7 +4,7 @@
             "item": "minecraft:stone_sword"
         },
         "title": {"translate":"Billgart sword combo"},
-        "description": {"translate":"Strike 1000 times with a Billgart sword"},
+        "description": {"translate":"Strike 750 times with a Billgart sword"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/stone_sword_250",

@@ -4,7 +4,7 @@
             "item": "minecraft:stone_pickaxe"
         },
         "title": {"translate":"Billgart mace combo"},
-        "description": {"translate":"Strike 1000 times with a Billgart mace"},
+        "description": {"translate":"Strike 500 times with a Billgart mace"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/stone_mace_250",

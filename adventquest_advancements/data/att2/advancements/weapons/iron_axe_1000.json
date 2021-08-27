@@ -4,7 +4,7 @@
             "item": "minecraft:iron_axe"
         },
         "title": {"translate":"Iron axe combo"},
-        "description": {"translate":"Strike 1000 times with an iron axe"},
+        "description": {"translate":"Strike 600 times with an iron axe"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/iron_axe_250",

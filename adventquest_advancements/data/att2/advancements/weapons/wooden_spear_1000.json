@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_hoe"
         },
         "title": {"translate":"Wooden spear combo"},
-        "description": {"translate":"Strike 1000 times with a wooden spear"},
+        "description": {"translate":"Strike 900 times with a wooden spear"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/wooden_spear_250",

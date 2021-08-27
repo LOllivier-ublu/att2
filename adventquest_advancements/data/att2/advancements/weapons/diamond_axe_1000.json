@@ -4,7 +4,7 @@
             "item": "minecraft:diamond_axe"
         },
         "title": {"translate":"Diamond axe combo"},
-        "description": {"translate":"Strike 1000 times with a diamond axe"},
+        "description": {"translate":"Strike 600 times with a diamond axe"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/diamond_axe_250",

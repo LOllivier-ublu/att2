@@ -4,7 +4,7 @@
             "item": "minecraft:netherite_axe"
         },
         "title": {"translate":"Obsidian axe combo"},
-        "description": {"translate":"Strike 1000 times with an obsidian axe"},
+        "description": {"translate":"Strike 600 times with an obsidian axe"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/netherite_axe_250",

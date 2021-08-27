@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:enchanting_table"
         },
-        "title": {"translate":"Dahäl Master"},
+        "title": {"translate":"Dahäl Veterab"},
         "description": {"translate":"Launch spells 1000 times"},
         "frame": "goal"
     },

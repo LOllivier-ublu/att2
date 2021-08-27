@@ -4,7 +4,7 @@
             "item": "minecraft:iron_sword"
         },
         "title": {"translate":"Iron sword combo"},
-        "description": {"translate":"Strike 1000 times with an iron sword"},
+        "description": {"translate":"Strike 750 times with an iron sword"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/iron_sword_250",

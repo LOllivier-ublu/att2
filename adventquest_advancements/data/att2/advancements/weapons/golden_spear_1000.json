@@ -4,7 +4,7 @@
             "item": "minecraft:golden_hoe"
         },
         "title": {"translate":"Golden spear combo"},
-        "description": {"translate":"Strike 1000 times with a golden spear"},
+        "description": {"translate":"Strike 900 times with a golden spear"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/golden_spear_250",

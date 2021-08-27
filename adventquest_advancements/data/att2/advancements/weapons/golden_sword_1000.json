@@ -4,7 +4,7 @@
             "item": "minecraft:golden_sword"
         },
         "title": {"translate":"Golden sword combo"},
-        "description": {"translate":"Strike 1000 times with a golden sword"},
+        "description": {"translate":"Strike 750 times with a golden sword"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/golden_sword_250",

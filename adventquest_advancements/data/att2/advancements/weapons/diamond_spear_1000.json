@@ -4,7 +4,7 @@
             "item": "minecraft:diamond_hoe"
         },
         "title": {"translate":"Diamond spear combo"},
-        "description": {"translate":"Strike 1000 times with a diamond spear"},
+        "description": {"translate":"Strike 900 times with a diamond spear"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/diamond_spear_250",

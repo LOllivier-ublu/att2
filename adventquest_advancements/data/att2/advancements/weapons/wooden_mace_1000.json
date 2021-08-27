@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_pickaxe"
         },
         "title": {"translate":"Wooden mace combo"},
-        "description": {"translate":"Strike 1000 times with a wooden mace"},
+        "description": {"translate":"Strike 500 times with a wooden mace"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/wooden_mace_250",

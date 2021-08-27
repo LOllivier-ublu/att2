@@ -4,7 +4,7 @@
             "item": "minecraft:golden_pickaxe"
         },
         "title": {"translate":"Golden mace combo"},
-        "description": {"translate":"Strike 1000 times with a golden mace"},
+        "description": {"translate":"Strike 500 times with a golden mace"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/golden_mace_250",

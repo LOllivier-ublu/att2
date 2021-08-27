@@ -4,7 +4,7 @@
             "item": "minecraft:diamond_pickaxe"
         },
         "title": {"translate":"Diamond mace combo"},
-        "description": {"translate":"Strike 1000 times with a diamond mace"},
+        "description": {"translate":"Strike 500 times with a diamond mace"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/diamond_mace_250",

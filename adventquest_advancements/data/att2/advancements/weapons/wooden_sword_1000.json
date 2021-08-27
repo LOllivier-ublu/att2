@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_sword"
         },
         "title": {"translate":"Wooden sword combo"},
-        "description": {"translate":"Strike 1000 times with a wooden sword"},
+        "description": {"translate":"Strike 750 times with a wooden sword"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/wooden_sword_250",

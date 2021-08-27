@@ -4,7 +4,7 @@
             "item": "minecraft:iron_hoe"
         },
         "title": {"translate":"Iron spear combo"},
-        "description": {"translate":"Strike 1000 times with an iron spear"},
+        "description": {"translate":"Strike 900 times with an iron spear"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/iron_spear_250",

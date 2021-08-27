@@ -11,3 +11,4 @@ fill 3528 49 4456 3521 46 4456 minecraft:air replace minecraft:barrier
 
 fill 3519 41 4465 3531 57 4482 minecraft:air
 fill 3517 41 4479 3531 58 4490 minecraft:air
+fill 3529 59 4483 3520 56 4479 minecraft:air

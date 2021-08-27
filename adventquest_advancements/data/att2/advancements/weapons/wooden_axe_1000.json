@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_axe"
         },
         "title": {"translate":"Wooden axe combo"},
-        "description": {"translate":"Strike 1000 times with a wooden axe"},
+        "description": {"translate":"Strike 600 times with a wooden axe"},
         "frame": "challenge"
     },
     "parent": "att2:weapons/wooden_axe_250",
