@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Je suis un S, le dernier en titre avec Sérile. Sécar ou S est un titre que l'on attribue à ceux qui ont réussi la vielle épreuve traditionnelle. C'est sans doute l'exercice le plus dur, long et dangeureux qui soit. Les maîtres volontaires et désignées par Flamme Noire, étaient envoyés dans le globule de Sécar et égaré à l'intérieur. Le but étant de sortir du globule, cela pouvait durer plusieurs cycles. Malgré la dangerosité, personne n'est jamais mort durant l'épreuve : la demi-déesse a toujours bien choisi les prétendants. Sérile et moi en sommes resortis au début de la saison, après un séjour de deux cycles...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Je suis un S, le dernier en titre avec Sérile. Sécar ou S est un titre que l'on attribue à ceux qui ont réussi la vieille épreuve traditionnelle. C'est sans doute l'exercice le plus dur, long et dangereux qui soit. Les maîtres volontaires et désignées par Flamme Noire, étaient envoyés dans le globule de Sécar et égaré à l'intérieur. Le but étant de sortir du globule, cela pouvait durer plusieurs cycles. Malgré la dangerosité, personne n'est jamais mort durant l'épreuve : la demi-déesse a toujours bien choisi les prétendants. Sérile et moi en sommes ressortis au début de la saison, après un séjour de deux cycles...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

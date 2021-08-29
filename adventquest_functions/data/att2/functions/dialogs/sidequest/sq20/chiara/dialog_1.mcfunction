@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Chiara : ","color":"green","extra":[{"text":"Hé ! Qui vous a permis d'entrer ? Vous espérer peut-être voler dans mes coffres ? Sortez d'ici ou j'appelle la garde !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Chiara : ","color":"green","extra":[{"text":"Hé ! Qui vous a permis d'entrer ? Vous espérez peut-être voler dans mes coffres ? Sortez d'ici ou j'appelle la garde !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

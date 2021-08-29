@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"Pff, tu chcrois qu'un parent se contenterai d'une réponse comme ça. T'es un coeur de pierre toi...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"Pff, tu chcrois qu'un parent se contenterait d'une réponse comme ça. T'es un coeur de pierre toi...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -7,7 +7,7 @@
 #FRENCH LANGUAGE
 
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Feanorth : ","color":"green","extra":[{"text":"Eh ! Vous êtes de retour dans la région, ça tombe bien ! Je sais qu'après les exploits que vous avez accomplis, je risque d'en demander beaucoup mais j'aurais besoin d'aide à propos d'un nid d'Atricanth... Ces bestioles encore juvéniles, heureusement bien moins dangereuses que les adultes, est une véritable plaie. Elles ont pris leur aise dans certains quartiers d'Angor et beaucoup de guerriers sont déjà morts durant la guerre... Je n'ai plus grand monde pour m'occuper de ce problème, c'est pourquoi je sollicite vos talents de combattant.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Feanorth : ","color":"green","extra":[{"text":"Eh ! Vous êtes de retour dans la région, ça tombe bien ! Je sais qu'après les exploits que vous avez accomplis, je risque d'en demander beaucoup mais j'aurais besoin d'aide à propos d'un nid d'Atricanth... Ces bestioles encore juvéniles, heureusement bien moins dangereuses que les adultes, est une véritable plaie. Elles ont pris leurs aises dans certains quartiers d'Angor et beaucoup de guerriers sont déjà morts durant la guerre... Je n'ai plus grand monde pour m'occuper de ce problème, c'est pourquoi je sollicite vos talents de combattant.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

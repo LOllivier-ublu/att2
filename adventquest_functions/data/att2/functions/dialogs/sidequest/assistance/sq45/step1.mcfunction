@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Souvenir d'outre-temps -°- : ","color":"gray","extra":[{"text":"Aldelrion recherche un arme appelée ''Nekr al Felèvsil''. Elle se trouverait dans les décombres de la ville. Je vais devoir parcourir Angor et m'occuper de ces mortels indésribales en espérant qu'un d'entre eux possède cette arme...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Souvenir d'outre-temps -°- : ","color":"gray","extra":[{"text":"Aldelrion recherche une arme appelée ''Nekr al Felèvsil''. Elle se trouverait dans les décombres de la ville. Je vais devoir parcourir Angor et m'occuper de ces mortels indésirables en espérant qu'un d'entre eux possède cette arme...","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

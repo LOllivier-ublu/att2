@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Les marais ne sont pas tout proches, aussi je te conseille de te trouver une monture. Tu peux t'acheter un cheval à l'écurie d'Eric Melsath, il les vend pour pas grand chose si tu promets d'en prendre soin. Et fait attention, ce n'est pas très sûr là-bas avec les bestioles qui rôdent... Bon courage !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Les marais ne sont pas tout proches, aussi je te conseille de te trouver une monture. Tu peux t'acheter un cheval à l'écurie d'Eric Melsath, il les vend pour pas grand chose si tu promets d'en prendre soin. Et fais attention, ce n'est pas très sûr là-bas avec les bestioles qui rôdent... Bon courage !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

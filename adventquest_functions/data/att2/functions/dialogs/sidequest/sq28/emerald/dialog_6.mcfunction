@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"Je m'impatientais de vous revoir. J'ai demandé à l'aubergiste si une fille répondant à la description de Sélène était venue récemment dans son établissement. Coup de bol, elle a dormi ici la nuit dernière. Elle a du partir précipitamment car elle a laissé son journal. Je crains qu'on ait plus beaucoup de temps : Korlaph, une connaissance de feu mon épouse l'a engagée dans une expédition vers les sommets. Je t'en supplie, va la retrouver avant qu'il ne soit trop tard.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"Je m'impatientais de vous revoir. J'ai demandé à l'aubergiste si une fille répondant à la description de Sélène était venue récemment dans son établissement. Coup de bol, elle a dormi ici la nuit dernière. Elle a dû partir précipitamment car elle a laissé son journal. Je crains qu'on ait plus beaucoup de temps : Korlaph, une connaissance de feu mon épouse l'a engagée dans une expédition vers les sommets. Je t'en supplie, va la retrouver avant qu'il ne soit trop tard.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

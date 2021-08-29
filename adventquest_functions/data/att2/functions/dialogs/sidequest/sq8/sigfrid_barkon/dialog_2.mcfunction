@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"T'es un aventurier toi non ? T'as du temps devant toi ? Mon expéditeur de viande vers les autres villes n'a plus donné signe de vie depuis une semaine et j'vais pas pouvoir garder longtemps tout ça au frais. Tu pourrais livrer ce stock de viande de boeufs à Méleïm ? J'te payerai, bien évidement.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"T'es un aventurier toi non ? T'as du temps devant toi ? Mon expéditeur de viande vers les autres villes n'a plus donné signe de vie depuis une semaine et j'vais pas pouvoir garder longtemps tout ça au frais. Tu pourrais livrer ce stock de viande de boeuf à Méleïm ? J'te payerai, bien évidemment.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Sylvia Mornith : ","color":"green","extra":[{"text":"Venez, n'hésitez pas à jeter un œil à ma marchandise, je vends toutes sortes de potions. Elles aident les aventuriers comme vous à traverser les dangeureuses contrées de Sylberländ.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sylvia_mornith_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Sylvia."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Sylvia Mornith : ","color":"green","extra":[{"text":"Venez, n'hésitez pas à jeter un œil à ma marchandise, je vends toutes sortes de potions. Elles aident les aventuriers comme vous à traverser les dangereuses contrées de Sylberländ.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sylvia_mornith_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Sylvia."}}]}]}
 
 
 #ENGLISH LANGUAGE

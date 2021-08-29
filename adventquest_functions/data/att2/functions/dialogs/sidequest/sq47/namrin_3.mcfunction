@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Ces inscriptions ! C'est la couronne ! La couronne de l'ultime erreur ! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":", tu as retrouvé la couronne de l'ultime erreur ! Cet artéfact compte parmis les plus terribles créés par Môt ! Il est aussi à l'origine de la première guerre d'Angband, et d'une autre après !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Ces inscriptions ! C'est la couronne ! La couronne de l'ultime erreur ! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":", tu as retrouvé la couronne de l'ultime erreur ! Cet artéfact compte parmi les plus terribles créés par Môt ! Il est aussi à l'origine de la première guerre d'Angband, et d'une autre après !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

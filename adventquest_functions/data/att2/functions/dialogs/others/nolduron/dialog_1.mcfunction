@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Nolduron : ","color":"green","extra":[{"text":"Voilà notre cher héros des sept dimensions ! Etotsira m'a prévenu de ta venue, il vous attends certainement. Tu as rétabli l'ancien portail à Ryliath. Il va nous permettre de communiquer et tisser des liens avec cette région florissante. En tout cas cela me fait grandement plaisir de te revoir ici, fais comme chez toi.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Nolduron : ","color":"green","extra":[{"text":"Voilà notre cher héros des sept dimensions ! Etotsira m'a prévenu de ta venue, il vous attend certainement. Tu as rétabli l'ancien portail à Ryliath. Il va nous permettre de communiquer et tisser des liens avec cette région florissante. En tout cas cela me fait grandement plaisir de te revoir ici, fais comme chez toi.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

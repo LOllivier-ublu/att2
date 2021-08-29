@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Adrian : ","color":"green","extra":[{"text":"Le voleur a donc prit un passage secret vers la cuisine du palais ? Avec ces plans en main, il pourrait se cacher n'importe où. Cependant, je doute fort qu'il ait pu emprunter ce passage juste là, mais peut-être que cela vous aidera à trouver d'autres indices. Je vous l'ouvre !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Adrian : ","color":"green","extra":[{"text":"Le voleur a donc pris un passage secret vers la cuisine du palais ? Avec ces plans en main, il pourrait se cacher n'importe où. Cependant, je doute fort qu'il ait pu emprunter ce passage juste là, mais peut-être que cela vous aidera à trouver d'autres indices. Je vous l'ouvre !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

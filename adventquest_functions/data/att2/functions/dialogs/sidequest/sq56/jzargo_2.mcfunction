@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"Il se pense fort, mais c'est encore une fois une preuve de son ignorance ; le monde regorge de pouvoir dépassant l'entendemment, et l'un d'entre eux sera bientôt en la possession de J'zargo !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"Il se pense fort, mais c'est encore une fois une preuve de son ignorance ; le monde regorge de pouvoir dépassant l'entendement, et l'un d'entre eux sera bientôt en la possession de J'zargo !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

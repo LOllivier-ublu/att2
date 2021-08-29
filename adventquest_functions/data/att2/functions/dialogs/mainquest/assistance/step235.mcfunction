@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il y a sûrement un mécanisme activant l'ouverture du coffre au centre de la salle. Il faut que j'en trouve un et que je déverouille les accès des différentes salles.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il y a sûrement un mécanisme activant l'ouverture du coffre au centre de la salle. Il faut que j'en trouve un et que je déverrouille les accès des différentes salles.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

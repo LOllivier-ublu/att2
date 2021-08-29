@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"La tarverne est comme ma seconde maison, c'est là que je travaille. C'est un endroit chaleureux où des tas de voyageurs se réunnissent autour d'un bon verre !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"La taverne est comme ma seconde maison, c'est là que je travaille. C'est un endroit chaleureux où des tas de voyageurs se réunissent autour d'un bon verre !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

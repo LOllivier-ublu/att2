@@ -9,7 +9,7 @@ scoreboard players set ouran_PNJ DIALOG 0
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Ouran : ","color":"gold","extra":[{"text":"Mais je te reconnais ! Tu es l'insect qui a osé me défier il y a de cela quatre cycles !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Ouran : ","color":"gold","extra":[{"text":"Mais je te reconnais ! Tu es l'insecte qui a osé me défier il y a de cela quatre cycles !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

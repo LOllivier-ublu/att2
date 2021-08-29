@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Voilà ce que je vous propose : J'ai récemment eu une invasion d'araignées dans ma cave. Un mur, mennant à une grotte sombre, est tombé laissant ces génants monstres s'intaller dans ma réserve.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Voilà ce que je vous propose : J'ai récemment eu une invasion d'araignées dans ma cave. Un mur, mennant à une grotte sombre, est tombé laissant ces génants monstres s'installer dans ma réserve.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

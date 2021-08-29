@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Hurriel Sun : ","color":"green","extra":[{"text":"La ville de Ryliath est rennomé dans Sylberländ, tellement de légendes parlent d'elle.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Hurriel Sun : ","color":"green","extra":[{"text":"La ville de Ryliath est renomée dans Sylberländ, tellement de légendes parlent d'elle.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

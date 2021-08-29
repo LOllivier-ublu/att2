@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alyia Lana : ","color":"green","extra":[{"text":"Ah oui, Mia, sa chienne... Je ne l'ai pas revue, mais j'ai entendu dire qu'un chien erre sur les quais. Les fermiers se pleignent aussi de disparitions dans leur bétail, une bête aurait attaqué leur clapié et emproté des lapins... Vous pouvez sans doute commencer par là, les fermes se trouvent au dessus du village.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alyia Lana : ","color":"green","extra":[{"text":"Ah oui, Mia, sa chienne... Je ne l'ai pas revue, mais j'ai entendu dire qu'un chien erre sur les quais. Les fermiers se plaignent aussi de disparitions dans leur bétail, une bête aurait attaqué leur clapié et emporté des lapins... Vous pouvez sans doute commencer par là, les fermes se trouvent au-dessus du village.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

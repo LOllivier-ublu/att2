@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Cette sculpture au centre de Ryliath est intrigante... Je devrais suivre les conseils de Sylvandre et aller me renseigner auprès du Maître du Dahäl Yaakov Rav. Il habite dans les hauteurs de Ryliath, près de la chûte d'eau.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Cette sculpture au centre de Ryliath est intrigante... Je devrais suivre les conseils de Sylvandre et aller me renseigner auprès du Maître du Dahäl Yaakov Rav. Il habite dans les hauteurs de Ryliath, près de la chute d'eau.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

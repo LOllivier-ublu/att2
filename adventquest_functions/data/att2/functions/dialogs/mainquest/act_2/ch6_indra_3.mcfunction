@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Cette île est lointaine, il te faudra un bateau pour y aller... Oh, ne fait pas cette tête, je sais qui pourra t'y emmener ! Ma fille, Syri, est capitaine d'un navire de commerce. Bien qu'elle ne rende pas de services gratuitement, je suis sure que tu trouveras un moyen de la convaincre de t'aider. Elle est justement sur les grands quais est de Méleïm.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Cette île est lointaine, il te faudra un bateau pour y aller... Oh, ne fais pas cette tête, je sais qui pourra t'y emmener ! Ma fille, Syri, est capitaine d'un navire de commerce. Bien qu'elle ne rende pas de services gratuitement, je suis sure que tu trouveras un moyen de la convaincre de t'aider. Elle est justement sur les grands quais est de Méleïm.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

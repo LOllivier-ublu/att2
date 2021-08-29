@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Walton Jones : ","color":"green","extra":[{"text":"Vous voilà enfin ! J'espère que vous avez toujours l'artefact sur vous. Alors de ce que j'en sais, ce que vous avez trouvé dans le cimetière d'Eol devait appartenir aux membres d'un groupuscule secret qui résidait dans ce vieux fort. Ils plaçaient cet artéfact sur un autel pour y faire de sombres rituels. Découvrez où se trouve la chambre abritant l'autel. Mais méfiez-vous de cet endroit mal famé... Prenez cette clef, elle arbore le sceau de ce fort. Je les ai trouvé lors de mes précédentes fouilles dans les marais d'Owsästr.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Walton Jones : ","color":"green","extra":[{"text":"Vous voilà enfin ! J'espère que vous avez toujours l'artefact sur vous. Alors de ce que j'en sais, ce que vous avez trouvé dans le cimetière d'Eol devait appartenir aux membres d'un groupuscule secret qui résidait dans ce vieux fort. Ils plaçaient cet artéfact sur un autel pour y faire de sombres rituels. Découvrez où se trouve la chambre abritant l'autel. Mais méfiez-vous de cet endroit mal famé... Prenez cette clef, elle arbore le sceau de ce fort. Je les ai trouvés lors de mes précédentes fouilles dans les marais d'Owsästr.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

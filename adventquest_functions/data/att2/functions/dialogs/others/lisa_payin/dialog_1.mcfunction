@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lisa : ","color":"green","extra":[{"text":"Salut, contente de voir de la vie étrangère ici. Nous avons besoin d'aide et même un simple mortel peut faire la différence. Comme tu peux le voir nous ne vivons pas le luxe et les denrées se font assez rare. Cependant, il nous en reste assez pour en faire profit. Voulez-vous acheter un de mes articles ?","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/lisa_payin_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Lisa."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lisa : ","color":"green","extra":[{"text":"Salut, contente de voir de la vie étrangère ici. Nous avons besoin d'aide et même un simple mortel peut faire la différence. Comme tu peux le voir nous ne vivons pas le luxe et les denrées se font assez rares. Cependant, il nous en reste assez pour en faire profit. Voulez-vous acheter un de mes articles ?","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/lisa_payin_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Lisa."}}]}]}
 
 
 #ENGLISH LANGUAGE

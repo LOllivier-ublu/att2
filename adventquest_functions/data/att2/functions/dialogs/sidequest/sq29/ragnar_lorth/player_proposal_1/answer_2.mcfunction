@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Ragnar Lorth : ","color":"green","extra":[{"text":"J'avais prévu de vous offrir des Chronotons, mais si vous réussissez, je peux vous promettre une de nos maisons à un prix bas. Maintenant dirigez-vous vers la Elvetta, c'est la forêt de bouleaux avant l'entrée de la ville sur la plaine. Trouver les brigands et détruisez leur camp pour qu'ils ne reviennent plus. Bonne chance !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Ragnar Lorth : ","color":"green","extra":[{"text":"J'avais prévu de vous offrir des Chronotons, mais si vous réussissez, je peux vous promettre une de nos maisons à un prix bas. Maintenant dirigez-vous vers la Elvetta, c'est la forêt de bouleaux avant l'entrée de la ville sur la plaine. Trouvez les brigands et détruisez leur camp pour qu'ils ne reviennent plus. Bonne chance !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

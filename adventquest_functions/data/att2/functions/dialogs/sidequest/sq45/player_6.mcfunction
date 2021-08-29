@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Quelle étrange insigne... Quelques groupuscules mystérieux se cachent encore dans cette ville... Ça me donne envie de les dénicher !","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Quel étrange insigne... Quelques groupuscules mystérieux se cachent encore dans cette ville... Ça me donne envie de les dénicher !","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

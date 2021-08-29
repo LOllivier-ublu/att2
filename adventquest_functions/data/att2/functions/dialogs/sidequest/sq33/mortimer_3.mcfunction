@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Ah te re-voilà, tu tombes à pic. J'ai trouvé beaucoup de points communs entre ces pierres mais j'ai surtout pu isoler un symbole unique sur une des pierres que tu as trouvés dans les plaines de Sylberländ. Il y a peut-être d'autres choses cachées en ces lieux précis. Si tu pouvais y aller et jeter un œil je t'en serais reconnaissant. J'ai besoin de plus d'information afin d'approfondir mes recherches.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Ah te re-voilà, tu tombes à pic. J'ai trouvé beaucoup de points communs entre ces pierres mais j'ai surtout pu isoler un symbole unique sur une des pierres que tu as trouvées dans les plaines de Sylberländ. Il y a peut-être d'autres choses cachées en ces lieux précis. Si tu pouvais y aller et jeter un œil je t'en serais reconnaissant. J'ai besoin de plus d'information afin d'approfondir mes recherches.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

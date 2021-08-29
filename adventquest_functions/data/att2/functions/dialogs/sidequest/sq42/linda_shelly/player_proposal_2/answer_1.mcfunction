@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"Très bien... Sylvain mon plus cher ami, m'a convaincue de faire une excursion au manoir abandonné de Sathnok afin d'emporter quelques babioles pour les revendre. Nous y sommes allés avec un guide s'affirmant connaisseur de l'endroit. Mais des évènements étranges se sont produits et nous nous sommes perdus dans des catacombes. *Terrfiée* Il y avait des cris terrifiants et j'ai commencé à fuir à la venue de monstres. Par miracle je m'en suis sortie vivante mais j'ai perdu de vue Sylvain. Je vous en serais éternellement reconnaissante si vous me le ramenez en vie ! Pour atteindre les catacombes je me souviens d'un passage secret en hauteur du manoir près d'une fontaine asséchée avec un bouton assez difficile d'accès.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"Très bien... Sylvain mon plus cher ami, m'a convaincue de faire une excursion au manoir abandonné de Sathnok afin d'emporter quelques babioles pour les revendre. Nous y sommes allés avec un guide s'affirmant connaisseur de l'endroit. Mais des évènements étranges se sont produits et nous nous sommes perdus dans des catacombes. *Terrifiée* Il y avait des cris terrifiants et j'ai commencé à fuir à la venue de monstres. Par miracle je m'en suis sortie vivante mais j'ai perdu de vue Sylvain. Je vous en serais éternellement reconnaissante si vous me le ramenez en vie ! Pour atteindre les catacombes je me souviens d'un passage secret en hauteur du manoir près d'une fontaine asséchée avec un bouton assez difficile d'accès.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

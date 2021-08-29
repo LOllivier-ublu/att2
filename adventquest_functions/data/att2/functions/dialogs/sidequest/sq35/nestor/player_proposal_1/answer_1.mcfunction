@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Nestor : ","color":"green","extra":[{"text":"Cette auberge est l'héritage de ma famille. Malheureusement des bandits ont élu domicile près d'ici, faisant fuir tous les clients puis toute ma famille... Je ne peux pas à me résigner à abandonner ces terres... J'ai donc conclu un accord avec ces bandits en leur versant 80% de mes bénéfices, afin qu'ils laissent tranquilles les pélerins qui passent par ici. Seulement et à cause d'eux, la réputation du lieu s'est ternit. Plus personne ne vient et si je n'ai plus de quoi payer ces scélérats, je vais devoir quitter les lieux. Débarrassez-m'en et je vous promets une récompense, ainsi qu'ajouter une nouvelle rumeur méliorative à celles que l'on entend sur vous !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Nestor : ","color":"green","extra":[{"text":"Cette auberge est l'héritage de ma famille. Malheureusement des bandits ont élu domicile près d'ici, faisant fuir tous les clients puis toute ma famille... Je ne peux pas me résigner à abandonner ces terres... J'ai donc conclu un accord avec ces bandits en leur versant 80% de mes bénéfices, afin qu'ils laissent tranquilles les pèlerins qui passent par ici. Seulement et à cause d'eux, la réputation du lieu s'est ternie. Plus personne ne vient et si je n'ai plus de quoi payer ces scélérats, je vais devoir quitter les lieux. Débarrassez-m'en et je vous promets une récompense, ainsi qu'ajouter une nouvelle rumeur méliorative à celles que l'on entend sur vous !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

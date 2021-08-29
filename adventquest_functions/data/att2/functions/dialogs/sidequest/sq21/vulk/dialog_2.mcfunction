@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Te souviens-tu d'Henry Jones Senior ? L'ouverture du portail vers Ryliath lui a redonné le goût de l'aventure ! Il l'a d'ailleurs emprunté... Avant de partir il m'a parlé, d'une légende : il y aurait une sorte d'armes très étrange avec des ornements verdâtres de matières inconnues de notre monde. Elle sommeillerait dans un temple de la forêt dite de ''Worlest''. Etant moi-même collectionneur, je serais ravi que tu me la rapportes si tu mets la main dessus !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Te souviens-tu d'Henry Jones Senior ? L'ouverture du portail vers Ryliath lui a redonné le goût de l'aventure ! Il l'a d'ailleurs emprunté... Avant de partir il m'a parlé, d'une légende : il y aurait une sorte d'arme très étrange avec des ornements verdâtres de matières inconnues de notre monde. Elle sommeillerait dans un temple de la forêt dite de ''Worlest''. Etant moi-même collectionneur, je serais ravi que tu me la rapportes si tu mets la main dessus !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

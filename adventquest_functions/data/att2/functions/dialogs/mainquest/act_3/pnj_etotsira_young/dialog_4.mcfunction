@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"As-tu remarqué qu'il ne semble pas y avoir de journées ici ? En fait il y en a, mais elles durent environs deux semaines de notre monde et se traduisent par une fluctuation cyclique de l'intensité lumineuse du fond de l'air.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"As-tu remarqué qu'il ne semble pas y avoir de journées ici ? En fait il y en a, mais elles durent environ deux semaines de notre monde et se traduisent par une fluctuation cyclique de l'intensité lumineuse du fond de l'air.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

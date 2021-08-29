@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Merci, j'ai eu peur que vous refusiez... Bon alors, ces satannés bestioles semblent sortir de terre, mais j'ai repéré l'entrée de leur nid. Vous voyez le très grand arbre derrière ma maison, à l'extérieur de mes champs ? Il y a un trou qui s'enfoncent profondémment au niveau de la racine, je n'ose pas m'aventurer à l'intérieur. N'ayez pas de pitié contre ces bestioles.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Merci, j'ai eu peur que vous refusiez... Bon alors, ces satanées bestioles semblent sortir de terre, mais j'ai repéré l'entrée de leur nid. Vous voyez le très grand arbre derrière ma maison, à l'extérieur de mes champs ? Il y a un trou qui s'enfonce profondément au niveau de la racine, je n'ose pas m'aventurer à l'intérieur. N'ayez pas de pitié contre ces bestioles.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

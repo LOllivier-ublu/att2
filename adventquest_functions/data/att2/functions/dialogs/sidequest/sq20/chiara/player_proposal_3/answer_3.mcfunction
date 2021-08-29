@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Chiara : ","color":"green","extra":[{"text":"Tu crois m'intimider ? Je ne suis fautive de rien : ce n'est pas moi qui suis entrée dans la banque pour y dérober l'argent... Et ton agression ne rendra mon accusasion que plus véritable aux yeux de tous !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Chiara : ","color":"green","extra":[{"text":"Tu crois m'intimider ? Je ne suis fautive de rien : ce n'est pas moi qui suis entrée dans la banque pour y dérober l'argent... Et ton agression ne rendra mon accusation que plus véritable aux yeux de tous !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

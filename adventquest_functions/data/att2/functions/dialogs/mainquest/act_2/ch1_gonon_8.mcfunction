@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"J'ai bien essayé de reboucher le trou dans le mur avec une porte que j'ai fabriquée... Mais les araignées continuent de rentrer par d'autre endroits. Je n'ose plus y aller... Mais si vous me débarrassez de ce nid, je suis disposé à vous offrir une chambre pour la nuit!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"J'ai bien essayé de reboucher le trou dans le mur avec une porte que j'ai fabriquée... Mais les araignées continuent de rentrer par d'autres endroits. Je n'ose plus y aller... Mais si vous me débarrassez de ce nid, je suis disposé à vous offrir une chambre pour la nuit !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

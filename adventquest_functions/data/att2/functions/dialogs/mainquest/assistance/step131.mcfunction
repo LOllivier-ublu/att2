@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai trouvé la gemme mais elle est tombée en bas et est maintenant bloquée par un mécanisme. C'est sûrement une sorte de protection... Je doit trouver un moyen de faire tomber tous les cristaux d'émeraudes de ces géantes structures ! La porte de la tour nord-ouest s'est ouverte, je devrais commencer par là...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai trouvé la gemme mais elle est tombée en bas et est maintenant bloquée par un mécanisme. C'est sûrement une sorte de protection... Je dois trouver un moyen de faire tomber tous les cristaux d'émeraudes de ces géantes structures ! La porte de la tour nord-ouest s'est ouverte, je devrais commencer par là...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

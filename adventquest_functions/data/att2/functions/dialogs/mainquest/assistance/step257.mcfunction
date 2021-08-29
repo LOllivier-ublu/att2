@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Me voilà dans l'autre aile de l'académie. Il doit y avoir un moyen de grimper plus haut dans la temporalité où les systèmes fonctionnent. Une sorte de mécanisme de sécurité avec des couleurs peut-être activé.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Me voilà dans l'autre aile de l'académie. Il doit y avoir un moyen de grimper plus haut dans la temporalité où les systèmes fonctionnent. Une sorte de code de couleurs se trouvent dans le sous-sol.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Oh toi ! T'es culoté d'entrer ici ! J'aime ça ! Il me faut quelqu'un comme toi pour me débarasser des monstres qui ont envahi mon entrepôt. Ce sont des squelettes animés et dangereux, ils viennent d'une grotte sombre juste à côté ! Il y aura une belle récompense si tu m'aides !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Oh toi ! T'es culotté d'entrer ici ! J'aime ça ! Il me faut quelqu'un comme toi pour me débarrasser des monstres qui ont envahi mon entrepôt. Ce sont des squelettes animés et dangereux, ils viennent d'une grotte sombre juste à côté ! Il y aura une belle récompense si tu m'aides !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

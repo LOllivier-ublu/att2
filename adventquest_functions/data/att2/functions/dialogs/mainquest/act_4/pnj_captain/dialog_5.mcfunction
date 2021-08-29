@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","extra":[{"text":"Si vous avez pour projet de vous installer à Eolorion, sachez que nous serions flatté de vous avoir parmi nous !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","extra":[{"text":"Si vous avez pour projet de vous installer à Eolorion, sachez que nous serions flattés de vous avoir parmi nous !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

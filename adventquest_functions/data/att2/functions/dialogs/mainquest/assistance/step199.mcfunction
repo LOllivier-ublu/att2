@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Me voilà à l'intérieur d'une grande structure, elle doit forcément cacher à l'intérieur un Néleptron. Trouvons un moyen de descendre en activant ces macanismes.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Me voilà à l'intérieur d'une grande structure, elle doit forcément cacher à l'intérieur un Néleptron. Trouvons un moyen de descendre en activant ces mécanismes.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

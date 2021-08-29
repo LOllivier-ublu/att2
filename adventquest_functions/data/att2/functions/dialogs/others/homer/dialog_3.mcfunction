@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Homer : ","color":"green","extra":[{"text":"Hey c'est bien vous qui avez ouvert le passage au centre de l'île ? Je me suis faufilé dans le donjon et j'ai trouvé pleins de trésors dont ces armures permettant de nager rapidement et respirer plus longtemps sous l'eau... Ça vous intéresse ?","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/homer_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Homer."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Homer : ","color":"green","extra":[{"text":"Hey c'est bien vous qui avez ouvert le passage au centre de l'île ? Je me suis faufilé dans le donjon et j'ai trouvé plein de trésors dont ces armures permettant de nager rapidement et respirer plus longtemps sous l'eau... Ça vous intéresse ?","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/homer_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Homer."}}]}]}
 
 
 #ENGLISH LANGUAGE

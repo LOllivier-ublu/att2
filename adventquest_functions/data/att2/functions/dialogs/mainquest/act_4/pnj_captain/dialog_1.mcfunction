@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","extra":[{"text":"Bon sang mais êtes-vous sourd ? Ecartez-vous, c'est dangeureux ici !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","extra":[{"text":"Bon sang mais êtes-vous sourd ? Ecartez-vous, c'est dangereux ici !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

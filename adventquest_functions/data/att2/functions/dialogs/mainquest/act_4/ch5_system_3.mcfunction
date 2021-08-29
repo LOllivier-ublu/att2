@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Alerte de niveau maximal ! Fusion du générateur principal d'Ithax. Enceinte de sécurité compromise ! Attention : tout les passagers doivent évacuer la station ! Erreur disfonctionnement des systèmes de sécurité... Erreur...","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=0}] {"text":"Alerte de niveau maximal ! Fusion du générateur principal d'Ithax. Enceinte de sécurité compromise ! Attention : tout les passagers doivent évacuer la station ! Erreur dysfonctionnement des systèmes de sécurité... Erreur...","color":"gray","italic":true}
 
 
 #ENGLISH LANGUAGE

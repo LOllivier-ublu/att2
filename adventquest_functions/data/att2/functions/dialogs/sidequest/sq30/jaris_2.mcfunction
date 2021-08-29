@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Jaris : ","color":"green","extra":[{"text":"Ne dis pas ça ! Je dois assumer mes responsabilités ! C'était mon idée, je les ai volé pour voir Ithil, elle n'en savait rien. Cependant je suis prêt à rendre les plans...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Jaris : ","color":"green","extra":[{"text":"Ne dis pas ça ! Je dois assumer mes responsabilités ! C'était mon idée, je les ai volés pour voir Ithil, elle n'en savait rien. Cependant je suis prêt à rendre les plans...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

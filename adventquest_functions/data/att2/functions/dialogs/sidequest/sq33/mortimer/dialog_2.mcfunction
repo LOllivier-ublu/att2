@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"La recherche avance bien ? Si tu as oublié, il faut trouver d'anciens monoliths dans toute la région Sylberländ. Les éléments à me restituer sont simplement des morceaux de pierres taillées, de préférence.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"La recherche avance bien ? Si tu as oublié, il faut trouver d'anciens monolithes dans toute la région Sylberländ. Les éléments à me restituer sont simplement des morceaux de pierre taillée, de préférence.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon me montra ce lieu, pour me prouver l'existance d'Irilion. Car je suis beaucoup trop jeune pour l'avoir rencontré...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon me montra ce lieu, pour me prouver l'existence d'Irilion. Car je suis beaucoup trop jeune pour l'avoir rencontré...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

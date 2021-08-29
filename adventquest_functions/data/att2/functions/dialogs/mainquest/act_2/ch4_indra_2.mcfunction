@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Oui... Tu as de la chance je crois me rappeler quelques récits à propos de ces pierres. Il y en a un certain nombre dispercées par le monde, et de ce qu'on m'a raconté, la plus proche devrait se trouver au sud, dans les marécages d'Owsästr. Il y a là-bas de très vieilles structures émergentes encore des eaux stagnantes. Celle qui est accolée à la montagne renferme encore de nombreux secrets... Et c'est là que je te conseille de chercher.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Oui... tu as de la chance je crois me rappeler quelques récits à propos de ces pierres. Il y en a un certain nombre dispersées par le monde, et de ce qu'on m'a raconté, la plus proche devrait se trouver au sud, dans les marécages d'Owsästr. Il y a là-bas de très vieilles structures émergentes encore des eaux stagnantes. Celle qui est accolée à la montagne renferme encore de nombreux secrets... Et c'est là que je te conseille de chercher.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

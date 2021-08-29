@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"L'écroulement s'est produit sur notre entrée la plus basse. On a des explosifs, assez pour tout faire sauter. Le problème c'est qu'on a plus de mèche. Il m'en reste un peu dans ce coffre, derrière moi, mais ça va pas suffir. Bon, il y en a plein dans les mines alors quand t'en auras suffisamment, va à l'entrée écroulée, pose la mèche et déclenche l'explosion.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"L'écroulement s'est produit sur notre entrée la plus basse. On a des explosifs, assez pour tout faire sauter. Le problème c'est qu'on a plus de mèche. Il m'en reste un peu dans ce coffre, derrière moi, mais ça va pas suffire. Bon, il y en a plein dans les mines alors quand t'en auras suffisamment, va à l'entrée écroulée, pose la mèche et déclenche l'explosion.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

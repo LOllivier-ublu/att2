@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"La nécromancie est un art très ancien aux origines perdues... Hélas elle ne connaît aucun maître, et ainsi persiste en Sylberländ sans que nous puissons l'anéantir. Attendez, pour l'aide que vous nous avez apporté, je vais vous octroyer une nouvelle capacité de votre sortilège de stockage. Voilà, c'est fait. Bon courage...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"La nécromancie est un art très ancien aux origines perdues... Hélas elle ne connaît aucun maître, et ainsi persiste en Sylberländ sans que nous puissons l'anéantir. Attendez, concernant l'aide que vous nous avez apportée, je vais vous octroyer une nouvelle capacité de votre sortilège de stockage. Voilà, c'est fait. Bon courage...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

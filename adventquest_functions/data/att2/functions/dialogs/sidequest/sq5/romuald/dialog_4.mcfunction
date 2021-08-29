@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"Laisse moi tranquille, j'ai besoin d'être seul !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"Laisse-moi tranquille, j'ai besoin d'être seul !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

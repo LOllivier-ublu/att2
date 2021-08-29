@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Jack Arrow : ","color":"green","extra":[{"text":"Tu ne trouveras aucun trésor ici... Tu te trouves dans un repair d'anciens soldats et marins ayant préféré une vie rempli de liberté.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Jack Arrow : ","color":"green","extra":[{"text":"Tu ne trouveras aucun trésor ici... Tu te trouves dans un repair d'anciens soldats et marins ayant préféré une vie remplie de liberté.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

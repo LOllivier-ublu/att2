@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Tu as eu ce que tu voulais, maintenant va à la rencontre de notre roi...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Tu as eu ce que tu voulais, maintenant vas à la rencontre de notre roi...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

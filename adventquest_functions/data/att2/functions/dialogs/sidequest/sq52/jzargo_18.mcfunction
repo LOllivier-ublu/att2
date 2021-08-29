@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"Oui, J'zargo sait et il est fatigué d'entendre l'élève poser des questions. Il part pour Billgart, tout près d'une structure gigantesque pleine de secrets. Mais elle n'est pas son objectifs, car les plus grands secrets ne sont pas enfermés dans des choses aussi visibles. ","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"Oui, J'zargo sait et il est fatigué d'entendre l'élève poser des questions. Il part pour Billgart, tout près d'une structure gigantesque pleine de secrets. Mais elle n'est pas son objectif, car les plus grands secrets ne sont pas enfermés dans des choses aussi visibles.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

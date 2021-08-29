@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je ne peux rien vous cacher. La seule chose qui me sépare de lui serait une mort et une trentaine de millier d'années.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je ne peux rien vous cacher. La seule chose qui me sépare de lui serait une mort et une trentaine de milliers d'années.","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

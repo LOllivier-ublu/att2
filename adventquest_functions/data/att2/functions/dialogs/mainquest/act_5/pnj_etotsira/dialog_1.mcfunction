@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Attends héros, si tu emprunte ce portail, je crains que tu ne puisses plus revenir. Es-tu sûr d'être prêt ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Attends héros, si tu empruntes ce portail, je crains que tu ne puisses plus revenir. Es-tu sûr d'être prêt ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

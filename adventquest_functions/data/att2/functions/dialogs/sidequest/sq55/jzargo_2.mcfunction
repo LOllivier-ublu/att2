@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"Tiens, revoilà l'élève de J'zargo. Il redoutait de le voir venir et J'zargo espérait que le froid et l'altitude auraient eu raison de lui. Mais ses petits yeux de rat et son arrogante façon de parler sont beaucoup trop ridicules pour que Gaya ne se décide à écraser sa pathétique existance...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"Tiens, revoilà l'élève de J'zargo. Il redoutait de le voir venir et J'zargo espérait que le froid et l'altitude auraient eu raison de lui. Mais ses petits yeux de rat et son arrogante façon de parler sont beaucoup trop ridicules pour que Gaya ne se décide à écraser sa pathétique existence...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"Elle vous a tendu un piège ? Toujours aussi débrouillarde, hahaha ! Telle mère, telle fille... Hum... excusez-moi. Allez bon, vous êtes toujours en vie, c'est l'essentiel ! Le message que vous m'avez apporté est inquiétant, il parle de sommets enneigés d’Elcheol. C'est le nom de la grande chaîne de montagne au nord de la région. Retrouvez-moi à la première ville qui se trouve dans les montagnes dès que vous le pourrez, la route est encore longue mais on approche du but !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"Elle vous a tendu un piège ? Toujours aussi débrouillarde, hahaha ! Telle mère, telle fille... Hum... excusez-moi. Allez bon, vous êtes toujours en vie, c'est l'essentiel ! Le message que vous m'avez apporté est inquiétant, il parle de sommets enneigés d’Elcheol. C'est le nom de la grande chaîne de montagnes au nord de la région. Retrouvez-moi à la première ville qui se trouve dans les montagnes dès que vous le pourrez, la route est encore longue mais on approche du but !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

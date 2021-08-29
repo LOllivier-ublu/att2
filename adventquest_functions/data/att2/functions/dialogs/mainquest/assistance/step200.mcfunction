@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il y a une sorte de cricuit protégé par un système de sécurité. Je devrais tout désactiver et ensuite voler en passant à travers ce circuit pour sortir de la zone.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il y a une sorte de circuit protégé par un système de sécurité. Je devrais tout désactiver et ensuite voler en passant à travers ce circuit pour sortir de la zone.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

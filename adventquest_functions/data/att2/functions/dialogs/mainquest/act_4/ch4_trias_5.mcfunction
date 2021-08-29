@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Alors je ne vous prendrai guère plus de votre temps et irai droit au but : je suis à la recherche d'un objet qui m'est cher. Ce qu'un noble aventurier comme vous se contenterait de nommer relique, je le conçoit comme un objet auquel j'attache une valeur personnelle. Il est un arc de grande taille, possédant des caractéristiques tout à fait singulières mais imperceptibles hors du contexte de son utilisation.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Alors je ne vous prendrai guère plus de votre temps et irai droit au but : je suis à la recherche d'un objet qui m'est cher. Ce qu'un noble aventurier comme vous se contenterait de nommer relique, je le conçois comme un objet auquel j'attache une valeur personnelle. Il est un arc de grande taille, possédant des caractéristiques tout à fait singulières mais imperceptibles hors du contexte de son utilisation.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Non non non, son excellente majestée n'a pas de temps à perdre avec les inconnus.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Non non non, son excellente majesté n'a pas de temps à perdre avec les inconnus.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

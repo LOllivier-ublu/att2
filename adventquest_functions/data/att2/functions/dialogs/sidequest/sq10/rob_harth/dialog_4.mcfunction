@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Rob Harth : ","color":"green","extra":[{"text":"Allez vous-en, je me débrouillerai sans vous.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Rob Harth : ","color":"green","extra":[{"text":"Allez-vous-en, je me débrouillerai sans vous.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

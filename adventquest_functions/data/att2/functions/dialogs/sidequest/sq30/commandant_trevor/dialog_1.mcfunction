@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Commandant Trevor : ","color":"green","extra":[{"text":"Avez-vous trouvé des indices ? La salle où s'est déroulée le vol est maintenant ouverte : au fond de la bibliothèque derrière-moi.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Commandant Trevor : ","color":"green","extra":[{"text":"Avez-vous trouvé des indices ? La salle où s'est déroulé le vol est maintenant ouverte : au fond de la bibliothèque derrière moi.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

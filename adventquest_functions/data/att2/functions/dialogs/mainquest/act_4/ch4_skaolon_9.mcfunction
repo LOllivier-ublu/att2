@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"C'est une menace ?! Et puis quoi en suite, tu voudrais me tuer ?! Ahahaha, quel crétin. Notre magnificence ne tolèrera pas ma mort, alors adieu la rencontre et les questions.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"C'est une menace ?! Et puis quoi ensuite, tu voudrais me tuer ?! Ahahaha, quel crétin. Notre magnificence ne tolèrera pas ma mort, alors adieu la rencontre et les questions.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

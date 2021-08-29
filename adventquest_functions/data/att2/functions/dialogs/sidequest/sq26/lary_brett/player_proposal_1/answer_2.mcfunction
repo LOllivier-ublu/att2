@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lary Brett : ","color":"green","extra":[{"text":"Comment ça ? Je ne vais certainement pas donner les clefs du cimetière à un inconnu comme vous ! Mais on peut sûrement s'arranger, si vous me débarrassez de tout ces squelettes qui rodent à l'entrée.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lary Brett : ","color":"green","extra":[{"text":"Comment ça ? Je ne vais certainement pas donner les clefs du cimetière à un inconnu comme vous ! Mais on peut sûrement s'arranger, si vous me débarrassez de tous ces squelettes qui rodent à l'entrée.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"*En larme* Je ne vais pas pouvoir vivre ainsi sans lui...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"*En larmes* Je ne vais pas pouvoir vivre ainsi sans lui...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

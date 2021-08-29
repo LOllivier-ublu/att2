@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Roi Adrian : ","color":"gold","extra":[{"text":"Eh bien, nous serons ravis de vous aidez. D'abord, nous tenons vraiment à entendre votre récit !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Roi Adrian : ","color":"gold","extra":[{"text":"Eh bien, nous serons ravis de vous aider. D'abord, nous tenons vraiment à entendre votre récit !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

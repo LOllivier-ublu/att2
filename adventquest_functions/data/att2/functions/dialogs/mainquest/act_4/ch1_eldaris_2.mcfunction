@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Reine Eldaris : ","color":"gold","extra":[{"text":"Des gemmes de temps ? J'ai lu des choses sur ces artéfactes et il me semble qu'elles sont très dangereuses.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Reine Eldaris : ","color":"gold","extra":[{"text":"Des gemmes de temps ? J'ai lu des choses sur ces artéfacts et il me semble qu'elles sont très dangereuses.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

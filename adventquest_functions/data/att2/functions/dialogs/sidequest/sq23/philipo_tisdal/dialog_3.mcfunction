@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Vous ne pouvez pas râter le nid, il se trouve près du grand arbre à côté de mon champs.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Vous ne pouvez pas rater le nid, il se trouve près du grand arbre à côté de mon champ.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

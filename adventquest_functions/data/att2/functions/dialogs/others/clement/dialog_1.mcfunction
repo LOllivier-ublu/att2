@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Clément : ","color":"green","extra":[{"text":"J'aimerai bien être un guerrier voyageur comme vous, mais je ne trouve pas le courage. ","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Clément : ","color":"green","extra":[{"text":"J'aimerais bien être un guerrier voyageur comme vous, mais je ne trouve pas le courage.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

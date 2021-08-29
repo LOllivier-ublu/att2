@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Un golem géant me bloque le passage. Je doit trouver un moyen de m'en débarrasser et faire tomber l'émeraude géante qu'il maintient avec un mécanisme.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Un golem géant me bloque le passage. Je dois trouver un moyen de m'en débarrasser et faire tomber l'émeraude géante qu'il maintient avec un mécanisme.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

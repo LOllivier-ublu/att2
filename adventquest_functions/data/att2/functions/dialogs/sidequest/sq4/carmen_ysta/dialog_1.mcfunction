@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"Bonjour voyageur, je me nomme Carmen Ysta et je dirige l'épicerie de Ryliath. Ici tu auras une multitude de choix en nourriture et petites friandises. Par ailleurs, si tu cherches du travail, j'ai besoin de champignons pour élaborer une recette de soupe aux champignons... En plus de d'un petit quelque chose, je t'en donnerai un bol si tu m'aides. Ferais-tu celà pour moi ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"Bonjour voyageur, je me nomme Carmen Ysta et je dirige l'épicerie de Ryliath. Ici tu auras une multitude de choix en nourriture et petites friandises. Par ailleurs, si tu cherches du travail, j'ai besoin de champignons pour élaborer une recette de soupe aux champignons... En plus de d'un petit quelque chose, je t'en donnerai un bol si tu m'aides. Ferais-tu cela pour moi ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

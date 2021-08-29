@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Ithil n'a plus d'autres informations à me donner à propos de l'emplacement d'une gemme de temps. Etotsira semble être ma meilleur option pour trouver ce que je cherche. Allons à Earndhel lui parler.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Ithil n'a plus d'autres informations à me donner à propos de l'emplacement d'une gemme de temps. Etotsira semble être ma meilleure option pour trouver ce que je cherche. Allons à Earndhel lui parler.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

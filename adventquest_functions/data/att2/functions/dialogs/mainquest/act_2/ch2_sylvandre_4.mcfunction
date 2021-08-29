@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Oui bien sûr ! (Entre dans mon jeu.) Comment vas-tu ? Ça va faire combien de temps qu'on s'est vu ?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Oui bien sûr ! (Entre dans mon jeu.) Comment vas-tu ? Ça va faire combien de temps qu'on s'est vus ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

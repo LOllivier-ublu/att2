@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"Oui, le chantier doit attendre. Mon collègue s'est fait prendre par ces saletés en défendant la cargaison et les chevaux... Aide-moi a rapporter le matériel jusqu'au chantier, je n'y arriverai jamais tout seul !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"Oui, le chantier doit attendre. Mon collègue s'est fait prendre par ces saletés en défendant la cargaison et les chevaux... Aide-moi à rapporter le matériel jusqu'au chantier, je n'y arriverai jamais tout seul !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

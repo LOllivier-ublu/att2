@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Plus aucunes bestioles ne rôdent dans mes champs ? Très bien, j'espère qu'ils ne reviendront pas... Prenez ces Chronotons.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Plus aucune bestiole ne rôde dans mes champs ? Très bien, j'espère qu'ils ne reviendront pas... Prenez ces Chronotons.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

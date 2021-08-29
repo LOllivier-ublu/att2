@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Sélène : ","color":"green","extra":[{"text":"Vous avez raison... Je comprends mieux pourquoi tu étais si triste et desespéré, père. Mais tu aurais pu me dire la vérité sur la disparition de maman ! Pourquoi m'avoir tout caché ?","color":"dark_green"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Sélène : ","color":"green","extra":[{"text":"Vous avez raison... Je comprends mieux pourquoi tu étais si triste et désespéré, père. Mais tu aurais pu me dire la vérité sur la disparition de maman ! Pourquoi m'avoir tout caché ?","color":"dark_green"}]}
 
 
 #ENGLISH LANGUAGE

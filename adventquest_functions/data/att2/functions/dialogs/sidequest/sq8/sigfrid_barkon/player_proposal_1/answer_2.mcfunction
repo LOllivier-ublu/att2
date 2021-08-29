@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Sigfrid Barkon : ","color":"green","extra":[{"text":"Oh, t'es livreur, c'est bête, t'en a pas du tout l'air. bon n'hésites pas si tu change d'avis.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Sigfrid Barkon : ","color":"green","extra":[{"text":"Oh, t'es livreur, c'est bête, t'en a pas du tout l'air. N'hésites pas si tu changes d'avis.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

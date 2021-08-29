@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"As-tu trouvé cette arme si intriguante à Worlëst ? Pas encore ? Pas de problème, je suis patient.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"As-tu trouvé cette arme si intrigante à Worlëst ? Pas encore ? Pas de problème, je suis patient.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

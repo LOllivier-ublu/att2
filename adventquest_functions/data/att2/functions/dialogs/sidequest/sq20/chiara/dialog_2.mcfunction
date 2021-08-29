@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Chiara : ","color":"green","extra":[{"text":"*chuchotant* Psst c'est bien toi qui a activé le portail de Ryliath, n'est-ce pas ? Ça te dirais de te faire un paquet d'argent ? Personnellement, j'ai trop de dettes ici, et comme je prévois de partir bientôt... L'argent ne manque pas à la banque, et il attend là, qu'on se penche pour le prendre ! Si tu m'aides à emporter ce qu'il y a là dedans, on fera moitié-moitié...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Chiara : ","color":"green","extra":[{"text":"*chuchotant* Psst c'est bien toi qui a activé le portail de Ryliath, n'est-ce pas ? Ça te dirait de te faire un paquet d'argent ? Personnellement, j'ai trop de dettes ici, et comme je prévois de partir bientôt... L'argent ne manque pas à la banque, et il attend là, qu'on se penche pour le prendre ! Si tu m'aides à emporter ce qu'il y a là-dedans, on fera moitié-moitié...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

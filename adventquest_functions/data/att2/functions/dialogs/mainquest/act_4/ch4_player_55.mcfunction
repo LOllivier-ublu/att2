@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai sué sang et eau pour vous avoir ces Néleptrons et puis... On m'a dit que son excellence était plus généreuse que tout autre en ce royaume et que sa splendeur n'avait d'égal que sa gratitude...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai sué sang et eau pour vous avoir ces Néleptrons et puis... On m'a dit que son excellence était plus généreuse que tout autre en ce royaume et que sa splendeur n'avait d'égale que sa gratitude...","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

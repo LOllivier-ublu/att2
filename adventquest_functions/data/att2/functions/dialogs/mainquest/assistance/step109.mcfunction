@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai débloqué une nouvelle capacité à mes sorts de feu : fair fondre de mince couche de glace. Il me semble que la glace soit liée aux systèmes permettant de créer des flux d'air pouvant me hisser au sommet de la tour principale... Je dois déjà me diriger vers la tour ouest et faire fondre la glace de la porte y donnant accès.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai débloqué une nouvelle capacité à mes sorts de feu : faire fondre de minces couches de glace. Il me semble que la glace soit liée aux systèmes permettant de créer des flux d'air pouvant me hisser au sommet de la tour principale... Je dois déjà me diriger vers la tour ouest et faire fondre la glace de la porte y donnant accès.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

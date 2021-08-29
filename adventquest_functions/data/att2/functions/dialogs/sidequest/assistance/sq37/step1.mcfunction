@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Archéologue en herbe -°- : ","color":"gray","extra":[{"text":"Bien, Walton m'a chargé de débarrasser les monstres visqueux du torrent de Soquaï. Je dois en tuer un certains nombre pour les faire déguerpir...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Archéologue en herbe -°- : ","color":"gray","extra":[{"text":"Bien, Walton m'a chargé de débarrasser les monstres visqueux du torrent de Soquaï. Je dois en tuer un certain nombre pour les faire déguerpir...","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

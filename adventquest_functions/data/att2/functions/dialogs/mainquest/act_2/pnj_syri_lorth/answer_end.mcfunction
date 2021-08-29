@@ -12,7 +12,7 @@ execute at @a run function att2:sound/misc/mission_progress
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","extra":[{"text":"Hé ben, je ne m'attendais pas que ça soit aussi rapide ; bon débaras ! Mes séjours à Méleïm devenaient bien trop pénibles. Rejoingez-moi sur le bateau, je réunis mon équipage et on partira quand vous le souhaiterez !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","extra":[{"text":"Hé ben, je ne m'attendais pas que ça soit aussi rapide ; bon débarras ! Mes séjours à Méleïm devenaient bien trop pénibles. Rejoignez-moi sur le bateau, je réunis mon équipage et on partira quand vous le souhaiterez !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

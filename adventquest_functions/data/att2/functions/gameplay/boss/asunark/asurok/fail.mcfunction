@@ -4,7 +4,7 @@
 #####################################################################
 
 scoreboard players set Asurok ASUNARK -1
-scoreboard players set EnterArena ASUNARK 100
+scoreboard players set EnterArena ASUNARK 200
 execute as 00000000-0000-003b-0000-00000000003b at @s run tp @s ~ -2 ~
 kill 00000000-0000-003b-0000-00000000003b
 execute as @a run function att2:gameplay/boss/asunark/asurok/stop

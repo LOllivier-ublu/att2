@@ -9,7 +9,7 @@ scoreboard players set raj_kutra_PNJ DIALOG 3
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Raj Kutra : ","color":"green","extra":[{"text":"Mais qui diable êtes vous pour venir vous mettre entre elle et moi ? Malgré qu'elle ne m'ait pas encore osé avouer sa flamme, sachez que son amour est vrai et qu'il est indébranlable comme le ciel l'est avec la mer. Maintenant partez je vous prie.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Raj Kutra : ","color":"green","extra":[{"text":"Mais qui diable êtes-vous pour venir vous mettre entre elle et moi ? Malgré qu'elle ne m'ait pas encore osé avouer sa flamme, sachez que son amour est vrai et qu'il est inébranlable comme le ciel l'est avec la mer. Maintenant partez je vous prie.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

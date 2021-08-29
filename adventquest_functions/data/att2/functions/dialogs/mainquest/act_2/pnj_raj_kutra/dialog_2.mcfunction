@@ -8,7 +8,7 @@
 
 tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Raj c'est bien vous ? Je voulais vous parler de Syri Lorth...","color":"aqua"}]}
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Raj Kutra : ","color":"green","extra":[{"text":"Ah Syri, n'elle-t-est pas si ravissante ? Ses cheveux dorées flotants dans le vent du nord me transportent vers des songes... ...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Raj Kutra : ","color":"green","extra":[{"text":"Ah Syri, n'est-elle pas si ravissante ? Ses cheveux dorés flottants dans le vent du nord me transportent vers des songes... ...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

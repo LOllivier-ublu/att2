@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"Quelque part, dans les décombres de cette ville ou entre les mains d'un de ces mortels, doit se trouver une arme. Mais pas n'importe laquelle : une hallebarde Eternän que l'on nomma ''Nekr al Felèvsil''. Elle naquit, comme moi, avant les émotions négatives et l'existance de la mort en Angband.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"Quelque part, dans les décombres de cette ville ou entre les mains d'un de ces mortels, doit se trouver une arme. Mais pas n'importe laquelle : une hallebarde Eternän que l'on nomma ''Nekr al Felèvsil''. Elle naquit, comme moi, avant les émotions négatives et l'existence de la mort en Angband.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

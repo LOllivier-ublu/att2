@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Je comprend, marché conclu ! Mais débarassez-moi de toutes ces bestioles ! Leur nid se trouve derrière ma maison et mes champs, sous les racines d'un grand arbre. Vous verrez un trou creusé profondément dans la terre. Soyez vigilent, ils sont voraces !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Je comprends, marché conclu ! Mais débarrassez-moi de toutes ces bestioles ! Leur nid se trouve derrière ma maison et mes champs, sous les racines d'un grand arbre. Vous verrez un trou creusé profondément dans la terre. Soyez vigilant, ils sont voraces !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

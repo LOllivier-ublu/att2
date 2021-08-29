@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Frowin Nepheris : ","color":"green","extra":[{"text":"Hé là, vous êtes le héro qui a rétabli le portail ? Z-êtes quelqu'un de dégourdi vous ! Si vous aimez la bagarre, j'ai un truc à vous proposer : un groupe de malfrats fout souvent le bordel et effraie les clients. Ils sont justement à l'étage. Il y aura une récompense à la clef, bien entendu.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Frowin Nepheris : ","color":"green","extra":[{"text":"Hé là, vous êtes le héros qui a rétabli le portail ? Z-êtes quelqu'un de dégourdi vous ! Si vous aimez la bagarre, j'ai un truc à vous proposer : un groupe de malfrats fout souvent le bordel et effraie les clients. Ils sont justement à l'étage. Il y aura une récompense à la clef, bien entendu.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

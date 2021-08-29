@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 3","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Maintenant que les deux sceaux scèllant l'antre du monstre dévastateur sont en place, il me faut revenir au camp et en informer Relgon. L'ultime bataille se prépare...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Maintenant que les deux sceaux scellant l'antre du monstre dévastateur sont en place, il me faut revenir au camp et en informer Relgon. L'ultime bataille se prépare...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"De la source de Dahäl j'aillit un pouvoir brute qui n'est pas fait pour être utilisé en cet état. Les maîtres du Dahäl ne perçoivent qu'une fraction de ce pouvoir. Or, absorber ce liquide confère des capacités dépassant de loin celles d'un demi-dieu.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"De la source de Dahäl jaillit un pouvoir brute qui n'est pas fait pour être utilisé en cet état. Les maîtres du Dahäl ne perçoivent qu'une fraction de ce pouvoir. Or, absorber ce liquide confère des capacités dépassant de loin celles d'un demi-dieu.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

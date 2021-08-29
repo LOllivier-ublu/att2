@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Vous revoilà. Vous vous demandez sans doute l'origine de cette attaque ? Les squelettes que vous venez d'abattre sont les sbires de Vonaheim. Car, au bout du chemin de l'autres côté de la porte ouest d'Eolorion se trouve sa demeure.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Vous revoilà. Vous vous demandez sans doute l'origine de cette attaque ? Les squelettes que vous venez d'abattre sont les sbires de Vonaheim. Car, au bout du chemin de l'autre côté de la porte ouest d'Eolorion se trouve sa demeure.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

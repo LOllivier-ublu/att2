@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Carmine Mordan : ","color":"green","extra":[{"text":"Bonjour, avez-vous besoin d'armures et d'armes ? Ne vous m'éprenez pas, oui je suis une des seuls femmes pratiquants cet art dans toute la région mais mes compétences dépassent de loin celles de mes collègues masculins ! Vous n'aurez qu'à voir par vous-même ce que je fabrique !","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Carmine."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Carmine Mordan : ","color":"green","extra":[{"text":"Bonjour, avez-vous besoin d'armures et d'armes ? Ne vous m'éprenez pas, oui je suis une des seules femmes pratiquant cet art dans toute la région mais mes compétences dépassent de loin celles de mes collègues masculins ! Vous n'aurez qu'à voir par vous-même ce que je fabrique !","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Carmine."}}]}]}
 
 
 #ENGLISH LANGUAGE

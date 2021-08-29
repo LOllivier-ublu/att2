@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Adrian : ","color":"green","extra":[{"text":"Bien vous êtes là... Donc ces plans ont été volés par un simple habitant de Ryliath ? Si je comprends bien, ce Jaris voulait avoir accès au chambre du palais pour voler nos bien les plus précieux... Il sera donc emmené au cachot... Grâce à vous, nous avons pu régler cette affaire. Merci ! J'aimerais vous offrir une belle récompense. Allez voir l'Intendant de notre ville, sa maison se trouve à côté du forgeron en face de la roue à aubes. Vous ne serez pas déçu de nous avoir aider à résoudre cette affaire !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Adrian : ","color":"green","extra":[{"text":"Bien vous êtes là... Donc ces plans ont été volés par un simple habitant de Ryliath ? Si je comprends bien, ce Jaris voulait avoir accès aux chambres du palais pour voler nos bien les plus précieux... Il sera donc emmené au cachot... Grâce à vous, nous avons pu régler cette affaire. Merci ! J'aimerais vous offrir une belle récompense. Allez voir l'Intendant de notre ville, sa maison se trouve à côté du forgeron en face de la roue à aubes. Vous ne serez pas déçu de nous avoir aidé à résoudre cette affaire !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

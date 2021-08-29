@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Hurriel Sun : ","color":"green","extra":[{"text":"Bonjour, merci encore pour l'aide que vous m'avez apporté.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Hurriel Sun : ","color":"green","extra":[{"text":"Bonjour ! Merci encore pour l'aide que vous m'avez apportée.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

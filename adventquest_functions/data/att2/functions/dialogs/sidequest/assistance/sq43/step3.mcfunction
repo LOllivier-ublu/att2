@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'appât du gain -°- : ","color":"gray","extra":[{"text":"Voilà qui est fait, Ashley a eu le leçon qu'il méritait. Rapportons la nouvelle à Linda !","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'appât du gain -°- : ","color":"gray","extra":[{"text":"Voilà qui est fait, Ashley a eu la leçon qu'il méritait. Rapportons la nouvelle à Linda !","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Fëanorth : ","color":"green","extra":[{"text":"Notre armée est prête ! La bataille qui nous attends sera décisive. Nous n'attendons plus que les ordres du général Relgon...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Fëanorth : ","color":"green","extra":[{"text":"Notre armée est prête ! La bataille qui nous attend sera décisive. Nous n'attendons plus que les ordres du général Relgon...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

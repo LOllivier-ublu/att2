@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Sigfrid Barkon : ","color":"green","extra":[{"text":"La viande de boeuf est dans ma cave, il y doit y avoir huit tranches dans mes coffres. Transporte-là jusqu'à la taverne de Méleïm. Et pas touche à la viande hein, s'il en manque une, tu seras pas payé ! Bonne route, reviens me voir quand celà sera fait !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Sigfrid Barkon : ","color":"green","extra":[{"text":"La viande de boeuf est dans ma cave, il y doit y avoir huit tranches dans mes coffres. Transporte-là jusqu'à la taverne de Méleïm. Et pas touche à la viande hein, s'il en manque une, tu seras pas payé ! Bonne route, reviens me voir quand cela sera fait !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

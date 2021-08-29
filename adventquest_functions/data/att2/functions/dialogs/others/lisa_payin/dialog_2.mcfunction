@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lisa : ","color":"green","extra":[{"text":"Que veux-tu acheter cette-fois ?","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/lisa_payin_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Lisa."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lisa : ","color":"green","extra":[{"text":"Que veux-tu acheter cette fois ?","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/lisa_payin_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Lisa."}}]}]}
 
 
 #ENGLISH LANGUAGE

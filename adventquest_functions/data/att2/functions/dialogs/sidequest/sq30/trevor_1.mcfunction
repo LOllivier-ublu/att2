@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Commandant Trevor : ","color":"green","extra":[{"text":"Vous êtes celui que le roi envoie pour mener l'enquête ? Hm... très bien mais je vous ai à l'œil ! Le voleur a dû s'infiltrer au travers d'une fissure en haut de la salle secrète où sont cachés les plans, c'est tout ce que l'on sait pour le moment. Allez au fond de la bibliothèque, l'entrée était dissimulée par une rangé de livres mais est maintenant ouverte.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Commandant Trevor : ","color":"green","extra":[{"text":"Vous êtes celui que le roi envoie pour mener l'enquête ? Hm... très bien mais je vous ai à l'œil ! Le voleur a dû s'infiltrer au travers d'une fissure en haut de la salle secrète où sont cachés les plans, c'est tout ce que l'on sait pour le moment. Allez au fond de la bibliothèque, l'entrée était dissimulée par une rangée de livres mais est maintenant ouverte.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

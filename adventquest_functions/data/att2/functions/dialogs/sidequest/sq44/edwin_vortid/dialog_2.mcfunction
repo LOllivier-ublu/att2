@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Edwin Vortid : ","color":"green","extra":[{"text":"Alors, êtes-vous allé chez Charles et parier quelques Chronotons ? C'est addictif hein !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Edwin Vortid : ","color":"green","extra":[{"text":"Alors, êtes-vous allé chez Charles et parié quelques Chronotons ? C'est addictif hein !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

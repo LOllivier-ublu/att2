@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"As-tu vu l'épée de Relgon ? Elle est magnifique, ne trouves-tu pas ? C'est une épée légendaire très puissante que Relgon aurait forgée dans un matériaux rarissime.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"As-tu vu l'épée de Relgon ? Elle est magnifique, ne trouves-tu pas ? C'est une épée légendaire très puissante que Relgon aurait forgée dans un matériau rarissime.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

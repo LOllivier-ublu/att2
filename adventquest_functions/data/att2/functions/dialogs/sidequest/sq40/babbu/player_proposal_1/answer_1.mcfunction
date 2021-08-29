@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Babbu : ","color":"green","extra":[{"text":"C'est une vieille carte que j'ai pêché au large d'Asunark. Elle semble indiquer un lieu dans la région au sud d'ici, je l'ai gardée en espérant la vendre, mais je te la donne. Je te dois bien ça.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Babbu : ","color":"green","extra":[{"text":"C'est une vieille carte que j'ai pêchée au large d'Asunark. Elle semble indiquer un lieu dans la région au sud d'ici, je l'ai gardée en espérant la vendre, mais je te la donne. Je te dois bien ça.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -9,7 +9,7 @@ scoreboard players set ouran_PNJ DIALOG 2
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Ouran : ","color":"gold","extra":[{"text":"Tu crois ça ? Et pour quelle absurde raison ma préstigieuse personne voudrait pardonner l'affront qu'un moins que rien m'a fait.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Ouran : ","color":"gold","extra":[{"text":"Tu crois ça ? Et pour quelle absurde raison ma prestigieuse personne voudrait pardonner l'affront qu'un moins que rien m'a fait.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

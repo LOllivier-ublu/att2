@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Quoiqu'il en soit, maintenant que Sérile croit avoir éliminé tous les géneurs, il est fort probable qu'elle tente d'utiliser le pouvoir de la source de Tellurön, quelles qu'en soient les conséquences pour cette dimension. Car sans portail, elle ne pourra pas retourner en Angband pour réclamer son titre de reine. Or il n'y aura rien de plus aisé pour elle une fois qu'elle se sera emparée de la source.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Quoiqu'il en soit, maintenant que Sérile croit avoir éliminé tous les gêneurs, il est fort probable qu'elle tente d'utiliser le pouvoir de la source de Tellurön, quelles qu'en soient les conséquences pour cette dimension. Car sans portail, elle ne pourra pas retourner en Angband pour réclamer son titre de reine. Or il n'y aura rien de plus aisé pour elle une fois qu'elle se sera emparée de la source.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

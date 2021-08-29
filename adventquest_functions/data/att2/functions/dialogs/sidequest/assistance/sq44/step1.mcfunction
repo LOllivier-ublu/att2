@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Addicte à vie -°- : ","color":"gray","extra":[{"text":"Edwin Vortid m'a parlé d'un cerains Charles qui en échange de Chronotons offrirait au hasard des lots... Allons à la forêt de Soquaï près du torrent, où son établissement se trouve, pour faire quelques paris.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Addicte à vie -°- : ","color":"gray","extra":[{"text":"Edwin Vortid m'a parlé d'un certains Charles qui en échange de Chronotons offrirait au hasard des lots... Allons à la forêt de Soquaï près du torrent, où son établissement se trouve, pour faire quelques paris.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

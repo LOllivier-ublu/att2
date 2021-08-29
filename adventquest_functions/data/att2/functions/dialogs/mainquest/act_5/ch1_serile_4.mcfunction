@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Tu as beau être la réincarnation du maître parmis les maîtres, tu ne m'empècheras pas d'accomplir ma destinée. Car tu es mortel à présent et je t'ai déjà vaincu.","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Tu as beau être la réincarnation du maître parmi les maîtres, tu ne m'empêcheras pas d'accomplir ma destinée. Car tu es mortel à présent et je t'ai déjà vaincu.","color":"yellow","italic":true}]}
 
 
 #ENGLISH LANGUAGE

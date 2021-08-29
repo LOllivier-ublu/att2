@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"J'ai un brevage tout à fait spécial, un élixir de vigueur, enfin, c'est comme ça que mes plus fidèles clients l'appellent. 2 Chronotons le verre !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"J'ai un breuvage tout à fait spécial, un élixir de vigueur, enfin, c'est comme ça que mes plus fidèles clients l'appellent. 2 Chronotons le verre !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

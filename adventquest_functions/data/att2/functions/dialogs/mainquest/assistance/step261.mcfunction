@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Evidemment, j'ai été transporté dans cette temporalité d'un future qui me semble extrêmement lointain. Je dois sortir de là par les conduits, je n'ai pas le choix...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Evidemment, j'ai été transporté dans cette temporalité d'un futur qui me semble extrêmement lointain. Je dois sortir de là par les conduits, je n'ai pas le choix...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

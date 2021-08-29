@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Albert Dirac : ","color":"green","extra":[{"text":"Pour louer une chambre là journée celà vous fera 30 Chronotons !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Albert Dirac : ","color":"green","extra":[{"text":"Pour louer une chambre la journée cela vous fera 30 Chronotons !","color":"dark_aqua"}]}
 
 tellraw @s[scores={LANGUAGE=0}] {"selector":"@s","color":"gray","extra":[{"text":" : "},{"text":"[Payer la chambre et se reposer -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-080a-0000-00000000080a if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/albert_dirac/answer_green"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour payer la chambre et se reposer à l'auberge."}}]}
 

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"Chien, loup, j'en sais rien, mais la chose se tère dans une grotte au bord de la rivière, je l'ai vu ! J'suis ben trop vieux pour aller débusquer la bête tout seul, mais allez m'en débérasser et je vous en serai reconnaissant ! Suivez la rivière au travers de la forêt, la tanière sera sur sa rive droite...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"Chien, loup, j'en sais rien, mais la chose se terre dans une grotte au bord de la rivière, je l'ai vu ! J'suis ben trop vieux pour aller débusquer la bête tout seul, mais allez m'en débarasser et je vous en serai reconnaissant ! Suivez la rivière au travers de la forêt, la tanière sera sur sa rive droite...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gregor Gacko : ","color":"green","extra":[{"text":"Encore merci à vous pour l'aide. Avec mon frère on va se montrer un peu plus discret dans les temps prochain...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gregor Gacko : ","color":"green","extra":[{"text":"Encore merci à vous pour l'aide. Avec mon frère on va se montrer un peu plus discret dans les temps prochains...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

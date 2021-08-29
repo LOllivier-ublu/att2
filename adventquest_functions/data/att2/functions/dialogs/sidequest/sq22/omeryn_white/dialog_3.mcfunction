@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Tu n'as pas fini encore ? Quel culot de revenir me voir sans têtre occupé des squelettes ! J'aime ça, mais hop, va faire ton travail !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Tu n'as pas fini encore ? Quel culot de revenir me voir sans t'être occupé des squelettes ! J'aime ça, mais hop, va faire ton travail !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

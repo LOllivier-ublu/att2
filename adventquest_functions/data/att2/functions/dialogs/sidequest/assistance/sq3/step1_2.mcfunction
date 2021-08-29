@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'évasion du frère Gacko -°- : ","color":"gray","extra":[{"text":"Tyrgols Gacko a été fait prisonnier, mais son frère Gregor a un plan pour le libérer. Pour celà, je dois d'abord trouver 7 ","color":"aqua","italic":true,"bold":false,"extra":[{"text":"<Explosif>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:firework_charge\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Explosif\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Explosive\\\"}\"]}}}"},"extra":[{"text":". Je dois chercher dans une mine pas loin d'ici à proximité de la forêt.","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'évasion du frère Gacko -°- : ","color":"gray","extra":[{"text":"Tyrgols Gacko a été fait prisonnier, mais son frère Gregor a un plan pour le libérer. Pour cela, je dois d'abord trouver 7 ","color":"aqua","italic":true,"bold":false,"extra":[{"text":"<Explosif>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:firework_charge\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Explosif\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Explosive\\\"}\"]}}}"},"extra":[{"text":". Je dois chercher dans une mine pas loin d'ici à proximité de la forêt.","color":"aqua","italic":true}]}]}]}
 
 #ENGLISH LANGUAGE
 

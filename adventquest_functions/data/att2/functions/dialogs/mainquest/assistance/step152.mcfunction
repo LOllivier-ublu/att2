@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai fait tomber deux emeraudes mais aucune nouvelle porte ne s'est ouverte... Cependant j'ai débloqué une synergie à mon sort de secousse. Il me semble qu'il y avait un passage bouché par de la pierre friable sur les bords de la tour sud. Allons le faire s'écrouler !","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai fait tomber deux émeraudes mais aucune nouvelle porte ne s'est ouverte... Cependant j'ai débloqué une synergie à mon sort de secousse. Il me semble qu'il y avait un passage bouché par de la pierre friable sur les bords de la tour sud. Allons le faire s'écrouler !","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

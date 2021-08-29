@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Garde : ","color":"green","extra":[{"text":"Eh bien, merci pour nous avoir livré cette voleuse. Son passé de débauche l'aura finalement rattrapé. Elle va passer quelque temps ici, dans nos geoles... Voilà une prime pour sa capture.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Garde : ","color":"green","extra":[{"text":"Eh bien, merci pour nous avoir livrés cette voleuse. Son passé de débauche l'aura finalement rattrapé. Elle va passer quelque temps ici, dans nos geôles... Voilà une prime pour sa capture.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

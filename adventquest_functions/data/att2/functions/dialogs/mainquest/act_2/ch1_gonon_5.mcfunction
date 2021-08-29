@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Navré, la maison ne fait pas crédit... Comprenez, nous ne sommes pas aussi riche qu'à Ryliath, la ville voisine... D'autant plus que je n'ai aucune certitude sur votre parole. Je vous demanderais donc de partir.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Navré, la maison ne fait pas crédit... Comprenez, nous ne sommes pas aussi riches qu'à Ryliath, la ville voisine... D'autant plus que je n'ai aucune certitude sur votre parole. Je vous demanderais donc de partir.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

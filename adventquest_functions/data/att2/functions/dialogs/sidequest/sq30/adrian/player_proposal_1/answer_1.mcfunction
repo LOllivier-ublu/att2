@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Adrian : ","color":"green","extra":[{"text":"Très bien, le commandant est prévenu de cette affaire et avec sa paranoïa il parle déjà de complot. C'est un très bon tacticien et stratège mais médiocre dans la déduction de faits et recherche d'indices... Rejoignez-le à l'étage du Palais dans la bilbiothèque, je compte sur vous !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Adrian : ","color":"green","extra":[{"text":"Très bien, le commandant est prévenu de cette affaire et avec sa paranoïa il parle déjà de complot. C'est un très bon tacticien et stratège mais médiocre dans la déduction de faits et recherche d'indices... Rejoignez-le à l'étage du Palais dans la bibliothèque, je compte sur vous !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

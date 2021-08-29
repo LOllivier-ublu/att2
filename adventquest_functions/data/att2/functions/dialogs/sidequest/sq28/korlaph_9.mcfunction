@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Korlaph : ","color":"green","extra":[{"text":"*Furieux* J'y étais PRESQUE ! Cela m'a demandé beaucoup de concentration et de travail pour en arriver là ! Elle m'a parlé, mais elle souffrait tellement... Je n'y arrive PLUS ! Qu'elle idée stupide de t'avoir amenée ici... Sélène, tu ne comprends vraiment rien ! Ta mère Tatiana ! C'est à cause d'elle que ma Lucimène se retrouve ainsi !","color":"dark_red"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Korlaph : ","color":"green","extra":[{"text":"*Furieux* J'y étais PRESQUE ! Cela m'a demandé beaucoup de concentrations et de travail pour en arriver là ! Elle m'a parlé, mais elle souffrait tellement... Je n'y arrive PLUS ! Qu'elle idée stupide de t'avoir amené ici... Sélène, tu ne comprends vraiment rien ! Ta mère Tatiana ! C'est à cause d'elle que ma Lucimène se retrouve ainsi !","color":"dark_red"}]}
 
 
 #ENGLISH LANGUAGE

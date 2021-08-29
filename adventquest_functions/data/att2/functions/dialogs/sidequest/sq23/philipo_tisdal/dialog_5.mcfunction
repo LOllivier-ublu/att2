@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Bonjour, merci encore pour votre aide. Faites attention si vous allez dans les marais, c'est dangeureux là-bas !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Bonjour, merci encore pour votre aide. Faites attention si vous allez dans les marais, c'est dangereux là-bas !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

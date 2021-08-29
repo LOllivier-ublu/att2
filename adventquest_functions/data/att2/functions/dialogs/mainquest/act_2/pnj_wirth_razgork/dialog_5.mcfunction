@@ -9,7 +9,7 @@ function att2:sound/misc/mission_progress
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wirth Razgork : ","color":"green","extra":[{"text":"Eh bien ! Si vous continuez comme cela et réussissez à activer le portail, vous allez vous faire un nom dans cette ville ! Je ne sais hélas où trouver d'autres gemmes, mais j'ai tout de même une bonne nouvelle pour vous : je vais devoir vous aiguiller vers une de mes très chère amie et ancienne compagne de route. Son nom est Indra Lorth. Elle a beaucoup voyagé à travers les contrées de Sylberländ en son temps et vous aidera avec plaisir.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wirth Razgork : ","color":"green","extra":[{"text":"Eh bien ! Si vous continuez comme cela et réussissez à activer le portail, vous allez vous faire un nom dans cette ville ! Je ne sais hélas où trouver d'autres gemmes, mais j'ai tout de même une bonne nouvelle pour vous : je vais devoir vous aiguiller vers une de mes très chères amies et ancienne compagne de route. Son nom est Indra Lorth. Elle a beaucoup voyagé à travers les contrées de Sylberländ en son temps et vous aidera avec plaisir.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

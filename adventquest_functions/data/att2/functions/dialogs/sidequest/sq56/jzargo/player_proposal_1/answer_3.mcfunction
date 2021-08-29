@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"J'zargo se fiche bien des titres que l'élève croît posséder, car ils n'auront bientôt plus aucune valeur !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"J'zargo se fiche bien des titres que l'élève croit posséder, car ils n'auront bientôt plus aucune valeur !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

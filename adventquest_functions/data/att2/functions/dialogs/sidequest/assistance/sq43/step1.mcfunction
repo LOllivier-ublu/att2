@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'appât du gain -°- : ","color":"gray","extra":[{"text":"Ashley aimerait une seconde chance pour se racheter. Il m'a raconté avoir préparé un système de rail dans la mine de Kert afin de d'ouvrir l'entrée d'un trésor enfouit et dont la valeur pourrait aider Linda. Apparemment elle aurait des dettes, l'argent l'aiderait sûrement à remonter la pente... Je vais essayer d'acquérir ce trésor et lui confierai une partie.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'appât du gain -°- : ","color":"gray","extra":[{"text":"Ashley aimerait une seconde chance pour se racheter. Il m'a raconté avoir préparé un système de rail dans la mine de Kert afin de d'ouvrir l'entrée d'un trésor enfoui et dont la valeur pourrait aider Linda. Apparemment elle aurait des dettes, l'argent l'aiderait sûrement à remonter la pente... Je vais essayer d'acquérir ce trésor et lui confierai une partie.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

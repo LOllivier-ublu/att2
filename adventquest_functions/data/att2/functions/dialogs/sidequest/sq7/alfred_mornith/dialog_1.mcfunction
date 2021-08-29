@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"Hé là, on est perdu ? Ici c'est l'exploitation minière de ma famille, propriété privé ! A moins que t'aies envie de nous donner un coup de main pour cette histoire d'effondrement, je vais te demander de partir.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"Hé là, on est perdu ? Ici c'est l'exploitation minière de ma famille, propriété privée ! A moins que t'aies envie de nous donner un coup de main pour cette histoire d'effondrement, je vais te demander de partir.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

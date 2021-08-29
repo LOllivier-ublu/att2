@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"J'ai appris le bazard que vous avez mis dans notre village. Pour avoir ramener les récoltes de Malak, je suis prêt à vous pardonner.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"J'ai appris le bazar que vous avez mis dans notre village. Pour avoir ramené les récoltes de Malak, je suis prêt à vous pardonner.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

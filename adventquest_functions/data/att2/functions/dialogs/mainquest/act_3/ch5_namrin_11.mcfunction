@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Sérile, mais pourquoi ! Il ne peut pas mourrir, non, je refuse qu'il meure !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Sérile, mais pourquoi ! Il ne peut pas mourir, non, je refuse qu'il meure !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

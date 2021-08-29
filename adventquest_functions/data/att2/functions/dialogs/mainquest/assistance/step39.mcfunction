@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"La gemme d'espace se trouve dans l'énorme oeuf de verre au centre du temple. Le seul moyen d'y accéder serait de faire monter le niveau d'eau en inondant la salle. Je pourrai sûrement le faire grâce aux quatres grandes trappes... Les quatres pilliers doivent sûrement en contrôler l'ouverture, mais l'accès à ceux-ci ne peut se faire depuis la salle centrale.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"La gemme d'espace se trouve dans l'énorme oeuf de verre au centre du temple. Le seul moyen d'y accéder serait de faire monter le niveau d'eau en inondant la salle. Je pourrai sûrement le faire grâce aux quatre grandes trappes... Les quatre piliers doivent sûrement en contrôler l'ouverture, mais l'accès à ceux-ci ne peut se faire depuis la salle centrale.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

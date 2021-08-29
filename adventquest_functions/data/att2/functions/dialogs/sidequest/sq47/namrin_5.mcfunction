@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"... Alors ce serait vrai ? Je ne connais qu'un seul moyen de le savoir. Il faut que je t'emmène quelque part... La couronne sera en sécurité ici, et je ne voudrais sous aucun prétexte l'emporter avec nous dans le lieu que je m'apprète à te montrer.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"... Alors ce serait vrai ? Je ne connais qu'un seul moyen de le savoir. Il faut que je t'emmène quelque part... La couronne sera en sécurité ici, et je ne voudrais sous aucun prétexte l'emporter avec nous dans le lieu que je m'apprête à te montrer.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","extra":[{"text":"Vous ne devrez pas être ici, cette île est dangeureuse... Retournez d'où vous venez!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","extra":[{"text":"Vous ne devrez pas être ici, cette île est dangereuse... Retournez d'où vous venez !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je suis tombé dans un endroit très étrange. Il faut que je trouve un moyen d'atteindre cette anomalie temporelle dans l'autres pièce en me faufillant par ces conduits.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je suis tombé dans un endroit très étrange. Il faut que je trouve un moyen d'atteindre cette anomalie temporelle dans l'autre pièce en me faufilant par ces conduits.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

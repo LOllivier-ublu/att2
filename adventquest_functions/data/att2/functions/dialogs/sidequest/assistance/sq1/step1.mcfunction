@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les récoltes de Malak -°- : ","color":"gray","extra":[{"text":"Le campement Jarat a été pillé par des voleurs. Malak voudrait qu'on retrouve ses récoltes de céréales volées. Je dois rapporter 64 ","color":"aqua","italic":true,"extra":[{"text":"<Céréales volées>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:wheat\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Céréales volées\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Stolen Cereal\\\"}\"]}}}"},"extra":[{"text":". Je dois parler au chef quand il sera rentré de la chasse pour avoir plus d'information concernant les voleurs.","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les récoltes de Malak -°- : ","color":"gray","extra":[{"text":"Le campement Jarat a été pillé par des voleurs. Malak voudrait qu'on retrouve ses récoltes de céréales volées. Je dois rapporter 64 ","color":"aqua","italic":true,"extra":[{"text":"<Céréales volées>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:wheat\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Céréales volées\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Stolen Cereal\\\"}\"]}}}"},"extra":[{"text":". Je dois parler au chef quand il sera rentré de la chasse pour avoir plus d'informations concernant les voleurs.","color":"aqua","italic":true}]}]}]}
 
 #ENGLISH LANGUAGE
 

@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il y a des portes qui semblent bloqués. Je dois peut-être chercher un moyen de les déverouiller.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il y a des portes qui semblent bloquées. Je dois peut-être chercher un moyen de les déverrouiller.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

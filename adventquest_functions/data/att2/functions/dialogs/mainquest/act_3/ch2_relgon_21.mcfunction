@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Hélas, l'entité devastatrice ne rassasia point sa folie destructrice après l'annihilation d'Angor. Aussi elle alla semer le chaos dans toutes les régions du globule d'Angor et dans les globules voisins...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Hélas, l'entité dévastatrice ne rassasia point sa folie destructrice après l'annihilation d'Angor. Aussi elle alla semer le chaos dans toutes les régions du globule d'Angor et dans les globules voisins...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

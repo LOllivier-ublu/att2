@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Le chemin est encore bloqué par une sorte de porte d'énergie. Il y a ces genres de cerceaux en lévitation sur le chemin, peut-être qu'en passant à l'interieur j'activerai l'ouveture de la porte.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Le chemin est encore bloqué par une sorte de porte d'énergie. Il y a ces genres de cerceaux en lévitation sur le chemin, peut-être qu'en passant à l'intérieur j'activerai l'ouverture de la porte.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"C'est un endroit dangeureux. Pitié qu'il ne lui soit rien arrivé...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"C'est un endroit dangereux. Pitié qu'il ne lui soit rien arrivé...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

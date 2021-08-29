@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Trias : ","color":"green","extra":[{"text":"Je vais retourner en mon monde à présent que mon arc m'est revenu. Puisse la chance vous sourir, voyageur.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Trias : ","color":"green","extra":[{"text":"Je vais retourner en mon monde à présent que mon arc m'est revenu. Puisse la chance vous sourire, voyageur.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

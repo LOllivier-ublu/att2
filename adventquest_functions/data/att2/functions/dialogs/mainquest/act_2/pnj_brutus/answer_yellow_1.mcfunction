@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/brutus
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Brutus : ","color":"green","extra":[{"text":"*Chuchotant* A qui le dites-vous ! Je ne suis pas du genre cogneur en vérité... Mais laissez moi vous aider : à l'ouest du village, il y a un bosquet encombré par la végétation.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Brutus : ","color":"green","extra":[{"text":"*Chuchotant* A qui le dites-vous ! Je ne suis pas du genre cogneur en vérité... Mais laissez-moi vous aider : à l'ouest du village, il y a un bosquet encombré par la végétation.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

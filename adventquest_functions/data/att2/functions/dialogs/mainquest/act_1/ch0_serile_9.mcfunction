@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° S : ","color":"gray","extra":[{"text":"N'es-tu donc pas le héros de Tellurön dont parlent les légendes? Enfin si tu ne me fais pas confiance, je ne pourrais pas t'aider !","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° S : ","color":"gray","extra":[{"text":"N'es-tu donc pas le héros de Tellurön dont parlent les légendes ? Enfin si tu ne me fais pas confiance, je ne pourrais pas t'aider !","color":"yellow","italic":true}]}
 
 
 #ENGLISH LANGUAGE

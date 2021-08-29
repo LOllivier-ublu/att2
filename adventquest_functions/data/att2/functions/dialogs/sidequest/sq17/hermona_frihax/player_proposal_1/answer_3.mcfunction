@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Je comprends mortel, mais je n'ai pas d'argent. Je vais voir les blessés s'il peuvent mettre la main à la pate. Bon, il devrait y avoir des bandages encore dans l'es ruine d'Angor. Je possédait, en mon acienne deumeure, un stoque conséquent de bandages. Enfin, s'ils n'a pas été consummé par le feu... Ma maison se trouve dans le quartier surplombant la ville. Je vous prierai de me rapporter au minimum 6 paquets de 64 bandages. Bonne chance...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Je comprends mortel, mais je n'ai pas d'argent. Je vais voir les blessés s'il peuvent mettre la main à la pate. Bon, il devrait y avoir des bandages encore dans les ruines d'Angor. Je possédait, en mon ancienne demeure, un stoque conséquent de bandages. Enfin, s'ils n'a pas été consumé par le feu... Ma maison se trouve dans le quartier surplombant la ville. Je vous prierai de me rapporter au minimum 6 paquets de 64 bandages. Bonne chance...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

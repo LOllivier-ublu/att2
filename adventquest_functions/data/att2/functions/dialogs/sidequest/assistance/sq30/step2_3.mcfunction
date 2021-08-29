@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un Mystérieux Vol -°- : ","color":"gray","extra":[{"text":"Le commandant m'a indiqué l'endroit où a été commis le vol. Il y a une petite salle secrète dans la biliothèque au fond et derrière lui, je dois y jeter un œil.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un Mystérieux Vol -°- : ","color":"gray","extra":[{"text":"Le commandant m'a indiqué l'endroit où a été commis le vol. Il y a une petite salle secrète dans la bibliothèque au fond et derrière lui, je dois y jeter un œil.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

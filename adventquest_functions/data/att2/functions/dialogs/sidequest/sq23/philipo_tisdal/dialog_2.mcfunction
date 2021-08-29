@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Hey, vous ne m'aviez pas répondu à ma proposition, êtes-vous toujours disponible à m'aider pour débarasser toutes ces bestioles de mes champs ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Hey, vous ne m'aviez pas répondu à ma proposition, êtes-vous toujours disponible à m'aider pour débarrasser toutes ces bestioles de mes champs ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

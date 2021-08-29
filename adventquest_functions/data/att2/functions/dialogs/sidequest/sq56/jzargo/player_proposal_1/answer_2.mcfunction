@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"Les ignorants sont forts pour donner des leçons, ils sont trop aveugles pour voir la chance qu'ils ont eu ! A mon tour de leur donner une leçon !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"Les ignorants sont forts pour donner des leçons, ils sont trop aveugles pour voir la chance qu'ils ont eue ! A mon tour de leur donner une leçon !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

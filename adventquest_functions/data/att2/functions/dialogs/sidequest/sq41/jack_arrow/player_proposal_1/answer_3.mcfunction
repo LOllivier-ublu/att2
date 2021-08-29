@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Jack Arrow : ","color":"green","extra":[{"text":"Il n'y a plus aucun trésor ici, les pirates d'Asunarks nous ont tout volé ! S'il te plaît, on ne veut plus de problèmes, on en a déjà assez eu comme ça... Attends, je peux t'indiquer le lieux d'un de leurs navires échoués renfermant un important pactol. L'épave se trouve au sud d'ici, sur la côte. Elle n'est pas facile d'accès, je suis sûr que personne ne l'a encore pillée.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Jack Arrow : ","color":"green","extra":[{"text":"Il n'y a plus aucun trésor ici, les pirates d'Asunarks nous ont tout volé ! S'il te plaît, on ne veut plus de problèmes, on en a déjà assez eu comme ça... Attends, je peux t'indiquer le lieu d'un de leurs navires échoués renfermant un important pactole. L'épave se trouve au sud d'ici, sur la côte. Elle n'est pas facile d'accès, je suis sûr que personne ne l'a encore pillé.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

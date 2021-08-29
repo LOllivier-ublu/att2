@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Bonjour, mais quel accoutrement intrigant ! Nous manquons d'or pour forger les armures de la plus haute qualité ! Je sais où en trouver : dans les grands hangars et fonderie des ruines d'Angor il y a cet or inutilisé. Si tu m'en raporte beaucoup, je te foregerais une excellente armure.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Bonjour, mais quel accoutrement intrigant ! Nous manquons d'or pour forger les armures de la plus haute qualité ! Je sais où en trouver : dans les grands hangars et fonderies des ruines d'Angor il y a cet or inutilisé. Si tu m'en raporte beaucoup, je te forgerais une excellente armure.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

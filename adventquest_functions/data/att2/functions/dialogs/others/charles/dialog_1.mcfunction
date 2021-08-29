@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Charles : ","color":"green","extra":[{"text":"Hé, tu veux gagner le gros lot ? Alors tu es au bon endroit mon ami. Ici je stocke toutes mes trouvailles et j'ai eu l'idée d'en faire des lots au hasard et les offrir à tous ceux qui veulent faire des paris contre une certaine somme de Chronotons ! J'offres plusieurs mises de départ, c'est suivant les moyens du client... Alors tu es prêt à tenter ta chance ?","color":"dark_aqua","extra":[{"text":" [Voir les mises -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/charles_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir les mises de Charles"}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Charles : ","color":"green","extra":[{"text":"Hé, tu veux gagner le gros lot ? Alors tu es au bon endroit mon ami. Ici je stocke toutes mes trouvailles et j'ai eu l'idée d'en faire des lots au hasard et les offrir à tous ceux qui veulent faire des paris contre une certaine somme de Chronotons ! J'offre plusieurs mises de départ, c'est suivant les moyens du client... Alors tu es prêt à tenter ta chance ?","color":"dark_aqua","extra":[{"text":" [Voir les mises -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/charles_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir les mises de Charles"}}]}]}
 
 
 #ENGLISH LANGUAGE

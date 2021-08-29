@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Mais bien sûr, j'ai compris ! Pour accéder à la gemme il faut inonder la grande salle. Il y a des portes qui se sont ouvertes aux quatres coins, je vais pouvoir accéder à ces grands pilliers pour peut-être activer l'ouverture des trappes là-haut.","color":"aqua","bold":false}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Mais bien sûr, j'ai compris ! Pour accéder à la gemme il faut inonder la grande salle. Il y a des portes qui se sont ouvertes aux quatre coins, je vais pouvoir accéder à ces grands piliers afin d'activer l'ouverture des trappes là-haut.","color":"aqua","bold":false}]}
 
 
 #ENGLISH LANGUAGE

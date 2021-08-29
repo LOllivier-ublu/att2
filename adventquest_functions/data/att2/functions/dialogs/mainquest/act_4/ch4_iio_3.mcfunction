@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"Il n'y a rien que tu ne possèdes vraiment qu'il ne puisse te voler. Car ta valeur se trouve en ton cœur d'or et non dans tes possession matérielles.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"Il n'y a rien que tu ne possèdes vraiment qu'il ne puisse te voler. Car ta valeur se trouve en ton cœur d'or et non dans tes possessions matérielles.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"... Vous fûtes prompt. Votre aide s'avéra autant constructive qu'apréciable.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"... Vous fûtes prompt. Votre aide s'avéra autant constructive qu'appréciable.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

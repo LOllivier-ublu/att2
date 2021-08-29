@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lilith : ","color":"green","extra":[{"text":"S'il vous plaît, j'aurais besoin d'aide. Mon cheval a paniqué et avec ma charette j'ai percuté un arbre qui a fait renverser toute ma marchandise. Non seulement mon cheval s'est enfui, mais ma charette est aussi détruite... Je n'habite pas très loin, voulez-vous bien m'aider à rapporter la marchandise chez moi ? Je vous donnerai un petit quelque chose en échange...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lilith : ","color":"green","extra":[{"text":"S'il vous plaît, j'aurais besoin d'aide. Mon cheval a paniqué et avec ma charrette j'ai percuté un arbre qui a fait renverser toute ma marchandise. Non seulement mon cheval s'est enfui, mais ma charrette est aussi détruite... Je n'habite pas très loin, voulez-vous bien m'aider à rapporter la marchandise chez moi ? Je vous donnerai un petit quelque chose en échange...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

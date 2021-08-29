@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Bob L. : ","color":"green","extra":[{"text":"Hé ! Fais attention gamin ! Moi, le grand Bob Laïnonne, suis entrain de m'exercer à lancer de puissantes boules de feu. Allez, du vent, éloigne-toi de là maintenant.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Bob L. : ","color":"green","extra":[{"text":"Hé ! Fais attention gamin ! Moi, le grand Bob Laïnonne, suis en train de m'exercer à lancer de puissantes boules de feu. Allez, du vent, éloigne-toi de là maintenant.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

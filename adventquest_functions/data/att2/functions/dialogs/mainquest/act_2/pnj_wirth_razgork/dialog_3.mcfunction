@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/wirth_razgork
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wirth Razgork : ","color":"green","extra":[{"text":"Attention car un camp de barbares s'est aussi installé devant et l'accès n'en est guère aisé. Essayez de vous faufiller dans le campement, vous trouverez sûrement ensuite un moyen d'entrer à l'intérieur du temple. Je ne suis plus très jeune, je commence à rouiller et je vois en vous une âme d'aventurier ! Je serai donc ravi de vous aider dans votre quête. Bonne chance !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wirth Razgork : ","color":"green","extra":[{"text":"Attention car un camp de barbares s'est aussi installé devant et l'accès n'en est guère aisé. Essayez de vous faufiler dans le campement, vous trouverez sûrement ensuite un moyen d'entrer à l'intérieur du temple. Je ne suis plus très jeune, je commence à rouiller et je vois en vous une âme d'aventurier ! Je serai donc ravi de vous aider dans votre quête. Bonne chance !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

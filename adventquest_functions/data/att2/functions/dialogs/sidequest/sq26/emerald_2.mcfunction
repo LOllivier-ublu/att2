@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"Oui, il n'y a qu'elle pour s'aventurer dans ce genre d'endroit ! Nous ne sommes plus loin de la retrouver ! Je vais à Méleïm interroger des habitants. Certain l'auront peut-être apperçue...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"Oui, il n'y a qu'elle pour s'aventurer dans ce genre d'endroit ! Nous ne sommes plus loin de la retrouver ! Je vais à Méleïm interroger des habitants. Certain l'auront peut-être aperçue...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

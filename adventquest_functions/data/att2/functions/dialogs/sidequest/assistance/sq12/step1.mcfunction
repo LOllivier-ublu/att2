@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une prêtresse en détresse -°- : ","color":"gray","extra":[{"text":"La prêtresse Rena Sun à Méleïm ne peut plus atteindre son temple, quelque chose bloque l'entrée. Il faut que je trouve un moyen de débloquer la porte. Je peux simplement détruire la porte avec la magie ou faire ce qu'elle m'a dit. Apparemment il y aurait une ouverture par le sommet des champs de carottes, la un puit par laquelle la pluie rentre. Je devrais pouvoir sauter sans me faire mal.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une prêtresse en détresse -°- : ","color":"gray","extra":[{"text":"La prêtresse Rena Sun à Méleïm ne peut plus atteindre son temple, quelque chose bloque l'entrée. Il faut que je trouve un moyen de débloquer la porte. Je peux simplement détruire la porte avec la magie ou faire ce qu'elle m'a dit. Apparemment il y aurait une ouverture par le sommet des champs de carottes, un puit par laquelle la pluie rentre. Je devrais pouvoir sauter sans me faire mal.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGAUGE
 

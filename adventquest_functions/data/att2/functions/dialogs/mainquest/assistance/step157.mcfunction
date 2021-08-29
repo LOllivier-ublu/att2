@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Me voilà tomber tout en bas de la tour sud-est. Je dois trouver un moyen de grimper, commençons par trouver la sortie de ce labyrinthe de verre...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Me voilà tombé tout en bas de la tour sud-est. Je dois trouver un moyen de grimper, commençons par trouver la sortie de ce labyrinthe de verre...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

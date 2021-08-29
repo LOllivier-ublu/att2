@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Laisse-moi te poser quelques questions : t'es-tu emparé du pouvoir de la corruption de ton plein grès, ou t'a-t-on contraint à t'en servir ?","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Laisse-moi te poser quelques questions : t'es-tu emparé du pouvoir de la corruption de ton plein gré, ou t'a-t-on contraint à t'en servir ?","color":"yellow","italic":true}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'obscurité qui dors -°- : ","color":"gray","extra":[{"text":"Aldelrion m'a conseillé de parler à Namrïn. Il sera consolé de connaître le lien particulier que j'ai avec son défun maître Relgon.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'obscurité qui dors -°- : ","color":"gray","extra":[{"text":"Aldelrion m'a conseillé de parler à Namrïn. Il sera consolé de connaître le lien particulier que j'ai avec son défunt maître.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

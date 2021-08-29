@@ -8,7 +8,7 @@ function att2:cinematic/sidequest/17/hermona_frihax/healing_effect
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Oui ? Vous êtes ici dans le quartier où l'ont soigne et opère nos plus grands blessés... Cette guerre fait des ravages dans les deux camps, mais depuis la dernière attaque nous avons subit de lourdes pertes. A présent, le matériel manque. Auriez-vous du temps pour nous trouver des bandages ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Oui ? Vous êtes ici dans le quartier où l'on soigne et opère nos plus grands blessés... Cette guerre fait des ravages dans les deux camps, mais depuis la dernière attaque nous avons subi de lourdes pertes. A présent, le matériel manque. Auriez-vous du temps pour nous trouver des bandages ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

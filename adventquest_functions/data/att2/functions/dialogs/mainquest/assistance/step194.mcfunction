@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il y a une sorte de porte horizontale qui bloque ma progression. Je dois sûrement activer trois mécanismes différents pour l'ouvrir. Je devrais chercher ces mécanismes à l'interieur de la zone nuageuse pas loin de la porte.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il y a une sorte de porte horizontale qui bloque ma progression. Je dois sûrement activer trois mécanismes différents pour l'ouvrir. Je devrais chercher ces mécanismes à l'intérieur de la zone nuageuse pas loin de la porte.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

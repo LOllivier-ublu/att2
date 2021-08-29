@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Indra Lorth : ","color":"green","extra":[{"text":"Alors, ça te plait l'aventure ? J'ai beaucoup voyagé dans ma vie et ai connu beaucoup de dangers. Des fois je me dis que je reprendrais bien la route, si seulement je n'avais pas ce mal de dos... Profite tant que la jouvance est tienne, il y a tant de beautés à découvrir dans le monde.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Indra Lorth : ","color":"green","extra":[{"text":"Alors, ça te plait l'aventure ? J'ai beaucoup voyagé dans ma vie et ai connu beaucoup de dangers. Des fois je me dis que je reprendrais bien la route, si seulement je n'avais pas ce mal de dos... Profite tant que la jouvence est tienne, il y a tant de beautés à découvrir dans le monde.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

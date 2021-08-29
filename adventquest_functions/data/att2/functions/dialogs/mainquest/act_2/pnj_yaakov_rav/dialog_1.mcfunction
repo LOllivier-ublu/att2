@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","extra":[{"text":"Bienvenue dans mon humble chez-moi, étranger... Si vous êtes intéressé par le Dahäl, je vends toutes sortes de livres d'incantations. Alors, comment puis-je vous aider ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","extra":[{"text":"Bienvenue dans mon humble chez moi, étranger... Si vous êtes intéressé par le Dahäl, je vends toutes sortes de livres d'incantations. Alors, comment puis-je vous aider ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

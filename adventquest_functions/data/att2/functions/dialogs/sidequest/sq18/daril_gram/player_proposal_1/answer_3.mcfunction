@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Elle ne vous dispence cependant pas de donner des leçons... Allez-vous-en, je parviendrai à mes fins sans votre aide...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Elle ne vous dispense cependant pas de donner des leçons... Allez-vous-en, je parviendrai à mes fins sans votre aide...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

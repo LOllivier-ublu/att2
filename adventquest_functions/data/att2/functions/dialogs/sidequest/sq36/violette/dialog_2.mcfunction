@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Violette : ","color":"green","extra":[{"text":"Que faites-vous encore chez moi ? Attendez ! J'ai entendu parler de vous. J'ai ouï-dire que vous aidiez certains d'entre nous dans la région... Voyez-vous, j'ai perdu mes parents il y a de cela une paire d'années. Ils sont enterrés au cimetière dans la vallé d'Eol sur les hauteurs. Malheureusement, il y a quelques mois, des monstres ont commencé à se répendre là-bas. Etrangement, l'entrée de la crypte de mes parents a été scellée et je voudrais pouvoir y accèder à nouveau. Voulez-vous bien m'aider ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Violette : ","color":"green","extra":[{"text":"Que faites-vous encore chez moi ? Attendez ! J'ai entendu parler de vous. J'ai ouï-dire que vous aidiez certains d'entre nous dans la région... Voyez-vous, j'ai perdu mes parents il y a de cela une paire d'années. Ils sont enterrés au cimetière dans la vallée d'Eol sur les hauteurs. Malheureusement, il y a quelques mois, des monstres ont commencé à se répandre là-bas. Etrangement, l'entrée de la crypte de mes parents a été scellée et je voudrais pouvoir y accéder à nouveau. Voulez-vous bien m'aider ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

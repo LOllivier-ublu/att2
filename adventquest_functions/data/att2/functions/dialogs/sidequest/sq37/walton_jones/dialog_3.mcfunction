@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Walton Jones : ","color":"green","extra":[{"text":"Avez-vous tué assez de ces sales bêtes ? Ils vivent prêt du cours d'eau, faites les déguerpir je vous en suppli.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Walton Jones : ","color":"green","extra":[{"text":"Avez-vous tué assez de ces sales bêtes ? Ils vivent près du cours d'eau, faites les déguerpir je vous en supplie.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

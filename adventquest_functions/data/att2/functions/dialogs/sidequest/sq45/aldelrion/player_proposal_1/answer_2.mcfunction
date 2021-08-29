@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"De moi ? Pas grand chose. Mais les récompenses de la vie ne viennent pas toujours de là où on l'imagine. M'aidant gratuitement, vous pourriez être supris...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"De moi ? Pas grand chose. Mais les récompenses de la vie ne viennent pas toujours de là où on l'imagine. M'aidant gratuitement, vous pourriez être surpris...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

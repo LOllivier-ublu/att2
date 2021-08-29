@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Voilà la seconde gemme d'espace ! Je dois la raporter à Ryliath.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Voilà la seconde gemme d'espace ! Je dois la rapporter à Ryliath.","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

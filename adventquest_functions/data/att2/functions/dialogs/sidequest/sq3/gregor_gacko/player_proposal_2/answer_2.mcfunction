@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gregor Gacko : ","color":"green","extra":[{"text":"Le contenu de mon trésors, tout ce que j'ai pu remporter dans mon acienne vie... Notre plan sera le suivant : récupérer des explosifs et les placer derrière la prison. Vous trouverez ces explosifs dans la vieille mine qui se trouve non loin d'ici, un chemin de la forêt y conduit. Bon, nous n'aurons qu'à nous retrouver ici quand tu les auras.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gregor Gacko : ","color":"green","extra":[{"text":"Le contenu de mon trésor, tout ce que j'ai pu remporter dans mon ancienne vie... Notre plan sera le suivant : récupérer des explosifs et les placer derrière la prison. Vous trouverez ces explosifs dans la vieille mine qui se trouve non loin d'ici, un chemin de la forêt y conduit. Bon, nous n'aurons qu'à nous retrouver ici quand tu les auras.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

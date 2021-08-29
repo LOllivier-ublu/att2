@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garde : ","color":"green","extra":[{"text":"La famille royale de... Vous n'êtes pas n'importe qui dirait-on. Navré pour cette interruption, mais notre ville est pauvre malgré ses apparences. Je ne suis pas autorisé à laisser entrer les mendiants et vagabons, nous avons à peine de quoi tenir l'hiver et nous comptons beaucoup sur le commerce pour subsister... Enfin, si c'est le savoir que vous cherchez, vous n'auriez pas pu mieux tomber ! L'académie du Dahäl se trouve à l'autre bout de la ville, dos à la montagne : vous ne pouvez pas la manquer. Ils accepterons sans doute de vous aider contre quelques chronotons.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garde : ","color":"green","extra":[{"text":"La famille royale de... Vous n'êtes pas n'importe qui dirait-on. Navré pour cette interruption, mais notre ville est pauvre malgré ses apparences. Je ne suis pas autorisé à laisser entrer les mendiants et vagabonds, nous avons à peine de quoi tenir l'hiver et nous comptons beaucoup sur le commerce pour subsister... Enfin, si c'est le savoir que vous cherchez, vous n'auriez pas pu mieux tomber ! L'académie du Dahäl se trouve à l'autre bout de la ville, dos à la montagne : vous ne pouvez pas la manquer. Ils accepteront sans doute de vous aider contre quelques chronotons.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Edwin Vortid : ","color":"green","extra":[{"text":"Hé toi le curieux, connaitrais-tu l'établissement de Charles ? On y fait des paris de toutes sortes pour avoir la chance de gagner le gros lot ! C'est tellement addictif que j'ai du vendre une bonne partie de mes biens... Je ne viens pas quémander mais si j'envois des personnes découvrir ce lieu, Charles m'a dit qu'il me permettrait de faire quelques paris gratuitement pour me refaire !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Edwin Vortid : ","color":"green","extra":[{"text":"Hé toi le curieux, connaitrais-tu l'établissement de Charles ? On y fait des paris de toutes sortes pour avoir la chance de gagner le gros lot ! C'est tellement addictif que j'ai dû vendre une bonne partie de mes biens... Je ne viens pas quémander mais si j'envoie des personnes découvrir ce lieu, Charles m'a dit qu'il me permettrait de faire quelques paris gratuitement pour me refaire !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

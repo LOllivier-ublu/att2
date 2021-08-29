@@ -12,7 +12,7 @@ function att2:cinematic/act_4/eolorion/gate_attack/doors_opening
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Capitaine : ","color":"green","extra":[{"text":"C'est une horde de squellettes ! Si vous avez un arc ou savez utiliser le Dahäl, allez au sommet des fortifications par de l'intérieur du mur !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Capitaine : ","color":"green","extra":[{"text":"C'est une horde de squelettes ! Si vous avez un arc ou savez utiliser le Dahäl, allez au sommet des fortifications par de l'intérieur du mur !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

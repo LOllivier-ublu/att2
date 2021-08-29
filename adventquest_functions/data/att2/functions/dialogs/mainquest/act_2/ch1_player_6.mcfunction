@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je n'ai pas un seul sous... Mais je ne peux pas retourner dehors. Me permettrez-vous de passer là nuit ici, et que je vous rembourse plus tard ?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je n'ai pas un seul sou... Mais je ne peux pas retourner dehors. Me permettrez-vous de passer là nuit ici, et que je vous rembourse plus tard ?","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

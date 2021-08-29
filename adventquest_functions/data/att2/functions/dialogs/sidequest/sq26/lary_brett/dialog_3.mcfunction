@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lary Brett : ","color":"green","extra":[{"text":"Alors vous avez nettoyé l'entrée des catacombes ? Non ? Je ne vous ouvrirai pas temps qu'il y aura tout ces morts-vivants rodant dans le coin...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lary Brett : ","color":"green","extra":[{"text":"Alors vous avez nettoyé l'entrée des catacombes ? Non ? Je ne vous ouvrirai pas temps qu'il y aura tous ces morts-vivants rodant dans le coin...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

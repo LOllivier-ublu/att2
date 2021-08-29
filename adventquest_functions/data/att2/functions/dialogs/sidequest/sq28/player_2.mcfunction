@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"C'est Korlaph. D'après ce qui est écrit dans son journal, suite à la décision de Tatiana pour entreprendre une ascension dangeureuse, sa femme mourut. Il tenait ta mère pour seule responsable... Aussi, il souffrait terriblement. Je sais de quoi je parle, car j'en ai fait les frais récemment, en étant manipulé...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"C'est Korlaph. D'après ce qui est écrit dans son journal, suite à la décision de Tatiana pour entreprendre une ascension dangereuse, sa femme mourut. Il tenait ta mère pour seule responsable... Aussi, il souffrait terriblement. Je sais de quoi je parle, car j'en ai fait les frais récemment, en étant manipulé...","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

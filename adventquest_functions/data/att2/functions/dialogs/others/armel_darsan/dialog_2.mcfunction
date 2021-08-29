@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Armel Darsan : ","color":"green","extra":[{"text":"Alors comme ça vous avez la fameuse clef de la lave. J'espère que le chef vous l'a donnée pour une bonne raison.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Armel Darsan : ","color":"green","extra":[{"text":"Alors comme ça vous avez la fameuse clef de la lave. J'espère que le chef vous l'a donné pour une bonne raison.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Rob harth : ","color":"green","extra":[{"text":"Formidable ! Quel soulagement, enfin débarassé de ces monstres. Tenez, voilà quelques Chronotons pour vous !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Rob harth : ","color":"green","extra":[{"text":"Formidable ! Quel soulagement, enfin débarrassé de ces monstres. Tenez, voilà quelques Chronotons pour vous !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

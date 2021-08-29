@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Adrian : ","color":"green","extra":[{"text":"Vous tombez bien, je voulais vous parler à propos d'un méfait qui est survenu ici même. On nous a volé les plans du palais, œuvre du célèbre architecte Corbus. Ces plans font partis des archives secrètes de Ryliath et dévoilent bon nombre de passages dissimulés dans les structures de la ville et du palais. Il faut impérativement les retrouver. Voulez-vous bien nous aider ? Vous serez récompensé, vous avez la parole d'un roi !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Adrian : ","color":"green","extra":[{"text":"Vous tombez bien, je voulais vous parler à propos d'un méfait qui est survenu ici même. On nous a volé les plans du palais, œuvre du célèbre architecte Corbus. Ces plans font partie des archives secrètes de Ryliath et dévoilent bon nombre de passages dissimulés dans les structures de la ville et du palais. Il faut impérativement les retrouver. Voulez-vous bien nous aider ? Vous serez récompensé, vous avez la parole d'un roi !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

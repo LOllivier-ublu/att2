@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une urgence vitale -°- : ","color":"gray","extra":[{"text":"Le camp des éxilés est en manque de bandages. Hermona m'a demandé d'aller en chercher au moins six paquets de 64 ","color":"aqua","italic":true,"extra":[{"text":"<Bandages>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:dye\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Bandages\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Bandages\\\"}\"]}}}"},"extra":[{"text":" dans son ancienne maison dans les ruines d'Angor. Celle-ci se situe dans le seul quartier en hauteur de la grande ville d'Angor sur le flan est.","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une urgence vitale -°- : ","color":"gray","extra":[{"text":"Le camp des exilés est en manque de bandages. Hermona m'a demandé d'aller en chercher au moins six paquets de 64 ","color":"aqua","italic":true,"extra":[{"text":"<Bandages>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:dye\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Bandages\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Bandages\\\"}\"]}}}"},"extra":[{"text":" dans son ancienne maison dans les ruines d'Angor. Celle-ci se situe dans le seul quartier en hauteur de la grande ville d'Angor sur le flanc est.","color":"aqua","italic":true}]}]}]}
 
 #ENGLISH LANGUAGE
 

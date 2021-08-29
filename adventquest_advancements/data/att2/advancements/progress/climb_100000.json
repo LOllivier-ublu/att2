@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:ladder"
         },
-        "title": {"translate":"D'ont Stop at The Top"},
+        "title": {"translate":"Don't Stop at The Top"},
         "description": {"translate":"Climb 1km"},
         "frame": "goal"
     },

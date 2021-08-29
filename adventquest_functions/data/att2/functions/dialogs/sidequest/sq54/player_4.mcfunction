@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Une fiole. Elle contient du sang... Bien concervé mais il a l'air d'être là depuis un moment à en juger par le récipent. ''Essentiel à son maître comme il l'est pour tout être, mais bien différent des autres par son immuabilité, il porte l'énergie, les émotions et jusqu'aux valeurs d'une lignée.'' Ce doit être de ce sang dont parle l'énigme de J'zargo.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Une fiole. Elle contient du sang... Bien conservé mais il a l'air d'être là depuis un moment à en juger par le récipient. ''Essentiel à son maître comme il l'est pour tout être, mais bien différent des autres par son immuabilité, il porte l'énergie, les émotions et jusqu'aux valeurs d'une lignée.'' Ce doit être de ce sang dont parle l'énigme de J'zargo.","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

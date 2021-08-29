@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- On ne sait jamais sur quoi on va tomber -°- : ","color":"gray","extra":[{"text":"J'ai trouvé une grande clef avec un sceau pirate inscrit dessus. Jack Arrow avait raison à propos d'un trésor intéressant. Je dois maintenant chercher le repaire des pirates renfermant sûrement un grand butin.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- On ne sait jamais sur quoi on va tomber -°- : ","color":"gray","extra":[{"text":"J'ai trouvé une grande clef avec un sceau pirate inscris dessus. Jack Arrow avait raison à propos d'un trésor intéressant. Je dois maintenant chercher le repaire des pirates renfermant sûrement un grand butin.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

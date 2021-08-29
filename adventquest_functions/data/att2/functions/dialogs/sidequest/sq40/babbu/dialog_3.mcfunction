@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Babbu : ","color":"green","extra":[{"text":"Tu as vu ce que j'ai entreprit ? Tu seras content de savoir que tu as été le premier investisseur d'une affaire bien rentable : la pêche à la crevette. La crevette c'est l'avenir. On peut la cuisiner de différentes façons, bouillire, griller, rôtire, sauter... Aussi à la planche, à la vapeur, en sauce, en soupe, en râgout, en salade. Assaisonner à l'avocat, citron, l'ail, poivre... Je crois que c'est à peu près tout. Au fait, j'ai trouvé quelque chose qui pourrait t'intéresser.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Babbu : ","color":"green","extra":[{"text":"Tu as vu ce que j'ai entrepris ? Tu seras content de savoir que tu as été le premier investisseur d'une affaire bien rentable : la pêche à la crevette. La crevette c'est l'avenir. On peut la cuisiner de différentes façons, bouillir, griller, rôtir, sauter... Aussi à la planche, à la vapeur, en sauce, en soupe, en ragout, en salade. Assaisonné à l'avocat, citron, l'ail, poivre... Je crois que c'est à peu près tout. Au fait, j'ai trouvé quelque chose qui pourrait t'intéresser.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

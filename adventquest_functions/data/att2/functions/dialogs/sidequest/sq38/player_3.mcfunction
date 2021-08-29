@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"L'artefact s'est placé tout seul sur l'autel... Reculez Walton, j'ai un mauvais présentiment !","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"L'artefact s'est placé tout seul sur l'autel... Reculez Walton, j'ai un mauvais pressentiment !","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

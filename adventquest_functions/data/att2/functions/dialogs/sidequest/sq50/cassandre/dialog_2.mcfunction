@@ -9,7 +9,7 @@
 tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Ça n'a pas l'air d'aller ? Qu'est-ce qui vous tracasse ?","color":"aqua"}]}
 
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Cassandre : ","color":"green","extra":[{"text":"*en sanglot* C'est... Je... Voilà, je ne retrouve plus mon chaton Totoro... Je ne l'ai plus vu depuis deux jours et j'ai peur que...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Cassandre : ","color":"green","extra":[{"text":"*en sanglots* C'est... Je... Voilà, je ne retrouve plus mon chaton Totoro... Je ne l'ai plus vu depuis deux jours et j'ai peur que...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

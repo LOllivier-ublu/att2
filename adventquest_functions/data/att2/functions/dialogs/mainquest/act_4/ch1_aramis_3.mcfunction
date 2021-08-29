@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Il est un de nos anciens élèves, mais son avidité pour le pouvoir l'a conduit à dérober une de nos reliques interdites : une pierre de nécromancie. Après cela, il a fui vers les montagnes animé par la même quête que vous : trouver la gemme de temps qui s'y cache. Bon nombre d'entre nous sont morts en tentant de l'arrêter ou en défendant notre cité.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Il est un de nos anciens élèves, mais son avidité pour le pouvoir l'a conduit à dérober une de nos reliques interdites : une pierre de nécromancie. Après cela, il a fui vers les montagnes animées par la même quête que vous : trouver la gemme de temps qui s'y cache. Bon nombre d'entre nous sont morts en tentant de l'arrêter ou en défendant notre cité.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

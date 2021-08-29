@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Voilà enfin du concret, une gemme d'espace se trouverait dans le temple de la forêt de Worlëst. Wirth m'a dit que c'est à l'autre bout de la forêt au nord-est de Ryliath. Cependant, un camp de barbare s'est installé devant, il faudra que je me faufile discrètement à l'intérieure.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Voilà enfin du concret, une gemme d'espace se trouverait dans le temple de la forêt de Worlëst. Wirth m'a dit que c'est à l'autre bout de la forêt au nord-est de Ryliath. Cependant, un camp de barbare s'est installé devant, il faudra que je me faufile discrètement à l'intérieur.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

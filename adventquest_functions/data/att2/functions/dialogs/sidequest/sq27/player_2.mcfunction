@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai eu chaud ! Une véritable experte en explosif ! Encore un passage ici, elle doit avoir laissée un indice derrière sur sa prochaine destination...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai eu chaud ! Une véritable experte en explosif ! Encore un passage ici, elle doit avoir laissé un indice derrière sur sa prochaine destination...","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

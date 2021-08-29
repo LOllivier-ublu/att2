@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Oh je vois, pardonnez-moi de vous questionner ainsi. Rare sont les visites courtoises à des heures aussi tardives de la nuit! Ma foi, vous tombez bien, ici nous sommes dans une auberge.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Oh... Je vois, pardonnez-moi de vous questionner ainsi. Rare sont les visites courtoises à des heures aussi tardives de la nuit! Ma foi, vous tombez bien, ici nous sommes dans une auberge.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

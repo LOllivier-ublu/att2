@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Voilà j'ai repoussé l'attaque de monstres à Eolorion mais je dois vérifier s'ils sont tous bien mort...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Voilà j'ai repoussé l'attaque de monstres à Eolorion mais je dois vérifier s'ils sont tous bien morts...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

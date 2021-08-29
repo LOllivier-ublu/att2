@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je suis arrivé dans les marais d'Owsästr. Il devrait y avoir une sorte de grande structure acollée à la montagne et émergeante des eaux stagnantes.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je suis arrivé dans les marais d'Owsästr. Il devrait y avoir une sorte de grande structure accolée à la montagne et émergente des eaux stagnantes.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

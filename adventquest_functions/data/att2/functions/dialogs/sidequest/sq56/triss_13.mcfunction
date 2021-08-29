@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Triss : ","color":"green","extra":[{"text":"Non J'zargo, il n'est pas méchant avec toi, il agit en conséquence de tes actes. Moi je t'ai toujours aimé J'zargo, comme mon fils et depuis le jour où je t'ai receuilli. Le choix de ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" ne m'appartient pas : s'il te tue, alors tu auras payé pour tes erreurs ; mais s'il te laisse vivre alors tu devras reconnaître le tors que tu lui a causé et admettre qu'il aura été bon avec toi.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Triss : ","color":"green","extra":[{"text":"Non J'zargo, il n'est pas méchant avec toi, il agit en conséquence de tes actes. Moi je t'ai toujours aimé J'zargo, comme mon fils et depuis le jour où je t'ai recueilli. Le choix de ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" ne m'appartient pas : s'il te tue, alors tu auras payé pour tes erreurs ; mais s'il te laisse vivre alors tu devras reconnaître le tort que tu lui as causé et admettre qu'il aura été bon avec toi.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

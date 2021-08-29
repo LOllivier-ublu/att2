@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Soit, excuse-moi, 150 Chronotons ça marche ? Le quartier de la fonderie se trouve en face du palais à l'ouest, si tu accèptes.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Soit, excuse-moi, 150 Chronotons ça marche ? Le quartier de la fonderie se trouve en face du palais à l'ouest, si tu acceptes.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

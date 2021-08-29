@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"La chef du village de Kortaek m'a indiqué le chemin vers Nojelanth. Je dois m'engouffrer dans le grand canyon et aller au fond dans une grotte.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"La cheffe du village de Kortaek m'a indiqué le chemin vers Nojelanth. Je dois m'engouffrer dans le grand canyon et aller au fond dans une grotte.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Selon les dires d'Indra Lorth, une grande structure abriterait une gemme d'espace dans les marécages d'Owsästr. Je dois partir en direction du Sud, mais j'ai beaucoup de chemin à parcourir. Indra m'a conseillé d'aller à l'écurie de Méleïm prendre un cheval afin de faciliter mes déplacements.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Selon les dires d'Indra Lorth, une grande structure abriterait une gemme d'espace dans les marécages d'Owsästr. Je dois partir en direction du Sud, mais j'ai beaucoup de chemins à parcourir. Indra m'a conseillé d'aller à l'écurie de Méleïm prendre un cheval afin de faciliter mes déplacements.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

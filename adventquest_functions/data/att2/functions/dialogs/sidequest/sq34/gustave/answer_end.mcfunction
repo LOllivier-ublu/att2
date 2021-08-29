@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Formidable vous revoilà ! Alexandre, où est Géro ? Il... Vous vous êtes faits attaquer n'est-ce pas ? Il va falloir que j'annonce ça à la famille royale... Quand je leur disais que nous avions besoin d'une protection renforcée pour ce travail, leur construction va aller beaucoup moins vite à présent. Bon, prenez ces 200 Chronotons. Nous n'avons plus de temps à perdre...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Formidable vous revoilà ! Alexandre, où est Géro ? Il... Vous vous êtes fait attaquer n'est-ce pas ? Il va falloir que j'annonce ça à la famille royale... Quand je leur disais que nous avions besoin d'une protection renforcée pour ce travail, leur construction va aller beaucoup moins vite à présent. Bon, prenez ces 200 Chronotons. Nous n'avons plus de temps à perdre...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

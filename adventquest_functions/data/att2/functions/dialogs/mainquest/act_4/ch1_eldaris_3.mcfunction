@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Reine Eldaris : ","color":"gold","extra":[{"text":"A ma connaissance, l'une d'entre elle se trouve en haute montagne. Dans la légendaire cité d'Eolorion, qui abrite l'académie du Dahäl.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Reine Eldaris : ","color":"gold","extra":[{"text":"A ma connaissance, l'une d'entre elles se trouve en haute montagne. Dans la légendaire cité d'Eolorion, qui abrite l'académie du Dahäl.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

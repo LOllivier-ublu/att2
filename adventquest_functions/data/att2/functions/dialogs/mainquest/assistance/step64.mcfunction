@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 3","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"La situation dans ce royaume est chaotique. Je dois les aider et pour ce faire, il faut que je rassemble deux sceaux : l'un au symbole de lave et l'autre de feu, pour les emporter jusque devant l'antre du monstre devastateur. Le premier est dans un village nommé phœnix.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"La situation dans ce royaume est chaotique. Je dois les aider et pour ce faire, il faut que je rassemble deux sceaux : l'un au symbole de lave et l'autre de feu, pour les emporter jusque devant l'antre du monstre dévastateur. Le premier est dans un village nommé phœnix.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

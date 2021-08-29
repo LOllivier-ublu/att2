@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les catacombes Adanoï -°- : ","color":"gray","extra":[{"text":"Encore une autre étape à franchir, il faut que je rejoingne Emerald à Méleïm. Il m'en dira sûrement plus.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les catacombes Adanoï -°- : ","color":"gray","extra":[{"text":"Encore une autre étape à franchir, il faut que je rejoigne Emerald à Méleïm. Il m'en dira sûrement plus.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

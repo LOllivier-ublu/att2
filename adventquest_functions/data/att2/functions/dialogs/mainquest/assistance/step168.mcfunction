@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je peux monter sur le rail qui maintient l'émeraude en suspension et débloquer le mécanisme qui l'empêche de bouger. Après avoir fait celà je pourrais retourner au centre activer le mécanisme qui, je l'espère, transportera l'emeraude directement en face du trou...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je peux monter sur le rail qui maintient l'émeraude en suspension et débloquer le mécanisme qui l'empêche de bouger. Après avoir fait cela je pourrais retourner au centre activer le mécanisme qui, je l'espère, transportera l'émeraude directement en face du trou...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

@@ -8,7 +8,7 @@
 
 tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Simple curiosité, comment comptes-tu faire payer ceux qui t'ont manqué de respect ?","color":"aqua"}]}
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"L'élève est trop curieux pour des choses qui ne le concerne pas et sa laideur est en elle même un manque de respect pour son maître si généreux.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"L'élève est trop curieux pour des choses qui ne le concernent pas et sa laideur est en elle même un manque de respect pour son maître si généreux.","color":"dark_aqua"}]}
 
 tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"*A voix basse* Quel connard, mais ses intentions ne me disent rien qui valent...","color":"aqua"}]}
 

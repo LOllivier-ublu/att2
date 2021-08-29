@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"En effet, elle se nomme Sélène, mais depuis que sa mère Tatiana est morte elle a prit son surnom : ''Tina''. Sélène ne voyait déjà pas énormément sa mère du fait de son métier, alors quand elle l'a perdue à 7 ans, elle était inconsolable. Elle s'est mise en tête de suivre ses traces à partir de ses 13 ans. Il faut dire que je n'ai pas été à la hauteur... Mais maintenant Sélène a 17 ans et je ne veux pas la perdre comme sa mère. Elle est tout ce qu'il me reste... Ne me laissez pas tomber.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"En effet, elle se nomme Sélène, mais depuis que sa mère Tatiana est morte elle a pris son surnom : ''Tina''. Sélène ne voyait déjà pas énormément sa mère du fait de son métier, alors quand elle l'a perdue à 7 ans, elle était inconsolable. Elle s'est mise en tête de suivre ses traces à partir de ses 13 ans. Il faut dire que je n'ai pas été à la hauteur... Mais maintenant Sélène a 17 ans et je ne veux pas la perdre comme sa mère. Elle est tout ce qu'il me reste... Ne me laissez pas tomber.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

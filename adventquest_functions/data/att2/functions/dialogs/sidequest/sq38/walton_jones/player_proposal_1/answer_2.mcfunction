@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Walton Jones  : ","color":"green","extra":[{"text":"Euh, attendez... Ah Oui ! Je me rappelle de ces mots trouvés par mon père dans le cimetière des anciens à Earndhel, là où il a trouvé les premières traces de ce groupe ritualiste... J'ai son carnet, je vais essayer de réciter ces mots sans me tromper : -Klaa...tu, Bar..ada, Nikto-","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Walton Jones  : ","color":"green","extra":[{"text":"Euh, attendez... Ah Oui ! Je me souviens de ces mots trouvés par mon père dans le cimetière des anciens à Earndhel, là où il a trouvé les premières traces de ce groupe ritualiste... J'ai son carnet, je vais essayer de réciter ces mots sans me tromper : -Klaa...tu, Bar..ada, Nikto-","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

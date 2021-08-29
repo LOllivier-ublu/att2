@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Trias : ","color":"green","extra":[{"text":"Très bien, héros en tellurön, je vous confie cet arc pour l'heure. Mais quand vous ne vous sentirez plus en état de le manier, je vous supplie de me le retouner. Je serai alors en Angband. Au revoir, puisse la chance vous sourir...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Trias : ","color":"green","extra":[{"text":"Très bien, héros en Tellurön, je vous confie cet arc pour l'heure. Mais quand vous ne vous sentirez plus en état de le manier, je vous supplie de me le retourner. Je serai alors en Angband. Au revoir, puisse la chance vous sourire...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

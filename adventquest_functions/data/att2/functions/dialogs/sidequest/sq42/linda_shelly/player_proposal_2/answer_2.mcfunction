@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"Attendez... *Essuyant ses larmes* Excusez-moi... Voilà, je suis partie avec deux autres personnes faire une excursion au manoir abandonné de Sathnok. Des monstres terrifiants hantent ces lieux. Nous nous sommes perdus dans des catcombes, j'ai paniqué, ai courru et ai miraculeusement pu retrouver la sortie. Mais mon ami, Sylvain, je ne l'ai plus revu depuis. Il est sûrement encore là-bas, alors par pitié : retrouvez-le ! Je vous donnerai tout ce qu'il me reste.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"Attendez... *Essuyant ses larmes* Excusez-moi... Voilà, je suis partie avec deux autres personnes faire une excursion au manoir abandonné de Sathnok. Des monstres terrifiants hantent ces lieux. Nous nous sommes perdus dans des catacombes, j'ai paniqué, aie couru et ai miraculeusement pu retrouver la sortie. Mais mon ami, Sylvain, je ne l'ai plus revu depuis. Il est sûrement encore là-bas, alors par pitié : retrouvez-le ! Je vous donnerai tout ce qu'il me reste.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

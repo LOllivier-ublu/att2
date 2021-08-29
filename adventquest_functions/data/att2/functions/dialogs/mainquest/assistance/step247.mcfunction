@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il doit y avoir dans les sous-sols un mécanisme désactivant les portes d'entrées principales. Je dois faire attention à la temporalité dans laquelle je me trouve...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il doit y avoir dans les sous-sols un mécanisme désactivant les portes principales de l'entrée. Je dois faire attention à la temporalité dans laquelle je me trouve...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

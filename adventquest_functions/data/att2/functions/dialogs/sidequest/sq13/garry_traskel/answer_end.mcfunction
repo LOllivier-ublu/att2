@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Et bien vous n'avez pas chômé ! Merci, tennez voilà pour vous !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Et bien vous n'avez pas chômé ! Merci, voilà pour vous !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Namrïn : ","color":"dark_purple","extra":[{"text":"D'aucun se voient attribuer le titre de sauveur de monde, quand il ne font qu'en protéger une petite partie. Relgon lui, sauva véritablement Angband de sa dispariton. Et je ne parle pas simplement du peuple humain, ou de la vie en générale, non il est question de la complète réalité qu'est Angband !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Namrïn : ","color":"dark_purple","extra":[{"text":"D'aucuns se voient attribuer le titre de sauveur de monde, quand il ne font qu'en protéger une petite partie. Relgon lui, sauva véritablement Angband de sa disparition. Et je ne parle pas simplement du peuple humain, ou de la vie en général, non il est question de la complète réalité qu'est Angband !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

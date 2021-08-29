@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Hé toi ! Ferme donc cette porte, il fait déjà assez froid comme ça... Mais dis-moi, tu me sembles bien athlétique, ça te dirait une petite mission ?  Il y aurait, d'après certains dires, d'anciens monoliths erigés par je ne sais quel peuple aux quatres coins de la région. J'ai plus trop la force de parcourir la région de Sylberländ, mais j'aimerais commencer à étudier des échantillons. Pourrais-tu m'en rapporter ? J'ai quelques économies, je te récompenserai comme il se doit pour chaque élément de structures que tu me rapporteras.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Hé toi ! Ferme donc cette porte, il fait déjà assez froid comme ça... Mais dis-moi, tu me sembles bien athlétique, ça te dirait une petite mission ?  Il y aurait, d'après certains dires, d'anciens monolithes érigés par je ne sais quel peuple aux quatre coins de la région. Je n'ai plus trop la force de parcourir la région de Sylberländ, mais j'aimerais commencer à étudier des échantillons. Pourrais-tu m'en rapporter ? J'ai quelques économies, je te récompenserai comme il se doit pour chaque élément de structures que tu me rapporteras.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

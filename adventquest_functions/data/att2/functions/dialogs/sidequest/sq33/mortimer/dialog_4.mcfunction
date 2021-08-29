@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Alors, as-tu trouvé quelque chose d'intéressant dans les plaines de Sylberländ ? Non ? Il faut continuer de chercher près des monoliths sûrement, la pierre que tu m'as portée de cet endroit est différentes des autres.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Alors, as-tu trouvé quelque chose d'intéressant dans les plaines de Sylberländ ? Non ? Il faut continuer de chercher près des monolithes sûrement, la pierre que tu m'as portée de cet endroit est différentes des autres.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

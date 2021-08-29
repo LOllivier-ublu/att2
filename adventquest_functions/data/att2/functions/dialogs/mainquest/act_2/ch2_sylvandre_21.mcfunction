@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Et voilà, tu sais tout ! Je vais te laisser maintenant. Oh d'ailleur, une légende raconte que la sculpture qui est devant nous, servait de portail de téléporation à nos ancêtres. C'est pourquoi il est devenu le symbole de la ville. En tout cas si ça t'intéresse, je te conseille vivement d'aller voir le maître du Dahäl. Allez, je dois retourner travailler, bonne chance pour la suite !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Et voilà, tu sais tout ! Je vais te laisser maintenant. Oh d'ailleurs, une légende raconte que la sculpture qui est devant nous, servait de portail de téléportation à nos ancêtres. C'est pourquoi il est devenu le symbole de la ville. En tout cas si ça t'intéresse, je te conseille vivement d'aller voir le maître du Dahäl. Allez, je dois retourner travailler, bonne chance pour la suite !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je n'ai plus qu'à rejoindre Syri sur son bâteau à Méleïm pour qu'elle me transporte jusqu'à l'île d'Asunark.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je n'ai plus qu'à rejoindre Syri sur son bateau à Méleïm pour qu'elle me transporte jusqu'à l'île d'Asunark.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

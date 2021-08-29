@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"*triste et rageant* Daniel... Ce.. Ces monstres ne resteront pas impunis ! Les fanatiques ne trouvent vraiment la raison... qu'une fois mort ! Assassins... Je serais près à payer n'importe quel prix pour obtenir vengeance.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"*triste et rageant* Daniel... Ce.. Ces monstres ne resteront pas impunis ! Les fanatiques ne trouvent vraiment la raison... qu'une fois mort ! Assassins... Je serais prêt à payer n'importe quel prix pour obtenir vengeance.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

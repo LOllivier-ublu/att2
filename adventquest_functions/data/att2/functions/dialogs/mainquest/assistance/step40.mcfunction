@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai activé tous les pilliers de la salle, mais les trapes ne sont pas ouvertes... Quelque chose doit les bloquer, pourvue que ce ne soit pas l'usure du temps. Cependant je peux maintenant aller vers la dernière aile du temple...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai activé tous les piliers de la salle, mais les trappes ne sont pas ouvertes... Quelque chose doit les bloquer, pourvu que ce ne soit pas l'usure du temps. Cependant je peux maintenant aller vers la dernière aile du temple...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

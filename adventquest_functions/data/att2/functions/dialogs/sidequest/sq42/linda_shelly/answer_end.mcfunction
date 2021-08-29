@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"*Effondrée* Non !... Vous êtes certains ? Il portait une chemise et un pantalon de couleur vertes. Il... n'aurait jamais du écouter ce foutu guide... Il a bourré le crâne de mon Sylvain en promettant monts et merveilles dans ce manoire et qu'il nous avait assuré sans danger... Lui par contre, est bien revenu vivant... Le lâche, il est dans le village et a refusé de m'adresser la parole ! Je vous en supplie, allez lui parler. Il s'appelle Ashley Williams...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Linda Shelly : ","color":"green","extra":[{"text":"*Effondrée* Non !... Vous êtes certains ? Il portait une chemise et un pantalon de couleur verte. Il... n'aurait jamais dû écouter ce foutu guide... Il a bourré le crâne de mon Sylvain en promettant monts et merveilles dans ce manoir et qu'il nous avait assurés sans danger... Lui par contre, est bien revenu vivant... Le lâche, il est dans le village et a refusé de m'adresser la parole ! Je vous en supplie, allez lui parler. Il s'appelle Ashley Williams...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

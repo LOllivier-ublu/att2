@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Laisser le passé derrière soi pour avancer -°- : ","color":"gray","extra":[{"text":"Je ne sais pas ce qui m'a pris d'avoir donner autant d'argent à cet inconnu, peut-être qu'un jour cette bonne action me sera bénéfique...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Laisser le passé derrière soi pour avancer -°- : ","color":"gray","extra":[{"text":"Je ne sais pas ce qui m'a pris d'avoir donné autant d'argent à cet inconnu, peut-être qu'un jour cette bonne action me sera bénéfique...","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

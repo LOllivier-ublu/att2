@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Triss : ","color":"green","extra":[{"text":"Ce sont les éléments nécessaires à une invocation alternative... J'zargo doit être quelque part dans l'académie, et il faut le retrouver avant qu'il n'invoque je ne sais quelle sinistre entitée !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Triss : ","color":"green","extra":[{"text":"Ce sont les éléments nécessaires à une invocation alternative... J'zargo doit être quelque part dans l'académie, et il faut le retrouver avant qu'il n'invoque je ne sais quelle sinistre entité !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

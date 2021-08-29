@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Eh bien ! J'ai cru que les gardes t'avais capturé ! Bien joué, voilà comme convenu, ta part du gâteau ! Maintenant, adieux Ryliath ! C'est une bonne chose que tu aies activé ce portail, quelle meilleure échapatoire !? Bye !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Eh bien ! J'ai cru que les gardes t'avais capturé ! Bien joué, voilà comme convenu, ta part du gâteau ! Maintenant, adieux Ryliath ! C'est une bonne chose que tu aies activé ce portail, quelle meilleure échappatoire !? Bye !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

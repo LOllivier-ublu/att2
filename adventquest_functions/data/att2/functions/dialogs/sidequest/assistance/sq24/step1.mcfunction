@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un malheureux accrochage -°- : ","color":"gray","extra":[{"text":"Lilith, une jeune femme, semble avoir percuté quelque chose et endommagé sa charette, alors qu'elle convoyait de la marchandise. Elle m'a demandé de l'aider à transporter le reste jusqu'à chez elle, je dois la rejoindre en suivant le chemin boueux et tout déposer là-bas.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un malheureux accrochage -°- : ","color":"gray","extra":[{"text":"Lilith, une jeune femme, semble avoir percuté quelque chose et endommagé sa charrette, alors qu'elle convoyait de la marchandise. Elle m'a demandé de l'aider à transporter le reste jusque chez elle, je dois la rejoindre en suivant le chemin boueux et tout déposer là-bas.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

@@ -8,7 +8,7 @@ execute as @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Garde : ","color":"green","extra":[{"text":"On ne passe pas ! De dangeureuses entitées arrivent par ce passage et j'ai pour mission de surveiller cette zone.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Garde : ","color":"green","extra":[{"text":"On ne passe pas ! De dangereuses entités arrivent par ce passage et j'ai pour mission de surveiller cette zone.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

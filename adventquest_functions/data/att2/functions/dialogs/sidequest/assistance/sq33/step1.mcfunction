@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer ma parlé de structures monolithiques disposées dans différents endroits de Sylberländ. Il m'a demandé de prendre puis de rapporter des échantillons de pierre à chaque endroit où je trouverai ces structures. Il y aurait huit différentes structures disséminées dans toute la région d'après ses informations.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer m'a parlé de structures monolithiques disposées dans différents endroits de Sylberländ. Il m'a demandé de prendre puis de rapporter des échantillons de pierre à chaque endroit où je trouverai ces structures. Il y aurait huit différentes structures disséminées dans toute la région d'après ses informations.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

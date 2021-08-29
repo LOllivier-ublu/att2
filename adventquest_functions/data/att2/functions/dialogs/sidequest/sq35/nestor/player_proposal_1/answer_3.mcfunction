@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Nestor : ","color":"green","extra":[{"text":"Vous allez droit au but et je vais faire de même. Cependant, un milier de Chronotons n'est pas dans mes moyens. Cela fait justement partie de mon problème... Des saletés de bandits se sont installés dans mon domaine et me volent presque tout. Mais si vous me débarrassez d'eux alors je vous donnerai le reste de mes économies, c'est à dire 500 Chronotons.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Nestor : ","color":"green","extra":[{"text":"Vous allez droit au but et je vais faire de même. Cependant, un millier de Chronotons n'est pas dans mes moyens. Cela fait justement partie de mon problème... Des saletés de bandits se sont installées dans mon domaine et me volent presque tout. Mais si vous me débarrassez d'eux alors je vous donnerai le reste de mes économies, c'est-à-dire 500 Chronotons.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

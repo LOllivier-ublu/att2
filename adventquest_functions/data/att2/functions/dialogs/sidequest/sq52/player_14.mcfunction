@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Euhh, là je dois admettre que je suis impressionné... La vaste majorité des gens ne semblent pas savoir ce qu'est un royaume, et encore moins au sein duquel ils vivent.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Euhh, là je dois admettre que je suis impressionné... La vaste majorité des gens ne semble pas savoir ce qu'est un royaume, et encore moins au sein duquel ils vivent.","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Hé jeune mortel, je te remercie pour toute l'aide que tu apportes aux Eternäns. Si tu as un peu de temps devant toi, j'aurais une requête à te soumettre ! Nous manquons cruellement de flèches, et nous sommes incapables de tenir des positions à cause de cette pénurie. Car le meilleur archer sans ses flèches ne vaut pas plus qu'un rïm... Les ruines de notre ville regorge encore de ces projectiles, acceptes-tu d'aller en chercher pour nous ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Hé jeune mortel, je te remercie pour toute l'aide que tu apportes aux Eternäns. Si tu as un peu de temps devant toi, j'aurai une requête à te soumettre ! Nous manquons cruellement de flèches, et nous sommes incapables de tenir des positions à cause de cette pénurie. Car le meilleur archer sans ses flèches ne vaut pas plus qu'un rïm... Les ruines de notre ville regorgent encore de ces projectiles, acceptes-tu d'aller en chercher pour nous ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

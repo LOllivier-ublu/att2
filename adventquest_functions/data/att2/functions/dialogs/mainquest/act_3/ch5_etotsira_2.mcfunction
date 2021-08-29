@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Quel dommage cependant que Sérile ne soit pas parmis nous... Sais-tu où elle est ?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Quel dommage cependant que Sérile ne soit pas parmi nous... Sais-tu où elle est ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

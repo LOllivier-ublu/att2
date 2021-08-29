@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Des rats gloutons -°- : ","color":"gray","extra":[{"text":"Philipo est seul à s'occuper de ses cultures de citrouilles dans les marais et ses champs subissent une infestation de gros rats. Je dois l'aider à me débarasser du nid qui se trouve sous terre. On peut y accéder en entrant dans un trou au pied du grand arbre derrière les champs.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Des rats gloutons -°- : ","color":"gray","extra":[{"text":"Philipo est seul à s'occuper de ses cultures de citrouilles dans les marais et ses champs subissent une infestation de gros rats. Je dois l'aider à me débarrasser du nid qui se trouve sous terre. On peut y accéder en entrant dans un trou au pied du grand arbre derrière les champs.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

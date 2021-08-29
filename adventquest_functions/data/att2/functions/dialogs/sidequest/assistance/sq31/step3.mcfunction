@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une ville dans le besoin -°- : ","color":"gray","extra":[{"text":"Raphaël est saint et sauf mais la ville d'Eolorion a vraiment besoin de ces ravitaillements, je dois rapporter une cargaison à Marlène...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une ville dans le besoin -°- : ","color":"gray","extra":[{"text":"Raphaël est sain et sauf mais la ville d'Eolorion a vraiment besoin de ces ravitaillements, je dois rapporter une cargaison à Marlène...","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

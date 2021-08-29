@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Ça s'empire de plus en plus, mais j'ai désactivé d'autres portes d'accès à l'étage.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Ça empire de plus en plus, mais j'ai désactivé d'autres portes d'accès à l'étage.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

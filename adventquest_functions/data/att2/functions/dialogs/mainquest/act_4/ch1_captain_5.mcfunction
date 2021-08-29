@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","extra":[{"text":"Eh bien, on peut dire que vous savez vous y prendre avec ces satannés monstres. Hahaha vous êtes sacrément doués même ! Nous aurions besoin de plus de gens comme vous.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","extra":[{"text":"Eh bien, on peut dire que vous savez vous y prendre avec ces satanés monstres. Hahaha vous êtes sacrément doués même ! Nous aurions besoin de plus de gens comme vous.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

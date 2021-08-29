@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Vous êtes revenu ? Je crois qu'on s'est un peu trop vite emporté, j'ai toujours besoin d'aide. Alors s'il vous plait, dites-mois que quelques chronotons vous fera changer d'avis...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Philipo Tisdal : ","color":"green","extra":[{"text":"Vous êtes revenu ? Je crois qu'on s'est un peu trop vite emporté, j'ai toujours besoin d'aide. Alors s'il vous plait, dites-moi que quelques Chronotons vous feront changer d'avis...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

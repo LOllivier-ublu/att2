@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gaëlle : ","color":"green","extra":[{"text":"Bienvenue à la banque de Meleïm, vous pouvez déposer votre argent en toute sécurité et vous pourrez bien sûr le retirer à tout moment ici. Cliquez sur les panneaux afin de procéder aux transferts.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gaëlle : ","color":"green","extra":[{"text":"Bienvenue à la banque de Méleïm, vous pouvez déposer et retirer votre argent en toute sécurité ici, et bien sûr à travers toutes nos banques de la région. Cliquez sur les panneaux afin de procéder aux transferts.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

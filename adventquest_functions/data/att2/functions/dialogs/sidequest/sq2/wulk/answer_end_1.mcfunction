@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":[{"text":"Genial ! Vous avez fini par trouver ! N'aurez-vous pas croisé mon assistant par hasard ? Bon... Il a dû se perdre dans la forêt. J'espère qu'il ne lui ait rien arrivé. Quoiqu'il en soit, merci beaucoup pour votre aide. Voilà de quoi vous récompenser.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":[{"text":"Génial ! Vous avez fini par trouver ! N'aurez-vous pas croisé mon assistant par hasard ? Bon... Il a dû se perdre dans la forêt. J'espère qu'il ne lui ait rien arrivé. Quoiqu'il en soit, merci beaucoup pour votre aide. Voilà de quoi vous récompenser.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

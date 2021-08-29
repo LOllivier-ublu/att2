@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gregor Gacko : ","color":"green","extra":[{"text":"Ah ! Super, vous les avez. Seconde partie du plan : une grotte naturelle passe tout proche de la prison et par chance, juste à côté de sa cellule. L'entrée de la carverne se situe en amont de ma maison. Suivez le chemin et tournez à la première à gauche. Il y a une froide rivière qui y coule vers les profondeurs. J'ai préparé le dispositif pour faire tomber le mur de la prison, vous n'aurez qu'à installer l'explosif et tout faire sauter.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gregor Gacko : ","color":"green","extra":[{"text":"Ah ! Super, vous les avez. Seconde partie du plan : une grotte naturelle se trouve près de la prison et par chance, juste à côté de sa cellule. L'entrée de la caverne se situe en amont de ma maison. Suivez le chemin et tournez à la première à gauche. Il y a une froide rivière qui y coule vers les profondeurs. J'ai préparé le dispositif pour faire tomber le mur de la prison, vous n'aurez qu'à installer l'explosif et tout faire sauter.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

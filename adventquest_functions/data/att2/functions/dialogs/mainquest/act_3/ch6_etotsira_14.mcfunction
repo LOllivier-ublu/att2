@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Il te faudra en trouver. Je connais un lieu en Sylberländ où tu pourrais en obtenir en quantité, mais... Je ne t'y enverai pas ; c'est un endroit empli de dangers dépassant l'entendement... D'autres gemmes 'de temps' se trouvent éparpillées en Sylberländ, va voir la famille royale de Ryliath elle t'aidera à les localiser.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Il te faudra en trouver. Je connais un lieu en Sylberländ où tu pourrais en obtenir en quantité, mais... Je ne t'y enverrai pas ; c'est un endroit empli de dangers dépassant l'entendement... D'autres gemmes 'de temps' se trouvent éparpillées en Sylberländ, va voir la famille royale de Ryliath elle t'aidera à les localiser.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

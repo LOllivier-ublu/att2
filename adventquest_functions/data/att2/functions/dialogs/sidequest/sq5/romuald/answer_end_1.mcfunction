@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"*Suprise et enthousiasme* Oh ! Ma petite Mia est rentrée ! Que je m'suis inquiété pour toi ! Mais c'est quoi tout ces chiots ? Ahhh, je crois qu'j'ai compris, ma petite Mia voulait fonder sa famille, voilà pourquoi elle est partie ! Mais t'avais pas besoin de faire ça ma belle, tes bébés sont plus que bienvenus ! Merci étranger, merci, merci merci ! Tiens voilà une récompense à la digne de tes actes. Allez mes petits, rentrons à la maison je n'ai plus rien à faire dans cette taverne.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"*Surprise et enthousiasme* Oh ! Ma petite Mia est rentrée ! Que je m'suis inquiété pour toi ! Mais c'est quoi tout ces chiots ? Ahhh, je crois qu'j'ai compris, ma petite Mia voulait fonder sa famille, voilà pourquoi elle est partie ! Mais t'avais pas besoin de faire ça ma belle, tes bébés sont plus que bienvenus ! Merci étranger, merci, merci merci ! Tiens voilà une récompense à la digne de tes actes. Allez mes petits, rentrons à la maison je n'ai plus rien à faire dans cette taverne.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

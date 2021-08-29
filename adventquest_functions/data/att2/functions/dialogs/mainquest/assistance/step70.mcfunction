@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 3","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je suis arrivé en haut des fortifications du palais mais les portes vers les niveaux supérieurs sont closes. Je devrais essayer d'aller dans une aile inférieur, peut être y trouverai-je un passage, ou une grande clef.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Je suis arrivé en haut des fortifications du palais mais les portes vers les niveaux supérieurs sont closes. Je devrais essayer d'aller dans une aile inférieure, peut-être y trouverai-je un passage, ou une grande clef.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

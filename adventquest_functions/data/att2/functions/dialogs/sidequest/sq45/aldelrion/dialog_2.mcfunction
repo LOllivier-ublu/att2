@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"J'ignore ce qu'est devenu mon fils. Il quitta Angband il y a si lontemps, mais je veux croire qu'il est encore en vie.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"J'ignore ce qu'est devenu mon fils. Il quitta Angband il y a si longtemps, mais je veux croire qu'il est encore en vie.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

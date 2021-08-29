@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Negan Greyson : ","color":"green","extra":[{"text":"Salut ! Tu as besoin d'entraînement ? Je peux t'aider à oublier les compétences que tu as apprises et repartir sur de meilleurs bases si tu le souhaites."}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Negan Greyson : ","color":"green","extra":[{"text":"Salut ! Tu as besoin d'entraînement ? Je peux t'aider à oublier les compétences que tu as apprises et repartir sur de meilleures bases si tu le souhaites."}]}
 
 tellraw @s[scores={LANGUAGE=0}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"Oui je veux oublier mes compétences !","color":"aqua"}]}
 

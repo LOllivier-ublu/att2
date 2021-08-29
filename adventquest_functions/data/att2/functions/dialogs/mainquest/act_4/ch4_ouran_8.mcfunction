@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Tu ne peux m'atteindre misérable insect... Laquais, débarrassez moi de ça !!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Tu ne peux m'atteindre misérable insecte... Laquais, débarrassez moi de ça !!","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

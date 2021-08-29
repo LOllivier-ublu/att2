@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"Vous êtes bien le livreur de viande de Ryliath ? Eh ben, ce n'est pas trop tôt ! On n'est pas passé loin de la pénuerie. Le pain ce n'est pas ce qu'il se fait de mieux pour attirer les gens dans notre taverne. Allez la déposer tout dans la réserve juste à côté. Merci !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"Vous êtes bien le livreur de viande de Ryliath ? Eh ben, ce n'est pas trop tôt ! On n'est pas passé loin de la pénurie. Le pain ce n'est pas ce qu'il se fait de mieux pour attirer les gens dans notre taverne. Allez la déposer tout dans la réserve juste à côté. Merci !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Trias : ","color":"green","extra":[{"text":"Hé là ! Oh, c'est un plaisir de vous recontrer à nouveau. Je n'ai pu m'empêcher de remarquer l'arc que vous transportez. Il me semble vous avoir déjà fait part de l'intérêt que je porte pour ce dernier. Donnez-le moi, je vous prie, et je vous dédommagerai grassement.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Trias : ","color":"green","extra":[{"text":"Hé là ! Oh, c'est un plaisir de vous rencontrer à nouveau. Je n'ai pu m'empêcher de remarquer l'arc que vous transportez. Il me semble vous avoir déjà fait part de l'intérêt que je porte pour ce dernier. Donnez-le moi, je vous prie, et je vous dédommagerai grassement.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

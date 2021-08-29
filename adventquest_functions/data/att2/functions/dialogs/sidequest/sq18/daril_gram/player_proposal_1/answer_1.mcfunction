@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Seriez-vous près à leur donner ? Un groupe de fanatique, se cache dans Angor, à l'ouest. C'est eux qui ont fait ça à mon fils... Rapprotez-moi la tête de leur chef, et je vous récompenserai...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Seriez-vous prêt à leur donner ? Un groupe de fanatiques, se cache dans Angor, à l'ouest. C'est eux qui ont fait ça à mon fils... Rapportez-moi la tête de leur chef, et je vous récompenserai...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Un mercenaire, vous tombez à pic... Vous serez gracement payé, je le jure sur la tête de mon fils.  Un groupe de fanatique, se cache dans Angor, à l'ouest. C'est eux qui ont fait ça à mon enfant... Rapprotez-moi la tête de leur chef, et je vous récompenserai...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"Un mercenaire, vous tombez à pic... Vous serez grâcement payé, je le jure sur la tête de mon fils.  Un groupe de fanatiques, se cache dans Angor, à l'ouest. C'est eux qui ont fait ça à mon enfant... Rapprotez-moi la tête de leur chef, et je vous récompenserai...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

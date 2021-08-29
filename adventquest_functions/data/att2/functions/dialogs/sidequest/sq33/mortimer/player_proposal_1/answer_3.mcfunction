@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Je sens que ça va me coûter toutes mes économies... Bon, c'est déjà une chance de t'avoir sous la main ! Personne ne voulait m'aider de toute façon. Allez parcourir la région de Sylberländ et je te donnerai 100 Chrontons pour chaque échantillons rapportés.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Je sens que ça va me coûter toutes mes économies... Bon, c'est déjà une chance de t'avoir sous la main ! Personne ne voulait m'aider de toute façon. Allez parcourir la région de Sylberländ et je te donnerai 100 Chrontons pour chaque échantillon rapporté.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

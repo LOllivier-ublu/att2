@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"''De tous les mots qui ne peuvent être prononcés, ceux du regrets reposent souvent sur le plus simple papier.'', J'zargo y est presque...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° J'zargo : ","color":"green","extra":[{"text":"'De tous les mots qui ne peuvent être prononcés, ceux du regret reposent souvent sur le plus simple papier.'', J'zargo y est presque...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

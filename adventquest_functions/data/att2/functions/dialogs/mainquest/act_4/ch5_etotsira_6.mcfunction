@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"La zone est truffée d'instabilités temporelles. Des portails qui apparaîssent et disparaîssent aléatoirement, et qui mènent vers une époque reculée : celle où eut lieu le terrible évènement à l'origine de leur apparition.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"La zone est truffée d'instabilités temporelles. Des portails qui apparaissent et disparaissent aléatoirement, et qui mènent vers une époque reculée : celle où eut lieu le terrible évènement à l'origine de leur apparition.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

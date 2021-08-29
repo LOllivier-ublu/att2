@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un Mystérieux Vol -°- : ","color":"gray","extra":[{"text":"Le cuisinier m'a indiqué un passage secret dans la salle où il stock toute sa viande fraîche. Je vais devoir le trouvé et continuer mes recherches sur ce potentiel voleur de plans.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un Mystérieux Vol -°- : ","color":"gray","extra":[{"text":"Le cuisinier m'a indiqué un passage secret dans la salle où il stocke toute sa viande fraîche. Je vais devoir le trouvé et continuer mes recherches sur ce potentiel voleur de plans.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un pont pour de bon -°- : ","color":"gray","extra":[{"text":"J'ai trouvé la cargaison mais je n'ai vu personne à part des traces du lutte sanglante... Je dois allez voir dans la grotte à côté.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un pont pour de bon -°- : ","color":"gray","extra":[{"text":"J'ai trouvé la cargaison mais je n'ai vu personne à part des traces d'une lutte sanglante... Je dois aller voir dans la grotte à côté.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Frowin Nepheris : ","color":"green","extra":[{"text":"Parfait, montez à l'étage, ils sont à la table du fond ! Vous pouvez essayer la diplomatie, mais bon, j'n'y crois pas tellement les concernants.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Frowin Nepheris : ","color":"green","extra":[{"text":"Parfait, montez à l'étage, ils sont à la table du fond ! Vous pouvez essayer la diplomatie, mais bon, j'n'y crois pas tellement les concernant.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

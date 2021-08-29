@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Alors, des nouvelles de ma clef ? Elle doit sûrement être au fond des galeries, parmis les cultures. Cherche bien !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Alors, des nouvelles de ma clef ? Elle doit sûrement être au fond des galeries, parmi les cultures. Cherche bien !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

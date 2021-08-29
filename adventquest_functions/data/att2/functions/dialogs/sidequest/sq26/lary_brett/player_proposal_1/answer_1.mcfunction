@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lary Brett : ","color":"green","extra":[{"text":"Il y a bien trop de morts-vivants qui rodent là-bas. Mais si vous en tuez assez et netoyez le passage, je pourrais vous aider !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lary Brett : ","color":"green","extra":[{"text":"Il y a bien trop de morts-vivants qui rodent là-bas. Mais si vous en tuez assez et nettoyez le passage, je pourrais vous aider !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

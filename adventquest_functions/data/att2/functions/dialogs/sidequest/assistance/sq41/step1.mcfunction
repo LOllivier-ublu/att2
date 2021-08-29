@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- On ne sait jamais sur quoi on va tomber -°- : ","color":"gray","extra":[{"text":"Jack Arrow m'a parler d'un navire échoué pouvant contenir un trésor. Je dois le trouver, il est au sud de la région dans les profondeurs de la mer.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- On ne sait jamais sur quoi on va tomber -°- : ","color":"gray","extra":[{"text":"Jack Arrow m'a parlé d'un navire échoué pouvant contenir un trésor. Je dois le trouver, il est au sud de la région dans les profondeurs de la mer.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

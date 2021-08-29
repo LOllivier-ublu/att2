@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Ah ! Alors vous avez trouvé des ailes. Si ce n'est pas déjà fait, vous devriez aller à la rencontre de notre roi. La porte d'entrée de sa deumeure se trouve plus au nord et à l'est. Mais je vous laisse explorer, après tout, n'est-ce pas merveilleux de pouvoir voler !?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Ah ! Alors vous avez trouvé des ailes. Si ce n'est pas déjà fait, vous devriez aller à la rencontre de notre roi. La porte d'entrée de sa demeure se trouve plus au nord et à l'est. Mais je vous laisse explorer, après tout, n'est-ce pas merveilleux de pouvoir voler !?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

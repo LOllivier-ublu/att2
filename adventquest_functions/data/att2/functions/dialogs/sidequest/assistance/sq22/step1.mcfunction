@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un entrepôt bien mal placé -°- : ","color":"gray","extra":[{"text":"Un habitant d'une maison assez isolée m'a demandé de me débarrasser des squelettes qui ont envahi son entrepôt situé dans une grotte dans la montagne. Je devrais trouvé l'entrepôt en suivant le chemin en sortant de sa maison à droite. Il m'a donné la clef... Une fois les monstres tués, j'irai le prévenir chez lui que le travail est fait !","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un entrepôt bien mal placé -°- : ","color":"gray","extra":[{"text":"Un habitant d'une maison assez isolée m'a demandé de me débarrasser des squelettes qui ont envahi son entrepôt situé dans une grotte dans la montagne. Je devrais trouver l'entrepôt en suivant le chemin en sortant de sa maison à droite. Il m'a donné la clef... Une fois les monstres tués, j'irai le prévenir chez lui que le travail est fait !","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai fait tomber la premère émeraude. Elle a activé l'ouverture de la porte à l'entrée de la tour sud-ouest. Il n'y a plus qu'à y aller...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai fait tomber la première émeraude. Elle a activé l'ouverture de la porte à l'entrée de la tour sud-ouest. Il n'y a plus qu'à y aller...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

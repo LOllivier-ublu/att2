@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Oui, je me suis rendu en Angband en deux occasions. C'est un peu compliqué, mais la dernière fois c'était il y a à peu près 32 000 ans... enfin cycles. J'ai participé à une guerre, qui opposa La Flamme Noire ainsi que la plupart des mortels, aux Eternäns. Les Eternäns ont gagnés, La Flamme Noire fut vaincue, mais Relgon périt...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Oui, je me suis rendu en Angband en deux occasions. C'est un peu compliqué, mais la dernière fois c'était il y a à peu près 32 000 ans... enfin cycles. J'ai participé à une guerre, qui opposa La Flamme Noire ainsi que la plupart des mortels, aux Eternäns. Les Eternäns ont gagné, La Flamme Noire fut vaincue, mais Relgon périt...","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

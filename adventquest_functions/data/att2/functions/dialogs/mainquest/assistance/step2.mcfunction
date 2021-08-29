@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il faut que je descende dans la réserve de l'auberge au sous-sol, afin de détruire du nid d'araignée. Comme ça Gonon pourra me donner quelques vivres et une chambre pour la nuit.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Il faut que je descende dans la réserve de l'auberge au sous-sol, afin de détruire du nid d'araignées. Comme ça Gonon pourra me donner quelques vivres et une chambre pour la nuit.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

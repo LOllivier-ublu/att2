@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer a déchiffré un indice intéressant à propos d'une pierre. Il se cacherait quelques choses à l'endroit où sont les monolithes dans les plaines de Sylberländ.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer a déchiffré un indice intéressant à propos d'une pierre. Il se cacherait quelque chose à l'endroit où sont les monolithes dans les plaines de Sylberländ.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

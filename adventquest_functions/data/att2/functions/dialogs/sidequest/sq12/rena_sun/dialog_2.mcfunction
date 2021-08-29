@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Rena Sun : ","color":"green","extra":[{"text":"Ah vous re-voilà, alors vous me donneriez un coup de main pour débloquer ma porte juste à côté ? Je n'ai encore trouver personne d'autre pour m'aider...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Rena Sun : ","color":"green","extra":[{"text":"Ah vous revoilà, alors vous me donneriez un coup de main pour débloquer ma porte juste à côté ? Je n'ai encore trouvé personne d'autre pour m'aider...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

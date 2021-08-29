@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Retrouver Mia -°- : ","color":"gray","extra":[{"text":"Je dois retourner voir Alphonse pour recevoir la récompense qu'il ma promise. Après ce massacre je ferais mieux de mentir à Romuald sur ce qui s'est passé, c'est plus prudent.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Retrouver Mia -°- : ","color":"gray","extra":[{"text":"Je dois retourner voir Alphonse pour recevoir la récompense qu'il m'a promise. Après ce massacre je ferais mieux de mentir à Romuald sur ce qui s'est passé, c'est plus prudent.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

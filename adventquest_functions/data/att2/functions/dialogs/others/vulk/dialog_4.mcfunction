@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Vulk : ","color":"green","extra":[{"text":"Hélà, comment vas-tu ? Depuis que tu m'as ramené cette masse étrange, j'ai trouvé un moyen de créer d'autres armes du même genre. N'hésites donc pas à regarder ce que j'ai en stock.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise-->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/vulk_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Vulk."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Vulk : ","color":"green","extra":[{"text":"Hélà, comment vas-tu ? Depuis que tu m'as ramené cette masse étrange, j'ai trouvé un moyen de créer d'autres armes du même genre. N'hésite donc pas à regarder ce que j'ai en stock.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise-->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/vulk_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Vulk."}}]}]}
 
 
 #ENGLISH LANGUAGE

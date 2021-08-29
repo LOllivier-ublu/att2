@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Un autre mécanisme bloque ma progression. Et pour pas me faciliter la tâche, ce monstre me poursuit toujours. Je dois apparemment activer des interrupteurs pour charger la porte et l'ouvrir.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Un autre mécanisme bloque ma progression. Et pour ne surtout pas me faciliter la tâche, ce monstre me poursuit toujours. Je dois apparemment activer des interrupteurs pour charger la porte et l'ouvrir.","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 

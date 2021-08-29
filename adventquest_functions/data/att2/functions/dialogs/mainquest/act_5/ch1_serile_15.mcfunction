@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Non ! Comment peux tu me résister ? Cela ne peut pas être vrai Relgon ! Tu ne m'empêchera pas d'accomplir mon destin !","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Non ! Comment peux tu me résister ? Cela ne peut pas être vrai Relgon ! Tu ne m'empêcheras pas d'accomplir mon destin !","color":"yellow","italic":true}]}
 
 
 #ENGLISH LANGUAGE

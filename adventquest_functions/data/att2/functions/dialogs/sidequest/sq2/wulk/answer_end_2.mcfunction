@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":[{"text":"Genial ! Vous avez fini par trouver ! Mon assistant était coincé dans la mine? Celui-là, il attire toutes les catastrophes sur lui. Bon je suis ravi que vous me l'ayez ramené. Merci beaucoup pour votre aide et voilà de quoi vous récompenser : c'est le minimum que je puisse faire.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":[{"text":"Génial ! Vous avez fini par trouver ! Mon assistant était coincé dans la mine ? Celui-là, il attire toutes les catastrophes sur lui. Bon je suis ravi que vous me l'ayez ramené. Merci beaucoup pour votre aide et voilà de quoi vous récompenser : c'est le minimum que je puisse faire.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

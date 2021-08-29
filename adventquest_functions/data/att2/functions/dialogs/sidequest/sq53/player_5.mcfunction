@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"C'est une simple émeraude, rien de vraiment extraordianire par ici... Peut-être que... ''Goutte d'eau dans l'océan, feuille dans une forêt, son éclat unique ne se révèle qu'au désintéressé et au plus humble.''","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"C'est une simple émeraude, rien de vraiment extraordinaire par ici... Peut-être que... ''Goutte d'eau dans l'océan, feuille dans une forêt, son éclat unique ne se révèle qu'au désintéressé et au plus humble.''","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Bien. J'ai confié le premier sceau au chef d'un village mortel qui nous ait resté loyal : phœnix. Dis-lui simplement : ''je retourne à Angor'', et il te la confiera. J'ai dissumlé le second dans la fortersse d'Angor. Hélas, je n'ai pas pu retrouver ce dernier, car les mortels qui envahirent notre ville dûrent le déplacer...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Bien. J'ai confié le premier sceau au chef d'un village mortel qui nous ait resté loyal : phœnix. Dis-lui simplement : ''je retourne à Angor'', et il te la confiera. J'ai dissmulé le second dans la forteresse d'Angor. Hélas, je n'ai pas pu retrouver ce dernier, car les mortels qui envahirent notre ville durent le déplacer...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Non, Sérile, écoute-moi. Relgon n'a jamais voulu te destituer de ta place de reine. Il désirait tester une ultime fois ton humilité et ta patience en te faisant croire que ce rôle ne te reviendrai pas. Mais il n'a pas eu le temps de te le faire comprendre...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Non, Sérile, écoute-moi. Relgon n'a jamais voulu te destituer de ta place de reine. Il désirait tester une ultime fois ton humilité et ta patience en te faisant croire que ce rôle ne te reviendrait pas. Mais il n'a pas eu le temps de te le faire comprendre...","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

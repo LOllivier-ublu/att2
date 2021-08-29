@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Walton Jones : ","color":"green","extra":[{"text":"S'il vous plaît, j'aurai besoin d'aide. Je fais actuellement des fouilles archéologiques plus bas près du torrent afin de trouver des fossiles, mais c'est envahi d'une forme de vie verte et visqueuse assez dangereuse. Je n'ose plus m'aventurer... Je cherche donc quelqu'un qui serais capable de faire fuir ces monstruosités. Je vous offrirais quelques Chronotons en échange.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Walton Jones : ","color":"green","extra":[{"text":"S'il vous plaît, j'aurais besoin d'aide. Je fais actuellement des fouilles archéologiques plus bas près du torrent afin de trouver des fossiles, mais c'est envahi d'une forme de vie verte et visqueuse assez dangereuse. Je n'ose plus m'aventurer... Je cherche donc quelqu'un qui serait capable de faire fuir ces monstruosités. Je vous offrirais quelques Chronotons en échange.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

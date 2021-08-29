@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"J'ai parlé à quelques habitants de Méleïm et ai une nouvelle piste : ma fille est bien passée par Méleïm... Sélène avait pour projet de se rendre à la grande carrière des Morniths non loin d'ici vers l'ouest. Êtes-vous toujours en forme pour continuer la route avec moi ? Je ne vous en voudrait pas si vous abandonnez maintenant, vous m'avez déjà beaucoup aidé.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"J'ai parlé à quelques habitants de Méleïm et ai une nouvelle piste : ma fille est bien passée par Méleïm... Sélène avait pour projet de se rendre à la grande carrière des Morniths non loin d'ici vers l'ouest. Êtes-vous toujours en forme pour continuer la route avec moi ? Je ne vous en voudrai pas si vous abandonnez maintenant, vous m'avez déjà beaucoup aidé.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

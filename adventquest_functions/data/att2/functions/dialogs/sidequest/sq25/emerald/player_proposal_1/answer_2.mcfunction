@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"Je comprends... J'attendrais votre retour ou que quelqu'un d'autre vienne m'aider car je commence à être faible.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"Je comprends... J'attendrais votre retour ou alors que d'autres personnes viennent m'aider.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

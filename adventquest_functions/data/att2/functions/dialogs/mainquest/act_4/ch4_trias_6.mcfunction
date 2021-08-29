@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Exactement et c'est très perspicace de votre part. Mais si cet arc se trouvait être entre les mains d'un autre, lui même ne se voyant guère prêt à vous le céder pour aucun motif, je vous prierai d'au moins me rapporter sa description.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Exactement et c'est très perspicace de votre part. Mais si cet arc se trouvait être entre les mains d'un autre, lui même ne se voyant guère prêt à vous le céder pour aucun motif, je vous prierais d'au moins me rapporter sa description.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Ces colonnes d'airs chauds sont de puissant courrants ascendants. Elles vont pouvoir me permettre d'aller plus haut. J'ai cependant du mal à être emporter par le courant. Il faudrait peut-être que je possède quelque chose qui puisse m'allèger...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"Ces colonnes d'airs chauds sont de puissants courrants ascendants. Elles vont pouvoir me permettre d'aller plus haut. J'ai cependant du mal à être emporté par le courant. Il faudrait peut-être que je possède quelque chose qui puisse m'alléger...","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

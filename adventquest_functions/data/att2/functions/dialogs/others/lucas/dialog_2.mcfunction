@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lucas : ","color":"green","extra":[{"text":"Je suppose que tu déjà fais la rencontre de ces entités aux gros yeux avec une peau ressemblant à des nuages. Nous les appelons poisson-rêveurs ou somniophages. Mais savais-tu qu'ils ne volent pas vraiment ? Ces bestioles èrent dans ce vaste monde sans aucune attirance vers le bas grâce à une substance qu'ils renferment en eux et qui annule l'effet de gravité. Leurs mandibules leur permettent ensuite de se mouvoir dans n'importe quelles directions. L'art de fendre l'air avec les Pelzions c'est bien pratique mais souvent très dangereux...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Lucas : ","color":"green","extra":[{"text":"Je suppose que tu déjà fais la rencontre de ces entités aux gros yeux avec une peau ressemblant à des nuages. Nous les appelons poisson-rêveurs ou somniophages. Mais savais-tu qu'ils ne volent pas vraiment ? Ces bestioles errent dans ce vaste monde sans aucune attirance vers le bas grâce à une substance qu'ils renferment en eux et qui annule l'effet de gravité. Leurs mandibules leur permettent ensuite de se mouvoir dans n'importe quelles directions. L'art de fendre l'air avec les Pelzions c'est bien pratique mais souvent très dangereux...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
