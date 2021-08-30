@@ -10,8 +10,8 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"J'ai réussi à atteindre une infirmerie et ça ne sent vraiment pas bon. Je dois partir très vite de cet endroit...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"J'ai réussi à atteindre une infirmerie et ça ne sent vraiment pas bon. Je dois partir très vite de cet endroit...","color":"aqua","bold":false}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"gray","extra":[{"text":" : "},{"text":"I managed to reach an infirmary and it really doesn't smell good. I have to leave this place very quickly ...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I managed to reach an infirmary and it really doesn't smell good. I have to leave this place very quickly ...","color":"aqua","bold":false}]}
