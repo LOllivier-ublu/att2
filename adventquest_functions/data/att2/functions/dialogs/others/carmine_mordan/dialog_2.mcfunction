@@ -15,4 +15,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Carmine Mordan : ","color":"green
 
 
 
-function att2:dialog/gameplay/shop/mending/proposal
+function att2:dialogs/gameplay/shop/mending/proposal
