@@ -77,6 +77,7 @@ execute in minecraft:the_nether if score SQ47 SIDEQUEST matches 1..99 run functi
 execute in minecraft:the_nether if score SQ47 SIDEQUEST matches 100 if score move_namrin SQ47 matches 1 unless entity @a[x=3142,y=67,z=4084,distance=..25,gamemode=adventure] run function att2:cinematic/sidequest/47/namrin/move_pnj
 execute in minecraft:the_nether if score SQ47 SIDEQUEST matches 100 if score move_namrin SQ47 matches 2 if entity @a[x=3459,y=32,z=3738,distance=..25,gamemode=adventure] positioned 3459 32 3738 run function att2:cinematic/sidequest/47/namrin/summon_pnj
 execute in minecraft:overworld if score SQ48 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/48/go
+execute in minecraft:overworld if score SQ48 SIDEQUEST matches 1..100 run function att2:cinematic/sidequest/48/wind
 execute in minecraft:overworld if score SQ49 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/49/go
 execute in minecraft:overworld if score SQ49 SIDEQUEST matches 100 if score move_trias SQ49 matches 0 unless entity @a[x=7329,y=127,z=7408,distance=..25,gamemode=adventure] run function att2:cinematic/sidequest/49/trias/move_pnj
 execute in minecraft:overworld if score SQ50 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/50/go

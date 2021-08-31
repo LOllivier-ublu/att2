@@ -7,9 +7,6 @@
 #100.. - the quest is completed    							#
 #############################################################
 
-# Ouranos trias path wind launching
-function att2:cinematic/sidequest/48/wind
-
 # Players talking when he try to fly without celestial tear
 execute if score carry_tear SQ48 matches 0 as @p[x=6630,y=81,z=6811,dx=3,dy=10,dz=3,gamemode=adventure] unless entity @s[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oCelestial tear\"}"]}}}]}] run function att2:cinematic/sidequest/48/ghost/fly_whithout_tear
 
