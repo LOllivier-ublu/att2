@@ -51,6 +51,8 @@ execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5117,y=121,z=-6870,distan
 # No Jump effect
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect give @s minecraft:jump_boost 2 250 true
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect clear @s minecraft:levitation
+# Invisiblity security effect from creeper explosion
+execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect clear @s minecraft:invisibility
 
 # Enable Bossbar storing health of Umbra'Tyanth
 execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth value run data get entity 00000000-0000-012c-0000-00000000012c Health
