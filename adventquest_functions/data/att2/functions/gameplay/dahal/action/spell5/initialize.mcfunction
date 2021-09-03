@@ -22,5 +22,5 @@ scoreboard players set cap5 SPELL5_LVL 150
 scoreboard players set cap6 SPELL5_LVL 300
 scoreboard players set cap7 SPELL5_LVL 550
 scoreboard players set cap8 SPELL5_LVL 1000
-scoreboard players set cap9 SPELL5_LVL 1800
-scoreboard players set cap10 SPELL5_LVL 3000
+scoreboard players set cap9 SPELL5_LVL 2000
+scoreboard players set cap10 SPELL5_LVL 4000

@@ -4,13 +4,13 @@
 #####################################################################
 
 # Timer
-execute if score Scavenger_timer1 SQ51 matches 500 positioned -5551 45 -4551 run function att2:summon/reg_1/creeper1_class17
-execute if score Scavenger_timer1 SQ51 matches 1000 positioned -5551 45 -4551 run function att2:summon/reg_1/creeper2_class18
-execute if score Scavenger_timer1 SQ51 matches 1500 positioned -5551 45 -4551 run function att2:summon/reg_1/creeper3_class19
-execute if score Scavenger_timer1 SQ51 matches 2000 positioned -5552 46 -4568 run function att2:summon/reg_1/creeper4_class20
+execute if score Scavenger_timer1 SQ51 matches 250 positioned -5551 45 -4551 run function att2:summon/reg_1/creeper1_class17
+execute if score Scavenger_timer1 SQ51 matches 500 positioned -5551 45 -4551 run function att2:summon/reg_1/creeper2_class18
+execute if score Scavenger_timer1 SQ51 matches 750 positioned -5551 45 -4551 run function att2:summon/reg_1/creeper3_class19
+execute if score Scavenger_timer1 SQ51 matches 1000 positioned -5552 46 -4568 run function att2:summon/reg_1/creeper4_class20
 
 # Iteration
-execute if score Scavenger_timer1 SQ51 matches 2000.. run scoreboard players set Scavenger_timer1 SQ51 0
+execute if score Scavenger_timer1 SQ51 matches 1000.. run scoreboard players set Scavenger_timer1 SQ51 0
 execute if score Scavenger_timer1 SQ51 matches 0.. run scoreboard players add Scavenger_timer1 SQ51 1
 
 # Absorption
