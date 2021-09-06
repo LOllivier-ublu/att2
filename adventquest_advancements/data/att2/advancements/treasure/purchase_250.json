@@ -4,7 +4,7 @@
             "item": "minecraft:name_tag"
         },
         "title": {"translate":"Trader"},
-        "description": {"translate":"Buy 500 items from a merchant"},
+        "description": {"translate":"Buy 250 items from a merchant"},
         "frame": "goal"
     },
     "parent": "att2:treasure/purchase_100",
@@ -13,7 +13,7 @@
             "experience": 2500
     },
     "criteria": {
-        "purchase_500": {
+        "purchase_250": {
             "trigger": "minecraft:impossible"
         }
     }

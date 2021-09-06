@@ -4,7 +4,7 @@
             "item": "minecraft:quartz"
         },
         "title": {"translate":"Gourmandize"},
-        "description": {"translate":"Store 500 Ecailles Souveraines du Chaos"},
+        "description": {"translate":"Store 250 Ecailles Souveraines du Chaos"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/esc_100",

@@ -4,7 +4,7 @@
             "item": "minecraft:splash_potion"
         },
         "title": {"translate":"Protester attitude"},
-        "description": {"translate":"Thrown 100 splash potions"},
+        "description": {"translate":"Thrown 75 splash potions"},
         "frame": "goal"
     },
     "parent": "att2:progress/splash_25",
@@ -13,7 +13,7 @@
         "experience": 2500
     },
     "criteria": {
-        "splash_100": {
+        "splash_75": {
             "trigger": "minecraft:impossible"
         }
     }

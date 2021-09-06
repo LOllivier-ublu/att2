@@ -570,7 +570,7 @@ advancement grant @a[nbt={Inventory:[{tag:{Rarity:"unk"}}]}] only att2:treasure/
 advancement grant @a[scores={ESC=10..}] only att2:treasure/esc_10
 advancement grant @a[scores={ESC=25..}] only att2:treasure/esc_25
 advancement grant @a[scores={ESC=100..}] only att2:treasure/esc_100
-advancement grant @a[scores={ESC=500..}] only att2:treasure/esc_500
+advancement grant @a[scores={ESC=250..}] only att2:treasure/esc_250
 
 execute if score Caught_total FAIRY matches 1.. run advancement grant @a only att2:treasure/fairy_1
 execute if score Caught_total FAIRY matches 5.. run advancement grant @a only att2:treasure/fairy_5
@@ -580,8 +580,8 @@ execute if score Caught_total FAIRY matches 50.. run advancement grant @a only a
 advancement grant @a[scores={SHOP=1..}] only att2:treasure/purchase_1
 advancement grant @a[scores={SHOP=25..}] only att2:treasure/purchase_25
 advancement grant @a[scores={SHOP=100..}] only att2:treasure/purchase_100
-advancement grant @a[scores={SHOP=500..}] only att2:treasure/purchase_500
-advancement grant @a[scores={SHOP=2500..}] only att2:treasure/purchase_2500
+advancement grant @a[scores={SHOP=250..}] only att2:treasure/purchase_250
+advancement grant @a[scores={SHOP=1000..}] only att2:treasure/purchase_1000
 
 execute if score itemtotal_sold RECYCLER matches 1.. run advancement grant @a only att2:treasure/sold_1
 execute if score itemtotal_sold RECYCLER matches 20.. run advancement grant @a only att2:treasure/sold_20
@@ -697,19 +697,19 @@ advancement grant @a[scores={POTION_DRUNKstat=1..}] only att2:progress/potion_1
 advancement grant @a[scores={POTION_DRUNKstat=5..}] only att2:progress/potion_5
 advancement grant @a[scores={POTION_DRUNKstat=25..}] only att2:progress/potion_25
 advancement grant @a[scores={POTION_DRUNKstat=100..}] only att2:progress/potion_100
-advancement grant @a[scores={POTION_DRUNKstat=500..}] only att2:progress/potion_500
+advancement grant @a[scores={POTION_DRUNKstat=250..}] only att2:progress/potion_250
 
 advancement grant @a[scores={statSPLASHUSED=1..}] only att2:progress/splash_1
 advancement grant @a[scores={statSPLASHUSED=5..}] only att2:progress/splash_5
 advancement grant @a[scores={statSPLASHUSED=25..}] only att2:progress/splash_25
-advancement grant @a[scores={statSPLASHUSED=100..}] only att2:progress/splash_100
-advancement grant @a[scores={statSPLASHUSED=250..}] only att2:progress/splash_250
+advancement grant @a[scores={statSPLASHUSED=75..}] only att2:progress/splash_75
+advancement grant @a[scores={statSPLASHUSED=150..}] only att2:progress/splash_150
 
 advancement grant @a[scores={statLINGERUSED=1..}] only att2:progress/lingering_1
 advancement grant @a[scores={statLINGERUSED=5..}] only att2:progress/lingering_5
 advancement grant @a[scores={statLINGERUSED=20..}] only att2:progress/lingering_20
-advancement grant @a[scores={statLINGERUSED=75..}] only att2:progress/lingering_75
-advancement grant @a[scores={statLINGERUSED=200..}] only att2:progress/lingering_200
+advancement grant @a[scores={statLINGERUSED=50..}] only att2:progress/lingering_50
+advancement grant @a[scores={statLINGERUSED=100..}] only att2:progress/lingering_100
 
 
 # mobskilled

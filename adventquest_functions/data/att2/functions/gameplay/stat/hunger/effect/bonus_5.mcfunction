@@ -4,4 +4,4 @@
 ##################################################
 
 scoreboard players set @s TIMER_HUN_TOT 1750
-effect give @s minecraft:saturation 1 1 true
+effect give @s minecraft:saturation 1 0 true

@@ -30,7 +30,7 @@ execute if score Event_collapse7 SERILE matches 0 if entity @a[x=2313,y=98,z=181
 execute if score Event_collapse8 SERILE matches 0 if entity @a[x=2198,y=99,z=1985,distance=..6,gamemode=adventure] run function att2:gameplay/boss/serile/phase1/events/collapse8
 execute if score Event_collapse9 SERILE matches 0 if entity @a[x=2169,y=116,z=1984,distance=..3,gamemode=adventure] run function att2:gameplay/boss/serile/phase1/events/collapse9
 execute if score Event_collapse10 SERILE matches 0 if entity @a[x=2174,y=92,z=2032,distance=..4,gamemode=adventure] run function att2:gameplay/boss/serile/phase1/events/collapse10
-execute if score Event_collapse11 SERILE matches 0 if entity @a[x=2297,y=103,z=2066,distance=..3,gamemode=adventure] run function att2:gameplay/boss/serile/phase1/events/collapse11
+execute if score Event_collapse11 SERILE matches 0 if entity @a[x=2297,y=102,z=2066,distance=..5,gamemode=adventure] run function att2:gameplay/boss/serile/phase1/events/collapse11
 execute if score Event_collapse12 SERILE matches 0 if entity @a[x=2203,y=96,z=1856,dx=-7,dy=9,dz=-4,gamemode=adventure] run function att2:gameplay/boss/serile/phase1/events/collapse12
 # Summon minions
 execute if score Event_summon1 SERILE matches 0 if entity @a[x=2129,y=98,z=1946,distance=..5,gamemode=adventure] run function att2:gameplay/boss/serile/phase1/events/summon1

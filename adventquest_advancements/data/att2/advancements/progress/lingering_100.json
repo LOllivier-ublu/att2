@@ -4,16 +4,16 @@
             "item": "minecraft:lingering_potion"
         },
         "title": {"translate":"Massive spraying operation"},
-        "description": {"translate":"Thrown 200 lingering potions"},
+        "description": {"translate":"Thrown 100 lingering potions"},
         "frame": "challenge"
     },
-    "parent": "att2:progress/lingering_75",
+    "parent": "att2:progress/lingering_50",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 20000
     },
     "criteria": {
-        "lingering_200": {
+        "lingering_100": {
             "trigger": "minecraft:impossible"
         }
     }

@@ -4,7 +4,7 @@
             "item": "minecraft:dragon_breath"
         },
         "title": {"translate":"Full Bottle Alchemist"},
-        "description": {"translate":"Drink 500 potions"},
+        "description": {"translate":"Drink 250 potions"},
         "frame": "challenge"
     },
     "parent": "att2:progress/potion_100",
@@ -13,7 +13,7 @@
         "experience": 25000
     },
     "criteria": {
-        "potion_500": {
+        "potion_250": {
             "trigger": "minecraft:impossible"
         }
     }

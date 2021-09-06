@@ -4,7 +4,7 @@
             "item": "minecraft:lingering_potion"
         },
         "title": {"translate":"Spreading"},
-        "description": {"translate":"Thrown 75 lingering potions"},
+        "description": {"translate":"Thrown 50 lingering potions"},
         "frame": "goal"
     },
     "parent": "att2:progress/lingering_20",
@@ -13,7 +13,7 @@
         "experience": 5000
     },
     "criteria": {
-        "lingering_75": {
+        "lingering_50": {
             "trigger": "minecraft:impossible"
         }
     }
