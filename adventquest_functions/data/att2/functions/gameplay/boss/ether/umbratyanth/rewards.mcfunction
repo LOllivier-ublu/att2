@@ -166,15 +166,15 @@ function att2:summon/reg_4/umbratyanth_rewards_class20
 function att2:summon/reg_4/umbratyanth_rewards_class20
 function att2:summon/reg_4/umbratyanth_rewards_class20
 
-function att2:summon/reg_4/umbratyanth_rewards_class4
-function att2:summon/reg_4/umbratyanth_rewards_class4
-function att2:summon/reg_4/umbratyanth_rewards_class4
-function att2:summon/reg_4/umbratyanth_rewards_class4
-function att2:summon/reg_4/umbratyanth_rewards_class4
-function att2:summon/reg_4/umbratyanth_rewards_class8
-function att2:summon/reg_4/umbratyanth_rewards_class8
-function att2:summon/reg_4/umbratyanth_rewards_class8
-function att2:summon/reg_4/umbratyanth_rewards_class8
-function att2:summon/reg_4/umbratyanth_rewards_class8
+function att2:summon/reg_4/umbratyanth_rewards_class5
+function att2:summon/reg_4/umbratyanth_rewards_class5
+function att2:summon/reg_4/umbratyanth_rewards_class5
+function att2:summon/reg_4/umbratyanth_rewards_class5
+function att2:summon/reg_4/umbratyanth_rewards_class5
+function att2:summon/reg_4/umbratyanth_rewards_class9
+function att2:summon/reg_4/umbratyanth_rewards_class9
+function att2:summon/reg_4/umbratyanth_rewards_class9
+function att2:summon/reg_4/umbratyanth_rewards_class9
+function att2:summon/reg_4/umbratyanth_rewards_class9
 
 function att2:summon/reg_4/umbratyanth_rewards_dedicated
