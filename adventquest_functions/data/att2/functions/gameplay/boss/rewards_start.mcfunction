@@ -16,14 +16,3 @@ function att2:summon/bat_boss_rewards
 function att2:summon/bat_boss_rewards
 function att2:summon/bat_boss_rewards
 function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
-function att2:summon/bat_boss_rewards
