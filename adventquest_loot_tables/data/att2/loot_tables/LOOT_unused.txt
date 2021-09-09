@@ -16,8 +16,8 @@
 
 * Entities:
 	- Reg1: asunarkstone[l1 - l2] + asunarkstone[l5 - l11] + [l8t1 - l8t2] + [l9t1 - l9t3] + [l10t1 - l10t4] + [l11t1 - l11t5]
-	- Reg2: [l1 / l3 / l7] + [t1 - t2]
-	- Reg3: [l1 / l3] + [t1 - t4]
+	- Reg2: [l1 / l2 / l3 / l4 / l7] + [t1 - t2]
+	- Reg3: [l1 / l2 / l3 / l4] + [t1 - t4]
 	- Reg4: [l1 / l2 / l4] + [t1 - t6]
 
 

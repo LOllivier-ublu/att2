@@ -15,6 +15,7 @@ function att2:summon/reg_1/miehanov_rewards
 function att2:summon/reg_1/miehanov_rewards
 function att2:summon/reg_1/miehanov_rewards
 function att2:summon/reg_1/miehanov_rewards
+
 function att2:summon/reg_1/miehanov_rewards
 function att2:summon/reg_1/miehanov_rewards
 function att2:summon/reg_1/miehanov_rewards

@@ -3,4 +3,4 @@
 #Summon bat boss rewards  		     			 #
 ##################################################
 
-summon minecraft:bat ~ ~ ~ {Tags:["LVL0","CLASS8","Reg2","BossRewards"],Silent:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0}]}
+summon minecraft:bat ~ ~ ~ {DeathLootTable:"att2:entities/gamblingx",Silent:1,Tags:["Gambling"],ActiveEffects:[{Id:14,Amplifier:5,Duration:2147483647,Ambient:1,ShowParticles:0}]}

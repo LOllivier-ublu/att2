@@ -13,5 +13,4 @@ execute if entity @a[scores={UL_EFFECT=22}] anchored eyes positioned ^ ^ ^12 run
 execute if entity @a[scores={UL_EFFECT=25}] anchored eyes positioned ^ ^ ^13.5 run function att2:gameplay/legendary/ultima/thunder
 execute if entity @a[scores={UL_EFFECT=28}] anchored eyes positioned ^ ^ ^15 run function att2:gameplay/legendary/ultima/thunder
 execute if entity @a[scores={UL_EFFECT=31}] anchored eyes positioned ^ ^ ^16.5 run function att2:gameplay/legendary/ultima/thunder
-execute if entity @a[scores={UL_EFFECT=34}] anchored eyes positioned ^ ^ ^18 run function att2:gameplay/legendary/ultima/thunder
-execute if entity @a[scores={UL_EFFECT=34}] run function att2:sound/misc/thunder
+execute if entity @a[scores={UL_EFFECT=34}] anchored eyes positioned ^ ^ ^18 run function att2:gameplay/legendary/ultima/thunder_last
