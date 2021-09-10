@@ -7,7 +7,7 @@
         "description": {"translate":"Open 1000 Chest"},
         "frame": "goal"
     },
-    "parent": "att2:treasure/chest_100",
+    "parent": "att2:treasure/chest_250",
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 500

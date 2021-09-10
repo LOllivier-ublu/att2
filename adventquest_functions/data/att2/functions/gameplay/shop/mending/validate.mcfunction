@@ -95,6 +95,13 @@ item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi"
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi",Manufacturer:"eternan"}}}] weapon.mainhand att2:mending/armor/epi/eternan
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi",Manufacturer:"delightful"}}}] weapon.mainhand att2:mending/armor/epi/delightful
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi",Manufacturer:"harmonious"}}}] weapon.mainhand att2:mending/armor/epi/harmonious
+# epi_set
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"teran"}}}] weapon.mainhand att2:mending/armor/epi/teran
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"graceful"}}}] weapon.mainhand att2:mending/armor/epi/graceful
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"traditional"}}}] weapon.mainhand att2:mending/armor/epi/traditional
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"eternan"}}}] weapon.mainhand att2:mending/armor/epi/eternan
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"delightful"}}}] weapon.mainhand att2:mending/armor/epi/delightful
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"epi_set",Manufacturer:"harmonious"}}}] weapon.mainhand att2:mending/armor/epi/harmonious
 # leg
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg",Manufacturer:"teran"}}}] weapon.mainhand att2:mending/armor/leg/teran
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg",Manufacturer:"graceful"}}}] weapon.mainhand att2:mending/armor/leg/graceful
@@ -102,3 +109,10 @@ item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg"
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg",Manufacturer:"eternan"}}}] weapon.mainhand att2:mending/armor/leg/eternan
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg",Manufacturer:"delightful"}}}] weapon.mainhand att2:mending/armor/leg/delightful
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg",Manufacturer:"harmonious"}}}] weapon.mainhand att2:mending/armor/leg/harmonious
+# leg_armset
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"teran"}}}] weapon.mainhand att2:mending/armor/leg/teran
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"graceful"}}}] weapon.mainhand att2:mending/armor/leg/graceful
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"traditional"}}}] weapon.mainhand att2:mending/armor/leg/traditional
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"eternan"}}}] weapon.mainhand att2:mending/armor/leg/eternan
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"delightful"}}}] weapon.mainhand att2:mending/armor/leg/delightful
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"harmonious"}}}] weapon.mainhand att2:mending/armor/leg/harmonious

@@ -4,7 +4,7 @@
             "item": "minecraft:chest"
         },
         "title": {"translate":"More Treasure"},
-        "description": {"translate":"Open 100 Chest"}
+        "description": {"translate":"Open 250 Chest"}
     },
     "parent": "att2:treasure/root",
     "rewards": {
@@ -12,7 +12,7 @@
         "experience": 100
                 },
     "criteria": {
-        "chest_100": {
+        "chest_250": {
             "trigger": "minecraft:impossible"
         }
     }

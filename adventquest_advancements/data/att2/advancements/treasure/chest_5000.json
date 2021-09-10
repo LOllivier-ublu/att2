@@ -4,7 +4,7 @@
             "item": "minecraft:chest"
         },
         "title": {"translate":"Loot Addiction"},
-        "description": {"translate":"Open 10000 Chest"},
+        "description": {"translate":"Open 5000 Chest"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/chest_1000",
@@ -13,7 +13,7 @@
         "experience": 10000
                 },
     "criteria": {
-        "chest_10000": {
+        "chest_5000": {
             "trigger": "minecraft:impossible"
         }
     }

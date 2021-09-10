@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§9Molletière intangible\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aussi costaud que la roche,\\\"}\",\"{\\\"text\\\":\\\"§7Aussi rigide que la pierre.\\\"}\",\"{\\\"text\\\":\\\"§7As strong as rock,\\\"}\",\"{\\\"text\\\":\\\"§7As rigid as stone.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7STR§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Molletière intangible\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Aussi costaud que la roche,\\\"}\",\"{\\\"text\\\":\\\"§7Aussi rigide que la pierre.\\\"}\",\"{\\\"text\\\":\\\"§7As strong as rock,\\\"}\",\"{\\\"text\\\":\\\"§7As rigid as stone.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a2 §7STR§c-1\\\"}\"]}}"
                     }
                 ]
             }
