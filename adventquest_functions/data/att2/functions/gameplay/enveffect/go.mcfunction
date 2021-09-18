@@ -4,6 +4,7 @@
 #################################################################
 
 function att2:gameplay/enveffect/space_gem/go
+function att2:gameplay/enveffect/temperature/go
 function att2:gameplay/enveffect/time_gem/go
 function att2:gameplay/enveffect/spike/go
 execute if score second TIMECOUNTER matches 0 run function att2:gameplay/enveffect/bee/go
