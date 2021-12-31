@@ -14,8 +14,10 @@ scoreboard players set @s CHRONOTON 0
 scoreboard players set @s CHRONOTONbis 0
 scoreboard players set @s CHRONOTONquart 0
 scoreboard players set @s OP_CHRONOTON1 1
+scoreboard players set 50 OP_CHRONOTON2 50
 scoreboard players set 20 OP_CHRONOTON2 20
 scoreboard players set 10 OP_CHRONOTON2 10
+scoreboard players set 5 OP_CHRONOTON2 5
 scoreboard players set 2 OP_CHRONOTON2 2
 scoreboard players set @s CHRONOTON_TODROP 0
 
