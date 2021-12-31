@@ -3,5 +3,5 @@
 #Apply hunger bonus effect                       #
 ##################################################
 
-scoreboard players set @s TIMER_HUN_TOT 2000
+scoreboard players set @s TIMER_HUN_TOT 1750
 effect give @s minecraft:saturation 1 0 true
