@@ -17,12 +17,12 @@
 
 # Detect area within dimension ("at @s" is needed to execute inner test within player's true dimension)
 execute as @a[scores={DIMENSION=-1}] at @s run function att2:gameplay/music/detection/nowhere
-execute as @a[scores={DIMENSION=0}] at @s run function att2:gameplay/music/detection/telluron_past		
-execute as @a[scores={DIMENSION=1}] at @s run function att2:gameplay/music/detection/telluron_present	
-execute as @a[scores={DIMENSION=2}] at @s run function att2:gameplay/music/detection/telluron_future	
+execute as @a[scores={DIMENSION=0}] at @s run function att2:gameplay/music/detection/telluron_past
+execute as @a[scores={DIMENSION=1}] at @s run function att2:gameplay/music/detection/telluron_present
+execute as @a[scores={DIMENSION=2}] at @s run function att2:gameplay/music/detection/telluron_future
 execute as @a[scores={DIMENSION=3}] at @s run function att2:gameplay/music/detection/telluron_far_future
-execute as @a[scores={DIMENSION=4..5}] at @s run function att2:gameplay/music/detection/ouranos		
-execute as @a[scores={DIMENSION=6}] at @s run function att2:gameplay/music/detection/angband			
+execute as @a[scores={DIMENSION=4..5}] at @s run function att2:gameplay/music/detection/ouranos
+execute as @a[scores={DIMENSION=6}] at @s run function att2:gameplay/music/detection/angband
 execute as @a[scores={DIMENSION=7}] at @s run function att2:gameplay/music/detection/billgart
 
 # Incase player is moving to another area, the music stops to launch the next one

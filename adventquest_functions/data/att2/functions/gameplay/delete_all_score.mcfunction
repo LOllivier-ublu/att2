@@ -317,6 +317,11 @@ scoreboard objectives remove BASE_HEM
 # Dimension
 scoreboard objectives remove DIMENSION
 
+# Temperature
+scoreboard objectives remove TEMPERATURE dummy
+scoreboard objectives remove ARMORSCORE dummy
+scoreboard objectives remove DAYTIME dummy
+
 # GPS
 scoreboard objectives remove GPS_DIM
 scoreboard objectives remove GPS_TIMER
