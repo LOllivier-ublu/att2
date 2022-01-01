@@ -13,7 +13,7 @@ scoreboard players set @a[nbt={Inventory:[{id:"minecraft:diamond",tag:{display:{
 execute as @a[scores={CHRONOTONbis=50}] run function att2:gameplay/chronoton/convertdiamond
 
 # Pick nearby chronotons from the ground
-execute as @a at @s run function att2:gameplay/chronoton/ground/go
+execute as @a[gamemode=adventure] at @s run function att2:gameplay/chronoton/ground/go
 
 #Use scoreboard players operation @s CHRONOTON_TODROP = @s CHRONOTON
 #To drop all the chronoton of a give player

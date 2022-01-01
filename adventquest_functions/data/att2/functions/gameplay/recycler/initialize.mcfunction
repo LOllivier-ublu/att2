@@ -16,3 +16,4 @@ scoreboard players set 20 RECYCLER 20
 scoreboard players set 10 RECYCLER 10
 scoreboard players set 5 RECYCLER 5
 scoreboard players set 2 RECYCLER 2
+scoreboard players set 1 RECYCLER 1

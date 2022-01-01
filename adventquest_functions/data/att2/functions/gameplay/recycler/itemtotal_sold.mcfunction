@@ -3,7 +3,8 @@
 #Estimate the total item sold            					#
 #############################################################
 
-#scoreboard players set misc RECYCLER 0
+scoreboard players set arrow RECYCLER 0
+scoreboard players set misc RECYCLER 0
 scoreboard players set com RECYCLER 0
 scoreboard players set unc RECYCLER 0
 scoreboard players set rar RECYCLER 0
@@ -16,7 +17,8 @@ scoreboard players set myt RECYCLER 0
 scoreboard players set total RECYCLER 0
 scoreboard players set number RECYCLER 0
 
-#execute store result score misc RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}]
+execute as @e[type=item,distance=..1,nbt={Item:{id:"minecraft:arrow"}}] store result score arrow RECYCLER if entity @s run data get entity @s Item.Count
+execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}] unless entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] store result score misc RECYCLER if entity @s run data get entity @s Item.Count
 execute store result score com RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"com"}}}]
 execute store result score unc RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"unc"}}}]
 execute store result score rar RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"rar"}}}]
@@ -27,7 +29,8 @@ execute store result score leg RECYCLER if entity @e[type=item,distance=..1,nbt=
 execute store result score leg_armset RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg_armset"}}}]
 execute store result score myt RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"myt"}}}]
 
-#scoreboard players operation itemtotal_sold RECYCLER += misc RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += arrow RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += misc RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += com RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += unc RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += rar RECYCLER
