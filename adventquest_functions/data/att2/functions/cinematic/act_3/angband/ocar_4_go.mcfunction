@@ -22,14 +22,14 @@ execute if score Neth0 TIMER matches 125..129 in minecraft:the_nether if entity 
 execute if score Neth0 TIMER matches 126 run function att2:cinematic/tp_effect/namrin
 execute if score Neth0 TIMER matches 127 in minecraft:the_nether run teleport 00000000-0000-006a-0000-00000000006a 3544 25 3764 25 -30
 execute if score Neth0 TIMER matches 130 run kill 00000000-0000-006a-0000-00000000006a
-execute if score Neth0 TIMER matches 170 in minecraft:the_nether positioned 3544 30 3764 run function att2:summon/pnj/namrin
-execute if score Neth0 TIMER matches 171 run team join ally 00000000-0000-006a-0000-00000000006a
-execute if score Neth0 TIMER matches 173 in minecraft:the_nether run teleport 00000000-0000-006a-0000-00000000006a 3544 30 3764 25 -30
-execute if score Neth0 TIMER matches 175 run scoreboard players set Mainquest SIDEQUEST 58
+execute if score Neth0 TIMER matches 195 in minecraft:the_nether positioned 3544 30 3764 run function att2:summon/pnj/namrin
+execute if score Neth0 TIMER matches 197 run team join ally 00000000-0000-006a-0000-00000000006a
+execute if score Neth0 TIMER matches 199 in minecraft:the_nether run teleport 00000000-0000-006a-0000-00000000006a 3544 30 3764 25 -30
+execute if score Neth0 TIMER matches 200 run scoreboard players set Mainquest SIDEQUEST 58
 
 #=======================#
 #end of the cinematic	#
 #=======================#
 
-execute if score Neth0 TIMER matches 175.. in minecraft:the_nether run setblock 3589 30 3729 minecraft:air
-execute if score Neth0 TIMER matches 130..174 run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 200.. in minecraft:the_nether run setblock 3589 30 3729 minecraft:air
+execute if score Neth0 TIMER matches 130..199 run function att2:cinematic/neth0_iteration

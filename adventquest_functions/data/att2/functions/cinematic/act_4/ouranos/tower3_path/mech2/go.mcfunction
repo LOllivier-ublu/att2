@@ -31,9 +31,6 @@ effect give @a[scores={OURANOS=-1}] minecraft:jump_boost 2 255 true
 execute as @a[x=7419,y=201,z=6465,dx=-7,dy=-10,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~1
 execute as @a[scores={OURANOS=-1}] run tp @e[type=minecraft:wolf,tag=BattleMusic,x=7419,y=201,z=6465,distance=..500] @s
 
-# Fail door security
-execute if score path3_mech2 OURANOS matches 1 if entity @a[x=7415,y=191,z=6461,distance=..3,gamemode=adventure] run function att2:cinematic/act_4/ouranos/tower3_path/mech2/fail
-
 # Circles trigger area
 execute if score path3_mech2_circles OURANOS matches 0 if entity @a[scores={OURANOS=-1},x=7704,y=170,z=6437,distance=..8,gamemode=adventure] positioned 7704 170 6437 run function att2:cinematic/act_4/ouranos/tower3_path/mech2/circle_true
 execute if score path3_mech2_circles OURANOS matches 1 if entity @a[scores={OURANOS=-1},x=7723,y=86,z=6336,distance=..8,gamemode=adventure] positioned 7723 86 6336 run function att2:cinematic/act_4/ouranos/tower3_path/mech2/circle_true
@@ -71,7 +68,7 @@ execute if score path3_mech2 OURANOS matches 2 if score path3_mech2_timer2 OURAN
 execute if score path3_mech2 OURANOS matches 2 if score path3_mech2_timer2 OURANOS matches 90 at @a[scores={OURANOS=-1}] run function att2:sound/ambience/rumbling
 
 # Iteration
-execute if score path3_mech2_timer1 OURANOS matches ..0 run function att2:cinematic/act_4/ouranos/tower3_path/mech2/tp
+execute if score path3_mech2_timer1 OURANOS matches ..0 run function att2:cinematic/act_4/ouranos/tower3_path/mech2/tp_fail
 execute if score path3_mech2_timer1 OURANOS matches 1..9999 run scoreboard players remove path3_mech2_timer1 OURANOS 1
 execute if score path3_mech2_timer2 OURANOS matches ..0 run scoreboard players set path3_mech2_timer2 OURANOS 100
 execute if score path3_mech2_timer2 OURANOS matches 1..100 run scoreboard players remove path3_mech2_timer2 OURANOS 1
