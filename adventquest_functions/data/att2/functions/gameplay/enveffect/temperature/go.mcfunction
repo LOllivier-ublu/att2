@@ -21,7 +21,7 @@ execute as @a[x=-5771,y=140,z=-6235,dx=-293,dy=105,dz=-303,gamemode=adventure] r
 # Vonaheim Top
 execute as @a[x=-5642,y=201,z=-6487,dx=84,dy=35,dz=-64,gamemode=adventure] run scoreboard players set @s TEMPERATURE -5
 # Temple
-execute as @a[x=-5057,y=66,z=-6495,dx=-391,dy=158,dz=-329,gamemode=adventure] run scoreboard players set @s TEMPERATURE -5
+execute as @a[x=-5057,y=66,z=-6465,dx=-391,dy=158,dz=-359,gamemode=adventure] run scoreboard players set @s TEMPERATURE -5
 # J'zargo
 execute as @a[x=-4989,y=188,z=-6643,dx=148,dy=-158,dz=-453,gamemode=adventure] run scoreboard players set @s TEMPERATURE -4
 execute as @a[x=-5006,y=191,z=-6306,dx=-145,dy=-130,dz=282,gamemode=adventure] run scoreboard players set @s TEMPERATURE -4
