@@ -28,6 +28,7 @@ execute as @a[x=-5006,y=191,z=-6306,dx=-145,dy=-130,dz=282,gamemode=adventure] r
 
 # Nojélanth Plateau
 execute as @a[x=-5776,y=63,z=-4232,dx=-287,dy=100,dz=-366,gamemode=adventure] run scoreboard players set @s TEMPERATURE 4
+execute as @a[x=-5776,y=63,z=-4232,dx=-287,dy=100,dz=-366,gamemode=adventure] run tag @s add desert
 # Nojélanth Desert
 execute as @a[x=-5641,y=100,z=-4300,dx=-357,dy=-90,dz=600,gamemode=adventure] run scoreboard players set @s TEMPERATURE 5
 execute as @a[x=-5641,y=100,z=-4300,dx=-357,dy=-90,dz=600,gamemode=adventure] run tag @s add desert
@@ -80,7 +81,7 @@ execute if score cold_Malus4_Timer TEMPERATURE matches 1.. run scoreboard player
 execute if score cold_Malus5_Timer TEMPERATURE matches 1.. run scoreboard players remove cold_Malus5_Timer TEMPERATURE 1
 
 # Heat exhausted effect
-execute as @a[scores={TEMPERATURE=2..}] at @s run particle minecraft:dripping_water ~ ~1 ~ 0.3 0.3 0.3 0 5 normal @s
+execute as @a[scores={TEMPERATURE=2..}] at @s run particle minecraft:falling_water ~ ~1 ~ 0.3 0.3 0.3 0 1 normal @s
 execute if score heat_Malus1_Timer TEMPERATURE matches 1200 as @a[scores={TEMPERATURE=2..3}] at @s run scoreboard players set @s SHAKE_E 30
 execute if score heat_Malus2_Timer TEMPERATURE matches 800 as @a[scores={TEMPERATURE=4}] at @s run scoreboard players set @s SHAKE_E 30
 execute if score heat_Malus3_Timer TEMPERATURE matches 400 as @a[scores={TEMPERATURE=5}] at @s run scoreboard players set @s SHAKE_E 30
