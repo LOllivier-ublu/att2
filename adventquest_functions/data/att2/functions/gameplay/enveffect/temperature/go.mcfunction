@@ -57,6 +57,8 @@ execute as @a[gamemode=adventure] unless entity @s[scores={TEMPERATURE=0}] if sc
 execute as @a run function att2:gameplay/enveffect/temperature/equipment_score
 # If the user is wearing a full armor set:
 execute as @a[scores={TEMPERATURE=1..,ARMORSCORE=3..},gamemode=adventure] run scoreboard players add @s TEMPERATURE 1
+# If the user is wearing a full leather armor, even further negate the effect of cold temperature
+execute as @a[scores={TEMPERATURE=..-1,ARMORSCORE=5},gamemode=adventure] run scoreboard players add @s TEMPERATURE 1
 # If the user is wearing only one armor element:
 execute as @a[scores={TEMPERATURE=..-1,ARMORSCORE=..1},gamemode=adventure] run scoreboard players remove @s TEMPERATURE 1
 
