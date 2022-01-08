@@ -23,13 +23,18 @@ execute as @a[x=-5642,y=201,z=-6487,dx=84,dy=35,dz=-64,gamemode=adventure] run s
 # Temple
 execute as @a[x=-5057,y=66,z=-6465,dx=-391,dy=158,dz=-359,gamemode=adventure] run scoreboard players set @s TEMPERATURE -5
 # J'zargo
-execute as @a[x=-4989,y=188,z=-6643,dx=148,dy=-158,dz=453,gamemode=adventure] run scoreboard players set @s TEMPERATURE -4
-execute as @a[x=-5006,y=191,z=-6306,dx=-145,dy=-130,dz=282,gamemode=adventure] run scoreboard players set @s TEMPERATURE -4
+execute as @a[x=-4984,y=200,z=-6306,dx=-80,dy=-50,dz=-80,gamemode=adventure] run scoreboard players set @s TEMPERATURE -4
+execute as @a[x=-5056,y=168,z=-6652,dx=66,dy=-50,dz=110,gamemode=adventure] run scoreboard players set @s TEMPERATURE -4
+execute as @a[x=-4989,y=188,z=-6643,dx=198,dy=-158,dz=453,gamemode=adventure] run scoreboard players set @s TEMPERATURE -4
+execute as @a[x=-5006,y=191,z=-6306,dx=-145,dy=-40,dz=282,gamemode=adventure] run scoreboard players set @s TEMPERATURE -4
+execute as @a[x=-5006,y=151,z=-6306,dx=-145,dy=-150,dz=282,gamemode=adventure] run scoreboard players set @s TEMPERATURE -3
 
 # Nojélanth Plateau
 execute as @a[x=-5776,y=63,z=-4232,dx=-287,dy=100,dz=-366,gamemode=adventure] run scoreboard players set @s TEMPERATURE 4
 execute as @a[x=-5776,y=63,z=-4232,dx=-287,dy=100,dz=-366,gamemode=adventure] run tag @s add desert
 # Nojélanth Desert
+execute as @a[x=-5665,y=100,z=-4300,dx=-335,dy=-90,dz=-200,gamemode=adventure] run scoreboard players set @s TEMPERATURE 5
+execute as @a[x=-5665,y=100,z=-4300,dx=-335,dy=-90,dz=-200,gamemode=adventure] run tag @s add desert
 execute as @a[x=-5641,y=100,z=-4300,dx=-357,dy=-90,dz=600,gamemode=adventure] run scoreboard players set @s TEMPERATURE 5
 execute as @a[x=-5641,y=100,z=-4300,dx=-357,dy=-90,dz=600,gamemode=adventure] run tag @s add desert
 execute as @a[x=-6000,y=100,z=-3700,dx=-450,dy=-90,dz=-770,gamemode=adventure] run scoreboard players set @s TEMPERATURE 5
@@ -38,7 +43,8 @@ execute as @a[tag=desert,gamemode=adventure] unless entity @s[x=-5641,y=100,z=-4
 # J'zargo
 execute as @a[x=-5300,y=10,z=-4230,dx=-300,dy=150,dz=500,gamemode=adventure] unless entity @s[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44] run scoreboard players set @s TEMPERATURE 4
 # Volcano
-execute as @a[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=321,gamemode=adventure] run scoreboard players set @s TEMPERATURE 3
+execute as @a[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=181,gamemode=adventure] run scoreboard players set @s TEMPERATURE 3
+execute as @a[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=-321,gamemode=adventure] run scoreboard players set @s TEMPERATURE 3
 # Kert
 execute as @a[x=-5115,y=10,z=-4870,dx=-621,dy=200,dz=452,gamemode=adventure] run scoreboard players set @s TEMPERATURE 2
 execute as @a[x=-6090,y=10,z=-4600,dx=327,dy=200,dz=-290,gamemode=adventure] run scoreboard players set @s TEMPERATURE 2
