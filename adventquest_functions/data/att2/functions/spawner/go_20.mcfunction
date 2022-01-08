@@ -739,13 +739,7 @@ execute in minecraft:the_nether positioned 3697 95 4329 if entity @a[distance=5.
 execute in minecraft:the_nether if score Mainquest SIDEQUEST matches ..90 positioned 3709 95 4358 if entity @a[distance=5..20] run function att2:spawner/reg2/angor/town_high/mortal0_class9_4879
 execute in minecraft:the_nether positioned 3692 94 4402 if entity @a[distance=5..15] run function att2:spawner/reg2/angor/town_high/mortal6_class11_4888
 execute in minecraft:the_nether positioned 3673 91 4395 if entity @a[distance=5..15] run function att2:spawner/reg2/angor/town_high/mortal10_class11_4894
-execute in minecraft:the_nether positioned 3462 41 4524 if entity @a[distance=5..15] run function att2:spawner/reg2/palace/wing_wd/mortalarcher1_class11_4948
-execute in minecraft:the_nether if score Mainquest SIDEQUEST matches ..90 positioned 3456 49 4499 if entity @a[distance=3..15] run function att2:spawner/reg2/palace/wing_wd/mortal0_class9_4960
-execute in minecraft:the_nether positioned 3455 56 4543 if entity @a[distance=5..15] run function att2:spawner/reg2/palace/wing_wd/mortal4_class12_4972
-execute in minecraft:the_nether positioned 3500 93 4557 if entity @a[distance=3..15] run function att2:spawner/reg2/palace/wing_wu/mortal8_class11_5063
-execute in minecraft:the_nether if score Mainquest SIDEQUEST matches ..90 positioned 3562 88 4554 if entity @a[distance=3..15] run function att2:spawner/reg2/palace/wing_eu/mortal0_class10_5107
 execute in minecraft:the_end positioned -1121 137 -569 if entity @a[distance=3..15] run function att2:spawner/reg3/dungeon/tower_se/silverfish0_class11_5273
 execute in minecraft:the_end positioned -1577 46 -642 if entity @a[distance=3..15] run function att2:spawner/reg3/billgart/lost_area/blaze0_class19_5511
 execute in minecraft:the_end positioned -1471 151 -588 if entity @a[distance=3..15] run function att2:spawner/reg3/billgart/lost_area/golemarcher3_class20_5517
 execute in minecraft:the_end positioned -1474 131 -635 if entity @a[distance=3..15] run function att2:spawner/reg3/billgart/lost_area/golemarcher1_class19_5523
-
