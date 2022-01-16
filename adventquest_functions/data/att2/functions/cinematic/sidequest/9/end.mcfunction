@@ -18,6 +18,7 @@ clear @a minecraft:brick{display:{"Lore":["{\"text\":\"§4Abrock's Key\"}"]}} 1
 
 #REWARDS
 xp add @a 2000 points
+function att2:items/misc/coal_0
 execute if score choice SQ9 matches 1 run scoreboard players add @a CHRONOTON 50
 execute if score choice SQ9 matches 1 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+50 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 execute if score choice SQ9 matches 2 run scoreboard players add @a CHRONOTON 52
