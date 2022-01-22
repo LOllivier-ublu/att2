@@ -19,7 +19,7 @@ scoreboard players remove @a[scores={HOLDING_MS=1..}] HOLDING_MS 1
 scoreboard players set @a[scores={MAGICSPH=1..,HOLDING_MS=..0}] MAGICSPH 0
 
 #Manage persistence of spell
-execute if entity @a[tag=fireMelting] run function att2:gameplay/dahal/action/spell1/persistence
+function att2:gameplay/dahal/action/spell1/persistence
 function att2:gameplay/dahal/action/spell3/persistence
 function att2:gameplay/dahal/action/spell5/persistence
 function att2:gameplay/dahal/action/spell6/persistence
