@@ -12,6 +12,7 @@ execute if score Neth1 TIMER matches 500 run function att2:dialogs/sidequest/sq4
 execute if score Neth1 TIMER matches 550 run function att2:dialogs/sidequest/sq45/aldelrion_11
 execute if score Neth1 TIMER matches 800 run function att2:dialogs/sidequest/sq45/player_11
 execute if score Neth1 TIMER matches 1000 run function att2:dialogs/sidequest/sq45/aldelrion_12
+execute if score Neth1 TIMER matches 1000..1200 as 00000000-0000-149a-0000-00000000149a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 
 #=======================#
 #end of the cinematic	#
