@@ -42,6 +42,7 @@ execute as @a[x=-6000,y=100,z=-3700,dx=-450,dy=-90,dz=-770,gamemode=adventure] r
 execute as @a[tag=desert,gamemode=adventure] unless entity @s[x=-5641,y=100,z=-4300,dx=-357,dy=-90,dz=600] unless entity @s[x=-6000,y=100,z=-3700,dx=-450,dy=-90,dz=-770] run tag @s remove desert
 # J'zargo
 execute as @a[x=-5300,y=10,z=-4230,dx=-300,dy=150,dz=500,gamemode=adventure] unless entity @s[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44] run scoreboard players set @s TEMPERATURE 4
+execute as @a[x=-5300,y=10,z=-4230,dx=-300,dy=150,dz=500,gamemode=adventure] run tag @s add desert
 # Volcano
 execute as @a[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=181,gamemode=adventure] run scoreboard players set @s TEMPERATURE 3
 execute as @a[x=-5890,y=60,z=-5211,dx=400,dy=100,dz=-321,gamemode=adventure] run scoreboard players set @s TEMPERATURE 3

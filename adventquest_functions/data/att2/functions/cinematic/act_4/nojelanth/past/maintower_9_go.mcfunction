@@ -11,5 +11,5 @@ execute if score Real0 TIMER matches 11 run scoreboard players set Mainquest SID
 #end of the cinematic	#
 #=======================#
 
-execute if score Real0 TIMER matches 11.. run setblock -7530 136 -4305 minecraft:air
+execute if score Real0 TIMER matches 11.. run setblock -7531 135 -4306 minecraft:air
 execute if score Real0 TIMER matches ..10 run function att2:cinematic/real0_iteration

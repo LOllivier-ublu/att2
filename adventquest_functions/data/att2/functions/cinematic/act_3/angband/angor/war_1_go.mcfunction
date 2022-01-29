@@ -5,15 +5,15 @@
 
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 76
 execute if score Neth0 TIMER matches 1 in minecraft:the_nether run function att2:physicmod/reg2/angor/barrier1
-execute if score Neth0 TIMER matches 5 in minecraft:the_nether run tp @a 3455 32 3742 -135 0
+execute if score Neth0 TIMER matches 2 in minecraft:the_nether run tp @a 3455 32 3742 -135 0
 execute if score Neth0 TIMER matches 7 as 00000000-0000-006a-0000-00000000006a at @s run tp @s ~ ~-10 ~
-execute if score Neth0 TIMER matches 10 run kill 00000000-0000-006a-0000-00000000006a
-execute if score Neth0 TIMER matches 15 in minecraft:the_nether run tp @a 3483 63 3764 135 0
+execute if score Neth0 TIMER matches 9 run kill 00000000-0000-006a-0000-00000000006a
+execute if score Neth0 TIMER matches 12 in minecraft:the_nether run tp @a 3483 63 3764 135 0
 execute if score Neth0 TIMER matches 17 as 00000000-0000-007a-0000-00000000007a at @s run tp @s ~ ~-10 ~
-execute if score Neth0 TIMER matches 20 run kill 00000000-0000-007a-0000-00000000007a
-execute if score Neth0 TIMER matches 25 in minecraft:the_nether run tp @a 3494 57 3758 0 0
+execute if score Neth0 TIMER matches 19 run kill 00000000-0000-007a-0000-00000000007a
+execute if score Neth0 TIMER matches 22 in minecraft:the_nether run tp @a 3494 57 3758 0 0
 execute if score Neth0 TIMER matches 27 as 00000000-0000-008a-0000-00000000008a at @s run tp @s ~ ~-10 ~
-execute if score Neth0 TIMER matches 30 run kill 00000000-0000-008a-0000-00000000008a
+execute if score Neth0 TIMER matches 29 run kill 00000000-0000-008a-0000-00000000008a
 execute if score Neth0 TIMER matches 50 in minecraft:the_nether run tp @a 3525 41 4409 180 0
 
 #Summon Army

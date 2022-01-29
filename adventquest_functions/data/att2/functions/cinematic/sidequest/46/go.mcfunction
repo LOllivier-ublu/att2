@@ -8,7 +8,7 @@
 #############################################################
 
 # Start cinematic1 when player is close to PNJ Namrin
-execute if score SQ46 SIDEQUEST matches 1 if score cinematic SQ46 matches 0 at 00000000-0000-006a-0000-00000000006a if entity @a[distance=..7,gamemode=adventure] run function att2:cinematic/sidequest/46/namrin/start_cinematic1
+execute if score SQ46 SIDEQUEST matches 1 if score cinematic SQ46 matches 0 at 00000000-0000-006a-0000-00000000006a if entity @a[distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/46/namrin/start_cinematic1
 
 # Step1 Play Cinematic1 Namrin with player
 execute if score SQ46 SIDEQUEST matches 1 if score cinematic SQ46 matches 1 if entity @a run function att2:cinematic/sidequest/46/namrin/cinematic1

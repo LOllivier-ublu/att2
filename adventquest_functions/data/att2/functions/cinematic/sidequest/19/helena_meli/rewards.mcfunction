@@ -9,6 +9,7 @@ function att2:gameplay/reputation/add_2
 
 function att2:gameplay/pnj_talk/dialog_playsound/helena_meli
 execute at 00000000-0000-027a-0000-00000000027a as @p[distance=..10] run function att2:dialogs/sidequest/sq19/helena_meli/answer_rewards
+tag 00000000-0000-027a-0000-00000000027a remove QUEST
 
 #REWARDS
-execute as @p run function att2:summon/reg_1/horse4_class4
+execute positioned -5051 75 -5083 run function att2:summon/reg_1/horse4_class4
