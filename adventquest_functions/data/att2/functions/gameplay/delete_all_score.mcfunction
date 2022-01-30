@@ -39,19 +39,33 @@ scoreboard objectives remove statFALL
 scoreboard objectives remove statJUMP
 scoreboard objectives remove statHORSE
 scoreboard objectives remove triggHORSE
-scoreboard objectives remove statCHEST
 scoreboard objectives remove statWALK
 scoreboard objectives remove statCAKE
+
+scoreboard objectives remove statENDERCHEST
+scoreboard objectives remove openCHEST
+scoreboard objectives remove openTRAPCHEST
+scoreboard objectives remove openSHULKER
+scoreboard objectives remove statCHEST
+scoreboard objectives remove triggCHEST
+scoreboard objectives remove SECRET
+scoreboard objectives remove SECRET_SHULKER
+scoreboard objectives remove SECRET_WALLBREAK
+scoreboard objectives remove SECRET_ICEMELT
+scoreboard objectives remove SECRET_SIMPLE
 
 scoreboard objectives remove statDAMAGEDEALT
 scoreboard objectives remove statDAMAGETAKEN
 scoreboard objectives remove statDAMAGEBLOCK
 
 scoreboard objectives remove statBOW
+scoreboard objectives remove statCROSSBOW
+
 scoreboard objectives remove statWOODSWORD
 scoreboard objectives remove statWOODAXE
 scoreboard objectives remove statWOODMACE
 scoreboard objectives remove statWOODDAG
+scoreboard objectives remove statWOODSPEAR
 scoreboard objectives remove statSTONESWORD
 scoreboard objectives remove statSTONEAXE
 scoreboard objectives remove statSTONEMACE
@@ -60,14 +74,17 @@ scoreboard objectives remove statGOLDSWORD
 scoreboard objectives remove statGOLDAXE
 scoreboard objectives remove statGOLDMACE
 scoreboard objectives remove statGOLDDAG
+scoreboard objectives remove statGOLDSPEAR
 scoreboard objectives remove statIRONSWORD
 scoreboard objectives remove statIRONAXE
 scoreboard objectives remove statIRONMACE
 scoreboard objectives remove statIRONDAG
+scoreboard objectives remove statIRONSPEAR
 scoreboard objectives remove statDIAMONDSWORD
 scoreboard objectives remove statDIAMONDAXE
 scoreboard objectives remove statDIAMONDMACE 
 scoreboard objectives remove statDIAMONDDAG
+scoreboard objectives remove statDIAMONDSPEAR
 
 scoreboard objectives remove statMELON
 scoreboard objectives remove statAPPLE
@@ -136,7 +153,7 @@ scoreboard objectives remove MOTIONZ
 # Time
 scoreboard objectives remove TIMEPLAY
 scoreboard objectives remove TELLURONTIME
-#scoreboard objectives remove TIMECOUNTER
+scoreboard objectives remove TIMECOUNTER
 
 # Bank/currency
 scoreboard objectives remove BANK_ACTION
@@ -472,6 +489,15 @@ scoreboard objectives remove SQ48
 scoreboard objectives remove Jump_SQ48
 scoreboard objectives remove SQ49
 scoreboard objectives remove SQ50
+scoreboard objectives remove SQ51
+scoreboard objectives remove SQ52
+scoreboard objectives remove SQ53
+scoreboard objectives remove SQ54
+scoreboard objectives remove SQ55
+scoreboard objectives remove SQ56
+scoreboard objectives remove SQ57
+scoreboard objectives remove SQ58
+scoreboard objectives remove SQ59
 
 scoreboard objectives remove REPUTATION
 
@@ -567,6 +593,12 @@ scoreboard objectives remove HUN_TOT
 scoreboard objectives remove HUN_BASE
 scoreboard objectives remove HUN_LVL_LE
 scoreboard objectives remove HUN_LVL_PO
+scoreboard objectives remove HUN_LVL_DAB
+scoreboard objectives remove HUN_LVL_DAM
+scoreboard objectives remove HUN_LVL_EQ1
+scoreboard objectives remove HUN_LVL_EQ2
+scoreboard objectives remove HUN_LVL_EQ3
+scoreboard objectives remove HUN_LVL_EQ4
 scoreboard objectives remove HUN_LVL_SET
 scoreboard objectives remove HUN_LVL_EXT
 scoreboard objectives remove TIMER_HUN_TOT
