@@ -9,8 +9,8 @@
     },
     "parent": "att2:treasure/chest_250",
     "rewards": {
-        "function": "att2:advancement/exploit_5",
-        "experience": 500
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
                 },
     "criteria": {
         "chest_1000": {

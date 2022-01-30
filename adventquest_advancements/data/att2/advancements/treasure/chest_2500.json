@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Rapacious"},
+        "description": {"translate":"Open 2500 Chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/chest_1000",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 5000
+                },
+    "criteria": {
+        "chest_2500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

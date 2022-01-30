@@ -116,7 +116,7 @@ execute if score Neth0 TIMER matches 6300 run function att2:dialogs/title/credit
 execute if score Neth0 TIMER matches 6400 run function att2:dialogs/title/credits/testers_beta_subtitle29
 execute if score Neth0 TIMER matches 6500 run function att2:dialogs/title/credits/testers_beta_subtitle30
 
-execute if score Neth0 TIMER matches 6600 run title @a times 20 1350 50
+execute if score Neth0 TIMER matches 6600 run title @a times 20 1470 50
 execute if score Neth0 TIMER matches 6600 run function att2:dialogs/title/credits/thanks_title1
 execute if score Neth0 TIMER matches 6600 run function att2:dialogs/title/credits/thanks_subtitle1
 execute if score Neth0 TIMER matches 6640 run function att2:dialogs/title/credits/thanks_subtitle2

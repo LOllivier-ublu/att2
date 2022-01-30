@@ -3,13 +3,14 @@
         "icon": {
             "item": "minecraft:chest"
         },
-        "title": {"translate":"More Treasure"},
-        "description": {"translate":"Open 250 Chest"}
+        "title": {"translate":"Even More Treasure"},
+        "description": {"translate":"Open 250 Chest"},
+        "frame": "goal"
     },
-    "parent": "att2:treasure/root",
+    "parent": "att2:treasure/chest_50",
     "rewards": {
-        "function": "att2:advancement/exploit_2",
-        "experience": 100
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
                 },
     "criteria": {
         "chest_250": {
