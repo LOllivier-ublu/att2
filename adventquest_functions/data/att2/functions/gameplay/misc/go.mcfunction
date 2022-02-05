@@ -3,6 +3,7 @@
 #Process miscelaneous actions 									#
 #################################################################
 
+function att2:gameplay/misc/assist/go
 function att2:gameplay/misc/skin/go
 function att2:gameplay/misc/dummy/go
 function att2:gameplay/misc/quest_icon/go
