@@ -76,3 +76,6 @@ execute in minecraft:the_end positioned -895 83 -644 as @s[distance=..6] if scor
 execute in minecraft:the_end positioned -920 145 -598 as @s[distance=..6] if score 71 SECRET_WALLBREAK matches 0 run function att2:advancement/test_all/secret/wall_break/71
 execute in minecraft:the_end positioned -1053 30 -632 as @s[distance=..6] if score 72 SECRET_WALLBREAK matches 0 run function att2:advancement/test_all/secret/wall_break/72
 execute in minecraft:the_end positioned -1192 230 -670 as @s[distance=..6] if score 73 SECRET_WALLBREAK matches 0 run function att2:advancement/test_all/secret/wall_break/73
+
+execute in minecraft:overworld positioned -5229 77 -6174 as @s[distance=..6] if score 74 SECRET_WALLBREAK matches 0 run function att2:advancement/test_all/secret/wall_break/74
+execute in minecraft:overworld positioned -5055 153 -6570 as @s[distance=..6] if score 75 SECRET_WALLBREAK matches 0 run function att2:advancement/test_all/secret/wall_break/75

@@ -4,4 +4,4 @@
 #################################################################
 
 function att2:advancement/test_all/secret/wall_break_add
-scoreboard players set 21 SECRET_WALLBREAK 1
+scoreboard players set 20 SECRET_WALLBREAK 1

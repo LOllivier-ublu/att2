@@ -1,7 +1,7 @@
 #################################################################
 #Made by Adventquest											#
-#Process adding Ice Melt Secret advancement 			        #
+#Process adding Wall Break Secret advancement 			        #
 #################################################################
 
-function att2:advancement/test_all/secret/ice_melt_add
-scoreboard players set 20 SECRET_ICEMELT 1
+function att2:advancement/test_all/secret/wall_break_add
+scoreboard players set 75 SECRET_WALLBREAK 1

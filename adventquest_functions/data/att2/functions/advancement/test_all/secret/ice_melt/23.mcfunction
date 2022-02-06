@@ -4,5 +4,4 @@
 #################################################################
 
 function att2:advancement/test_all/secret/ice_melt_add
-scoreboard players set 23
- SECRET_ICEMELT 1
+scoreboard players set 23 SECRET_ICEMELT 1
