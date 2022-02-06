@@ -4,4 +4,5 @@
 #################################################################
 
 fill 8110 172 6587 8114 167 6583 minecraft:diamond_block replace minecraft:gold_block
-fill 8110 22 6587 8114 17 6583 minecraft:diamond_block replace minecraft:gold_block
+
+fill 8110 16 6587 8114 11 6583 minecraft:diamond_block replace minecraft:gold_block
