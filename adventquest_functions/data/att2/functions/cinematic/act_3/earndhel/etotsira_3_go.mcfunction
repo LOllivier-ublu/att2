@@ -54,7 +54,6 @@ execute if score Real0 TIMER matches 5201 run tellraw @a {"text":"[-->]","color"
 execute if score Real0 TIMER matches 5550 run function att2:dialogs/mainquest/act_3/ch6_player_17
 execute if score Real0 TIMER matches 5551 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 5551..5699 run scoreboard players set Real0 TIMER 5699"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 5700 run function att2:dialogs/mainquest/act_3/ch6_etotsira_16
-execute if score Real0 TIMER matches 5701 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 5701..5999 run scoreboard players set Real0 TIMER 5999"},"hoverEvent":{"action":"show_text","value":"..."}}
 
 execute if score Real0 TIMER matches 6000 run function att2:dialogs/title/a4_ch1_title1
 execute if score Real0 TIMER matches 6000 run function att2:dialogs/title/a4_ch1_subtitle1

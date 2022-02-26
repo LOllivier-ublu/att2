@@ -31,7 +31,7 @@ execute if score Real0 TIMER matches 1301 run tellraw @a {"text":"[-->]","color"
 execute if score Real0 TIMER matches 1400 run function att2:dialogs/mainquest/act_4/ch1_player_5
 execute if score Real0 TIMER matches 1401 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 1401..1699 run scoreboard players set Real0 TIMER 1699"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 1700 run function att2:dialogs/mainquest/act_4/ch1_player_6
-execute if score Real0 TIMER matches 1701 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 1701..1699 run scoreboard players set Real0 TIMER 1799"},"hoverEvent":{"action":"show_text","value":"..."}}
+execute if score Real0 TIMER matches 1701 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 1701..1799 run scoreboard players set Real0 TIMER 1799"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 1800 run function att2:dialogs/mainquest/act_4/ch1_eldaris_2
 execute if score Real0 TIMER matches 1801 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 1801..1999 run scoreboard players set Real0 TIMER 1999"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 2000 run function att2:dialogs/mainquest/act_4/ch1_player_7
@@ -41,7 +41,6 @@ execute if score Real0 TIMER matches 2301 run tellraw @a {"text":"[-->]","color"
 execute if score Real0 TIMER matches 2500 run function att2:dialogs/mainquest/act_4/ch1_player_8
 execute if score Real0 TIMER matches 2501 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 2501..2599 run scoreboard players set Real0 TIMER 2599"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 2600 run function att2:dialogs/mainquest/act_4/ch1_eldaris_4
-execute if score Real0 TIMER matches 2601 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 2601..2699 run scoreboard players set Real0 TIMER 2699"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 2700 run function att2:cinematic/act_4/ryliath/2_action_1
 execute if score Real0 TIMER matches 2700 run function att2:physicmod/reg1/ryliath_palace3
 execute if score Real0 TIMER matches 2701 run scoreboard players set Mainquest SIDEQUEST 92
