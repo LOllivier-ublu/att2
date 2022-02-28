@@ -7,4 +7,4 @@ summon minecraft:villager 3477.6 71.5 3763 {Rotation:[0.0f,0.0f],Profession:5,Si
 
 function att2:physicmod/reg2/camp_exile/barrier8
 
-execute unless score SQ16 SIDEQUEST matches 1 run function att2:cinematic/sidequest/16/garret_temeral/update_dialog
+execute unless score SQ16 SIDEQUEST matches 1 run function att2:cinematic/sidequest/16/fail

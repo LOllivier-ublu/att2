@@ -6,6 +6,8 @@
 execute as @a run function att2:dialogs/sidequest/failed_effect
 scoreboard players set SQ20 SIDEQUEST -1
 scoreboard players add @a SIDEQUEST 1
-execute as @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,1626,0,1626]}] at @s run particle minecraft:angry_villager ~ ~2 ~ 0.4 0.5 0.4 0 10 normal
-
 function att2:cinematic/sidequest/20/chiara/move_pnj_1
+execute as @a run function att2:advancement/completion_1
+tag 00000000-0000-065a-0000-00000000065a remove QUEST
+
+execute at 00000000-0000-065a-0000-00000000065a run particle minecraft:angry_villager ~ ~2 ~ 0.4 0.5 0.4 0 10 normal

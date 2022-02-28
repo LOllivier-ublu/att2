@@ -8,5 +8,7 @@ function att2:physicmod/reg1/jarat_malak_sq1_end
 scoreboard players add @a SIDEQUEST 1
 scoreboard players set SQ1 SIDEQUEST -1
 scoreboard players set ormack_PNJ DIALOG 1
+execute as @a run function att2:advancement/completion_1
+tag 00000000-0000-010a-0000-00000000010a remove QUEST
 
-execute as @e[type=minecraft:zombified_piglin,nbt={UUID:[I;0,266,0,266]}] at @s run particle minecraft:angry_villager ~ ~2 ~ 0.4 0.5 0.4 0 10 normal
+execute at 00000000-0000-010a-0000-00000000010a run particle minecraft:angry_villager ~ ~2 ~ 0.4 0.5 0.4 0 10 normal
