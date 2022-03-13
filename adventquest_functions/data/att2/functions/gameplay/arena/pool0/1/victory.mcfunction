@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Process victory for Pool0 Arena1                                   #
+#Process victory (end4 last wave) for Pool0 Arena1                  #
 #####################################################################
 
 scoreboard players set Pool0_A1 ARENA -2

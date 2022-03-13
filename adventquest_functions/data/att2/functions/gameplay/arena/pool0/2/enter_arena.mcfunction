@@ -1,6 +1,9 @@
 #####################################################################
 #Made by Adventquest												#
-#Kills every existing minions of Pool0 Arena1                       #
+#Process challengers enters arena                               	#
 #####################################################################
 
-execute as @e[x=5123,y=69,z=-4774,dx=62,dy=53,dz=62,team=hostile,scores={GAMELEVEL=0..}] run kill @s
+tp @s 5157 70 -4748
+stopsound @s
+tag @s add NoAutoMusic
+scoreboard players set @s MUSIC_BOSS 0

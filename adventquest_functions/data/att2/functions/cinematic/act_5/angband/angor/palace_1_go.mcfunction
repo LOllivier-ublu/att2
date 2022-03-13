@@ -116,7 +116,7 @@ execute if score Neth0 TIMER matches 6300 run function att2:dialogs/title/credit
 execute if score Neth0 TIMER matches 6400 run function att2:dialogs/title/credits/testers_beta_subtitle29
 execute if score Neth0 TIMER matches 6500 run function att2:dialogs/title/credits/testers_beta_subtitle30
 
-execute if score Neth0 TIMER matches 6600 run title @a times 20 1470 50
+execute if score Neth0 TIMER matches 6600 run title @a times 20 1550 50
 execute if score Neth0 TIMER matches 6600 run function att2:dialogs/title/credits/thanks_title1
 execute if score Neth0 TIMER matches 6600 run function att2:dialogs/title/credits/thanks_subtitle1
 execute if score Neth0 TIMER matches 6640 run function att2:dialogs/title/credits/thanks_subtitle2
@@ -157,23 +157,24 @@ execute if score Neth0 TIMER matches 8000 run function att2:dialogs/title/credit
 execute if score Neth0 TIMER matches 8040 run function att2:dialogs/title/credits/thanks_subtitle37
 execute if score Neth0 TIMER matches 8080 run function att2:dialogs/title/credits/thanks_subtitle38
 execute if score Neth0 TIMER matches 8120 run function att2:dialogs/title/credits/thanks_subtitle39
+execute if score Neth0 TIMER matches 8160 run function att2:dialogs/title/credits/thanks_subtitle40
 
-execute if score Neth0 TIMER matches 8150 run title @a times 50 200 100
-execute if score Neth0 TIMER matches 8150 run function att2:dialogs/title/subtitle_empty
-execute if score Neth0 TIMER matches 8150 run function att2:dialogs/title/credits/final_title0
-execute if score Neth0 TIMER matches 8300 run function att2:dialogs/title/credits/final_title1
-execute if score Neth0 TIMER matches 8300 run function att2:dialogs/title/credits/final_subtitle0
-execute if score Neth0 TIMER matches 8348 as @a run function att2:gameplay/checkpoint/remove_dimtag
-execute if score Neth0 TIMER matches 8349 in minecraft:overworld run spawnpoint @a 1543 15 1495
-execute if score Neth0 TIMER matches 8350 run scoreboard objectives setdisplay sidebar DAHAL
-execute if score Neth0 TIMER matches 8351 in minecraft:overworld run tp @a 1543.0 15 1495.0
+execute if score Neth0 TIMER matches 8200 run title @a times 50 200 100
+execute if score Neth0 TIMER matches 8200 run function att2:dialogs/title/subtitle_empty
+execute if score Neth0 TIMER matches 8200 run function att2:dialogs/title/credits/final_title0
+execute if score Neth0 TIMER matches 8350 run function att2:dialogs/title/credits/final_title1
+execute if score Neth0 TIMER matches 8350 run function att2:dialogs/title/credits/final_subtitle0
+execute if score Neth0 TIMER matches 8398 as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute if score Neth0 TIMER matches 8399 in minecraft:overworld run spawnpoint @a 1543 15 1495
+execute if score Neth0 TIMER matches 8400 run scoreboard objectives setdisplay sidebar DAHAL
+execute if score Neth0 TIMER matches 8401 in minecraft:overworld run tp @a 1543.0 15 1495.0
 
 
 #=======================#
 #end of the cinematic	#
 #=======================#
 
-execute if score Neth0 TIMER matches 8351.. in minecraft:the_nether run setblock 3526 75 4501 minecraft:air
-execute if score Neth0 TIMER matches 511..8350 run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 8401.. in minecraft:the_nether run setblock 3526 75 4501 minecraft:air
+execute if score Neth0 TIMER matches 511..8400 run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 508..509 run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 0..500 run function att2:cinematic/neth0_iteration
