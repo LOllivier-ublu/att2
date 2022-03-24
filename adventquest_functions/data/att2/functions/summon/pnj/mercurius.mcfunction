@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon of Pnj  		     			 		 #
+##################################################
+
+summon minecraft:zombified_piglin ~ ~ ~ {Rotation:[0.0f,0.0f],UUID:[I;0,5466,0,5466],Tags:["PNJ"],NoAI:1,Invulnerable:1,CustomName:"\"MERCURIUS\"",CustomNameVisible:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.attack_damage,Base:0.0},{Name:generic.max_health,Base:1000.0}],Health:1000,AbsorptionAmount:1000000000,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:373504}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:373504}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:373504}}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:[I;-1082217256,1681932649,-2143579146,-2077497045],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRmMzYzYjMwMGQxY2ZkODM3MWIyYmI5ZDc5ZDZlMDc0YjI0ZGFhNDRiZGRjN2FmNTk5NWM3NmViNjgwY2VlOCJ9fX0="}]}}}}]}

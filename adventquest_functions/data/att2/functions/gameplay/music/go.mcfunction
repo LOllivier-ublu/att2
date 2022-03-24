@@ -5,6 +5,7 @@
 
 # /!\ You can prevent a player from hearing music by adding tag NoAutoMusic on him
 
+#nightmare	        :	-2
 #nowhere/timeless	:	-1
 #tellurön past		:	0
 #tellurön present	:	1
@@ -16,6 +17,7 @@
 #billgart           :   7
 
 # Detect area within dimension ("at @s" is needed to execute inner test within player's true dimension)
+execute as @a[scores={DIMENSION=-2}] at @s run function att2:gameplay/music/detection/nightmare
 execute as @a[scores={DIMENSION=-1}] at @s run function att2:gameplay/music/detection/nowhere
 execute as @a[scores={DIMENSION=0}] at @s run function att2:gameplay/music/detection/telluron_past
 execute as @a[scores={DIMENSION=1}] at @s run function att2:gameplay/music/detection/telluron_present
