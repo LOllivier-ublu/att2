@@ -3,6 +3,7 @@
 #Summon intro arena golem							#
 #####################################################
 
+setblock 5000 72 -4952 minecraft:air
 kill @e[type=minecraft:iron_golem,x=4995,y=71,z=-4955,dx=10,dy=5,dz=-28]
 kill @e[type=minecraft:shulker,x=4995,y=71,z=-4955,dx=10,dy=5,dz=-28]
 

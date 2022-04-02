@@ -7,6 +7,11 @@ scoreboard objectives add ARENA dummy
 
 scoreboard players set Pool0_Trigger_Summoning ARENA 0
 scoreboard players set Pool0_Timer1 ARENA -1
+scoreboard players set Pool0 ARENA 0
+scoreboard players set Pool1 ARENA 0
+scoreboard players set Pool2 ARENA 0
+scoreboard players set Pool3 ARENA 0
+scoreboard players set Tournament ARENA -1
 
 scoreboard players set Pool0_A1 ARENA -1
 scoreboard players set Pool0_A1_count ARENA 0

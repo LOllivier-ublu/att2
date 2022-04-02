@@ -11,11 +11,11 @@ execute if score SQ60 SIDEQUEST matches 0 run function att2:dialogs/sidequest/as
 execute if score SQ60 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq60/progress
 execute if score SQ60 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq60/complete
 
-#SQ59 - Arène des champions (PNJ : /) TODO
-#execute if score SQ59 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
-#execute if score SQ59 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
-#execute if score SQ59 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq59/progress
-#execute if score SQ59 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq59/complete
+#SQ59 - L'accomplissement du héros (PNJ : /) TODO
+execute if score SQ59 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
+execute if score SQ59 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
+execute if score SQ59 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq59/progress
+execute if score SQ59 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq59/complete
 
 #SQ58 - Les vestiges du passé (PNJ : /)
 execute if score SQ58 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
