@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process the System 4 of Arena 				    #
+#Use function to process the system_leave_pool0 				#
 #################################################################
 
 execute at @a run function att2:sound/dialogs/simple

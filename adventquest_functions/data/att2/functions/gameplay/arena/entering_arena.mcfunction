@@ -14,5 +14,11 @@ execute if score Tournament ARENA matches 0 if score Pool0 ARENA matches 1 run f
 execute if score Tournament ARENA matches 0 if score Pool0 ARENA matches 2 run function att2:gameplay/arena/pool0/3/enter_arena
 execute if score Tournament ARENA matches 0 if score Pool0 ARENA matches 3 run function att2:gameplay/arena/pool0/4/enter_arena
 execute if score Tournament ARENA matches 0 if score Pool0 ARENA matches 4 run function att2:gameplay/arena/pool0/5/enter_arena
-execute if score Tournament ARENA matches 1 run function att2:gameplay/arena/pool1/1/enter_arena
+execute if score Tournament ARENA matches 1 if score Pool1_A1_Choose ARENA matches 1 run function att2:gameplay/arena/pool1/1/enter_arena
+execute if score Tournament ARENA matches 1 if score Pool1_A2_Choose ARENA matches 1 run function att2:gameplay/arena/pool1/2/enter_arena
+execute if score Tournament ARENA matches 1 if score Pool1_A3_Choose ARENA matches 1 run function att2:gameplay/arena/pool1/3/enter_arena
+execute if score Tournament ARENA matches 1 if score Pool1_A4_Choose ARENA matches 1 run function att2:gameplay/arena/pool1/4/enter_arena
+execute if score Tournament ARENA matches 1 if score Pool1_A5_Choose ARENA matches 1 run function att2:gameplay/arena/pool1/5/enter_arena
+execute if score Tournament ARENA matches 1 if score Pool1_A6_Choose ARENA matches 1 run function att2:gameplay/arena/pool1/6/enter_arena
+execute if score Tournament ARENA matches 1 if score Pool1_A7_Choose ARENA matches 1 run function att2:gameplay/arena/pool1/7/enter_arena
 execute if score Tournament ARENA matches 2 run function att2:gameplay/arena/pool2/1/enter_arena
