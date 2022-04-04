@@ -9,6 +9,6 @@ execute if score Pool1_A1 ARENA matches 0.. as @e[x=5034,y=71,z=-5027,dx=54,dy=2
 # Felroth
 execute if score Pool1_A1 ARENA matches 0.. as @e[x=5034,y=71,z=-5027,dx=54,dy=27,dz=54,tag=Felroth,limit=1] store result bossbar minecraft:felroth value run data get entity @s Health
 execute if score Pool1_A1 ARENA matches 0.. as @e[x=5034,y=71,z=-5027,dx=54,dy=27,dz=54,tag=Felroth,limit=1] store result bossbar minecraft:felroth max run data get entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base
-# Felroth
+# Myrath
 execute if score Pool1_A1 ARENA matches 0.. as @e[x=5034,y=71,z=-5027,dx=54,dy=27,dz=54,tag=Myrath,limit=1] store result bossbar minecraft:myrath value run data get entity @s Health
 execute if score Pool1_A1 ARENA matches 0.. as @e[x=5034,y=71,z=-5027,dx=54,dy=27,dz=54,tag=Myrath,limit=1] store result bossbar minecraft:myrath max run data get entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base
