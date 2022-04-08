@@ -6,8 +6,8 @@
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"L'évènement finale","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Union des dimensions","color":"gray"}
 
 #ENGLISH LANGUAGE
 
-title @s[scores={LANGUAGE=1}] subtitle {"text":"The final test","color":"gray"}
+title @s[scores={LANGUAGE=1}] subtitle {"text":"Union of Dimensions","color":"gray"}

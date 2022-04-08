@@ -9,3 +9,5 @@ execute positioned 5332 98 -4972 run function att2:summon/arena/boss/blobby
 execute positioned 5303 86 -5000 run function att2:summon/arena/boss/asurok
 function att2:gameplay/arena/pool1/7/minions_summoning
 function att2:gameplay/arena/pool1/7/init_bossbar
+function att2:dialogs/title/arena/pool1_a7_title
+function att2:dialogs/title/arena/pool1_a7_subtitle

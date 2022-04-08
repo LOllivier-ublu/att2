@@ -1,13 +1,13 @@
 #############################################################
 #Made by Adventquest						                #
-#Use function to activate the subtitle Pool I - Arena III   #
+#Use function to activate the subtitle Pool I - Elcheol     #
 #############################################################
 
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Épreuve III","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Alliance d'Elcheol'","color":"gray"}
 
 #ENGLISH LANGUAGE
 
-title @s[scores={LANGUAGE=1}] subtitle {"text":"Event III","color":"gray"}
+title @s[scores={LANGUAGE=1}] subtitle {"text":"Pact of Elcheol","color":"gray"}

@@ -1,13 +1,13 @@
 #############################################################
 #Made by Adventquest						                #
-#Use function to activate the subtitle Pool I - Arena II    #
+#Use function to activate the subtitle Pool I - Schestrow   #
 #############################################################
 
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Épreuve II","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Alliance de Schestrow'","color":"gray"}
 
 #ENGLISH LANGUAGE
 
-title @s[scores={LANGUAGE=1}] subtitle {"text":"Event II","color":"gray"}
+title @s[scores={LANGUAGE=1}] subtitle {"text":"Pact of Schestrow","color":"gray"}

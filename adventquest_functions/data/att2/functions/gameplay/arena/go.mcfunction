@@ -4,7 +4,7 @@
 #################################################################
 
 
-# portal enter & exit arena effect
+# Portal enter & exit arena effect
 execute positioned 5000 73.5 -5016 run function att2:gameplay/arena/portal_arena_enter_effect_go
 execute positioned 5000 73.5 -5016 if score Tournament ARENA matches 0.. run function att2:gameplay/arena/portal_arena_exit_effect_go
 

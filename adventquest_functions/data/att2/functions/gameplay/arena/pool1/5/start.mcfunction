@@ -9,3 +9,5 @@ execute positioned 4946 106 -5000 run function att2:summon/arena/boss/aozathreyo
 execute positioned 4927 72 -5000 run function att2:summon/arena/boss/illusion
 function att2:gameplay/arena/pool1/5/minions_summoning
 function att2:gameplay/arena/pool1/5/init_bossbar
+function att2:dialogs/title/arena/pool1_a5_title
+function att2:dialogs/title/arena/pool1_a5_subtitle

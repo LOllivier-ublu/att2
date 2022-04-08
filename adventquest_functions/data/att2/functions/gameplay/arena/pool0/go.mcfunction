@@ -10,6 +10,9 @@ execute positioned 4983 70 -4742 if score Pool0_A3 ARENA matches -2 if score Poo
 execute positioned 4897 71 -4745 if score Pool0_A4 ARENA matches -2 if score Pool0_A4_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
 execute positioned 4832 72 -4747 if score Pool0_A5 ARENA matches -2 if score Pool0_A5_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
 
+# Minions effect
+function att2:gameplay/arena/minions_effect
+
 # Trigger Timer for Number mobs in arena
 execute if score Pool0_Trigger_Summoning ARENA matches 1..10 run scoreboard players add Pool0_Trigger_Summoning ARENA 1
 execute if score Pool0_Trigger_Summoning ARENA matches 11.. run scoreboard players set Pool0_Trigger_Summoning ARENA 0
