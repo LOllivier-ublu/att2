@@ -2,7 +2,7 @@
 #Made by Adventquest											#
 #Process choosing pool1 of arenas							    #
 #1 <= Pool_Random <= 7                                          #
-#Pool_A1_Choose :                                               #
+#Pool1_A#_Choose :                                              #
 #   -1 arena is excluded                                        #
 #   0 arena can be choosen                                      #
 #   1 arena has been choose                                     #

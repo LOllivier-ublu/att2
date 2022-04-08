@@ -6,19 +6,25 @@
 
 scoreboard players set Pool0_Trigger_Summoning ARENA 0
 scoreboard players set Pool0_Timer1 ARENA -1
+scoreboard players set Pool0_Random ARENA 1
 
 scoreboard players set Pool0_A1 ARENA -1
 scoreboard players set Pool0_A1_count ARENA 0
 scoreboard players set Pool0_A1_Wave ARENA 1
+scoreboard players set Pool0_A1_Choose ARENA 0
 scoreboard players set Pool0_A2 ARENA -1
 scoreboard players set Pool0_A2_count ARENA 0
 scoreboard players set Pool0_A2_Wave ARENA 1
+scoreboard players set Pool0_A2_Choose ARENA 0
 scoreboard players set Pool0_A3 ARENA -1
 scoreboard players set Pool0_A3_count ARENA 0
 scoreboard players set Pool0_A3_Wave ARENA 1
+scoreboard players set Pool0_A3_Choose ARENA 0
 scoreboard players set Pool0_A4 ARENA -1
 scoreboard players set Pool0_A4_count ARENA 0
 scoreboard players set Pool0_A4_Wave ARENA 1
+scoreboard players set Pool0_A4_Choose ARENA 0
 scoreboard players set Pool0_A5 ARENA -1
 scoreboard players set Pool0_A5_count ARENA 0
 scoreboard players set Pool0_A5_Wave ARENA 1
+scoreboard players set Pool0_A5_Choose ARENA 0

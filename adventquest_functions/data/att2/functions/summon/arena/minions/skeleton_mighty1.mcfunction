@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon skeleton Minions arena  		         #
+##################################################
+
+summon minecraft:skeleton ~ ~ ~ {Tags:["LVL0","CLASS16","Undead","ArenaMinion","Mighty1"],PersistenceRequired:1,DeathLootTable:"att2:empty",HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],Attributes:[{Name:generic.movement_speed,Base:0.225},{Name:generic.follow_range,Base:100.0}],HandItems:[{id:"minecraft:wooden_sword",Count:1},{id:"minecraft:wooden_sword",Count:1}],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1}]}},{id:"minecraft:leather_leggings",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1}]}},{id:"minecraft:leather_chestplate",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1}]}},{id:"minecraft:leather_helmet",Count:1,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1}]}}]}
