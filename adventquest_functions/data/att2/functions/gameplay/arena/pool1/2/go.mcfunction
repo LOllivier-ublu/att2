@@ -11,7 +11,7 @@
 execute if score Pool1_A2 ARENA matches -1 if entity @a[x=5109,y=70,z=-5035,dx=70,dy=37,dz=70,gamemode=adventure] run function att2:gameplay/arena/pool1/2/start
 
 # Music management
-execute if score Pool1_A2 ARENA matches 0.. as @a[x=5109,y=70,z=-5035,dx=70,dy=37,dz=70,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_sideboss
+execute if score Pool1_A2 ARENA matches 0.. as @a[x=5109,y=70,z=-5035,dx=70,dy=37,dz=70,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
 execute if score Pool1_A2 ARENA matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Bossbar storing health of bosses Pool1_A2

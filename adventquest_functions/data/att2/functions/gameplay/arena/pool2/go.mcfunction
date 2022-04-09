@@ -10,8 +10,8 @@
 
 # Portal between arena pool2 effect
 execute positioned 4984 73 -5346 if score Pool2_A1 ARENA matches -2 if score Pool2_A1_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
-execute positioned 5144 73 -5000 if score Pool2_A2 ARENA matches -2 if score Pool2_A2_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
-execute positioned 5240 75 -5000 if score Pool2_A3 ARENA matches -2 if score Pool2_A3_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
+execute positioned 4982 71 -5252 if score Pool2_A2 ARENA matches -2 if score Pool2_A2_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
+execute positioned 5000 73 -5116 if score Pool2_A3 ARENA matches -2 if score Pool2_A3_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
 
 # Random arena choosen
 execute if score Pool2_Random ARENA matches 1..3 run scoreboard players add Pool2_Random ARENA 1
