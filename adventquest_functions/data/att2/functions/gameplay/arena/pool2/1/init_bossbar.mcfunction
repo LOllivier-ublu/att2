@@ -8,3 +8,4 @@ bossbar set minecraft:pool2_a1 style notched_12
 bossbar set minecraft:pool2_a1 players @a
 bossbar set minecraft:pool2_a1 color purple
 bossbar set minecraft:pool2_a1 name [{"text":"League of Time","color":"red"}]
+bossbar set minecraft:pool2_a1 max 6

@@ -1,6 +1,11 @@
 #################################################################
 #Made by Adventquest											#
 #Process arena pool1                                            #
+#Each Arena have a score name Pool1_Ax (where x is the arena)   #
+#Pool1_Ax can have multiple state stored in the ARENA score     #
+#   -1 Arena 1 not started                                      #
+#   0.. Arena 1 is beginning                                    #
+#   -2 Arena 1 has been done                                    #
 #################################################################
 
 # Portal between arena pool1 effect

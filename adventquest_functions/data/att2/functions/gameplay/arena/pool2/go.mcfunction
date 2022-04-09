@@ -1,10 +1,15 @@
 #################################################################
 #Made by Adventquest											#
 #Process arena pool2                                            #
+#Each Arena have a score name Pool2_Ax (where x is the arena)   #
+#Pool2_Ax can have multiple state stored in the ARENA score     #
+#   -1 Arena 1 not started                                      #
+#   0.. Arena 1 is beginning                                    #
+#   -2 Arena 1 has been done                                    #
 #################################################################
 
 # Portal between arena pool2 effect
-execute positioned 5061 78 -5000 if score Pool2_A1 ARENA matches -2 if score Pool2_A1_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
+execute positioned 4984 73 -5346 if score Pool2_A1 ARENA matches -2 if score Pool2_A1_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
 execute positioned 5144 73 -5000 if score Pool2_A2 ARENA matches -2 if score Pool2_A2_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
 execute positioned 5240 75 -5000 if score Pool2_A3 ARENA matches -2 if score Pool2_A3_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
 

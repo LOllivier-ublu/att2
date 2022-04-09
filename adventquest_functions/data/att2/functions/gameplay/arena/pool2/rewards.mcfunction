@@ -36,6 +36,17 @@ function att2:summon/reg_1/arena_rewards
 function att2:summon/reg_1/arena_rewards
 function att2:summon/reg_1/arena_rewards
 
+function att2:summon/reg_1/arena_rewards
+function att2:summon/reg_1/arena_rewards
+function att2:summon/reg_1/arena_rewards
+function att2:summon/reg_1/arena_rewards
+function att2:summon/reg_1/arena_rewards
+function att2:summon/reg_1/arena_rewards
+function att2:summon/reg_1/arena_rewards
+function att2:summon/reg_1/arena_rewards
+function att2:summon/reg_1/arena_rewards
+function att2:summon/reg_1/arena_rewards
+
 function att2:summon/reg_2/arena_rewards
 function att2:summon/reg_2/arena_rewards
 function att2:summon/reg_2/arena_rewards

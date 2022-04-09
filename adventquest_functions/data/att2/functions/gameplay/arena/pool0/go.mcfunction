@@ -1,6 +1,18 @@
 #################################################################
 #Made by Adventquest											#
 #Process arena pool0                                            #
+#Each Arena have a score :                                      #
+#   - Pool0_Ax (where 'x' is the arena) :                       #
+#       -1 Arena 1 not started                                  #
+#       0.. Arena 1 is beginning                                #
+#       -2 Arena 1 has been done                                #
+#Pool0_Ax_Wave for waves of arena :                             #
+#   -1 all Waves are done                                       #
+#   0 Waves is not beginning                                    #
+#   1 Wave 1 is beginning                                       #
+#   2 Wave 2 is beginning                                       #
+#   3 Wave 3 is beginning                                       #
+#   4 Wave 4 is beginning                                       #
 #################################################################
 
 # Portal between arena pool0 effect
