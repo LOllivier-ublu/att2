@@ -4,3 +4,4 @@
 ##################################################
 
 scoreboard objectives add SQ59 dummy
+scoreboard players set cinematic_timer SQ59 0
