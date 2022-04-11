@@ -1,6 +1,6 @@
 #############################################################
 #Made by Adventquest                               			#
-#Process step1 cinematic 									#
+#Process step2 cinematic 									#
 #############################################################
 
 execute if score cinematic_timer SQ59 matches 5 run function att2:dialogs/sidequest/sq59/strange_voice_1
