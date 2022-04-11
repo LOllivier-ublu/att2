@@ -4,7 +4,7 @@
 #####################################################
 
 function att2:cinematic/sidequest/60/step1
-function att2:cinematic/sidequest/59/step1/earndhel_guard/start_cinematic1
+function att2:cinematic/sidequest/59/step0/start_cinematic1
 function att2:physicmod/reg1/ryliathportal_space
 execute positioned -5030 80 -5034 run function att2:particle/ryliath_portal_set
 execute positioned -5030 80 -5034 run function att2:sound/misc/space_portal
