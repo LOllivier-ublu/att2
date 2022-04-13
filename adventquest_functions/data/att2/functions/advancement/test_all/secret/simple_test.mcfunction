@@ -81,3 +81,4 @@ execute in minecraft:the_end positioned -1125 23 -670 as @s[distance=..6] if sco
 execute in minecraft:the_end positioned -1330 21 -561 as @s[distance=..6] if score 76 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/76
 execute in minecraft:the_end positioned -1588 45 -600 as @s[distance=..6] if score 77 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/77
 execute in minecraft:overworld positioned -5417 46 -4641 as @s[distance=..6] if score 78 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/78
+execute in minecraft:the_end positioned -1183 112 -568 as @s[distance=..6] if score 77 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/79

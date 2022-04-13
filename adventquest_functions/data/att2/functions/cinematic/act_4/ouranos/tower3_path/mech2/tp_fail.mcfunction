@@ -6,7 +6,7 @@
 kill @e[type=minecraft:wolf,tag=BattleMusic]
 kill @e[type=minecraft:armor_stand,nbt={UUID:[I;0,65647,0,303]}]
 effect give @a[scores={OURANOS=-1}] minecraft:wither 2 4 true
-tp @a[scores={OURANOS=-1}] 7415 191 6463 0 0
+tp @a[scores={OURANOS=-1}] 7404 193 6460 -90 0
 
 execute positioned 7415 192 6461 run function att2:sound/misc/power_failure
 execute positioned 7415 192 6461 run function att2:sound/misc/fail1
