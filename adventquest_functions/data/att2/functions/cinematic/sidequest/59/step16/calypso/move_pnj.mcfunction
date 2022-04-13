@@ -1,0 +1,7 @@
+#################################################################
+#Made by Adventquest											#
+#Use function to process the first step 						#
+#################################################################
+
+execute as 00000000-0000-156a-0000-00000000156a at @s run tp @s 29892 101 30002 -90 0
+summon minecraft:villager 29892.6 101 30002 {Rotation:[-90.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
