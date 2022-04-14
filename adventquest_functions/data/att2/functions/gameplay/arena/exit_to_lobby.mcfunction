@@ -4,4 +4,5 @@
 #############################################################
 
 execute as @s[tag=InArena] run tag @s remove InArena
-tp @s 5000 75 -5000
+execute if score Tournament ARENA matches -1..3 run tp @s 5000 75 -5000
+execute if score Tournament ARENA matches 4 run tp @s 5000 104 -5000

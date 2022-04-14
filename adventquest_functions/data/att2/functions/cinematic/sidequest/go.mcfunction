@@ -93,4 +93,6 @@ execute in minecraft:overworld if score SQ56 SIDEQUEST matches 1..99 run functio
 execute in minecraft:the_nether if score SQ57 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/57/go
 execute in minecraft:overworld if score SQ58 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/58/go
 execute in minecraft:overworld if score SQ59 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/59/go
+execute in minecraft:overworld if score SQ59 SIDEQUEST matches 100 run function att2:cinematic/sidequest/59/step18/portal_go
+execute in minecraft:overworld if score SQ59 SIDEQUEST matches 20.. run function att2:gameplay/arena/go
 execute if score SQ60 SIDEQUEST matches 1..99 if entity @a[scores={EXPLOIT=9120..}] run function att2:cinematic/sidequest/60/end

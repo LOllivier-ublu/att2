@@ -1,6 +1,7 @@
 #################################################################################################################
 #Made by Adventquest											                                                #
 #Use function gameplay:arena/go to process arena system		                                                    #
+#go is launch from att2:cinematic/sidequest/go                                                                  #
 #Tournament can have multiple state stored in the ARENA score                                                   #
 #   -1 Tournament not started                                                                                   #
 #   1..4 Tournament is beginning                                                                                #
@@ -26,8 +27,9 @@
 #################################################################################################################
 
 # Portal enter & exit arena effect
-execute positioned 5000 73.5 -5016 run function att2:gameplay/arena/portal_arena_enter_effect_go
-execute positioned 5000 73.5 -5016 if score Tournament ARENA matches 0.. run function att2:gameplay/arena/portal_arena_exit_effect_go
+execute positioned 5000 73.5 -5016 if score Tournament ARENA matches -1..3 run function att2:gameplay/arena/portal_arena_enter_effect_go
+execute positioned 5000 73.5 -4984 if score Tournament ARENA matches 0.. run function att2:gameplay/arena/portal_arena_exit_effect_go
+execute positioned 5000 73.5 -4949 if score Tournament ARENA matches -1 run function att2:gameplay/arena/portal_arena_exit_effect_go
 
 # Players entering arenas
 execute as @a[x=5000,y=100,z=-5000,distance=..2,gamemode=adventure] at @s run function att2:gameplay/arena/entering_arena
@@ -40,3 +42,6 @@ execute if score Tournament ARENA matches 3 run function att2:gameplay/arena/poo
 
 # Exit arena when player die (return to lobby)
 execute positioned 5000 125 -5000 as @a[distance=..2] at @s run function att2:gameplay/arena/exit_to_lobby
+
+# Exit arena when player choose to give up (return to ryliath)
+execute as @a[x=4999,y=72,z=-4949,dx=2,dy=2,dz=0,gamemode=adventure] at @s run tp @s -4992 166 -4908
