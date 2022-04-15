@@ -8,9 +8,9 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Voulez-vous continuer le t...?","color":"dark_aqua","italic":true}
+tellraw @a[scores={LANGUAGE=0}] {"text":"Voulez-vous continuer le t...?","color":"dark_aqua","italic":true}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"Do you want to continue the t...?","color":"dark_aqua","italic":true}
+tellraw @a[scores={LANGUAGE=1}] {"text":"Do you want to continue the t...?","color":"dark_aqua","italic":true}

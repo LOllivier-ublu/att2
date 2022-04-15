@@ -13,7 +13,7 @@ execute if score SQ59 SIDEQUEST matches 1 if score cinematic_timer SQ59 matches 
 # Player with strange voice
 execute if score SQ59 SIDEQUEST matches 2 if score cinematic_timer SQ59 matches 0 positioned 29879 100 30002 if entity @a[distance=..10,gamemode=adventure] run function att2:cinematic/sidequest/59/start_cinematic
 # Player in his dream
-execute if score SQ59 SIDEQUEST matches 2 if score cinematic_timer SQ59 matches 0 positioned 6022 159 -5953 if entity @a[distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/59/start_cinematic
+execute if score SQ59 SIDEQUEST matches 2 if score cinematic_timer SQ59 matches -1 positioned 6022 159 -5953 if entity @a[distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/59/start_cinematic
 # Player tp to Mercurius area
 execute if score SQ59 SIDEQUEST matches 12 if score cinematic_timer SQ59 matches 0 if entity @a[x=6099,y=145,z=-6314,dx=5,dy=10,dz=5,gamemode=adventure] run function att2:cinematic/sidequest/59/start_cinematic
 # Player talk with Mercurius
@@ -68,7 +68,7 @@ execute if score SQ59 SIDEQUEST matches 15 if score tic TIMECOUNTER matches 10 a
 
 # Anomaly effect
 execute if score SQ59 SIDEQUEST matches 2.. positioned 29879 100 30002 run function att2:cinematic/sidequest/59/step2/anomaly_effect
-execute if score SQ59 SIDEQUEST matches 2.. if score cinematic_timer SQ59 matches 0 positioned 29879 99 30002 as @a[distance=..1] run tp @s 6022 159 -5953
+execute if score SQ59 SIDEQUEST matches 2.. if score cinematic_timer SQ59 matches -1 positioned 29879 99 30002 as @a[distance=..1] run tp @s 6022 159 -5953
 
 # Portal Arena Ryliath effect + tp
 execute in minecraft:overworld if score SQ59 SIDEQUEST matches 19..99 run function att2:cinematic/sidequest/59/step18/portal_go

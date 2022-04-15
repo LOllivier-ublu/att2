@@ -12,3 +12,6 @@ scoreboard players set Pool3 ARENA 0
 scoreboard players set Tournament ARENA -1
 
 function att2:gameplay/arena/pool0/initialize
+function att2:gameplay/arena/pool1/initialize
+function att2:gameplay/arena/pool2/initialize
+function att2:gameplay/arena/pool3/initialize
