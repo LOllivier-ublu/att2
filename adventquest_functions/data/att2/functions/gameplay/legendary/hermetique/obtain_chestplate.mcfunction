@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain Corpus Hermeticum                        #
+##################################################
+
+give @s minecraft:netherite_chestplate{EquipmentType:"armor",EquipmentID:"corpushermticum",Rarity:"myt",SetId:"99",CustomModelData:10000001,Enchantments:[{id:"minecraft:protection",lvl:5}],Unbreakable:1,display:{Name:"\"§6C§7orpus §6H§7ermeticum\"","Lore":["{\"text\":\"§3Sic habebis gloriam totius mundi.\"}","{\"text\":\"§3Ideo fugiet a te omnis obscuritas.\"}","{\"text\":\"§7Sic mundus creatus est\"}","{\"text\":\"§6Completum est quod dixi de operatione Solis.\"}"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:8.00,Operation:0,Slot:chest,UUID:[I;0,10001,0,10001]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:5.00,Operation:1,Slot:chest,UUID:[I;0,20001,0,20001]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:6.0,Operation:0,Slot:chest,UUID:[I;0,30001,0,30001]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.03,Operation:0,Slot:chest,UUID:[I;0,40001,0,40001]}]}

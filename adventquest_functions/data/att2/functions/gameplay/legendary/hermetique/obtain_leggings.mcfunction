@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain Liber Hermetis                           #
+##################################################
+
+give @s minecraft:netherite_helmet{EquipmentType:"armor",EquipmentID:"liberhermetis",Rarity:"myt",SetId:"99",CustomModelData:10000002,Enchantments:[{id:"minecraft:protection",lvl:3}],Unbreakable:1,display:{Name:"\"§6L§7iber §6H§7ermetis\"","Lore":["{\"text\":\"§3Sic habebis gloriam totius mundi.\"}","{\"text\":\"§3Ideo fugiet a te omnis obscuritas.\"}","{\"text\":\"§7Sic mundus creatus est\"}","{\"text\":\"§6Completum est quod dixi de operatione Solis.\"}"]},AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6.00,Operation:0,Slot:legs,UUID:[I;0,10002,0,10002]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.00,Operation:1,Slot:legs,UUID:[I;0,20002,0,20002]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30002,0,30002]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.03,Operation:0,Slot:legs,UUID:[I;0,40002,0,40002]}]}
