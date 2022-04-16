@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": {"translate":"Nightmare run Apprentice!"},
+        "description": {"translate":"Complete a nightmare run for the first time."},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2500
+                },
+    "criteria": {
+        "nightmarerun_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

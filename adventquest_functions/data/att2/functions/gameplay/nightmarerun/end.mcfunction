@@ -3,6 +3,7 @@
 #Use function to process the NIGHTMARERUN end				    #
 #################################################################
 
+scoreboard players add Number_Complete NIGHTMARERUN 1
 tp @a[tag=InNightmare] 29885 105 30002
 spawnpoint @a[tag=InNightmare] 29885 105 30002
 tag @a remove InNightmare

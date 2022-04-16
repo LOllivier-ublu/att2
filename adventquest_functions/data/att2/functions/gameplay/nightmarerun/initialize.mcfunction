@@ -25,3 +25,5 @@ scoreboard players set Chrono_Beat_Bronze NIGHTMARERUN 0
 scoreboard players set Chrono_Second_Bronze NIGHTMARERUN 0
 scoreboard players set Chrono_Minute_Bronze NIGHTMARERUN 30
 scoreboard players set Chrono_Hour_Bronze NIGHTMARERUN 0
+
+execute if score Number_Complete NIGHTMARERUN matches 0 run function att2:gameplay/nightmarerun/reset_score

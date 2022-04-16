@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "title": {"translate":"Painfull Memory"},
+        "description": {"translate":"Fall back into the devastated Hill Valley."},
+        "hidden":true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "painfull_memory": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

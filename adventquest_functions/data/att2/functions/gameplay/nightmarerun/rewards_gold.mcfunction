@@ -4,6 +4,7 @@
 #####################################################################
 
 function att2:gameplay/nightmarerun/rewards_gold_effect
+advancement grant @a only att2:progress/nightmarerun_gold
 
 function att2:summon/reg_1/arena_rewards
 function att2:summon/reg_1/arena_rewards

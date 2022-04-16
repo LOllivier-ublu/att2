@@ -48,6 +48,13 @@ execute if score Number_Complete ARENA matches 3.. run advancement grant @a only
 execute if score Number_Complete ARENA matches 5.. run advancement grant @a only att2:progress/arena_5
 execute if score Number_Complete ARENA matches 10.. run advancement grant @a only att2:progress/arena_10
 
+# NIGHTMARE RUN
+execute if score Number_Complete NIGHTMARERUN matches 1.. run advancement grant @a only att2:progress/nightmarerun_1
+execute if score Number_Complete NIGHTMARERUN matches 2.. run advancement grant @a only att2:progress/nightmarerun_2
+execute if score Number_Complete NIGHTMARERUN matches 3.. run advancement grant @a only att2:progress/nightmarerun_3
+execute if score Number_Complete NIGHTMARERUN matches 5.. run advancement grant @a only att2:progress/nightmarerun_5
+execute if score Number_Complete NIGHTMARERUN matches 10.. run advancement grant @a only att2:progress/nightmarerun_10
+
 # SWIM
 advancement grant @a[scores={statSWIM=1000..}] only att2:progress/swim_1000
 advancement grant @a[scores={statSWIM=50000..}] only att2:progress/swim_50000

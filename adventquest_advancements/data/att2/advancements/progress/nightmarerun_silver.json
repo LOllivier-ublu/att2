@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "title": {"translate":"Race against death."},
+        "description": {"translate":"Complete a nightmare run before the allotted time of 25 minutes."},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/nightmarerun_bronze",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 25000
+                },
+    "criteria": {
+        "nightmarerun_silver": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
