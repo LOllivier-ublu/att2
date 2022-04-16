@@ -7,8 +7,7 @@ function att2:cinematic/sidequest/59/end_cinematic
 scoreboard players add @a SIDEQUEST 1
 scoreboard players set SQ59 SIDEQUEST 100
 function att2:dialogs/sidequest/completed_effect
-execute positioned 5000 75 -5000 run function att2:gameplay/arena/rewards_start
-execute positioned 5000 75 -5000 run function att2:gameplay/arena/pool3/rewards
+function att2:gameplay/arena/victory
 
 #REWARDS
 xp add @a 1000000 points

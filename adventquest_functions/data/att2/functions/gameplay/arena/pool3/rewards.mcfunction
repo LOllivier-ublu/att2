@@ -3,6 +3,11 @@
 #Process the arena pool2 rewards								    #
 #####################################################################
 
+execute if score Hermetique_Helmet ARENA matches 0 run function att2:summon/bat_hermetique_helmet_rewards
+execute if score Hermetique_Chestplate ARENA matches 0 run function att2:summon/bat_hermetique_chestplate_rewards
+execute if score Hermetique_Leggings ARENA matches 0 run function att2:summon/bat_hermetique_leggings_rewards
+execute if score Hermetique_Boots ARENA matches 0 run function att2:summon/bat_hermetique_boots_rewards
+
 function att2:summon/bat_boss_rewards
 function att2:summon/bat_boss_rewards
 function att2:summon/bat_boss_rewards

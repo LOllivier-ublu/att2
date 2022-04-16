@@ -41,6 +41,13 @@ execute if score heros REPUTATION matches 100.. run advancement grant @a only at
 execute if score heros REPUTATION matches 200.. run advancement grant @a only att2:progress/reputation_more_200
 execute if score heros REPUTATION matches 300.. run advancement grant @a only att2:progress/reputation_more_300
 
+# ARENA
+execute if score Number_Complete ARENA matches 1.. run advancement grant @a only att2:progress/arena_1
+execute if score Number_Complete ARENA matches 2.. run advancement grant @a only att2:progress/arena_2
+execute if score Number_Complete ARENA matches 3.. run advancement grant @a only att2:progress/arena_3
+execute if score Number_Complete ARENA matches 5.. run advancement grant @a only att2:progress/arena_5
+execute if score Number_Complete ARENA matches 10.. run advancement grant @a only att2:progress/arena_10
+
 # SWIM
 advancement grant @a[scores={statSWIM=1000..}] only att2:progress/swim_1000
 advancement grant @a[scores={statSWIM=50000..}] only att2:progress/swim_50000

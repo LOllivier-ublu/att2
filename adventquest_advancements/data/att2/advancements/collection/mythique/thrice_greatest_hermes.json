@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_boots",
+            "nbt": "{CustomModelData:10000003}"
+        },
+        "title": {"translate":"Thrice Greatest Hermes"},
+        "description": {"translate":"Find the Hermetic Boots Mythical set"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "thrice_greatest_hermes": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

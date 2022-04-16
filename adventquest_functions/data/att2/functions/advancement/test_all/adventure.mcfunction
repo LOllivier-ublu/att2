@@ -40,6 +40,10 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"rukyrion"}}]}] only att2
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"bloodeater"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"blindshield"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"interfacer"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"carminahermetica"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:adventure/myt
 
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fortuity"}}}] only att2:collection/mythique/fortuity
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"blindshield"}}}] only att2:collection/mythique/aveugle_rempart
@@ -54,8 +58,15 @@ advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fenrir"}}}] only att2:
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"rukyrion"}}}] only att2:collection/mythique/rukyrion
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}}}] only att2:collection/mythique/interfacer
 advancement grant @a[nbt={Inventory:[{tag:{Tags:["IFDahalMagasin"]}}]}] only att2:collection/mythique/interfacer_magazine
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"carminahermetica"}}]}] only att2:collection/mythique/carmina_hermetica
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] only att2:collection/mythique/corpus_hermeticum
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only att2:collection/mythique/liber_hermetis
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:collection/mythique/thrice_greatest_hermes
 
 ### EQUIPMENT FULL SET
+# HERMETIQUE
+advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{SetId:"99"}},{Slot:102b,tag:{SetId:"99"}},{Slot:101b,tag:{SetId:"99"}},{Slot:100b,tag:{SetId:"99"}}]}] only att2:adventure/hermetique_fullset
+
 # REMARQUABLE
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{Effect:"dar2_str_1_has_1",SetId:"1"}},{Slot:102b,tag:{Effect:"dar2_str_1_res_1",SetId:"1"}},{Slot:101b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}},{Slot:100b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}}]}] only att2:adventure/dahal_apprentice
 

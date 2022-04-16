@@ -13,6 +13,9 @@
 # 1..100 - Timer ON 							 #
 ##################################################
 
+# Security reset
+execute if score path3_mech2 OURANOS matches 0 if entity @a[x=7415,y=193,z=6460,distance=..5,gamemode=adventure] if block 7413 192 6465 minecraft:air run function att2:physicmod/reg4/tower3_path/mech2_reset
+
 # Security shortcut opening
 execute if score path3_mech2 OURANOS matches 4 if entity @a[x=7415,y=193,z=6459,distance=..30,gamemode=adventure] run function att2:cinematic/act_4/ouranos/tower3_path/mech2/shortcut_opening
 

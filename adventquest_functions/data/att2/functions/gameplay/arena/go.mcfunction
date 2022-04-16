@@ -40,8 +40,16 @@ execute if score Tournament ARENA matches 1 run function att2:gameplay/arena/poo
 execute if score Tournament ARENA matches 2 run function att2:gameplay/arena/pool2/go
 execute if score Tournament ARENA matches 3 run function att2:gameplay/arena/pool3/go
 
-# Exit arena when player die (return to lobby)
-execute positioned 5000 125 -5000 as @a[distance=..2] at @s run function att2:gameplay/arena/exit_to_lobby
+# Exit when player lose (return to lobby)
+execute if score Tournament ARENA matches -1..3 positioned 5000 125 -5000 as @a[distance=..2] at @s run function att2:gameplay/arena/exit_to_lobby_lose
+# Exit when players win all the arena (return to lobby)
+execute if score Tournament ARENA matches 4 positioned 5000 125 -5000 if entity @a[distance=..2] run function att2:gameplay/arena/exit_to_lobby_win
 
 # Exit arena when player choose to give up (return to ryliath)
 execute as @a[x=4999,y=72,z=-4949,dx=2,dy=2,dz=0,gamemode=adventure] at @s run tp @s -4992 166 -4908
+
+# Test if player took mythical armor set loot because can be droped just once
+execute if score Hermetique_Helmet ARENA matches 0 if entity @a[nbt={Inventory:[{tag:{EquipmentID:"carminahermetica"}}]}] run scoreboard players set Hermetique_Helmet ARENA 1
+execute if score Hermetique_Chestplate ARENA matches 0 if entity @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] run scoreboard players set Hermetique_Chestplate ARENA 1
+execute if score Hermetique_Leggings ARENA matches 0 if entity @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] run scoreboard players set Hermetique_Leggings ARENA 1
+execute if score Hermetique_Boots ARENA matches 0 if entity @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] run scoreboard players set Hermetique_Boots ARENA 1

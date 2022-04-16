@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_leggings",
+            "nbt": "{CustomModelData:10000002}"
+        },
+        "title": {"translate":"Liber Hermetis"},
+        "description": {"translate":"Find the Hermetic Leggings Mythical set"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "liber_hermetis": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

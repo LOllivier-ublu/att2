@@ -11,6 +11,7 @@ scoreboard objectives add TIMER dummy
 scoreboard objectives add NUMEROJOUEUR dummy
 scoreboard objectives add TELLURONTIME dummy
 
+function att2:gameplay/arena/initialize
 function att2:gameplay/bank/initialize
 function att2:gameplay/boss/initialize
 function att2:gameplay/bow/initialize
@@ -28,6 +29,8 @@ function att2:gameplay/language/initialize
 function att2:gameplay/legendary/initialize
 function att2:gameplay/leveling/initialize
 function att2:gameplay/lock/initialize
+function att2:gameplay/nightmarerun/initialize
+function att2:gameplay/nightmarerun/reset_score
 function att2:gameplay/misc/initialize
 function att2:gameplay/music/initialize
 function att2:gameplay/panorama/initialize

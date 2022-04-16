@@ -18,7 +18,6 @@ execute if score cinematic_timer SQ59 matches 500..555 positioned 5000 104 -5029
 execute if score cinematic_timer SQ59 matches 555 positioned 5000 104 -5029 run function att2:sound/misc/teleportation
 execute if score cinematic_timer SQ59 matches 555 run function att2:cinematic/sidequest/59/step20/mercurius/move_pnj
 execute if score cinematic_timer SQ59 matches 600 run function att2:dialogs/sidequest/sq59/player_50
-
 #=======================#
 #end of the cinematic	#
 #=======================#
