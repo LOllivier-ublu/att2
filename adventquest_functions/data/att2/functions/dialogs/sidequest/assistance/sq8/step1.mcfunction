@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une livraison qui se fait attendre -°- : ","color":"gray","extra":[{"text":" : "},{"text":"Le livreur de Sigfrid Barkon n'est pas revenu le voir, et il absolument besoin de la viande qu'il devait lui livrer à Méleïm. Je dois donc prendre dans sa cave les 8 ","color":"aqua","extra":[{"text":"<Viande crue>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:beef\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Viande crue\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Raw meat\\\"}\"]}}}"},"extra":[{"text":" et les livrer à la taverne du village de Méleïm qui se trouve au centre tout bas de la falaise apparemment. Bon, je vais essayer d'éviter de la manger.","color":"aqua"}]}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une livraison qui se fait attendre -°- : ","color":"gray","extra":[{"text":" : "},{"text":"Le livreur de Sigfrid Barkon n'est pas revenu le voir, et il a absolument besoin de la viande qu'il devait lui livrer à Méleïm. Je dois donc prendre dans sa cave les 8 ","color":"aqua","extra":[{"text":"<Viande crue>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:beef\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Viande crue\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Raw meat\\\"}\"]}}}"},"extra":[{"text":" et les livrer à la taverne du village de Méleïm qui se trouve au centre tout bas de la falaise apparemment. Bon, je vais essayer d'éviter de la manger.","color":"aqua"}]}]}]}
 
 #ENGLISH LANGUAGE
 

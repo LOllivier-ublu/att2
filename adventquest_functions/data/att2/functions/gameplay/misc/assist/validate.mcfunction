@@ -133,3 +133,10 @@ execute if score Selection ASSIST matches 126 run function att2:dialogs/gameplay
 execute if score Selection ASSIST matches 127 run function att2:dialogs/gameplay/assist/127
 execute if score Selection ASSIST matches 128 run function att2:dialogs/gameplay/assist/128
 execute if score Selection ASSIST matches 129 run function att2:dialogs/gameplay/assist/129
+execute if score Selection ASSIST matches 130 run function att2:dialogs/gameplay/assist/130
+execute if score Selection ASSIST matches 131 run function att2:dialogs/gameplay/assist/131
+execute if score Selection ASSIST matches 132 run function att2:dialogs/gameplay/assist/132
+execute if score Selection ASSIST matches 133 run function att2:dialogs/gameplay/assist/133
+execute if score Selection ASSIST matches 134 run function att2:dialogs/gameplay/assist/134
+execute if score Selection ASSIST matches 135 run function att2:dialogs/gameplay/assist/135
+execute if score Selection ASSIST matches 136 run function att2:dialogs/gameplay/assist/136
