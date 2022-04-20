@@ -9,5 +9,5 @@ execute if score cinematic_timer SQ59 matches 5 run function att2:dialogs/sidequ
 #end of the cinematic	#
 #=======================#
 
-execute if score cinematic_timer SQ59 matches 11.. run function att2:cinematic/sidequest/59/step3
+execute if score cinematic_timer SQ59 matches 11.. run function att2:cinematic/sidequest/59/step3_11
 execute if score cinematic_timer SQ59 matches 1..10 run scoreboard players add cinematic_timer SQ59 1

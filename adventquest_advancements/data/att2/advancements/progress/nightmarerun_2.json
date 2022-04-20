@@ -7,7 +7,7 @@
         "description": {"translate":"Complete nightmare run twice."},
         "frame": "goal"
     },
-    "parent": "att2:progress/nightmarerun_2",
+    "parent": "att2:progress/nightmarerun_1",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 5000

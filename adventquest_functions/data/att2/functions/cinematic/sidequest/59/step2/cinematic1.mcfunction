@@ -17,5 +17,5 @@ execute if score cinematic_timer SQ59 matches 400 run setblock 29879 99 30002 mi
 #end of the cinematic	#
 #=======================#
 
-execute if score cinematic_timer SQ59 matches 401.. run scoreboard players set cinematic_timer SQ59 -1
+execute if score cinematic_timer SQ59 matches 401.. run scoreboard players set step_2 SQ59 1
 execute if score cinematic_timer SQ59 matches 1..400 run scoreboard players add cinematic_timer SQ59 1

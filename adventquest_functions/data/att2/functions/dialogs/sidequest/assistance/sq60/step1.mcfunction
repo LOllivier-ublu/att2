@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'ultime challenge -°- : ","color
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The ultimate challenge -°- : ","color":"gray","extra":[{"text":"I don't want to go back to my time anymore. There are so many more things to do here...","color":"aqua","italic":true}]}
 
 
-function att2:dialogs/sidequest/sq59/exploit_total
+function att2:dialogs/sidequest/sq60/exploit_total

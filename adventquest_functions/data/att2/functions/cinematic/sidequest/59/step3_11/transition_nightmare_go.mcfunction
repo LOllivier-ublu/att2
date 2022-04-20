@@ -4,7 +4,7 @@
 ##################################################
 
 # Transition Nightmare Steps
-execute if score SQ59 SIDEQUEST matches 3 positioned 6022 159 -5953 if entity @a[distance=..7] run function att2:cinematic/sidequest/59/step3_11
+execute if score SQ59 SIDEQUEST matches 3 positioned 6093 128 -6029 if entity @a[distance=..7] run function att2:cinematic/sidequest/59/step3_11
 execute if score SQ59 SIDEQUEST matches 4 positioned 6194 107 -6079 if entity @a[distance=..5] run function att2:cinematic/sidequest/59/step3_11
 execute if score SQ59 SIDEQUEST matches 5 positioned 6200 183 -6096 if entity @a[distance=..3] run function att2:cinematic/sidequest/59/step3_11
 execute if score SQ59 SIDEQUEST matches 6 positioned 6203 148 -6113 if entity @a[distance=..5] run function att2:cinematic/sidequest/59/step3_11

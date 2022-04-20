@@ -3,6 +3,7 @@
 #Use function to process the SQ59 step13						#
 #################################################################
 
+execute positioned 5000 106 -5026 run function att2:cinematic/sidequest/59/step13/mercurius/summon_pnj
 function att2:cinematic/sidequest/59/end_cinematic
 execute at @a run function att2:sound/misc/mission_progress
 spawnpoint @a 5025 94 -4967
