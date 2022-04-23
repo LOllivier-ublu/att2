@@ -4,7 +4,7 @@
 #################################################################
 
 
-scoreboard players set Pool0_Trigger_Summoning ARENA 0
+scoreboard players set Pool0_Trigger_Summoning ARENA 1
 scoreboard players set Pool0_Timer1 ARENA -1
 scoreboard players set Pool0_Random ARENA 1
 

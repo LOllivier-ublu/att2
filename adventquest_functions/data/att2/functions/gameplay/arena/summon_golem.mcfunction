@@ -4,8 +4,10 @@
 #####################################################
 
 setblock 5000 72 -4952 minecraft:air
-kill @e[type=minecraft:iron_golem,x=4995,y=71,z=-4955,dx=10,dy=5,dz=-28]
-kill @e[type=minecraft:shulker,x=4995,y=71,z=-4955,dx=10,dy=5,dz=-28]
+execute as @e[type=minecraft:iron_golem,x=4995,y=60,z=-4955,dx=10,dy=20,dz=-28] at @s run tp @s ~ ~-5 ~
+execute as @e[type=minecraft:shulker,x=4995,y=60,z=-4955,dx=10,dy=20,dz=-28] at @s run tp @s ~ ~-5 ~
+kill @e[type=minecraft:iron_golem,x=4995,y=60,z=-4955,dx=10,dy=20,dz=-28]
+kill @e[type=minecraft:shulker,x=4995,y=60,z=-4955,dx=10,dy=20,dz=-28]
 
 # East->West
 execute positioned 5003 72 -4957 run function att2:summon/arena/iron_golem_ola_ew

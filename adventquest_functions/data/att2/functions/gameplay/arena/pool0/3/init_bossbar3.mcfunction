@@ -8,4 +8,4 @@ bossbar set minecraft:pool0_a3 style notched_12
 bossbar set minecraft:pool0_a3 players @a
 bossbar set minecraft:pool0_a3 color purple
 bossbar set minecraft:pool0_a3 name [{"text":"Hoglins","color":"red"}]
-bossbar set minecraft:pool0_a3 max 50
+#bossbar set minecraft:pool0_a3 max 50

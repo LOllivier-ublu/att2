@@ -3,7 +3,6 @@
 #Start the arena fight for Pool0 Arena1 Wave4                       #
 #####################################################################
 
-scoreboard players set Pool0_A1 ARENA 1
 function att2:gameplay/arena/pool0/1/mobs_summoning4
 function att2:gameplay/arena/pool0/1/init_bossbar4
 function att2:dialogs/title/arena/pool0_a1_title

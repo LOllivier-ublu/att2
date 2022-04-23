@@ -25,13 +25,8 @@ execute positioned 4832 72 -4747 if score Pool0_A5 ARENA matches -2 if score Poo
 # Minions effect
 function att2:gameplay/arena/minions_effect
 
-# Trigger Timer for Number mobs in arena
-execute if score Pool0_Trigger_Summoning ARENA matches 1..10 run scoreboard players add Pool0_Trigger_Summoning ARENA 1
-execute if score Pool0_Trigger_Summoning ARENA matches 11.. run scoreboard players set Pool0_Trigger_Summoning ARENA 0
-
-# Random arena choosen
-execute if score Pool0_Random ARENA matches 1..5 run scoreboard players add Pool0_Random ARENA 1
-execute if score Pool0_Random ARENA matches 5.. run scoreboard players set Pool0_Random ARENA 1
+# Timer between each wave
+execute if score Pool0_Timer1 ARENA matches 0.. run scoreboard players remove Pool0_Timer1 ARENA 1
 
 # Arenas go
 execute if score Pool0_A1 ARENA matches -1.. run function att2:gameplay/arena/pool0/1/go

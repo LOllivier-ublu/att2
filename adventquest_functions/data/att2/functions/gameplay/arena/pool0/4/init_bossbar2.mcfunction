@@ -8,4 +8,4 @@ bossbar set minecraft:pool0_a4 style notched_12
 bossbar set minecraft:pool0_a4 players @a
 bossbar set minecraft:pool0_a4 color purple
 bossbar set minecraft:pool0_a4 name [{"text":"Spectrums","color":"red"}]
-bossbar set minecraft:pool0_a4 max 50
+#bossbar set minecraft:pool0_a4 max 50

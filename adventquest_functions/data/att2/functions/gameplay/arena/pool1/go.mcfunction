@@ -17,10 +17,6 @@ execute positioned 4946 74 -5000 if score Pool1_A5 ARENA matches -2 if score Poo
 execute positioned 4782 74 -5000 if score Pool1_A6 ARENA matches -2 if score Pool1_A6_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
 execute positioned 5332 98 -5000 if score Pool1_A7 ARENA matches -2 if score Pool1_A7_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
 
-# Random arena choosen
-execute if score Pool1_Random ARENA matches 1..7 run scoreboard players add Pool1_Random ARENA 1
-execute if score Pool1_Random ARENA matches 7.. run scoreboard players set Pool1_Random ARENA 1
-
 # Arenas go
 execute if score Pool1_A1 ARENA matches -1.. run function att2:gameplay/arena/pool1/1/go
 execute if score Pool1_A2 ARENA matches -1.. run function att2:gameplay/arena/pool1/2/go

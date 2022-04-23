@@ -31,7 +31,7 @@ execute if score SQ59 SIDEQUEST matches 17 if score cinematic_timer SQ59 matches
 # Player is near to the book
 execute if score SQ59 SIDEQUEST matches 18 if score cinematic_timer SQ59 matches 0 positioned -4996 172 -4912 if entity @a[distance=..3,gamemode=adventure] run function att2:cinematic/sidequest/59/start_cinematic
 # Player is in arena lobby
-execute if score SQ59 SIDEQUEST matches 19 if score step_19 SQ59 matches 0 if score cinematic_timer SQ59 matches 0 positioned 5000 72 -4952 if entity @a[distance=..3,gamemode=adventure] run function att2:cinematic/sidequest/59/start_cinematic
+execute if score SQ59 SIDEQUEST matches 19 if score step_19 SQ59 matches 0 if score cinematic_timer SQ59 matches 0 positioned 5000 72 -4952 if entity @a[distance=..10,gamemode=adventure] run function att2:cinematic/sidequest/59/start_cinematic
 execute if score SQ59 SIDEQUEST matches 19 if score step_19 SQ59 matches 1 if entity @a[x=4980,y=76,z=-4995,dx=40,dy=-5,dz=-10,gamemode=adventure] run function att2:cinematic/sidequest/59/start_cinematic
 execute if score SQ59 SIDEQUEST matches 20 if score cinematic_timer SQ59 matches 0 positioned 5000 104 -5017 if entity @a[distance=..5,gamemode=adventure] run function att2:cinematic/sidequest/59/start_cinematic
 

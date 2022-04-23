@@ -29,24 +29,29 @@
 # Portal enter & exit arena effect
 execute positioned 5000 73.5 -5016 if score Tournament ARENA matches -1..3 run function att2:gameplay/arena/portal_arena_enter_effect_go
 execute positioned 5000 73.5 -4984 if score Tournament ARENA matches 0.. run function att2:gameplay/arena/portal_arena_exit_effect_go
-execute positioned 5000 73.5 -4949 if score Tournament ARENA matches -1 run function att2:gameplay/arena/portal_arena_exit_effect_go
+execute positioned 5000 73.5 -4949 if score Tournament ARENA matches -1.. run function att2:gameplay/arena/portal_arena_exit_effect_go
 
 # Players entering arenas
 execute as @a[x=5000,y=100,z=-5000,distance=..2,gamemode=adventure] at @s run function att2:gameplay/arena/entering_arena
 
 # Go pools arenas
-execute if score Tournament ARENA matches 0 run function att2:gameplay/arena/pool0/go
+execute if score Tournament ARENA matches -1..0 run function att2:gameplay/arena/pool0/go
 execute if score Tournament ARENA matches 1 run function att2:gameplay/arena/pool1/go
 execute if score Tournament ARENA matches 2 run function att2:gameplay/arena/pool2/go
 execute if score Tournament ARENA matches 3 run function att2:gameplay/arena/pool3/go
 
+# Go Random arenas
+function att2:gameplay/arena/pool0/random
+function att2:gameplay/arena/pool1/random
+function att2:gameplay/arena/pool2/random
+
 # Exit when player lose (return to lobby)
-execute if score Tournament ARENA matches -1..3 positioned 5000 125 -5000 as @a[distance=..2] at @s run function att2:gameplay/arena/exit_to_lobby_lose
+execute if score Tournament ARENA matches -1..3 positioned 5000 125 -5000 as @a[distance=..2,gamemode=adventure] at @s run function att2:gameplay/arena/exit_to_lobby_lose
 # Exit when players win all the arena (return to lobby)
-execute if score Tournament ARENA matches 4 positioned 5000 125 -5000 if entity @a[distance=..2] run function att2:gameplay/arena/exit_to_lobby_win
+execute if score Tournament ARENA matches 4 positioned 5000 125 -5000 if entity @a[distance=..2,gamemode=adventure] run function att2:gameplay/arena/exit_to_lobby_win
 
 # Exit arena when player choose to give up (return to ryliath)
-execute as @a[x=4999,y=72,z=-4949,dx=2,dy=2,dz=0,gamemode=adventure] at @s run tp @s -4992 166 -4908
+function att2:gameplay/arena/return_to_ryliath
 
 # Test if player took mythical armor set loot because can be droped just once
 execute if score Hermetique_Helmet ARENA matches 0 if entity @a[nbt={Inventory:[{tag:{EquipmentID:"carminahermetica"}}]}] run scoreboard players set Hermetique_Helmet ARENA 1
