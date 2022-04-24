@@ -7,7 +7,7 @@
         "description": {"translate":"Complete the first Tournament of arenas event."},
         "frame": "goal"
     },
-    "parent": "att2:progress/root",
+    "parent": "att2:combat/root",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 5000

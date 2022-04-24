@@ -6,4 +6,4 @@
 scoreboard players set Pool0_Timer1 ARENA 100
 scoreboard players set Pool0_A2 ARENA -1
 scoreboard players set Pool0_A2_Wave ARENA 3
-execute as @a run function att2:gameplay/arena/pool0/2/stop
+function att2:gameplay/arena/pool0/2/stop_wave

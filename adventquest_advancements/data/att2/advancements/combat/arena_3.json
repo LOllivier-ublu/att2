@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spawner"
+            "item": "minecraft:item_frame"
         },
-        "title": {"translate":"TOURNAMENT II"},
-        "description": {"translate":"Complete the second Tournament of arenas event."},
+        "title": {"translate":"DIMENSION CHAMPION ARENA"},
+        "description": {"translate":"Complete all arenas three times."},
         "frame": "goal"
     },
-    "parent": "att2:progress/tournament_1",
+    "parent": "att2:combat/arena_2",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 10000
                 },
     "criteria": {
-        "tournament_2": {
+        "arena_3": {
             "trigger": "minecraft:impossible"
         }
     }

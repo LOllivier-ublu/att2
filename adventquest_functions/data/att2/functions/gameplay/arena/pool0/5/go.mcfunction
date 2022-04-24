@@ -15,7 +15,10 @@ execute if score Pool0_A5 ARENA matches 0.. as @e[x=4800,y=69,z=-4774,dx=61,dy=5
 execute if score Pool0_A5 ARENA matches 0.. if entity @a[x=4800,y=69,z=-4774,dx=61,dy=52,dz=61,gamemode=adventure] store result bossbar minecraft:pool0_a5 value run scoreboard players get Pool0_A5_Count ARENA
 
 # Starting the arena fight
-execute if score Pool0_A5 ARENA matches -1 if score Pool0_Timer1 ARENA matches ..-1 if entity @a[x=4800,y=69,z=-4774,dx=61,dy=52,dz=61,gamemode=adventure] run function att2:gameplay/arena/pool0/5/trigger_start
+execute if score Pool0_A5 ARENA matches -1 if score Pool0_Timer1 ARENA matches 20 if entity @a[x=4800,y=69,z=-4774,dx=61,dy=52,dz=61,gamemode=adventure] run function att2:gameplay/arena/pool0/5/trigger_start
+
+# Starting bossbar attributs
+execute if score Pool0_A5 ARENA matches 1 if score Pool0_Timer1 ARENA matches 10 run function att2:gameplay/arena/pool0/5/bossbar_attributs
 
 # Ending the arena fight
 execute if score Pool0_A5 ARENA matches 1 if score Pool0_Timer1 ARENA matches ..-1 if entity @a[x=4800,y=69,z=-4774,dx=61,dy=52,dz=61,gamemode=adventure] unless entity @e[x=4800,y=69,z=-4774,dx=61,dy=52,dz=61,tag=ArenaMinion] run function att2:gameplay/arena/pool0/5/trigger_end

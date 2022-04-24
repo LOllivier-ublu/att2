@@ -10,13 +10,13 @@
 
 # Arena 1
 execute if score Pool2_Random ARENA matches 1 if score Pool2_A1_Choose ARENA matches 0 run scoreboard players set Pool2_A1_Choose ARENA 1
-execute if score Pool2_Random ARENA matches 1 if score Pool2_A1_Choose ARENA matches -1 run function att2:gameplay/arena/pool2/choosing_arena
-execute if score Pool2_Random ARENA matches 1 if score Pool2_A1_Choose ARENA matches 1 run tp @a[x=5000,y=75,z=-5000,distance=..25,gamemode=adventure] 5000 100 -5000
+execute if score Pool2_Random ARENA matches 1 if score Pool2_A1_Choose ARENA matches -1 run function att2:gameplay/arena/pool2/choosing_arena_again
+execute if score Pool2_Random ARENA matches 1 if score Pool2_A1_Choose ARENA matches 1 run tp @a[x=5000,y=75,z=-5000,distance=..500,gamemode=adventure] 5000 100 -5000
 # Arena 2
 execute if score Pool2_Random ARENA matches 2 if score Pool2_A2_Choose ARENA matches 0 run scoreboard players set Pool2_A2_Choose ARENA 1
-execute if score Pool2_Random ARENA matches 2 if score Pool2_A2_Choose ARENA matches -1 run function att2:gameplay/arena/pool2/choosing_arena
-execute if score Pool2_Random ARENA matches 2 if score Pool2_A2_Choose ARENA matches 1 run tp @a[x=5000,y=75,z=-5000,distance=..25,gamemode=adventure] 5000 100 -5000
+execute if score Pool2_Random ARENA matches 2 if score Pool2_A2_Choose ARENA matches -1 run function att2:gameplay/arena/pool2/choosing_arena_again
+execute if score Pool2_Random ARENA matches 2 if score Pool2_A2_Choose ARENA matches 1 run tp @a[x=5000,y=75,z=-5000,distance=..500,gamemode=adventure] 5000 100 -5000
 # Arena 3
 execute if score Pool2_Random ARENA matches 3 if score Pool2_A3_Choose ARENA matches 0 run scoreboard players set Pool2_A3_Choose ARENA 1
-execute if score Pool2_Random ARENA matches 3 if score Pool2_A3_Choose ARENA matches -1 run function att2:gameplay/arena/pool2/choosing_arena
-execute if score Pool2_Random ARENA matches 3 if score Pool2_A3_Choose ARENA matches 1 run tp @a[x=5000,y=75,z=-5000,distance=..25,gamemode=adventure] 5000 100 -5000
+execute if score Pool2_Random ARENA matches 3 if score Pool2_A3_Choose ARENA matches -1 run function att2:gameplay/arena/pool2/choosing_arena_again
+execute if score Pool2_Random ARENA matches 3 if score Pool2_A3_Choose ARENA matches 1 run tp @a[x=5000,y=75,z=-5000,distance=..500,gamemode=adventure] 5000 100 -5000

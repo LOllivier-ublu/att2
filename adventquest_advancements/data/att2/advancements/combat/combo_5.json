@@ -3,17 +3,17 @@
         "icon": {
             "item": "minecraft:item_frame"
         },
-        "title": {"translate":"REGIONAL CHAMPION ARENA"},
-        "description": {"translate":"Complete all arenas for the first time."},
+        "title": {"translate":"SUPER COMBO!"},
+        "description": {"translate":"Kill 5 enemies consecutively."},
         "frame": "goal"
     },
-    "parent": "att2:progress/root",
+    "parent": "att2:combat/combo_3",
     "rewards": {
         "function": "att2:advancement/exploit_5",
-        "experience": 2500
+        "experience": 500
                 },
     "criteria": {
-        "arena_1": {
+        "combo_5": {
             "trigger": "minecraft:impossible"
         }
     }

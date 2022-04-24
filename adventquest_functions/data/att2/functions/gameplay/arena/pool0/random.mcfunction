@@ -9,4 +9,4 @@ execute if score Pool0_Trigger_Summoning ARENA matches 11.. run scoreboard playe
 
 # Random arena choosen
 execute if score Pool0_Random ARENA matches 1..5 run scoreboard players add Pool0_Random ARENA 1
-execute if score Pool0_Random ARENA matches 5.. run scoreboard players set Pool0_Random ARENA 1
+execute if score Pool0_Random ARENA matches 6.. run scoreboard players set Pool0_Random ARENA 1

@@ -24,6 +24,7 @@
 #   0 Arena has not be choosen                                                                                  #
 #Poolx_Ay_Count for all minions or bosses total health (not in Pool1) :                                         #          
 #   0..z (where 'z' is the number of total minions or bosses or each bosses to kill)                            #
+#/kill @e[distance=..50,tag=ArenaMinion]                                                                        #
 #################################################################################################################
 
 # Portal enter & exit arena effect

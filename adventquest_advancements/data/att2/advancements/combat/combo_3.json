@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:item_frame"
+        },
+        "title": {"translate":"COMBO!"},
+        "description": {"translate":"Kill 3 enemies consecutively."}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 250
+                },
+    "criteria": {
+        "combo_3": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

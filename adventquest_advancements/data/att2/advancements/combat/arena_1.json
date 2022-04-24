@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:item_frame"
+        },
+        "title": {"translate":"REGIONAL CHAMPION ARENA"},
+        "description": {"translate":"Complete all arenas for the first time."},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2500
+                },
+    "criteria": {
+        "arena_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

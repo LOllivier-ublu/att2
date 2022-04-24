@@ -7,7 +7,7 @@
         "description": {"translate":"Complete all arenas ten times."},
         "frame": "challenge"
     },
-    "parent": "att2:progress/arena_5",
+    "parent": "att2:combat/arena_5",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 50000

@@ -7,7 +7,7 @@
         "description": {"translate":"Complete the third Tournament of arenas event."},
         "frame": "goal"
     },
-    "parent": "att2:progress/tournament_2",
+    "parent": "att2:combat/tournament_2",
     "rewards": {
         "function": "att2:advancement/exploit_30",
         "experience": 15000
