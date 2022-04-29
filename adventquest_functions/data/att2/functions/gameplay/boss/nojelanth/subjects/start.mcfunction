@@ -3,6 +3,7 @@
 #Start the boss fight for Subjects                               	#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 scoreboard players set Subjects NOJELANTH 0
 function att2:physicmod/reg1/nojelanth/subjects_start
 execute positioned -7450 109 -4370 run function att2:summon/reg_1/subject0135

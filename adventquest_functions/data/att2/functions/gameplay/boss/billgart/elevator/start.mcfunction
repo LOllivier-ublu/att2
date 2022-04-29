@@ -3,6 +3,7 @@
 #Start the boss fight for Elevator Guardians                        #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 execute at @a run function att2:sound/misc/gears
 execute as @e[x=-1243,y=180,z=-619,dx=8,dy=-150,dz=8,type=minecraft:armor_stand,tag=Elevator] at @s run tp @s ~ 171.55 ~
 execute positioned -1239 179 -618 run function att2:summon/reg_3/guardian_emerald

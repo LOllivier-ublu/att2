@@ -3,6 +3,7 @@
 #Start the boss fight for Somniophages                              #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 stopsound @a
 execute as @a run tag @s add NoAutoMusic
 scoreboard players set Somniophages SQ48 0

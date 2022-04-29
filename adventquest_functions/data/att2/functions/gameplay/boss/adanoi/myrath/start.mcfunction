@@ -4,6 +4,7 @@
 #####################################################################
 
 scoreboard players set Myrath SQ26 0
+scoreboard players set in_fight BOSS 1
 execute positioned -3892 88 -5600 run function att2:summon/reg_1/myrath
 function att2:gameplay/boss/adanoi/myrath/summoning_minion
 function att2:gameplay/boss/adanoi/myrath/init_bossbar

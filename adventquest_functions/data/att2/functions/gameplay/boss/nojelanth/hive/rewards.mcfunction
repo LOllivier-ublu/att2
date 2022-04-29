@@ -16,4 +16,21 @@ function att2:summon/reg_1/hive_rewards
 function att2:summon/reg_1/hive_rewards
 function att2:summon/reg_1/hive_rewards
 
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_1/hive_rewards
+
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/hive_rewards
+
 function att2:summon/reg_1/hive_rewards_dedicated

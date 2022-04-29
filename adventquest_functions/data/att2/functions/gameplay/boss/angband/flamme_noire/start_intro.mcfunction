@@ -4,6 +4,7 @@
 #####################################################################
 
 scoreboard players set FlammeNoire ANGOR_BOSS 300
+scoreboard players set in_fight BOSS 1
 
 stopsound @a[scores={DIMENSION=6}]
 execute as @a run tag @s add NoAutoMusic

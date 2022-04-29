@@ -4,7 +4,7 @@
 ##################################################
 
 # Transition Nightmare Steps
-execute if score Steps NIGHTMARERUN matches 1 positioned 6022 159 -5953 as @a[distance=..7] at @s run function att2:gameplay/nightmarerun/next_step
+execute if score Steps NIGHTMARERUN matches 1 positioned 6093 128 -6029 as @a[distance=..7] at @s run function att2:gameplay/nightmarerun/next_step
 execute if score Steps NIGHTMARERUN matches 2 positioned 6194 107 -6079 as @a[distance=..5] at @s run function att2:gameplay/nightmarerun/next_step
 execute if score Steps NIGHTMARERUN matches 3 positioned 6200 183 -6096 as @a[distance=..3] at @s run function att2:gameplay/nightmarerun/next_step
 execute if score Steps NIGHTMARERUN matches 4 positioned 6203 148 -6113 as @a[distance=..5] at @s run function att2:gameplay/nightmarerun/next_step

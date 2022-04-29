@@ -19,6 +19,7 @@ function att2:gameplay/chronoton/initialize
 function att2:gameplay/dahal/initialize
 function att2:gameplay/death/initialize
 function att2:gameplay/dimension/initialize
+function att2:gameplay/difficulty/initialize
 function att2:gameplay/enveffect/initialize
 function att2:gameplay/equipment/initialize
 function att2:gameplay/gps/initialize

@@ -629,6 +629,7 @@ execute in minecraft:overworld positioned -5527 22 -4054 if entity @a[distance=3
 execute in minecraft:overworld positioned -5548 23 -4131 if entity @a[distance=3..15] run function att2:spawner/reg1/desert/lost_area/undeadarcher2_class19_3912
 execute in minecraft:overworld positioned -5395 43 -3962 if entity @a[distance=3..15] run function att2:spawner/reg1/desert/lost_area/undeadarcher1_class19_3927
 execute in minecraft:the_nether if score SQ13 SIDEQUEST matches 0..99 positioned 3930 32 3819 if entity @a[distance=5..20] run function att2:spawner/reg2/phoenix/mine/magmabig0_class10_sq13_3975
+execute in minecraft:the_nether if score SQ13 SIDEQUEST matches 0..99 positioned 3896 52 3817 if entity @a[distance=5..25] run function att2:spawner/reg2/phoenix/mine/magmamedium0_class10_sq13_3976
 execute in minecraft:the_nether positioned 3605 55 3964 if entity @a[distance=5..25] run function att2:spawner/reg2/angor/road/spider0_class9_3995
 execute in minecraft:the_nether positioned 3658 41 3982 if entity @a[distance=5..20] run function att2:spawner/reg2/angor/road/mortal9_class10_3999
 execute in minecraft:the_nether positioned 3533 39 4072 if entity @a[distance=5..15] run function att2:spawner/reg2/angor/road/mortalarcher1_class9_4007

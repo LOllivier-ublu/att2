@@ -3,6 +3,7 @@
 #End the battle and teleport player in other room                   #
 #####################################################################
 
+scoreboard players set in_fight BOSS 0
 scoreboard players set FlammeNoire ANGOR -2
 scoreboard players set FlammeNoire ANGOR_BOSS 210
 execute as @a run bossbar set minecraft:flamme_noire visible false

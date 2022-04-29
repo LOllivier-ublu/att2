@@ -3,6 +3,7 @@
 #Start the boss fight for Umbra'Tyanth                              #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 stopsound @a
 execute as @e[type=minecraft:item,x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82] at @s run kill @s
 execute as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run tag @s add NoAutoMusic

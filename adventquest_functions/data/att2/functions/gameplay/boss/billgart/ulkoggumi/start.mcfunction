@@ -3,6 +3,7 @@
 #Start the boss fight for Ulkoggumi                                 #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 execute positioned -1125 109 -560 run function att2:summon/reg_3/ulkoggumi
 scoreboard players set Ulkoggumi BILLGART 0
 scoreboard players set Ulkoggumi_pos BILLGART 0

@@ -3,6 +3,7 @@
 #Start the boss fight for Geström                                 	#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 execute positioned -1132 199 -679 run function att2:summon/reg_3/gestrom
 execute positioned -1131 207 -672 run function att2:summon/reg_3/blaze0_class9
 execute positioned -1131 205 -672 run function att2:summon/reg_3/golemarcher0_class12

@@ -3,6 +3,7 @@
 #Start the boss fight for Guardian                               	#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 execute positioned -7434 134 -6007 run function att2:summon/reg_1/guardian
 data merge entity 00000000-0000-007b-0000-00000000007b {NoAI:0}
 team join hostile @e[type=minecraft:enderman,tag=GuardianMinions]

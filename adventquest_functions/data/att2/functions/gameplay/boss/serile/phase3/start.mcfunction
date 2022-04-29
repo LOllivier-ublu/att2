@@ -3,6 +3,7 @@
 #Start the boss fight for Serile                               		#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 stopsound @a
 execute as @a run tag @s add NoAutoMusic
 execute positioned 1542 16 1495.0 run function att2:summon/reg_1/serile_boss

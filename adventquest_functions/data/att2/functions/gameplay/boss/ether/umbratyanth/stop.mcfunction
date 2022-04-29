@@ -3,6 +3,7 @@
 #Process player stop for Umbra'Tyanth                               #
 #####################################################################
 
+scoreboard players set in_fight BOSS 0
 gamerule doDaylightCycle true
 stopsound @s
 tag @s add nearTimeGem

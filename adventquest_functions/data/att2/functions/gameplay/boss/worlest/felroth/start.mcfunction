@@ -3,6 +3,7 @@
 #Start the boss fight for Felroth                                  	#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 scoreboard players set Felroth WORLEST 2
 execute positioned -4636 58 -5521 run function att2:summon/reg_1/felroth
 function att2:gameplay/boss/worlest/felroth/init_bossbar

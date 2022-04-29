@@ -3,6 +3,15 @@
 #Delete all existing score for test								#
 #################################################################
 
+# Arena
+scoreboard objectives remove ARENA
+
+# Nightmare Run
+scoreboard objectives remove NIGHTMARERUN
+
+# Combo
+scoreboard objectives remove COMBO
+
 #advancement
 advancement revoke @a everything
 scoreboard objectives remove EXPLOIT

@@ -3,6 +3,7 @@
 #Start the boss fight for Korlaph                                  	#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 stopsound @a
 tag @a add NoAutoMusic
 scoreboard players set @a MUSIC_BOSS 0

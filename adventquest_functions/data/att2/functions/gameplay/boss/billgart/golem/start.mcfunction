@@ -3,6 +3,7 @@
 #Start the boss fight for GolemBoss                                 #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 execute positioned -1291 132 -585 run function att2:summon/reg_3/golemboss
 scoreboard players set GolemBoss BILLGART 0
 scoreboard players set GolemBoss_timer1 BILLGART 0

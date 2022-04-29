@@ -3,6 +3,7 @@
 #Start the boss fight for Shadow                               		#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 execute positioned -4375 58 -5054 run function att2:summon/reg_1/shadow
 scoreboard players set Shadow SQ38 0
 scoreboard players set Shadow_attack SQ38 0

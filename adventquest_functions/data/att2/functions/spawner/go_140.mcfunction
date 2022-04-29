@@ -571,6 +571,7 @@ execute in minecraft:the_nether if score Mainquest SIDEQUEST matches ..90 positi
 execute in minecraft:the_nether if score Mainquest SIDEQUEST matches ..119 positioned 3343 45 4347 if entity @a[distance=5..25] run function att2:spawner/reg2/angor/town_w/mortalarcher0_class9_4716
 execute in minecraft:the_nether if score Mainquest SIDEQUEST matches 120.. positioned 3343 45 4347 if entity @a[distance=5..25] run function att2:spawner/reg2/angor/town_w/mortalarcher0_class17_4717
 execute in minecraft:the_nether positioned 3351 53 4357 if entity @a[distance=5..30] run function att2:spawner/reg2/angor/town_w/mortalarcher3_class12_4723
+execute in minecraft:the_nether if score SQ13 SIDEQUEST matches 0..99 positioned 3896 33 3861 if entity @a[distance=5..20] run function att2:spawner/reg2/phoenix/mine/magmasmall0_class10_sq13_3972
 execute in minecraft:the_nether if score Mainquest SIDEQUEST matches ..119 positioned 3388 41 4343 if entity @a[distance=5..20] run function att2:spawner/reg2/angor/town_w/mortalarcher2_class11_4731
 execute in minecraft:the_nether if score Mainquest SIDEQUEST matches 120.. positioned 3388 41 4343 if entity @a[distance=5..20] run function att2:spawner/reg2/angor/town_w/mortalarcher2_class18_4732
 execute in minecraft:the_nether positioned 3413 39 4377 if entity @a[distance=5..20] run function att2:spawner/reg2/angor/town_w/mortal4_class12_4745
