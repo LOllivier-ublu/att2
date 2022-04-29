@@ -8,6 +8,8 @@
 #   1 arena has been choose                                     #
 #################################################################
 
+function att2:gameplay/arena/pool2/destroying_item_arena
+
 # Arena 1
 execute if score Pool2_Random ARENA matches 1 if score Pool2_A1_Choose ARENA matches 0 run scoreboard players set Pool2_A1_Choose ARENA 1
 execute if score Pool2_Random ARENA matches 1 if score Pool2_A1_Choose ARENA matches -1 run function att2:gameplay/arena/pool2/choosing_arena_again

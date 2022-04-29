@@ -4,6 +4,7 @@
 #####################################################################
 
 scoreboard players set Pool2_A1_Choose ARENA -1
+scoreboard players set Pool2_Timer1 ARENA 50
 tp @s 5000 73 -5327
 stopsound @s
 tag @s add NoAutoMusic

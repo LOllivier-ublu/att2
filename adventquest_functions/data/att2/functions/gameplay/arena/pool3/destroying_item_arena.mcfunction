@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Kills every existing minions of Pool1 Arena5                       #
+#Kills every existing items of Pool3                                #
 #####################################################################
 
-execute as @e[x=4921,y=70,z=-5025,dx=49,dy=49,dz=49,team=hostile,scores={GAMELEVEL=0..}] run kill @s
+execute as @e[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130,type=minecraft:item] run kill @s

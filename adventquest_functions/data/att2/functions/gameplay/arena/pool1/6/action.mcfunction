@@ -17,5 +17,5 @@ execute as @e[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,tag=Subject,limit=1] if ent
 execute as @e[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,tag=Korlaph,limit=1] if entity @s[nbt={AbsorptionAmount:0.0f}] run data merge entity @s {AbsorptionAmount:30.0f}
 
 # Shadow effect
-function att2:gameplay/boss/schestrown/shadow/shadow_tp
-execute as 00000000-0000-008c-0000-00000000008c at @s run function att2:gameplay/boss/schestrown/shadow/shadow_effect
+function att2:gameplay/arena/shadow_tp
+execute as 00000000-0000-008c-0000-00000000008c at @s run function att2:gameplay/arena/shadow_effect

@@ -12,3 +12,5 @@ execute positioned 5153 72 -5012 run function att2:summon/arena/minions/thiefarc
 execute positioned 5156 72 -5009 run function att2:summon/arena/minions/thiefarcher_mighty5
 execute positioned 5156 72 -4991 run function att2:summon/arena/minions/thiefarcher_mighty5
 execute positioned 5153 72 -4988 run function att2:summon/arena/minions/thiefarcher_mighty5
+
+scoreboard players set Pool1_A2 ARENA 1

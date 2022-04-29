@@ -16,3 +16,5 @@ execute positioned 4781 72 -4979 run function att2:summon/arena/minions/silverfi
 execute positioned 4767 72 -4972 run function att2:summon/arena/minions/silverfish_mighty5
 execute positioned 4750 72 -4975 run function att2:summon/arena/minions/silverfish_mighty5
 execute positioned 4740 72 -4988 run function att2:summon/arena/minions/silverfish_mighty5
+
+scoreboard players set Pool1_A6 ARENA 1

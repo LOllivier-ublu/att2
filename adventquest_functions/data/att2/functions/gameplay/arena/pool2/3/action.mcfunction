@@ -6,6 +6,10 @@
 # 1001.. Pool2_A3_Timer Minions Trigger is processing               #
 #####################################################################
 
+# Shadow effect
+function att2:gameplay/arena/shadow_tp
+execute as 00000000-0000-008c-0000-00000000008c at @s run function att2:gameplay/arena/shadow_effect
+
 # Timer boss attack + minions summoning
 execute if score Pool2_A3_Timer ARENA matches 1 as @e[x=4932,y=70,z=-5184,dx=136,dy=54,dz=136,tag=ArenaMinion] run kill @s
 execute if score Pool2_A3_Timer ARENA matches 100 run function att2:gameplay/arena/pool2/3/summoning_minions_blaze

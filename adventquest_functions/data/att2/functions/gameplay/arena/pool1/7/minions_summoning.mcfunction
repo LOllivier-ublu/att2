@@ -16,3 +16,5 @@ execute positioned 5314 94 -5018 run function att2:summon/arena/minions/drowned_
 execute positioned 5350 94 -5018 run function att2:summon/arena/minions/drowned_mighty5
 execute positioned 5350 94 -4982 run function att2:summon/arena/minions/drowned_mighty5
 execute positioned 5314 94 -4982 run function att2:summon/arena/minions/drowned_mighty5
+
+scoreboard players set Pool1_A7 ARENA 1

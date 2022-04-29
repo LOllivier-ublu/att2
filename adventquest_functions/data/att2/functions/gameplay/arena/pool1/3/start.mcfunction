@@ -3,7 +3,6 @@
 #Start the arena fight for Pool1 Arena3                             #
 #####################################################################
 
-scoreboard players set Pool1_A3 ARENA 1
 execute positioned 5213 72 -5000 run function att2:summon/arena/boss/miehanov
 execute positioned 5240 72 -4974 run function att2:summon/arena/boss/ted
 execute positioned 5267 72 -5000 run function att2:summon/arena/boss/vonaheim

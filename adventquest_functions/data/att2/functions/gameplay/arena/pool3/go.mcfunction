@@ -11,5 +11,8 @@
 # Portal between arena pool3 effect
 execute positioned 5000 71 -4882 if score Pool3_A1 ARENA matches -2 if score Pool3_A1_Choose ARENA matches -1 run function att2:gameplay/arena/portal_between_arena_effect_go
 
+# Timer between starting and boss trigger
+execute if score Pool3_Timer1 ARENA matches 0.. run scoreboard players remove Pool3_Timer1 ARENA 1
+
 # Arenas go
 execute if score Pool3_A1 ARENA matches -1.. run function att2:gameplay/arena/pool3/1/go

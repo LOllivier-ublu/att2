@@ -8,7 +8,7 @@
 #####################################################################
 
 # Start the arena fight
-execute if score Pool1_A6 ARENA matches -1 if entity @a[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,gamemode=adventure] run function att2:gameplay/arena/pool1/6/start
+execute if score Pool1_A6 ARENA matches -1 if score Pool1_Timer1 ARENA matches 20 if entity @a[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,gamemode=adventure] run function att2:gameplay/arena/pool1/6/start
 
 # Music management
 execute if score Pool1_A6 ARENA matches 0.. as @a[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_demiboss
@@ -21,7 +21,7 @@ execute if score Pool1_A6 ARENA matches 0.. run function att2:gameplay/arena/poo
 execute if score Pool1_A6 ARENA matches 0.. run function att2:gameplay/arena/pool1/6/action
 
 # Testing if all bosses Pool1_A6 died
-execute if score Pool1_A6 ARENA matches 0.. if entity @a[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,gamemode=adventure] unless entity @e[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,tag=ArenaBoss] run function att2:gameplay/arena/pool1/6/victory
+execute if score Pool1_A6 ARENA matches 0.. if score Pool1_Timer1 ARENA matches -1 if entity @a[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,gamemode=adventure] unless entity @e[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,tag=ArenaBoss] run function att2:gameplay/arena/pool1/6/victory
 
 # Player failed destroying all bosses Pool1_A6 and died
 execute if score Pool1_A6 ARENA matches 0.. unless entity @a[x=4734,y=70,z=-4965,dx=75,dy=56,dz=-71,gamemode=adventure] run function att2:gameplay/arena/pool1/6/fail

@@ -16,3 +16,5 @@ execute positioned 5248 72 -4976 run function att2:summon/arena/minions/vindicat
 execute positioned 5256 72 -4980 run function att2:summon/arena/minions/vindicator_mighty5
 execute positioned 5263 72 -4986 run function att2:summon/arena/minions/vindicator_mighty5
 execute positioned 5268 72 -4993 run function att2:summon/arena/minions/vindicator_mighty5
+
+scoreboard players set Pool1_A3 ARENA 1

@@ -12,3 +12,5 @@ execute positioned 5050 78 -4976 run function att2:summon/arena/minions/cave_spi
 execute positioned 5072 78 -4976 run function att2:summon/arena/minions/cave_spider_mighty5
 execute positioned 5085 78 -4989 run function att2:summon/arena/minions/cave_spider_mighty5
 execute positioned 5085 78 -5011 run function att2:summon/arena/minions/cave_spider_mighty5
+
+scoreboard players set Pool1_A1 ARENA 1

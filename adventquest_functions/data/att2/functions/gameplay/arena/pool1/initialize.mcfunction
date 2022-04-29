@@ -4,6 +4,7 @@
 #################################################################
 
 scoreboard players set Pool1_Random ARENA 1
+scoreboard players set Pool1_Timer1 ARENA 0
 
 scoreboard players set Pool1_A1 ARENA -1
 scoreboard players set Pool1_A1_Timer ARENA 0

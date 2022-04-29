@@ -3,11 +3,10 @@
 #Start the arena fight for Pool3 Arena1                             #
 #####################################################################
 
-scoreboard players set Pool3_A1 ARENA 1
 execute positioned 5039 71 -4858 run function att2:summon/arena/boss/illusion
 execute positioned 5000 100 -4866 run function att2:summon/arena/boss/aozathreyon
 execute positioned 5039 71 -4874 run function att2:summon/arena/boss/naer
-execute positioned 5039 71 -4906 run function att2:summon/arena/boss/shadow
+execute positioned 5039 72 -4906 run function att2:summon/arena/boss/shadow
 execute positioned 5024 71 -4906 run function att2:summon/arena/boss/subject
 execute positioned 5024 71 -4858 run function att2:summon/arena/boss/korlaph
 execute positioned 5000 71 -4849 run function att2:summon/arena/boss/vonaheim
@@ -27,3 +26,5 @@ execute positioned 5019 71 -4882 run function att2:summon/arena/boss/blobby
 function att2:gameplay/arena/pool3/1/init_bossbar
 function att2:dialogs/title/arena/pool3_a1_title
 function att2:dialogs/title/arena/pool3_a1_subtitle
+
+scoreboard players set Pool3_A1 ARENA 1

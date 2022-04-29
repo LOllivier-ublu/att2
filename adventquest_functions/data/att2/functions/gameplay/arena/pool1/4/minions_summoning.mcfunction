@@ -16,3 +16,5 @@ execute positioned 4841 72 -5012 run function att2:summon/arena/minions/magma_mi
 execute positioned 4841 72 -4988 run function att2:summon/arena/minions/magma_mighty5
 execute positioned 4889 72 -4988 run function att2:summon/arena/minions/magma_mighty5
 execute positioned 4889 72 -5012 run function att2:summon/arena/minions/magma_mighty5
+
+scoreboard players set Pool1_A4 ARENA 1
