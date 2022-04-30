@@ -4,7 +4,8 @@
 #################################################################
 
 scoreboard players set nojelanth_present_trigger PANORAMA -1
-scoreboard players add @a PANORAMA 1
+execute if score nojelanth_present PANORAMA matches 0 run scoreboard players add @a PANORAMA 1
+scoreboard players set nojelanth_present PANORAMA 1
 advancement grant @a only att2:journey/panorama_nojelanth_desert
 
 setblock -5849 117 -4342 minecraft:air

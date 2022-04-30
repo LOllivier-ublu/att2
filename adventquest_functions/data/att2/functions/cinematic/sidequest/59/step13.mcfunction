@@ -9,3 +9,6 @@ execute at @a run function att2:sound/misc/mission_progress
 spawnpoint @a 5025 94 -4967
 scoreboard players set SQ59 SIDEQUEST 13
 scoreboard players set Number_Complete NIGHTMARERUN 1
+
+function att2:gameplay/nightmarerun/save_score
+function att2:gameplay/nightmarerun/save_score_to_beat

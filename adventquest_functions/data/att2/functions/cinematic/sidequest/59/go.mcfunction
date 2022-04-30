@@ -69,6 +69,8 @@ execute if score SQ59 SIDEQUEST matches 15 if score tic TIMECOUNTER matches 10 a
 # Anomaly effect
 execute if score SQ59 SIDEQUEST matches 2..11 positioned 29879 100 30002 run function att2:cinematic/sidequest/59/step2/anomaly_effect
 execute if score SQ59 SIDEQUEST matches 2..11 if score step_2 SQ59 matches 1 positioned 29879 99 30002 as @a[distance=..1] run tp @s 6022 159 -5953
+# Launch chrono For Nightmare Run
+execute if score SQ59 SIDEQUEST matches 3..12 run function att2:gameplay/nightmarerun/chrono/go
 
 # Portal Arena Ryliath effect + tp
 execute in minecraft:overworld if score SQ59 SIDEQUEST matches 19..99 run function att2:cinematic/sidequest/59/step18/portal_go
