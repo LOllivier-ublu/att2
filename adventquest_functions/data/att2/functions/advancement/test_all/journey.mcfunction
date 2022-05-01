@@ -15,3 +15,6 @@ execute if score Owsastr WAYPOINT matches 1 run advancement grant @a only att2:j
 execute if score Ryliath WAYPOINT matches 1 run advancement grant @a only att2:journey/waypoint_ryliath
 execute if score Soquai WAYPOINT matches 1 run advancement grant @a only att2:journey/waypoint_soquai
 execute if score count WAYPOINT matches 7 run advancement grant @a only att2:journey/waypoint_all
+
+# SYMBOL
+execute if score Ryliath SYMBOL matches 54 run advancement grant @a only att2:journey/symbol_ryliath

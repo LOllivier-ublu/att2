@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:item_frame"
+            "item": "minecraft:trident"
         },
         "title": {"translate":"NORMAL ARENA"},
         "description": {"translate":"Complete the arena event in normal difficulty."},

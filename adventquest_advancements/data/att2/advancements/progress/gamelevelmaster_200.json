@@ -9,7 +9,7 @@
     },
     "parent": "att2:progress/gamelevelmaster_150",
     "rewards": {
-        "function": "att2:advancement/exploit_50",
+        "function": "att2:advancement/exploit_75",
         "experience": 250000
                 },
     "criteria": {

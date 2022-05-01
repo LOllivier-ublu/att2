@@ -7,6 +7,7 @@ function att2:gameplay/enveffect/space_gem/go
 function att2:gameplay/enveffect/temperature/go
 function att2:gameplay/enveffect/time_gem/go
 function att2:gameplay/enveffect/spike/go
+execute if score tic TIMECOUNTER matches 1 run function att2:gameplay/enveffect/symbol/go
 execute if score Mainquest SIDEQUEST matches 1.. in minecraft:overworld run function att2:gameplay/enveffect/fairy/go
 execute if score second TIMECOUNTER matches 0 run function att2:gameplay/enveffect/bee/go
 execute if score second TIMECOUNTER matches 30 run function att2:gameplay/enveffect/bee/go
