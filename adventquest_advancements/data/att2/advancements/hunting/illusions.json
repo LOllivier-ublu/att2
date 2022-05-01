@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Illusions"},
         "description": {"translate":"Kill Illusions boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
         "function": "att2:advancement/exploit_5",
-        "experience": 5000
+        "experience": 2500
     },
     "criteria": {
         "illusions": {

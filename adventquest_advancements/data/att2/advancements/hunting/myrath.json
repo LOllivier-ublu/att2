@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Myrath"},
         "description": {"translate":"Kill Myrath boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
         "function": "att2:advancement/exploit_2",
-        "experience": 2500
+        "experience": 1500
     },
     "criteria": {
         "myrath": {

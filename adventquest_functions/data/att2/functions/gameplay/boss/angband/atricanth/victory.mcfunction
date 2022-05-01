@@ -16,4 +16,5 @@ function att2:gameplay/checkpoint/angband/angor4
 
 execute if score SQ57 SIDEQUEST matches 1 run function att2:cinematic/sidequest/57/step2
 
-advancement grant @a only att2:hunting/atricanth
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/atricanth
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/atricanth_master

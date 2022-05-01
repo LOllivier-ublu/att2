@@ -15,4 +15,5 @@ execute in minecraft:the_nether positioned 3539 124 4515 run function att2:sound
 
 function att2:gameplay/checkpoint/angband/angor_palace17
 
-advancement grant @a only att2:hunting/karon
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/karon
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/karon_master

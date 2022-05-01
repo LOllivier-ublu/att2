@@ -14,4 +14,5 @@ execute in minecraft:overworld run spawnpoint @a -7541 59 -4165
 # Discover the Dahäl loader Interfacer
 setblock -7543 62 -4184 minecraft:air
 
-advancement grant @a only att2:hunting/hive
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/hive
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/hive_master

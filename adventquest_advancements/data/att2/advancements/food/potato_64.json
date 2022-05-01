@@ -9,7 +9,7 @@
     },
     "parent": "att2:food/potato_32",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
+        "function": "att2:advancement/exploit_15",
         "experience": 1000
                 },
     "criteria": {

@@ -14,4 +14,5 @@ function att2:gameplay/boss/billgart/gestrom/destroy_minions
 
 function att2:gameplay/checkpoint/billgart/dungeon37
 
-advancement grant @a only att2:hunting/gestrom
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/gestrom
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/gestrom_master

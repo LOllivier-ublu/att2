@@ -6,7 +6,7 @@
         "title": {"translate":"MASTER ETERNAN"},
         "description": {"translate":"Reach the level Master MAX"},
         "frame": "challenge",
-        "hidden": "true"
+        "hidden": true
     },
     "parent": "att2:progress/gamelevelmaster_200",
     "rewards": {

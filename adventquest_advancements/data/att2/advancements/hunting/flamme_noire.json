@@ -7,7 +7,7 @@
         "title": {"translate":"Flamme Noire"},
         "description": {"translate":"Kill Flamme Noire boss"},
         "frame": "challenge",
-        "hidden": "true"
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {

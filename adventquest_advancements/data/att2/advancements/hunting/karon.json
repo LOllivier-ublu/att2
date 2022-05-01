@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Karön"},
         "description": {"translate":"Kill Karön boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
-        "function": "att2:advancement/exploit_15",
-        "experience": 7500
+        "function": "att2:advancement/exploit_5",
+        "experience": 3500
     },
     "criteria": {
         "karon": {

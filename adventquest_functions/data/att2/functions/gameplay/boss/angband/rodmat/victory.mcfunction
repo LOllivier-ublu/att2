@@ -14,4 +14,5 @@ function att2:physicmod/reg2/angor/rodmat_lava_clean
 
 function att2:gameplay/checkpoint/angband/angor18
 
-advancement grant @a only att2:hunting/rodmat
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/rodmat
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/rodmat_master

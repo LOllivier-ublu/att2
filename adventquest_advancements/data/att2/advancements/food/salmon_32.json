@@ -9,7 +9,7 @@
     },
     "parent": "att2:food/salmon_16",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
+        "function": "att2:advancement/exploit_15",
         "experience": 1000
                 },
     "criteria": {

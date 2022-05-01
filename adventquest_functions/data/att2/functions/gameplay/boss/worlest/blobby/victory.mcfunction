@@ -12,4 +12,5 @@ function att2:gameplay/boss/worlest/blobby/destroy_minions
 execute in minecraft:overworld run spawnpoint @a -5356 39 -4918
 function att2:physicmod/reg1/worlest_blobby_open
 
-advancement grant @a only att2:hunting/blobby
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/blobby
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/blobby_master

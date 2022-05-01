@@ -12,4 +12,5 @@ function att2:gameplay/boss/nojelanth/subjects/destroy_minions
 function att2:physicmod/reg1/nojelanth/subjects_end
 execute in minecraft:overworld run spawnpoint @a -7410 95 -4401
 
-advancement grant @a only att2:hunting/subjects
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/subjects
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/subjects_master

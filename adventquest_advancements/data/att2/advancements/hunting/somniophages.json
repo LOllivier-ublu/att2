@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Somniophages"},
         "description": {"translate":"Kill Somniophages boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
         "function": "att2:advancement/exploit_10",
-        "experience": 10000
+        "experience": 5000
     },
     "criteria": {
         "somniophages": {

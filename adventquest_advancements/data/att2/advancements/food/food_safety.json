@@ -8,7 +8,7 @@
     },
     "parent": "att2:food/root",
     "rewards": {
-        "function": "att2:advancement/exploit_15",
+        "function": "att2:advancement/exploit_25",
         "experience": 1500
                 },
     "criteria": {

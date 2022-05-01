@@ -9,6 +9,7 @@ advancement grant @a[scores={EXPLOIT=250..}] only att2:progress/exploit_250
 advancement grant @a[scores={EXPLOIT=1000..}] only att2:progress/exploit_1000
 advancement grant @a[scores={EXPLOIT=2500..}] only att2:progress/exploit_2500
 advancement grant @a[scores={EXPLOIT=5000..}] only att2:progress/exploit_5000
+advancement grant @a[scores={EXPLOIT=7777..}] only att2:progress/exploit_7777
 
 # SIDEQUEST
 advancement grant @a[scores={SIDEQUEST=1..}] only att2:progress/sidequest_1

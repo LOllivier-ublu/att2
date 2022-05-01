@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Umbratyanth"},
         "description": {"translate":"Kill Umbratyanth boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
-        "function": "att2:advancement/exploit_40",
-        "experience": 40000
+        "function": "att2:advancement/exploit_25",
+        "experience": 25000
     },
     "criteria": {
         "umbratyanth": {

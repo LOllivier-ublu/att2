@@ -20,4 +20,5 @@ execute at @a run function att2:sound/mobs/golem_death
 
 execute if score Mainquest SIDEQUEST matches 142.. run function att2:gameplay/checkpoint/billgart/dungeon1
 
-advancement grant @a only att2:hunting/golem
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/golem
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/golem_master

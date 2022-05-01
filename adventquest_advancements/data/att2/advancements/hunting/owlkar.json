@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Owlkär"},
         "description": {"translate":"Kill Owlkär boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
-        "function": "att2:advancement/exploit_5",
-        "experience": 2000
+        "function": "att2:advancement/exploit_3",
+        "experience": 1000
     },
     "criteria": {
         "owlkar": {

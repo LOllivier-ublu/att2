@@ -11,4 +11,5 @@ execute positioned -5108 109 -6198 run function att2:gameplay/boss/elcheol/ted/r
 function att2:gameplay/boss/elcheol/ted/destroy_minions
 execute in minecraft:overworld run spawnpoint @a -5130 109 -6198
 
-advancement grant @a only att2:hunting/ted
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/ted
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/ted_master

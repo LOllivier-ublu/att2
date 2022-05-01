@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Ulkoggumi"},
         "description": {"translate":"Kill Ulkoggumi boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
         "function": "att2:advancement/exploit_15",
-        "experience": 7500
+        "experience": 6000
     },
     "criteria": {
         "ulkoggumi": {

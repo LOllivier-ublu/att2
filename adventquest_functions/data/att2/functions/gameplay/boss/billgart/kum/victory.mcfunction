@@ -13,4 +13,5 @@ execute positioned -1553 27 -605 run function att2:gameplay/boss/billgart/kum/re
 function att2:gameplay/boss/billgart/kum/destroy_minions
 function att2:gameplay/checkpoint/billgart/lost1
 
-advancement grant @a only att2:hunting/kum
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/kum
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/kum_master

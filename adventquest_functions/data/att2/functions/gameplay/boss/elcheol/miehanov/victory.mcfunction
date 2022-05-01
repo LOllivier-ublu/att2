@@ -16,4 +16,5 @@ execute if score Mainquest SIDEQUEST matches 113 run function att2:dialogs/mainq
 
 execute in minecraft:overworld run spawnpoint @a -5614 166 -6399
 
-advancement grant @a only att2:hunting/miehanov
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/miehanov
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/miehanov_master

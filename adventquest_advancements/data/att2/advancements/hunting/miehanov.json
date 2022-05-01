@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Miehanov"},
         "description": {"translate":"Kill Miehanov boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
-        "function": "att2:advancement/exploit_15",
-        "experience": 7500
+        "function": "att2:advancement/exploit_10",
+        "experience": 4500
     },
     "criteria": {
         "miehanov": {
