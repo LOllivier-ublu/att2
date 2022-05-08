@@ -1,10 +1,10 @@
 #################################################################
 #Made by Adventquest											#
-#Process all test of Symbol Exploration 			            #
+#Process detection player on Symbol Exploration 			    #
 #################################################################
 
 # Particle
 function att2:gameplay/enveffect/symbol/particle
 
 # Detect
-execute as @p[distance=..2] run function att2:gameplay/enveffect/symbol/add/worlest
+execute as @p[gamemode=adventure,distance=..2] run function att2:gameplay/enveffect/symbol/add/worlest
