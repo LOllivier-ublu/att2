@@ -3,17 +3,17 @@
         "icon": {
             "item": "minecraft:feather"
         },
-        "title": {"translate":"Nojélanth desert"},
-        "description": {"translate":"Discover the panorama of the Nojélanth desert"},
+        "title": {"translate":"Present Nojélanth"},
+        "description": {"translate":"Discover the panorama of the present Nojélanth Academy"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_nojelanth",
     "rewards": {
-        "function": "att2:advancement/exploit_25",
-        "experience": 2500
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
                 },
     "criteria": {
-        "panorama_nojelanth_desert": {
+        "panorama_nojelanth_present": {
             "trigger": "minecraft:impossible"
         }
     }

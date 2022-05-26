@@ -65,6 +65,10 @@ execute if score nojelanth_past_trigger PANORAMA matches 0 in minecraft:overworl
 execute if score nojelanth_past_trigger PANORAMA matches -1 in minecraft:overworld positioned -7495 99 -4504 unless entity @a[distance=..50] run scoreboard players set nojelanth_past_trigger PANORAMA 0
 execute if score nojelanth_present_trigger PANORAMA matches 0 in minecraft:overworld positioned -5849 117 -4342 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/nojelanth_present
 execute if score nojelanth_present_trigger PANORAMA matches -1 in minecraft:overworld positioned -5849 117 -4342 unless entity @a[distance=..50] run scoreboard players set nojelanth_present_trigger PANORAMA 0
+execute if score nojelanth_forest_trigger PANORAMA matches 0 in minecraft:overworld positioned -7543 132 -4183 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/nojelanth_forest
+execute if score nojelanth_forest_trigger PANORAMA matches -1 in minecraft:overworld positioned -7543 132 -4183 unless entity @a[distance=..50] run scoreboard players set nojelanth_desert_trigger PANORAMA 0
+execute if score nojelanth_desert_trigger PANORAMA matches 0 in minecraft:overworld positioned -5568 55 -4050 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/nojelanth_desert
+execute if score nojelanth_desert_trigger PANORAMA matches -1 in minecraft:overworld positioned -5568 55 -4050 unless entity @a[distance=..50] run scoreboard players set nojelanth_desert_trigger PANORAMA 0
 execute if score owsastr_trigger PANORAMA matches 0 in minecraft:overworld positioned -4849 93 -4406 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/owsastr
 execute if score owsastr_trigger PANORAMA matches -1 in minecraft:overworld positioned -4849 93 -4406 unless entity @a[distance=..50] run scoreboard players set owsastr_trigger PANORAMA 0
 execute if score plain_trigger PANORAMA matches 0 in minecraft:overworld positioned -4286 111 -5621 if entity @a[distance=..1,gamemode=adventure] run function att2:gameplay/panorama/start/plain

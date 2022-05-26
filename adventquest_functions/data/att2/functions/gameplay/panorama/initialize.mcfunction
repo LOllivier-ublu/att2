@@ -35,6 +35,8 @@ scoreboard players set meleim PANORAMA 0
 scoreboard players set mornith PANORAMA 0
 scoreboard players set nojelanth_past PANORAMA 0
 scoreboard players set nojelanth_present PANORAMA 0
+scoreboard players set nojelanth_forest PANORAMA 0
+scoreboard players set nojelanth_desert PANORAMA 0
 scoreboard players set ouranos_gate PANORAMA 0
 scoreboard players set ouranos_temple PANORAMA 0
 scoreboard players set ouranos_tower PANORAMA 0

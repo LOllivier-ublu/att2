@@ -32,6 +32,8 @@ scoreboard players set meleim_trigger PANORAMA 0
 scoreboard players set mornith_trigger PANORAMA 0
 scoreboard players set nojelanth_past_trigger PANORAMA 0
 scoreboard players set nojelanth_present_trigger PANORAMA 0
+scoreboard players set nojelanth_forest_trigger PANORAMA 0
+scoreboard players set nojelanth_desert_trigger PANORAMA 0
 scoreboard players set ouranos_gate_trigger PANORAMA 0
 scoreboard players set ouranos_temple_trigger PANORAMA 0
 scoreboard players set ouranos_tower_trigger PANORAMA 0

@@ -98,6 +98,12 @@ execute if score nojelanth_past_trigger PANORAMA matches 1 in minecraft:overworl
 execute if score nojelanth_present_trigger PANORAMA matches 0 in minecraft:overworld positioned -5849 117 -4342 run function att2:gameplay/panorama/effect_plate
 execute if score nojelanth_present_trigger PANORAMA matches 1 in minecraft:overworld positioned -5849 117 -4342 as @a[distance=..100,gamemode=spectator] at @s run teleport @s -5850 125 -4320 ~ 10
 execute if score nojelanth_present_trigger PANORAMA matches 1 in minecraft:overworld if score timer PANORAMA matches ..0 run function att2:gameplay/panorama/end/nojelanth_present
+execute if score nojelanth_forest_trigger PANORAMA matches 0 in minecraft:overworld positioned -7543 132 -4183 run function att2:gameplay/panorama/effect_plate
+execute if score nojelanth_forest_trigger PANORAMA matches 1 in minecraft:overworld positioned -7543 132 -4183 as @a[distance=..100,gamemode=spectator] at @s run teleport @s -7543 125 -4217 ~ 20
+execute if score nojelanth_forest_trigger PANORAMA matches 1 in minecraft:overworld if score timer PANORAMA matches ..0 run function att2:gameplay/panorama/end/nojelanth_desert
+execute if score nojelanth_desert_trigger PANORAMA matches 0 in minecraft:overworld positioned -5568 55 -4050 run function att2:gameplay/panorama/effect_plate
+execute if score nojelanth_desert_trigger PANORAMA matches 1 in minecraft:overworld positioned -5568 55 -4050 as @a[distance=..100,gamemode=spectator] at @s run teleport @s -5568 70 -4050 ~ 30
+execute if score nojelanth_desert_trigger PANORAMA matches 1 in minecraft:overworld if score timer PANORAMA matches ..0 run function att2:gameplay/panorama/end/nojelanth_desert
 execute if score owsastr_trigger PANORAMA matches 0 in minecraft:overworld positioned -4849 93 -4406 run function att2:gameplay/panorama/effect_plate
 execute if score owsastr_trigger PANORAMA matches 1 in minecraft:overworld positioned -4849 93 -4406 as @a[distance=..100,gamemode=spectator] at @s run teleport @s -4849 105 -4406 ~ 20
 execute if score owsastr_trigger PANORAMA matches 1 in minecraft:overworld if score timer PANORAMA matches ..0 run function att2:gameplay/panorama/end/owsastr
