@@ -4,7 +4,7 @@
             "item": "minecraft:spruce_boat"
         },
         "title": {"translate":"Worlëst"},
-        "description": {"translate":"Discover Worlëst mine"}
+        "description": {"translate":"Discover Worlëst forest"}
     },
     "parent": "att2:journey/discover_ryliath",
     "rewards": {
