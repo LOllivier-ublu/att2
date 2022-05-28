@@ -4,12 +4,12 @@
             "item": "minecraft:music_disc_pigstep"
         },
         "title": {"translate":"Ryliath Symbol"},
-        "description": {"translate":"Discover all Exploration symbol of Ryliath"},
+        "description": {"translate":"Discover all Exploration symbols of Ryliath"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_ryliath",
     "rewards": {
-        "function": "att2:advancement/exploit_15",
+        "function": "att2:advancement/exploit_10",
         "experience": 5000
                 },
     "criteria": {

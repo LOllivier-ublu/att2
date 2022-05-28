@@ -10,7 +10,7 @@
     "parent": "att2:journey/discover_plain",
     "rewards": {
         "function": "att2:advancement/exploit_5",
-        "experience": 500
+        "experience": 1000
                 },
     "criteria": {
         "panorama_crossroads": {

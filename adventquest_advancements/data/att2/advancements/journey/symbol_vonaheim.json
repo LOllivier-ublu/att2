@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"Vonaheim Symbol"},
+        "description": {"translate":"Discover all Exploration symbols of Vonaheim"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/discover_vonaheim",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "symbol_vonaheim": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

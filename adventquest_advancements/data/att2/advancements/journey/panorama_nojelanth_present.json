@@ -7,10 +7,10 @@
         "description": {"translate":"Discover the panorama of the present Nojélanth Academy"},
         "frame": "goal"
     },
-    "parent": "att2:journey/discover_nojelanth",
+    "parent": "att2:journey/discover_nojelanth_present",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
-        "experience": 5000
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
                 },
     "criteria": {
         "panorama_nojelanth_present": {

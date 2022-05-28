@@ -7,10 +7,10 @@
         "description": {"translate":"Discover the panorama of the Nojélanth forest"},
         "frame": "goal"
     },
-    "parent": "att2:journey/discover_nojelanth",
+    "parent": "att2:journey/discover_nojelanth_past",
     "rewards": {
-        "function": "att2:advancement/exploit_25",
-        "experience": 2500
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
                 },
     "criteria": {
         "panorama_nojelanth_forest": {

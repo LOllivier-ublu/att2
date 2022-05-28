@@ -9,8 +9,8 @@
     },
     "parent": "att2:journey/discover_kert_mine",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
-        "experience": 5000
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
                 },
     "criteria": {
         "panorama_kert_mine": {
