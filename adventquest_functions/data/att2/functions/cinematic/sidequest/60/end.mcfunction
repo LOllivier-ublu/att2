@@ -10,5 +10,5 @@ function att2:dialogs/sidequest/completed_effect
 
 #REWARDS
 xp add @a 10000000 points
-
+scoreboard players set item ITEM_LIFETIME 1095
 advancement grant @a only att2:quest/sq60

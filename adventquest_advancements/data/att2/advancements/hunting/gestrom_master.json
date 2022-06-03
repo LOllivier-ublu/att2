@@ -12,7 +12,7 @@
     "parent": "att2:hunting/gestrom",
     "rewards": {
         "function": "att2:advancement/exploit_15",
-        "experience": 7500
+        "experience": 7000
     },
     "criteria": {
         "gestrom_master": {

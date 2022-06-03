@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"(-)=(-) Police : ","color":"gray","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"PUT YOUR HANDS IN THE AIR, YOU ARE UNDER ARREST!!","color":"dark_red"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"","color":"dark_red"}]}

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ricoru : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ricoru : ","color":"green","extra":[{"text":"Thank you for the delivery, we were soon gonna be out of ingredients!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ricoru : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

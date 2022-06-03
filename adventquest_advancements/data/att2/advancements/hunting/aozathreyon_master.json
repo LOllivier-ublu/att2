@@ -12,7 +12,7 @@
     "parent": "att2:hunting/aozathreyon",
     "rewards": {
         "function": "att2:advancement/exploit_20",
-        "experience": 8500
+        "experience": 8000
     },
     "criteria": {
         "aozathreyon_master": {
