@@ -18,7 +18,7 @@
             "conditions": {
 				"position": {
 					"y": {
-						"max": 2.0
+						"max": 1.0
 					}
 				}
             }
