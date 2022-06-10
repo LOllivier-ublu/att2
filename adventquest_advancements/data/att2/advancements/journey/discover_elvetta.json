@@ -14,14 +14,20 @@
     "criteria": {
         "discover_elvetta": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "biome": "birch_forest",
                 "position": {
                     "x": {"min":-4200.0,"max":-4025.0},
                     "y": {"min":60.0,"max":130.0},
                     "z": {"min":-5760.0,"max":-5445.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

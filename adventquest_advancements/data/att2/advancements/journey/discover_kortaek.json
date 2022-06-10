@@ -14,13 +14,19 @@
     "criteria": {
         "discover_kortaek": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-5536.0,"max":-5388.0},
                     "y": {"min":30.0,"max":150.0},
                     "z": {"min":-4805.0,"max":-4606.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

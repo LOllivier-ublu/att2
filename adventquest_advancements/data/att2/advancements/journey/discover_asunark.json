@@ -14,13 +14,19 @@
     "criteria": {
         "discover_asunark": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-3700.0,"max":-3680.0},
                     "y": {"min":65.0,"max":100.0},
                     "z": {"min":-5020.0,"max":-4975.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

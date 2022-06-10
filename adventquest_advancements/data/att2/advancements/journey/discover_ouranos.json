@@ -14,13 +14,19 @@
     "criteria": {
         "discover_ouranos": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":6950.0,"max":7050.0},
                     "y": {"min":60.0,"max":200.0},
                     "z": {"min":6950.0,"max":7050.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

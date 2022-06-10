@@ -14,13 +14,19 @@
     "criteria": {
         "discover_mangrove": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-4374.0,"max":-4164.0},
                     "y": {"min":60.0,"max":120.0},
                     "z": {"min":-4895.0,"max":-4544.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

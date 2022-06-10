@@ -14,13 +14,19 @@
     "criteria": {
         "discover_soquai": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-5113.0,"max":-4747.0},
                     "y": {"min":70.0,"max":120.0},
                     "z": {"min":-5600.0,"max":-5513.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

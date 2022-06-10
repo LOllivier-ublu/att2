@@ -14,13 +14,19 @@
     "criteria": {
         "discover_nojelanth_present": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-5900.0,"max":-5852.0},
                     "y": {"min":70.0,"max":130.0},
                     "z": {"min":-4570.0,"max":-4505.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

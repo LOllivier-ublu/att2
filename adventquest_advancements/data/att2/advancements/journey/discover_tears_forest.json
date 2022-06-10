@@ -14,13 +14,19 @@
     "criteria": {
         "discover_tears_forest": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-4555.0,"max":-4370.0},
                     "y": {"min":60.0,"max":130.0},
                     "z": {"min":-5100.0,"max":-4835.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

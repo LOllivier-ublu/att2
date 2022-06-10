@@ -14,13 +14,19 @@
     "criteria": {
         "discover_earndhel": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":29960.0,"max":29970.0},
                     "y": {"min":70.0,"max":100.0},
                     "z": {"min":29962.0,"max":29970.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

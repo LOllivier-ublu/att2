@@ -14,13 +14,19 @@
     "criteria": {
         "discover_sathnok": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-5970.0,"max":-5895.0},
                     "y": {"min":70.0,"max":140.0},
                     "z": {"min":-4800.0,"max":-4700.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

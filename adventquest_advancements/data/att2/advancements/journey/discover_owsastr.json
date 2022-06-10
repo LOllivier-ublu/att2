@@ -14,13 +14,19 @@
     "criteria": {
         "discover_owsastr": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-4750.0,"max":-4451.0},
                     "y": {"min":65.0,"max":100.0},
                     "z": {"min":-4721.0,"max":-4420.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

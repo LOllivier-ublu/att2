@@ -14,13 +14,19 @@
     "criteria": {
         "discover_black_forest": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-4700.0,"max":-3900.0},
                     "y": {"min":70.0,"max":150.0},
                     "z": {"min":-6050.0,"max":-5800.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

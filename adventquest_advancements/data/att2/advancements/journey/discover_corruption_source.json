@@ -14,13 +14,19 @@
     "criteria": {
         "discover_corruption_source": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "the_nether",
                 "position": {
                     "x": {"min":3764.0,"max":3834.0},
                     "y": {"min":30.0,"max":100.0},
                     "z": {"min":4694.0,"max":4714.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

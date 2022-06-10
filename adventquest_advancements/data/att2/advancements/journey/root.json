@@ -9,20 +9,26 @@
         "show_toast": true,
         "announce_to_chat": true
     },
+    "rewards": {
+        "experience": 150
+    },
     "criteria": {
         "discover_worlëst": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-5244.0,"max":-5238.0},
                     "y": {"min":70.0,"max":75.0},
                     "z": {"min":-5408.0,"max":-5388.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
-    },
-    "rewards": {
-        "experience": 150
     }
 }

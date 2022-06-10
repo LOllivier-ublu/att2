@@ -14,13 +14,19 @@
     "criteria": {
         "discover_meleim": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-3827.0,"max":-3801.0},
                     "y": {"min":65.0,"max":110.0},
                     "z": {"min":-5834.0,"max":-5792.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }
