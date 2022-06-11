@@ -41,6 +41,7 @@ execute if score Tournament ARENA matches -1..0 run function att2:gameplay/arena
 execute if score Tournament ARENA matches 1 run function att2:gameplay/arena/pool1/go
 execute if score Tournament ARENA matches 2 run function att2:gameplay/arena/pool2/go
 execute if score Tournament ARENA matches 3 run function att2:gameplay/arena/pool3/go
+execute if score Tournament ARENA matches 4 run function att2:gameplay/arena/pool4/go
 
 # Go Random arenas
 function att2:gameplay/arena/pool0/random
@@ -48,9 +49,9 @@ function att2:gameplay/arena/pool1/random
 function att2:gameplay/arena/pool2/random
 
 # Exit when player lose (return to lobby)
-execute if score Tournament ARENA matches -1..3 positioned 5000 125 -5000 as @a[distance=..2,gamemode=adventure] at @s run function att2:gameplay/arena/exit_to_lobby_lose
+execute if score Tournament ARENA matches -1..4 positioned 5000 125 -5000 as @a[distance=..2,gamemode=adventure] at @s run function att2:gameplay/arena/exit_to_lobby_lose
 # Exit when players win all the arena (return to lobby)
-execute if score Tournament ARENA matches 4 positioned 5000 125 -5000 if entity @a[distance=..2,gamemode=adventure] run function att2:gameplay/arena/exit_to_lobby_win
+execute if score Tournament ARENA matches 5 positioned 5000 125 -5000 if entity @a[distance=..2,gamemode=adventure] run function att2:gameplay/arena/exit_to_lobby_win
 
 # Exit arena when player choose to give up (return to ryliath)
 function att2:gameplay/arena/return_to_ryliath

@@ -29,3 +29,5 @@ execute if score Tournament ARENA matches 2 if score Pool2_A3_Choose ARENA match
 execute if score Tournament ARENA matches 2 as @a run function att2:dialogs/gameplay/arena/system_arena_pool2_info
 execute if score Tournament ARENA matches 3 run function att2:gameplay/arena/pool3/1/enter_arena
 execute if score Tournament ARENA matches 3 as @a run function att2:dialogs/gameplay/arena/system_arena_pool3_info
+execute if score Tournament ARENA matches 4 run function att2:gameplay/arena/pool4/1/enter_arena
+execute if score Tournament ARENA matches 4 as @a run function att2:dialogs/gameplay/arena/system_arena_pool4_info
