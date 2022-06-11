@@ -8,6 +8,12 @@ execute if score level DIFFICULTY matches 0.. if score Hermetique_Chestplate ARE
 execute if score level DIFFICULTY matches 0.. if score Hermetique_Leggings ARENA matches 0 run function att2:summon/bat_hermetique_leggings_rewards
 execute if score level DIFFICULTY matches 0.. if score Hermetique_Boots ARENA matches 0 run function att2:summon/bat_hermetique_boots_rewards
 
+function att2:summon/bat_boss_esc_rewards
+function att2:summon/bat_boss_esc_rewards
+function att2:summon/bat_boss_esc_rewards
+function att2:summon/bat_boss_esc_rewards
+function att2:summon/bat_boss_esc_rewards
+
 function att2:summon/bat_boss_rewards
 function att2:summon/bat_boss_rewards
 function att2:summon/bat_boss_rewards

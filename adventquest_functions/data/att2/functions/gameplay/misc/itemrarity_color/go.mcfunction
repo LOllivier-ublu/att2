@@ -14,4 +14,4 @@ execute as @e[type=minecraft:item,nbt={Item:{tag:{Rarity:"epi_esc"}}}] at @s run
 execute as @e[type=minecraft:item,nbt={Item:{tag:{Rarity:"leg"}}}] at @s run particle minecraft:dust 1 0.45 0.1 0.6 ~ ~1.5 ~ 0.05 0.8 0.05 0 5 normal
 execute as @e[type=minecraft:item,nbt={Item:{tag:{Rarity:"leg_armset"}}}] at @s run particle minecraft:dust 0.9 0.4 0.1 0.6 ~ ~1.5 ~ 0.05 0.8 0.05 0 5 normal
 execute as @e[type=minecraft:item,nbt={Item:{tag:{Rarity:"myt"}}}] at @s run particle minecraft:dust 0 1 1 0.7 ~ ~1.5 ~ 0.05 1 0.05 0 7 normal
-execute as @e[type=minecraft:item,nbt={Item:{tag:{Rarity:"unk"}}}] at @s run particle minecraft:dust 1 1 1 0.7 ~ ~1.5 ~ 0.05 1 0.05 1 7 normal
+execute as @e[type=minecraft:item,nbt={Item:{tag:{Rarity:"unk"}}}] at @s run particle minecraft:dust 5 5 5 0.5 ~ ~0.5 ~ 0.1 0.2 0.1 1 5 normal
