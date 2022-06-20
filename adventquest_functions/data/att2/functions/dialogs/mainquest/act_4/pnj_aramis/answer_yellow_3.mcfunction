@@ -19,3 +19,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Go see Marlene in the academy kitchen. She will tell you more about a delivery we have already waited too long for.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+

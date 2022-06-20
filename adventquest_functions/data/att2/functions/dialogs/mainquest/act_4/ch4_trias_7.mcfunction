@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Trias : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"I will then entrust you with a very generous compensation, depending on the nature and even the truthfulness of your return. However, as I myself travel a lot, our paths may not cross again. So, if you could get some information about my quest to see the bow itself, at least be so kind as to spread your knowledge, and say : I have acquired or such holds Trias's bow.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

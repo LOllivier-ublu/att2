@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Alréan : ","color":"gold","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Yes, yes, you have to. But you will only be able to by flying. Go to the wind artist's house, he will help you. In order to find him, follow the road in front of me, cross the bridge, then continue to the north. Next, climb the stairs that you will find at the crossroads and you will run into the only eccentric house of the town...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"","color":"dark_aqua"}]}

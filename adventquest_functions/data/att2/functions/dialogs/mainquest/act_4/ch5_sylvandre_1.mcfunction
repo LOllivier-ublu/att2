@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Hey ! But it's ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_aqua"},{"text":" ! Wait, Brynhild, it's a hero! He reactivated Ryliath's portal and they say he traveled in other dimensions.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_aqua"},{"text":" !","color":"dark_aqua"}]}

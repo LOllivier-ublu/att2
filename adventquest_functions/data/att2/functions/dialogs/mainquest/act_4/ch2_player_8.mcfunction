@@ -15,3 +15,8 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I now have to cross a collapsed bridge... That stalactite above it is huge! It's so wide that it could create me a walkway or even fill the hole by falling in. I don't see any other alternatives than the hard way, let's climb up and try to melt its base ! It's not like it's in danger of bringing the rest of the bridge in its fall and of destroying all the cave...","color":"aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}

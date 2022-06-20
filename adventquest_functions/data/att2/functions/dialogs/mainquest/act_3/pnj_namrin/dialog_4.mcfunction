@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Well, if you ever lose the Corruption incantation book, I can provide you a new one.","color":"dark_aqua","extra":[{"text":" [Obtain Corruption -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/dahal/action/spell40/obtain"},"hoverEvent":{"action":"show_text","value":"Click here to obtain another Corruption's book."}}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [獲得腐敗 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/dahal/action/spell40/obtain"},"hoverEvent":{"action":"show_text","value":"單擊此處獲取另一本 Corruption 的書籍。"}}]}]}

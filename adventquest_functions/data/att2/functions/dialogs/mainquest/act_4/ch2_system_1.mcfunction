@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Miehanov regagne toutes ses vies...","c
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"Miehanov is restoring all his health back...","color":"gray","italic":true}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}

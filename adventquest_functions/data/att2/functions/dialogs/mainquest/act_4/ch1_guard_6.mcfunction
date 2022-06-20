@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garde : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"The royal family of... You're not just anyone, it seems. I'm sorry for the interruption, but our city is poor despite its appearance. I am not allowed to let beggars and vagrants in, because we barely have enough to survive the winter and we rely heavily on trade to survive... I mean, if that's the knowledge you're looking for, you couldn't have come at a better place! The Dahäl Academy is located at the other end of the city, facing the mountains: you can't miss it. They will probably agree to help you for a few Chronotons.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

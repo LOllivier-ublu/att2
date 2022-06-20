@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I need ","color":"aqua","italic":true,"bold":false,"extra":[{"text":"<Gears>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:tripwire_hook\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Engrenages\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Gear\\\"}\"]}}}"},"extra":[{"text":" to make this mechanism work.","bold":false,"color":"aqua","italic":true}]}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":" ","color":"aqua","italic":true,"bold":false,"extra":[{"text":"<Gears>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:tripwire_hook\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Engrenages\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Gear\\\"}\"]}}}"},"extra":[{"text":" ","bold":false,"color":"aqua","italic":true}]}]}]}

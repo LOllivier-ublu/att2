@@ -18,3 +18,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Golem : ","color":"green","extra"
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"A door that little flesh being will be able to pass, opens itself. Sticky stones, bearers of will, are hiding at the end of the path. Sticky stones that will awaken his limbs from the ruin.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","ext
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Anyway, now that Sérile believes she has eliminated all the giants, it is very likely that she will try to use the power of Tellurön's source, whatever the consequences for this dimension. Because without a portal, she will not be able to return to Angband to claim her title of queen. But there will be nothing easier for her once she has seized the source.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"","color":"dark_aqua"}]}

@@ -16,4 +16,9 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"I have no doubt about your value in battle or in Dahäl. But everything comes at a price, so if you want to have this information, you'll have to do our city a favour first.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_3_2

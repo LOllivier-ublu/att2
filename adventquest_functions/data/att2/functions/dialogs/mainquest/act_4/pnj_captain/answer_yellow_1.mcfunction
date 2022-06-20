@@ -18,3 +18,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Capitaine : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Captain : ","color":"green","extra":[{"text":"Oh, really? As you wish, but once on the other side, we will not open you up again until the enemy is routed... We'll cover you from the walls, so don't go too far away. OPEN THE DOOR!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 隊長 : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

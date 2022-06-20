@@ -16,4 +16,9 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"The city portal has been activated.... You will have needed space gems for this. And I don't feel that this kind of business is a real challenge for you.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_2_1

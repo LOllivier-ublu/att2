@@ -14,4 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"I am an S, the last one in title with Sérile. Sécar or S is a title that is attributed to those who have passed the old traditional test. This is probably the most difficult, long and dangerous exercise there is. The volunteer masters, designated by La Flamme Noire, were sent into Secar's globule and lost inside. The goal was to get out of the blood cell, so it could take several cycles. Despite the dangerousness, no one ever died during the trial: the half goddess always chose the contenders well. Serile and I came out of it at the beginning of the season, after a two-cycle stay...","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4

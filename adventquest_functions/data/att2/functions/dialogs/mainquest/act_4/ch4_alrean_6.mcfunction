@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Alréan : ","color":"gold","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Yes, she fears heights... It has been a long time since we saw her. But let me enlighten you : you are in the kingdom of Ouranos or Aoranos. Our village is Zirthion, and it is the closest inhabited place from our king's dwelling. Our world is not like your's, new faces are pretty rare in here. Also, we much care about hospitality. Here, people are a lot more calm, and our warriors are not born out of conflict between humans, but from perilous journeys and from fights with the many hostiles creatures that populate our kingdom.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"","color":"dark_aqua"}]}

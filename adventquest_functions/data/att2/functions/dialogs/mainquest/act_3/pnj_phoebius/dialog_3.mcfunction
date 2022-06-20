@@ -9,12 +9,17 @@ scoreboard players set phoebius_PNJ DIALOG 3
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Phoebius : ","color":"green","extra":[{"text":"Parlez, je vous prie, sinon comment pourrais-je vous entendre ?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Parlez, je vous prie, sinon comment pourrais-je vous entendre ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Phoebius : ","color":"green","extra":[{"text":"Please speak, otherwise how could I hear you?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Please speak, otherwise how could I hear you?","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
 
 
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_6

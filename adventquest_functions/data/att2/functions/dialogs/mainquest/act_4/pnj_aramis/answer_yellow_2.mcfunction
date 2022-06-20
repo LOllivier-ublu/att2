@@ -16,4 +16,9 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"I know who you are... I'm not as generous as Etotsira, you see. Our city is starving, so if you are willing to help us, I will also make an effort.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_3_2
