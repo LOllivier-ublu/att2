@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Take the gem of space. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_2/gem_of_space/trigger1"},"hoverEvent":{"action":"show_text","value":"Click here to take the gem."}}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[取走空間之石 -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_2/gem_of_space/trigger1"},"hoverEvent":{"action":"show_text","value":"單擊此處獲取寶石。"}}]}

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Indra Lorth : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"This island is far away, you'll need a boat to go there... Oh, don't make that face, I know who can take you there! My daughter, Syri, is a captain of a merchant ship. Although she doesn't provide services for free, I'm sure you'll find a way to convince her to help you. It is precisely on the large eastern quays of Méleïm.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

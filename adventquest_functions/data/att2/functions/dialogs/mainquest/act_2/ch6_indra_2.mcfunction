@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Indra Lorth : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Not in the Sylberländ region to my knowledge.... Finally there is an island, off our coasts.... Asunark, if I remember correctly. A paradisiacal place, especially for an adventurer, hehe. There is a sanctuary, the remains of an ancient city whose legends say that it would contain this precious artifact you are looking for!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

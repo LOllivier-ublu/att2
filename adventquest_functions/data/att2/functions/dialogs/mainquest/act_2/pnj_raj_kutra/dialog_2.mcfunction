@@ -17,5 +17,12 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Raj Kutra : ","color":"green","extra":[{"text":"Ah Syri, isn't she so lovely? Her golden hair floating in the north wind transports me to dreams... ...","color":"dark_aqua"}]}
 
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_1
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_0

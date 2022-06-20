@@ -17,4 +17,9 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Ragnar Lorth : ","color":"green",
 tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Ragnar Lorth : ","color":"green","extra":[{"text":"You're an adventurer, I guess? Look, she's not as young as you are, and I think you should leave her out of your stories.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_ragnar_lorth/player_answer_proposal_2

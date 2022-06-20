@@ -15,3 +15,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Raj Kutra : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"Who the hell are you to come between me and her? Although she has not yet dared to confess her love to me, know that her love is true and that it is undeniable as the sky is with the sea. Now please leave.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Tous les rayons doivent converger vers 
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"All the rays must converge towards this room to continue...","color":"gray","italic":true}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}

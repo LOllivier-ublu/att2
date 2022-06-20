@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wirth Razgork : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Wirth Razgork : ","color":"green","extra":[{"text":"Head for Méleïm, a small town next to a large cliff in the east of the region. To get there, just follow the road to the north and then after a big bridge, go east. In short, follow the signs for Méleïm. Over there, talk to the village chief whose house is on the top of the rocky peak... He'll tell you where Indra lives.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

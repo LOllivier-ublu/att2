@@ -18,3 +18,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Ragnar Lorth : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Ragnar Lorth : ","color":"green","extra":[{"text":"All right, all right, since you insist.... But don't let anything happen to him, or I can guarantee you that all of Méleïm's men will be after you! Indra's residence is located overlooking the natural arch to the north of the city. In fact, it is next to the highest tower in the village.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

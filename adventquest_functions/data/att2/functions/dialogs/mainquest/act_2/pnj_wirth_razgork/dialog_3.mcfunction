@@ -16,4 +16,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wirth Razgork : ","color":"green"
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Wirth Razgork : ","color":"green","extra":[{"text":"Be careful because a barbarian camp has also set up in front of it and accessing it is not easy. Try to sneak into the camp, you will surely find a way to get inside the temple. I'm not so young anymore, I'm starting to rust and I see in you an adventurer's soul! I would be happy to help you in your quest. Good luck!","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 scoreboard players set wirth_razgork_PNJ DIALOG 4

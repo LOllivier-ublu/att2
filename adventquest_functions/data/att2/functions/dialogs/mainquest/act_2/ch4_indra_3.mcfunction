@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Indra Lorth : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Swamps are not very close, so I advise you to find a mount. You can buy a horse at Eric Melsath's stable, he sells them for little if you promise to take care of them. And be careful, it's not very safe there with the bugs roaming around.... Good luck!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Indra Lorth : ","color":"green","
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Indra Lorth : ","color":"green","extra":[{"text":"My daughter looks so much like me! She's as fearless as I was when I was her age. And then she inherited my taste for travel....","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

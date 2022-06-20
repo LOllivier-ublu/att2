@@ -24,3 +24,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Finding these space gems will therefore be very difficult for you. Wait, I think we can still find some in our area and I know someone who could help you get your hands on it. Go see the adventurer Wirth Razgork. His house is on the other side of town, to the east. Also take this storage spell, you will certainly need much more than me.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

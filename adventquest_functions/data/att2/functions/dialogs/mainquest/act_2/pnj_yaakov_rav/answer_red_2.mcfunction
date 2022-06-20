@@ -18,4 +18,9 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","e
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Yes, there is a way to activate it. You need 3 fragments of stones called: ''Gem of Space''. Unfortunately, they are scattered all over the world.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/answer_end

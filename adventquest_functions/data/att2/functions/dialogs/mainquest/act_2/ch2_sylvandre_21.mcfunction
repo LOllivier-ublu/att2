@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"There you go, you know everything! I'll leave you now. Oh besides, a legend tells us that the sculpture in front of us was used as a teleportation portal by our ancestors. That's why it has become the symbol of the city. Anyway, if you're interested, I strongly advise you to go see the master of Dahäl. Fine, I have to get back to work, good luck with the rest!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -14,4 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","e
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Syri Lorth : ","color":"green","extra":[{"text":"Do you want to go back to Méleïm?","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_3

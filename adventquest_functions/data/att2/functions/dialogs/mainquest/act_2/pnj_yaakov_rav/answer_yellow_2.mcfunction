@@ -16,4 +16,9 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","e
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"All right, so to make a long story short, the Ryliath portal has been inactive for centuries because the energy it needs is lacking. It would need 3 fragments of stones called: ''Gem of Space'' to power it back up. Unfortunately, these were stolen and scattered around the world.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/answer_end

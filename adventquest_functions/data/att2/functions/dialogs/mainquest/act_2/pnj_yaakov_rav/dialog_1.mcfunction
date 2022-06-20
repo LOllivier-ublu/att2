@@ -14,4 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","e
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Welcome to my humble home, stranger.... If you are interested in Dahäl, I sell all kinds of incantation books. So, how can I help you?","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_1

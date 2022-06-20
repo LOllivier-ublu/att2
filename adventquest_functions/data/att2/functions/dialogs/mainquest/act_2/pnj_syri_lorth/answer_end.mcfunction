@@ -18,3 +18,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Well, I didn't expect it to be that fast; good riddance! My stays in Méleïm were becoming far too painful. Meet me on the boat, I'll assemble my crew and we'll leave whenever you want!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

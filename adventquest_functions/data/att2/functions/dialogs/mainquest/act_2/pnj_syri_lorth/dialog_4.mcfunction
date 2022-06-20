@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Syri Lorth : ","color":"green","extra":[{"text":"You haven't taken care of Raj yet? He lives under the great bridge of Méleïm, on the quay, very close to the drawbridge. How unbearable it is....","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

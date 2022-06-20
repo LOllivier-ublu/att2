@@ -18,4 +18,11 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Wirth Razgork : ","color":"green","extra":[{"text":"I see, a traveller interested in the mysteries of this world... I've already seen a Gem of Space with my own eyes! I could never unfortunately seize it for myself, because it was locked in the enclosure of a temple where many monsters roam. The temple is located at the other end of the Worlëst forest, when leaving Ryliath in the northeast.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":". ","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 tellraw @s {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-024a-0000-00000000024a if entity @s[distance=..7] if score wirth_razgork_PNJ DIALOG matches 1..2 run function att2:dialogs/mainquest/act_2/pnj_wirth_razgork/dialog_3"},"hoverEvent":{"action":"show_text","value":"..."}}

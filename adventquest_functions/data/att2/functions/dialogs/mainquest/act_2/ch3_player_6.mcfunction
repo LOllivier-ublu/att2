@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I need three ","color":"aqua","italic":true,"bold":false,"extra":[{"text":"<fragments of ladder>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:ladder\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Fragment d'échelle\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Ladder part\\\"}\"]}}}"},"extra":[{"text":" to climb up...","bold":false,"color":"aqua","italic":true}]}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua","italic":true,"bold":false,"extra":[{"text":"<fragments of ladder>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:ladder\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Fragment d'échelle\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Ladder part\\\"}\"]}}}"},"extra":[{"text":"","bold":false,"color":"aqua","italic":true}]}]}]}

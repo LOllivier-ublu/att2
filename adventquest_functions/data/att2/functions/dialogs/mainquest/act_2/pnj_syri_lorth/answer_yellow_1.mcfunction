@@ -16,3 +16,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"No, I have none of that.... But you don't seem to be the kind of person we're looking for trouble for.... I could use a job for you to do. An old acquaintance keeps following me. Sticky, young Raj comes to my house discreetly offering me ugly flowers and accompanying them with silly poems... and uh... how to say... inappropriate. Anyway, I don't know how to tell him to let go... If you can 'convince' him not to harass me anymore, I will take you where you want to go. Raj lives under the large Méleïm bridge, on the wharf and very close to the drawbridge. Come back to me when this is settled.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
