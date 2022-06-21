@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*Surprise and enthusiasm* Oh! My little Mia is back! How worried I was for you! But what are all these puppies? Ahhh, I think I understand, my little Mia wanted to start her family, that's why she left! But you did not need to do that my beautiful, your babies are more than welcome! Thank you stranger, thank you, thank you thank you! Here is a reward worthy of your actions. Come on my little ones, let's go home I have nothing more to do in this tavern.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Déblayer le passage -°- : ","col
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Clear the passage -°- : ","color":"gray","extra":[{"text":" : "},{"text":"Alfred Mornith asked me to clear the entrance of a mine that collapsed at the bottom of the pit. To activate the explosive I have to look for 2 ","color":"aqua","extra":[{"text":"<Connecting thread>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:string\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Fil conducteur\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Connecting thread\\\"}\"]}}}"},"extra":[{"text":" that should be in the mines surrounding it.","color":"aqua"}]}]}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清障開路 -°- : ","color":"gray","extra":[{"text":" : "},{"text":" ","color":"aqua","extra":[{"text":"<Connecting thread>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:string\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Fil conducteur\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Connecting thread\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua"}]}]}]}

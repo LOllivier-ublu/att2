@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Rukyrion -°- : ","color":"gray","
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"I am in the Irilion cemetery according to Namrïn, there should be the legendary sword that only Relgon can carry. Let's finally prove to him who I am the reincarnation of!","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}

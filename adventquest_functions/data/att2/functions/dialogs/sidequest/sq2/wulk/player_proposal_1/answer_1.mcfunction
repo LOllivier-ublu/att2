@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Wulk : ","color":"green","extra":[{"text":"Great, you're going to have to go to the mine explored by the Ryliath miners. It is not very complicated, it is in the forest to the east. A small path will lead you there directly. You will be able to melt the ore and refine it easily thanks to my ovens.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

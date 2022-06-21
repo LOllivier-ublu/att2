@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sorvo Miron : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"Ahh, you the Ryliath meat delivery boy? Well, you weren't exactly early! We wre not too far from a shortage. Bread is not the best thing to attract people to our tavern. Go put it all in the reserve right next to it. Thank you!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

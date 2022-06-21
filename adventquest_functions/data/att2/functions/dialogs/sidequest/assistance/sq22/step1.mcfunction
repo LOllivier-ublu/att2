@@ -14,5 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un entrepôt bien mal placé -°- 
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A badly placed warehouse -°- : ","color":"gray","extra":[{"text":"A resident of a fairly isolated house asked me to get rid of the skeletons that had invaded his warehouse in a cave in the mountains. I should find the warehouse by following the path out of his house on the right. He also gave me the key... Once the monsters are killed, I'll go and warn him at home that the work is done!","color":"aqua","italic":true}]}
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 放置不當的倉庫 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+
 
 function att2:dialogs/sidequest/sq22/mobs_killed_total

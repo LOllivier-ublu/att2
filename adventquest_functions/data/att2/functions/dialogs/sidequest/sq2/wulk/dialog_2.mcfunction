@@ -14,5 +14,10 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"So have you found time for the mission I would like to entrust to you? Never forget that you can count on me to provide you with new weapons and armor.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_2

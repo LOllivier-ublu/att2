@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Patrick manque de bois -°- : ","c
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Patrick lacks wood -°- : ","color":"gray","extra":[{"text":"Patrick would like me to go look for wood in the Ryliath forest, precisely in the Jarat campment at the north-east of the forest. Surely I can find a woodcutter that could sell 16 ","color":"aqua","italic":true,"extra":[{"text":"<Log of wood>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:log\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Buche de bois\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Log of Wood\\\"}\"]}}}"},"extra":[{"text":" in the camp.","color":"aqua","italic":true}]}]}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Patrick 缺少木頭 -°- : ","color":"gray","extra":[{"text":" ","color":"aqua","italic":true,"extra":[{"text":"<Log of wood>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:log\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Buche de bois\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Log of Wood\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua","italic":true}]}]}]}

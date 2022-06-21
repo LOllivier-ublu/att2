@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Des Chronotons à la clef -°- : "
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The key to profitability -°- : ","color":"gray","extra":[{"text":"Dermi Kril asked me to find his lost ","color":"aqua","italic":true,"extra":[{"text":"<Key>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef de Derim\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Derim Key\\\"}\"]}}}"},"extra":[{"text":" in the mine of Phœnix. It shouldn't be too far. Once I found it, I'll just have to bring it back to him.","color":"aqua","italic":true}]}]}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 獲利之匙 -°- : ","color":"gray","extra":[{"text":" ","color":"aqua","italic":true,"extra":[{"text":"<Key>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef de Derim\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Derim Key\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua","italic":true}]}]}]}

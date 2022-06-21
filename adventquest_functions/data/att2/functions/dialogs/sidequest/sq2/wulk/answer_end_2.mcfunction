@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Wulk : ","color":"green","extra":[{"text":"Awesome! You ended up finding it! My assistant was stuck in the mine? That one, he draws all disasters to him. Okay, I'm glad you brought it back to me. Thank you very much for your help and here is my reward to you: it is the least I can do.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

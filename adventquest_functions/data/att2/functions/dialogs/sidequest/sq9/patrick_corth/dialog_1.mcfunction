@@ -14,5 +14,10 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Patrick Corth : ","color":"green"
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Greetings, I have a super original task which will not fail to arouse the enthusiasm for a big guy like you! Deliver me wood from the forest!","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq9/patrick_corth/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq9/patrick_corth/player_proposal_1/choice_2

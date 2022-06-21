@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Des Brigands très Encombrants -°
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Annoying Bandits -°- : ","color":"gray","extra":[{"text":"I have finished with these brigand camps, I should inform Ragnar in Méleïm that my mission is finished.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惱人的強盜 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}

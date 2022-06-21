@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une vengeance bien mérité -°- :
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A well-deserved revenge -°- : ","color":"gray","extra":[{"text":"Daril Gram's son has been mutilated by fanatics, his father wants me to avenge him, to end these monsters. Their camp would be in the far west district of Angor.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惡有惡報 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Ah! She's in the stupid room!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

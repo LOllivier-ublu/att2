@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Carmen Ysta : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"Thank you very much for your help, you brought everything I needed. I will finally be able to make my mushroom soup, you will tell me the news! Here, this is to reward you.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"°-° Carmen Ysta : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

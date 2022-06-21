@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Hurriel Sun : ","color":"green","
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"Awesome! Thank you so much! And here's a gift for you.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

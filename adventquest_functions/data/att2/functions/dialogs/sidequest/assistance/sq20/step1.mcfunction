@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Le casse du cycle -°- : ","color"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Heist of the Cycle -°- : ","color":"gray","extra":[{"text":"Chiara wants to steal one of the vault rooms of the Ryliath bank, her plan is to break into the sewers and cause a small part of the wall to collapse and damage below the bank. I'm gonna have to do this at night to get less attention from the guards. All I have to do is bring back the ","color":"aqua","italic":true,"extra":[{"text":"<Booty>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:diamond\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Butin\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Booty\\\"}\"]}}}"},"extra":[{"text":" from the bank to Chiara's and then share it with her.","color":"aqua","italic":true}]}]}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- '暗地裏''盗窃 -°- : ","color":"gray","extra":[{"text":" ","color":"aqua","italic":true,"extra":[{"text":"<Booty>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:diamond\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Butin\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Booty\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua","italic":true}]}]}]}

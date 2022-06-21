@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Gregor Gacko : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"What a fool, you really thought we were going to let you go after that. In any case, thank you for getting your hands dirty for me. It's time to die poor idiot.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"°-° Gregor Gacko : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- A court de munitions -°- : ","col
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Short of ammunition -°- : ","color":"gray","extra":[{"text":"The Etrenän army is short of arrows, and Garret asked me to look for them in the city of Angor. I have to find at least 3x64 ","color":"aqua","italic":true,"extra":[{"text":"<Arrows of Eternan Army>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:arrow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Flèches de l'armée Eternän\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Arrows of Eternän Army\\\"}\"]}}}"},"extra":[{"text":" army arrows in the barracks to the east of the city. The barracks would be a building larger than the others and placed below the second part of the large bridge that goes up to the east.","color":"aqua","italic":true}]}]}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 武器補給 -°- : ","color":"gray","extra":[{"text":" ","color":"aqua","italic":true,"extra":[{"text":"<Arrows of Eternan Army>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:arrow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Flèches de l'armée Eternän\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Arrows of Eternän Army\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua","italic":true}]}]}]}

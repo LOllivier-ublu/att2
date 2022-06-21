@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- La soupe aux champignons -°- : ",
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The mushroom soup -°- : ","color":"gray","extra":[{"text":"I need to bring 20 ","color":"aqua","italic":true,"extra":[{"text":"<Edible mushroom>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brown_mushroom\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Champignon Comestible\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Edible mushroom\\\"}\"]}}}"},"extra":[{"text":" to help Carmen with her mushroom soup recipe. I should find some in a very dark cave in the forest. The entrance is covered by bushes, and near a small pond. I should go along the river that goes out of Ryliath, the pond is most likely at the east of that river.","color":"aqua","italic":true}]}]}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 蘑菇煲 -°- : ","color":"gray","extra":[{"text":" ","color":"aqua","italic":true,"extra":[{"text":"<Edible mushroom>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brown_mushroom\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Champignon Comestible\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Edible mushroom\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua","italic":true}]}]}]}

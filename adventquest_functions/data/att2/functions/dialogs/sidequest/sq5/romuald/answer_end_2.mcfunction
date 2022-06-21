@@ -16,3 +16,10 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extr
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Romuald, I'm sorry but your dog, Mia... She's dead...","color":"aqua"}]}
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"*Sad* ... This is what I feared... This world is too cruel, it is not worth more than the bottom of a bottle of liquor... Thank you anyway for the trouble you have given and here are some Chronotons. Now I want to be alone.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

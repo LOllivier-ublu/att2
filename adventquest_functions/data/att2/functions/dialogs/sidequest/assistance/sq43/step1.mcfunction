@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'appât du gain -°- : ","color":
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The bait of gain -°- : ","color":"gray","extra":[{"text":"Ashley would like to have another chance to redeem. He told me that he prepared a rail system in Kert's mine in order to open the entry of a buried treasure whose value could help Linda. Apparently, she have debts, the money could certainly help her... I'll try to find this treasure and entrust her with some of it.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 利益的誘餌 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}

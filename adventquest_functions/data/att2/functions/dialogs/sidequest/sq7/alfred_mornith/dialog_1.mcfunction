@@ -14,5 +14,10 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alfred Mornith : ","color":"gree
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"Hey there, are we lost? This is my family's mine, private property! Unless you want to help us with the collapse of this business, I'm going to ask you to leave.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq7/alfred_mornith/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq7/alfred_mornith/player_proposal_1/choice_2

@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ormack : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"Ah, good news! I do not have the identity of our thieves, except that they are at least from the regions and that they know our camp well... In fact, I had to banish, during the last session, several members of the village following a murder leading to a series of revenges, finally a long story. I would not be supprised if this was one of their reprisals. His group would have found refuge near a mine located just south of our camp in the forest.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

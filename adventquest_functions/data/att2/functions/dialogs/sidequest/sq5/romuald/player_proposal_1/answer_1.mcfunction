@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"What... what the hell is going on?! I weren't sleeping, I swear! But... You're not the captain! Why did you do that!? You think it's okay to wake up honest people like tha?  Give me... *Hiccup* Quiet! I'm not that good for nothing anyway! I'd rather not search and mold alone here instead...","bold":false,"color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

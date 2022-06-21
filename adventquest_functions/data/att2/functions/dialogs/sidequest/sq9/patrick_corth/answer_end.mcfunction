@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Patrick Corth : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Here, as agreed your money, with a bonus for the trip.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

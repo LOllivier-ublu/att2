@@ -14,6 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Hurriel Sun : ","color":"green","
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"Wow, are you the one who opened the old Ryliath portal? Unbelievable! ... in fact ... I would have a service to ask someone of your skill. There, I have lost the key to my house and I fear I have dropped them in the city sewers. But I can't go there, it's way too dangerous and I don't know how to fight... I will reward you if you help me!","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq6/hurriel_sun/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq6/hurriel_sun/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq6/hurriel_sun/player_proposal_1/choice_3

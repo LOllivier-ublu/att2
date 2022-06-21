@@ -6,3 +6,5 @@
 tellraw @s[scores={LANGUAGE=0}] {"text":"[(<!>)]","color":"red","hoverEvent":{"action":"show_text","value":"Échoué"}}
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[(<!>)]","color":"red","hoverEvent":{"action":"show_text","value":"Failed"}}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[(<!>)]","color":"red","hoverEvent":{"action":"show_text","value":"失敗的"}}

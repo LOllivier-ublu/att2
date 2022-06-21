@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[La légendaire quête de J'zargo - Par
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[J'zargo's legendary quest - Part 3]","color":"gold"}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[J'zargo 的傳奇任務 - 第 3 部分]","color":"gold"}

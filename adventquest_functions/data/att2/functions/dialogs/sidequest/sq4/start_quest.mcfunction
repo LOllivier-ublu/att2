@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[La soupe aux champignons]","color":"go
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[The Mushroom soup]","color":"gold"}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[蘑菇煲]","color":"gold"}

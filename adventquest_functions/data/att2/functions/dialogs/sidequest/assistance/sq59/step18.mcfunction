@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'accomplissement du héros -°- :
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hero's Accomplishment -°- : ","color":"gray","extra":[{"text":"I now know the origin of the anomaly, but what I experienced is still unanswered... I must go through with the ordeal that Mercurius told me about! Basil Valentin told me that I would know more with the stone he gave me, but first I must find a book in the library of Ryliath's palace and do some sort of ritual.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}

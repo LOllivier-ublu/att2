@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"Yes, well, well it's true. I have a problem here! *Hiccups* At the time, I was a soldier of Ryliath and it was a quiet life... By leaving the army, I adopted Mia, a dog, she is like my daughter you know, and... Well, she disappeared while I was making a stopover in Méleïm. I looked for her everywhere, night and day in the city... Without finding her! *sob* I have had enough and I want to caress her soft coat and hug her again! But you can help me, I will give anything to see her again! Please, find her!","bold":false,"color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Nettoyer le nid -°- : ","color":"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Clean the nest -°- : ","color":"gray","extra":[{"text":"Feanorth asked me to help him clean up an Atricanth nest installed in the western quarters of Angor...","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清潔巢穴 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}

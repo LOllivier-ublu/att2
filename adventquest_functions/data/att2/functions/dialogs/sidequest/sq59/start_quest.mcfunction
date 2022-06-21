@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[L'accomplissement du héros]","color":
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[The Hero's Accomplishment]","color":"gold"}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[英雄的成就]","color":"gold"}

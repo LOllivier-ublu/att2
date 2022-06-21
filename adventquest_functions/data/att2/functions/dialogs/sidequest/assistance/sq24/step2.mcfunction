@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un malheureux accrochage -°- : ",
 #ENGLISH LANAGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- An unfortunate incident -°- : ","color":"gray","extra":[{"text":"I brought the goods back to Lilith, now she offers me to enter her house in the marshes to offer me a reward in exchange for my service.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 不幸的事件 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}

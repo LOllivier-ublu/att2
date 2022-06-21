@@ -14,4 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les catacombes Adanoï -°- : ","c
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Adanoï Catacombs -°- : ","color":"gray","extra":[{"text":"I now have to help the cemetery keeper Lary Brett to help me in turn.... Let's go slaughter skeletons in the cemetery and clear the path at the entrance of the catacombs, then come back and see him.","color":"aqua","italic":true}]}
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+
 function att2:dialogs/sidequest/sq26/mobs_killed_total

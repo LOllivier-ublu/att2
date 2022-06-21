@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[A court de munitions]","color":"gold"}
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Short of ammunition]","color":"gold"}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[武器補給]","color":"gold"}

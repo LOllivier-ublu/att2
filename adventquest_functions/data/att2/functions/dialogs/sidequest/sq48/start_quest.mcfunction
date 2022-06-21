@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[L'antre du nuage corrompu]","color":"g
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[The corrupted cloud's den]","color":"gold"}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[被破壞的雲巢]","color":"gold"}

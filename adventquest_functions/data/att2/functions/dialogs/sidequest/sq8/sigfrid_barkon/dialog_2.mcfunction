@@ -14,5 +14,10 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"You are an adventurer, aren't you? Do you have time on your hands? My meat shipper to other cities has not shown any sign of life for a week and I will not be able to keep all of this cool for long. Could you deliver this stock of beef to Méleïm? I'll pay you, of course.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_2

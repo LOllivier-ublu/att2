@@ -14,5 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Des rats gloutons -°- : ","color"
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Gluttonous Rats -°- : ","color":"gray","extra":[{"text":"Philipo is alone in caring for its pumpkin crops in the marshes and its fields are apparently infested with large rats. I have to help him get rid of the nest underground. It can be accessed by entering a hole at the foot of the tall tree behind the fields.","color":"aqua","italic":true}]}
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 貪吃的老鼠 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+
 
 function att2:dialogs/sidequest/sq23/mobs_killed_total

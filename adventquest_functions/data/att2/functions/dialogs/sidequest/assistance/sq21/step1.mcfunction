@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- La fierté de Vulk -°- : ","color
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Pride of Vulk -°- : ","color":"gray","extra":[{"text":"I have to help Vulk bring back an old mass that Henry Johns said would be in the temple of Worlëst. It must surely be hidden by some mechanism or secret passage.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Vulk之傲 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}

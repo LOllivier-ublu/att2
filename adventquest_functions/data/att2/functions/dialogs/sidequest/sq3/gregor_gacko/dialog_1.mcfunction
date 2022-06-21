@@ -14,4 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gregor Gacko : ","color":"green",
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"... my brother ... imprisoned ... I should have been there...","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"°-° Gregor Gacko : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq3/gregor_gacko/player_proposal_1/choice_1

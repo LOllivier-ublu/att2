@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un pont pour de bon -°- : ","colo
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- From ridge to the bridge -°- : ","color":"gray","extra":[{"text":"Unfortunately, not everyone survived the attack and Alexandre, the only survivor, will still need help to bring the cargo back to the site.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 從山脊到橋 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}

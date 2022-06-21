@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Telle mère, Telle fille -°- : ",
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Like mother, Like daughter -°- : ","color":"gray","extra":[{"text":"Emerald inquired among the inhabitants of Meleim and his daughter reportedly approached the Morniths' mining operation west of Méleïm.. It's a quarry that's normally buried in the mountains. Emerald is tired, he has to rest... I have to find a way to get into the mines and I have to look for traces of her.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有其母必有其女 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
