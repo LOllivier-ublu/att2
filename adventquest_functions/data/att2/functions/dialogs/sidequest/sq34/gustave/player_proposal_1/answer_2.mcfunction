@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","ext
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Yes ... Depending on the nature of your return, I will pay you 200 Chronotons. Now head south. My colleagues took the road to the Kert mine. After the bridge crossing the grand canyon, continue on the path, that's where they should be, I hope.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

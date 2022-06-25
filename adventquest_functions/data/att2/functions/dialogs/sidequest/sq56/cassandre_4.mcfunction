@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Cassandre : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"Oh... Poor him... Well, maybe he got what he deserved.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

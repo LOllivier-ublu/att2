@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Don't be so sure, I certainly learned a lot but your art, even if sometimes boring with your mysterious language, is interesting and I am now curious to know what test this character was talking to me about when I was unconscious.","color":"aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}

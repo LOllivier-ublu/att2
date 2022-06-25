@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Linda Shelly : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Very well... Sylvain my dearest friend, convinced me to take an excursion to the abandoned Sathnok mansion in order to take a few trinkets to resell. We went with a guide claiming to be an expert on the place. But strange things happened and we got lost in the catacombs. *Terrified* There were terrifying cries and I started to flee when monsters came. Miraculously I came out alive but I lost sight of Sylvain. I would be eternally grateful if you bring him back to me alive! To reach the catacombs I remember a secret passage in height of the manor near a dry fountain with a button quite difficult to access.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aldelrion : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Ah, it's nothing. You, know, I am first Eternän, like were Relgon, Azazel, Flamme Noire and so many others that we lost during this war... The first Eternäns went through every ages of this world, and they learned to endure the worst of wounds so we can remember the primordial ages...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

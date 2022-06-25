@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gerard : ","color":"green","extra":[{"text":"Que voulez-vous encore ? Je suis bien gentil de vous laisser entrer dans ma maison mais n'abusez pas de l'hospitalité. Il me semblait que vous étiez un voyageur non ? Alors allez voyager autre part s'il vous plaît...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Que voulez-vous encore ? Je suis bien gentil de vous laisser entrer dans ma maison mais n'abusez pas de l'hospitalité. Il me semblait que vous étiez un voyageur non ? Alors allez voyager autre part s'il vous plaît...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","ext
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Thanks again for the help. But now you're going to have to let us finish this bridge. Building above the void is already not easy, so above the molten lava, I don't want to talk about it...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

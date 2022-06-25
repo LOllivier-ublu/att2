@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Basile Valentin : ","color":"gre
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Of course not, the power has faded since the events of 4 years ago. However, when questioning Etotsira about the gems, he told me of his concern about a new opening of a time portal. Indeed, a revival of the power of gems was to be considered, according to him. I then said to myself that it was the perfect moment to have the power necessary to transmute the matter of the stone.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

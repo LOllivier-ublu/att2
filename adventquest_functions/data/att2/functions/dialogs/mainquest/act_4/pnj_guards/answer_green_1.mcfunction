@@ -10,7 +10,7 @@ scoreboard players set kortaek_guards_PNJ DIALOG 2
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Gardes : ","color":"green","extra":[{"text":"Tu aimes combattre ? O bolïn ! Tu peux gagner droit de passer sur nos terres. Nos traditions récompensent les valeureux guerriers ! Tu sais te battre, tu le prouves dans l'arène, puis tu passes solomba !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gardes : ","color":"green","extra":[{"text":"Tu aimes combattre ? O bolïn ! Tu peux gagner droit de passer sur nos terres. Nos traditions récompensent les valeureux guerriers ! Tu sais te battre, tu le prouves dans l'arène, puis tu passes solomba !","color":"dark_aqua"}]}
 
 tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Bon je vous suis, mais ne perdons pas de temps...","color":"aqua"}]}
 

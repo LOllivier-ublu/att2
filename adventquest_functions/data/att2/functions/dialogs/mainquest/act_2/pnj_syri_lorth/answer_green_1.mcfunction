@@ -9,7 +9,7 @@ function att2:sound/misc/mission_progress
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","extra":[{"text":"Le compte est bon ! Nous partirons quand bon vous semblera. Je vous attendrai sur le grand bateau en face.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Le compte est bon ! Nous partirons quand bon vous semblera. Je vous attendrai sur le grand bateau en face.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

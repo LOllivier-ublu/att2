@@ -20,3 +20,12 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","ex
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Yes. A wolf pack is at the origin of this setback, but it's ancient history. He asked me to transport this, for the rest he should not delay any longer.","color":"aqua"}]}
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Great! Like I always say, there's nothing to worry about!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

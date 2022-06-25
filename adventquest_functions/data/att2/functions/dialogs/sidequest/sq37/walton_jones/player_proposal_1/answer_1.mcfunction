@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones  : ","color":"green
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Deal, I'll look at it when you scare off those monsters. Go down and walk along the torrent you will not have trouble finding them...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

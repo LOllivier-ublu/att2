@@ -14,4 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Linda Shelly : ","color":"green"
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"It is a dangerous place. I plea that nothing happened to him...","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq42/linda_shelly/player_proposal_2/choice_1

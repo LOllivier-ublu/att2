@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/aramis
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra":[{"text":"Je sais qui vous êtes... Je ne suis pas aussi généreux qu'Etotsira, voyez-vous. Notre ville a faim, alors si vous êtes disposé à nous aider, je ferai aussi un effort.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Je sais qui vous êtes... Je ne suis pas aussi généreux qu'Etotsira, voyez-vous. Notre ville a faim, alors si vous êtes disposé à nous aider, je ferai aussi un effort.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/aramis
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra":[{"text":"Je vois, Héros en Tellurön, dans ce cas je vais vous dire ce que je sais.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Je vois, Héros en Tellurön, dans ce cas je vais vous dire ce que je sais.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Armel Darsan : ","color":"green","extra":[{"text":"Bienvenue dans le village de Phœnix étranger ! J'espère que vous n'êtes pas venu nous causer des troubles, nous sommes bien installés et tenons à rester protégés ! Si vous cherchez le chef du village, il se trouve dans la hutte au sommet du pic derrière-moi.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"Bienvenue dans le village de Phœnix étranger ! J'espère que vous n'êtes pas venu nous causer des troubles, nous sommes bien installés et tenons à rester protégés ! Si vous cherchez le chef du village, il se trouve dans la hutte au sommet du pic derrière-moi.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Violette : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"Indeed, I understand. You will have them when the cemetery and the crypt are again accessible.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

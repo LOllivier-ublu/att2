@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gerard : ","color":"green","extra":[{"text":"Encore un étranger dans ma maison ? Depuis que ce portail a été ouvert, il y a plein d'étrangers maintenant ici. Mais attendez un instant, j'espère que vous n'êtes pas le responsable de l'ouverture du portail non ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Encore un étranger dans ma maison ? Depuis que ce portail a été ouvert, il y a plein d'étrangers maintenant ici. Mais attendez un instant, j'espère que vous n'êtes pas le responsable de l'ouverture du portail non ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

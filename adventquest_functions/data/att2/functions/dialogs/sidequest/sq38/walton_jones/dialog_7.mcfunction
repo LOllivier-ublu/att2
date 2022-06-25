@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Good morning. At the expense of not finding anything concrete in Scheströwn, I return to my search for fossils in the river. Even if it's less exciting, thanks to you I can continue the excavations quietly here.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

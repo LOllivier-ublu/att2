@@ -14,5 +14,10 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","ex
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"What? So you found a temple under a big tree? Interesting! I have to see this with my own eyes... Thanks again for everything, here is the rest of my savings, you deserve it.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_2/choice_1
 function att2:dialogs/sidequest/sq33/mortimer/player_proposal_2/choice_2

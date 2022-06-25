@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Homer : ","color":"green","extra":[{"text":"Que... Quoi ? Je ne suis pas en pleine hallucination, êtes-vous bien réel ? Ah... Vous semblez bien l'être... Il y a des années j'aurais été heureux de voir un de mes semblables... Mais maintenant, comment dire ... Hum... Je suis très tenté de vous assommer et de vous faire cuire à la broche. Si vous restez sur cette île c'est à vos risques et périls ! Cependant vous si vous trouvez des pierres turquoises, je vous en achète pour 2 Chronotons l'unité... Elles sont si belles !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"Que... Quoi ? Je ne suis pas en pleine hallucination, êtes-vous bien réel ? Ah... Vous semblez bien l'être... Il y a des années j'aurais été heureux de voir un de mes semblables... Mais maintenant, comment dire ... Hum... Je suis très tenté de vous assommer et de vous faire cuire à la broche. Si vous restez sur cette île c'est à vos risques et périls ! Cependant vous si vous trouvez des pierres turquoises, je vous en achète pour 2 Chronotons l'unité... Elles sont si belles !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

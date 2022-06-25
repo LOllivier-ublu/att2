@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"So, show me that ... Hmmm I see, I was just looking in the valley of Eol for proof of the existence of this artefact, but all these monsters in the cemetery were preventing my progress ... With you the problems seem to fade quickly under the pressure of your weapons. We can make a good team, so meet me in front of the Schetröwn ruins before the Owsästr swamp.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

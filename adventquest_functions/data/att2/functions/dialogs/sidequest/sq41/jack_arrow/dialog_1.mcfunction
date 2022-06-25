@@ -14,6 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Jack Arrow : ","color":"green","
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"How did you find our lair? You should not be here!!","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq41/jack_arrow/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq41/jack_arrow/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq41/jack_arrow/player_proposal_1/choice_3

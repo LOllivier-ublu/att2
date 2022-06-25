@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","ext
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"They took the road to the Kert mine. It is located in the south of the region. Go through the desert to the large bridge over the canyon, cross it and continue on the road. As long as they are fine, and nothing has happened to the cargo.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

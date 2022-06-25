@@ -10,7 +10,7 @@ function att2:gameplay/reputation/remove_3
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","extra":[{"text":"Oui il y a un moyen de l'activer. Il faut 3 fragments de pierres appelés : ''Gemme d'espace''. Elles sont malheureusement éparpillées dans le monde entier.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Oui il y a un moyen de l'activer. Il faut 3 fragments de pierres appelés : ''Gemme d'espace''. Elles sont malheureusement éparpillées dans le monde entier.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Basile Valentin : ","color":"gre
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Go to the Ryliath palace library. I was never able to access it, but a fellow alchemist in Ryliath told me about his research that his late brother 'Nicolas Flamel' stole. It was he who got all the laurels, he had an advantageous place at the highest peak of the palace and was the most respected in the city.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

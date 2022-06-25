@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Armel Darsan : ","color":"green","extra":[{"text":"Ne me faites pas de mal s'il-vous plaît... Partez je vous en supplie !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"Ne me faites pas de mal s'il-vous plaît... Partez je vous en supplie !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

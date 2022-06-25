@@ -18,7 +18,7 @@ function att2:sound/misc/mission_progress
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","extra":[{"text":"Trouver ces gemmes d'espace vous sera donc très difficile. Attendez, je crois qu'on peut encore en trouver dans notre région et je connais quelqu'un qui pourrait vous aider à mettre la main dessus. Allez voir l'aventurier Wirth Razgork. Sa maison se trouve à l'autre bout de la ville, à l'est. Prenez également ce sort de stockage, vous en aurez certainement bien plus besoin que moi.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Trouver ces gemmes d'espace vous sera donc très difficile. Attendez, je crois qu'on peut encore en trouver dans notre région et je connais quelqu'un qui pourrait vous aider à mettre la main dessus. Allez voir l'aventurier Wirth Razgork. Sa maison se trouve à l'autre bout de la ville, à l'est. Prenez également ce sort de stockage, vous en aurez certainement bien plus besoin que moi.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

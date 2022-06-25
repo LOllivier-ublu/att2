@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Nestor : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Unfortunately, I don't have much left, the villains who monopolize my lands have already taken almost everything I had. Get rid of them in the way that seems most effective to you, and I will give you what I have, as well as all my gratitude!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

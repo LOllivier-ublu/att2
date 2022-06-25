@@ -19,5 +19,12 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"*sobbing* It's... I... There, i can't find my kitten Totoro... I haven't seen him in two days and I fear that...","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq50/cassandre/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq50/cassandre/player_proposal_1/choice_2

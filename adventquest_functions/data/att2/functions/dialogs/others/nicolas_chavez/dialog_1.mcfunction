@@ -6,9 +6,9 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Nicolas Chavez : ","color":"green","extra":[{"text":"...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Nicolas Chavez : ","color":"green","extra":[{"text":"...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Nicolas Chavez : ","color":"green","extra":[{"text":"...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nicolas Chavez : ","color":"green","extra":[{"text":"...","color":"dark_aqua"}]}

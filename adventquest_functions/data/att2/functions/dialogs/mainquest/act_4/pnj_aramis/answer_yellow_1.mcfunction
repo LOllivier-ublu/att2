@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/aramis
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra":[{"text":"Ah oui ? Et qu'est-ce qui vous fait croire que je vais vous aider ? Je n'ignore pas le pouvoir de ces pierres, alors veuillez vous montrer plus prudents sur ce que vous demandez.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Ah oui ? Et qu'est-ce qui vous fait croire que je vais vous aider ? Je n'ignore pas le pouvoir de ces pierres, alors veuillez vous montrer plus prudents sur ce que vous demandez.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

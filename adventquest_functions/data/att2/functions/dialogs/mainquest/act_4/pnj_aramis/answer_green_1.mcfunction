@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/aramis
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra":[{"text":"Le portail de la ville a été activé... Il vous aura fallu des gemmes d'espace pour cela. Et je n'ai pas l'impression que ce genre d'affaires constitue un véritable défi pour vous.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Le portail de la ville a été activé... Il vous aura fallu des gemmes d'espace pour cela. Et je n'ai pas l'impression que ce genre d'affaires constitue un véritable défi pour vous.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

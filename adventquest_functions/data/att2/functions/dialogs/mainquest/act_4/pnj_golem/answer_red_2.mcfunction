@@ -13,7 +13,7 @@ scoreboard players set golem_mech1 BILLGART 8
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Golem : ","color":"green","extra":[{"text":"Alors oeil de l'être de métal le fera fondre. Chair carbonisée du petit être patientera ici avec lui, jusqu'à la fin. ","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"Alors oeil de l'être de métal le fera fondre. Chair carbonisée du petit être patientera ici avec lui, jusqu'à la fin. ","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Gonon : ","color":"green","extra":[{"text":"Bonjour ! Comment allez-vous ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Bonjour ! Comment allez-vous ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

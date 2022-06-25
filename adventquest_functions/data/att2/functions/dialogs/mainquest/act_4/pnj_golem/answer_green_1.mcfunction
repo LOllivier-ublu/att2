@@ -9,11 +9,11 @@ execute at @s run function att2:sound/mobs/golem_death
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Golem : ","color":"green","extra":[{"text":"Et que cherche-t-il ?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"Et que cherche-t-il ?","color":"dark_aqua"}]}
 
 tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Une gemme de temps.","color":"aqua"}]}
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Golem : ","color":"green","extra":[{"text":"Il est un marché. Membres en décrépitude, n'obéissent plus à sa volonté. Sans force, il reste et rien ne bouge. Petit être de chair le répare et il engendrera un passage vers Ulgok'keström, où sommeille la gemme des époques.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"Il est un marché. Membres en décrépitude, n'obéissent plus à sa volonté. Sans force, il reste et rien ne bouge. Petit être de chair le répare et il engendrera un passage vers Ulgok'keström, où sommeille la gemme des époques.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Nolduron : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"I understand, but if I made you come, it's not to talk about that but about another problem. Since the portal to Ëarndhel was recently reopened, another... 'anomaly' has spontaneously manifested there, in the temple where you once opened the time portal to save the world - according to legend.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

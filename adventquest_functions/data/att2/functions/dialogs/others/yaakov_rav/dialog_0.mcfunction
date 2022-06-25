@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","extra":[{"text":"Bonjour, je ne peux pas vous aider pour l'instant. Pourriez-vous repasser plus tard ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Bonjour, je ne peux pas vous aider pour l'instant. Pourriez-vous repasser plus tard ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

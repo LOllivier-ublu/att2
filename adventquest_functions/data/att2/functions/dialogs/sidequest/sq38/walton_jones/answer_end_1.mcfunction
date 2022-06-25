@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"*Breathless* Phew, you didn't go there with a dead hand... I thought I saw my last hours. I do not yet know what is hiding in this rubble but I will have to do some excavation. Come back to me later, maybe I would have made some discoveries by then...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Yes, I went to Angband on two occasions. It's a little complicated, but last time was about 32 000 years ago... I mean, cycles. I took part in a war which opposed La Flamme Noire and most of the mortals to the Ethernäns. The Eternäns won, La Flamme Noire was defeated, but Relgon perished...","color":"aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}

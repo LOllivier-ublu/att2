@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Did you think I was going to let you enjoy this discovery alone?","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

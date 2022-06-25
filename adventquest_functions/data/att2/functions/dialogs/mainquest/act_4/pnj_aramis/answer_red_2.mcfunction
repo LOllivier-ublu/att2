@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/aramis
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra":[{"text":"Je ne doute pas de votre valeur au combat ou au Dahäl. Mais tout à un prix, alors si vous tenez à avoir cette information, il faudra d'abord rendre service à notre ville.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Je ne doute pas de votre valeur au combat ou au Dahäl. Mais tout à un prix, alors si vous tenez à avoir cette information, il faudra d'abord rendre service à notre ville.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -12,7 +12,7 @@ function att2:cinematic/act_4/billgart/golem/door_opening
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Golem : ","color":"green","extra":[{"text":"Une porte que le petit être de chair pourra franchir, s'ouvre. Pierres gluantes, porteuses de volonté, se cachent au fond du chemin. Pierres gluantes qui éveilleront ses membres de la ruine.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"Une porte que le petit être de chair pourra franchir, s'ouvre. Pierres gluantes, porteuses de volonté, se cachent au fond du chemin. Pierres gluantes qui éveilleront ses membres de la ruine.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

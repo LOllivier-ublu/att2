@@ -12,7 +12,7 @@ function att2:cinematic/act_4/eolorion/gate_attack/doors_opening
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Capitaine : ","color":"green","extra":[{"text":"Vraiment ? Comme vous voudrez, mais une fois de l'autre côté, nous ne vous ouvrirons plus tant que l'ennemi ne sera pas en déroute... On vous couvrira depuis les murs, alors ne vous éloignez pas trop. OUVREZ LA PORTE !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","extra":[{"text":"Vraiment ? Comme vous voudrez, mais une fois de l'autre côté, nous ne vous ouvrirons plus tant que l'ennemi ne sera pas en déroute... On vous couvrira depuis les murs, alors ne vous éloignez pas trop. OUVREZ LA PORTE !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

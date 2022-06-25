@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Ithil : ","color":"green","extra":[{"text":"Nous sommes dans la salle des portails dimensionnels. Soyez prudent, ou pas...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Nous sommes dans la salle des portails dimensionnels. Soyez prudent, ou pas...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

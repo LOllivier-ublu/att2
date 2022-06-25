@@ -14,6 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Trias : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Hey there! Oh, it's a pleasure to meet you again. I couldn't help but notice the bow you're carrying. I believe I already shared with you my interest in this object. Give it to me, please, and I will greatly compensate it.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq49/trias/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq49/trias/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq49/trias/player_proposal_1/choice_3

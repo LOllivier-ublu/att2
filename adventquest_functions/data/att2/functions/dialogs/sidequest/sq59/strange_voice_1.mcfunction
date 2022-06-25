@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"... allez devoir ... fran... ces barri.
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"... go have to ... go throu... these barri.. of iro...","color":"dark_aqua","italic":true}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"","color":"dark_aqua","italic":true}

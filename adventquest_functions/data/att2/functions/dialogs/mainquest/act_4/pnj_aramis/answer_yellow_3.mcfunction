@@ -11,7 +11,7 @@ scoreboard players set aramis_PNJ DIALOG 2
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra":[{"text":"Allez voir Marlène dans la cuisine de l'académie. Elle vous en dira plus au sujet d'une livraison que nous avons déjà trop attendue.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Allez voir Marlène dans la cuisine de l'académie. Elle vous en dira plus au sujet d'une livraison que nous avons déjà trop attendue.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

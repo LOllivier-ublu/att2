@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"There, J'zargo will discover which secrets are held in this secluded place. ''Waterdrop in the sea, leaf in the tree, its unique shine only shows to the unfazed and humble ones.'' He does not wish to see the impudent pupil any more now, if he runs into him again, he will turn the miserable worm into dust using his Dahäl.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

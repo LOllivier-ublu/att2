@@ -12,4 +12,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Feanorth : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"The war is over, but a long job of cleaning up, investigating and rebuilding awaits us in Angor ...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"The war is over, but a long job of cleaning up, investigating and rebuilding awaits us in Angor...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

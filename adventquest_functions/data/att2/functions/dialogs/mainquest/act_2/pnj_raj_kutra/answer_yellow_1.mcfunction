@@ -9,7 +9,7 @@ function att2:cinematic/act_2/meleim/rajkutra_importuned
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Raj Kutra : ","color":"green","extra":[{"text":"Comment se peut-il ? Moi l'illustre Raj ne serait guère apprécié par la douce Syri ? Ô rage, ô désespoir... mais que vais-je devenir... Laissez-moi donc aller, lové dans un manteau de solitude, vers des horizons acerbes que je ne saurais supporter... Abandonnant ma belle aux bras d'un autre...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"Comment se peut-il ? Moi l'illustre Raj ne serait guère apprécié par la douce Syri ? Ô rage, ô désespoir... mais que vais-je devenir... Laissez-moi donc aller, lové dans un manteau de solitude, vers des horizons acerbes que je ne saurais supporter... Abandonnant ma belle aux bras d'un autre...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Marion Marsot : ","color":"green","extra":[{"text":"Laissez-moi tranquille, partez ! Je... je vous en supplie...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marion Marsot : ","color":"green","extra":[{"text":"Laissez-moi tranquille, partez ! Je... je vous en supplie...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

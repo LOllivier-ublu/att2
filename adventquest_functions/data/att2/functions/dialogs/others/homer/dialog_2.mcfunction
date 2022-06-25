@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Homer : ","color":"green","extra":[{"text":"Chérie c'est toi ? Ah non j'avais oublié, tu ne peux plus bouger... Bon, vous ne semblez pas comprendre, cette île est maudite, elle renferme une sorte de monstre sous ces anciennes structures. Regardez donc ma femme, elle a perdu l'usage de ses jambes à cause des monstres que cette île renferme !! Ne restez pas dans les parages si vous ne voulez pas devenir complètement cinglé. Pour moi c'est fini, il n'y a plus rien à faire... Heureusement que ma femme garde toute sa tête !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"Chérie c'est toi ? Ah non j'avais oublié, tu ne peux plus bouger... Bon, vous ne semblez pas comprendre, cette île est maudite, elle renferme une sorte de monstre sous ces anciennes structures. Regardez donc ma femme, elle a perdu l'usage de ses jambes à cause des monstres que cette île renferme !! Ne restez pas dans les parages si vous ne voulez pas devenir complètement cinglé. Pour moi c'est fini, il n'y a plus rien à faire... Heureusement que ma femme garde toute sa tête !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

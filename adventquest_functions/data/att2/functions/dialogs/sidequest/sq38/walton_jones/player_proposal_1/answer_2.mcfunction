@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones  : ","color":"green
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Uh, wait... Ah yes! I remember these words found by my father in the cemetery of the ancients in Earndhel, where he found the first traces of this ritualistic group... I have his notebook, I will try to recite these words without being mistaken: -Klaa ... tu, Bar..ada, Nikto-","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"Il y a quelqu'un ? Franchissez donc la 
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"There is someone ? Cross the iron barrier.","color":"dark_aqua","italic":true}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"","color":"dark_aqua","italic":true}

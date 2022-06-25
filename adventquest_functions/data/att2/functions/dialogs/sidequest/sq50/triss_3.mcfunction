@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Triss : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Thank you. As I said, J'zargo is far from a model student. In fact, he is certainly our least talented one. And he is well aware of it, which does not help with his self-esteem. This is why he decided to leave and search for a... *sigh* a legend.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

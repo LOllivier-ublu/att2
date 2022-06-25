@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marlène : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"You come along at just the right time. The winters here are harsh and we are very dependent on the valley for food. Everyone is counting on Raphael, our main conveyor, but hey! There are no stories without an incident! We haven't heard from him in a week. Sometimes he's late, but this is worrying, we have to eat here!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

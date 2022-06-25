@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/yaakov_rav
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","extra":[{"text":"Très bien, alors pour faire court, le portail de Ryliath est inactif depuis des siècles car l'énergie dont il a besoin manque. Il lui faudrait 3 fragments de pierres appelés : ''Gemme d'espace'' pour le remettre en marche. Malheureusement celles-ci ont été volées et éparpillées dans le monde.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Très bien, alors pour faire court, le portail de Ryliath est inactif depuis des siècles car l'énergie dont il a besoin manque. Il lui faudrait 3 fragments de pierres appelés : ''Gemme d'espace'' pour le remettre en marche. Malheureusement celles-ci ont été volées et éparpillées dans le monde.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

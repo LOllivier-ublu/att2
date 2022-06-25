@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ashley Williams : ","color":"gre
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"I never wanted this to happen. I am mad at myself. Don't hurt me... I will redeem myself I promise!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

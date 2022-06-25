@@ -14,6 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green"
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Please, I need some help. I'm currently digging further down near the torrent to find fossils, but it's overrun with a fairly dangerous green slimy life form. I no longer dare to venture ... In short, I'm looking for someone who would be able to scare away these monstrosities. I will offer you some Chronotons in exchange.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq37/walton_jones/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq37/walton_jones/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq37/walton_jones/player_proposal_1/choice_3

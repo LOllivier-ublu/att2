@@ -11,7 +11,7 @@ function att2:gameplay/reputation/remove_1
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Gerard : ","color":"green","extra":[{"text":"Ah, bon j'avais un doute... Depuis que ce portail maléfique est apparu, la tranquillité de ce village en est complètement changée. Voyez-vous l'ancien propriétaire, maintenant partie, j'ai pris racine et payé cette maison au prix fort. J'aimerais donc finir les années qui me restent paisiblement ici.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Ah, bon j'avais un doute... Depuis que ce portail maléfique est apparu, la tranquillité de ce village en est complètement changée. Voyez-vous l'ancien propriétaire, maintenant partie, j'ai pris racine et payé cette maison au prix fort. J'aimerais donc finir les années qui me restent paisiblement ici.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

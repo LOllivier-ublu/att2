@@ -10,9 +10,9 @@ function att2:gameplay/reputation/add_2
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","extra":[{"text":"On dit que, jadis de nombreux portails émergeaient aléatoirement de part et d'autres des dimensions. Certains d'entre eux ont pu être stabilisés par d'anciens éminents mages afin de relier différentes régions de Tellurön. Pour que le portail puisse s'activer, ils ont du canaliser l'énergie nécessaire à son fonctionnement dans des pierres spéciales.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"On dit que, jadis de nombreux portails émergeaient aléatoirement de part et d'autres des dimensions. Certains d'entre eux ont pu être stabilisés par d'anciens éminents mages afin de relier différentes régions de Tellurön. Pour que le portail puisse s'activer, ils ont du canaliser l'énergie nécessaire à son fonctionnement dans des pierres spéciales.","color":"dark_aqua"}]}
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","extra":[{"text":"Malheureusement elles ont été éparpillées dans le monde, voire perdues. Cependant, on dit que le portail pourrait même fonctionner grâce aux fragments de ces pierres. On appelle aussi ces derniers ''gemme d'espace''. Si le portail de Ryliath vous intéresse alors vous aurez besoin d'au moins trois gemmes pour le faire marcher...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Malheureusement elles ont été éparpillées dans le monde, voire perdues. Cependant, on dit que le portail pourrait même fonctionner grâce aux fragments de ces pierres. On appelle aussi ces derniers ''gemme d'espace''. Si le portail de Ryliath vous intéresse alors vous aurez besoin d'au moins trois gemmes pour le faire marcher...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

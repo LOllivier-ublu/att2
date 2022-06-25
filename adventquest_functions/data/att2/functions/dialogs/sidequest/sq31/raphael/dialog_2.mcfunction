@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Raphaël : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"Thank you, knight, you saved my life! But... look at my cart! And my poor Kashu, he got eaten... He was panicked when he saw them and drove us off the road... How am I going to transport all my cargo to Eolorion now? They must be waiting for me! How many days have I been stuck here?","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

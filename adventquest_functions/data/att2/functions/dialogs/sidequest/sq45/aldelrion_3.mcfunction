@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aldelrion : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"No, it is not nostalgia. It is something that mortals only rarely experience, even when they achieve old age. Nostalgia sprouts from emotions you've linked to something, but considering all the time I spent here, the amount of times when I forgot emotions and lived them once again... No, nostalgia is not the right term, but there is none that truly conveys the meaning of this wound.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

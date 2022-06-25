@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ashley Williams : ","color":"gre
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"I'll tell you everything! I am currently making a system to clear the way to a secret room in the mines of Kert. I had a wagon of explosive in the mine, but I still lacked the rails to lead it there. However, I needed money to buy it, hence our passage at the abandoned mansion. Here, I give you the key to my shed, you will find the rails inside. If you reach the end, you may get a substantial treasure that will help Linda in paying off her debts. Alas, I cannot bring Sylvain back, but the two agreed to the risks of this detour...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

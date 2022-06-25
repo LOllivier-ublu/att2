@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Ithil : ","color":"green","extra":[{"text":"Que faites-vous ici ? Sortez de ma chambre !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Que faites-vous ici ? Sortez de ma chambre !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Here you are! Hope you still have the artifact with you. So as far as I know, what you found in the Eol cemetery must have belonged to members of a small secret group that resided in this old fort. They placed this artifact on an altar to perform dark rituals. Find out where the altar chamber is located. But beware, it's an ill-famed place... Take this key, it has the seal of this fort. I found them during my previous excavations in the Owsästr marshes.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

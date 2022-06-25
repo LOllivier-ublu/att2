@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Here, take 2500 Chronotons. I don't even know what to do with all this money, at least it will be useful to someone. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-137a-0000-00000000137a if entity @s[distance=..7] if score babbu_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/39/babbu/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"Click here - answer 3"}}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-137a-0000-00000000137a if entity @s[distance=..7] if score babbu_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/39/babbu/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 3"}}]}

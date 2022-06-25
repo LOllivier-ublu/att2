@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"Pour y parvenir... vais vous poser ... 
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"To achieve this... will ask you... very simple...","color":"dark_aqua","italic":true}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"","color":"dark_aqua","italic":true}

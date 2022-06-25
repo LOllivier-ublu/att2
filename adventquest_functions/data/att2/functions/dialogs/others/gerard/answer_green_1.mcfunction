@@ -18,7 +18,7 @@ setblock 29996 96 30030 minecraft:air
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Gerard : ","color":"green","extra":[{"text":"Si je suis venu vivre à Earndhel c'était justement pour son côté paisible et tranquille. Maintenant les étrangers affluent par ce portail maléfique et vous en êtes la cause... Je ne veux plus vous voir dans ma maison ! Allez voyager ailleurs !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Si je suis venu vivre à Earndhel c'était justement pour son côté paisible et tranquille. Maintenant les étrangers affluent par ce portail maléfique et vous en êtes la cause... Je ne veux plus vous voir dans ma maison ! Allez voyager ailleurs !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

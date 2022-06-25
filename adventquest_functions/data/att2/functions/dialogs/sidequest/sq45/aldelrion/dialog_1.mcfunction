@@ -14,5 +14,10 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Aldelrion : ","color":"green","e
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Somewhere in the ruins of this town or between the hands of a mortal must be a weapon. But not any weapon: an Eternän halberd which was named ''Nekr al Felèvsil''. It came to existence, like me, before negative emotions and death in Angband.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_1/choice_1
 execute if score aldelrion_answer_2_1 SQ45 matches 0 run function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_1/choice_2

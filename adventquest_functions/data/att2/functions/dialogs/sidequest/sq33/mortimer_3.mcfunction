@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Ah here you are again, you are right on time. I found a lot in common between these stones but I was able above all to isolate a unique symbol on one of the stones that you found in the plains of Sylberländ. There may be other things hidden in these specific places. If you could go there and take a look I would appreciate it. I need more information to further my research.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

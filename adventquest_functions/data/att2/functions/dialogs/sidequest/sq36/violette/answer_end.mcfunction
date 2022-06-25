@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Violette : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"Are the crypt and the cemetery accessible again ? Awesome ! Thank you, so take this. I will also be able to tell my neighbor that he can now do his work in the catacombs. He is an archaeologist and does his research in the area. He is a nice and helpful guy but quite shy.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

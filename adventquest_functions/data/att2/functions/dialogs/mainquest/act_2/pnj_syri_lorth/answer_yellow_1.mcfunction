@@ -10,7 +10,7 @@ scoreboard players set raj_kutra_PNJ DIALOG 2
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Syri Lorth : ","color":"green","extra":[{"text":"Non, je n'ai rien de cela... Mais vous n'avez pas l'air d'être de ceux à qui on cherche des ennuis... J'aurais bien un travail à vous donner. Une ancienne connaissance n'arrête pas de me suivre. Collant, le jeune Raj vient chez moi discrètement en m'offrant des fleurs moches et les accompagnant de poèmes idiots... et euh.. comment dire.. inappropriés. Bref, je ne sais plus comment lui dire de me lâcher... Si vous arrivez à le 'convaincre' de ne plus me harceler, je vous emmènerai là où vous désirez. Raj habite en dessous du grand pont de Méleïm, sur le quai et tout près du pont-levis. Revenez me voir quand ce sera réglé.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Non, je n'ai rien de cela... Mais vous n'avez pas l'air d'être de ceux à qui on cherche des ennuis... J'aurais bien un travail à vous donner. Une ancienne connaissance n'arrête pas de me suivre. Collant, le jeune Raj vient chez moi discrètement en m'offrant des fleurs moches et les accompagnant de poèmes idiots... et euh.. comment dire.. inappropriés. Bref, je ne sais plus comment lui dire de me lâcher... Si vous arrivez à le 'convaincre' de ne plus me harceler, je vous emmènerai là où vous désirez. Raj habite en dessous du grand pont de Méleïm, sur le quai et tout près du pont-levis. Revenez me voir quand ce sera réglé.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

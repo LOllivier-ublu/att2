@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Marion Marsot : ","color":"green","extra":[{"text":"Il n'y a rien d'intéressant ici. Auriez-vous l'amabilité de sortir de cette pièce ? Merci.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marion Marsot : ","color":"green","extra":[{"text":"Il n'y a rien d'intéressant ici. Auriez-vous l'amabilité de sortir de cette pièce ? Merci.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

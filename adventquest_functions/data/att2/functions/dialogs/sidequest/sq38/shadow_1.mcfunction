@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ombre : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Shadow : ","color":"green","extra":[{"text":"Ph'nglui mglw'nqfh wgah'nagl fhtagn","color":"dark_red"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Shadow : ","color":"green","extra":[{"text":"Ph'nglui mglw'nqfh wgah'nagl fhtagn","color":"dark_red"}]}

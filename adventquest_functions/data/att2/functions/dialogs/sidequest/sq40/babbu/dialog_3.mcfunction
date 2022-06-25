@@ -14,5 +14,10 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Babbu : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Did you see what I undertook? You'll be happy to hear that you were the first investor of a very profitable business: Shrimp fishing. Shrimp is the fruit of the sea. You can barbecue it, boil it, broil it, bake it, saute it. Dey's uh, shrimp-kabobs, shrimp creole, shrimp gumbo. Pan fried, deep fried, stir-fried. There's pineapple shrimp, lemon shrimp, coconut shrimp, pepper shrimp, shrimp soup, shrimp stew, shrimp salad, shrimp and potatoes, shrimp burger, shrimp sandwich. That- that's about it. By the way, I found something that might interest you.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq40/babbu/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq40/babbu/player_proposal_1/choice_2

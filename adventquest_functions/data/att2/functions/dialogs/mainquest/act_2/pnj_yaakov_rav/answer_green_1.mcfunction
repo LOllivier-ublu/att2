@@ -8,7 +8,7 @@ function att2:gameplay/pnj_talk/dialog_playsound/yaakov_rav
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Yaakov Rav : ","color":"green","extra":[{"text":"En effet, je suis maître en art de Dahäl et j'ai lu de nombreux grimoires lors de mon initiation. Je connais les légendes que l'on raconte à ce propos. Mais ce ne sont pas des choses que les gens aiment entendre en général. Non pas que mes histoires ne soient pas passionnantes, mais il faut en général un certain goût du danger pour savoir les apprécier... J'ignore si vous êtes de ceux qui n'ont pas peur de parcourir le pays afin de connaître la chute d'un calembour, ou plutôt de ceux qui préfèrent une tasse de thé au coin du feu pour n'entendre que les anecdotes redondantes de leurs amis ennuyeux...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"En effet, je suis maître en art de Dahäl et j'ai lu de nombreux grimoires lors de mon initiation. Je connais les légendes que l'on raconte à ce propos. Mais ce ne sont pas des choses que les gens aiment entendre en général. Non pas que mes histoires ne soient pas passionnantes, mais il faut en général un certain goût du danger pour savoir les apprécier... J'ignore si vous êtes de ceux qui n'ont pas peur de parcourir le pays afin de connaître la chute d'un calembour, ou plutôt de ceux qui préfèrent une tasse de thé au coin du feu pour n'entendre que les anecdotes redondantes de leurs amis ennuyeux...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

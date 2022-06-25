@@ -18,6 +18,13 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I understand why you wanted to recover it. It's truly a magnificent tool.","color":"aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+
+
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_1
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_2
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_3

@@ -10,7 +10,7 @@ function att2:items/quest/keys/eolorion_house_key
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aramis : ","color":"green","extra":[{"text":"C'est une bonne nouvelle. Tenez, voici les clefs de Rivebord. Cette maison n'était plus occupée depuis une paire d'années, elle est à vous maintenant. Allez, bon vent.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"C'est une bonne nouvelle. Tenez, voici les clefs de Rivebord. Cette maison n'était plus occupée depuis une paire d'années, elle est à vous maintenant. Allez, bon vent.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

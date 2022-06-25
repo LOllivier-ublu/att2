@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Edwin Vortid : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"Hmm... I can't say no.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

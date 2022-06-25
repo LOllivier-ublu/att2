@@ -16,3 +16,10 @@ execute if score SQ46 SIDEQUEST matches 5.. run tellraw @s[scores={LANGUAGE=0}] 
 execute if score SQ46 SIDEQUEST matches 4 run tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Take the crown. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/execute if score SQ46 SIDEQUEST matches 4 run function att2:cinematic/sidequest/46/step5"},"hoverEvent":{"action":"show_text","value":"Click here to take the crown."}}]}
 
 execute if score SQ46 SIDEQUEST matches 5.. run tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Exit -->]","color":"gold","clickEvent":{"action":"run_command","value":"/execute if score Boss UMBRATYANTH matches -2 run function att2:gameplay/boss/ether/umbratyanth/leave_arena"},"hoverEvent":{"action":"show_text","value":"Click here to exit."}}]}
+
+
+#CHINESE LANGUAGE
+
+execute if score SQ46 SIDEQUEST matches 4 run tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[拿走皇冠 -->]","color":"gold","clickEvent":{"action":"run_command","value":"/execute if score SQ46 SIDEQUEST matches 4 run function att2:cinematic/sidequest/46/step5"},"hoverEvent":{"action":"show_text","value":"點擊這里奪冠。"}}]}
+
+execute if score SQ46 SIDEQUEST matches 5.. run tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[出口 -->]","color":"gold","clickEvent":{"action":"run_command","value":"/execute if score Boss UMBRATYANTH matches -2 run function att2:gameplay/boss/ether/umbratyanth/leave_arena"},"hoverEvent":{"action":"show_text","value":"單擊此處退出。"}}]}

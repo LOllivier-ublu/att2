@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Jack Arrow : ","color":"green","
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"There is no longer any treasure here, the pirates of Asunarks stole everything from us! Please, we don't want any trouble, we've had enough already... Wait, I can show you the place where one of their ship stranded containing a huge jackpot. The wreck is located south from here, on the coast. It's not easy to reach, that's why I am sure nobody stole it yet.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"Mon cher ami, si vous lisez cette lettr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"My dear friend, if you are reading this letter it means that the portal to Ëarndhel has finally been restored. Etotsira warned us that the abrupt interruption of the portal was your fault. We were afraid that we had lost a major business link that had just been opened since your return. This is an opportunity for our kingdom and we wanted to enjoy this situation. However, there is one other thing that I would like to discuss in person with you, it is quite urgent. Return to me at Earndhel's Palace as soon as you can!","color":"gray","italic":true}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}

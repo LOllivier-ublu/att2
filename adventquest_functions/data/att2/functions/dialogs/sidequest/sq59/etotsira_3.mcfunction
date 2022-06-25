@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","ext
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Nothing at all... However, I may be able to guide you a little. Indeed, after some research, it seems that this emanation has the result of a mixture prepared with the greatest care. I don't know enough about this art, that's why I advise you to go see Basil Valentin our alchemist. He's back in Earndhel, you can find him in his lab at his house.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"","color":"dark_aqua"}]}
