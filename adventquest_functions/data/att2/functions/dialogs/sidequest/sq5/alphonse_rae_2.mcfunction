@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"Ben pardi, je voulais m'assurer que le problème est bien réglé tien ! Allez tuer maintenant ces bestiaux avant qu'ils ne s'échappent ! Je vous offrirai une récompense si vous les avez tous.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Ben pardi, je voulais m'assurer que le problème est bien réglé tien ! Allez tuer maintenant ces bestiaux avant qu'ils ne s'échappent ! Je vous offrirai une récompense si vous les avez tous.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alphonse Rae : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

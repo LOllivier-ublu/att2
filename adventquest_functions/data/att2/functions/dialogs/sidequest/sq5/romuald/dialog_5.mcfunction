@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"Salut mon ami, je suis si heureux maintenant, tu ne peux pas savoir. Je te suis éternellement reconnaissant de m'avoir ramené Mia et toute sa famille, maintenant, je me demande quel chien peut bien être le père de ses chiots...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Salut mon ami, je suis si heureux maintenant, tu ne peux pas savoir. Je te suis éternellement reconnaissant de m'avoir ramené Mia et toute sa famille, maintenant, je me demande quel chien peut bien être le père de ses chiots...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"°-° Romuald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

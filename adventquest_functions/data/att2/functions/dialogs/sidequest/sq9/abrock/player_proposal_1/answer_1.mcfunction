@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Abrock : ","color":"green","extra":[{"text":"Voilà 16 buches, merci monsieur.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Voilà 16 buches, merci monsieur.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

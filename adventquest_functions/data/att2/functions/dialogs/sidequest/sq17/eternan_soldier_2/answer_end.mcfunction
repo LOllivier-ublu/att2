@@ -12,3 +12,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Eternan Soldier : ","color":"gre
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"Hermona told me that I owe my life to the bandage you brought her ! I want to thank you, take this weapon, I offer it to you.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

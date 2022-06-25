@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Patrick Corth : ","color":"green","extra":[{"text":"Alors avez-vous mes bûches de bois ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Alors avez-vous mes bûches de bois ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

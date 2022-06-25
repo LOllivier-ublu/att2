@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Frowin Nepheris : ","color":"green","extra":[{"text":"Les agitateurs n'ont pas l'air décidé à partir ! Allez leur botter le train...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Les agitateurs n'ont pas l'air décidé à partir ! Allez leur botter le train...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

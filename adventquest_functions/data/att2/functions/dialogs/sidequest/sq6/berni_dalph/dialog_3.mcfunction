@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Berni Dalph : ","color":"green","extra":[{"text":"Les égouts, vous pouvez y aller, mais faites vite.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Les égouts, vous pouvez y aller, mais faites vite.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Abrock : ","color":"green","extra":[{"text":"D'accord, d'accord voilà les bûches pour le voleur...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"D'accord, d'accord voilà les bûches pour le voleur...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

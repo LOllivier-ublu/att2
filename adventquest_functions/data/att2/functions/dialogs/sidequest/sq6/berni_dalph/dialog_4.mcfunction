@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Berni Dalph : ","color":"green","extra":[{"text":"Les gardes vous attraperont, tôt ou tard...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Les gardes vous attraperont, tôt ou tard...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

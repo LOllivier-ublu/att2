@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° : ","color":"dark_gray","extra":
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° : ","color":"dark_gray","extra":[{"text":"Let's see... [detonate the obstacle with a fireball].","color":"gray","clickEvent":{"action":"run_command","value":"/scoreboard players set choice SQ12 2"},"hoverEvent":{"action":"show_text","value":"Click here - answer 2"}}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° : ","color":"dark_gray","extra":[{"text":" [].","color":"gray","clickEvent":{"action":"run_command","value":"/scoreboard players set choice SQ12 2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}

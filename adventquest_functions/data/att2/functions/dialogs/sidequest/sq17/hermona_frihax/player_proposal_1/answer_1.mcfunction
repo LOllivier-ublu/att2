@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","ext
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Thank you, you will be of great help to us. There should still be bandages in the ruins of Angor. I had, in my old residence, a substantial stock of bandages. However, if they have not been consumed by fire ... My house is in the neighborhood overlooking the city. Please bring me a minimum of 6 packs of 64 bandages. Good luck...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

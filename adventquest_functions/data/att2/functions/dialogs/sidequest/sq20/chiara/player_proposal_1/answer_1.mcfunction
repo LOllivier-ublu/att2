@@ -11,4 +11,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Chiara : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Ok ok. Then the vault coonects to a sewer passage under the city. I have already scoured the place and there is a weakness in a wall, it will have to fall: this is also where you will have to intervene. During the night nobody will see anything, then there you will go in the sewers and take all that you can! But don't you dare fail, we won't have a second chance!","bold":false,"color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Ok ok. Then the vault coonects to a sewer passage under the city. I have already scoured the place and there is a weakness in a wall, it will have to fall: this is also where you will have to intervene. During the night nobody will see anything, then there you will go in the sewers and take all that you can! But don't you dare fail, we won't have a second chance!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

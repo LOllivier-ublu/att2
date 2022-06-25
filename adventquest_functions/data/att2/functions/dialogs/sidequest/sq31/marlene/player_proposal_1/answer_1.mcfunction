@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Marlène : ","color":"green","extra":[{"text":"De l'aide ? Je veux bien. Ici les hivers sont rudes et nous dépendons beaucoup de la vallée en matière de denrées. Tout le monde compte sur Raphaël, notre convoyeur principal, mais hé ! Y'a pas d'histoires sans péripétie ! On n'a plus eu de nouvelles de lui depuis une semaine. Ça lui arrive d'être en retard, mais là c'est inquiétant, faut qu'on mange ici !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"De l'aide ? Je veux bien. Ici les hivers sont rudes et nous dépendons beaucoup de la vallée en matière de denrées. Tout le monde compte sur Raphaël, notre convoyeur principal, mais hé ! Y'a pas d'histoires sans péripétie ! On n'a plus eu de nouvelles de lui depuis une semaine. Ça lui arrive d'être en retard, mais là c'est inquiétant, faut qu'on mange ici !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"Une portée de salles bêtes de moins, le monde n'en est que meilleur.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Une portée de salles bêtes de moins, le monde n'en est que meilleur.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

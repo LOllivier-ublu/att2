@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alyia Lana : ","color":"green","extra":[{"text":"Bonjour, une tarte ça vous tente ? Ou autre, j'ai plein de chose ici...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alyia Lana : ","color":"green","extra":[{"text":"Bonjour, une tarte ça vous tente ? Ou autre, j'ai plein de chose ici...","color":"dark_aqua"}]}
 
 tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"[Faites voir ce que vous avez. -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/alyia_lana_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir la marchandise d'Alyia Lana."}}]}
 

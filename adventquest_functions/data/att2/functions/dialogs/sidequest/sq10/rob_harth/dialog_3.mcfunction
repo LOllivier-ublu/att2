@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Rob Harth : ","color":"green","extra":[{"text":"Vous vous en sortez ? Tuez autant de monstres que vous pourrez sur mes terres, et j'en veux plus un seul dans ma grange.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"Vous vous en sortez ? Tuez autant de monstres que vous pourrez sur mes terres, et j'en veux plus un seul dans ma grange.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

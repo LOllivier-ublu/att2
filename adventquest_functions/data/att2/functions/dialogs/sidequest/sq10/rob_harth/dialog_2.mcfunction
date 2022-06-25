@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Rob Harth : ","color":"green","extra":[{"text":"Alors, vous allez m'aider à me débrasser de ces monstres ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"Alors, vous allez m'aider à me débrasser de ces monstres ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

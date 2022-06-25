@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Raphaël : ","color":"green","extra":[{"text":"Merci de m'avoir sauvé la vie. Je dois me débrouiller seul pour réparer mes erreurs.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"Merci de m'avoir sauvé la vie. Je dois me débrouiller seul pour réparer mes erreurs.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

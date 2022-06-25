@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0},x=-4980,y=82,z=-5027,distance=..7] {"text":"°-° Semeurs de troubles : ","color":"green","extra":[{"text":"Haha ! C'est quoi cet imbécile ? Et comment oses-tu nous donner des ordres !? Allez barre-toi si tu veux pas d'ennuis !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Semeurs de troubles : ","color":"green","extra":[{"text":"Haha ! C'est quoi cet imbécile ? Et comment oses-tu nous donner des ordres !? Allez barre-toi si tu veux pas d'ennuis !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

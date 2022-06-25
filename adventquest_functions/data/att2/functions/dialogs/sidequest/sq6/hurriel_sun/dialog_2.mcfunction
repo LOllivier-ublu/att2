@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Hurriel Sun : ","color":"green","extra":[{"text":"Ouah, vous êtes celui qui a ouvert l'ancien portail de Ryliath ? Incroyable ! ... en fait... j'aurais un service à demander à quelqu'un de votre compétence. Voilà, j'ai égaré la clef de ma maison et je crains de les avoir faites tomber dans les égouts de la ville. Mais je ne peux pas m'y aventurer, c'est beaucoup trop dangereux et je ne sais pas me battre... Je vous récompenserai si vous m'aidez !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"Ouah, vous êtes celui qui a ouvert l'ancien portail de Ryliath ? Incroyable ! ... en fait... j'aurais un service à demander à quelqu'un de votre compétence. Voilà, j'ai égaré la clef de ma maison et je crains de les avoir faites tomber dans les égouts de la ville. Mais je ne peux pas m'y aventurer, c'est beaucoup trop dangereux et je ne sais pas me battre... Je vous récompenserai si vous m'aidez !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"Alors cette tanière ? T'y a trouvé la bête ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Alors cette tanière ? T'y a trouvé la bête ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

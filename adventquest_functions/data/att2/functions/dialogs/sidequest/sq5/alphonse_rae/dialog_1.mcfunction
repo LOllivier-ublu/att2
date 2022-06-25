@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"Pff, quelle saloperie ce bestiau... Oh, qu'est-ce qu'il veut le p'tit gars ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Pff, quelle saloperie ce bestiau... Oh, qu'est-ce qu'il veut le p'tit gars ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

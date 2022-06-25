@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Raphaël : ","color":"green","extra":[{"text":"Quelle générosité ! Avec ça je tâcherai de faire de mon mieux pour que ces marchandises arrivent au plus vite.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"Quelle générosité ! Avec ça je tâcherai de faire de mon mieux pour que ces marchandises arrivent au plus vite.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

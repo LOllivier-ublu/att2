@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Berni Dalph : ","color":"green","extra":[{"text":"Ola monsieur, arrêtez-vous, c'est là l'entrée des égouts. Personne n'a le droit d'y entrer.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Ola monsieur, arrêtez-vous, c'est là l'entrée des égouts. Personne n'a le droit d'y entrer.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

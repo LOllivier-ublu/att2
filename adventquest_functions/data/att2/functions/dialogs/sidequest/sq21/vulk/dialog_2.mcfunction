@@ -14,5 +14,10 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra"
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Do you remember Henry Jones Senior? The opening of the portal to Rylaith has given him a taste for adventure! He also borrowed it... Before leaving he told me about a legend: there is a very strange kind of weapon with greenish ornaments of materials unknown to our world. She sleeps in a forest temple called ''Worlest''. Being a collector myself, I would be delighted if you brought it back to me if you got your hands on it!","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq21/vulk/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq21/vulk/player_proposal_1/choice_2

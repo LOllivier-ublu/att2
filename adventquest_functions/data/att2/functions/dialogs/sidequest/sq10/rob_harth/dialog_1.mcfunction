@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Rob Harth : ","color":"green","extra":[{"text":"A l'aide, au monstre ! Vous ! Aidez-moi, je vous en supplie ! Des monstres ont envahi mes terres et ma grange ! Qu'est-ce que je vais faire, je ne sais pas me battre ! Pitié, débarrassez-m'en et je vous payerai en dédommagement !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"A l'aide, au monstre ! Vous ! Aidez-moi, je vous en supplie ! Des monstres ont envahi mes terres et ma grange ! Qu'est-ce que je vais faire, je ne sais pas me battre ! Pitié, débarrassez-m'en et je vous payerai en dédommagement !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

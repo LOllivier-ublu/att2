@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alyia Lana : ","color":"green","extra":[{"text":"Ahah, vous êtes marrant.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alyia Lana : ","color":"green","extra":[{"text":"Ahah, vous êtes marrant.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

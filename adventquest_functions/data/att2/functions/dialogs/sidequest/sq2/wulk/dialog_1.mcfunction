@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":[{"text":"Bien le bonjour voyageur ! Entrez ! Ne soyez pas timide ! Je me nomme Wulk, et comme vous l'avez sans doute remarqué je suis Forgeron. J'exerce cet art depuis de nombreuses années. Hélas, pardonnez le manque de produit cejourd'hui, mais je manque de matériaux pour confectionner davantage d'équipements. Du fer, voilà ce qu'il me faut, mais mon assistant n'est toujours pas revenu... Auriez-vous le temps pour m'aider à trouver du minerai de fer ? Vous serez gracieusement récompensé.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Bien le bonjour voyageur ! Entrez ! Ne soyez pas timide ! Je me nomme Wulk, et comme vous l'avez sans doute remarqué je suis Forgeron. J'exerce cet art depuis de nombreuses années. Hélas, pardonnez le manque de produit cejourd'hui, mais je manque de matériaux pour confectionner davantage d'équipements. Du fer, voilà ce qu'il me faut, mais mon assistant n'est toujours pas revenu... Auriez-vous le temps pour m'aider à trouver du minerai de fer ? Vous serez gracieusement récompensé.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

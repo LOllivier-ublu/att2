@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"Quel soulagement, mes lapins vont être plus tranquilles à présent. Tout ça grâce à toi, gamin. Tiens c'est pour toi.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Quel soulagement, mes lapins vont être plus tranquilles à présent. Tout ça grâce à toi, gamin. Tiens c'est pour toi.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

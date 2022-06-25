@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"Y'a quelque chose qu'arrête pas d'attaquer mes clapiers ! J'ai déjà perdu quatre lapins cette semaine, mais rien à faire, le bougre défonce toujours la barrière. C'doit être un sacrément gros goupil le bestiau !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Y'a quelque chose qu'arrête pas d'attaquer mes clapiers ! J'ai déjà perdu quatre lapins cette semaine, mais rien à faire, le bougre défonce toujours la barrière. C'doit être un sacrément gros goupil le bestiau !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

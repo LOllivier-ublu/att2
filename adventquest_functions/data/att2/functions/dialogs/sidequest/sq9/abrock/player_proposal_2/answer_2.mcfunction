@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Abrock : ","color":"green","extra":[{"text":"Tu m'prends pour qui toi, je suis le coupeur de bois, pas le roi de la ville. Bon 30 Chronotons et j'descendrai pas plus bas !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Tu m'prends pour qui toi, je suis le coupeur de bois, pas le roi de la ville. Bon 30 Chronotons et j'descendrai pas plus bas !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

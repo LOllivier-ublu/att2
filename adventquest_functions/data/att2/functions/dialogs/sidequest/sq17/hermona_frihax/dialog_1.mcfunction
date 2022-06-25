@@ -16,6 +16,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","ext
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Yes? You are here in the district where our most injured were treated and operated on... This war is wreaking havoc on both sides, but since the last attack we have suffered heavy losses. Now the material is lacking. Would you have time to find us bandages?","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_3

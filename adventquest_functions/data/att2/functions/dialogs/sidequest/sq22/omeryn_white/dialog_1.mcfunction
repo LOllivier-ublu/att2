@@ -14,6 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Omeryn White : ","color":"green"
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"Oh you! You're cheeky to come in here! I like this! I need someone like you to get rid of the monsters that have invaded my warehouse. They are lively and dangerous skeletons, they came from a dark cave next door! There will be a nice reward if you help me!","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq22/omeryn_white/player_proposal_1/choice_3

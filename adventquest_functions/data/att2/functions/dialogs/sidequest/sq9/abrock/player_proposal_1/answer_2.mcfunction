@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Abrock : ","color":"green","extra":[{"text":"Ah ouais, bah allez, je te le fais à 2 Chronotons le rondin.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Ah ouais, bah allez, je te le fais à 2 Chronotons le rondin.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

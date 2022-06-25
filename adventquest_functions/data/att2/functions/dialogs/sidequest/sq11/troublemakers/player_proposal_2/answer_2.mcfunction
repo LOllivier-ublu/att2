@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0},x=-4980,y=82,z=-5027,distance=..7] {"text":"°-° Semeurs de troubles : ","color":"green","extra":[{"text":"Attends, attends ! Bon, ça va, les gars on se tire. Mais tu seras pas toujours là pour protéger cet idiot de tavernier...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Semeurs de troubles : ","color":"green","extra":[{"text":"Attends, attends ! Bon, ça va, les gars on se tire. Mais tu seras pas toujours là pour protéger cet idiot de tavernier...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

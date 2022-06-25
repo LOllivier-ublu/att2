@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Alphonse Rae : ","color":"green","extra":[{"text":"Ah oui, et comment qu'il croit que je fais moi sans mes lapins le gamin ? Enfin, la chose se terre dans une grotte au bord de la rivière, je l'ai vu ! Suivez le cours d'eau au travers de la forêt, la tanière sera sur sa rive droite...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Ah oui, et comment qu'il croit que je fais moi sans mes lapins le gamin ? Enfin, la chose se terre dans une grotte au bord de la rivière, je l'ai vu ! Suivez le cours d'eau au travers de la forêt, la tanière sera sur sa rive droite...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

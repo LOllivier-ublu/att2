@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Rob Harth : ","color":"green","extra":[{"text":"Salutation l'ami !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Rob Harth : ","color":"green","extra":[{"text":"Salutation l'ami !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

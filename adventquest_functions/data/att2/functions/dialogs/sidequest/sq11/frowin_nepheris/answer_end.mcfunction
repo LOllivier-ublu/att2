@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Frowin Nepheris : ","color":"green","extra":[{"text":"Ahhh, le calme est enfin revenu ! Merci de m'en avoir débarrasser ! Voilà pour vous remercier.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Ahhh, le calme est enfin revenu ! Merci de m'en avoir débarrasser ! Voilà pour vous remercier.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

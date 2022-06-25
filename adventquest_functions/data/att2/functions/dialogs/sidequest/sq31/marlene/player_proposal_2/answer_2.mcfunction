@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Marlène : ","color":"green","extra":[{"text":"Boudiou, qu'est-ce-que tu veux que je fasse de ton argent ? A Eolorion on ne se nourrit pas avec des pièces et c'est pas ça qui va nous ramener Raphaël.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Boudiou, qu'est-ce-que tu veux que je fasse de ton argent ? A Eolorion on ne se nourrit pas avec des pièces et c'est pas ça qui va nous ramener Raphaël.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

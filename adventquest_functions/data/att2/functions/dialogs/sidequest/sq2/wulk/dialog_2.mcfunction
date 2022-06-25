@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Wulk : ","color":"green","extra":[{"text":"Alors avez-vous trouvé du temps pour la mission que je voudrais vous confier ? N'oubliez jamais que vous pouvez compter sur moi pour vous fournir de nouvelles armes et armures.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Alors avez-vous trouvé du temps pour la mission que je voudrais vous confier ? N'oubliez jamais que vous pouvez compter sur moi pour vous fournir de nouvelles armes et armures.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
