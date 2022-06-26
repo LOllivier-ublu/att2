@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","e
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Spectral Axe>","bold":false,"color":"blue","hoverEvent":{"action":"show_text","value":"Express your violence by temporarily creating a weapon."},"extra":[{"text":" [350 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/hache_spectrale"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Spectral Axe>","bold":false,"color":"blue","hoverEvent":{"action":"show_text","value":"臨時創造一把用於展現力量的武器。"},"extra":[{"text":" [350 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/hache_spectrale"},"hoverEvent":{"action":"show_text","value":"點擊購買！"}}]}]}

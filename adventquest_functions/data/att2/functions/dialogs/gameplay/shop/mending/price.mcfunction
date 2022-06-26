@@ -24,3 +24,14 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","e
 tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"Sovereign","bold":false,"color":"light_purple","extra":[{"text":" : ","color":"white"},{"text":"250 Chronotons","color":"yellow"},{"text":" + 1 ","color":"white"},{"text":"Ecaille Souveraine du Chaos","color":"light_purple"}]}]}
 tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"Epic","bold":false,"color":"dark_purple","extra":[{"text":" : ","color":"white"},{"text":"300 Chronotons","color":"yellow"},{"text":" + 1 ","color":"white"},{"text":"Ecaille Souveraine du Chaos","color":"light_purple"}]}]}
 tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"Legendary","bold":false,"color":"gold","extra":[{"text":" : ","color":"white"},{"text":"750 Chronotons","color":"yellow"},{"text":" + 1 ","color":"white"},{"text":"Ecaille Souveraine du Chaos","color":"light_purple"}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" <-°-> ","color":"dark_gray","extra":[{"text":" 維修價格 ","color":"dark_red","extra":[{"text":" <-°-> ","color":"dark_gray"}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"常見的","bold":false,"color":"gray","extra":[{"text":" : ","color":"white"},{"text":"25 Chronotons","color":"yellow"}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"罕見","bold":false,"color":"dark_green","extra":[{"text":" : ","color":"white"},{"text":"75 Chronotons","color":"yellow"}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"稀有的","bold":false,"color":"blue","extra":[{"text":" : ","color":"white"},{"text":"150 Chronotons","color":"yellow"}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"主權的","bold":false,"color":"light_purple","extra":[{"text":" : ","color":"white"},{"text":"250 Chronotons","color":"yellow"},{"text":" + 1 ","color":"white"},{"text":"Ecaille Souveraine du Chaos","color":"light_purple"}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"史詩","bold":false,"color":"dark_purple","extra":[{"text":" : ","color":"white"},{"text":"300 Chronotons","color":"yellow"},{"text":" + 1 ","color":"white"},{"text":"Ecaille Souveraine du Chaos","color":"light_purple"}]}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"傳奇的","bold":false,"color":"gold","extra":[{"text":" : ","color":"white"},{"text":"750 Chronotons","color":"yellow"},{"text":" + 1 ","color":"white"},{"text":"Ecaille Souveraine du Chaos","color":"light_purple"}]}]}

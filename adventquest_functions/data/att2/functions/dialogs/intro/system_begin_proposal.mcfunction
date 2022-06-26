@@ -18,3 +18,10 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[COMMENCER -->]","color":"green","click
 tellraw @s[scores={LANGUAGE=1}] {"text":"You are about to start the adventure.","color":"gray","italic":true,"extra":[{"text":" CAUTION: make sure that all players are present on the map! If nothing happens when clicking on 'start', it means that your game is incorrectly configured. Please read the settings ","color":"red","italic":true,"extra":[{"text":"<HERE>.","color":"blue","italic":false,"clickEvent":{"action":"open_url","value":"https://adventquest.com/across-the-time-ii-time-for-regrets/guide/rules-settings"},"hoverEvent":{"action":"show_text","value":"Click here to view game rules and settings."}},{"text":" in order to corretly set your game or server options.","color":"red","italic":true}]}]}
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[GET STARTED -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score update INTRO matches 3 run setblock 641 87 1088 minecraft:redstone_block"},"hoverEvent":{"action":"show_text","value":"Click here to confirm that all players are ready to start the adventure!"}}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true,"extra":[{"text":"  ","color":"red","italic":true,"extra":[{"text":"<HERE>.","color":"blue","italic":false,"clickEvent":{"action":"open_url","value":"https://adventquest.com/across-the-time-ii-time-for-regrets/guide/rules-settings"},"hoverEvent":{"action":"show_text","value":""}},{"text":" ","color":"red","italic":true}]}]}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[GET STARTED -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score update INTRO matches 3 run setblock 641 87 1088 minecraft:redstone_block"},"hoverEvent":{"action":"show_text","value":""}}

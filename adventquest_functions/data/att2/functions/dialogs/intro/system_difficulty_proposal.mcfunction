@@ -30,3 +30,16 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"[Veteran -->]","color":"gold","clickEve
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Master -->]","color":"red","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_hard"},"hoverEvent":{"action":"show_text","value":"Increased difficulty, for a more painful experience. (Recommended 1 to 5 Players, if you are demanding and like challenges)"}}
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Nightmare -->]","color":"dark_red","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_nightmare"},"hoverEvent":{"action":"show_text","value":"Extreme difficulty, for a tormenting experience. (Recommended only if you have already completed Across The Time 2 once, if you choose this difficulty you will not be able to change it during the game...)"}}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[Apprentice -->]","color":"dark_green","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_easy"},"hoverEvent":{"action":"show_text","value":""}}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[ -->]","color":"gold","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_normal"},"hoverEvent":{"action":"show_text","value":""}}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[ -->]","color":"red","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_hard"},"hoverEvent":{"action":"show_text","value":""}}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[ -->]","color":"dark_red","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_nightmare"},"hoverEvent":{"action":"show_text","value":""}}
