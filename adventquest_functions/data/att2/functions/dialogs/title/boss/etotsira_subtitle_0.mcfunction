@@ -11,3 +11,7 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Fils des premiers enfants de Gay
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] subtitle {"text":"Son of Gaya's first childs","color":"gray"}
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}

@@ -11,3 +11,7 @@ title @a[scores={LANGUAGE=0}] subtitle {"text":"La Flamme Noire","color":"dark_r
 #ENGLISH LANGUAGE
 
 title @a[scores={LANGUAGE=1}] subtitle {"text":"La Flamme Noire","color":"dark_red"}
+
+#CHINESE LANGUAGE
+
+title @a[scores={LANGUAGE=2}] subtitle {"text":"La Flamme Noire","color":"dark_red"}

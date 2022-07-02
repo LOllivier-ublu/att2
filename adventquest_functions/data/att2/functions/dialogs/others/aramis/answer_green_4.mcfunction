@@ -16,3 +16,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"That's good news. Here are Rivebord's keys. This house hasn't been occupied for a couple of years, it's yours now. Come on, good luck.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

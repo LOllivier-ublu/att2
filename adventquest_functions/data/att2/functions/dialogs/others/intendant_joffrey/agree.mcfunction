@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Intendant Joffrey : ","color":"g
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Thank you! Take the keys. Your house is in the same district, just to the right after leaving my house.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -18,4 +18,11 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"t
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Ahah, Sylvandre, always ready to help!","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/others/sylvandre/player_answer_proposal_1

@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Armel Darsan : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"Please don't hurt me.... Please leave! Please leave!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

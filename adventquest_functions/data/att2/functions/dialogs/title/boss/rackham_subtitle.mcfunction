@@ -11,3 +11,7 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Nabot cruel, le bourreau des cor
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] subtitle {"text":"Cruel nabot, the executioner of privateers","color":"gray"}
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}

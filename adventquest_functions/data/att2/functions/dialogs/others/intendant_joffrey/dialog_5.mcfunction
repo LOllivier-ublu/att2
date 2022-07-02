@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Intendant Joffrey : ","color":"g
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"So, how do you like your new house? Ryliath is quite a peaceful city, especially around the area you live in. You can consider yourself priviliged. The king seems to like you, but I guess you've earned it...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Bob L. : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"Hey! Be careful, kid! I, the great Bob Laïnonne, am practicing throwing powerful fireballs. Come on, get away from here now.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

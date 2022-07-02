@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Intendant Marta : ","color":"gre
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"Sorry, but it seems as though you don't have enough. Come see me again when you have all the money on you.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

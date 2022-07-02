@@ -14,3 +14,6 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Jabir Hayyan : ","color":"green"
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jabir Hayyan : ","color":"green","extra":[{"text":"Would you like to buy one of my potions? I sell all kinds of them, so look at this...","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jabir_hayyan_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Jabir is selling."}}]}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jabir Hayyan : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jabir_hayyan_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Jabir 的銷售情況。"}}]}]}

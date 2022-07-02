@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gaëlle : ","color":"green","ext
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"Welcome to the Ryliath bank, you can deposit your money securely and withdraw at any moment. Click on the signs to transfer the money.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

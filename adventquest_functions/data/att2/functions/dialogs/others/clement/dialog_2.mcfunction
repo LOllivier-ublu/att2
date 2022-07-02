@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Clément : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"It is said that a dreamer-fish has been stuck in a cloud for cycles. The king of this world would have taken him prisoner out of a whim. Filled with sorrow, the flow of tears that it would pour out feed the great stream running through our city. A heartbreaking story and a sad fate for this beast ... If all this is true I would like to free it from its shackles one day. Even if they are sometimes dangerous, these animals do not deserve so much cruelty!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

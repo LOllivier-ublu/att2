@@ -14,4 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Carmine Mordan : ","color":"gree
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Carmine Mordan : ","color":"green","extra":[{"text":"Hello, do you need armor and weapons? Don't get me wrong, yes I am one of the only women practicing this art in the whole region but my skills far exceed those of my male colleagues! You will only have to see for yourself what I make!","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Carmine is selling."}}]}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Carmine Mordan : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Carmine 的銷售情況。"}}]}]}
+
+
 scoreboard players set carmine_mordan_PNJ DIALOG 2

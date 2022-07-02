@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Armel Darsan : ","color":"green"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"Welcome to the foreign Phoenix village! I hope you did not come to cause us trouble, we are well settled and want to stay protected! If you are looking for the village chief, he is in the hut at the top of the peak behind me.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

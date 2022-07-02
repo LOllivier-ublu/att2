@@ -14,4 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Intendant Marta : ","color":"gre
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"Hello, I heard about the success of your mission. Ragnar warned me that I should promote one of our houses if you want to buy one in Méleïm. 1500 Chronotons and you will be the owner in our magnificent city. It is at the other end of the cliff under one of the watchtowers to the north. So are you interested?","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 function att2:dialogs/others/intendant_marta/player_answer_proposal_2

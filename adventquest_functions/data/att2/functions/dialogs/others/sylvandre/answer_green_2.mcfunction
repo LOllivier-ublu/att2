@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Indeed...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

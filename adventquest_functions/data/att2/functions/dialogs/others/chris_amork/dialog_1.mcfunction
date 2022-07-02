@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Chris Amork : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chris Amork : ","color":"green","extra":[{"text":"Hey you! I was about to go to the market to sell my horses, but my trailer dropped... Now it is too late, and I missed a golden opportunity to do very good business... At least I thought...? By any chance, aren't you interested in my racing animals?!","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/chris_amork_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Chris is selling."}}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chris Amork : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/chris_amork_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Chris 的銷售情況。"}}]}]}

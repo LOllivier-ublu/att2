@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Stella : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Stella : ","color":"green","extra":[{"text":"Hi, are you able to master Dahäl? So look, there is all kinds of powerful magic here...","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/stella_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Stella is selling."}}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Stella : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/stella_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Stella 的銷售情況。"}}]}]}

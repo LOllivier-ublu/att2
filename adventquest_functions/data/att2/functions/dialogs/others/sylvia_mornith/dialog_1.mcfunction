@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sylvia Mornith : ","color":"gree
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sylvia Mornith : ","color":"green","extra":[{"text":"Come on, don't hesitate to take a look at my merchandise, I sell all kinds of potions. They help adventurers like you to cross the dangerous Sylberländ countryside.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sylvia_mornith_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Sylvia is selling."}}]}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sylvia Mornith : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sylvia_mornith_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Oswald 的銷售情況。"}}]}]}
+
+

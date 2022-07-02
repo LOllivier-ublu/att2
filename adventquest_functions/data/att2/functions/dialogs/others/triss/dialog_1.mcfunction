@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Triss : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"Hello, if you are looking for some information, you can find Aramis the Archimage in his quarters on the top floors of the academy.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

@@ -14,4 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lisa : ","color":"green","extra"
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lisa : ","color":"green","extra":[{"text":"Hi, glad to see foreign life here. We need help and even a simple mortal can make a difference. As you can see we do not live luxury and food is scarce. However, we have enough left to make a profit. Do you want to buy one of my items?","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/lisa_payin_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Lisa is selling."}}]}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lisa : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/lisa_payin_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Lisa 的銷售情況。"}}]}]}
+
+
 scoreboard players set lisa_payin_PNJ DIALOG 2

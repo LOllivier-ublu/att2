@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Fëanorth : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Fëanorth : ","color":"green","extra":[{"text":"Our army is ready! The battle ahead of us will be decisive. We are only waiting for General Relgon's orders...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Fëanorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

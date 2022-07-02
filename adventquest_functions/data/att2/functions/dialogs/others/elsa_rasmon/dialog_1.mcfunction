@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Elsa Rasmon : ","color":"green",
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Elsa Rasmon : ","color":"green","extra":[{"text":"You want to buy? I don't have much to sell but if you are hungry, I am here to remedy this problem.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/elsa_rasmon_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Elsa is selling."}}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elsa Rasmon : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/elsa_rasmon_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Elsa 的銷售情況。"}}]}]}

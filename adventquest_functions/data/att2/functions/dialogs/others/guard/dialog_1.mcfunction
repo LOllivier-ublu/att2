@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garde : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Guardian : ","color":"green","extra":[{"text":"You can't get through! My mission is to watch the area, we have fenced the area because monsters were coming from this passage!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 卫士 : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

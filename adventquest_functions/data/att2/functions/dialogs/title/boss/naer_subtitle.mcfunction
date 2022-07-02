@@ -11,3 +11,7 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Le condescendant, regard impétu
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] subtitle {"text":"The condescending, impetuous look","color":"gray"}
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}

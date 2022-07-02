@@ -24,3 +24,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gerard : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"If I came to live in Earndhel it was precisely for its peaceful and quiet side. Now strangers are flocking through this evil portal and you are the cause... I don't want to see you in my house anymore! Go travel elsewhere!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

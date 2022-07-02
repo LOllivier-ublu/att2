@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Nicolas Chavez : ","color":"gree
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nicolas Chavez : ","color":"green","extra":[{"text":"...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nicolas Chavez : ","color":"green","extra":[{"text":"...","color":"dark_aqua"}]}

@@ -17,3 +17,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gerard : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Ah, well I had my doubts ... Since this evil portal appeared, the tranquility of this village is completely changed. You see the former owner, now gone, I took root and paid a high price for this house. So I would like to finish all the years that I have lived peacefully here.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

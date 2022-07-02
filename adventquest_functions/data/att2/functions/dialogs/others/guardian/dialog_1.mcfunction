@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garde : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Guardian : ","color":"green","extra":[{"text":"Are you aware that the king's army is recruiting? Strong guys like you would be a very good asset in our ranks... You don't care, do you? It does not matter, you are welcome at any time in these places. Come and train here regularly like the soldiers to test your might in the arena against harmless dummies, and maybe you will change your mind.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 卫士 : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

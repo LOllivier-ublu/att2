@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Homer : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"Hey, is it you who opened the passage to the center of the island? I snuck into the dungeon and found lots of treasure including this armor allowing you to swim quickly and breathe longer underwater... Interested?","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/homer_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Homer is selling."}}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/homer_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Homer 的銷售情況。"}}]}]}

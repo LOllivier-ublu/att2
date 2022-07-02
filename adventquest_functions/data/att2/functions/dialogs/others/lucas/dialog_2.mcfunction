@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lucas : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"I guess you've already met these big eyed entities with cloud-like skin. We call them dream-fishes or somniophage. But did you know they don't really fly? These critters operate in this vast world without any downward attraction thanks to a substance in the body allowing them to negate the effect of gravity. Their mandibles grants them movement in any direction. The art of cutting through the air with Pelzions is very practical but often very dangerous...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

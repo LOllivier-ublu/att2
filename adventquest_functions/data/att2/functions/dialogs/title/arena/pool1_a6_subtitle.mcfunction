@@ -11,3 +11,8 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Alliance de Billgart","color":"g
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] subtitle {"text":"Pact of Billgart","color":"gray"}
+
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}

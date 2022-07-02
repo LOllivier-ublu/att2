@@ -11,3 +11,8 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Alliance d'Elcheol'","color":"gr
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] subtitle {"text":"Pact of Elcheol","color":"gray"}
+
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}

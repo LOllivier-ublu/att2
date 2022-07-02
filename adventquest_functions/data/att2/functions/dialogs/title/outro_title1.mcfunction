@@ -12,3 +12,8 @@ title @a[scores={LANGUAGE=0}] title {"text":"_.-*° ","color":"dark_red","extra"
 #ENGLISH LANGUAGE
 
 title @a[scores={LANGUAGE=1}] title {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Some time","color":"gray","underlined":true},{"text":" | ","color":"dark_red","bold":true},{"text":"later,","color":"gray","underlined":true},{"text":" °*-._","color":"dark_red"}]}
+
+
+#CHINESE LANGUAGE
+
+title @a[scores={LANGUAGE=2}] title {"text":"_.-*° ","color":"dark_red","extra":[{"text":"","color":"gray","underlined":true},{"text":" | ","color":"dark_red","bold":true},{"text":",","color":"gray","underlined":true},{"text":" °*-._","color":"dark_red"}]}

@@ -14,4 +14,9 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Nolduron : ","color":"green","ex
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"Here is our dear hero of the seven dimensions! Etotsira has warned me of your coming, he is certainly waiting for you. You restored the old portal to Ryliath. It will allow us to communicate and forge links with this flourishing region. In any case, it gives me great pleasure to see you again here, make yourself at home.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+
 scoreboard players set nolduron_PNJ DIALOG 2

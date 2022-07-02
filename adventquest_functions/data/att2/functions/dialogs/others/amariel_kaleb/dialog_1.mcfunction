@@ -16,3 +16,10 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@s","color":"dark_red","extra":[{"t
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Amariel Kaleb : ","color":"green","extra":[{"text":"Welcome to the Kortaek Inn. If you want to rest in one of our rooms, rent one for the day for an honest price.","color":"dark_aqua"}]}
 
 tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[Pay the room and rest --> 40 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-111a-0000-00000000111a if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/amariel_kaleb/answer_green"},"hoverEvent":{"action":"show_text","value":"Click here to pay the room and rest at the inn"}}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Amariel Kaleb : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[支付房費並休息 --> 40 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-111a-0000-00000000111a if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/amariel_kaleb/answer_green"},"hoverEvent":{"action":"show_text","value":"點擊支付房費，享受住店生活吧。"}}]}

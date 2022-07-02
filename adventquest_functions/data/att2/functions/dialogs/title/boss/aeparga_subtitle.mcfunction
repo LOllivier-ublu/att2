@@ -11,3 +11,7 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Sombre Souvenir à la Décadence
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] subtitle {"text":"Dark Memories to the Owsästr Decay","color":"gray"}
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}

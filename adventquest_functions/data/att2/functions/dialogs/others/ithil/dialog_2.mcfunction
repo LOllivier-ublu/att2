@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ithil : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"We are in the dimensional portals room. Be careful, or not...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}

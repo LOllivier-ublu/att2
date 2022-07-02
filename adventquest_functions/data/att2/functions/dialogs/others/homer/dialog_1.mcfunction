@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Homer : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"What... What? I'm not hallucinating, are you real? Ah... You seem to be... Years ago I would have been happy to see one of my fellows... But now, how to say... Hmm... I am very tempted to knock you out and cook yourself on a spit. You stay on this island it is at your own risk! However you if you find turquoise stones, I'll buy them off you for 2 Chronotons per unit... They are so beautiful!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
