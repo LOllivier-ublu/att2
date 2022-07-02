@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Impossible to change difficulty if you 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"你不能在進行BOSS戰時更改難度……","color":"gray"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"你不能在進行頭目戰時更改難度……","color":"gray"}
