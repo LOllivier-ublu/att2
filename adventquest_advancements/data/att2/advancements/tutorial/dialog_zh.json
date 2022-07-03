@@ -4,9 +4,9 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100109}"},
+		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100107}"},
 		"title":"",
-		"description":"enemy_ch",
+		"description":"dialog_zh",
 		"frame":"task"
 	},
 	"criteria":{

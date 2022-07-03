@@ -4,9 +4,9 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100114}"},
+		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100117}"},
 		"title":"",
-		"description":"rarity_ch",
+		"description":"spells_zh",
 		"frame":"task"
 	},
 	"criteria":{

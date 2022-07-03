@@ -6,7 +6,7 @@
 		"hidden":true,
 		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100118}"},
 		"title":"",
-		"description":"waypoint_ch",
+		"description":"waypoint_zh",
 		"frame":"task"
 	},
 	"criteria":{

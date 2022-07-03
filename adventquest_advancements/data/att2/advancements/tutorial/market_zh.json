@@ -4,9 +4,9 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100111}"},
+		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100103}"},
 		"title":"",
-		"description":"deposit_ch",
+		"description":"market_zh",
 		"frame":"task"
 	},
 	"criteria":{

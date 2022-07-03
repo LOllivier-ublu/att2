@@ -4,9 +4,9 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100116}"},
+		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100115}"},
 		"title":"",
-		"description":"skills_ch",
+		"description":"shop_zh",
 		"frame":"task"
 	},
 	"criteria":{

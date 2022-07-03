@@ -4,9 +4,9 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100108}"},
+		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100102}"},
 		"title":"",
-		"description":"earthquake_ch",
+		"description":"bank_zh",
 		"frame":"task"
 	},
 	"criteria":{

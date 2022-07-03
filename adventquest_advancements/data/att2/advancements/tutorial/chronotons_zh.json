@@ -4,9 +4,9 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100110}"},
+		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100104}"},
 		"title":"",
-		"description":"fire_ch",
+		"description":"chronotons_zh",
 		"frame":"task"
 	},
 	"criteria":{

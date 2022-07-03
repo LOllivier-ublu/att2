@@ -4,9 +4,9 @@
 		"show_toast":true,
 		"announce_to_chat":false,
 		"hidden":true,
-		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100105}"},
+		"icon":{"item":"minecraft:shears","nbt": "{CustomModelData:10100110}"},
 		"title":"",
-		"description":"consciousness_ch",
+		"description":"fire_zh",
 		"frame":"task"
 	},
 	"criteria":{

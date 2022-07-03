@@ -16,6 +16,7 @@ execute if score update INTRO matches -1 in minecraft:overworld as @a[x=788,y=80
 # Language choice + tp to the lobby
 execute in minecraft:overworld as @a[x=794,y=79,z=886,dx=0,dy=4,dz=0] at @s run function att2:cinematic/intro/launch/language_fr
 execute in minecraft:overworld as @a[x=796,y=79,z=886,dx=0,dy=4,dz=0] at @s run function att2:cinematic/intro/launch/language_en
+execute in minecraft:overworld as @a[x=792,y=79,z=886,dx=0,dy=4,dz=0] at @s run function att2:cinematic/intro/launch/language_zh
 
 # Players number selection choice + tp to the lobby
 execute if score update INTRO matches 1.. if score playernumber INTRO matches 1 in minecraft:overworld as @a[x=787,y=80,z=907,dx=3,dy=3,dz=3,scores={NUMEROJOUEUR=0},limit=1] at @s run function att2:cinematic/intro/launch/player2_select
