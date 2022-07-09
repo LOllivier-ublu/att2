@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Dark echo, plague of old time","
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"幽暗迴響，舊日之禍","color":"gray"}

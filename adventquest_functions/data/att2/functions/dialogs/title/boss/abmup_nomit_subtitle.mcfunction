@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Dangerous defenses, fatal determ
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"危險的疣豬獸，堅韧至死的決心","color":"gray"}

@@ -12,7 +12,6 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Union des dimensions","color":"g
 
 title @s[scores={LANGUAGE=1}] subtitle {"text":"Union of Dimensions","color":"gray"}
 
-
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"維度联合","color":"gray"}

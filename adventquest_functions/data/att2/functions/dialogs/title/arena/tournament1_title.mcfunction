@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] title {"text":"- Tournament I -","color":"dark_red
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] title {"text":"- 比赛 I -","color":"dark_red","underlined":true}
+title @s[scores={LANGUAGE=2}] title {"text":"- 錦標賽 I -","color":"dark_red","underlined":true}

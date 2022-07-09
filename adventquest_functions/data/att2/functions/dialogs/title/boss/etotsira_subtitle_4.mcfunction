@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Angband's saviour","color":"gray
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"Angband之救主","color":"gray"}

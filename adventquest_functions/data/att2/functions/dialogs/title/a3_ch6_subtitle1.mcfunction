@@ -14,4 +14,4 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"Return to Telluron","color":"dar
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] subtitle {"text":"","color":"dark_red"}
+title @a[scores={LANGUAGE=2}] subtitle {"text":"返回Tellurön","color":"dark_red"}

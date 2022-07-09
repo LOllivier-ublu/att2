@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Necromancer, Ether's alienation"
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"死靈法師，異化Ether","color":"gray"}

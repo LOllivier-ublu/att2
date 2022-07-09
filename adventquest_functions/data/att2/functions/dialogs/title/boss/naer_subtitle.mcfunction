@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"The condescending, impetuous loo
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"傲慢與魯莽之人","color":"gray"}

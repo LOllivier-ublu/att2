@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Cruel nabot, the executioner of 
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"殘忍的侏儒，海盜中的刽子手","color":"gray"}

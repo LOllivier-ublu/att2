@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Corrupted half-goddess ","color"
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":" ","color":"gray","extra":[{"text":" / ","color":"dark_red","strikethrough":true},{"text":" ","color":"black","obfuscated":true}]}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"墮落的半神 ","color":"gray","extra":[{"text":" / ","color":"dark_red","strikethrough":true},{"text":" 非禮勿動......","color":"black","obfuscated":true}]}

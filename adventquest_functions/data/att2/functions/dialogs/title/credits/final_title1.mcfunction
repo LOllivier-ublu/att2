@@ -16,4 +16,4 @@ title @a[scores={LANGUAGE=1}] title {"text":"⏣ᨖ ","color":"dark_red","extra"
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] title {"text":"⏣ᨖ ","color":"dark_red","extra":[{"text":"","color":"gold"},{"text":" ᨖ⏣","color":"dark_red"}]}
+title @a[scores={LANGUAGE=2}] title {"text":"⏣ᨖ ","color":"dark_red","extra":[{"text":"你(們)","color":"gold"},{"text":" ᨖ⏣","color":"dark_red"}]}

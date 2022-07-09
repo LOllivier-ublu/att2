@@ -14,4 +14,4 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"A kingdom at war","color":"dark_
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] subtitle {"text":"","color":"dark_red"}
+title @a[scores={LANGUAGE=2}] subtitle {"text":"戰時王國","color":"dark_red"}

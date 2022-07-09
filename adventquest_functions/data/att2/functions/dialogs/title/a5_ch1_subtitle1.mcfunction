@@ -14,4 +14,4 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"Angband's princesse","color":"da
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] subtitle {"text":"","color":"dark_red"}
+title @a[scores={LANGUAGE=2}] subtitle {"text":"Angband的公主","color":"dark_red"}

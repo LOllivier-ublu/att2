@@ -22,6 +22,6 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"[GET STARTED -->]","color":"green","cli
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true,"extra":[{"text":"  ","color":"red","italic":true,"extra":[{"text":"<HERE>.","color":"blue","italic":false,"clickEvent":{"action":"open_url","value":"https://adventquest.com/across-the-time-ii-time-for-regrets/guide/rules-settings"},"hoverEvent":{"action":"show_text","value":""}},{"text":" ","color":"red","italic":true}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"你(們)即將踏上冒險旅程。注意：請保證所有將要游玩該地圖的玩家均已成功進入地圖！若點擊 “開始”後沒有任何反應，則説明遊戲設置錯誤。請點擊<此處>閲讀設置説明以正確地設定遊戲設置或服務器設置。","color":"gray","italic":true,"extra":[{"text":"  ","color":"red","italic":true,"extra":[{"text":"<HERE>.","color":"blue","italic":false,"clickEvent":{"action":"open_url","value":"https://adventquest.com/across-the-time-ii-time-for-regrets/guide/rules-settings"},"hoverEvent":{"action":"show_text","value":""}},{"text":" 點擊此處查看遊戲規則及相關設置。","color":"red","italic":true}]}]}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[GET STARTED -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score update INTRO matches 3 run setblock 641 87 1088 minecraft:redstone_block"},"hoverEvent":{"action":"show_text","value":""}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[開始遊戲 -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score update INTRO matches 3 run setblock 641 87 1088 minecraft:redstone_block"},"hoverEvent":{"action":"show_text","value":"當所有玩家準備完成后，請點擊此處開始你(們)的冒險之旅！"}}

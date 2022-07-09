@@ -14,4 +14,4 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"Lost in Sylberländ","color":"da
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] subtitle {"text":"","color":"dark_red"}
+title @a[scores={LANGUAGE=2}] subtitle {"text":"Sylberländ的迷霧","color":"dark_red"}

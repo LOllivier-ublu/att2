@@ -15,4 +15,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Wave 2/4","color":"gray"}
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"波浪 2/4","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"第 2/4 波","color":"gray"}

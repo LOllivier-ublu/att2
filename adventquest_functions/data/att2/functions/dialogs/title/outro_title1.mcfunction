@@ -16,4 +16,4 @@ title @a[scores={LANGUAGE=1}] title {"text":"_.-*° ","color":"dark_red","extra"
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] title {"text":"_.-*° ","color":"dark_red","extra":[{"text":"","color":"gray","underlined":true},{"text":" | ","color":"dark_red","bold":true},{"text":",","color":"gray","underlined":true},{"text":" °*-._","color":"dark_red"}]}
+title @a[scores={LANGUAGE=2}] title {"text":"_.-*° ","color":"dark_red","extra":[{"text":"一段時間後","color":"gray","underlined":true},{"text":" | ","color":"dark_red","bold":true},{"text":",","color":"gray","underlined":true},{"text":" °*-._","color":"dark_red"}]}

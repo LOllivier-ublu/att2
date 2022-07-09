@@ -14,4 +14,4 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"in the dimension of Angband...",
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] subtitle {"text":"","color":"dark_red"}
+title @a[scores={LANGUAGE=2}] subtitle {"text":"Angband所在的維度中...","color":"dark_red"}

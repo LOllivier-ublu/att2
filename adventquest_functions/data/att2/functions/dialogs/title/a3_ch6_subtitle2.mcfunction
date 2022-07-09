@@ -14,4 +14,4 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"(336 hours later)","color":"dark
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] subtitle {"text":"","color":"dark_red"}
+title @a[scores={LANGUAGE=2}] subtitle {"text":"(336小時後)","color":"dark_red"}

@@ -14,4 +14,4 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"The last gem","color":"dark_red"
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] subtitle {"text":"","color":"dark_red"}
+title @a[scores={LANGUAGE=2}] subtitle {"text":"最後的寶石","color":"dark_red"}

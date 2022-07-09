@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"World's hunter","color":"gray"}
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"盖世之猎者","color":"gray"}

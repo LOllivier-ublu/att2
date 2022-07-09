@@ -15,4 +15,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Pact of Aoranos","color":"gray"}
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"Aoranos的契约","color":"gray"}

@@ -15,4 +15,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Pact of Asunark","color":"gray"}
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"Asunark的契约","color":"gray"}

@@ -16,4 +16,4 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"⟖ ","color":"gold","extra":[{"
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] subtitle {"text":"⟖ ","color":"gold","extra":[{"text":"","color":"gray"},{"text":" ⟕","color":"gold"}]}
+title @a[scores={LANGUAGE=2}] subtitle {"text":"⟖ ","color":"gold","extra":[{"text":"的遊玩！","color":"gray"},{"text":" ⟕","color":"gold"}]}

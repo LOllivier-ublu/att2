@@ -16,4 +16,4 @@ title @a[scores={LANGUAGE=1}] title {"text":"⥪ ","color":"gray","extra":[{"tex
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] title {"text":"⥪ ","color":"gray","extra":[{"text":"","color":"dark_red"},{"text":" ⥬","color":"gray"}]}
+title @a[scores={LANGUAGE=2}] title {"text":"⥪ ","color":"gray","extra":[{"text":"也特別感謝","color":"dark_red"},{"text":" ⥬","color":"gray"}]}

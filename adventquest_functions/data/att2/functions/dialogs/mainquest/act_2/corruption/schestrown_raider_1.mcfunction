@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Pillager : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Pillager : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Pillager : ","color":"green","extra":[{"text":"嘿, 说你呢! Carlin讓你來的? ......很好，我們在這等候多時了......打劫！","color":"dark_aqua"}]}
