@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Elsa Rasmon : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elsa Rasmon : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elsa Rasmon : ","color":"green","extra":[{"text":"好吧，如你所願……","color":"dark_aqua"}]}
 
 
 data merge entity 00000000-0000-054a-0000-00000000054a {Tags:["LVL0","CLASS12","Reg2","Undead"],NoAI:0,Invulnerable:0,AngerTime:1000000,Health:20,AbsorptionAmount:0,Attributes:[{Name:generic.follow_range,Base:30.0},{Name:generic.max_health,Base:30,Health:0.5},{Name:generic.attack_damage,Base:4.0}],Health:30,HandItems:[{id:"minecraft:iron_sword",Count:1},{}]}

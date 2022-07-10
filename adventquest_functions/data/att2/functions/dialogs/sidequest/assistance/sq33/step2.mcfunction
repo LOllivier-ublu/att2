@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Silberländ -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Sylberländ的秘寶 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Sylberländ的秘寶 -°- : ","color":"gray","extra":[{"text":"我將所有搜集好的遺跡石頭樣本交給了Mortimer。在他研究石頭的這段期間，我最好還是不要打擾他。之後再晚點過來。","color":"aqua","italic":true}]}

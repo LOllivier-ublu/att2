@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/wulk_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Wulk 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"稍微看下這兒的商品吧——看完後告訴我想要啥就行。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/wulk_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Wulk 的銷售情況。"}}]}]}
 
 
 

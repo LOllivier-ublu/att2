@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Adanoï Catacombs -°- : ","co
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"進展還不錯，接下來就在墓園裡找找進入地下墓穴的入口。Emerald的女兒一定是先我們進去了。不行的話我可以問問墓園旁住的守陵人，他應該會協助我的。","color":"aqua","italic":true}]}

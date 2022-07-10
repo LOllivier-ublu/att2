@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 6
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 6 部分 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 6 部分 -°- : ","color":"gray","extra":[{"text":"學院深處傳來了奇怪的震響，好像和印章產生了共振。應該有間密室。","color":"aqua","italic":true}]}

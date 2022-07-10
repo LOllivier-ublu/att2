@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The immemorial duty -°- : ","colo
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 遠古的義務 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 遠古的義務 -°- : ","color":"gray","extra":[{"text":"我在遺跡廢墟中找到了一把質量上乘的弓，這應該是Trias向我提到的那把。","color":"aqua","italic":true}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A night in Sathnok -°- : ","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Sathnok驚魂夜 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Sathnok驚魂夜 -°- : ","color":"gray","extra":[{"text":"我必須和這個所謂的Ashley嚮導好好聊聊。他家也在Kortaek。","color":"aqua","italic":true}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Salma Neyith : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Salma Neyith : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Salma Neyith : ","color":"green","extra":[{"text":"抱歉，您所持的Chronoton不足，我不能爲您提供服務。","color":"dark_aqua"}]}

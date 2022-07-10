@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Patrick lacks wood -°- : ","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Patrick 缺少木頭 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Patrick 缺少木頭 -°- : ","color":"gray","extra":[{"text":"拿上伐木工Abrock箱子裡的所有<木頭>吧，這下Patrick應該會很滿意的。帶回Ryliath看看他會給我什麼好處。","color":"aqua","italic":true}]}

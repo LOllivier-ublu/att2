@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- An unfortunate incident -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 不幸的事件 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 不幸的事件 -°- : ","color":"gray","extra":[{"text":"Lilith在運送貨物途中不小心撞上了什麼東西並將她的馬車完全弄壞了。她拜託我將剩下的貨物帶到她家去。我沿著這條泥濘的小路直走就可以找到Lilith的家。","color":"aqua","italic":true}]}

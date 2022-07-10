@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Kelmyia : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Kelmyia : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [是... -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/update_book"},"hoverEvent":{"action":"show_text","value":"點擊這裡接受。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Kelmyia : ","color":"green","extra":[{"text":"良心不安嗎？","color":"dark_aqua","extra":[{"text":" [是... -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/update_book"},"hoverEvent":{"action":"show_text","value":"點擊這裡接受。"}}]}]}

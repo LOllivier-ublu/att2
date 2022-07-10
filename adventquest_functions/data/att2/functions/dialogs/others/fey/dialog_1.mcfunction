@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Fey : ","color":"green","extra":
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Fey : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Fey 打交道"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Fey : ","color":"green","extra":[{"text":"如果你是來賭手氣的，就去找我的丈夫吧。他就在我左邊這扇門后……如果你想回收東西，就回來我這裏吧。","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Fey 打交道"}}]}]}

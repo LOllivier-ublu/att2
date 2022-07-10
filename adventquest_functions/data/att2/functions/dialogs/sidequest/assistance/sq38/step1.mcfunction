@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A dark artifact -°- : ","color":"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 黑暗之物 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 黑暗之物 -°- : ","color":"gray","extra":[{"text":"Walton交給我的鑰匙應該能開啟一間用來舉行儀式的密室。我得仔細搜搜這片遺跡。","color":"aqua","italic":true}]}

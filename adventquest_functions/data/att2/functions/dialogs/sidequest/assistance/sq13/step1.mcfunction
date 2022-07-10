@@ -16,7 +16,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"-°- An uncontrollable invasion -°- : 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 失控的侵略 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 失控的侵略 -°- : ","color":"gray","extra":[{"text":"需要在Phoenix村旁的洞穴裡清除大約20隻岩漿史萊姆，完事之後再找Garry領取獎賞。","color":"aqua","italic":true}]}
 
 
 function att2:dialogs/sidequest/sq13/mobs_killed_total

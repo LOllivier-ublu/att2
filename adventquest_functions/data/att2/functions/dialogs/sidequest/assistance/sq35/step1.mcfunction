@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A declining business -°- : ","col
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 門可羅雀 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 門可羅雀 -°- : ","color":"gray","extra":[{"text":"只有解決掉附近的強盜團後，Nestor才能重新經營他的旅館。是時候給那些混混一點教訓。","color":"aqua","italic":true}]}
 
 
 function att2:dialogs/sidequest/sq35/mobs_killed_total

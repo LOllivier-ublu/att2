@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Never leave anything behind -°- :
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 永遠不要留下任何東西 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 永遠不要留下任何東西 -°- : ","color":"gray","extra":[{"text":"Warren在火山洞裡一條坑窪的路上弄丟了他的貨物。洞內隧道有一部分坍塌了，我必須在火山附近找到另外的入口來取回遺失的貨物。","color":"aqua","italic":true}]}

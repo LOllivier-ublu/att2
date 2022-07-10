@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hero's Accomplishment -°- : "
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我敢肯定，這就是Mercurius和我説的考驗！希望我可以在這裏來去自如，畢竟這可能是我開啓新生活后遇上的最困難的考驗之一......","color":"aqua","italic":true}]}

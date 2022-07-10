@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Addicted for life -°- : ","color"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 沉醉一生 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 沉醉一生 -°- : ","color":"gray","extra":[{"text":"Edwin Vortid說有個叫Charles的傢伙開了個賭場，能用Chronotons和他隨機交換一些物品。賭場就在Soquai森林裡的激流旁。","color":"aqua","italic":true}]}

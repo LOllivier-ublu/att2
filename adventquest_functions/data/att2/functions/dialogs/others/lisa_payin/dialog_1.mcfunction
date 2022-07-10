@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lisa : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lisa : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/lisa_payin_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Lisa 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lisa : ","color":"green","extra":[{"text":"嗨，很高興能看到從其它的地方來的旅行者。我們需要幫助，即使你只是一個普通人也沒關係——如你所見，我們的生活並不富裕，食物也很匱乏。不過，我們還有剩下一些能賺錢的東西。你想买些我的東西嗎？","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/lisa_payin_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Lisa 的銷售情況。"}}]}]}
 
 
 scoreboard players set lisa_payin_PNJ DIALOG 2

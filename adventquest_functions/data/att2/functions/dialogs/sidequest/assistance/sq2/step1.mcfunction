@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Wulk needs iron -°- : ","color":"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 缺鐵的鐵匠 -°- : ","color":"gray","extra":[{"text":"","bold":false,"color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 缺鐵的鐵匠 -°- : ","color":"gray","extra":[{"text":"差事源源不斷吶... 鐵匠Wulk需要我幫忙去Ryliath東面的礦洞裡取回一些鐵礦。","bold":false,"color":"aqua","italic":true}]}

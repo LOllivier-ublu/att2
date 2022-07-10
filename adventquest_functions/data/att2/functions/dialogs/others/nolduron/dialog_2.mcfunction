@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nolduron : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"歡迎回來這裏。你可能已經注意到，有些居民已經不在村子裏了。你將七個維度從Ranégot的手中解救出來后，很多商人就離開這兒去其他維度做生意了。順帶一提，我們一直留著你在這裏的房子——我們永遠歡迎你的到來。","color":"dark_aqua"}]}

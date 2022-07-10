@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Aboth : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Aboth : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/rena_aboth_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Rena 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Aboth : ","color":"green","extra":[{"text":"歡迎光臨我的肉店，這裏售卖各式各樣的肉類！你想要些啥——牛肉？鷄肉？還是兔肉？","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/rena_aboth_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Rena 的銷售情況。"}}]}]}

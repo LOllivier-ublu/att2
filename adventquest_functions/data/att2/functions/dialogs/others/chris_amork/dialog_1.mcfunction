@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chris Amork : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chris Amork : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/chris_amork_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Chris 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chris Amork : ","color":"green","extra":[{"text":"嗨！對，就是你！我正准備去市場卖馬，但我的拖車出了些狀況……現在已經遲了，我失去了賺錢的“黃金”機遇……至少我是這麽覺得的……但不管怎麽説，你真的對這些汗血寶馬沒有興趣嗎？","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/chris_amork_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Chris 的銷售情況。"}}]}]}

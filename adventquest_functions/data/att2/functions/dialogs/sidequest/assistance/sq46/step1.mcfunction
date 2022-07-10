@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The sleeping darkness -°- : ","co
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 沉睡的黑暗 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 沉睡的黑暗 -°- : ","color":"gray","extra":[{"text":"Aldelrion建議我去和Namrin聊聊。Namrin如果得知我和他已故的師傅有如此聯繫的話，他應該會感到十分欣慰的。","color":"aqua","italic":true}]}

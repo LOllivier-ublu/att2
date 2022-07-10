@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Clean the nest -°- : ","color":"g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清潔巢穴 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清潔巢穴 -°- : ","color":"gray","extra":[{"text":"Feanorth請求我清除怪物Atricanth的巢穴，我應該去Angor西邊街區看看。","color":"aqua","italic":true}]}

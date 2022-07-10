@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Like mother, Like daughter -°- : 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有其母必有其女 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有其母必有其女 -°- : ","color":"gray","extra":[{"text":"這巨大的綠寶石礦洞裡應該藏著一些類似地下墓穴的遺跡，不然他女兒也不會來這探索。我需要找找墓穴的入口。","color":"aqua","italic":true}]}

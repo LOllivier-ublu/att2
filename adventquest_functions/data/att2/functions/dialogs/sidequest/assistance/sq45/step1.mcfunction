@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Memories from outer-time -°- : ",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 來自外時的記憶 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 來自外時的記憶 -°- : ","color":"gray","extra":[{"text":"Aldelrion在苦苦尋找一件名為'Nekr al Felevsil'的武器。我應該在Angor城廢墟裡找找，說不定在那些活死人身上。","color":"aqua","italic":true}]}

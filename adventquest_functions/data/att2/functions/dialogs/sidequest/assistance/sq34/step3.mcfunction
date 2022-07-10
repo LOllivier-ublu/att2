@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- From ridge to the bridge -°- : ",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 從山脊到橋 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 從山脊到橋 -°- : ","color":"gray","extra":[{"text":"除了Alexandre，其他工人都在突襲中犧牲了。Alexandre拜託我將貨物送回去。","color":"aqua","italic":true}]}

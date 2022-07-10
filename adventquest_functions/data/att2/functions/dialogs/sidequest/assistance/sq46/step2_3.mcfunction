@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The sleeping darkness -°- : ","co
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 沉睡的黑暗 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 沉睡的黑暗 -°- : ","color":"gray","extra":[{"text":"Namrin不相信我是Relgon的轉世，我應該想辦法讓他信服。","color":"aqua","italic":true}]}

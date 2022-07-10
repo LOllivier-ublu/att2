@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"怎麽又有陌生人在我家裏？自從傳送門被激活後，這兒每天都有一堆外來者……等下，你應該不是那個打開傳送門的人吧？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/others/gerard/player_answer_proposal_1

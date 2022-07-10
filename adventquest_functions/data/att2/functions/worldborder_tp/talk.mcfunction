@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a","color":"gray","extra":[{"text"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a","color":"gray","extra":[{"text":" : "},{"text":"我不該在深海區域裏探索那麽遠……","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a","color":"gray","extra":[{"text":" : "},{"text":"我不該貿然在深海裏游那麽遠……","color":"aqua"}]}

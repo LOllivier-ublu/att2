@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gaëlle : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"歡迎光臨Ryliath銀行。您隨時可以在這裏存入或取出Chronoton——點擊我旁邊的告示牌即可進行相關操作。","color":"dark_aqua"}]}

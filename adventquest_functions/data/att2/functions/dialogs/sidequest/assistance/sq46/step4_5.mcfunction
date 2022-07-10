@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The sleeping darkness -°- : ","co
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 沉睡的黑暗 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 沉睡的黑暗 -°- : ","color":"gray","extra":[{"text":"這頂奇異的黑色皇冠應該在之後能派上用場。","color":"aqua","italic":true}]}

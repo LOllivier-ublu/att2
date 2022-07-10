@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Clear the passage -°- : ","color"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清障開路 -°- : ","color":"gray","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清障開路 -°- : ","color":"gray","extra":[{"text":" : "},{"text":"大功告成了，現在可以回去找Alfred拿獎賞了！","color":"aqua"}]}

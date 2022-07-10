@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aramis終於給了我一些線索。據他所説，一名曾經在Dahäl學院就讀的學生偷了一件施放死靈術的神器，而且他也在尋找時間之石。我必須趕緊找到那顆時間之石並把它帶回來！現在，我該去護衛隊隊長所在的西門，然後從他那兒離開城市。","color":"aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Guardian : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 卫士 : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 卫士 : ","color":"green","extra":[{"text":"禁止通行！我的任務是看守這片區域——因爲道路有怪物出沒，所以我們封鎖了這裏。","color":"dark_aqua"}]}

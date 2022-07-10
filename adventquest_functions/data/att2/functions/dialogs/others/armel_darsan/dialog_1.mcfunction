@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Armel Darsan : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"歡迎光臨鳳凰村！希望你的到來不會給我們帶來麻煩——我們在此安居樂業，不希望毫無庇護！如果你在找村長的話，他就在我身後那座小山山頂上的小屋裏。","color":"dark_aqua"}]}

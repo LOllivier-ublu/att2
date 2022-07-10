@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rick Palundra : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rick Palundra : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/rick_palundra_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Rick 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rick Palundra : ","color":"green","extra":[{"text":"這對你來説，會是什麽呢？","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/rick_palundra_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Rick 的銷售情況。"}}]}]}

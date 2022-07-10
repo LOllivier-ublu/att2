@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Joffrey : ","color":"g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"真棒，我們現在有不少游客了！你想要些什麽？噢，您就是國王所説的那位冒險家嗎？他說我應該給這兒最好的房子打個折——僅限您。雖然我不能把它免費送給您，但我有一個不錯的提議——原價5000Chronoton的房子，打兩折卖给您，絕對血賺！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/others/intendant_joffrey/player_answer_proposal_1

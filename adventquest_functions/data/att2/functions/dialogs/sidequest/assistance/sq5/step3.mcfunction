@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"-°- Find Mia -°- : ","color":"gray","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 尋狗大作戰 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 尋狗大作戰 -°- : ","color":"gray","extra":[{"text":"找到小狗Mia和她的幼仔們真是小事一樁，把它們帶回去吧。Romuald這時應該在酒館裡等我了。","color":"aqua","italic":true}]}

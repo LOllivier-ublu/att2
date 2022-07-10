@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The bait of gain -°- : ","color":
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 利益的誘餌 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 利益的誘餌 -°- : ","color":"gray","extra":[{"text":"已經成功清除Kert沙漠裡礦井口的障礙了，把裡面能拿的都拿上吧。回去分一部分給Linda好讓她能還債。","color":"aqua","italic":true}]}

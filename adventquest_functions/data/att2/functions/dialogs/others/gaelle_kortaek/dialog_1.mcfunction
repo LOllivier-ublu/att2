@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gaëlle : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"歡迎光臨Kortaek銀行，您可以放心地將自己身上的錢存入此處，隨時都可以取走它們。點擊窗口旁的告示牌即可進行相關操作。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The End of a Journey -°- : ","col
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 旅途終點 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 旅途終點 -°- : ","color":"gray","extra":[{"text":"Korlaph已經徹底瘋了，我必須打敗他。在這Elcheol神廟裡和他一戰。","color":"aqua","italic":true}]}

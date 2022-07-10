@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hero's Accomplishment -°- : "
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"所以說，導致我陷入這些事情的異常現象，竟然是某個混合物發射的能量嗎？我需要更多情報！按Etotsira所説，Ëarndhel的煉金術士回來了，要不去問問他吧。","color":"aqua","italic":true}]}

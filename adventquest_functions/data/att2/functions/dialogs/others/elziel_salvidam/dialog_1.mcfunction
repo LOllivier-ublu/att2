@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Elziel Salvidam : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elziel Salvidam : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/elziel_salvidam_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Elziel 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elziel Salvidam : ","color":"green","extra":[{"text":"你好！對附有Dahäl魔力的護甲感興趣嗎——我的店裏應有盡有。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/elziel_salvidam_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Elziel 的銷售情況。"}}]}]}

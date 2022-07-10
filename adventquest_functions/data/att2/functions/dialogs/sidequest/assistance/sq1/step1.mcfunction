@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Malak's stolen crops -°- : ","col
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 莊稼何處尋 -°- : ","color":"gray","extra":[{"text":" ","color":"aqua","italic":true,"extra":[{"text":"<Stolen Cereal>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:wheat\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Céréales volées\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Stolen Cereal\\\"}\"]}}}"},"extra":[{"text":". ","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 莊稼何處尋 -°- : ","color":"gray","extra":[{"text":"Jarat營地被一些混混洗劫了，Malak想找回他遺失的64束 ","color":"aqua","italic":true,"extra":[{"text":"<被偷的小麥>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:wheat\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Céréales volées\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Stolen Cereal\\\"}\"]}}}"},"extra":[{"text":"。營地Chef打獵回來後說不定可以向他問問更多關於偷盜者的訊息。","color":"aqua","italic":true}]}]}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A priestess in distress -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 苦惱的女祭司 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 苦惱的女祭司 -°- : ","color":"gray","extra":[{"text":"門另一邊的石頭阻礙了Rena Sun進入神殿的道路，看來我需另想它法。除了直接使用魔法將門破壞之外，也可以按照Rena的建議通過山頂蘿蔔田中的井安全進入神殿，從門另一側清除阻礙。","color":"aqua","italic":true}]}

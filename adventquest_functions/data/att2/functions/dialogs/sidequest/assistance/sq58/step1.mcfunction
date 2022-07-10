@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The remains of the past -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 過去的遺跡 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 過去的遺跡 -°- : ","color":"gray","extra":[{"text":"我在Nojelanth山腳下那片沙漠裡找到了一個古老的箱子，裡面的鑰匙應該能開啟昔日的某個秘密。","color":"aqua","italic":true}]}

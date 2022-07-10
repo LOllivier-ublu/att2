@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Hélèna's horses -°- : ","color"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 毒馬兇手 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 毒馬兇手 -°- : ","color":"gray","extra":[{"text":"Helena的馬兒們都生病了，一定是有人對她很不滿然後把有毒的蘋果餵給馬兒們吃。在Ryliath城裡調查一下看看誰最有嫌疑。","color":"aqua","italic":true}]}

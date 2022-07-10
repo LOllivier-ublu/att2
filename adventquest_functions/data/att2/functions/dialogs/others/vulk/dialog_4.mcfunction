@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/vulk_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Vulk 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"嘿，你好嗎？自從你交給我這把奇怪的棒子后，我就找到打造和它相同樣式的武器的方法了——這些是我的存貨，隨便看看吧。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/vulk_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Vulk 的銷售情況。"}}]}]}
 
 
 

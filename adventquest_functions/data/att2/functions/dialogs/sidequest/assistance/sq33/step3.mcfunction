@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Silberländ -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Sylberländ的秘寶 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Sylberländ的秘寶 -°- : ","color":"gray","extra":[{"text":"Mortimer從一塊石頭上得到了一些有用的訊息。Sylberland平原上那處遺跡裡似乎藏了些什麼。","color":"aqua","italic":true}]}

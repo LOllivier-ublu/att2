@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marion Marsot : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marion Marsot : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marion Marsot : ","color":"green","extra":[{"text":"這兒啥也沒有。你可以做個好人，離開這裏嗎？謝謝。","color":"dark_aqua"}]}

@@ -16,6 +16,6 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Zirthan : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Zirthan : ","color":"green","extra":[{"text":"Welcome to my shop!","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/zirthan_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Zirthan 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Zirthan : ","color":"green","extra":[{"text":"歡迎光臨！","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/zirthan_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Zirthan 的銷售情況。"}}]}]}
 
 

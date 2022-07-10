@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Sometimes, I guess there's just no
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有時，我猜只是沒有足夠的石頭 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有時，我猜只是沒有足夠的石頭 -°- : ","color":"gray","extra":[{"text":"Babbu給了我一張地圖，上面有一個地方被著重標記了出來。我得去看看那裡究竟藏了什麼寶貝。","color":"aqua","italic":true}]}

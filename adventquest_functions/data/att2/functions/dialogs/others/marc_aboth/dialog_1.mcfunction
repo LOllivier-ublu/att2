@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marc Aboth : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marc Aboth : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/marc_aboth_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Marc 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marc Aboth : ","color":"green","extra":[{"text":"哈嘍，要买馬嗎？我手上的馬雖然不多，但可都是皮實的快馬！","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/marc_aboth_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Marc 的銷售情況。"}}]}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Like mother, Like daughter -°- : 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有其母必有其女 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有其母必有其女 -°- : ","color":"gray","extra":[{"text":"Emerald果然從居民那打聽到了一些消息。他女兒去了Meleim西邊的Morniths礦洞，這些礦洞就埋在山脈之中。經歷了這一系列的探索調查，Emerald已經很疲憊了，他需要好好休息。接下來我要獨自前往Morniths找到更多他女兒的足跡。","color":"aqua","italic":true}]}

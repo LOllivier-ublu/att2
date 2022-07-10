@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The key to profitability -°- : ",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 獲利之匙 -°- : ","color":"gray","extra":[{"text":" ","color":"aqua","italic":true,"extra":[{"text":"<Key>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef de Derim\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Derim Key\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 獲利之匙 -°- : ","color":"gray","extra":[{"text":"Dermi Kril將他的 ","color":"aqua","italic":true,"extra":[{"text":"<鑰匙>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef de Derim\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Derim Key\\\"}\"]}}}"},"extra":[{"text":" 落在了Phoenix村旁的洞穴裡，需要幫他找到。","color":"aqua","italic":true}]}]}]}

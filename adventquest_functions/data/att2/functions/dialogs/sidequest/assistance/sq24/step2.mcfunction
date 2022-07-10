@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- An unfortunate incident -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 不幸的事件 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 不幸的事件 -°- : ","color":"gray","extra":[{"text":"終於將Lilith的貨物送到她家了。為了感謝我的幫助，Lilith盛情邀請我去她家拿點報酬。","color":"aqua","italic":true}]}

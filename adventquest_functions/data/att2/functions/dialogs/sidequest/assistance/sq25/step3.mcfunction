@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The journey of Emerald -°- : ","c
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Emerald的冒險之旅 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Emerald的冒險之旅 -°- : ","color":"gray","extra":[{"text":"毫無疑問，Emerald覺得他女兒前往了Meleim旁的Adanoi墓園。我應該去那裡和Emerald碰面看看我還能幫他什麼。","color":"aqua","italic":true}]}

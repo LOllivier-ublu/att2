@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The journey of Emerald -°- : ","c
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Emerald的冒險之旅 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Emerald的冒險之旅 -°- : ","color":"gray","extra":[{"text":"Emerald迫切需要我幫忙找他女兒。他跟我說他女兒可能去了Worlest森林東面的一個礦洞裡。現在有一堵牆阻礙了我繼續向礦洞深處調查。我應該順著地上的鐵軌看看有沒有其他方法清除阻礙。","color":"aqua","italic":true}]}

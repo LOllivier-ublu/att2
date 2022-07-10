@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Gluttonous Rats -°- : ","color":"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 貪吃的老鼠 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 貪吃的老鼠 -°- : ","color":"gray","extra":[{"text":"現在沼澤地區域只剩下Philipo一個人打理他的南瓜田了。前不久他的南瓜田還鬧起了鼠災，都是一些超大型的老鼠！老鼠們的老巢入口藏在南瓜田外一棵大樹腳下。我應該想辦法進入巢穴並徹底消滅這些骯髒的動物。","color":"aqua","italic":true}]}
 
 
 function att2:dialogs/sidequest/sq23/mobs_killed_total

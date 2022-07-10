@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Memories from outer-time -°- : ",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 來自外時的記憶 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 來自外時的記憶 -°- : ","color":"gray","extra":[{"text":"成功拿到''Nekr al Felevsil''大刀，得把它交還給Aldelrion。","color":"aqua","italic":true}]}

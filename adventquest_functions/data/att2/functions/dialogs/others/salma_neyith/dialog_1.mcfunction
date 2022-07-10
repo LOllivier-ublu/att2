@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Salma Neyith : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Salma Neyith : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Salma Neyith : ","color":"green","extra":[{"text":"歡迎來到我的酒店。如果您在找一處休養的地方，您可以在這兒租一間房——絕對物有所值。","color":"dark_aqua"}]}
 
 
 scoreboard players set salma_neyith_PNJ DIALOG 2

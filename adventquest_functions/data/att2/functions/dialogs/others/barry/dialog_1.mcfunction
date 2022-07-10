@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Barry : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Barry : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Barry 打交道"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Barry : ","color":"green","extra":[{"text":"嘿，我對你身上的東西很有興趣！發戰爭財真的很能大賺一筆——我沒有立場，所有人都是我的顧客！所以別擔心，我不會搶走你的東西，我會出高價把它們买下来！","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Barry 打交道"}}]}]}

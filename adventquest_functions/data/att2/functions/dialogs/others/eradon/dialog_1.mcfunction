@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Eradon : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Eradon : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Eradon 打交道"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Eradon : ","color":"green","extra":[{"text":"你好，如果你有不想要的武器或護甲，歡迎隨時拿它們來和我交換Chronoton！","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Eradon 打交道"}}]}]}

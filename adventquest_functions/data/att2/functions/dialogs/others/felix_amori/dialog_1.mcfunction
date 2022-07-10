@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Felix Amori : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Felix Amori : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/felix_amori_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Felix 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Felix Amori : ","color":"green","extra":[{"text":"你好，想买些啥？","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/felix_amori_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Felix 的銷售情況。"}}]}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Annoying Bandits -°- : ","color":
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惱人的強盜 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惱人的強盜 -°- : ","color":"gray","extra":[{"text":"Meleim城的國王Ragnard Lorth讓我將Elvetta森林中所有的強盜團都清理乾淨。他們營地所在的白樺樹森林就在Meleim城附近。","color":"aqua","italic":true}]}

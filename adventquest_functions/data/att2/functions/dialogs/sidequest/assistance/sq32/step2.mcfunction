@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Never leave anything behind -°- :
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 永遠不要留下任何東西 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 永遠不要留下任何東西 -°- : ","color":"gray","extra":[{"text":"我在火山腳找到了一個洞穴入口。沿著道路繼續走，希望能早點發現那些遺失的貨物。","color":"aqua","italic":true}]}

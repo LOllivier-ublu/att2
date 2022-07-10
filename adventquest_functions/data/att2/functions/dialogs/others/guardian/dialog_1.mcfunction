@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Guardian : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 卫士 : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 卫士 : ","color":"green","extra":[{"text":"你知道國王現在正在征兵嗎？想你這樣骨骼精奇的人一定會是成爲軍隊裏的寵兒的……不感興趣？沒關係，這兒隨時歡迎你的到來。像個士兵一樣，時不時來這兒的競技場打打傀儡，訓練自己的技術，沒準什麽時候就改變主意了呢。","color":"dark_aqua"}]}

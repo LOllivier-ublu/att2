@@ -16,6 +16,6 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sylvia Mornith : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sylvia Mornith : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sylvia_mornith_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Oswald 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sylvia Mornith : ","color":"green","extra":[{"text":"來來來，來看看這些功能各異的藥水——它們對像你這樣需要穿行在Sylberländ郊野的冒險者大有用處！","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sylvia_mornith_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Oswald 的銷售情況。"}}]}]}
 
 

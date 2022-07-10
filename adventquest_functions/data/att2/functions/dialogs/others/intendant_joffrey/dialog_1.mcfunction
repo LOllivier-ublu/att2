@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Joffrey : ","color":"g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"你好，我是Ryliath城的行政長官，負責處理所有和行政有關的事務。如果您渴望一場真正的冒險，您一定可以在這裏實現這個願望的……我真的很羡慕您啊，旅行者！","color":"dark_aqua"}]}

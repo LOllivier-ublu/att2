@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Brother Gacko's escape -°- : ","c
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 越獄行動 -°- : ","color":"gray","extra":[{"text":" ","color":"aqua","italic":true,"extra":[{"text":"<Explosive>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:firework_charge\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Explosif\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Explosive\\\"}\"]}}}"},"extra":[{"text":". ","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 越獄行動 -°- : ","color":"gray","extra":[{"text":"Gregor計劃炸毀Tyrgols牢房的一面牆。他之前已經在地下河旁邊的洞穴裡安置了引線，就等那7個 ","color":"aqua","italic":true,"extra":[{"text":"<炸藥>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:firework_charge\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Explosif\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Explosive\\\"}\"]}}}"},"extra":[{"text":"了。翻過Gregor家門前左側的小山地就應該可以看到一個很大的地下河入口。","color":"aqua","italic":true}]}]}]}

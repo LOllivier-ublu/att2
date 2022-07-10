@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The infested fields -°- : ","colo
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 怪物田 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 怪物田 -°- : ","color":"gray","extra":[{"text":"Ryliath城前的麥田和大穀倉已經被薑絲侵占了，Rob Harth都被嚇得不敢繼續下田工作了。好心幫他清除掉15隻吧。","color":"aqua","italic":true}]}
 
 
 function att2:dialogs/sidequest/sq10/mobs_killed_total

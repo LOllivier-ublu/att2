@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Joffrey : ","color":"g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"有什麽能幫您的嗎？噢，您就是那位激活傳送門的旅行者嗎？國王的部下找到我，說要給Ryliath最好的房子打個折——這是專屬於您的優惠！現在僅需3000Chronoton即可入住！成交？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/others/intendant_joffrey/player_answer_proposal_2

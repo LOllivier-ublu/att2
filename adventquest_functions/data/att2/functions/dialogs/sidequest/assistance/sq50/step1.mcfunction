@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Catch cat -°- : ","color":"gray",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 抓貓 -°- : ","color":"gray","extra":[{"text":"","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 抓貓 -°- : ","color":"gray","extra":[{"text":"Cassandre的小貓走丟了，我答應她幫忙找回來。小貓應該沒跑多遠，還是在學院裡到處看看吧。","color":"aqua","italic":true}]}
