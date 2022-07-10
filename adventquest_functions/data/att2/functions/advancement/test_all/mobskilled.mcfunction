@@ -4,7 +4,7 @@
 #################################################################
 
 # TOTAL KILLED
-advancement grant @a[scores={statZOMBIEKILLED=500..,statSKELETKILLED=500..,statPIGMANKILLED=500..,statCREEPKILLED=500..,statHUSKKILLED=500..,statDROWNKILLED=500..,statVINDICKILLED=500..,statSLIMEKILLED=500..,statLAVASKILLED=500..,statSILVERKILLED=500..,statSPIDERKILLED=500..,statWOLFKILLED=500..,statBLAZEKILLED=250..,statPHANTOKILLED=250..,statGUARDKILLED=250..,statBEARKILLED=100..,statGHASTKILLED=100..}] only att2:mobskilled/the_destructor
+advancement grant @a[scores={statZOMBIEKILLED=500..,statSKELETKILLED=500..,statPIGMANKILLED=500..,statCREEPKILLED=250..,statHUSKKILLED=500..,statDROWNKILLED=500..,statVINDICKILLED=500..,statSLIMEKILLED=500..,statLAVASKILLED=500..,statSILVERKILLED=500..,statSPIDERKILLED=500..,statWOLFKILLED=500..,statBLAZEKILLED=250..,statPHANTOKILLED=250..,statGUARDKILLED=250..,statBEARKILLED=100..,statGHASTKILLED=100..,statHOLGINKILLED=250..,statVEXKILLED=250..,statBEEKILLED=500..,statPILLAKILLED=500..}] only att2:mobskilled/the_destructor
 
 advancement grant @a[scores={statMOBSKILLED=25..}] only att2:mobskilled/mobs_killed_25
 advancement grant @a[scores={statMOBSKILLED=100..}] only att2:mobskilled/mobs_killed_100

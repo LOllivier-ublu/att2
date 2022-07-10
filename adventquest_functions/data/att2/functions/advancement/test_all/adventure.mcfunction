@@ -112,6 +112,7 @@ advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet"},{S
 advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:chainmail_helmet"},{Slot:102b,id:"minecraft:chainmail_chestplate"},{Slot:101b,id:"minecraft:chainmail_leggings"},{Slot:100b,id:"minecraft:chainmail_boots"}]}] only att2:adventure/chainmail_armor_full
 advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:iron_helmet"},{Slot:102b,id:"minecraft:iron_chestplate"},{Slot:101b,id:"minecraft:iron_leggings"},{Slot:100b,id:"minecraft:iron_boots"}]}] only att2:adventure/iron_armor_full
 advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:diamond_helmet"},{Slot:102b,id:"minecraft:diamond_chestplate"},{Slot:101b,id:"minecraft:diamond_leggings"},{Slot:100b,id:"minecraft:diamond_boots"}]}] only att2:adventure/diamond_armor_full
+advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:netherite_helmet"},{Slot:102b,id:"minecraft:netherite_chestplate"},{Slot:101b,id:"minecraft:netherite_leggings"},{Slot:100b,id:"minecraft:netherite_boots"}]}] only att2:adventure/netherite_armor_full
 
 # EQUIPMENT SET RARITY
 advancement grant @a[nbt={SelectedItem:{tag:{Rarity:"com"}},Inventory:[{Slot:103b,tag:{Rarity:"com"}},{Slot:102b,tag:{Rarity:"com"}},{Slot:101b,tag:{Rarity:"com"}},{Slot:100b,tag:{Rarity:"com"}},{Slot:-106b,tag:{Rarity:"com"}}]}] only att2:adventure/com_full_set
