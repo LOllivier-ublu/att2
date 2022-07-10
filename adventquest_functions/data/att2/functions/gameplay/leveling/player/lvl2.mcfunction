@@ -4,7 +4,7 @@
 #################################################################
 
 
-experience add @s -24 levels
+experience add @s -23 levels
 scoreboard players set @s LVL_UPGRADE_REQ 28
 tag @s remove LVLUpReady
 scoreboard players set @s GAMELEVEL 2
