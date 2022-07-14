@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-065a-0000-00000000065a if entity @s[distance=..7] if score chiara_PNJ DIALOG matches 6 run function att2:cinematic/sidequest/20/chiara/answer_1_2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[我知道這所房子，四年前我在那裡住過一段時間。現在，它仍然屬於我……讓我們做個交易吧，只要你給我，我就把它留給你，比方說多出 15% 的戰利品。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-065a-0000-00000000065a if entity @s[distance=..7] if score chiara_PNJ DIALOG matches 6 run function att2:cinematic/sidequest/20/chiara/answer_1_2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

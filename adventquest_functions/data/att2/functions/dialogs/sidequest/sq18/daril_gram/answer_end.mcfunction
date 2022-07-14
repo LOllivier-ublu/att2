@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Daril Gram : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"終於……你為丹尼爾報了仇。他們不會再傷害任何人了……給你……","color":"dark_aqua"}]}

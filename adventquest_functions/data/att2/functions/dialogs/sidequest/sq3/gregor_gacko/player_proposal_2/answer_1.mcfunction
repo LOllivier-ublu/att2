@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"","bold":false,"color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"然後你就可以上路了。對你來說太糟糕了，我不會吝嗇的......","bold":false,"color":"dark_aqua"}]}

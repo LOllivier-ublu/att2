@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-�
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"你想要什麼孩子！？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq11/troublemakers/player_proposal_1/choice_1

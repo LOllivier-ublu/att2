@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ramsay Tork : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"太好了，我可以回去工作了。這是你的獎勵！","color":"dark_aqua"}]}

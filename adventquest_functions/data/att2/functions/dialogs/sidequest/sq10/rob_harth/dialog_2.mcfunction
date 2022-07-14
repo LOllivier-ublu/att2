@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rob Harth : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"所以，你會幫我擺脫這些怪物嗎？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq10/rob_harth/player_proposal_1/choice_1

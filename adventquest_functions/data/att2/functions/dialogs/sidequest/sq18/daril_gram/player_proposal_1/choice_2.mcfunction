@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-057a-0000-00000000057a if entity @s[distance=..7] if score daril_gram_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/18/daril_gram/answer_2_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[有什麼價格嗎？-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-057a-0000-00000000057a if entity @s[distance=..7] if score daril_gram_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/18/daril_gram/answer_2_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}

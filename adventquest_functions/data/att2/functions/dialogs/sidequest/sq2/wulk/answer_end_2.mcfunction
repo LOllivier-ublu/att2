@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"太棒了！你成功帶回鐵礦了！你說我的學徒剛剛被困在礦坑裡？謝天謝地，真是太多災多難了他，很高興你能把他帶回來。非常感謝你的幫忙，這是給你的報酬。","color":"dark_aqua"}]}

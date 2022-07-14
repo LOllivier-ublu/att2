@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alphonse Rae : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"有什麼東西一直在攻擊我的小屋！這週我已經失去了四隻兔子，但我無能為力，這傢伙總是打破障礙。它一定是一隻該死的大蟲子！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq5/alphonse_rae/player_proposal_1/choice_1

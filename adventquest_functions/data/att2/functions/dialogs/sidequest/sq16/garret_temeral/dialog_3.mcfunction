@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Garret : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"那麼，你找到兵營了嗎？位於城市東部的大型上升橋，軍營位於這座橋的第二部分下方。","color":"dark_aqua"}]}

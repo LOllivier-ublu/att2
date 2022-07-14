@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"好的好的。然後金庫連接到城市下方的下水道。我已經搜遍了這個地方，一堵牆有一個弱點，它必須倒塌：這也是你必須干預的地方。在晚上沒有人會看到任何東西，然後你將進入下水道並帶走所有你能帶走的東西！但是你敢失敗，我們不會有第二次機會！","color":"dark_aqua"}]}

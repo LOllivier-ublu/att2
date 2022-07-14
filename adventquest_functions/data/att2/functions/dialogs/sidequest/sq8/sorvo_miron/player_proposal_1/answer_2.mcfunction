@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sorvo Miron : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"我有一種非常特別的飲料，一種活力的靈丹妙藥，嗯，這就是我最忠實的客戶所說的。 2 個計時碼表一杯！","color":"dark_aqua"}]}

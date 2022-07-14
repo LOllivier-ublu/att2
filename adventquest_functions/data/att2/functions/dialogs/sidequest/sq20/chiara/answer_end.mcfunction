@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"出色地！我以為你被警衛抓住了！幹得好，按照約定，這是你的蛋糕！現在，告別瑞莉亞絲！還好你激活了這個傳送門，還有什麼更好的逃生方法！？再見！","color":"dark_aqua"}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"你是冒險者，不是嗎？你有時間嗎？我運往其他城市的肉類運輸商已經一周沒有任何生命跡象，我將無法長時間保持這一切涼爽。你能把這批牛肉送到 Méleïm 嗎？我會付錢給你的，當然。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_1

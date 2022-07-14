@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rob Harth : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"幫助，怪物！ 你！ 幫幫我，求求你了！ 怪物入侵了我的土地和我的穀倉！ 我該怎麼辦，我不知道怎麼打！ 請替我擺脫它們，我會賠償你的！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq10/rob_harth/player_proposal_1/choice_1

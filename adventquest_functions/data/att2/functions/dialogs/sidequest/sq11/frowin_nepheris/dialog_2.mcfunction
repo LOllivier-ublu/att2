@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Frowin Nepheris : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"嘿嘿，你是修復大門的英雄嗎？雅人足智多謀！如果你喜歡打架，我有一個東西可以提供給你：一群打手經常來妓院，嚇唬顧客。他們就在樓上。當然會有回報。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq11/frowin_nepheris/player_proposal_1/choice_1

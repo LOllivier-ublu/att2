@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"謝謝你。我們最近有震顫，現在似乎有什麼東西擋住了另一邊的門。可以爬到上面田野的最高點進入寺廟，那裡有雨水進入寺廟的開口。我會為你祈禱！","color":"dark_aqua"}]}

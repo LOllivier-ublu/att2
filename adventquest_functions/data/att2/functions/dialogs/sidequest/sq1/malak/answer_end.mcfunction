@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Malak : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"耶呼！我可愛又寶貝的穀物們... 好開心又能見到你們... 這是我的一點小心意，拿去吧！","color":"dark_aqua"}]}

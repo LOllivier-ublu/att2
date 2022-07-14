@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"","bold":false,"color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"我哥Tyrgols踏上了劫持貨物的車隊。我拒絕參與他的計劃，但正因為如此，他被抓住了。現在他在監獄裏...你能幫我让他脫身嗎？","bold":false,"color":"dark_aqua"}]}

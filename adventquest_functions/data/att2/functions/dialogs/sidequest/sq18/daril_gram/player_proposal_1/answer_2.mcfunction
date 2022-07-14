@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Daril Gram : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"一個僱傭兵，你來得正是時候……你會得到豐厚的報酬，我以我兒子的名義發誓。一群狂熱分子藏在西部的安戈爾。就是他們這樣對我的孩子……把他們老大的頭給我，我會獎勵你的……","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"","bold":false,"color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"這麽多的寶藏，這麽多供我餘生的財富... 我們的計劃如下：拿回炸藥然後把他們埋在監獄後面。你能在附近的舊礦井裏找到這些炸藥，一條林間小徑會指引你到那裏。然後，我們就在這裏等你拿到後回來。","bold":false,"color":"dark_aqua"}]}

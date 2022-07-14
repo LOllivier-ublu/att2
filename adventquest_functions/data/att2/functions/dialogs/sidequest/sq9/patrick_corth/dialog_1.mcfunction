@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Patrick Corth : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"大家好，我有一個超級原創的任務，一定能激起你這種大佬的熱情！把森林裡的木頭給我！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq9/patrick_corth/player_proposal_1/choice_1

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Hermona : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"太好了，而且及時！你有配額嗎？我能夠籌集到一小筆錢來獎勵你的勇氣。再次感謝...","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alphonse Rae : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"狗，狼，我不知道，但那東西安靜地躺在河邊的一個山洞裡，我看到了！我太老了，不能一個人去尋找野獸，但是擺脫它，我將不勝感激！沿著河流穿過森林，洞穴就在它的右岸……","color":"dark_aqua"}]}

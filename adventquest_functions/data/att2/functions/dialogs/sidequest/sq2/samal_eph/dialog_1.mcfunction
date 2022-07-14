@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Samal Eph : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"這是幻覺嗎？！ 在唯一的出口崩塌後我都以為我看不到未來了。太感謝你了，我本來應該要把鐵礦帶回去給Ryliath的鐵匠先生的，是他叫你來的嗎？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_1

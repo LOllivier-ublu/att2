@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Garret : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"嘿，年輕的凡人，感謝您為 Eternäns 帶來的所有幫助。如果你有時間，我有一個請求提交給你！我們的箭非常缺乏，由於這種短缺，我們無法守住陣地。因為沒有箭的最好的弓箭手不值一箭……我們城市的廢墟里還到處都是這些射彈，你能接受去給我們拿一些嗎？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_1

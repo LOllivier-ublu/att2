@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Garret : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"啊，你回來了！所以你決心幫助我們為我們的軍隊找到箭嗎？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq16/garret_temeral/player_proposal_1/choice_1

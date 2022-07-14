@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Carmen Ysta : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/carmen_ysta_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Carmen 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"歡迎~ 很高興在我的營地再見到你。你可以隨時光顧我的商店來看看有什麽想要的。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/carmen_ysta_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Carmen 的銷售情況。"}}]}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ormack : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"盜賊們的營地在這邊南方靠近森林的礦坑裡。跟著小徑或是山丘應該很快就能看到了。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-030a-0000-00000000030a if entity @s[distance=..7] if score sigfrid_barkon_PNJ DIALOG matches 2..3 run function att2:cinematic/sidequest/8/sigfrid_barkon/answer_1_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Méleïm 正在路上。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-030a-0000-00000000030a if entity @s[distance=..7] if score sigfrid_barkon_PNJ DIALOG matches 2..3 run function att2:cinematic/sidequest/8/sigfrid_barkon/answer_1_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

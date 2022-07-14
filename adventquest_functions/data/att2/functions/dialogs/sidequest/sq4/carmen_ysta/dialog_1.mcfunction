@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Carmen Ysta : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"旅者你好，我叫Carmen Ysta，我負責管理Ryliath的雜貨鋪。在這裏你能買到各種食物和小零食。或者，你如果想找個活幹，我爲了做出蘑菇煲配方需要一些蘑菇... 除了些別的，我還可以給你一個碗。你願意幫我麽？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq4/carmen_ysta/player_proposal_1/choice_1

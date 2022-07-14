@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Berni Dalph : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"不，先生，根據國王的命令，嚴禁進入下水道……","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq6/berni_dalph/player_proposal_1/choice_1

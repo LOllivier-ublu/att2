@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"咦，那是Elisa的一擊？她生我的氣。但是我對她很好。給她老公吧？是他選了我，不是我偷的……嗯，她畢竟是我的妹妹，我得和她妥協……等他們好了，我給你一匹馬。謝謝你的幫助。","color":"dark_aqua"}]}

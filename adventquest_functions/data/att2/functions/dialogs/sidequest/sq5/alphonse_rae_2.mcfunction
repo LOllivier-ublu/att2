@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alphonse Rae : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"當然，我想確保問題得到很好的解決！現在去殺了這些牛在他們逃跑之前！如果你擁有它們，我會給你獎勵。","color":"dark_aqua"}]}

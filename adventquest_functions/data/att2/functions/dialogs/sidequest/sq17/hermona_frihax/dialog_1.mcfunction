@@ -18,7 +18,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hermona : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"是的？你在我們最受傷的人接受治療和手術的地區……這場戰爭對雙方都造成了嚴重破壞，但自從上次襲擊以來，我們遭受了重大損失。現在缺少材料。你有時間給我們找繃帶嗎？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq17/hermona_frihax/player_proposal_1/choice_1

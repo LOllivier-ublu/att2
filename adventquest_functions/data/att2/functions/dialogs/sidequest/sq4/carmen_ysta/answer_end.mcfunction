@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Carmen Ysta : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"非常感謝你的幫助，你把所有我需要的都帶來了。 我終於可以做蘑菇煲了，到時候告訴我你覺得做得怎麽樣！這些是給你的獎勵。","color":"dark_aqua"}]}

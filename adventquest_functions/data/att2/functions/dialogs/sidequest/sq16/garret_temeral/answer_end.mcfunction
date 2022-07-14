@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Garret : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"你已經做到了！我們最終將能夠補充我們的部隊。 Eternän 軍隊再次感謝您！這是我們要感謝您的一點點。","color":"dark_aqua"}]}

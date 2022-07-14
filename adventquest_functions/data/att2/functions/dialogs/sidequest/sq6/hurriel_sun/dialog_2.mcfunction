@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hurriel Sun : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"哇，是你打開了舊的 Ryliath 傳送門嗎？難以置信的！ ......事實上......我會要求你的技能的人。在那裡，我丟失了我家的鑰匙，我擔心我把它們丟在了城市的下水道裡。但是我不能去那裡，那裡太危險了，我不知道如何戰鬥……如果你幫助我，我會獎勵你！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq6/hurriel_sun/player_proposal_1/choice_1

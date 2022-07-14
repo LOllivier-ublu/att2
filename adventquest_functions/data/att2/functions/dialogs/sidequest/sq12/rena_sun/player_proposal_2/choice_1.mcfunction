@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° : ","color":"dark_gray","extra":
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° : ","color":"dark_gray","extra":[{"text":" [].","color":"gray","clickEvent":{"action":"run_command","value":"/scoreboard players set choice SQ12 1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° : ","color":"dark_gray","extra":[{"text":"讓我們看看……[移動石塊]。","color":"gray","clickEvent":{"action":"run_command","value":"/scoreboard players set choice SQ12 1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

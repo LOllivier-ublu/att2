@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"啊……我沒有很多，但是……我會把我所有的錢都給你。請不要做任何可能損壞寺廟的事情！另一側的門開鎖還有一種通行方式：爬到上面田野的最高點可以進入寺廟，有一個開口可以給寺廟帶來雨水。","color":"dark_aqua"}]}
