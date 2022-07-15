@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"啊，又是你！在這裡，我們來到了阿達諾伊，這顯然是該地區歷史上公認的地方。這個墓地的地下有地下墓穴。我們必須想辦法進入那裡，尋找更多關於我女兒路徑的線索。你能再幫我一次嗎？","color":"dark_aqua"}]}

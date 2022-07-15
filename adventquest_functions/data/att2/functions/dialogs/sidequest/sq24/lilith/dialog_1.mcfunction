@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lilith : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"拜託，我需要幫助。我的馬驚慌失措，我的手推車撞到一棵樹上，把我所有的貨物都打翻了。不僅我的馬逃跑了，我的車也被毀了……我住的不是很遠，你幫我把貨帶回家好嗎？我會給你一點點東西作為回報...","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_1

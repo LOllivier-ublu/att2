@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Joël Roblochon : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"你好！通常是禁止進入我的廚房的，但是嘿，我會對你破例。最重要的是，不要碰任何東西！","color":"dark_aqua"}]}

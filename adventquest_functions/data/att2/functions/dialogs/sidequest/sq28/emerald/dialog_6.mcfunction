@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我期待著再次見到你。我問旅館老闆，是否有一位符合 Selene 描述的女孩最近訪問過她的旅館。幸運的是，她昨晚睡在這裡。她一定是匆忙離開的，因為她留下了她的日記。我擔心我們沒有太多時間了：我妻子已故的一位熟人 Korlaph 讓他參加了一次登頂探險。我求求你，在為時已晚之前找到她。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq28/emerald/player_proposal_1/choice_1

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"你來的正是時候。這裡的冬天很嚴酷，我們非常依賴山谷作為食物。每個人都在指望我們的主要輸送機 Raphael，但是，嘿！沒有沒有事件的故事！我們已經一周沒有他的消息了。有時他會遲到，但這很令人擔憂，我們必須在這裡吃飯！","color":"dark_aqua"}]}

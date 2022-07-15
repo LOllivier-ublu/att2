@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Warren : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"你救了我的命！多虧了你，我沒有失去一切，生意正在好轉！","color":"dark_aqua"}]}

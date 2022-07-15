@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"你還記得老亨利瓊斯嗎？通往 Rylaith 的傳送門的開啟讓他嚐到了冒險的滋味！他還借來了…… 臨走前他給我講了一個傳說：有一種很奇怪的武器，上面有我們世界所不知道的綠色裝飾物。她睡在一座名為“最糟糕”的森林寺廟中。作為一個收藏家，如果你拿到了它，如果你把它還給我，我會很高興的！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq21/vulk/player_proposal_1/choice_1

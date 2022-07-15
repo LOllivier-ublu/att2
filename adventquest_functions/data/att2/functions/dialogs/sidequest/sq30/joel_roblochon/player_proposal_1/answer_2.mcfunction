@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Joël Roblochon : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"什麼！？你知道我是誰嗎？我是 Joël Roblochon，王室中偉大而受人尊敬的廚師！我不能容忍用這種語氣說話，尤其是來自我煙囪裡的人！再說了，我對王宮的密道一無所知……","color":"dark_aqua"}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"好時機，我想和你談談宮中發生的一些惡作劇。我們被著名建築師柯布斯設計的宮殿計劃搶走了。這些計劃是 Ryliath 秘密檔案的一部分，揭示了城市和宮殿結構中隱藏的通道數量。必須找到這些計劃。你會幫助我們嗎？你會得到回報的，你有王者的話！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq30/adrian/player_proposal_1/choice_1

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我和幾個來自 Méleïm 的人交談，我有了一個新線索：我的女兒確實經過了 Méleïm... Sélène 正計劃前往離這裡不遠的西部的 Morniths 大採石場。你還保持良好的狀態繼續和我一起騎嗎？如果你現在放棄，我不會反對你，你已經幫了我很多。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq27/emerald/player_proposal_1/choice_1

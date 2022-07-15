@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"什麼是沃爾克？不，這對我來說沒有任何意義，多麼可笑的名字......此外，另一個鐵匠不可能從無到有偽造這樣的作品......如果你有時間，我的請求將永遠有效。","color":"dark_aqua"}]}

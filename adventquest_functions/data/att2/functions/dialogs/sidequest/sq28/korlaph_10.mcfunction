@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Korlaph : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"","color":"dark_red"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"你對那些該死的山里發生的事情一無所知！你不會懷疑我因你妻子無意識的決定而受了多大的痛苦！但是多虧了這頂王冠，我才能夠從那種痛苦中汲取新的創造性能量……現在，走開，否則我會殺了你們！","color":"dark_red"}]}

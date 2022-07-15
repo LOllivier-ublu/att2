@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"是的，只有她會冒險進入那種地方！我們離找到她更遠了！我要去 Méleïm 詢問居民。也許有些人最近會看到她……","color":"dark_aqua"}]}

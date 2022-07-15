@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1},x=-4956,y=133,z=-4893,distance=..7] {"selector":"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2},x=-4956,y=133,z=-4893,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[ [] -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score SQ30 SIDEQUEST matches 7 run function att2:cinematic/sidequest/30/step8"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @a[scores={LANGUAGE=2},x=-4956,y=133,z=-4893,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[這裡的牆壁似乎損壞得很厲害。用力推一定能找到另一條通道……【推牆】-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score SQ30 SIDEQUEST matches 7 run function att2:cinematic/sidequest/30/step8"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"嘿，你沒有回應我的提議，你還有時間幫​​我把這些小動物從我的領域趕走嗎？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_1

@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Omeryn White : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Omeryn White : ","color":"green","extra":[{"text":"那麼工作完成了嗎？好吧，我猜你有勇氣幫助自己到我的胸膛......沒關係，我很喜歡你！但是為了麻煩，您將一無所有！","color":"dark_aqua"}]}

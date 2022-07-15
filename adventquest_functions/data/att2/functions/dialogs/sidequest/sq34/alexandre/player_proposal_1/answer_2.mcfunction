@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alexandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"在這裡，這就是我所擁有的。但是我的同伴沒能在怪物的襲擊中倖存下來，我不能把貨物丟在這裡，沒有他，搬運起來會很複雜。請幫我把它帶回工作現場！","color":"dark_aqua"}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lilith : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"對不起，你現在能幫我嗎？這裡沒有其他人，我太虛弱了，不能一個人把我所有的貨物運到我家，我不能把它們留在這裡……","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq24/lilith/player_proposal_1/choice_1

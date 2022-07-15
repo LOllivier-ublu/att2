@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Mortimer : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"我覺得這會花掉我所有的積蓄......好吧，我已經有機會和你在一起了！反正沒人願意幫助我。去探索 Sylberländ 地區，每帶回一個樣品，我會給你 100 個 Chronotons。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"好吧，你在這裡……所以這些計劃被一個簡單的 Ryliath 居民偷走了？如果我沒聽錯的話，這個賈里斯想要進入宮殿房間偷走我們最寶貴的財產……因此他會被帶到地下城……多虧了你，我們才得以解決這件事。謝謝！我想給你一個很好的獎勵。去看看我們鎮上的掌櫃，他家就在葉輪前的鐵匠旁邊。幫助我們解決此案不會讓您失望！","color":"dark_aqua"}]}

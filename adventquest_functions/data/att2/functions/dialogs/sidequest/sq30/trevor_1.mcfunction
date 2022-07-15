@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Commandant Trevor : ","color":"g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"你是國王派來調查的那個人嗎？嗯...很好，但我在看著你！小偷必須通過隱藏計劃的秘密房間頂部的裂縫潛入，這就是我們目前所知道的一切。走到圖書館的後面，入口被一排書遮住了，現在已經打開了。","color":"dark_aqua"}]}

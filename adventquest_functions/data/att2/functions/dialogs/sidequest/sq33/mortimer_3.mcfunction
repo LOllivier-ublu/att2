@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Mortimer : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"啊，你又來了，你是準時的。我發現這些石頭之間有很多共同點，但最重要的是，我能夠在你在 Sylberländ 平原發現的一塊石頭上分離出一個獨特的符號。這些特定的地方可能還隱藏著其他東西。如果你能去那裡看看，我將不勝感激。我需要更多信息來進一步研究。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Mortimer : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"那麼你在 Sylberländ 平原發現了什麼有趣的東西嗎？不？你必須繼續在巨石附近徹底搜索，你從這裡給我帶來的石頭和其他石頭不同。","color":"dark_aqua"}]}

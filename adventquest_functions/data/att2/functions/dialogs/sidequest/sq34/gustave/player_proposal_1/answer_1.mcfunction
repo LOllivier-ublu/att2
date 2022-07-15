@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gustave : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"他們走上通往 Kert 礦的路。它位於該地區的南部。穿過沙漠到達峽谷上的大橋，穿過它並繼續上路。只要他們沒事，貨物甚麼都沒有發生。","color":"dark_aqua"}]}

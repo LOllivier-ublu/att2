@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"他只是要把它們放回原處！這不是必不可少的嗎？這是因為一條不幸的秘密通道通向我的房間。請不要對守衛和我父親說什麼。我們愛彼此 ！我求求你，如果你有一顆心，你就會明白我們的處境！","color":"blue"}]}

@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"她是不是給你設了圈套？總是那麼機智，哈哈哈！像媽媽像女兒……嗯，對不起。來吧，你還活著，這是必不可少的！你給我帶來的文字令人不安，它是關於Elcheol的白雪皚皚的山峰。它是該地區北部大山脈的名稱。有空的時候在山上的第一個城市見，路還很長，但我們快到了！","color":"dark_aqua"}]}
