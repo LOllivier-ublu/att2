@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Nestor : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"你把他們弄出來了嗎？出色的！我終於可以恢復營業了。在這裡，它是給你的。","color":"dark_aqua"}]}

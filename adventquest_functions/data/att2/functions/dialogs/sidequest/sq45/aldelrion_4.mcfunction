@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"啊，沒什麼。你知道，我是第一個 Eternän，就像 Relgon、Azazel、Flamme Noire 以及我們在這場戰爭中失去的許多其他人一樣……第一個 Eternän 經歷了這個世界的各個時代，他們學會了忍受最嚴重的創傷所以我們可以記住原始時代...","color":"dark_aqua"}]}

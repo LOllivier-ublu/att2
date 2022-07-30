@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Umbra'Tyanth regains all his lives...",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"Umbra'Tyanth 重獲所有生命......","color":"gray","italic":true}

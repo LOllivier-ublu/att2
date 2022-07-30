@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"嘿！哦，很高興再次見到你。我忍不住注意到你拿著的弓。我相信我已經與您分享了我對這個對象的興趣。請給我，我會大大補償的。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq49/trias/player_proposal_1/choice_1

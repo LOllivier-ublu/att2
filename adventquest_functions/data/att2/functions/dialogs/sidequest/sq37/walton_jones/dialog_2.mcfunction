@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"拜託，我需要一些幫助。我目前正在激流附近進一步挖掘以尋找化石，但它被一種相當危險的綠色粘糊糊的生命形式所淹沒。我再也不敢冒險了……總之，我要找一個能把這些怪物嚇跑的人。我會給你一些Chronotons作為交換。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq37/walton_jones/player_proposal_1/choice_1

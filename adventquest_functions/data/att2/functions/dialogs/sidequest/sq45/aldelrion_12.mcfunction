@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"一年，是什麼？無論如何，這並不重要。你應該和納姆林談談，他在他的主人消失後非常絕望，他會很高興聽到他的靈魂從以太中出現。","color":"dark_aqua"}]}

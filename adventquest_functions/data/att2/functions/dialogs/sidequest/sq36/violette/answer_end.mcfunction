@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"地下室和墓地可以再次進入嗎？驚人的！謝謝，所以收下這個。我還可以告訴我的鄰居，他現在可以在地下墓穴中工作了。他是一名考古學家，從事該地區的研究。他是個好人，樂於助人，但很害羞。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"*氣喘吁籲*唷，你沒有死手去那裡......我以為我看到了我的最後幾個小時。我還不知道這片瓦礫中隱藏著什麼，但我必須進行一些挖掘。稍後再找我，也許到時候我會有一些發現……","color":"dark_aqua"}]}

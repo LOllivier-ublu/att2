@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ashley Williams : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"我為她朋友的遭遇感到抱歉。但我不是唯一一個負責任的人。 Sylvain來看我，他需要錢。由於我經常去探險，而這座廢棄的豪宅對他們來說是一個機會，我們決定去那裡。","color":"dark_aqua"}]}

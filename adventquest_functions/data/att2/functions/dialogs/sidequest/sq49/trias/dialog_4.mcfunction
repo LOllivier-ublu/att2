@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"當然。對你來說不幸的是，我不會滿足於這種拒絕。把它交給我，否則我保證你會後悔的。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq49/trias/player_proposal_3/choice_1

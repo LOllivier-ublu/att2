@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Edwin Vortid : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"嘿，好奇的你，你知道查爾斯的成立嗎？我們在那裡進行各種投注，有機會贏得大獎！太讓人上癮了，我不得不賣掉我的大部分商品...財務健康！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq44/edwin_vortid/player_proposal_1/choice_1

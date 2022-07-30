@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jack Arrow : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"的確，這張地圖只標出了我們以前的一個藏身之處，它沒有任何用處。但是，我有一些信息會激發您的興趣。亞蘇納克的南邊有一座小島！這是一個充滿了前士兵的巢穴，這些前士兵被改建為船隻鑿沉。是的，他們在某種程度上是我們的競爭對手，但更重要的是，他們還由一個完全瘋狂的船長帶領，在島上的廢墟中隱藏著不可思議的寶藏。在你衝進去之前，要知道有一個秘密入口。不幸的是，我去了那裡，它被一個巨大的鎖關閉了。但我知道他們的一艘船在海岸的最南端擱淺了。它可以包含密鑰。不管怎樣，如果你對他們的寶藏感興趣，那就去沉船找一把巨大的鑰匙，潛入他們在島上的巢穴，然後乾掉他們的船長……","color":"dark_aqua"}]}

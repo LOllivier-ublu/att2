@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"你找到我父母的墓穴了嗎？不知道如何進入地下墓穴？該死，我忘了告訴你墓地中心的噴泉。它包含一個打開地下墓穴的機制。我的鄰居沃爾頓告訴我，你必須按一定的順序按下按鈕：鑽石 > 鐵 > 金 > 祖母綠。","color":"dark_aqua"}]}

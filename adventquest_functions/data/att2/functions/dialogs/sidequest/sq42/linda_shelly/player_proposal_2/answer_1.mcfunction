@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Linda Shelly : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"很好……我最親愛的朋友 Sylvain 說服我去參觀廢棄的 Sathnok 宅邸，以便帶一些小飾品轉售。我們和一個自稱是這個地方專家的導遊一起去了。但是奇怪的事情發生了，我們在地下墓穴中迷路了。 *害怕*有可怕的哭聲，當怪物來臨時我開始逃跑。奇蹟般地，我活了下來，但我看不見 Sylvain。如果你把他活著帶回我身邊，我將永遠感激不盡！為了到達地下墓穴，我記得在莊園的高處有一條秘密通道，靠近一個乾噴泉，按鈕很難進入。","color":"dark_aqua"}]}

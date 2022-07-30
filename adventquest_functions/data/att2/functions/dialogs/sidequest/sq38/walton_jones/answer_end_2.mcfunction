@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"什麼戰鬥！這令人印象深刻。你應該保留那個襲擊你的可怕東西的武器......好吧，我在這裡沒有更多事情要做，我要回Soquaï尋找化石，它會不那麼危險......特別是因為你有清除洪流的所有怪物。","color":"dark_aqua"}]}

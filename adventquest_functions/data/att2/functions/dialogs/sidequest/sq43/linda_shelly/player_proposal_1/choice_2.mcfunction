@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"[ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-139a-0000-00000000139a if entity @s[distance=..7] if score linda_shelly_PNJ DIALOG matches 7 run function att2:cinematic/sidequest/43/linda_shelly/chronoton_trigger_2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"[阿什利是個懦夫，但他有錢。我竭盡全力收集這筆財富。這裡有 5000 個 Chronotons……這不會讓 Sylvain 回來，但會減輕你的物質問題…… -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-139a-0000-00000000139a if entity @s[distance=..7] if score linda_shelly_PNJ DIALOG matches 7 run function att2:cinematic/sidequest/43/linda_shelly/chronoton_trigger_2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}

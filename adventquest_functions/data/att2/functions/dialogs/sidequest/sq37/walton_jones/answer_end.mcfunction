@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"所以，讓我看看……嗯，我明白了，我只是在 Eol 山谷尋找這件神器存在的證據，但墓地裡的所有這些怪物都在阻止我的進步……有了你，問題似乎在你的武器壓力下迅速消退。我們可以組成一支優秀的團隊，所以在 Owsästr 沼澤前的 Schetröwn 廢墟前與我會面。","color":"dark_aqua"}]}

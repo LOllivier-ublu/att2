@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"謝謝你。正如我所說，J'zargo 遠非模範學生。事實上，他肯定是我們最沒有天賦的人。他很清楚這一點，這對他的自尊沒有幫助。這就是為什麼他決定離開並尋找一個……*嘆息*一個傳奇。","color":"dark_aqua"}]}

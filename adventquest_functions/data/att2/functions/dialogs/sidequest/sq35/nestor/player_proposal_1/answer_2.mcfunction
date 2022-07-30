@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nestor : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"可惜我所剩無幾，壟斷我地盤的惡棍已經把我所有的幾乎都拿走了。以對你來說最有效的方式擺脫它們，我會給你我所擁有的，以及我所有的感激之情！","color":"dark_aqua"}]}

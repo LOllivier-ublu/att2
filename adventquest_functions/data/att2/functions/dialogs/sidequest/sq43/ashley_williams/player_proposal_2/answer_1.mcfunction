@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ashley Williams : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ashley Williams : ","color":"green","extra":[{"text":"我會告訴你一切！我目前正在製作一個系統來清除通往 Kert 礦井中一個秘密房間的道路。我在礦井裡有一輛裝滿炸藥的貨車，但我仍然沒有把它引到那裡的鐵軌。但是，我需要錢才能購買它，因此我們在廢棄的豪宅中經過。在這裡，我給你我棚子的鑰匙，你會發現裡面的欄杆。如果你到達終點，你可能會得到一筆可觀的寶藏，這將幫助琳達還清債務。唉，我不能把希爾凡帶回來，但兩人同意繞道而行的風險……","color":"dark_aqua"}]}

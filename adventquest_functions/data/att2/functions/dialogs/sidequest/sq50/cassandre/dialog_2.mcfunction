@@ -21,9 +21,9 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Cassandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"有什麼不對勁，是嗎？什麼困擾著你？","color":"aqua"}]}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"*抽泣*這是......我......在那裡，我找不到我的小貓龍貓......我已經兩天沒見到他了，我擔心......","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq50/cassandre/player_proposal_1/choice_1
