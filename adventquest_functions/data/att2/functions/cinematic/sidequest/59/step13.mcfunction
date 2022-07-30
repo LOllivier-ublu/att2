@@ -12,3 +12,5 @@ scoreboard players set Number_Complete NIGHTMARERUN 1
 
 function att2:gameplay/nightmarerun/save_score
 function att2:gameplay/nightmarerun/save_score_to_beat
+
+function att2:gameplay/nightmarerun/initialize

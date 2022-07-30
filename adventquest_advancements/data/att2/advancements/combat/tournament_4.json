@@ -4,7 +4,7 @@
             "item": "minecraft:spawner"
         },
         "title": {"translate":"TOURNAMENT IV"},
-        "description": {"translate":"Complete the last Tournament of arenas event."},
+        "description": {"translate":"Complete the fourth Tournament of arenas event."},
         "frame": "goal"
     },
     "parent": "att2:combat/tournament_3",
