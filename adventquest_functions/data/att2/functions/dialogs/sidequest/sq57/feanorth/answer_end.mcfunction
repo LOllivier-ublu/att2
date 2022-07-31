@@ -17,4 +17,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Feanorth : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"太好了，你做到了！我知道這對你來說很容易。謝謝你，我們將能夠更深入地挖掘廢墟而不冒被這些生物打擾的風險。拿著這些Chronotons！","color":"dark_aqua"}]}

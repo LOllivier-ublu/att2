@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"To achieve this... will ask you... very
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"","color":"dark_aqua","italic":true}
+tellraw @a[scores={LANGUAGE=2}] {"text":"要實現這個...會問你...很簡單...","color":"dark_aqua","italic":true}

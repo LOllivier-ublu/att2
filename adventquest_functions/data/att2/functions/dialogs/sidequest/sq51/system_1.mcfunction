@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Scavenger regains all his lives...","co
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"Scavenger 重新獲得了他所有的生命......","color":"gray","italic":true}

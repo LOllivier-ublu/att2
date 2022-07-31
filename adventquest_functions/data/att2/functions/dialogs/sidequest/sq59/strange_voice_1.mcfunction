@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"... go have to ... go throu... these ba
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"","color":"dark_aqua","italic":true}
+tellraw @a[scores={LANGUAGE=2}] {"text":"...去必須...去...這些barri .. of iro...","color":"dark_aqua","italic":true}

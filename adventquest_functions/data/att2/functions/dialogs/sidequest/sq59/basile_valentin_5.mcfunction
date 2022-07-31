@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"當然不是，自從 4 年前的事件以來，權力已經消退。然而，在向 Etotsira 詢問有關寶石的問題時，他告訴我他對時間之門的新開放感到擔憂。事實上，據他說，應該考慮恢復寶石的力量。然後我對自己說，現在是擁有轉化石頭物質所需的力量的完美時刻。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一個燒瓶。它有血... 保存得很好，但從它的容器狀態來看，它似乎已經存在了一段時間。 “他的主人對任何生物都是必不可少的，但由於他的不變性，他與其他人非常不同，他攜帶著能量、情感和血統的價值觀。”J'zargo 的謎語所說的一定是這种血液關於。","color":"aqua"}]}

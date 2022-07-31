@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"在這巨大的石障之上，隱藏著一片白色的沙漠。不下雨的地方是隱藏的舊建築。 “對於那些在單純的孤獨中失去希望的人，他錯過了他悲傷的果實”。","color":"dark_aqua"}]}

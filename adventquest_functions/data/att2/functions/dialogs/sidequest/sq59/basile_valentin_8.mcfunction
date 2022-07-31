@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"前往Ryliath宮殿圖書館。我永遠無法訪問它，但 Ryliath 的一位煉金術士同事告訴我他的研究是他已故的兄弟“Nicolas Flamel”偷走的。是他獲得了所有的榮譽，他在皇宮的最高峰上佔據著有利的位置，在這座城市中最受尊敬。","color":"dark_aqua"}]}

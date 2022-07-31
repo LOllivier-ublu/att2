@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這件物品很壯觀，它有一個淚珠的形狀。 J'zargo 已經說過的話：''對於那些在單純的孤獨中失去希望的人，他錯過了他悲傷的果實''。是的，這一定是他正在尋找的東西。讓我們希望他會對此感到滿意並回到學院......","color":"aqua"}]}

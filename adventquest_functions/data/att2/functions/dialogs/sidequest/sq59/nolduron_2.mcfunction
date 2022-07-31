@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Nolduron : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"我明白，但如果我讓你來，那不是談論那個，而是談論另一個問題。自從通往 Ëarndhel 的傳送門最近重新打開以來，另一個……“異常”自發地出現在那裡，在你曾經打開時間傳送門拯救世界的神殿中——根據傳說。","color":"dark_aqua"}]}
