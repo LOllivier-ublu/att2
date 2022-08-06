@@ -20,9 +20,9 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是Syri嗎？令堂把你引荐給我，希望你能帮我一个忙……","color":"aqua"}]}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"我妈吗？啊……你就是我媽所説的，那個想追求刺激的旅行者！很可惜，每年這時候的海況都很差，而且我們剛結束一次長途航行——就結論上看，如果僅僅是爲了滿足你的個人想法的話，比起説服我，想要説服我的船員更加困難——除非你願意加錢。1000chronoton……啊不，看在你是我媽朋友的份上，500chronoton就行。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_1_0

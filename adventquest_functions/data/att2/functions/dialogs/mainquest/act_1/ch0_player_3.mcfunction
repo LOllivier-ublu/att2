@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"行吧，還得送這麼多包裹呢。先從這條褲子開始吧——這應該是某位有名人的褲子。我得把它送回商場裏的H&H商店。","color":"aqua"}]}

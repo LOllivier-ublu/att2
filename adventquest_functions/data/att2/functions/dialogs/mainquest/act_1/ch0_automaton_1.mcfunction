@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° AUTOMATON : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° AUTOMATON : ","color":"green","extra":[{"text":"","color":"gray"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° AUTOMATON : ","color":"green","extra":[{"text":"感謝您的配送。","color":"gray"}]}

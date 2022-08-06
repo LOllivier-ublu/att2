@@ -22,4 +22,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"……噗哈哈哈哈哈！毫無疑問，你肯定是一個冒險家！我不知道你是從哪個墻角旮旯翻出這些故事的——或許酒精也沒少給你“出謀劃策”，但我相信，只有冒險家才能説出這樣的話！雖然你很想見我母親，但她自從上了年紀后就很少外出了……嘛，只要你沒有什麽別的想法——比如讓她加入你的冒險之類的，我想她應該會很樂意見一見自己的同僚。她住在鎮子的北邊，在一座位於天然岩拱之上的房子裏——換言之，她的家就在鎮子裏最高的那座塔的旁邊。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是的，我在那片沼澤裏發現了一座神廟，拿到了存放在那裏的空間之石。那麽，我現在應該去哪找另一塊空間之石呢？","color":"aqua"}]}

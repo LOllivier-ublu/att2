@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"完美。再找到一塊空間之石，我就可以前往Ëarndhel尋找Etotsira了。現在，我應該返回Méleïm，和Indra再聊上一次——相比Wirth，她更有可能知道最後一塊空間之石的藏身之地。","color":"aqua"}]}

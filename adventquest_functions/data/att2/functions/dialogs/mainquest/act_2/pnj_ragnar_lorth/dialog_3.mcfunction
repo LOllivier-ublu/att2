@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你還呆在我家裏做什麽？你沒有別的事做嗎？","color":"dark_aqua"}]}

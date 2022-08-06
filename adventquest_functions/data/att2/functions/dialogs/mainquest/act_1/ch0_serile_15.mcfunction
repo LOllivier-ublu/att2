@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"這是第二顆。最後一顆應該在頂樓，讓我幫你打開上樓的通道……","color":"yellow","italic":true}]}

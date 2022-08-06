@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"既然這樣，我猜已經有人告訴過你它爲什麽叫這名了。","color":"yellow","italic":true}]}

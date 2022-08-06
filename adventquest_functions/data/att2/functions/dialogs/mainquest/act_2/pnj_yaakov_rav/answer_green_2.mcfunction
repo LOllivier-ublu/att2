@@ -24,9 +24,9 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"有傳言說，在很久以前，兩個不同維度間會隨機地出現連接兩者的傳送門。爲保證Tellurön各領域間能相互交流，法力高强的古代法師們設法使其中的一些傳送門能穩定地存留于世。與此同時，爲保証能激活傳送門，他們將激活所需的能量注入了特別的石頭中。","color":"dark_aqua"}]}
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"但不幸的是，這些石頭已經散落在世界各地，甚至下落不明。但据傳説所言，即使只擁有這些石頭的碎片，你也可以成功激活傳送門。而這些石頭，也被稱爲“空間之石”。如果你想激活Ryliath的傳送門，至少需要找到三顆“空間之石”。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/answer_end

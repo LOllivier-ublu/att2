@@ -18,7 +18,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wirth Razgork : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"但小心，有一群蛮族人正在神廟前安營扎寨，想繞開他們進入神廟可沒那麽容易。尝試潜入他們的營地，你肯定能找到進入神廟的路。我以前也是名身强力壮的冒险家，直到我的膝盖中了一箭……我看你骨骼精奇，想必是做冒险家的奇才！如果我的话能对你的冒險有所幫助，那我會很開心的！祝你好運！","color":"dark_aqua"}]}
 
 
 scoreboard players set wirth_razgork_PNJ DIALOG 4

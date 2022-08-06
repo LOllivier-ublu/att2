@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"你得找到他，並且殺了他……只有這樣，你才能改變命運，擺脫墮落泉源的詛咒。","color":"yellow","italic":true}]}

@@ -19,4 +19,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Brutus : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（慌張）等一下！我不會打人的，我並不是他們的一份子，我也不想惹什麽麻煩！如你所見，我被流放了，所以不得不背井離鄉來到這裏。你來這兒是爲了進入那所神廟，對吧？到村莊的西邊看看，那裏應該會有一個入口。","color":"dark_aqua"}]}

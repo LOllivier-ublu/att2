@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Indra Lorth : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"据我所知，它並不在Sylberländ領地内……它藏在一座島上……如果我的記憶沒錯，那座島的名字是Asunark。那兒是一個天堂——對於冒險家來説更是如此，哈哈。島上有一座避難所，它是一座古代城市殘存的遺跡，而根据有关這座城市的傳説，那裏正好存放著你所尋找的珍貴寶物！","color":"dark_aqua"}]}

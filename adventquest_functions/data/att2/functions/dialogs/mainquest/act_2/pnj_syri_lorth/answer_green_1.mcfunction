@@ -19,4 +19,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"好極了！我們會帶你去任何你想去的地方。我會在不遠處的大船上等著你。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"你不該來這兒，這座島很危險……趕緊從哪來回哪去吧！","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"抱歉，我們這兒不允許打白條……你也知道，我們生活比較拮据，不像附近那座城市Ryliath裏的居民那樣有錢……再者説了，我無法完全相信你。如果你不打算付錢，我就只能請你離開了。","color":"dark_aqua"}]}

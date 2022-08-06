@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"我明白了。這是件好事，不然你就只能以死來尋求解脫了……言歸正傳，是誰强迫你，或者說，''引導''你接觸墮落泉源的？","color":"yellow","italic":true}]}

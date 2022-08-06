@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Indra Lorth : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"我和我女兒仿佛一個模子裏刻出來的！我像她那麽大的時候，也是一個勇敢無畏的人。而現在，她也從我身上繼承了對四處旅行的熱愛……","color":"dark_aqua"}]}

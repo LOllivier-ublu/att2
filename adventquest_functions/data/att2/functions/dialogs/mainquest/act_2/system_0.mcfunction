@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Your inventory is full...","color":"gra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"你的物品欄已滿……","color":"gray","italic":true}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"好了，你已經什麽都知道了！我得先行一步了。噢，提醒你一句：傳説，在我們面前的這座雕塑曾被祖先用作傳送門，也正是因為這個傳說，它成爲了這座城市的象徵。不管怎樣，如果你對它感興趣的話，我建議你回去見見那位Dahäl大師。好吧，我得先回去工作了，祝你好運！","color":"dark_aqua"}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"確定返回Méleïm鎮嗎？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_3

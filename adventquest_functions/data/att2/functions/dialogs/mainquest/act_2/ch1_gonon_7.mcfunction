@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"我開出的價碼如下：最近這所房屋的地窖裏老是有蜘蛛——地窖靠近洞穴的那堵墻塌了，於是那些煩人的蜘蛛沿著洞穴爬進了我的儲藏室。","color":"dark_aqua"}]}

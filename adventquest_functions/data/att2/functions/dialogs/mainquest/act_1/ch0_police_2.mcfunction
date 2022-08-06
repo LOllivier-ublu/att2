@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"(-)=(-) Police : ","color":"gray","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"","color":"dark_red"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"你已經被包圍了！！你插翅難飛！馬上舉起雙手離開大樓！","color":"dark_red"}]}

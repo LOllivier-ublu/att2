@@ -19,4 +19,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Raj Kutra : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"你**誰啊？這麽大膽，敢插手我和她的事情？雖然她還不敢表達對我的愛意，但我知道，他對我的愛是真的，就像天空對大海那樣。請你離開吧。","color":"dark_aqua"}]}

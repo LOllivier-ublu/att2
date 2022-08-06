@@ -28,4 +28,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"因此，找到這些空間之石對你來說是非常困難的。等等，我想我們可以在附近找到一些東西，而且我知道有人能幫你弄到它。去看看冒險家Wirth Razgork。他的房子在小鎮的東邊。還有這個咒語書，你肯定比我更需要。","color":"dark_aqua"}]}

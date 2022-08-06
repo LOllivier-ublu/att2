@@ -22,4 +22,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"好吧，我沒想到你這麽快就完事了。呼，終於把他打發掉了！自從遇上他，我在鎮裏的生活便變得越來越難受……我這就去召集船員，等你準備好了后就到船上找我，我會把你送到你想去的地方！","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"你決定接受我的幫助了嗎？那好。首先，你得前往議會；然後，你會在議會大樓裏發現一座博物館。你需要在博物館裏面找到三塊名爲''時間之石''的寶石。我會爲你打開議會大樓的大門……剩下的待會再説。","color":"yellow","italic":true}]}
