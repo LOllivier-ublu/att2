@@ -18,7 +18,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"我明白了，Tellurön 的英雄，那麼我會告訴你我所知道的。","color":"dark_aqua"}]}
 
 
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_3_1

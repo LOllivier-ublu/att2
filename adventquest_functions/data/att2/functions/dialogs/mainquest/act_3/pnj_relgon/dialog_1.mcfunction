@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"要想進入 La Flamme Noire 的栖息之處，必須先找到烈火之章和炎獄之章。找到後，將它們放在Angor要塞入口門廊盡頭的大門就可以了。","color":"dark_aqua"}]}

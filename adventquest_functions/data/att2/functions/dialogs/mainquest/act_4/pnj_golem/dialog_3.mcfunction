@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"小肉體被認出，他毫無拘束地前往烏爾戈克斯特倫。因為金屬存在給他指明了方向。","color":"dark_aqua"}]}

@@ -21,6 +21,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"去學院廚房見瑪琳。她會告訴你更多關於我們已經等待太久的交貨的信息。","color":"dark_aqua"}]}
 
 

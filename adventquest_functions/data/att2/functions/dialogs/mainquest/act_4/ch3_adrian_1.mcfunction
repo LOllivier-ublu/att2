@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"好吧，如果這裡不是特魯隆的英雄的話。我聽說你從冰冷的沃納海姆的爪子上搶走了一顆寶石！難以置信，你真的擁有你的頭銜！","color":"dark_aqua"}]}

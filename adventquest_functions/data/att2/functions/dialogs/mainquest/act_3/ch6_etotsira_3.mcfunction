@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你的想法是對的：你是Relgon的轉世。我不知道為什麼Gaya花了這麼長時間才把你的靈魂帶回，但奇怪的是，在你回歸的同時，Tellurön出現了新的泉源。","color":"dark_aqua"}]}

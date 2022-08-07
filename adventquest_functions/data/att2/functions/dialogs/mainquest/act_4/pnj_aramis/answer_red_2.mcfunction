@@ -18,7 +18,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"我毫不懷疑你在戰鬥中或在達哈爾的價值。但一切都是有代價的，所以如果你想獲得這些信息，你必須先幫我們的城市一個忙。","color":"dark_aqua"}]}
 
 
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_3_2

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"很不幸，儘管靈媒提前作了警告，但預言還是成爲了現實。國王Azazel決定破釜沉舟，希望能在我、他的妻子Gabrielle和Flamme Noire的幫助下破解這一謎局。","color":"dark_aqua"}]}

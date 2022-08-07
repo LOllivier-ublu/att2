@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"幸運的是，這只怪物總會返回泉源附近休養生息。如果閣下能拿到封印通往泉源的道路的兩個法器，封印就能解除，我們也就能再一次和這個招致戰爭的怪物作最後的決鬥了。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"在小路的盡頭，黏黏的石頭。他們的力量和意志，是金屬所需要的。","color":"dark_aqua"}]}

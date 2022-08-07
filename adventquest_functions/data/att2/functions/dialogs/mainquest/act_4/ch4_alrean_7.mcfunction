@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"是的，因為他們準備犧牲自己來保護他們的兄弟姐妹、阿姨、叔叔、侄女和侄子，無論相隔多遠……","color":"dark_aqua"}]}

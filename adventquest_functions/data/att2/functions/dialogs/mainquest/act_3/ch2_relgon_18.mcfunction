@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"然而，我們沒有在守護者的巢穴中發現這位Angband王國唯一的半神Flamme Noire。迎接我們的，是一隻庞大的、破壞性極强的怪物——Flamme Noire身上發生了可怕的變化。","color":"dark_aqua"}]}

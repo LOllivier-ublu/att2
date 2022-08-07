@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"絕望的凡人們轉而信奉La Flamme Noire，甚至不惜獻出生命祭祀她。她聼到了那些呼喚。於是，作爲對血祭的回應，她不再攻擊其他城市。","color":"dark_aqua"}]}

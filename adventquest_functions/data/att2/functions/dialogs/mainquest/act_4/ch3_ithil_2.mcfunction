@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"不，我不這麼認為。如果我父親看到城底的大門運轉良好，似乎很驚訝，那是因為他是個好演員。因為我們在 Ryliath 一直都有傳送門，甚至在你來之前。如果您需要時間寶石，您將不得不前往其他王國。我現在還不如給你看這個。如果你沒有退縮。","color":"dark_aqua"}]}

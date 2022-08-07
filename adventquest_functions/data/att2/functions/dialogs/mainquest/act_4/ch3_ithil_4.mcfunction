@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"是的，我知道，我看到你帶著一顆時間寶石出來了，你想知道在哪裡可以找到另一個。這是，在我的右邊，通往烏拉諾斯維度的傳送門的入口：另一個王國可能包含你正在尋找的東西......","color":"dark_aqua"}]}

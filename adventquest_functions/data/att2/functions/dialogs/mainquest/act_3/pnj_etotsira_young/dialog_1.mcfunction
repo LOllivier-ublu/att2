@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你和我并非來自同一個“Tellurön”。我以前生活的地方，被稱爲“古Tellurön”。那兒的環境和現在的Tellurön完全不同：山啊、天空啊……就像世界末日一樣。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"雖然封印無法阻擋La Flamme Noire，但成功阻斷了其他人接近泉源的可能。與此同時，她也在過去三十個輪回中不斷地在王國散布恐懼。","color":"dark_aqua"}]}

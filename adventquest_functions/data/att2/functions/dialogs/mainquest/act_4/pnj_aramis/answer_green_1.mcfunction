@@ -18,7 +18,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"城市門戶已被激活....為此，您需要空間寶石。而且我不覺得這種業務對你來說是一個真正的挑戰。","color":"dark_aqua"}]}
 
 
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_2_1

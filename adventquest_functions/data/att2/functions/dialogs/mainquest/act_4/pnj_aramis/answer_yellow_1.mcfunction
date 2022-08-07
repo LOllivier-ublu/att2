@@ -18,7 +18,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"哦耶？是什麼讓你認為我會幫助你？我不是不知道這些石頭的力量，所以請多加註意你的要求。","color":"dark_aqua"}]}
 
 
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_2_2

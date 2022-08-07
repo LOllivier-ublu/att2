@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*冷漠严肅地* 歡迎你，旅行者。我是Relgon，Eternäns軍隊的將軍和Angband王室的代表。敢問閣下尊姓大名，來自哪個王國？","color":"dark_aqua"}]}

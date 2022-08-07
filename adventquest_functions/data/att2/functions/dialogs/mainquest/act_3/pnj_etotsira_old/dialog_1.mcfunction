@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"不必戀舊。過去看似美好，但它和未來相比不值一提。每個人都會懷念過去，但重點不在于沉湎其中，而在于將它們銘記心中——畢竟，逝者如斯。","color":"dark_aqua"}]}

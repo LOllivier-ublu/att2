@@ -18,7 +18,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"*嘶啞的金屬聲音* RRouahhhHhh .....嗯...小生命？但他在這裡做什麼？這裡沒有一個肉體。他不是這個世界的人，也不請他留下來！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/mainquest/act_4/pnj_golem/player_answer_proposal_1

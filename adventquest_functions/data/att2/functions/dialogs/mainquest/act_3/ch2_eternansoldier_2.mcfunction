@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Eternän Soldier : ","color":"gr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"……明白了，我會讓你們通過，但後果自負。","color":"dark_aqua"}]}

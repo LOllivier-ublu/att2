@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你知道嗎？Eternän人是永生的一族、堅不可摧的一族——只要他們心懷“活著”的意志。 Sérile很幸運，她在謀殺Relgon時，Relgon心裏已不再抱有這樣的念頭。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"沒想到，黏黏的石頭會喚醒被歲月沉睡的身體。在 Ulgok'keström，時代的瑰寶等待著您。肉體將通過新橋到達它，然後通過巨大的綠寶石門。","color":"dark_aqua"}]}

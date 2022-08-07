@@ -5,17 +5,4 @@
 
 execute at @a run function att2:sound/dialogs/simple
 
-
-#FRENCH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"...","color":"dark_aqua"}]}
-
-
-#ENGLISH LANGUAGE
-
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"...","color":"dark_aqua"}]}
-
-
-#CHINESE LANGUAGE
-
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a {"text":" °-° Relgon : ","color":"red","extra":[{"text":"...","color":"dark_aqua"}]}

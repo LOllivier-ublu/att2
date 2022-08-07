@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"對不起，大人，我們在通往 Ocar 的橋附近發現了這名可疑的人物。他聲称自己來自另一個王國——而我和Sérile也能在他附近看到跨维度的傳送門。除此之外，他還說，他在尋找某個人....。","color":"dark_aqua"}]}

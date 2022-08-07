@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"最近，事情出現了轉機。在另一個世界的旅者Etotsira的幫助下，覬覦泉源力量的敵人被趕出了Angor城。自從他到來后，局勢似乎開始明朗了起來。","color":"dark_aqua"}]}

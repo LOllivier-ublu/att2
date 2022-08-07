@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"不管怎樣，既然Sérile相信她已經消滅了所有的的阻礙，她很有可能會不計代價地嘗試使用Tellurön泉源的力量。沒有傳送門的她無法回到Angband奪取女王之位。但是，如果她得到了泉源的力量，所有事情對她來説都會是小菜一碟。","color":"dark_aqua"}]}

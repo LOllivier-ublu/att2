@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"然而，這世上存在一種離經叛道般的力量泉源，其本質與它的名字如出一轍：墮落泉源。一旦陷入其中，不論誰都終將屈服於它。Namrïn堅持了兩萬九千年；而Ranwë和Ranégot只堅持了200年……","color":"dark_aqua"}]}
