@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Minions regain their health...","color"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"小兵恢復健康...","color":"gray","italic":true}

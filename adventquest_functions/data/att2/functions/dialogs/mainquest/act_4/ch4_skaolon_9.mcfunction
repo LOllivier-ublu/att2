@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"這是威脅嗎？！然後什麼，你想殺了我？！啊哈哈哈，真是個白痴。我們的輝煌不會容忍我的死，所以告別會議和問題。","color":"dark_aqua"}]}

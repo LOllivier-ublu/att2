@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"[ -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Mainquest SIDEQUEST matches 288 if score Neth0 TIMER matches ..8399 run scoreboard players set Neth0 TIMER 8400"},"hoverEvent":{"action":"show_text","value":"Passer les crédits..."}}
+tellraw @a[scores={LANGUAGE=0}] {"text":"[Passer les crédits -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Mainquest SIDEQUEST matches 288 if score Neth0 TIMER matches ..8399 run scoreboard players set Neth0 TIMER 8400"},"hoverEvent":{"action":"show_text","value":"Passer les crédits..."}}
 
 
 #ENGLISH LANGUAGE

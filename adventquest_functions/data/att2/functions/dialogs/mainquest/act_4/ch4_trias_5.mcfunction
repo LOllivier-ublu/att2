@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"那麼我不會再佔用你的時間了，我會直奔主題：我正在尋找一個對我很重要的對象。像你這樣高貴的冒險家會稱之為遺物，我認為它是一件我非常重視個人價值的物品。它是一把大弓，具有非常獨特的特徵，但在使用環境中並不顯眼。","color":"dark_aqua"}]}

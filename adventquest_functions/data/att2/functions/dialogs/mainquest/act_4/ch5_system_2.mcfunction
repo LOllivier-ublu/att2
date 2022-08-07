@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"The Guardian goes away...","color":"gra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"守護者走了……","color":"gray","italic":true}

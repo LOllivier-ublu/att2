@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute as @a[x=1543.0,y=16,z=1495.0,distance=..35,gamemode=adventure] if score Mainquest SIDEQUEST matches 290 run function att2:cinematic/act_5/etotsira_confirmation2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[是的。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute as @a[x=1543.0,y=16,z=1495.0,distance=..35,gamemode=adventure] if score Mainquest SIDEQUEST matches 290 run function att2:cinematic/act_5/etotsira_confirmation2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

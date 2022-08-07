@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Sérile regains all her health back..."
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"Sérile 恢復了她所有的健康...","color":"gray","italic":true}

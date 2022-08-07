@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_aqua"},{"text":" !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"嘿 ！但它是 ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_aqua"},{"text":"！等等，布倫希爾德，這是一個英雄！他重新激活了 Ryliath 的傳送門，他們說他在其他維度旅行。","color":"dark_aqua"}]}

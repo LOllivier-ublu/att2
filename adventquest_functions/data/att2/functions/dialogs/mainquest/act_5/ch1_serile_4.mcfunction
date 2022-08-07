@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Serile : ","color":"gray","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"如果你願意，你可以成為萬主之主的轉世，但你不會阻止我完成我的命運。因為你現在是凡人，我已經打敗了你。","color":"yellow","italic":true}]}
