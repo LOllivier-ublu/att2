@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"綠寶石紋絲不動，我需要啟動控制它的裝置。旁邊的系統一定能解決這個問題......","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"綠寶石紋絲不動，我需要啟動控制它的裝置。旁邊的系統一定能解決這個問題...","color":"aqua"}]}

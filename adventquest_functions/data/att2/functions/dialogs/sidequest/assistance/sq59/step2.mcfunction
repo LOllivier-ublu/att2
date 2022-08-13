@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hero's Accomplishment -°- : "
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"讓我看看Ëarndhel神殿中心到底出現了什麼問題......","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"讓我看看Ëarndhel神殿中心到底出現了什麼問題...","color":"aqua","italic":true}]}

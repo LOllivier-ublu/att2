@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"嗯……所以説，閣下想助我們一臂之力。如閣下所見，這個王國正處於戰亂之中——接下來，請允許我向閣下説明招致此番混亂局勢的原因。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"嗯...所以説，閣下想助我們一臂之力。如閣下所見，這個王國正處於戰亂之中——接下來，請允許我向閣下説明招致此番混亂局勢的原因。","color":"dark_aqua"}]}

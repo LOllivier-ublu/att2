@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Guard : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"嗯，謝謝你把這個小偷交給我們。他過去的放蕩終於要趕上他了。他會在我們的監獄里呆一段時間……這是他被捕的獎勵。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"嗯，謝謝你把這個小偷交給我們。他過去的放蕩終於要趕上他了。他會在我們的監獄里呆一段時間...這是他被捕的獎勵。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Golem is restoring all his health back.
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"Golem正在恢復他所有的健康......","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"Golem正在恢復他所有的健康...","color":"gray","italic":true}

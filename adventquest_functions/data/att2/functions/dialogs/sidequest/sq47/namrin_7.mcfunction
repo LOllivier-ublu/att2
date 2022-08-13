@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon 帶我去這個地方是為了讓我相信 Irilion 的存在，因為我太年輕了，還不能見到他……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon 帶我去這個地方是為了讓我相信 Irilion 的存在，因為我太年輕了，還不能見到他...","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"*清了清嗓*這地風評不佳——這裏有家會購買你不再使用的武器的黑店；與此同時，他們也會卖一些特別的玩意……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"*清了清嗓*這地風評不佳——這裏有家會購買你不再使用的武器的黑店；與此同時，他們也會卖一些特別的玩意...","color":"dark_aqua"}]}

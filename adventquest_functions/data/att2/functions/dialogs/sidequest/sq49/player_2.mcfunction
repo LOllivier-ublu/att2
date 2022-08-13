@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是的，我去了兩次Angband。這有點複雜，但上次是大約 32 000 年前......我的意思是，週期。我參加了一場反對 La Flamme Noire 和大多數凡人反對 Ethernäns 的戰爭。 Eternäns 贏了，La Flamme Noire 被擊敗，但 Relgon 滅亡了……","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是的，我去了兩次Angband。這有點複雜，但上次是大約 32 000 年前...我的意思是，週期。我參加了一場反對 La Flamme Noire 和大多數凡人反對 Ethernäns 的戰爭。 Eternäns 贏了，La Flamme Noire 被擊敗，但 Relgon 滅亡了...","color":"aqua"}]}

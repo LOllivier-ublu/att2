@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"找到只有智者才能認​​得的書，如果你還記得VITRIOL……這個公式是為那些擁有五精之石並且已經吸收了兩次它的物質的人而寫的。拿著它，它現在不再為我服務了。它與你的存在對齊，所以你必須將它整個吞下並執行咒語。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"找到只有智者才能認​​得的書，如果你還記得VITRIOL...這個公式是為那些擁有五精之石並且已經吸收了兩次它的物質的人而寫的。拿著它，它現在不再為我服務了。它與你的存在對齊，所以你必須將它整個吞下並執行咒語。","color":"dark_aqua"}]}

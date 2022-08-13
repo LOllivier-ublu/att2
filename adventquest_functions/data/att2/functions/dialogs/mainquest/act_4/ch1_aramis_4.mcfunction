@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"等一下。沃納海姆已經擁有這顆寶石。你將不得不面對它......","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"等一下。沃納海姆已經擁有這顆寶石。你將不得不面對它...","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我可以爬上懸掛綠寶石塊的鐵軌，解鎖阻止它移動的裝置，然後我便可以返回中心啟動整個系統，我希望它能直接將綠寶石塊運到洞口......","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我可以爬上懸掛綠寶石塊的鐵軌，解鎖阻止它移動的裝置，然後我便可以返回中心啟動整個系統，我希望它能直接將綠寶石塊運到洞口...","color":"aqua"}]}

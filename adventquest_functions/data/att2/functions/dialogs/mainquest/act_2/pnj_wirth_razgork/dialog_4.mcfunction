@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wirth Razgork : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"這麽説，你已經拿到那塊石頭了？難道説……你是想重新激活Ryliath的傳送門？不管怎樣，我應該可以幫你處理剩下的瑣事。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"這麽説，你已經拿到那塊石頭了？難道説...你是想重新激活Ryliath的傳送門？不管怎樣，我應該可以幫你處理剩下的瑣事。","color":"dark_aqua"}]}

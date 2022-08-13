@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"我在等你！計劃被放回原處。小偷肯定會被我們為找到他而採取的手段所嚇倒……警衛將保持警惕，計劃現在是安全的。去看看我們鎮上的總督要你的獎勵，他的房子在槳輪前的鐵匠旁邊。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"我在等你！計劃被放回原處。小偷肯定會被我們為找到他而採取的手段所嚇倒...警衛將保持警惕，計劃現在是安全的。去看看我們鎮上的總督要你的獎勵，他的房子在槳輪前的鐵匠旁邊。","color":"dark_aqua"}]}

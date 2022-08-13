@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是的，我在那裡聽到了一個聲音，我跳進了這件事……我發現了 4 年前發生的事件的不同地方。這就像一場夢，或者更確切地說是一場噩夢……","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是的，我在那裡聽到了一個聲音，我跳進了這件事...我發現了 4 年前發生的事件的不同地方。這就像一場夢，或者更確切地說是一場噩夢...","color":"aqua"}]}

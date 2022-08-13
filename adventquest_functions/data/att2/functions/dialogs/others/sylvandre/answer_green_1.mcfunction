@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"她、她確實是我叔叔的妻子。我叔叔是……是“索伦巴”啊——啊沒，我指有“陌生人”來了。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"她、她確實是我叔叔的妻子。我叔叔是...是“索伦巴”啊——啊沒，我指有“陌生人”來了。","color":"dark_aqua"}]}

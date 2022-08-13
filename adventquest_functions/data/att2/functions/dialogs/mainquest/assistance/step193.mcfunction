@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon 是一名守衛在烏拉諾斯宮殿大門前的守衛，他告訴我，我必須尋找 Néleptrons 才能讓他們的國王謁見。讓我們繼續探索和尋找這些 Nélpetrons。應該有一條相當明顯的路徑通往那裡......","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon 是一名守衛在烏拉諾斯宮殿大門前的守衛，他告訴我，我必須尋找 Néleptrons 才能讓他們的國王謁見。讓我們繼續探索和尋找這些 Nélpetrons。應該有一條相當明顯的路徑通往那裡...","color":"aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"嗯……那件事情發生後，Sérile就再也沒有出現了。她與Angband的無上權力始終隔著一堵墻，這堵墻先是Relgon，然後是Namrïn和我。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"嗯...那件事情發生後，Sérile就再也沒有出現了。她與Angband的無上權力始終隔著一堵墻，這堵墻先是Relgon，然後是Namrïn和我。","color":"dark_aqua"}]}

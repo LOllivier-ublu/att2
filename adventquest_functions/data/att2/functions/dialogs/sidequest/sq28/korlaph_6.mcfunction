@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Korlaph : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"住口！我無法控制我的能量讓她和我們在一起！親愛的別擔心，我已經取得了巨大的進步......","color":"dark_red"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"住口！我無法控制我的能量讓她和我們在一起！親愛的別擔心，我已經取得了巨大的進步...","color":"dark_red"}]}

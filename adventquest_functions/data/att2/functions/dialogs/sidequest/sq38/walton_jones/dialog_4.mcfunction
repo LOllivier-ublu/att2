@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"給你！希望你還帶著神器。據我所知，你在 Eol 墓地發現的東西一定屬於居住在這座古老堡壘中的一個小型秘密組織的成員。他們將這件神器放在祭壇上進行黑暗儀式。找出祭壇室的位置。不過要注意，這裡是個臭名昭著的地方……拿上這把鑰匙，上面有這座堡壘的封印。我之前在 Owsästr 沼澤地的挖掘中發現了它們。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"給你！希望你還帶著神器。據我所知，你在 Eol 墓地發現的東西一定屬於居住在這座古老堡壘中的一個小型秘密組織的成員。他們將這件神器放在祭壇上進行黑暗儀式。找出祭壇室的位置。不過要注意，這裡是個臭名昭著的地方...拿上這把鑰匙，上面有這座堡壘的封印。我之前在 Owsästr 沼澤地的挖掘中發現了它們。","color":"dark_aqua"}]}

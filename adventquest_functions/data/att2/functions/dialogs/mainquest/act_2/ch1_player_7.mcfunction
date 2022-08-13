@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"如果在外面過夜，我一定會被凍死的！我也不想知道自己在外頭會遇上什麽野獸……等一下！我會用劍戰鬥和狩獵！我能熟練使用Dahäl咒語！求你了！我能爲你做些什麽來換取今晚在這留宿的許可嗎？","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"如果在外面過夜，我一定會被凍死的！我也不想知道自己在外頭會遇上什麽野獸...等一下！我會用劍戰鬥和狩獵！我能熟練使用Dahäl咒語！求你了！我能爲你做些什麽來換取今晚在這留宿的許可嗎？","color":"aqua"}]}

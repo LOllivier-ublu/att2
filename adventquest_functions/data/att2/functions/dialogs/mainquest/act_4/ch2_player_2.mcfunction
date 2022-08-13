@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"氣流已停止。我寧願讓它帶著我一路上塔，但這是一個好的開始......現在，讓我們進入通風口，看看另一邊是否有什麼有趣的東西。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"氣流已停止。我寧願讓它帶著我一路上塔，但這是一個好的開始...現在，讓我們進入通風口，看看另一邊是否有什麼有趣的東西。","color":"aqua"}]}

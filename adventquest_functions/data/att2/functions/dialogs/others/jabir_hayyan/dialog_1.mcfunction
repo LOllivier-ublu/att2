@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jabir Hayyan : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jabir Hayyan : ","color":"green","extra":[{"text":"买藥水嗎？我這兒藥水可多了，來看看來看看……","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jabir_hayyan_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Jabir 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jabir Hayyan : ","color":"green","extra":[{"text":"买藥水嗎？我這兒藥水可多了，來看看來看看...","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jabir_hayyan_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Jabir 的銷售情況。"}}]}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Indra Lorth : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"嗯……你很幸運，我還記得一些有關空間之石的故事。空間之石散落在這個世界的各個角落，而據我所知，離這最近的一塊在小鎮南邊的Owsästr沼澤——許多十分古老的建築仍屹立在那裏的水面上。而緊靠高山的那座遺跡似乎還藏著不少秘密……我覺得你可以去那裏看看。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"嗯...你很幸運，我還記得一些有關空間之石的故事。空間之石散落在這個世界的各個角落，而據我所知，離這最近的一塊在小鎮南邊的Owsästr沼澤——許多十分古老的建築仍屹立在那裏的水面上。而緊靠高山的那座遺跡似乎還藏著不少秘密...我覺得你可以去那裏看看。","color":"dark_aqua"}]}

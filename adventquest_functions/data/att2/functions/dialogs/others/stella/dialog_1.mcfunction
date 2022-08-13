@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Stella : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Stella : ","color":"green","extra":[{"text":"嗨，你是不是能操控Dahäl的力量？那你可就來對地兒了，這裏有各式各樣强大的魔法術式……","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/stella_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Stella 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Stella : ","color":"green","extra":[{"text":"嗨，你是不是能操控Dahäl的力量？那你可就來對地兒了，這裏有各式各樣强大的魔法術式...","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/stella_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Stella 的銷售情況。"}}]}]}

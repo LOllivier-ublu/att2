@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我需要找到三個 ","color":"aqua","italic":true,"bold":false,"extra":[{"text":"<梯子碎片>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:ladder\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Fragment d'échelle\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Ladder part\\\"}\"]}}}"},"extra":[{"text":" 來修復梯子，這樣我才能爬上城墻……","bold":false,"color":"aqua","italic":true}]}]}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我需要找到三個 ","color":"aqua","italic":true,"bold":false,"extra":[{"text":"<梯子碎片>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:ladder\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Fragment d'échelle\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Ladder part\\\"}\"]}}}"},"extra":[{"text":" 來修復梯子，這樣我才能爬上城墻...","bold":false,"color":"aqua","italic":true}]}]}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我的火係法術解鎖了一項新能力：融化薄冰。薄冰與系統相連，系統可以產生氣流，把我運到主塔頂部……我現在得先前往西側，融化門上的冰，然後進入西側塔樓。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我的火係法術解鎖了一項新能力：融化薄冰。薄冰與系統相連，系統可以產生氣流，把我運到主塔頂部...我現在得先前往西側，融化門上的冰，然後進入西側塔樓。","color":"aqua"}]}

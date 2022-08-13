@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"很好，指揮官被告知了這件事，並且帶著他的偏執狂，他已經談到了一個陰謀。他是一個非常出色的戰術家和戰略家，但在推論事實和尋找線索方面表現平庸……和他一起在圖書館的宮殿地板上，我指望你！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"很好，指揮官被告知了這件事，並且帶著他的偏執狂，他已經談到了一個陰謀。他是一個非常出色的戰術家和戰略家，但在推論事實和尋找線索方面表現平庸...和他一起在圖書館的宮殿地板上，我指望你！","color":"dark_aqua"}]}

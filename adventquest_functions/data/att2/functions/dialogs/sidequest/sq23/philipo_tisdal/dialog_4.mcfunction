@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"你回來了？我覺得我們走得太快了，我總是需要幫助。所以，請告訴我，幾個chronoton會讓你改變主意……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"你回來了？我覺得我們走得太快了，我總是需要幫助。所以，請告訴我，幾個chronoton會讓你改變主意...","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq23/philipo_tisdal/player_proposal_1/choice_2

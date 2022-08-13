@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hero's Accomplishment -°- : "
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我終於回到了這個還算不錯的世界......我不知道這段旅程何時才能結束，但我現在需要更多的情報。去和Etotsira聊一聊好了。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我終於回到了這個還算不錯的世界...我不知道這段旅程何時才能結束，但我現在需要更多的情報。去和Etotsira聊一聊好了。","color":"aqua","italic":true}]}

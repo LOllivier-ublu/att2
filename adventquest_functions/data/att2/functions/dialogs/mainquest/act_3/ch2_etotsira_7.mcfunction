@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"別那麽說嘛，Relgon。相信我，這個節骨眼上，如果有誰被送來這裏，那就意味著你一定會需要他——“她”的意志永遠是仁慈的……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"別那麽說嘛，Relgon。相信我，這個節骨眼上，如果有誰被送來這裏，那就意味著你一定會需要他——“她”的意志永遠是仁慈的...","color":"dark_aqua"}]}

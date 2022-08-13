@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"牆在我腳下破碎了，這裡可能有一個入口……一個相當有力的搖晃應該可以解決問題。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"牆在我腳下破碎了，這裡可能有一個入口...一個相當有力的搖晃應該可以解決問題。","color":"aqua"}]}

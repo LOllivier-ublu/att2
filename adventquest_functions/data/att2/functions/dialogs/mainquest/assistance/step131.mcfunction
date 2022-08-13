@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我看見了時間之石，但它墜落下去，被什麽東西擋住了。這肯定是某種保護裝置……我必須想辦法讓所有塔樓裏的巨型綠寶石塊掉下來！通往西北翼塔樓的門已經打開，看樣子我得先從那裏開始……","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我看見了時間之石，但它墜落下去，被什麽東西擋住了。這肯定是某種保護裝置...我必須想辦法讓所有塔樓裏的巨型綠寶石塊掉下來！通往西北翼塔樓的門已經打開，看樣子我得先從那裏開始...","color":"aqua"}]}

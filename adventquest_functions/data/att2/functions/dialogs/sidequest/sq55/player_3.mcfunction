@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這是一張紙：“在所有可以發音的詞中，那些表示遺憾的詞大多都在最簡單的紙上。”我敢打賭，這就是 J'zargo 正在尋找的詞。是時候澄清他的意圖了……","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這是一張紙：“在所有可以發音的詞中，那些表示遺憾的詞大多都在最簡單的紙上。”我敢打賭，這就是 J'zargo 正在尋找的詞。是時候澄清他的意圖了...","color":"aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"正對Ryliath城門的這座雕塑看起來有點意思……我應該聼從Sylvandre的建議，去和Dahäl大師Yaakov Rav見上一面。他的家應該Ryliath高處的瀑布旁邊。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"正對Ryliath城門的這座雕塑看起來有點意思...我應該聼從Sylvandre的建議，去和Dahäl大師Yaakov Rav見上一面。他的家應該Ryliath高處的瀑布旁邊。","color":"aqua"}]}

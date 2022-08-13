@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"今天發生了太多事情：La Flamme Noire不復存在；另一個王國的女神Gaya顯靈，並向我們施以援手，將她的孩子送到這裡；Relgon死了；Sérile 拋棄了我們……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"今天發生了太多事情：La Flamme Noire不復存在；另一個王國的女神Gaya顯靈，並向我們施以援手，將她的孩子送到這裡；Relgon死了；Sérile 拋棄了我們...","color":"dark_aqua"}]}

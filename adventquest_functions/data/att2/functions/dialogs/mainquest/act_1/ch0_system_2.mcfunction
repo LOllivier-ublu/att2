@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"Step into the light...","color":"gray",
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"踏入光芒……","color":"gray","italic":true}
+tellraw @a[scores={LANGUAGE=2}] {"text":"踏入光芒...","color":"gray","italic":true}

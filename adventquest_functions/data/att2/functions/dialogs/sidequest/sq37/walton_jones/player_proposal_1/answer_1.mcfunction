@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"交易，當你嚇跑那些怪物時，我會看看它。沿著洪流走下去，你會很容易找到它們......","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"交易，當你嚇跑那些怪物時，我會看看它。沿著洪流走下去，你會很容易找到它們...","color":"dark_aqua"}]}

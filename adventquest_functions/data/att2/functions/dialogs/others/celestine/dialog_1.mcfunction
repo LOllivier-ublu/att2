@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Célestine : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Célestine : ","color":"green","extra":[{"text":"嘿，讓我看看你身上都穿了些啥玩意！嗯，有意思……啥？你不想把它們卖給我？好吧，如果你有其它合適的東西想卖給我的話，我會很樂意和你做交易的。","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Célestine 打交道"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Célestine : ","color":"green","extra":[{"text":"嘿，讓我看看你身上都穿了些啥玩意！嗯，有意思...啥？你不想把它們卖給我？好吧，如果你有其它合適的東西想卖給我的話，我會很樂意和你做交易的。","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Célestine 打交道"}}]}]}

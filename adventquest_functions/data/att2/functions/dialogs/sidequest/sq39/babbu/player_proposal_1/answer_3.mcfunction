@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Babbu : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"所有……所有這些？但是，你是慷慨的化身！！我會好好利用這些 Chronothons... 非常感謝你，我的朋友！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"所有...所有這些？但是，你是慷慨的化身！！我會好好利用這些 Chronothons... 非常感謝你，我的朋友！","color":"dark_aqua"}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Joël Roblochon : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"嘿，小心！你還好嗎？你在壁爐裡做什麼該死的？這座宮殿是真正的瑞士奶酪，擁有所有這些秘密通道！嗯……這也許可以解釋我前幾天在烤箱底部發現的這個燒焦的靴子……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"嘿，小心！你還好嗎？你在壁爐裡做什麼該死的？這座宮殿是真正的瑞士奶酪，擁有所有這些秘密通道！嗯...這也許可以解釋我前幾天在烤箱底部發現的這個燒焦的靴子...","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq30/joel_roblochon/player_proposal_1/choice_1

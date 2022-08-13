@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"我嘗試過用自製的門堵住牆上的洞……但那些笨蛋蜘蛛總會試著用各種方法擠進來。我現在已經不敢再回去了……如果你能幫我把這些蜘蛛處理掉，我就給你一間房，讓你在裏頭睡上一晚！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"我嘗試過用自製的門堵住牆上的洞...但那些笨蛋蜘蛛總會試著用各種方法擠進來。我現在已經不敢再回去了...如果你能幫我把這些蜘蛛處理掉，我就給你一間房，讓你在裏頭睡上一晚！","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你會設法找到進入那些曲折的路。我知道。如果您設法到達鎮中心，您將找到足夠的時間寶石來激活 Tellurön 的所有傳送門……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你會設法找到進入那些曲折的路。我知道。如果您設法到達鎮中心，您將找到足夠的時間寶石來激活 Tellurön 的所有傳送門...","color":"dark_aqua"}]}

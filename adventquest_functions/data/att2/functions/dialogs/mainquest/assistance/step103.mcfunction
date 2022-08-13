@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aramis説，Vonaheim在他其爪牙的幫助下建造了一座巨大的城堡。他肯定找到了時間之石......這意味著，我現在得先找到那座城堡。先沿路往Eolorion的西邊走走看吧。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aramis説，Vonaheim在他其爪牙的幫助下建造了一座巨大的城堡。他肯定找到了時間之石...這意味著，我現在得先找到那座城堡。先沿路往Eolorion的西邊走走看吧。","color":"aqua"}]}

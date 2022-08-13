@@ -16,4 +16,4 @@ title @a[scores={LANGUAGE=1}] actionbar {"text":"~ ","color":"dark_red","extra":
 
 #CHINESE LANGUAGE
 
-title @a[scores={LANGUAGE=2}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"你的名聲變了……","color":"dark_gray"},{"text":" ~","color":"dark_red"}]}
+title @a[scores={LANGUAGE=2}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"你的名聲變了...","color":"dark_gray"},{"text":" ~","color":"dark_red"}]}

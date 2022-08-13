@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"你好，我很幸運！我需要有人……打開我房間的鎖，通往附近寺廟的門。它很少被訪問，我是唯一一個照顧它的人。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"你好，我很幸運！我需要有人...打開我房間的鎖，通往附近寺廟的門。它很少被訪問，我是唯一一個照顧它的人。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq12/rena_sun/player_proposal_1/choice_1

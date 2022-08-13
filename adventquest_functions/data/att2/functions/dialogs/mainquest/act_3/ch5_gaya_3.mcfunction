@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gaya : ","color":"dark_green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gaya : ","color":"dark_green","extra":[{"text":"非也。 Relgon終有一天會轉世到我的世界，但他不會是你們認識的那個Relgon。他不會知道自己以前是誰……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gaya : ","color":"dark_green","extra":[{"text":"非也。 Relgon終有一天會轉世到我的世界，但他不會是你們認識的那個Relgon。他不會知道自己以前是誰...","color":"dark_aqua"}]}

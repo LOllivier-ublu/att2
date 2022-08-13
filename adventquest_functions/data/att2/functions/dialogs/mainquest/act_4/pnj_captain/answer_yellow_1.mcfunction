@@ -22,4 +22,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Captain : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 隊長 : ","color":"green","extra":[{"text":"哦真的嗎？如你所願，但一旦在另一邊，我們不會再次打開你，直到敵人被擊潰……我們會從牆壁上掩護你，所以不要走得太遠。開門！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 隊長 : ","color":"green","extra":[{"text":"哦真的嗎？如你所願，但一旦在另一邊，我們不會再次打開你，直到敵人被擊潰...我們會從牆壁上掩護你，所以不要走得太遠。開門！","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Abmup & Nomit regains all their lives..
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"Abmup & Nomit 重獲所有生命……","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"Abmup & Nomit 重獲所有生命...","color":"gray","italic":true}

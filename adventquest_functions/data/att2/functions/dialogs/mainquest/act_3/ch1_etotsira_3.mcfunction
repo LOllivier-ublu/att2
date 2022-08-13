@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"……你居然屈服於絕望，這太讓我失望了。或者……難道説你被誰控制了？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"...你居然屈服於絕望，這太讓我失望了。或者...難道説你被誰控制了？","color":"dark_aqua"}]}

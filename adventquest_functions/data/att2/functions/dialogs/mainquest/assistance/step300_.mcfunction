@@ -20,6 +20,6 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-<°>- Side quests completed : ","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我的主要任務到此告一段落了……但相對的，我現在可以尽情地幫助Sylberländ、Angband和Ouranos的人們，同時繼續我在这片大地上的探索未知之旅了。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我的主要任務到此告一段落了...但相對的，我現在可以尽情地幫助Sylberländ、Angband和Ouranos的人們，同時繼續我在这片大地上的探索未知之旅了。","color":"aqua"}]}
 
 tellraw @s[scores={LANGUAGE=2}] {"text":"-<°>- 支線任務完成 : ","color":"gray","extra":[{"score":{"name":"@s","objective":"SIDEQUEST"},"color":"red"},{"text":" / ","color":"grey"},{"text":"60","color":"dark_green"}]}

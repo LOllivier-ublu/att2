@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jack Arrow : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"這裡已經沒有寶藏了，亞蘇納克海盜偷走了我們的一切！拜託，我們不想惹麻煩，我們已經受夠了……等等，我可以帶你看看他們的一艘船擱淺的地方，裡面有一個巨額獎金。沉船位於從這裡向南的海岸上。它不容易到達，這就是為什麼我確信還沒有人偷走它。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"這裡已經沒有寶藏了，亞蘇納克海盜偷走了我們的一切！拜託，我們不想惹麻煩，我們已經受夠了...等等，我可以帶你看看他們的一艘船擱淺的地方，裡面有一個巨額獎金。沉船位於從這裡向南的海岸上。它不容易到達，這就是為什麼我確信還沒有人偷走它。","color":"dark_aqua"}]}

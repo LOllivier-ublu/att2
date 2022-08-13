@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"那麼你有沒有發現我女兒在地下墓穴中的路徑的任何線索？墓地底部肯定有一個古老的小墓穴，俯瞰著地下墓穴的入口……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"那麼你有沒有發現我女兒在地下墓穴中的路徑的任何線索？墓地底部肯定有一個古老的小墓穴，俯瞰著地下墓穴的入口...","color":"dark_aqua"}]}

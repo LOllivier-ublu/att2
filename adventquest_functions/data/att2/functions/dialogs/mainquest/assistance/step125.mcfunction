@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這個巨大的石像希望我能幫他的忙。確實，我應該幫助他，這樣我就能得到他的幫助，或者不至於被他幹掉。如果他能幫我解決前進的問題就好了……","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這個巨大的石像希望我能幫他的忙。確實，我應該幫助他，這樣我就能得到他的幫助，或者不至於被他幹掉。如果他能幫我解決前進的問題就好了...","color":"aqua"}]}

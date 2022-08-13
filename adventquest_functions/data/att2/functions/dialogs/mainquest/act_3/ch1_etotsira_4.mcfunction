@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"……哦呀，我擔心的事情還是發生了。既然你不願意聽我作任何解釋，那我也不能放任你殺了我——這次對話的結果，想必我們倆都心知肚明了。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"...哦呀，我擔心的事情還是發生了。既然你不願意聽我作任何解釋，那我也不能放任你殺了我——這次對話的結果，想必我們倆都心知肚明了。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1},x=-4984,y=105,z=-4908,distance=..10] {"selector":
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2},x=-4984,y=105,z=-4908,distance=..10] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[我非常尊重阿德里安國王，我不想為了不到一千個克羅諾頓而背叛他……別告訴我你買不起，我的女王…… -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @s[x=-4984,y=105,z=-4908,distance=..10] run execute if score SQ30 SIDEQUEST matches 5 run function att2:cinematic/sidequest/30/eldaris/answer_3_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 3"}}]}
+tellraw @a[scores={LANGUAGE=2},x=-4984,y=105,z=-4908,distance=..10] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[我非常尊重阿德里安國王，我不想為了不到一千個克羅諾頓而背叛他...別告訴我你買不起，我的女王... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @s[x=-4984,y=105,z=-4908,distance=..10] run execute if score SQ30 SIDEQUEST matches 5 run function att2:cinematic/sidequest/30/eldaris/answer_3_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 3"}}]}

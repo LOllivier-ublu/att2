@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"這兒就是維度傳送間。請小心，否則……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"這兒就是維度傳送間。請小心，否則...","color":"dark_aqua"}]}

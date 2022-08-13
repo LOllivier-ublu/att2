@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"J'zargo，他全身心投入到這樣的追求中，這一事實無可爭辯地證明了他決心被認識和接受......","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"J'zargo，他全身心投入到這樣的追求中，這一事實無可爭辯地證明了他決心被認識和接受...","color":"dark_aqua"}]}

@@ -17,4 +17,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Feanorth : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"戰爭結束了，但在 Angor 等待著我們的是一項漫長的清理、調查和重建工作……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"戰爭結束了，但在 Angor 等待著我們的是一項漫長的清理、調查和重建工作...","color":"dark_aqua"}]}

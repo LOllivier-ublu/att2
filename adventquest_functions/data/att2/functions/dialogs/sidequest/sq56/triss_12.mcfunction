@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"我感受到了你內心的仇恨，<玩家的名字>，我無法對它懷恨在心。但你有選擇，你不必殺他……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"我感受到了你內心的仇恨，<玩家的名字>，我無法對它懷恨在心。但你有選擇，你不必殺他...","color":"dark_aqua"}]}

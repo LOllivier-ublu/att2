@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Mercurius : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"哦，有辦法……好吧，也許我的第一次訓練並不是完全無私的，因為通過測試你，我希望你能以通過的最終目標爬上梯子，這是被選中的人唯一可以達到的挑戰。 ...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"哦，有辦法...好吧，也許我的第一次訓練並不是完全無私的，因為通過測試你，我希望你能以通過的最終目標爬上梯子，這是被選中的人唯一可以達到的挑戰。 ...","color":"dark_aqua"}]}

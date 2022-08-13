@@ -20,6 +20,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Romuald，對不起，你的狗，米婭……她死了……","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Romuald，對不起，你的狗，米婭...她死了...","color":"aqua"}]}
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*悲傷* ...這就是我所害怕的...這個世界太殘酷了，它不值一瓶酒的底部...無論如何謝謝你給的麻煩，這裡有一些Chronotons .現在我想一個人呆著。","color":"dark_aqua"}]}

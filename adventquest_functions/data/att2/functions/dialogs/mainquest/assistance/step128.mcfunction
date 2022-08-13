@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一扇巨大的綠寶石大門擋住了我的去路。門後肯定隱藏著一些重要的東西......我必須在這四周找到一把綠寶石鑰匙......","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一扇巨大的綠寶石大門擋住了我的去路。門後肯定隱藏著一些重要的東西...我必須在這四周找到一把綠寶石鑰匙...","color":"aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Homer : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"嘿，就是你打開前往島嶼中心的道路的嗎？我偷偷地溜進地牢，發現了不少好東西——包括這件能提高游泳速度、延長水下停留時間的護甲……想要嗎？","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/homer_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Homer 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"嘿，就是你打開前往島嶼中心的道路的嗎？我偷偷地溜進地牢，發現了不少好東西——包括這件能提高游泳速度、延長水下停留時間的護甲...想要嗎？","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/homer_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Homer 的銷售情況。"}}]}]}

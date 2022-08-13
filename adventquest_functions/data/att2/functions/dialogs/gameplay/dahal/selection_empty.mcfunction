@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"No spell selected...","color":"gray"}
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"未選擇咒語……","color":"gray"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"未選擇咒語...","color":"gray"}

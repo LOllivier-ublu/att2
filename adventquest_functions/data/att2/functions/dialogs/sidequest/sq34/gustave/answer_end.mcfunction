@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gustave : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"太好了，你回來了！亞歷山大，熱羅在哪裡？他……你被攻擊了是嗎？我將不得不向王室宣布這件事……當我告訴他們我們需要加強對這項工作的保護時，他們的建設現在會慢得多。好的，拿下這 200 個 Chronotons。我們沒有時間可以浪費...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"太好了，你回來了！亞歷山大，熱羅在哪裡？他...你被攻擊了是嗎？我將不得不向王室宣布這件事...當我告訴他們我們需要加強對這項工作的保護時，他們的建設現在會慢得多。好的，拿下這 200 個 Chronotons。我們沒有時間可以浪費...","color":"dark_aqua"}]}

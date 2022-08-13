@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Phoenix村就在我的左邊。去Angor之前，我應該先到那兒拿其中一個印章，這樣就可以節省時間了……","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Phoenix村就在我的左邊。去Angor之前，我應該先到那兒拿其中一個印章，這樣就可以節省時間了...","color":"aqua"}]}

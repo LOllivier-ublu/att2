@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Karön regains all his lives...","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"挑戰失敗，Karön恢復至滿血狀態了……","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"挑戰失敗，Karön恢復至滿血狀態了...","color":"gray","italic":true}

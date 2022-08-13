@@ -20,9 +20,9 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Raj Kutra : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你是Raj嗎？我想和你談談有关Syri Lorth的事……","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你是Raj嗎？我想和你談談有关Syri Lorth的事...","color":"aqua"}]}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"啊，Syri。她真的很漂亮，不是嗎？徐徐北風，金髮飄蕩，載吾入夢……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"啊，Syri。她真的很漂亮，不是嗎？徐徐北風，金髮飄蕩，載吾入夢...","color":"dark_aqua"}]}
 
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_1
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_0

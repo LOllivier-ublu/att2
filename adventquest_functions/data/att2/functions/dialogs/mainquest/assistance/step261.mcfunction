@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"顯然，我被帶入了一個在我看來極其遙遠的未來的時間性。我必須通過通道離開那裡，我別無選擇......","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"顯然，我被帶入了一個在我看來極其遙遠的未來的時間性。我必須通過通道離開那裡，我別無選擇...","color":"aqua"}]}

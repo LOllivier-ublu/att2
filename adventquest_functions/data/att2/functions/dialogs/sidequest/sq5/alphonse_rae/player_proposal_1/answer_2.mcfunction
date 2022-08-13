@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alphonse Rae : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"啊，是的，他怎麼會認為我沒有我的兔子孩子呢？反正那東西就安靜地躺在河邊的一個山洞裡，我看見了！順著溪流穿過森林，洞穴就在它的右岸……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"啊，是的，他怎麼會認為我沒有我的兔子孩子呢？反正那東西就安靜地躺在河邊的一個山洞裡，我看見了！順著溪流穿過森林，洞穴就在它的右岸...","color":"dark_aqua"}]}

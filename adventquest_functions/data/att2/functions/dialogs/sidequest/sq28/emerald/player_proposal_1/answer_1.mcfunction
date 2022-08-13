@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1},x=-5309,y=102,z=-6195,distance=..7] {"text":" °-
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2},x=-5309,y=102,z=-6195,distance=..7] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"那麼是時候了！走向東北的小路。我希望你能在她出事之前加入我的塞勒涅……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2},x=-5309,y=102,z=-6195,distance=..7] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"那麼是時候了！走向東北的小路。我希望你能在她出事之前加入我的塞勒涅...","color":"dark_aqua"}]}

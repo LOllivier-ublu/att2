@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile 下定了決心，我必須在它摧毀整個城市之前阻止它……它會產生一種 Dahäl 球體，我必須在它完全充電之前摧毀它。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile 下定了決心，我必須在它摧毀整個城市之前阻止它...它會產生一種 Dahäl 球體，我必須在它完全充電之前摧毀它。","color":"aqua"}]}

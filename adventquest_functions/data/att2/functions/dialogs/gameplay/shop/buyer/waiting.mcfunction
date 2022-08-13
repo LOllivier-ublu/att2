@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Place your goods on the counter....","c
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"請將商品投至柜台上……","color":"gray"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"請將商品投至柜台上...","color":"gray"}

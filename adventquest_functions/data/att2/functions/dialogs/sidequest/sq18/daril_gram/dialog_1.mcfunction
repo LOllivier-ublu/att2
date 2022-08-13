@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Daril Gram : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"*悲傷和憤怒*丹尼爾......這......這些怪物不會逍遙法外！狂熱分子真的找不到原因……直到你死！刺客……我願意為複仇付出任何代價。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"*悲傷和憤怒*丹尼爾...這...這些怪物不會逍遙法外！狂熱分子真的找不到原因...直到你死！刺客...我願意為複仇付出任何代價。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq18/daril_gram/player_proposal_1/choice_1

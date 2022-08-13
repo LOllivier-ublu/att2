@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Your corruption intensifies...","color"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"“墮落”的诅咒加劇了……","color":"gold"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"“墮落”的诅咒加劇了...","color":"gold"}

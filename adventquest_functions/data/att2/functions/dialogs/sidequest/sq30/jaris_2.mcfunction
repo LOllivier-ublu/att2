@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Jaris : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"不要說！我必須承擔我的責任！這是我的主意，我偷了他們去見伊希爾，她不知道。不過我已經準備好給出計劃了……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"不要說！我必須承擔我的責任！這是我的主意，我偷了他們去見伊希爾，她不知道。不過我已經準備好給出計劃了...","color":"dark_aqua"}]}

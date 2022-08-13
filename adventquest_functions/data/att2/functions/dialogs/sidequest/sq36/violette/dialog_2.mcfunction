@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"你還想和我做什麼？等待 ！我聽說過你。我聽說你在該地區幫助我們中的一些人……看，幾年前我失去了父母。他們被埋在高處Eol山谷的墓地中。不幸的是，幾個月前，怪物開始在那裡蔓延。奇怪的是，我父母墓穴的入口被封了，我希望能夠再次進入它。你會幫我嗎 ？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"你還想和我做什麼？等待 ！我聽說過你。我聽說你在該地區幫助我們中的一些人...看，幾年前我失去了父母。他們被埋在高處Eol山谷的墓地中。不幸的是，幾個月前，怪物開始在那裡蔓延。奇怪的是，我父母墓穴的入口被封了，我希望能夠再次進入它。你會幫我嗎 ？","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq36/violette/player_proposal_1/choice_1

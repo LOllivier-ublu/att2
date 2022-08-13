@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"The elevator went back up to the top...
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"電梯又回到了頂層……","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"電梯又回到了頂層...","color":"gray","italic":true}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"戰爭爆發了。但是，大部分凡人們對La Flamme Noire充滿恐懼——於是，他們驅逐我們、殺害我們……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"戰爭爆發了。但是，大部分凡人們對La Flamme Noire充滿恐懼——於是，他們驅逐我們、殺害我們...","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"山谷，不完全是我所認為的“家”，尤其是這次……我需要一個傳送門才能返回瑞莉亞斯。如果我沒記錯的話，我不得不從我家後面街道上的一棟建築物上跳下來。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"山谷，不完全是我所認為的“家”，尤其是這次...我需要一個傳送門才能返回瑞莉亞斯。如果我沒記錯的話，我不得不從我家後面街道上的一棟建築物上跳下來。","color":"aqua"}]}

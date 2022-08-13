@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"你覺得你是在恐嚇我嗎？我沒有錯：進入銀行偷錢的不是我……而你的侵略只會讓我的指控在所有人眼中更加真實！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"你覺得你是在恐嚇我嗎？我沒有錯：進入銀行偷錢的不是我...而你的侵略只會讓我的指控在所有人眼中更加真實！","color":"dark_aqua"}]}

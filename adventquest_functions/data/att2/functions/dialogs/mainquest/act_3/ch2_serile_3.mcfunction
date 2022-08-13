@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sérile : ","color":"yellow","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"……我們必須返回營地了。營地見。","color":"dark_aqua","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"...我們必須返回營地了。營地見。","color":"dark_aqua","italic":true}]}

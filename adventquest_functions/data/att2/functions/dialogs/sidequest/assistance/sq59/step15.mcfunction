@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hero's Accomplishment -°- : "
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"對了，這裏是希爾街區，我所有冒險的起點……如果我沒記錯，傳送門就在我公寓後面的一棟建築物的高處。我必須從另一棟樓跳下來，這樣才能不改變……","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"對了，這裏是希爾街區，我所有冒險的起點...如果我沒記錯，傳送門就在我公寓後面的一棟建築物的高處。我必須從另一棟樓跳下來，這樣才能不改變...","color":"aqua","italic":true}]}

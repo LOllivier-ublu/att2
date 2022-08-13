@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"還想要什麽別的嗎？我雖然不介意你進來我家，但也請不要得寸進尺。你看起來像個旅行者，對嗎？那請到別的地方去旅行吧……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"還想要什麽別的嗎？我雖然不介意你進來我家，但也請不要得寸進尺。你看起來像個旅行者，對嗎？那請到別的地方去旅行吧...","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"那是熱的！真正的爆破專家！這裡還有一段話，她一定留下了關於下一個目的地的線索……","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"那是熱的！真正的爆破專家！這裡還有一段話，她一定留下了關於下一個目的地的線索...","color":"aqua"}]}

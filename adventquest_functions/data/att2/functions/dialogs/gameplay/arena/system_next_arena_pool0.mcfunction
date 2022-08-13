@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[繼續…… -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @a[tag=InArena] run function att2:gameplay/arena/pool0/choosing_arena"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[繼續... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @a[tag=InArena] run function att2:gameplay/arena/pool0/choosing_arena"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

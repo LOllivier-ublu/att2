@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon 認為 Néleptron 不足以覲見國王。它開始激怒我……就這樣吧！我們去找另一個 Neleptron，那裡應該有另一條路。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon 認為 Néleptron 不足以覲見國王。它開始激怒我...就這樣吧！我們去找另一個 Neleptron，那裡應該有另一條路。","color":"aqua"}]}

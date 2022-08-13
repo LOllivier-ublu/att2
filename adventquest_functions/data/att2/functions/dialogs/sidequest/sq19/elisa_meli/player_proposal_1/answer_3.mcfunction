@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Elisa Meli : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"什麼！我不是那個，不，我的意思是......但是一個白痴喜歡什麼權利......你不會成為一名警衛！？等等，不，請不要把我關進監獄，我不是故意傷害她的馬的！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"什麼！我不是那個，不，我的意思是...但是一個白痴喜歡什麼權利...你不會成為一名警衛！？等等，不，請不要把我關進監獄，我不是故意傷害她的馬的！","color":"dark_aqua"}]}

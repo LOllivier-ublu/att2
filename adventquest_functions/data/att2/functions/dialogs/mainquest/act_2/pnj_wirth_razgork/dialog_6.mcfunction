@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wirth Razgork : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"她現在住在Méleïm。這座小鎮位於Sylberländ東邊，那裏的建築憑依著一座巨大的臨海悬崖。想去那座小鎮的話，出城門后左轉，然後沿大路向北走，直到走過一座大橋后再右轉向東走就是——簡而言之，沿著指向Méleïm的路牌走就可以了。到那以后，記得先找鎮長——他就住在小鎮最高處的屋子裏……他會告訴你Indra的住處。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"她現在住在Méleïm。這座小鎮位於Sylberländ東邊，那裏的建築憑依著一座巨大的臨海悬崖。想去那座小鎮的話，出城門后左轉，然後沿大路向北走，直到走過一座大橋后再右轉向東走就是——簡而言之，沿著指向Méleïm的路牌走就可以了。到那以后，記得先找鎮長——他就住在小鎮最高處的屋子裏...他會告訴你Indra的住處。","color":"dark_aqua"}]}

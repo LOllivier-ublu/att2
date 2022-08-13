@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucas : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"停在那兒陌生人，哪陣好風把你帶到那裡？不！等等，不要把你的話扔在風中！讓我自我介紹一下。我是盧卡斯，傑出的風藝術家……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"停在那兒陌生人，哪陣好風把你帶到那裡？不！等等，不要把你的話扔在風中！讓我自我介紹一下。我是盧卡斯，傑出的風藝術家...","color":"dark_aqua"}]}

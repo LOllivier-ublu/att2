@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"事實上，她的名字是 Sélène，但自從她的母親 Tatiana 去世後，她取了她的綽號：“Tina”。 Sélène 因為工作原因，已經很少見媽媽了，所以當她 7 歲失去媽媽時，她很難過。她從13歲就決定追隨她的腳步。不得不說，我沒有達標……但現在Sélène已經17歲了，我不想像她媽媽一樣失去她。她是我所剩無幾...不要讓我失望。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"事實上，她的名字是 Sélène，但自從她的母親 Tatiana 去世後，她取了她的綽號：“Tina”。 Sélène 因為工作原因，已經很少見媽媽了，所以當她 7 歲失去媽媽時，她很難過。她從13歲就決定追隨她的腳步。不得不說，我沒有達標...但現在Sélène已經17歲了，我不想像她媽媽一樣失去她。她是我所剩無幾...不要讓我失望。","color":"dark_aqua"}]}

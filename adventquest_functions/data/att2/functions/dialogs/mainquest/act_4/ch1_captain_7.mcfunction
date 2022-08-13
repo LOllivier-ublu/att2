@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Captain : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Captain : ","color":"green","extra":[{"text":"所以你要離開我們了？我被告知你的任務。我只能祝你好運：從遠征中返回沃納海姆地牢的人太少了……但是，如果有人能成功，我相信那就是你！拜託了伙計們！來吧！為什麼不給他開門？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Captain : ","color":"green","extra":[{"text":"所以你要離開我們了？我被告知你的任務。我只能祝你好運：從遠征中返回沃納海姆地牢的人太少了...但是，如果有人能成功，我相信那就是你！拜託了伙計們！來吧！為什麼不給他開門？","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我想，我們將不得不靠自己的力量面對 La Flamme Noire。 Relgon那麽相信我，希望我不會讓他失望……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我想，我們將不得不靠自己的力量面對 La Flamme Noire。 Relgon那麽相信我，希望我不會讓他失望...","color":"dark_aqua"}]}

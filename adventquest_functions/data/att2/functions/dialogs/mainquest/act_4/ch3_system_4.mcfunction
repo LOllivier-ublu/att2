@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Geström is restoring all his health ba
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"格斯特倫正在恢復他所有的健康……","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"格斯特倫正在恢復他所有的健康...","color":"gray","italic":true}

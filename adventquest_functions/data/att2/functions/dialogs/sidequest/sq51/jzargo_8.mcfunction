@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"學生把他的骨頭帶到J'zargo。他是個白痴，浪費了 J'zargo 的時間……哦，但是上面有一些有趣的雕刻。這個白痴甚至沒有註意到他攜帶的是什麼，但可惜的是，J'zargo 在那裡了解它的價值。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"學生把他的骨頭帶到J'zargo。他是個白痴，浪費了 J'zargo 的時間...哦，但是上面有一些有趣的雕刻。這個白痴甚至沒有註意到他攜帶的是什麼，但可惜的是，J'zargo 在那裡了解它的價值。","color":"dark_aqua"}]}

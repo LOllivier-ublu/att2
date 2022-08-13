@@ -18,7 +18,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"你沒找錯人，我確實知道有關那座傳送門的傳説——畢竟我初出茅庐的時候讀了不少咒語書。但是，人們通常不喜歡聼這些東西——并非因爲那些故事晦涩乏味，而是只有那些愿意把自己至于危险境地的人才能感受这些传说故事的魅力……你是那種，願意為弄懂一句雙關語而在廣袤的大地上奔波的人嗎？又或者説，你是那種，喜歡在爐火旁一邊喝茶，一邊聼無聊的夥伴講那些雜七雜八的八卦軼聞的人嗎？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"你沒找錯人，我確實知道有關那座傳送門的傳説——畢竟我初出茅庐的時候讀了不少咒語書。但是，人們通常不喜歡聼這些東西——并非因爲那些故事晦涩乏味，而是只有那些愿意把自己至于危险境地的人才能感受这些传说故事的魅力...你是那種，願意為弄懂一句雙關語而在廣袤的大地上奔波的人嗎？又或者説，你是那種，喜歡在爐火旁一邊喝茶，一邊聼無聊的夥伴講那些雜七雜八的八卦軼聞的人嗎？","color":"dark_aqua"}]}
 
 
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_2

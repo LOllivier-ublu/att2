@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"沒有更多的小動物在我的田野裡游盪？好吧，我希望他們不要回來……帶上這些 Chronotons。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"沒有更多的小動物在我的田野裡游盪？好吧，我希望他們不要回來...帶上這些 Chronotons。","color":"dark_aqua"}]}

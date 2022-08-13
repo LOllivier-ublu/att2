@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"在震驚與疑惑中，“La Flamme Noire”無情地奪去了靈媒和Gabrielle的性命……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"在震驚與疑惑中，“La Flamme Noire”無情地奪去了靈媒和Gabrielle的性命...","color":"dark_aqua"}]}

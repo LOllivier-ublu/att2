@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Elisa Meli : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"殺馬？我還沒有走那麼遠！...好吧，我承認，我做到了。儘管如此，她一直享有特權，父母給了她馬厩，現在她蜇了我的格雷戈爾……我只求她的尊重！還有我的男人！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"殺馬？我還沒有走那麼遠！...好吧，我承認，我做到了。儘管如此，她一直享有特權，父母給了她馬厩，現在她蜇了我的格雷戈爾...我只求她的尊重！還有我的男人！","color":"dark_aqua"}]}

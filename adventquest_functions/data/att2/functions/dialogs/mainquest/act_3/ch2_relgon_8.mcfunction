@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"三十個輪回前——按閣下的計算方式，大概是三十年前，一位靈媒來到Angor城，散佈了一則暗之預言……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"三十個輪回前——按閣下的計算方式，大概是三十年前，一位靈媒來到Angor城，散佈了一則暗之預言...","color":"dark_aqua"}]}

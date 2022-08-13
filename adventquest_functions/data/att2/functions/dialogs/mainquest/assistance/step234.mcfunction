@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我在學院，但不是主樓。我必須想辦法離開這裡，才能到達暫時性中沒有斷橋的更安全的部分……為此，我將不得不打開大門。在不同的時間範圍內可能存在隱藏的系統和密鑰。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我在學院，但不是主樓。我必須想辦法離開這裡，才能到達暫時性中沒有斷橋的更安全的部分...為此，我將不得不打開大門。在不同的時間範圍內可能存在隱藏的系統和密鑰。","color":"aqua"}]}

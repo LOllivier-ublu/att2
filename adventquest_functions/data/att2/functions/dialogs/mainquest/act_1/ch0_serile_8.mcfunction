@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"你剛才經歷的事情只是詛咒的開始。別擔心，鑒於你只是普通人，你不會像Namégot和Ranégot那樣陷入瘋狂……你只會在幾周后死去。","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"你剛才經歷的事情只是詛咒的開始。別擔心，鑒於你只是普通人，你不會像Namégot和Ranégot那樣陷入瘋狂...你只會在幾周后死去。","color":"yellow","italic":true}]}

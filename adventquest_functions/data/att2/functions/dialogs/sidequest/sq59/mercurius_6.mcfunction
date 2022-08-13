@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Mercurius : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"它離這裡很近，同時又很遠……讓我們保持樂觀：如果你設法來到這裡，這意味著你對自己足夠了解，可以找到到達那裡的方法。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"它離這裡很近，同時又很遠...讓我們保持樂觀：如果你設法來到這裡，這意味著你對自己足夠了解，可以找到到達那裡的方法。","color":"dark_aqua"}]}

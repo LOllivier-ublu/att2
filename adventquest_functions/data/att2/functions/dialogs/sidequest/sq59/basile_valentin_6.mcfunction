@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"我經歷的結果你知道的……但這不是我所期望的，因為它對我沒有用……情況變得具有諷刺意味，當我站在你面前時，我不再是經歷過的最好的人了從今起...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"我經歷的結果你知道的...但這不是我所期望的，因為它對我沒有用...情況變得具有諷刺意味，當我站在你面前時，我不再是經歷過的最好的人了從今起...","color":"dark_aqua"}]}

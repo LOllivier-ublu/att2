@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"不是這個。這不是你應該打開的書……它的作者確保將它隱藏在所有人的視線之外……","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"不是這個。這不是你應該打開的書...它的作者確保將它隱藏在所有人的視線之外...","color":"dark_aqua"}]}

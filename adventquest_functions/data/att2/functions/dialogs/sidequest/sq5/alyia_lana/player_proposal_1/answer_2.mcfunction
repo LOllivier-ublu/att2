@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alyia Lana : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alyia Lana : ","color":"green","extra":[{"text":"啊，是的，米婭，他的狗……我沒見過她，但我聽說有一隻狗在碼頭上閒逛。農民的牲畜也有很多失踪，一定是動物襲擊了他們的小屋並偷走了兔子……你可能可以從那裡開始，農場就在村莊的上方。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alyia Lana : ","color":"green","extra":[{"text":"啊，是的，米婭，他的狗...我沒見過她，但我聽說有一隻狗在碼頭上閒逛。農民的牲畜也有很多失踪，一定是動物襲擊了他們的小屋並偷走了兔子...你可能可以從那裡開始，農場就在村莊的上方。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucimène : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"Korlaph? 你是我的……我的愛人嗎？","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"Korlaph? 你是我的...我的愛人嗎？","color":"blue"}]}

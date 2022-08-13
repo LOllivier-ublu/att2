@@ -19,7 +19,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wirth Razgork : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"幹得漂亮！如果能保持這個狀態直到激活傳送門，你就可以在這座城市揚名立萬了！説來慚愧，我對空間之石的了解已經到此爲止了……不過別擔心，我給你帶來了個好消息：我打算把你介紹給我的摯友兼前旅伴——Indra Lorth。年輕時的她可謂馳騁Sylberländ的一把好手，她一定能助你一臂之力。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"幹得漂亮！如果能保持這個狀態直到激活傳送門，你就可以在這座城市揚名立萬了！説來慚愧，我對空間之石的了解已經到此爲止了...不過別擔心，我給你帶來了個好消息：我打算把你介紹給我的摯友兼前旅伴——Indra Lorth。年輕時的她可謂馳騁Sylberländ的一把好手，她一定能助你一臂之力。","color":"dark_aqua"}]}
 
 
 tellraw @s {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-024a-0000-00000000024a if entity @s[distance=..7] if score wirth_razgork_PNJ DIALOG matches 5..5 run function att2:dialogs/mainquest/act_2/pnj_wirth_razgork/dialog_6"},"hoverEvent":{"action":"show_text","value":"..."}}

@@ -26,4 +26,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 警衛 : ","color":"green","extra":[{"text":"你喜歡打架嗎？哦，博林！您可以獲得進入我們土地的權利。我們的傳統獎勵勇敢的戰士！你知道如何戰鬥，你在競技場上證明它，然後你去solomba！","color":"dark_aqua"}]}
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好吧，我跟著你，但我們不要浪費時間......","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好吧，我跟著你，但我們不要浪費時間...","color":"aqua"}]}

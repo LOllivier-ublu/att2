@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"給我看你告訴我的那個物體。你沒有隨身攜帶嗎？好的，等你收到了再來找我……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"給我看你告訴我的那個物體。你沒有隨身攜帶嗎？好的，等你收到了再來找我...","color":"dark_aqua"}]}

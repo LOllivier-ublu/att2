@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"媽的，總得有個保安……顯然，建造這個地方的人，是不想讓別人拿走那顆寶石……綠寶石似乎是這裡的動力源。每座塔都有自己的綠寶石，我得去一趟。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"媽的，總得有個保安...顯然，建造這個地方的人，是不想讓別人拿走那顆寶石...綠寶石似乎是這裡的動力源。每座塔都有自己的綠寶石，我得去一趟。","color":"aqua"}]}

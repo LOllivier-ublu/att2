@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Um... I'll give you ","color":"gray","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"嗯……我決定出 ","color":"gray","extra":[{"score":{"name":"total","objective":"RECYCLER"},"color":"yellow"},{"text":" 回收這些物品。","color":"gray"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"嗯...我決定出 ","color":"gray","extra":[{"score":{"name":"total","objective":"RECYCLER"},"color":"yellow"},{"text":" 回收這些物品。","color":"gray"}]}

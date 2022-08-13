@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Zirtion是一座美麗的城市，不是嗎？和平與寧靜是這個地方的關鍵詞......","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Zirtion是一座美麗的城市，不是嗎？和平與寧靜是這個地方的關鍵詞...","color":"dark_aqua"}]}

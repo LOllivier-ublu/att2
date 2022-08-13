@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Brutus : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"你是……（改变音調）你是誰？想惹麻煩就到別處去，不然我就要打人了！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"你是...（改变音調）你是誰？想惹麻煩就到別處去，不然我就要打人了！","color":"dark_aqua"}]}
 
 
 function att2:dialogs/mainquest/act_2/pnj_brutus/player_answer_proposal_1

@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Linda Shelly : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"*折疊*不！...你確定嗎？他穿著一件綠色的襯衫和褲子。他……根本就不該聽這個該死的嚮導……他向我的希爾凡許諾，在這座莊園里許諾了山上的奇觀，他向我們保證沒有危險……另一方面，他很好，來了活著回來了……膽小鬼，他在村子裡不肯跟我說話！我求你，去和他談談。他的名字是阿什利·威廉姆斯...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"*折疊*不！...你確定嗎？他穿著一件綠色的襯衫和褲子。他...根本就不該聽這個該死的嚮導...他向我的希爾凡許諾，在這座莊園里許諾了山上的奇觀，他向我們保證沒有危險...另一方面，他很好，來了活著回來了...膽小鬼，他在村子裡不肯跟我說話！我求你，去和他談談。他的名字是阿什利·威廉姆斯...","color":"dark_aqua"}]}

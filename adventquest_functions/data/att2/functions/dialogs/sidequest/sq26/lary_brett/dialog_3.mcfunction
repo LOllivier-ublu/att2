@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"所以你清理了地下墓穴的入口？不？只要這些亡靈到處亂跑，我就不會打開它……","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"所以你清理了地下墓穴的入口？不？只要這些亡靈到處亂跑，我就不會打開它...","color":"dark_aqua"}]}

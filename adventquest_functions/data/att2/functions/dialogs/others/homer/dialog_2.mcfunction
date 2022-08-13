@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Homer : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"是你嗎，我的甜心？噢不，我忘了，你現在哪也不能去了。你似乎還不知道，這座島是被詛咒的，島上的古老建築下正蟄伏著一種怪物。看看我的妻子，她就是因爲這座島上的怪物而失去了雙腿！如果你不想徹底變瘋，就不要呆在這裏。對我來説，一切都結束了，已經不用再戰鬥了……不過幸運的是，我的妻子還能留著頭回來！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"是你嗎，我的甜心？噢不，我忘了，你現在哪也不能去了。你似乎還不知道，這座島是被詛咒的，島上的古老建築下正蟄伏著一種怪物。看看我的妻子，她就是因爲這座島上的怪物而失去了雙腿！如果你不想徹底變瘋，就不要呆在這裏。對我來説，一切都結束了，已經不用再戰鬥了...不過幸運的是，我的妻子還能留著頭回來！","color":"dark_aqua"}]}

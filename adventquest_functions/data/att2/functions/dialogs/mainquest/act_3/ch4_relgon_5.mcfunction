@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"這是個艱難的決定。我知道它會對你產生很大的影響。Namrïn將會是下一任的國王......","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"這是個艱難的決定。我知道它會對你產生很大的影響。Namrïn將會是下一任的國王...","color":"dark_aqua"}]}
