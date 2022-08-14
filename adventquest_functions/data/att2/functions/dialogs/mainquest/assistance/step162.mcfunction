@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我看到那塊巨大的綠寶石了。我必須激活更多裝置才能解除它的掉落保護，然後讓它落到地上。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我看到那塊巨大的綠寶石了。我必須激活更多裝置才能解除它的掉落保護， 然後讓它落到地上。","color":"aqua"}]}

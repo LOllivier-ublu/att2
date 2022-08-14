@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hurriel Sun : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"哦，我明白了，我想我錯了你的動機。在我把你變成一個糟糕的傻瓜之前，你最好離開這所房子。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"哦， 我明白了， 我想我錯了你的動機。在我把你變成一個糟糕的傻瓜之前， 你最好離開這所房子。","color":"dark_aqua"}]}

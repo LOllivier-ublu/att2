@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The remains of the past -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 過去的遺跡 -°- : ","color":"gray","extra":[{"text":"這裡的實驗幾乎都失去控制了，繼續調查下去，我可不想空手而歸。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 過去的遺跡 -°- : ","color":"gray","extra":[{"text":"這裡的實驗幾乎都失去控制了， 繼續調查下去， 我可不想空手而歸。","color":"aqua","italic":true}]}

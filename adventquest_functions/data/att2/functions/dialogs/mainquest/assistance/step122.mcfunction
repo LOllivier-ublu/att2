@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"按Ithil公主的說法，我可以在其他維度找到時間之石。她在Ryliath宮殿旁的瀑布頂上的山洞裏幫我打開了通往Billgart的道路。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"按Ithil公主的說法， 我可以在其他維度找到時間之石。她在Ryliath宮殿旁的瀑布頂上的山洞裏幫我打開了通往Billgart的道路。","color":"aqua"}]}

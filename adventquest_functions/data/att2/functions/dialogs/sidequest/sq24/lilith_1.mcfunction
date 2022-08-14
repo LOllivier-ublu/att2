@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lilith : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"嗨嗨嗨！被困！你真的以為我會給你獎勵嗎？你會特別給我的好湯調味，人類太開胃了！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"嗨嗨嗨！ 被困！ 你真的以為我會給你獎勵嗎？ 你會特別給我的好湯調味， 人類太開胃了！ ","color":"dark_aqua"}]}

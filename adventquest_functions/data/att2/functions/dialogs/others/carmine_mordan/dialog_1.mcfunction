@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Carmine Mordan : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Carmine Mordan : ","color":"green","extra":[{"text":"你好，需要武器和護甲嗎？是的，你沒看走眼，雖然我是整個領地裏唯一的女鐵匠，但我的手藝可比那些男鐵匠的好多了！挑選自己鍾意的東西就行，質量絕對杠杠的！","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Carmine 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Carmine Mordan : ","color":"green","extra":[{"text":"你好， 需要武器和護甲嗎？ 是的， 你沒看走眼， 雖然我是整個領地裏唯一的女鐵匠， 但我的手藝可比那些男鐵匠的好多了！ 挑選自己鍾意的東西就行， 質量絕對杠杠的！ ","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/carmine_mordan_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Carmine 的銷售情況。"}}]}]}
 
 
 scoreboard players set carmine_mordan_PNJ DIALOG 2

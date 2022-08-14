@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 3
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 3 部分 -°- : ","color":"gray","extra":[{"text":"真是太不讓人放心了，J'zargo竟然跑到Billgart維度裡，我不能讓他擅自行動。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 3 部分 -°- : ","color":"gray","extra":[{"text":"真是太不讓人放心了， J'zargo竟然跑到Billgart維度裡， 我不能讓他擅自行動。","color":"aqua","italic":true}]}

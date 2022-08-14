@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"只有Gaya知道你的未來爲何。但對我來說，答案顯而易見：你的故事不會就此落幕...回到只屬於你的那個史詩般的時代吧，也只有在那裡，你才能為未來的考驗...那些難如登天的考驗...養精蓄銳。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"只有Gaya知道你的未來爲何。但對我來說， 答案顯而易見：你的故事不會就此落幕...回到只屬於你的那個史詩般的時代吧， 也只有在那裡， 你才能為未來的考驗...那些難如登天的考驗...養精蓄銳。","color":"dark_aqua"}]}

@@ -19,4 +19,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"...好吧，它是你的了。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"...好吧， 它是你的了。","color":"dark_aqua"}]}

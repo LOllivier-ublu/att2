@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"旅行者？不，你真的像個戰士！在這個地方矗立著通往我們偉大君主宮殿的大門。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"旅行者？ 不， 你真的像個戰士！ 在這個地方矗立著通往我們偉大君主宮殿的大門。","color":"dark_aqua"}]}

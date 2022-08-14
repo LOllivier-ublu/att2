@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Namrïn 太年輕了，看不到它，但你很像他。我不是在說外表。不，但你似乎被同樣的意志、同樣的力量所佔據。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Namrïn 太年輕了， 看不到它， 但你很像他。我不是在說外表。不， 但你似乎被同樣的意志、同樣的力量所佔據。","color":"dark_aqua"}]}

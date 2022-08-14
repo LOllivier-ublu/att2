@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Clear the passage -°- : ","color"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清障開路 -°- : ","color":"gray","extra":[{"text":" : "},{"text":"礦井入口已經塌陷到谷底去了，落石將洞口堵得嚴嚴實實的。Alfred Mornith在入口安置了引爆裝置，但是缺少連接部分。我需要在附近的礦道裡找到另外2根 ","color":"aqua","extra":[{"text":"<引線>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:string\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Fil conducteur\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Connecting thread\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua"}]}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清障開路 -°- : ","color":"gray","extra":[{"text":" : "},{"text":"礦井入口已經塌陷到谷底去了， 落石將洞口堵得嚴嚴實實的。Alfred Mornith在入口安置了引爆裝置， 但是缺少連接部分。我需要在附近的礦道裡找到另外2根 ","color":"aqua","extra":[{"text":"<引線>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:string\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Fil conducteur\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Connecting thread\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua"}]}]}]}

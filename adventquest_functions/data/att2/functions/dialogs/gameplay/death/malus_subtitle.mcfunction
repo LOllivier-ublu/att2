@@ -17,6 +17,6 @@ execute if score level DIFFICULTY matches 2 run title @s[scores={LANGUAGE=1}] su
 
 #CHINESE LANGUAGE
 
-execute if score level DIFFICULTY matches -1..0 run title @s[scores={LANGUAGE=2}] subtitle {"text":"你死了！你損失了所持 1/","color":"dark_red","extra":[{"score":{"name":"20","objective":"OP_CHRONOTON2"},"color":"dark_red"},{"text":" Chronotons 的 。","color":"dark_red"}]}
-execute if score level DIFFICULTY matches 1 run title @s[scores={LANGUAGE=2}] subtitle {"text":"你死了！你損失了所持 1/","color":"dark_red","extra":[{"score":{"name":"10","objective":"OP_CHRONOTON2"},"color":"dark_red"},{"text":" Chronotons 的 。","color":"dark_red"}]}
-execute if score level DIFFICULTY matches 2 run title @s[scores={LANGUAGE=2}] subtitle {"text":"你死了！你損失了所持 1/","color":"dark_red","extra":[{"score":{"name":"2","objective":"OP_CHRONOTON2"},"color":"dark_red"},{"text":" Chronotons 的 。","color":"dark_red"}]}
+execute if score level DIFFICULTY matches -1..0 run title @s[scores={LANGUAGE=2}] subtitle {"text":"你死了！ 你損失了所持 1/","color":"dark_red","extra":[{"score":{"name":"20","objective":"OP_CHRONOTON2"},"color":"dark_red"},{"text":" Chronotons 的 。","color":"dark_red"}]}
+execute if score level DIFFICULTY matches 1 run title @s[scores={LANGUAGE=2}] subtitle {"text":"你死了！ 你損失了所持 1/","color":"dark_red","extra":[{"score":{"name":"10","objective":"OP_CHRONOTON2"},"color":"dark_red"},{"text":" Chronotons 的 。","color":"dark_red"}]}
+execute if score level DIFFICULTY matches 2 run title @s[scores={LANGUAGE=2}] subtitle {"text":"你死了！ 你損失了所持 1/","color":"dark_red","extra":[{"score":{"name":"2","objective":"OP_CHRONOTON2"},"color":"dark_red"},{"text":" Chronotons 的 。","color":"dark_red"}]}

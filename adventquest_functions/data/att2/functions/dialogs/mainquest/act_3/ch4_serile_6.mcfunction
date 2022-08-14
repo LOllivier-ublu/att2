@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sérile : ","color":"yellow","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"而你，想要NAMRÏN，一個可憐乞丐的兒子，搶走本屬於我的王位？！","color":"dark_aqua","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"而你， 想要NAMRÏN， 一個可憐乞丐的兒子， 搶走本屬於我的王位？ ！ ","color":"dark_aqua","italic":true}]}

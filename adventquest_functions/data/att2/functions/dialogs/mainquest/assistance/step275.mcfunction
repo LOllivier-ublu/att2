@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我不知道這東西是不是死了，但可以肯定的是，我摧毀了一個重要的發電機。我必須盡快離開這個地方！！","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我不知道這東西是不是死了， 但可以肯定的是， 我摧毀了一個重要的發電機。我必須盡快離開這個地方！ ！ ","color":"aqua"}]}

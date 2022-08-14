@@ -19,7 +19,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"你這麼認為？憑什麼愚蠢的理由我應該原諒一個沒人給我的輕視？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"你這麼認為？ 憑什麼愚蠢的理由我應該原諒一個沒人給我的輕視？ ","color":"dark_aqua"}]}
 
 
 execute as @a[x=7954,y=115,z=6772,distance=..30] run function att2:dialogs/mainquest/act_4/pnj_ouran/player_answer_proposal_4

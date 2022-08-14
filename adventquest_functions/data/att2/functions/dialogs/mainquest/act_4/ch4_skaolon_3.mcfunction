@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"進去？哇哇哇，你有什麼資格去打擾我們輝煌而尊貴的國王的完美安息？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"進去？ 哇哇哇， 你有什麼資格去打擾我們輝煌而尊貴的國王的完美安息？ ","color":"dark_aqua"}]}

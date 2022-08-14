@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for Absorption!","colo
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"咒語“吸收·内化”已升級！","color":"gold"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"咒語“吸收·内化”已升級！ ","color":"gold"}

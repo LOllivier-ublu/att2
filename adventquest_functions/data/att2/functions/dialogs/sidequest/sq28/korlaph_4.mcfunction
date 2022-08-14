@@ -18,7 +18,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Korlaph : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"別擔心，我現在就在這裡！","color":"dark_red"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"別擔心， 我現在就在這裡！ ","color":"dark_red"}]}
 
 
 tellraw @a {"text":"A.BRA.HA.DA.BRA","obfuscated":true,"color":"dark_red"}

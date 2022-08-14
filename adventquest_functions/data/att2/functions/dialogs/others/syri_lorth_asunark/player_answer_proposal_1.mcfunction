@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"t
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[我們走吧！ -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute at @e[nbt={UUID:[I;0,1050,0,1051]}] if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/syri_lorth_asunark/answer_green_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡確認這個答案"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[我們走吧！  -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute at @e[nbt={UUID:[I;0,1050,0,1051]}] if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/syri_lorth_asunark/answer_green_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡確認這個答案"}}]}

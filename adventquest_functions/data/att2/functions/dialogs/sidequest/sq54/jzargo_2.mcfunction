@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"是的，J'zargo 不能浪費時間去理解那個愚蠢的學生是怎麼出來的。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"是的， J'zargo 不能浪費時間去理解那個愚蠢的學生是怎麼出來的。","color":"dark_aqua"}]}

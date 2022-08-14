@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hurriel's Keys -°- : ","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 下水道裡的鑰匙 -°- : ","color":"gray","extra":[{"text":"很好，Berni Dalph幫我打開了通往下水道的入口， ","color":"aqua","italic":true,"extra":[{"text":"<Hurriel的钥匙>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef d'Hurriel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Hurriel's Key\\\"}\"]}}}"},"extra":[{"text":"應該就在某處。","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 下水道裡的鑰匙 -°- : ","color":"gray","extra":[{"text":"很好， Berni Dalph幫我打開了通往下水道的入口，  ","color":"aqua","italic":true,"extra":[{"text":"<Hurriel的钥匙>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef d'Hurriel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Hurriel's Key\\\"}\"]}}}"},"extra":[{"text":"應該就在某處。","color":"aqua","italic":true}]}]}]}

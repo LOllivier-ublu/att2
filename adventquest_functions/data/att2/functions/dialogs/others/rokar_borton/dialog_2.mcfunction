@@ -16,6 +16,6 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Borton : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Borton : ","color":"green","extra":[{"text":"噢，又是你！和我的護甲武器打過招呼了嗎？","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/rokar_borton_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Borton 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Borton : ","color":"green","extra":[{"text":"噢， 又是你！ 和我的護甲武器打過招呼了嗎？ ","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/rokar_borton_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Borton 的銷售情況。"}}]}]}
 
 

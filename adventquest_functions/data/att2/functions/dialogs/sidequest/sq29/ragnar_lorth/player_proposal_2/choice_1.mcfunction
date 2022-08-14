@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1},x=-4158,y=70,z=-5584,distance=..7] {"selector":"@
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2},x=-4158,y=70,z=-5584,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[摧毀強盜營地！-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon1 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @a[scores={LANGUAGE=2},x=-4158,y=70,z=-5584,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[摧毀強盜營地！ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon1 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

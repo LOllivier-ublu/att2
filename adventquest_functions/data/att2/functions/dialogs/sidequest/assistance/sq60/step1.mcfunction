@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The ultimate challenge -°- : ","c
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 終極挑戰 -°- : ","color":"gray","extra":[{"text":"我早已無心回去了，這裡還有更多謎團等待我去發掘...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 終極挑戰 -°- : ","color":"gray","extra":[{"text":"我早已無心回去了， 這裡還有更多謎團等待我去發掘...","color":"aqua","italic":true}]}
 
 
 function att2:dialogs/sidequest/sq60/exploit_total

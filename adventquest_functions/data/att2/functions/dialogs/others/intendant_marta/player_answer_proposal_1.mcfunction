@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","extra":[{"text":" : "},{"text"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","extra":[{"text":" : "},{"text":"[支付900 Chronoton購买房子！-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-096a-0000-00000000096a if entity @s[distance=..7] if score intendant_marta_PNJ DIALOG matches 1..2 run function att2:dialogs/others/intendant_marta/answer_green_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","extra":[{"text":" : "},{"text":"[支付900 Chronoton購买房子！ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-096a-0000-00000000096a if entity @s[distance=..7] if score intendant_marta_PNJ DIALOG matches 1..2 run function att2:dialogs/others/intendant_marta/answer_green_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

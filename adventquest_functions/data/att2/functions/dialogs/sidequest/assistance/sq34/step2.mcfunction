@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- From ridge to the bridge -°- : ",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 從山脊到橋 -°- : ","color":"gray","extra":[{"text":"見著貨物了，可周圍除了打鬥留下的血跡之外再也見不到其他任何人。我應該在旁邊的山洞裡找找。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 從山脊到橋 -°- : ","color":"gray","extra":[{"text":"見著貨物了， 可周圍除了打鬥留下的血跡之外再也見不到其他任何人。我應該在旁邊的山洞裡找找。","color":"aqua","italic":true}]}

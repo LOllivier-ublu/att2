@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"打開中間這扇大門的方法已經很明显了。這裏有三個金色的鎖，對應三把大钥匙——我已經有了一把，還得再找兩把...它們一定就藏在外面的沼澤裏！","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"打開中間這扇大門的方法已經很明显了。這裏有三個金色的鎖， 對應三把大钥匙——我已經有了一把， 還得再找兩把...它們一定就藏在外面的沼澤裏！ ","color":"aqua"}]}

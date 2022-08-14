@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"你終於有時間來做我交代的任務了嗎？別忘了如果有需要的話一定要隨時找我補充裝備和武器啊！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"你終於有時間來做我交代的任務了嗎？ 別忘了如果有需要的話一定要隨時找我補充裝備和武器啊！ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_1

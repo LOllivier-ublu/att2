@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Garry Traskel : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"好吧，你沒有絆倒！謝謝，那是給你的！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"好吧， 你沒有絆倒！ 謝謝， 那是給你的！ ","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"[Sometimes, I guess there's just not en
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[有時，我猜只是沒有足夠的石頭]","color":"gold"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[有時， 我猜只是沒有足夠的石頭]","color":"gold"}

@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Les chevaux d'Hélèna]","color":"gree
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Hélèna's horses]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[毒馬兇手]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[毒馬兇手]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}

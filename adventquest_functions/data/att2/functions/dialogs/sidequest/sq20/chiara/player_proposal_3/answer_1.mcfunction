@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"你自己有一個真正的騙子的靈魂...畢竟，如果這是為安寧付出的代價...它有效，頂它！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"你自己有一個真正的騙子的靈魂...畢竟， 如果這是為安寧付出的代價...它有效， 頂它！ ","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"他現在一定在Kert沙漠。對他要有耐心，即使他看起來很討厭，你也會幫助他很多。但是要非常小心，不要說是我派你來的！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"他現在一定在Kert沙漠。對他要有耐心， 即使他看起來很討厭， 你也會幫助他很多。但是要非常小心， 不要說是我派你來的！ ","color":"dark_aqua"}]}

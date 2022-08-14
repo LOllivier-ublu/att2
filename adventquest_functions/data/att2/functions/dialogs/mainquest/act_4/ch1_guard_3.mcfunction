@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Guard : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"你暫時不能再進一步了。 Eolorion 被暴風雨襲擊，雪堵住了隧道的另一端。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"你暫時不能再進一步了。 Eolorion 被暴風雨襲擊， 雪堵住了隧道的另一端。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於明白了。那個把我到這裡的人，那個不想讓我早早死去的人，那個自稱是“S”的人.... 她就是Sérile，她迷惑我，企圖讓我找到你、殺死你。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於明白了。那個把我到這裡的人， 那個不想讓我早早死去的人， 那個自稱是“S”的人.... 她就是Sérile， 她迷惑我， 企圖讓我找到你、殺死你。","color":"aqua"}]}

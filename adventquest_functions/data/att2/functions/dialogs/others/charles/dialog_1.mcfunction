@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Charles : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Charles : ","color":"green","extra":[{"text":"嘿，想撞大運嗎？那你可就來對地方了。我這兒存了不少七七八八的玩意兒，來這裏想賭一把的人只需花費一定數量的Chronoton，就能隨機獲得它們！我提供了幾個價位，不同價位對應著不同品質的物品...準備好測試自己的手氣了嗎？","color":"dark_aqua","extra":[{"text":" [查看投注 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/charles_shop_opening"},"hoverEvent":{"action":"show_text","value":"点击这里查看 Charles 的投注。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Charles : ","color":"green","extra":[{"text":"嘿， 想撞大運嗎？ 那你可就來對地方了。我這兒存了不少七七八八的玩意兒， 來這裏想賭一把的人只需花費一定數量的Chronoton， 就能隨機獲得它們！ 我提供了幾個價位， 不同價位對應著不同品質的物品...準備好測試自己的手氣了嗎？ ","color":"dark_aqua","extra":[{"text":" [查看投注 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/charles_shop_opening"},"hoverEvent":{"action":"show_text","value":"点击这里查看 Charles 的投注。"}}]}]}

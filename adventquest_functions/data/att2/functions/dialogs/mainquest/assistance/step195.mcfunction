@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一堵玻璃牆擋住了去路。我得想辦法解開前面的大鈴鐺，敲響它，希望能打開通道...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一堵玻璃牆擋住了去路。我得想辦法解開前面的大鈴鐺， 敲響它， 希望能打開通道...","color":"aqua"}]}

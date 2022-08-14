@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你應該清楚我現在在這裏的原因。墮落泉源控制了我，我已時日無多——而這一切，都是你的錯。我要殺了你。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你應該清楚我現在在這裏的原因。墮落泉源控制了我， 我已時日無多——而這一切， 都是你的錯。我要殺了你。","color":"aqua"}]}

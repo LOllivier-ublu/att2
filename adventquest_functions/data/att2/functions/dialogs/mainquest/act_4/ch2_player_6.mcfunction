@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"在我看來，冰與產生氣流的系統相連，它可以將我一直推到主塔上...兩個副塔必須包含激活機制。我現在可以通過融化通往西塔的門上的冰來前往西塔。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"在我看來， 冰與產生氣流的系統相連， 它可以將我一直推到主塔上...兩個副塔必須包含激活機制。我現在可以通過融化通往西塔的門上的冰來前往西塔。","color":"aqua"}]}

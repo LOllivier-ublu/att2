@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"那裡，這就是被埋葬的聖域遺跡！ J'zargo 永遠不會迷路，沒有他，白痴學生也會迷路！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"那裡， 這就是被埋葬的聖域遺跡！  J'zargo 永遠不會迷路， 沒有他， 白痴學生也會迷路！ ","color":"dark_aqua"}]}

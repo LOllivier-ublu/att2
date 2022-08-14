@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"這可不是件容易的事情。我需要花很長時間才能做出傳送門——何況我不久前才剛給你做出了一個。不過，還是有一個可行的辦法：你是使用“時間之石“來穿越的，對吧？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"這可不是件容易的事情。我需要花很長時間才能做出傳送門——何況我不久前才剛給你做出了一個。不過， 還是有一個可行的辦法：你是使用“時間之石“來穿越的， 對吧？ ","color":"dark_aqua"}]}

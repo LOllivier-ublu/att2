@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Garry Traskel : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"比方說150個Chronotons！便宜貨 ！殺死大約十五隻這樣的動物，你就能賺到錢！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"比方說150個Chronotons！ 便宜貨 ！ 殺死大約十五隻這樣的動物， 你就能賺到錢！ ","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Clément : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"傳説，有一條夢魚被困在雲朵間很久很久。這個世界的國王一時興起，把它關押了起來。淚水汩汩地從它眼角留下，匯成了穿過這座城市的溪流。多麽令人心碎的故事，多麽可憐的動物...如果一切都是真的，希望有一天，我能除去它的枷鎖，給它久違的自由——哪怕它有時很危險，它也不應該被如此殘忍地對待！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"傳説， 有一條夢魚被困在雲朵間很久很久。這個世界的國王一時興起， 把它關押了起來。淚水汩汩地從它眼角留下， 匯成了穿過這座城市的溪流。多麽令人心碎的故事， 多麽可憐的動物...如果一切都是真的， 希望有一天， 我能除去它的枷鎖， 給它久違的自由——哪怕它有時很危險， 它也不應該被如此殘忍地對待！ ","color":"dark_aqua"}]}

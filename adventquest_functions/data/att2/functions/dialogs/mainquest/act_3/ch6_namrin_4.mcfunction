@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我想送給您一個禮物。我注意到您使用Dahäl的方式非常特殊，所以我認為您需要一本施咒書，所以我試著利用了使用泉源的力量，然後獲得了一個您可能感興趣的結果：","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我想送給您一個禮物。我注意到您使用Dahäl的方式非常特殊， 所以我認為您需要一本施咒書， 所以我試著利用了使用泉源的力量， 然後獲得了一個您可能感興趣的結果：","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Derim Kril : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"我的鑰匙有消息嗎？它肯定在隧道的底部，在文化之間。好好搜索！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"我的鑰匙有消息嗎？ 它肯定在隧道的底部， 在文化之間。好好搜索！ ","color":"dark_aqua"}]}

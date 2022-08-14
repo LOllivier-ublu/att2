@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Stockage Upgrade>","bold":false,"color":"light_purple","hoverEvent":{"action":"show_text","value":"擴展儲物空間"},"extra":[{"text":" [50 ESC]","color":"light_purple","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/stock_upgrade_esc"},"hoverEvent":{"action":"show_text","value":"點擊購買！"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Stockage Upgrade>","bold":false,"color":"light_purple","hoverEvent":{"action":"show_text","value":"擴展儲物空間"},"extra":[{"text":" [50 ESC]","color":"light_purple","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/stock_upgrade_esc"},"hoverEvent":{"action":"show_text","value":"點擊購買！ "}}]}]}

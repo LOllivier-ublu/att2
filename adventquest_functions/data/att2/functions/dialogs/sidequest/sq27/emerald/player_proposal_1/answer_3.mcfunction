@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我知道你會對這些東西感興趣。她去過的地方似乎與這些死去的人復活有關...但最重要的是找到我的女兒！寶物我不感興趣，在這些陰森森的地方拿走你想要的，但幫我找到她活著。我相信她會告訴你更多關於她正在尋找的寶藏的信息... 沿著 Méleïm 以西的小路前往 Mornith 礦場。祝你好運！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"我知道你會對這些東西感興趣。她去過的地方似乎與這些死去的人復活有關...但最重要的是找到我的女兒！ 寶物我不感興趣， 在這些陰森森的地方拿走你想要的， 但幫我找到她活著。我相信她會告訴你更多關於她正在尋找的寶藏的信息... 沿著 Méleïm 以西的小路前往 Mornith 礦場。祝你好運！ ","color":"dark_aqua"}]}

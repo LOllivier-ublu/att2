@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Joffrey : ","color":"g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"謝謝惠顧！請拿好房子的钥匙。您的新家就在這片街區——出門右轉后直走就是。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"謝謝惠顧！ 請拿好房子的钥匙。您的新家就在這片街區——出門右轉后直走就是。","color":"dark_aqua"}]}

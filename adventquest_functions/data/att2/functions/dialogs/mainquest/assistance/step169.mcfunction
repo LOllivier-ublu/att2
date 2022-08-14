@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"最後一顆綠寶石已經準備好釋放了，我只需要找到兩把綠寶石鑰匙就可以打開中間的門。他們必須在塔的最頂端。然後我就可以啟動掉落機制了！","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"最後一顆綠寶石已經準備好釋放了， 我只需要找到兩把綠寶石鑰匙就可以打開中間的門。他們必須在塔的最頂端。然後我就可以啟動掉落機制了！ ","color":"aqua"}]}

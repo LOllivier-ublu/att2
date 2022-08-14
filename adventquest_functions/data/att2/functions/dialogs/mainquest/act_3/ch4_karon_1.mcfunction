@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Karön : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Karön : ","color":"green","extra":[{"text":"你就是那個和Eternäns沆瀣一氣的陌生人嗎？這座要塞已不再屬於他們！我才是這兒的王！","color":"red"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Karön : ","color":"green","extra":[{"text":"你就是那個和Eternäns沆瀣一氣的陌生人嗎？ 這座要塞已不再屬於他們！ 我才是這兒的王！ ","color":"red"}]}

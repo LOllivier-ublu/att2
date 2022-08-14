@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Indra Lorth : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"這麽説，你喜歡冒險？我曾經經歷過無數次冒險，無數次將自己置於危險境地之中。我也曾想過重新踏上旅途，但背上的刺痛感一次次地把我拉回了現實...當青春仍存留于你手之時，就盡情享受吧，大千世界的美麗還等待著你的雙眼前去見證。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"這麽説， 你喜歡冒險？ 我曾經經歷過無數次冒險， 無數次將自己置於危險境地之中。我也曾想過重新踏上旅途， 但背上的刺痛感一次次地把我拉回了現實...當青春仍存留于你手之時， 就盡情享受吧， 大千世界的美麗還等待著你的雙眼前去見證。","color":"dark_aqua"}]}

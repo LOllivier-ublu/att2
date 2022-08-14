@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Fëanorth : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Fëanorth : ","color":"green","extra":[{"text":"軍隊準備就緒！這場戰鬥事關生死存亡，只待Relgon將軍一聲令下...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Fëanorth : ","color":"green","extra":[{"text":"軍隊準備就緒！ 這場戰鬥事關生死存亡， 只待Relgon將軍一聲令下...","color":"dark_aqua"}]}

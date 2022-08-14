@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"哦，你是一個送貨員，這太荒謬了，你看起來一點也不像。因此，如果您改變主意，請不要猶豫。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"哦， 你是一個送貨員， 這太荒謬了， 你看起來一點也不像。因此， 如果您改變主意， 請不要猶豫。","color":"dark_aqua"}]}

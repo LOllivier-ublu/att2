@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Joël Roblochon : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"任何。我所知道的唯一秘密出口就在前面，在通往我的肉類供應的走廊之後。激活隱藏在由兩支手電筒照亮的架子牆後面的槓桿。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"任何。我所知道的唯一秘密出口就在前面， 在通往我的肉類供應的走廊之後。激活隱藏在由兩支手電筒照亮的架子牆後面的槓桿。","color":"dark_aqua"}]}

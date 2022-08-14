@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"沒錯，它對你很有見地。但如果你發現這把弓在別人手裡，別人還沒準備好給你，我希望你把他的描述帶給我。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"沒錯， 它對你很有見地。但如果你發現這把弓在別人手裡， 別人還沒準備好給你， 我希望你把他的描述帶給我。","color":"dark_aqua"}]}

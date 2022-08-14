@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"現在幾點了？噢，我還以爲我已經把這封重要的信送到法院了。好吧，既然已經醒了，我也沒法睡回籠覺了。我得帶上這封信...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"現在幾點了？ 噢， 我還以爲我已經把這封重要的信送到法院了。好吧， 既然已經醒了， 我也沒法睡回籠覺了。我得帶上這封信...","color":"aqua"}]}

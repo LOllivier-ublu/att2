@@ -20,6 +20,6 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"t
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"一間房的價格是 30 Chronoton 一晚！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"一間房的價格是 30 Chronoton 一晚！ ","color":"dark_aqua"}]}
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[支付房費並休息 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-080a-0000-00000000080a if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/albert_dirac/answer_green"},"hoverEvent":{"action":"show_text","value":"點擊支付房費，享受住店生活吧。"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[支付房費並休息 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-080a-0000-00000000080a if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/albert_dirac/answer_green"},"hoverEvent":{"action":"show_text","value":"點擊支付房費， 享受住店生活吧。"}}]}

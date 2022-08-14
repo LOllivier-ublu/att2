@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Garret : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"沒錯，對你們這些凡人來說都是有代價的。但我會試著收集我們留下的幾片Chronotons，如果你帶著一對數百支箭回來獎勵你。前往位於城市東部的安戈爾軍營。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"沒錯， 對你們這些凡人來說都是有代價的。但我會試著收集我們留下的幾片Chronotons， 如果你帶著一對數百支箭回來獎勵你。前往位於城市東部的安戈爾軍營。","color":"dark_aqua"}]}

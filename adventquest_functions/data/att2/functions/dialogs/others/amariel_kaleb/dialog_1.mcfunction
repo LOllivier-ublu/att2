@@ -20,6 +20,6 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"t
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Amariel Kaleb : ","color":"green","extra":[{"text":"歡迎光臨Kortaek酒店。如果您想在這兒住下，僅需花費一點小錢。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Amariel Kaleb : ","color":"green","extra":[{"text":"歡迎光臨Kortaek酒店。如果您想在這兒住下， 僅需花費一點小錢。","color":"dark_aqua"}]}
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[支付房費並休息 --> 40 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-111a-0000-00000000111a if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/amariel_kaleb/answer_green"},"hoverEvent":{"action":"show_text","value":"點擊支付房費，享受住店生活吧。"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[支付房費並休息 --> 40 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-111a-0000-00000000111a if entity @s[distance=..7] as @a[distance=..7] run function att2:dialogs/others/amariel_kaleb/answer_green"},"hoverEvent":{"action":"show_text","value":"點擊支付房費， 享受住店生活吧。"}}]}

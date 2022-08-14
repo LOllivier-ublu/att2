@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Eternän Soldier : ","color":"gr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"快看，那**是誰？伙計們，抓住他！我最討厭這種“驚喜”了！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"快看， 那**是誰？ 伙計們， 抓住他！ 我最討厭這種“驚喜”了！ ","color":"dark_aqua"}]}

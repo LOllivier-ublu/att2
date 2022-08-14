@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":" 嘿！","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"，很高興再次見到你！我們正在積極努力恢復安格班的秩序，這並不容易，我們甚至還看不到結果，但戰爭的結束似乎讓大家放心了。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":" 嘿！ ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"， 很高興再次見到你！ 我們正在積極努力恢復安格班的秩序， 這並不容易， 我們甚至還看不到結果， 但戰爭的結束似乎讓大家放心了。","color":"dark_aqua"}]}

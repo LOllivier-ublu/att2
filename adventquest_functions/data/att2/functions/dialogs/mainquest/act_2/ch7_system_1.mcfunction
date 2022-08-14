@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Asurok regains all his lives...","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"挑戰失敗，Asurok滿血復活了...","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=2}] {"text":"挑戰失敗， Asurok滿血復活了...","color":"gray","italic":true}

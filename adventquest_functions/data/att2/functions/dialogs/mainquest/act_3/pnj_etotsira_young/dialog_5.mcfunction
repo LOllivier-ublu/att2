@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你看起來焦躁不安。不論你心事爲何，都不要忘了，“來者尤可追，往者不可谏”。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"你看起來焦躁不安。不論你心事爲何， 都不要忘了， “來者尤可追， 往者不可谏”。","color":"dark_aqua"}]}

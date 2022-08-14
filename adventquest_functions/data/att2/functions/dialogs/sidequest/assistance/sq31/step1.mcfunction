@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A Town in Need -°- : ","color":"g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 一個需要幫助的城市 -°- : ","color":"gray","extra":[{"text":"Raphael負責補給的運輸，他平常都是走從Ryliath通向Eolorion的那條主路的。可今天他出去很久了都沒見回來。我需要在來時路上找找，說不定Raphael遭遇了什麼不測。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 一個需要幫助的城市 -°- : ","color":"gray","extra":[{"text":"Raphael負責補給的運輸， 他平常都是走從Ryliath通向Eolorion的那條主路的。可今天他出去很久了都沒見回來。我需要在來時路上找找， 說不定Raphael遭遇了什麼不測。","color":"aqua","italic":true}]}

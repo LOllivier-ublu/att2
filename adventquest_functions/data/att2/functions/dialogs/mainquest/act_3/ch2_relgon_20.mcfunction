@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"但事情還沒有結束。僅僅在一小時内，她摧毀了Angor城，黑色的火焰蔓延得到處都是——那一天，大部分Eternän的人失去了生命。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"但事情還沒有結束。僅僅在一小時内， 她摧毀了Angor城， 黑色的火焰蔓延得到處都是——那一天， 大部分Eternän的人失去了生命。","color":"dark_aqua"}]}

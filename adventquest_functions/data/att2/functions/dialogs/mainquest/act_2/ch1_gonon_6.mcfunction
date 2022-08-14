@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"一名掌握Dahäl咒語的戰士！真是難得一遇！今天一定是我的''幸運日''...或者説，''幸運夜''...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"一名掌握Dahäl咒語的戰士！ 真是難得一遇！ 今天一定是我的''幸運日''...或者説， ''幸運夜''...","color":"dark_aqua"}]}

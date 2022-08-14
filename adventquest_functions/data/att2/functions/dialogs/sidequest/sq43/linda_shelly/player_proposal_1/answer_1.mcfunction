@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Linda Shelly : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"如果他認為這些克羅諾頓會讓我忘記這一切...謝謝，但現在請離開我，我想一個人呆著...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"如果他認為這些克羅諾頓會讓我忘記這一切...謝謝， 但現在請離開我， 我想一個人呆著...","color":"dark_aqua"}]}

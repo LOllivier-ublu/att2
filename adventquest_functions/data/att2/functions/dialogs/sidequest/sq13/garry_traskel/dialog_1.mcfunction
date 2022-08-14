@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Garry Traskel : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"嘿，旅行的戰士！怪物在隧道底部入侵了我們的文化，但這裡沒有人願意冒險將它們移出。你可以幫我們嗎？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"嘿， 旅行的戰士！ 怪物在隧道底部入侵了我們的文化， 但這裡沒有人願意冒險將它們移出。你可以幫我們嗎？ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq13/garry_traskel/player_proposal_1/choice_1

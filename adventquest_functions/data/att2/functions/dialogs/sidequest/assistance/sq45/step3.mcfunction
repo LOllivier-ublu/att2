@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Memories from outer-time -°- : ",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 來自外時的記憶 -°- : ","color":"gray","extra":[{"text":"我找到神秘教徒們的老巢了，我極大可能在這裡找到Aldelrion尋找的武器。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 來自外時的記憶 -°- : ","color":"gray","extra":[{"text":"我找到神秘教徒們的老巢了， 我極大可能在這裡找到Aldelrion尋找的武器。","color":"aqua","italic":true}]}

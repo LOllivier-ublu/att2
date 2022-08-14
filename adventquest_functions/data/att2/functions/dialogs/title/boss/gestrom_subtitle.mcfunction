@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Unwavering protector, The last b
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"最後防線，堅如磐石的守衛者","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"最後防線， 堅如磐石的守衛者","color":"gray"}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A delayed delivery -°- : ","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 遲到的配送 -°- : ","color":"gray","extra":[{"text":" : "},{"text":"Sigfrid Barkon的運貨小哥遲遲沒回來，然而他急需將些生肉送到Meleim去。打工人就是我，我就是打工人，得把冰庫裡8塊 ","color":"aqua","extra":[{"text":"<生肉>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:beef\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Viande crue\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Raw meat\\\"}\"]}}}"},"extra":[{"text":" 帶到Meleim城靠底部的酒館裡。可別在途中偷偷將這些肉吃掉啊。","color":"aqua"}]}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 遲到的配送 -°- : ","color":"gray","extra":[{"text":" : "},{"text":"Sigfrid Barkon的運貨小哥遲遲沒回來， 然而他急需將些生肉送到Meleim去。打工人就是我， 我就是打工人， 得把冰庫裡8塊 ","color":"aqua","extra":[{"text":"<生肉>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:beef\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Viande crue\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Raw meat\\\"}\"]}}}"},"extra":[{"text":" 帶到Meleim城靠底部的酒館裡。可別在途中偷偷將這些肉吃掉啊。","color":"aqua"}]}]}]}

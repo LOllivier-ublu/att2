@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"從我？不多。但生活的回報並不總是如我們所願。通過自願幫助我，您可能會感到驚訝。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"從我？ 不多。但生活的回報並不總是如我們所願。通過自願幫助我， 您可能會感到驚訝。","color":"dark_aqua"}]}

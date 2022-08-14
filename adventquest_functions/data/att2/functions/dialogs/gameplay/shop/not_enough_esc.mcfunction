@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"You don't have enough Ecaille Souverain
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"所持Ecaille Souveraine du Chaos不足！","color":"gray"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"所持Ecaille Souveraine du Chaos不足！ ","color":"gray"}

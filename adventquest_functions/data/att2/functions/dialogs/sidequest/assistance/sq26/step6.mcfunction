@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Adanoï Catacombs -°- : ","co
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"活死人Myrath在他遺留的文獻裡提及到了一位女性盜墓者和Meleim城，說明兩者有一定的聯繫。我該回墓穴入口把新線索告訴Emerald。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"活死人Myrath在他遺留的文獻裡提及到了一位女性盜墓者和Meleim城， 說明兩者有一定的聯繫。我該回墓穴入口把新線索告訴Emerald。","color":"aqua","italic":true}]}

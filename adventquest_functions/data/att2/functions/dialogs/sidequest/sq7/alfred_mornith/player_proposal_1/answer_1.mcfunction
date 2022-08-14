@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alfred Mornith : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"崩盤發生在我們最低的入口處。 我們有炸藥，足以炸毀一切。 問題是我們需要更多的燈芯。 我身後的後備箱裡還剩一些，但這還不夠。 好吧，礦井裡有很多，所以當你有足夠的時候，去倒塌的入口，使用燈芯並引發爆炸。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"崩盤發生在我們最低的入口處。 我們有炸藥， 足以炸毀一切。 問題是我們需要更多的燈芯。 我身後的後備箱裡還剩一些， 但這還不夠。 好吧， 礦井裡有很多， 所以當你有足夠的時候， 去倒塌的入口， 使用燈芯並引發爆炸。","color":"dark_aqua"}]}

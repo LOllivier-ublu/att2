@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Jaris : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"親愛的，我為你做到了！別擔心，我很快就會把它們放回原處。你看，我的直覺是對的，多虧了這段話，我可以隨時聯繫到你而不會驚醒任何人...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"親愛的， 我為你做到了！ 別擔心， 我很快就會把它們放回原處。你看， 我的直覺是對的， 多虧了這段話， 我可以隨時聯繫到你而不會驚醒任何人...","color":"dark_aqua"}]}

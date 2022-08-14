@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Leaving the past behind to step fo
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 往者不可諫，來者犹可追 -°- : ","color":"gray","extra":[{"text":"我不知哪來的勇氣給這個流浪漢這麼多的錢，希望他知恩圖報！","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 往者不可諫， 來者犹可追 -°- : ","color":"gray","extra":[{"text":"我不知哪來的勇氣給這個流浪漢這麼多的錢， 希望他知恩圖報！ ","color":"aqua","italic":true}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我和Sérile在年輕的時候沒少做過訓練——實際上，我們的青春就是由日復一日的訓練組成的...完全控制Dahäl并非易事。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我和Sérile在年輕的時候沒少做過訓練——實際上， 我們的青春就是由日復一日的訓練組成的...完全控制Dahäl并非易事。","color":"dark_aqua"}]}
 
 
 execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4

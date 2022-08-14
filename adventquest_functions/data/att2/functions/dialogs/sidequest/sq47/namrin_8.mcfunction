@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"他向我解釋說，這正是他鍛造 Rukyrion 劍的地方：“神血”。這是一把只有他才能揮動而不會被它的氣息傷害的傳奇劍。他死後我把它藏在這裡。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"他向我解釋說， 這正是他鍛造 Rukyrion 劍的地方：“神血”。這是一把只有他才能揮動而不會被它的氣息傷害的傳奇劍。他死後我把它藏在這裡。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"所以... 你有沒有打探到我的Mia的消息？我上次見到她是在Méleïm。我當時和Alyia在一起...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"所以... 你有沒有打探到我的Mia的消息？ 我上次見到她是在Méleïm。我當時和Alyia在一起...","color":"dark_aqua"}]}

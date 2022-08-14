@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for Tiid Klo Ul!","col
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"咒語“解力化力”已升級！","color":"gold"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"咒語“解力化力”已升級！ ","color":"gold"}

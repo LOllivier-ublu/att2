@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"There is someone ? Cross the iron barri
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"有一個人 ？越過鐵屏障。","color":"dark_aqua","italic":true}
+tellraw @a[scores={LANGUAGE=2}] {"text":"有一個人 ？ 越過鐵屏障。","color":"dark_aqua","italic":true}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"啊，你回來了，那你會幫我打開附近的門嗎？我還沒有找到其他人來幫助我...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"啊， 你回來了， 那你會幫我打開附近的門嗎？ 我還沒有找到其他人來幫助我...","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq12/rena_sun/player_proposal_1/choice_1

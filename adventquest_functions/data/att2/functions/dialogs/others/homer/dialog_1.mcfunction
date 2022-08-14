@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Homer : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"這...這？我沒眼花吧，真的是你嗎？啊...你真的很像他...如果是放在幾年前，見到自己以前的伙伴能讓我開心死...不過現在嘛...怎麽説呢...嗯...説實話，我現在很想把你敲暈，然後把你煮著吃了——你來這座島，就得自負風險！不過嘛，如果你能找到這些藍綠色的石頭，就另當別論了——我會用2 Chronoton一個的價格從你那回收它們...它們實在是太漂亮了！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Homer : ","color":"green","extra":[{"text":"這...這？ 我沒眼花吧， 真的是你嗎？ 啊...你真的很像他...如果是放在幾年前， 見到自己以前的伙伴能讓我開心死...不過現在嘛...怎麽説呢...嗯...説實話， 我現在很想把你敲暈， 然後把你煮著吃了——你來這座島， 就得自負風險！ 不過嘛， 如果你能找到這些藍綠色的石頭， 就另當別論了——我會用2 Chronoton一個的價格從你那回收它們...它們實在是太漂亮了！ ","color":"dark_aqua"}]}

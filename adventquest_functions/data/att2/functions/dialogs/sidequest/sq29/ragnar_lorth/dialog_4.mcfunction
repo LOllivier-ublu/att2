@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"回到梅萊姆？好吧，你回來的時間正好，我確實有一個任務可以提供給你。我們最近在 Elvetta 森林周圍的貨物運輸中發生了盜竊和襲擊事件。儘管我的手下有能力，但一些強盜給我們帶來了困難。你願意幫助我們清理他們的營地嗎？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"回到梅萊姆？ 好吧， 你回來的時間正好， 我確實有一個任務可以提供給你。我們最近在 Elvetta 森林周圍的貨物運輸中發生了盜竊和襲擊事件。儘管我的手下有能力， 但一些強盜給我們帶來了困難。你願意幫助我們清理他們的營地嗎？ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq29/ragnar_lorth/player_proposal_1/choice_1

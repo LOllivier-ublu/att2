@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"... 你覺得作爲父母會滿足於這樣的答案麽？你真是鐵石心腸...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"... 你覺得作爲父母會滿足於這樣的答案麽？ 你真是鐵石心腸...","color":"dark_aqua"}]}

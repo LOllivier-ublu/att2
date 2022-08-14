@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於來到了Vonaheim建造的大城堡。看樣子這兒沒有上去的道路，那我應該反過來，試試看能不能在地下找到上去的方法...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於來到了Vonaheim建造的大城堡。看樣子這兒沒有上去的道路， 那我應該反過來， 試試看能不能在地下找到上去的方法...","color":"aqua"}]}

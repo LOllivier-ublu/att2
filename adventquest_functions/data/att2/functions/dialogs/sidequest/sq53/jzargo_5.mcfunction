@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"在那裡，J'zargo 會發現這個僻靜的地方隱藏著哪些秘密。 “海裡的水滴，樹上的葉子，它獨特的光芒，只為那些從容不迫的卑微的人展現出來。”他現在不想再看到那個無禮的瞳孔，如果再遇到他，他會轉過身來。可憐的蟲子用他的 Dahäl 化為塵土。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"在那裡， J'zargo 會發現這個僻靜的地方隱藏著哪些秘密。 “海裡的水滴， 樹上的葉子， 它獨特的光芒， 只為那些從容不迫的卑微的人展現出來。”他現在不想再看到那個無禮的瞳孔， 如果再遇到他， 他會轉過身來。可憐的蟲子用他的 Dahäl 化為塵土。","color":"dark_aqua"}]}

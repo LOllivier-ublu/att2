@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Marta : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"喜歡Méleïm嗎？也希望您能喜歡那套房子，相信它能給您絕無僅有的體驗——浪擊岩石之聲，放鬆您的身心；海散清咸之氣，治愈您的心靈！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"喜歡Méleïm嗎？ 也希望您能喜歡那套房子， 相信它能給您絕無僅有的體驗——浪擊岩石之聲， 放鬆您的身心；海散清咸之氣， 治愈您的心靈！ ","color":"dark_aqua"}]}

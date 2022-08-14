@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Joffrey : ","color":"g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"噢，您就是幫助了國王Adrian的英雄嗎？他委托我告訴您一個您一定不會拒絕的提議——國王爲了感謝您對他的幫助，他決定將城内最好的房子的所有權轉交給你。我本想把它卖個好價錢的，不過現在嘛...它是你的了！拿著這串钥匙吧！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"噢， 您就是幫助了國王Adrian的英雄嗎？ 他委托我告訴您一個您一定不會拒絕的提議——國王爲了感謝您對他的幫助， 他決定將城内最好的房子的所有權轉交給你。我本想把它卖個好價錢的， 不過現在嘛...它是你的了！ 拿著這串钥匙吧！ ","color":"dark_aqua"}]}
 
 
 scoreboard players set intendant_joffrey_PNJ DIALOG 5

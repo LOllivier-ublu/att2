@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我在一個門被機械鎖住的房間裡，我必須找到密碼。也許如果我激活所有綠色按鈕，門就會解鎖...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我在一個門被機械鎖住的房間裡， 我必須找到密碼。也許如果我激活所有綠色按鈕， 門就會解鎖...","color":"aqua"}]}

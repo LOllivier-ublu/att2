@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好，我現在得幫Marlene找到Raphael。負責供給的Raphael通常會坐馬車往返於Ryliath和Eolorion。我必須沿來Eolorion時的路綫看看，沒準他在半路上受到了襲擊，或是遇上了什麽別的問題...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好， 我現在得幫Marlene找到Raphael。負責供給的Raphael通常會坐馬車往返於Ryliath和Eolorion。我必須沿來Eolorion時的路綫看看， 沒準他在半路上受到了襲擊， 或是遇上了什麽別的問題...","color":"aqua"}]}

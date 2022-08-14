@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"但後來你知道媽媽已經死了，你從來沒有告訴過我什麼？ Korlaph，你能把我母親的靈魂帶回來嗎？","color":"dark_green"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"但後來你知道媽媽已經死了， 你從來沒有告訴過我什麼？  Korlaph， 你能把我母親的靈魂帶回來嗎？ ","color":"dark_green"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"墮落？聼上去是個很黑暗的名字，不過也是個有意思的名字！那它的名字就叫“墮落”了！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"墮落？ 聼上去是個很黑暗的名字， 不過也是個有意思的名字！ 那它的名字就叫“墮落”了！ ","color":"dark_aqua"}]}

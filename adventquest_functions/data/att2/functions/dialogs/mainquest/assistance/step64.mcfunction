@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這個王國的局勢一片混亂，我必須幫助他們。為此，我必須收集兩個封印法器：炎獄之章和烈火之章，然後將它們帶到那隻怪物的巢穴。第一個法器在一座叫“Phoenix”的村莊裏。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這個王國的局勢一片混亂， 我必須幫助他們。為此， 我必須收集兩個封印法器：炎獄之章和烈火之章， 然後將它們帶到那隻怪物的巢穴。第一個法器在一座叫“Phoenix”的村莊裏。","color":"aqua"}]}

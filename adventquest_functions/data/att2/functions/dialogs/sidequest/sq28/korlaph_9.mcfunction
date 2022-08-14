@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Korlaph : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"*憤怒*我快到了！到達那裡需要大量的注意力和工作！她在跟我說話，但她非常痛苦...我不能！把你帶到這裡真是個愚蠢的主意...塞勒涅，你真的什麼都不懂！你媽媽塔蒂亞娜！正是因為她，我的Lucimene才發現自己是這樣的！","color":"dark_red"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"*憤怒*我快到了！ 到達那裡需要大量的注意力和工作！ 她在跟我說話， 但她非常痛苦...我不能！ 把你帶到這裡真是個愚蠢的主意...塞勒涅， 你真的什麼都不懂！ 你媽媽塔蒂亞娜！ 正是因為她， 我的Lucimene才發現自己是這樣的！ ","color":"dark_red"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[這張地圖把我帶到了這個地方，我正在尋找埋藏在該地區的沙子裡的財富...如果你有任何有用的信息可以給我，我會給你 300 Chronotons。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-138a-0000-00000000138a if entity @s[distance=..7] if score jack_arrow_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/41/jack_arrow/chronoton_trigger_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[這張地圖把我帶到了這個地方， 我正在尋找埋藏在該地區的沙子裡的財富...如果你有任何有用的信息可以給我， 我會給你 300 Chronotons。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-138a-0000-00000000138a if entity @s[distance=..7] if score jack_arrow_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/41/jack_arrow/chronoton_trigger_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

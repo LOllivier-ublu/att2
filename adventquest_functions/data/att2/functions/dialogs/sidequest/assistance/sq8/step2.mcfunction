@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A delayed delivery -°- : ","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 遲到的配送 -°- : ","color":"gray","extra":[{"text":"生肉已經成功運送到Meleim的酒館了，現在回去看看Sigfrid能給我什麼好東西。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 遲到的配送 -°- : ","color":"gray","extra":[{"text":"生肉已經成功運送到Meleim的酒館了， 現在回去看看Sigfrid能給我什麼好東西。","color":"aqua","italic":true}]}

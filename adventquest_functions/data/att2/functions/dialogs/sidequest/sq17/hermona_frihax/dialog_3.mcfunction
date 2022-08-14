@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hermona : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"你找到繃帶了嗎？當你擁有一切時，把它們放在一邊。好了，你現在應該感覺好多了...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"你找到繃帶了嗎？ 當你擁有一切時， 把它們放在一邊。好了， 你現在應該感覺好多了...","color":"dark_aqua"}]}

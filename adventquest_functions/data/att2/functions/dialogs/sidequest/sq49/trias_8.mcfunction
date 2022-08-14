@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"很好，tellurön 的英雄，我現在把這把弓託付給你。但是當你再也不能使用它時，我懇求你把它還給我。然後我將在Angband。再見，願命運與你同在...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"很好， tellurön 的英雄， 我現在把這把弓託付給你。但是當你再也不能使用它時， 我懇求你把它還給我。然後我將在Angband。再見， 願命運與你同在...","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"太棒了！你成功帶回鐵礦了！不過你沒看到我的學徒嗎？恩...他可能在森林裡迷路了，希望他沒事。不管怎麼說，非常感謝你的幫忙，這是給你的報酬。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"太棒了！ 你成功帶回鐵礦了！ 不過你沒看到我的學徒嗎？ 恩...他可能在森林裡迷路了， 希望他沒事。不管怎麼說， 非常感謝你的幫忙， 這是給你的報酬。","color":"dark_aqua"}]}

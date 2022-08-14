@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"噢，我完全明白了！想要拿到空間之石，就必須用水淹沒這個大廳。大廳的四角各有一個門，而我可以通過這些門到達四根柱子处的平台——那兒應該有控制進水閥門的開关。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"噢， 我完全明白了！ 想要拿到空間之石， 就必須用水淹沒這個大廳。大廳的四角各有一個門， 而我可以通過這些門到達四根柱子处的平台——那兒應該有控制進水閥門的開关。","color":"aqua"}]}

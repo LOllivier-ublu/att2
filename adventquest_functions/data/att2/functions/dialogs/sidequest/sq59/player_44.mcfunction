@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我敢肯定是這個，但巴西爾已經給我背誦了這些話，不需要這本書...他不會讓我去這個地方做我在任何地方都可以做的事情。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我敢肯定是這個， 但巴西爾已經給我背誦了這些話， 不需要這本書...他不會讓我去這個地方做我在任何地方都可以做的事情。","color":"aqua"}]}

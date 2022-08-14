@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"讓我問你幾個問題：你以前是否有遵循自己的意志使用過墮落泉源的力量，或者說，有沒有人强迫你使用它？","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"讓我問你幾個問題：你以前是否有遵循自己的意志使用過墮落泉源的力量， 或者說， 有沒有人强迫你使用它？ ","color":"yellow","italic":true}]}

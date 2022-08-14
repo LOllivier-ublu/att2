@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Calypso : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*臉紅*這...這很正常，來吧。我回到恩德赫爾有一段時間了。你可以隨時來廟裡見我...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*臉紅*這...這很正常， 來吧。我回到恩德赫爾有一段時間了。你可以隨時來廟裡見我...","color":"dark_aqua"}]}

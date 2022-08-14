@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 3
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 3 部分 -°- : ","color":"gray","extra":[{"text":"還好我在這，不然有誰還能幫忙去找遺物呢。這地方離主塔較遠，不可掉以輕心。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 3 部分 -°- : ","color":"gray","extra":[{"text":"還好我在這， 不然有誰還能幫忙去找遺物呢。這地方離主塔較遠， 不可掉以輕心。","color":"aqua","italic":true}]}

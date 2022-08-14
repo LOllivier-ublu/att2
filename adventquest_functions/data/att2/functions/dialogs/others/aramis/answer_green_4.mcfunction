@@ -20,4 +20,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"好極了。這是河邊屋子的钥匙——那兒已經很久沒人住了，而你是它的新主人。去吧，祝你好運。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"好極了。這是河邊屋子的钥匙——那兒已經很久沒人住了， 而你是它的新主人。去吧， 祝你好運。","color":"dark_aqua"}]}

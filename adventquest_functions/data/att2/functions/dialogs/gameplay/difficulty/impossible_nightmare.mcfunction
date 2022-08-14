@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Impossible ! If you have chosen the <NI
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"難以置信！如選擇 <NIGHTMARE> 難度，你將再也無法回頭...","color":"gray"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"難以置信！ 如選擇 <NIGHTMARE> 難度， 你將再也無法回頭...","color":"gray"}

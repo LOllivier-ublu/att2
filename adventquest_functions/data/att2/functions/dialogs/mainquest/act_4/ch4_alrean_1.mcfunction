@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"哦，多麼好的驚喜！一位戰士讓我們成為他來到我們簡陋村莊的榮譽。讓我給你一件我們舒適的衣服...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"哦， 多麼好的驚喜！ 一位戰士讓我們成為他來到我們簡陋村莊的榮譽。讓我給你一件我們舒適的衣服...","color":"dark_aqua"}]}

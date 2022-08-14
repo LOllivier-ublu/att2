@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"當他們所做的只是保護世界的一部分時，沒有人會成為世界的救世主。就他而言，雷爾貢真正拯救了安格班的消失。而且我說的不僅僅是人類，或者一般的生命，不，它是關於構建 Angband 的完整現實！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"當他們所做的只是保護世界的一部分時， 沒有人會成為世界的救世主。就他而言， 雷爾貢真正拯救了安格班的消失。而且我說的不僅僅是人類， 或者一般的生命， 不， 它是關於構建 Angband 的完整現實！ ","color":"dark_aqua"}]}

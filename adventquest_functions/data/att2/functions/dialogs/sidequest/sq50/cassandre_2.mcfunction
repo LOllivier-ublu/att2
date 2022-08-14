@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Cassandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"我不能感謝你！我不認為他自己去那裡，我實際上懷疑 J'zargo 把他藏起來了。他對我很壞，他甚至偷了我的挂墜盒！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"我不能感謝你！ 我不認為他自己去那裡， 我實際上懷疑 J'zargo 把他藏起來了。他對我很壞， 他甚至偷了我的挂墜盒！ ","color":"dark_aqua"}]}

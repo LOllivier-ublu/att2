@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Marta : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"您好，久聞大名。我負責房屋的銷售，Ragnar希望我能在您买房時給點優惠。現在，如果您想在Méleïm购买一座房屋，只需要900 Chronoton！房屋在一個很寬敞的地兒——它在懸崖的另一側，位於一座警戒塔下方的岩拱下。想要嗎？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"您好， 久聞大名。我負責房屋的銷售， Ragnar希望我能在您买房時給點優惠。現在， 如果您想在Méleïm购买一座房屋， 只需要900 Chronoton！ 房屋在一個很寬敞的地兒——它在懸崖的另一側， 位於一座警戒塔下方的岩拱下。想要嗎？ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/others/intendant_marta/player_answer_proposal_1

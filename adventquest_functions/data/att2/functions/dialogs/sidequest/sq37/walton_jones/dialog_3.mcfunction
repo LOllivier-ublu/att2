@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"這些骯髒的野獸你殺夠了嗎？他們住在溪流附近，把他們弄出去，我求你了。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"這些骯髒的野獸你殺夠了嗎？ 他們住在溪流附近， 把他們弄出去， 我求你了。","color":"dark_aqua"}]}

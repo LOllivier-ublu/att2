@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Les vestiges du passé]","color":"gree
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[The remains of the past]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[過去的遺跡]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[過去的遺跡]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}

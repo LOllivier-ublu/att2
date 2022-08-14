@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"！等待！他沒有惡意竊取這些計劃，他是為我做的...一切都是我的錯！我是負責人...","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"！ 等待！ 他沒有惡意竊取這些計劃， 他是為我做的...一切都是我的錯！ 我是負責人...","color":"blue"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"無知的人善於傳授功課，他們太盲目了，看不到他們成長的運氣！是時候給他們上一課了！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"無知的人善於傳授功課， 他們太盲目了， 看不到他們成長的運氣！ 是時候給他們上一課了！ ","color":"dark_aqua"}]}

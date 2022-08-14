@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"空間之石存放在大廳正中央的巨大玻璃蛋裏。拿到它的唯一方法，就是升高水位，讓水淹沒大廳——四個巨大的閥門似乎也印證了我的想法...大廳四周的四根大柱子應該可以控制它們的開閉，但我似乎不能直接從中央大廳到那兒，得另辟蹊徑才行。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"空間之石存放在大廳正中央的巨大玻璃蛋裏。拿到它的唯一方法， 就是升高水位， 讓水淹沒大廳——四個巨大的閥門似乎也印證了我的想法...大廳四周的四根大柱子應該可以控制它們的開閉， 但我似乎不能直接從中央大廳到那兒， 得另辟蹊徑才行。","color":"aqua"}]}

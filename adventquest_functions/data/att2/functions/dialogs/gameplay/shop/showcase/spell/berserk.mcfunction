@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Berserk>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_text","value":"將自身的“生命回復”轉化為“力量”。"},"extra":[{"text":" [350 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/berserk"},"hoverEvent":{"action":"show_text","value":"點擊購買！"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Berserk>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_text","value":"將自身的“生命回復”轉化為“力量”。"},"extra":[{"text":" [350 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/berserk"},"hoverEvent":{"action":"show_text","value":"點擊購買！ "}}]}]}

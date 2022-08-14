@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已經到達了Méleïm，接下來要做的便是找到鎮長，讓他告訴我Indra的住處。鎮長的家應該就在大橋的正前面，在一塊可以眺望到大海的巨大岩石頂上。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已經到達了Méleïm， 接下來要做的便是找到鎮長， 讓他告訴我Indra的住處。鎮長的家應該就在大橋的正前面， 在一塊可以眺望到大海的巨大岩石頂上。","color":"aqua"}]}

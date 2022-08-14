@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sérile : ","color":"yellow","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"抱歉，我現在不是很有空。你沒有要做的事情嗎？","color":"dark_aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"抱歉， 我現在不是很有空。你沒有要做的事情嗎？ ","color":"dark_aqua","italic":true}]}

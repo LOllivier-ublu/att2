@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Babbu : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"這是我在亞蘇納克海岸抓到的一張舊地圖。好像是在南方地區的地方，我一直保存著希望能賣，不過你可以擁有。我至少欠你這個。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"這是我在亞蘇納克海岸抓到的一張舊地圖。好像是在南方地區的地方， 我一直保存著希望能賣， 不過你可以擁有。我至少欠你這個。","color":"dark_aqua"}]}

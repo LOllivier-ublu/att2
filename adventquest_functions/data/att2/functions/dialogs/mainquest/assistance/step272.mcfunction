@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"另一個機制阻礙了我的進步。為了讓我的工作更輕鬆，這個怪物還在追我。我顯然必須激活開關才能給門充電並打開它。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"另一個機制阻礙了我的進步。為了讓我的工作更輕鬆， 這個怪物還在追我。我顯然必須激活開關才能給門充電並打開它。","color":"aqua"}]}

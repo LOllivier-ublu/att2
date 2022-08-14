@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"在之後的幾個輪回中，那些忠於國王Azazel的勢力前來協助我們。但在經歷幾次傷亡慘重的失敗後，他們也四散而去。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"在之後的幾個輪回中， 那些忠於國王Azazel的勢力前來協助我們。但在經歷幾次傷亡慘重的失敗後， 他們也四散而去。","color":"dark_aqua"}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"你的補償，你會得到的。但是，如果我不是分發它的人，那么生活就會是。對我有信心。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"你的補償， 你會得到的。但是， 如果我不是分發它的人， 那么生活就會是。對我有信心。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_1

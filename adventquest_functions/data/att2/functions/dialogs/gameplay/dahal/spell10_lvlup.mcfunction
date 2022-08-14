@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for Earthquake!","colo
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"咒語“地震”已升級！","color":"gold"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"咒語“地震”已升級！ ","color":"gold"}

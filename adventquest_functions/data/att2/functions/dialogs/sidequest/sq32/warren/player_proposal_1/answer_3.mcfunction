@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Warren : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"嗯，是我貨物價值的一半，但沒有你，我會失去一切...好吧，當你把貨物帶回來時，我會把它們給你。我建議你走另一條路，這條路被擋住了。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"嗯， 是我貨物價值的一半， 但沒有你， 我會失去一切...好吧， 當你把貨物帶回來時， 我會把它們給你。我建議你走另一條路， 這條路被擋住了。","color":"dark_aqua"}]}

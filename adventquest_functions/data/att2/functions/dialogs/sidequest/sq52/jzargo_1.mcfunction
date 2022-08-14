@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo在看什麼？正是他在克特遇到的​​那個白痴學生。 J'zargo 從遠處聞到了它的味道，因為它的臭味掩蓋了沼澤本身的味道。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo在看什麼？ 正是他在克特遇到的​​那個白痴學生。 J'zargo 從遠處聞到了它的味道， 因為它的臭味掩蓋了沼澤本身的味道。","color":"dark_aqua"}]}

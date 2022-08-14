@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"既然明白了導致這一切的根源，我現在不得不親自解決S的問題... Etotsira建議我去尋找時間之石，好在Ryliath生成一個穿越時間的傳送門，這樣我才能回到我所處的那個時代。首先，我得去和Ryliath的王室成員見個面，他們一定能告訴我時間之石的位置。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"既然明白了導致這一切的根源， 我現在不得不親自解決S的問題... Etotsira建議我去尋找時間之石， 好在Ryliath生成一個穿越時間的傳送門， 這樣我才能回到我所處的那個時代。首先， 我得去和Ryliath的王室成員見個面， 他們一定能告訴我時間之石的位置。","color":"aqua"}]}

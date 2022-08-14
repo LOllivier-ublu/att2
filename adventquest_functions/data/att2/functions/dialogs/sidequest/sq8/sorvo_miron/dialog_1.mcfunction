@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sorvo Miron : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"你好，我是 Sorvo，Méleïm 的酒館老闆，你想要什麼我的好先生？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"你好， 我是 Sorvo， Méleïm 的酒館老闆， 你想要什麼我的好先生？ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq8/sorvo_miron/player_proposal_1/choice_1

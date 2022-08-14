@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"哦，J'zargo 的學生回來了。他害怕看到他來，而J'zargo希望寒冷和海拔高度能戰勝他。但他那雙小老鼠的眼睛和他傲慢的說話方式太傻了，Gaya 無法形容它的悲慘存在。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"哦， J'zargo 的學生回來了。他害怕看到他來， 而J'zargo希望寒冷和海拔高度能戰勝他。但他那雙小老鼠的眼睛和他傲慢的說話方式太傻了， Gaya 無法形容它的悲慘存在。","color":"dark_aqua"}]}

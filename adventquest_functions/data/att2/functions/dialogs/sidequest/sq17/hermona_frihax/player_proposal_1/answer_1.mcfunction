@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hermona : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"謝謝你，你會對我們有很大的幫助。安戈爾廢墟里應該還有繃帶。在我的舊住所裡，我有大量繃帶。但是，如果它們沒有被大火燒毀...我的房子就在俯瞰城市的街區。請給我帶來至少 6 包 64 條繃帶。祝你好運...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"謝謝你， 你會對我們有很大的幫助。安戈爾廢墟里應該還有繃帶。在我的舊住所裡， 我有大量繃帶。但是， 如果它們沒有被大火燒毀...我的房子就在俯瞰城市的街區。請給我帶來至少 6 包 64 條繃帶。祝你好運...","color":"dark_aqua"}]}

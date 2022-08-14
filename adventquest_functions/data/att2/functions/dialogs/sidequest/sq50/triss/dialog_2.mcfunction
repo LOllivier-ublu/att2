@@ -17,7 +17,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"那麼，你怎麼看呢？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"那麼， 你怎麼看呢？ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq50/triss/player_proposal_1/choice_1

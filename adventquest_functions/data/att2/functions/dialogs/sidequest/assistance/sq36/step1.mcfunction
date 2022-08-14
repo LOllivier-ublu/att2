@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- An interrupted mourning -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 門可羅雀 -°- : ","color":"gray","extra":[{"text":"Violette已故的父母葬在了Eol墓園，我需要找到她父母的棺槨。得想辦法先進入地下墓穴，然後從內部找到進入安置棺槨房間的入口。成功找到後再把進展向Violette說明。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 門可羅雀 -°- : ","color":"gray","extra":[{"text":"Violette已故的父母葬在了Eol墓園， 我需要找到她父母的棺槨。得想辦法先進入地下墓穴， 然後從內部找到進入安置棺槨房間的入口。成功找到後再把進展向Violette說明。","color":"aqua","italic":true}]}

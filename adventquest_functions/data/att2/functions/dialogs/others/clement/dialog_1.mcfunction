@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Clément : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"我想成爲像你一樣四處旅行的勇者，可惜我沒有那個勇氣。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"我想成爲像你一樣四處旅行的勇者， 可惜我沒有那個勇氣。","color":"dark_aqua"}]}

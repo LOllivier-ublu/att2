@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Heathen : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 野蠻人 : ","color":"green","extra":[{"text":"你**的是誰？我不認識你！入侵者警報！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 野蠻人 : ","color":"green","extra":[{"text":"你**的是誰？ 我不認識你！ 入侵者警報！ ","color":"dark_aqua"}]}

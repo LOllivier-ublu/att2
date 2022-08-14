@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Heart of the colony, the imperio
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"領地核心，狂暴蜂群","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"領地核心， 狂暴蜂群","color":"gray"}

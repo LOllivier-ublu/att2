@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The End of a Journey -°- : ","col
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 旅途終點 -°- : ","color":"gray","extra":[{"text":"Korlaph已經不復存在了，Emerald也成功與他女兒團聚了。告別之前他女兒贈與了我一張地圖，上面好像標記了一個秘密地牢，就藏在Owsastr沼澤地裡。通常這種地方找到神器的可能性很大，我應該去碰碰運氣。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 旅途終點 -°- : ","color":"gray","extra":[{"text":"Korlaph已經不復存在了， Emerald也成功與他女兒團聚了。告別之前他女兒贈與了我一張地圖， 上面好像標記了一個秘密地牢， 就藏在Owsastr沼澤地裡。通常這種地方找到神器的可能性很大， 我應該去碰碰運氣。","color":"aqua","italic":true}]}

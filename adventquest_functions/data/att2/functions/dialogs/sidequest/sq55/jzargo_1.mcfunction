@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"“在所有可以發音的詞中，遺憾的詞大多寫在最簡單的紙上。”，J'zargo 是如此接近...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"“在所有可以發音的詞中， 遺憾的詞大多寫在最簡單的紙上。”， J'zargo 是如此接近...","color":"dark_aqua"}]}

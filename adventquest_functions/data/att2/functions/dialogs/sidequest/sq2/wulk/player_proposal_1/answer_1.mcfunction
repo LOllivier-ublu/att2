@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"好，你要去的地方是Ryliath礦工們發現的礦場。去那裏的路沒有很複雜，就在森林的東邊而已，有一條小徑可以直達那裏。有我的鐵爐就可以很輕鬆的提煉鐵礦了。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"好， 你要去的地方是Ryliath礦工們發現的礦場。去那裏的路沒有很複雜， 就在森林的東邊而已， 有一條小徑可以直達那裏。有我的鐵爐就可以很輕鬆的提煉鐵礦了。","color":"dark_aqua"}]}

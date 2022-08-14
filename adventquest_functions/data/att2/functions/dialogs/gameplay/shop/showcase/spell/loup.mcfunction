@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Wolf>","bold":false,"color":"blue","hoverEvent":{"action":"show_text","value":"在你的身旁創造一場大爆炸，猛烈轟擊進入其範圍的敵人。"},"extra":[{"text":" [500 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/loup"},"hoverEvent":{"action":"show_text","value":"點擊購買！"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Wolf>","bold":false,"color":"blue","hoverEvent":{"action":"show_text","value":"在你的身旁創造一場大爆炸， 猛烈轟擊進入其範圍的敵人。"},"extra":[{"text":" [500 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/loup"},"hoverEvent":{"action":"show_text","value":"點擊購買！ "}}]}]}

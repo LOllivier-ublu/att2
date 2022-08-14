@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已經來到了東南翼塔樓的地處，現在得想辦法爬上去。先從尋找這個玻璃迷宮的出口開始吧...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已經來到了東南翼塔樓的地處， 現在得想辦法爬上去。先從尋找這個玻璃迷宮的出口開始吧...","color":"aqua"}]}

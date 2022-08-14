@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"確實是我女兒：她還小，我上路找聽。她一直熱衷於尋找寶藏，但她隨心所欲，現在離開她已經四年了...但是我在離這裡不遠的東邊的一個礦井裡發現了一條軌道。唉，年齡在趕上我，所以我想讓你看看。肯定有她可以偷偷摸摸的隱藏地方。我指望你！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"確實是我女兒：她還小， 我上路找聽。她一直熱衷於尋找寶藏， 但她隨心所欲， 現在離開她已經四年了...但是我在離這裡不遠的東邊的一個礦井裡發現了一條軌道。唉， 年齡在趕上我， 所以我想讓你看看。肯定有她可以偷偷摸摸的隱藏地方。我指望你！ ","color":"dark_aqua"}]}

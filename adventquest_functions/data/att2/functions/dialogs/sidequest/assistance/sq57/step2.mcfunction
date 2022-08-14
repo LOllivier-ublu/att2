@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- clean the nest -°- : ","color":"g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清潔巢穴 -°- : ","color":"gray","extra":[{"text":"總算解決了這些害蟲，回去和Feanorth說一聲吧。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 清潔巢穴 -°- : ","color":"gray","extra":[{"text":"總算解決了這些害蟲， 回去和Feanorth說一聲吧。","color":"aqua","italic":true}]}

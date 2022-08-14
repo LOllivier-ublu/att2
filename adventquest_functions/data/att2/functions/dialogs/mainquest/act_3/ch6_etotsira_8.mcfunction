@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Dahäl泉源只允许使用者有节制地使用它的力量，使用Dahäl技艺的人最多只能獲得泉源力量的一小部分。如果你能完全吸收泉源，你就能獲得超越半神的力量。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Dahäl泉源只允许使用者有节制地使用它的力量， 使用Dahäl技艺的人最多只能獲得泉源力量的一小部分。如果你能完全吸收泉源， 你就能獲得超越半神的力量。","color":"dark_aqua"}]}

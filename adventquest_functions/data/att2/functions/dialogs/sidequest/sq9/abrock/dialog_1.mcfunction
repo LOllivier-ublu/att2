@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Abrock : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"你是什​​麼外國人？我是伐木工，我帶著斧頭走進森林，我把它帶到這裡來交換它。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"你是什​​麼外國人？ 我是伐木工， 我帶著斧頭走進森林， 我把它帶到這裡來交換它。","color":"dark_aqua"}]}

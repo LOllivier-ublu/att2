@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alphonse Rae : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"真是鬆了一口氣，我的兔子現在會更安靜了。多虧了你，孩子。拿著它，它是給你的。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"真是鬆了一口氣， 我的兔子現在會更安靜了。多虧了你， 孩子。拿著它， 它是給你的。","color":"dark_aqua"}]}

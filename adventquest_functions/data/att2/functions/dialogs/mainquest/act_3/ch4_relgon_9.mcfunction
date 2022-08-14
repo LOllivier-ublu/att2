@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Sérile 還年輕，還有些叛逆，她父親像她這麽大的時候也是這樣。人是會變的，當她謙卑到能接納其他人接替Azazel的位置時，她就會成為王后...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Sérile 還年輕， 還有些叛逆， 她父親像她這麽大的時候也是這樣。人是會變的， 當她謙卑到能接納其他人接替Azazel的位置時， 她就會成為王后...","color":"dark_aqua"}]}

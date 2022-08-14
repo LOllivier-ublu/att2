@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"不，J'zargo 他對你沒有惡意，他正在對你的行為做出反應。我一直愛你 J'zargo，就像我自己的兒子一樣，從我照顧你的那一天起。 ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"的選擇不是我的決定：如果他殺了你，那麼你會為你的錯誤付出代價：但如果他讓你活下去，那麼你將不得不理解你對他所做的錯誤並承認他是個好人給你。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"不， J'zargo 他對你沒有惡意， 他正在對你的行為做出反應。我一直愛你 J'zargo， 就像我自己的兒子一樣， 從我照顧你的那一天起。 ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"的選擇不是我的決定：如果他殺了你， 那麼你會為你的錯誤付出代價：但如果他讓你活下去， 那麼你將不得不理解你對他所做的錯誤並承認他是個好人給你。","color":"dark_aqua"}]}

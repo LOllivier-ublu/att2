@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*假裝熱情*是的，太棒了，我想你的旅程終於結束了 J'zargo！也許你應該回到達哈爾學院慶祝你的勝利？！","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*假裝熱情*是的， 太棒了， 我想你的旅程終於結束了 J'zargo！ 也許你應該回到達哈爾學院慶祝你的勝利？ ！ ","color":"aqua"}]}

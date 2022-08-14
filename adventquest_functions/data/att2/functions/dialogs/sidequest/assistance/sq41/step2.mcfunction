@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- You never know what you're gonna g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 你永遠不知道你會得到什麼 -°- : ","color":"gray","extra":[{"text":"我找到一把帶有海盜印章的鑰匙。Jack Arrow的確沒騙我。我要找到這些海盜的藏身之所，那裡肯定藏了大量寶藏。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 你永遠不知道你會得到什麼 -°- : ","color":"gray","extra":[{"text":"我找到一把帶有海盜印章的鑰匙。Jack Arrow的確沒騙我。我要找到這些海盜的藏身之所， 那裡肯定藏了大量寶藏。","color":"aqua","italic":true}]}

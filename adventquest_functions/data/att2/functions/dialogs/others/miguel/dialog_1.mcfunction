@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Miguel : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Miguel : ","color":"green","extra":[{"text":"如果你有一些質量不錯的東西，但又想丟掉它們的話，我可以拿Chronoton和你交換它們！","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Miguel 打交道"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Miguel : ","color":"green","extra":[{"text":"如果你有一些質量不錯的東西， 但又想丟掉它們的話， 我可以拿Chronoton和你交換它們！ ","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Miguel 打交道"}}]}]}

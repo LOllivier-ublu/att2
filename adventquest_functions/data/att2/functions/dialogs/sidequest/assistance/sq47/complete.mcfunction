@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Rukyrion]","color":"green","hoverEvent
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Rukyrion]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[Rukyrion]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[Rukyrion]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}

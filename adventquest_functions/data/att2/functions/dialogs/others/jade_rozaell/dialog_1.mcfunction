@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jade Rozaell : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jade Rozaell : ","color":"green","extra":[{"text":"放輕鬆，只是商店而已。這裏出售一些稀有的裝備，而你需要 ","color":"dark_aqua"},{"text":"<Sovereign Scale of Chaos>","color":"light_purple"},{"text":" 來购买它們——而你可以在我的左手邊存儲這種特殊的交換物。好了，場面話説完了，來談生意吧。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jade_rozaell_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Jade 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jade Rozaell : ","color":"green","extra":[{"text":"放輕鬆， 只是商店而已。這裏出售一些稀有的裝備， 而你需要 ","color":"dark_aqua"},{"text":"<Sovereign Scale of Chaos>","color":"light_purple"},{"text":" 來购买它們——而你可以在我的左手邊存儲這種特殊的交換物。好了， 場面話説完了， 來談生意吧。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jade_rozaell_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Jade 的銷售情況。"}}]}]}

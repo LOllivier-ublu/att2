@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"那？這是一頂冠冕，賦予佩戴它的人復活的力量。這是一個邪惡而危險的神器，但我之前保存它的地方不再安全。我一直在尋找一個更好的地方來隱藏它。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"那？ 這是一頂冠冕， 賦予佩戴它的人復活的力量。這是一個邪惡而危險的神器， 但我之前保存它的地方不再安全。我一直在尋找一個更好的地方來隱藏它。","color":"aqua"}]}

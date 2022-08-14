@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for Berserk!","color":
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"咒語“狂戰士”已升級！","color":"gold"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"咒語“狂戰士”已升級！ ","color":"gold"}

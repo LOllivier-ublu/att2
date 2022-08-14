@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"好吧，所以盡快離開我的房子！我會找到比你更善良和慈善的人...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"好吧， 所以盡快離開我的房子！ 我會找到比你更善良和慈善的人...","color":"dark_aqua"}]}

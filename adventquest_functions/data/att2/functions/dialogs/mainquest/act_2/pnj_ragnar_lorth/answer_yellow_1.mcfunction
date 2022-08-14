@@ -19,7 +19,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"我猜，你是一名冒險家對嗎？聽著，她已經上了歲數了，我覺得你不該讓她加入你的冒險。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"我猜， 你是一名冒險家對嗎？ 聽著， 她已經上了歲數了， 我覺得你不該讓她加入你的冒險。","color":"dark_aqua"}]}
 
 
 execute as @a run function att2:dialogs/mainquest/act_2/pnj_ragnar_lorth/player_answer_proposal_2

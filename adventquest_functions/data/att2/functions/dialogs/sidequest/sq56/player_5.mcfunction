@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一塊鐫刻的骨頭，一顆水晶的眼淚，一塊奇異的綠寶石，不朽的鮮血，還有一張古老的捲軸...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一塊鐫刻的骨頭， 一顆水晶的眼淚， 一塊奇異的綠寶石， 不朽的鮮血， 還有一張古老的捲軸...","color":"aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"dark_blue"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"*腦中傳來聲音* 沒錯，就是這樣！不要錯過這個獲取他們信任的機會！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"*腦中傳來聲音* 沒錯， 就是這樣！ 不要錯過這個獲取他們信任的機會！ ","color":"dark_aqua"}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Derim Kril : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"嗨，哦，你不是來自這裡，它表明！我在隧道裡躲避怪物的入侵時丟失了胸膛的鑰匙，我所有的錢都還在，怪物嚇得我不敢去！請找到我的鑰匙，我會給你一些 Chronotons！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"嗨， 哦， 你不是來自這裡， 它表明！ 我在隧道裡躲避怪物的入侵時丟失了胸膛的鑰匙， 我所有的錢都還在， 怪物嚇得我不敢去！ 請找到我的鑰匙， 我會給你一些 Chronotons！ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq14/derim_kril/player_proposal_1/choice_1

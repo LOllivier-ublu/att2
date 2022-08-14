@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gaëlle : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"歡迎光臨Méleïm銀行，您可在此存入或取出Chronoton——存款信息全大陸銀行共通，無丟失風險。點擊告示牌以進行存取操作。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"歡迎光臨Méleïm銀行， 您可在此存入或取出Chronoton——存款信息全大陸銀行共通， 無丟失風險。點擊告示牌以進行存取操作。","color":"dark_aqua"}]}

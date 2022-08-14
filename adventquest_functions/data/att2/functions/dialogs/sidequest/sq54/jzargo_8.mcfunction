@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo 前往他的終極搜索點，前往 Elchéols 山頂上一座失落的神廟。之後，唉，他們將看到 J'zargo 的真正能力。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo 前往他的終極搜索點， 前往 Elchéols 山頂上一座失落的神廟。之後， 唉， 他們將看到 J'zargo 的真正能力。","color":"dark_aqua"}]}

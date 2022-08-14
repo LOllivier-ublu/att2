@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"對不起，儘管我喜歡你並覺得我欠你的行為，但我無法相信你是 Relgon 的轉世。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"對不起， 儘管我喜歡你並覺得我欠你的行為， 但我無法相信你是 Relgon 的轉世。","color":"dark_aqua"}]}

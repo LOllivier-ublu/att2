@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*驚喜和熱情*哦！我的小米婭回來了！我多麼為你擔心！但是這些小狗是什麼？啊哈，我想我明白了，我的小米婭想要組建她的家庭，這就是她離開的原因！但你不需要這樣做，我的美女，你的寶寶非常受歡迎！謝謝陌生人，謝謝，謝謝謝謝！這是值得您採取行動的獎勵。來吧，我的孩子們，我們回家吧，我在這個小酒館沒什麼可做的。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*驚喜和熱情*哦！ 我的小米婭回來了！ 我多麼為你擔心！ 但是這些小狗是什麼？ 啊哈， 我想我明白了， 我的小米婭想要組建她的家庭， 這就是她離開的原因！ 但你不需要這樣做， 我的美女， 你的寶寶非常受歡迎！ 謝謝陌生人， 謝謝， 謝謝謝謝！ 這是值得您採取行動的獎勵。來吧， 我的孩子們， 我們回家吧， 我在這個小酒館沒什麼可做的。","color":"dark_aqua"}]}

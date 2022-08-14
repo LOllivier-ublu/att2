@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alcimène : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alcimène : ","color":"green","extra":[{"text":"你來得正是時候——我剛進完貨。不要被價格給嚇到，食物在這裏可是稀缺資源...","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/alcimene_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Alcimène 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alcimène : ","color":"green","extra":[{"text":"你來得正是時候——我剛進完貨。不要被價格給嚇到， 食物在這裏可是稀缺資源...","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/alcimene_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Alcimène 的銷售情況。"}}]}]}

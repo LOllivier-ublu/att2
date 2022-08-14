@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我設法到達了這座城堡的地牢，但這地牢似乎遠比我想象的還要深。我必須想辦法重新打開那些門。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我設法到達了這座城堡的地牢， 但這地牢似乎遠比我想象的還要深。我必須想辦法重新打開那些門。","color":"aqua"}]}

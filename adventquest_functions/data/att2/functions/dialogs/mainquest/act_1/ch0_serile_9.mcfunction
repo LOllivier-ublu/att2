@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"難道你并非那位被口口傳頌的Tellurön的英雄？那好吧，如果你不信我，我也不會幫你！","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"難道你并非那位被口口傳頌的Tellurön的英雄？ 那好吧， 如果你不信我， 我也不會幫你！ ","color":"yellow","italic":true}]}

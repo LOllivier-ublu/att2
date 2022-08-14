@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A Mysterious Theft -°- : ","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 神秘盗窃案 -°- : ","color":"gray","extra":[{"text":"廚師告訴我在他的生肉儲藏間裡有一條密道，我可以繼續調查小偷究竟去了哪裡。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 神秘盗窃案 -°- : ","color":"gray","extra":[{"text":"廚師告訴我在他的生肉儲藏間裡有一條密道， 我可以繼續調查小偷究竟去了哪裡。","color":"aqua","italic":true}]}

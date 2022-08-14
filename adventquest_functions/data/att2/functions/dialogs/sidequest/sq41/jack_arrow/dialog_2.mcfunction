@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jack Arrow : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"不要留在附近。儘管我在每一次沖突中都是中立的，但我的追隨者卻大不相同，尤其是在這個地方！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"不要留在附近。儘管我在每一次沖突中都是中立的， 但我的追隨者卻大不相同， 尤其是在這個地方！ ","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"我本來打算把 Chronotons 給你，但如果你成功了，我可以向你保證我們的房子之一，價格很低。現在朝艾爾維塔方向前進，進入平原上的小鎮前就是白樺林。找到強盜並摧毀他們的營地，讓他們永遠不會回來。祝你好運！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"我本來打算把 Chronotons 給你， 但如果你成功了， 我可以向你保證我們的房子之一， 價格很低。現在朝艾爾維塔方向前進， 進入平原上的小鎮前就是白樺林。找到強盜並摧毀他們的營地， 讓他們永遠不會回來。祝你好運！ ","color":"dark_aqua"}]}

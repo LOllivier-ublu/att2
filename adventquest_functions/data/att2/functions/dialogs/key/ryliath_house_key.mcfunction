@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"t
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"我需要一個 ","color":"aqua","extra":[{"text":"<Little Key>","color":"gray","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Clef Maison Ryliath\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§3§oKey of Ryliath House\\\"}\"]}}}"},"extra":[{"text":" 要打開這扇門！","color":"aqua"}]}]}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"我需要一個 ","color":"aqua","extra":[{"text":"<Little Key>","color":"gray","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Clef Maison Ryliath\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§3§oKey of Ryliath House\\\"}\"]}}}"},"extra":[{"text":" 要打開這扇門！ ","color":"aqua"}]}]}]}

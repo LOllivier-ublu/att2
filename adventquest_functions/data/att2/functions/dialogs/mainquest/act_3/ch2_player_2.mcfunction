@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...Relgon！？... .. 嗯，抱歉，我的名字是<player name 1>，我來自Tellurön，剛到這兒不久。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...Relgon！ ？ ... .. 嗯， 抱歉， 我的名字是<player name 1>， 我來自Tellurön， 剛到這兒不久。","color":"aqua"}]}

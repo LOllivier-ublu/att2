@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Mercurius : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"不可能，我被困在這裡了。但是你...我沒有白白訓練你！我希望有人來救我，那一天似乎終於到來了！所以如果你想擺脫這個“異常”，你必須讓我離開這裡。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mercurius : ","color":"green","extra":[{"text":"不可能， 我被困在這裡了。但是你...我沒有白白訓練你！ 我希望有人來救我， 那一天似乎終於到來了！ 所以如果你想擺脫這個“異常”， 你必須讓我離開這裡。","color":"dark_aqua"}]}

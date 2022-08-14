@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"目前打聽到的情報是：有一塊空間之石被存放於Worlëst森林的一所神廟裏——Wirth說那所神廟就在Ryliath東北部的森林盡頭。但是，神廟前有一個蠻族人的營地，我必須先悄悄地潜入那個營地。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"目前打聽到的情報是：有一塊空間之石被存放於Worlëst森林的一所神廟裏——Wirth說那所神廟就在Ryliath東北部的森林盡頭。但是， 神廟前有一個蠻族人的營地， 我必須先悄悄地潜入那個營地。","color":"aqua"}]}

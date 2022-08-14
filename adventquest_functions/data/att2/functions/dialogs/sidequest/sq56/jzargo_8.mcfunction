@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo 將 Cassandre 的挂墜盒遞給學生，他必須收拾他在這裡造成的爛攤子。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo 將 Cassandre 的挂墜盒遞給學生， 他必須收拾他在這裡造成的爛攤子。","color":"dark_aqua"}]}

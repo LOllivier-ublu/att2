@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"這裏住著一位女裁縫，她在運用Dahäl咒語上很有天賦。你可以在她那買到附魔裝備。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"這裏住著一位女裁縫， 她在運用Dahäl咒語上很有天賦。你可以在她那買到附魔裝備。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"根據Ryliath國王和王后的說法，我可以在傳説之城Elorion找到一顆時間之石。這座城市地處北邊的Elcheol山上，同時也是Dahäl學院的所在。我應該能在那兒知道更多有關寶石確切位置的消息。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"根據Ryliath國王和王后的說法， 我可以在傳説之城Elorion找到一顆時間之石。這座城市地處北邊的Elcheol山上， 同時也是Dahäl學院的所在。我應該能在那兒知道更多有關寶石確切位置的消息。","color":"aqua"}]}

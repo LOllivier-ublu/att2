@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rob Harth : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"你準備好了嗎？ 在我的土地上殺死盡可能多的怪物，我不想在我的穀倉裡再有一隻。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rob harth : ","color":"green","extra":[{"text":"你準備好了嗎？  在我的土地上殺死盡可能多的怪物， 我不想在我的穀倉裡再有一隻。","color":"dark_aqua"}]}

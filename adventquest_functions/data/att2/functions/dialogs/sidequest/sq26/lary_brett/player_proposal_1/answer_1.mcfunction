@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"那裡游蕩的亡靈太多了。但如果你殺得夠多，掃清道路，我可以幫你！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"那裡游蕩的亡靈太多了。但如果你殺得夠多， 掃清道路， 我可以幫你！ ","color":"dark_aqua"}]}

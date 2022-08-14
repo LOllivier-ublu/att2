@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Heist of the Cycle -°- : ","c
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- '暗地裏''盗窃 -°- : ","color":"gray","extra":[{"text":"通過下水道系統可以找到Ryliath金庫下方一面破舊的牆，Chiara的計劃是透過破壞這面牆來實施盜竊。我最好在晚上動手以免驚擾守衛，之後再把獲得的 ","color":"aqua","italic":true,"extra":[{"text":"<戰利品>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:diamond\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Butin\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Booty\\\"}\"]}}}"},"extra":[{"text":" 和Chiara分贓。","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- '暗地裏''盗窃 -°- : ","color":"gray","extra":[{"text":"通過下水道系統可以找到Ryliath金庫下方一面破舊的牆， Chiara的計劃是透過破壞這面牆來實施盜竊。我最好在晚上動手以免驚擾守衛， 之後再把獲得的 ","color":"aqua","italic":true,"extra":[{"text":"<戰利品>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:diamond\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Butin\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Booty\\\"}\"]}}}"},"extra":[{"text":" 和Chiara分贓。","color":"aqua","italic":true}]}]}]}

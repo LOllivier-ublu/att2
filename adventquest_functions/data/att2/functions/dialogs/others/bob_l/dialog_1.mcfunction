@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Bob L. : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"嘿，你小子小心點！我，偉大的Bob Laïnonne，正在練習發射强力火球。給我離開這兒——麻溜點！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"嘿， 你小子小心點！ 我， 偉大的Bob Laïnonne， 正在練習發射强力火球。給我離開這兒——麻溜點！ ","color":"dark_aqua"}]}

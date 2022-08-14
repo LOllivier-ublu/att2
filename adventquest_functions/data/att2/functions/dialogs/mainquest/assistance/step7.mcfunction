@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"如果我沒理解錯，我需要找到一位叫Wirth Razgork的冒險家——他是Sylvandre的父親。如果他真的有關於那些空間之石的情報的話，我最好還是先和他聊聊。他的家應該就在這座城市的東邊。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"如果我沒理解錯， 我需要找到一位叫Wirth Razgork的冒險家——他是Sylvandre的父親。如果他真的有關於那些空間之石的情報的話， 我最好還是先和他聊聊。他的家應該就在這座城市的東邊。","color":"aqua"}]}

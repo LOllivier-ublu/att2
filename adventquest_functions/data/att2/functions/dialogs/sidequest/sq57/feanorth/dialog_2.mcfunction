@@ -17,7 +17,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Feanorth : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"嘿！你回到了該地區，這很好！我知道，在你完成功績之後，我可能會要求很多，但我需要幫助來建造一個 Atricanth 巢穴...這些仍然是幼年的小動物，幸運的是比成年人的危險性要小得多，是真正的瘟疫。他們在安戈爾的某些地區安逸了，許多戰士已經在戰爭中喪生了...我沒有多少人可以解決這個問題，所以我才問你的戰鬥技巧。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"嘿！ 你回到了該地區， 這很好！ 我知道， 在你完成功績之後， 我可能會要求很多， 但我需要幫助來建造一個 Atricanth 巢穴...這些仍然是幼年的小動物， 幸運的是比成年人的危險性要小得多， 是真正的瘟疫。他們在安戈爾的某些地區安逸了， 許多戰士已經在戰爭中喪生了...我沒有多少人可以解決這個問題， 所以我才問你的戰鬥技巧。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq57/feanorth/player_proposal_1/choice_1

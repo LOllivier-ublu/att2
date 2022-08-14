@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"t
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"太好了，這樣的武器可以很好地為我服務！ 扳機很靈敏，一定是突擊步槍自動發射能量彈。 但是，我需要彈匣...如果我找到了，我還需要騰出左手拿彈匣才能有效地使用這支步槍。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"太好了， 這樣的武器可以很好地為我服務！  扳機很靈敏， 一定是突擊步槍自動發射能量彈。 但是， 我需要彈匣...如果我找到了， 我還需要騰出左手拿彈匣才能有效地使用這支步槍。","color":"aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"好，好，我確實有問題！*打嗝* 那時候，我還是一名Ryliath的士兵，過著平靜的生活... 離開軍隊后，我收養了Mia，一條狗狗。你知道嗎，她對我來説就像女兒一樣。然後... 有一次我在Méleïm過夜的時候她居然失蹤了。我到處都找遍了，在城裏從天黑找到天亮... 還沒有找到！*哽咽* 我受夠了，我現在只想靠在她的毛髮上抱著她！不過，你可以幫我找到她嗎？爲了再見她一面我願意付出一切！求你了，找到她！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"好， 好， 我確實有問題！ *打嗝* 那時候， 我還是一名Ryliath的士兵， 過著平靜的生活... 離開軍隊后， 我收養了Mia， 一條狗狗。你知道嗎， 她對我來説就像女兒一樣。然後... 有一次我在Méleïm過夜的時候她居然失蹤了。我到處都找遍了， 在城裏從天黑找到天亮... 還沒有找到！ *哽咽* 我受夠了， 我現在只想靠在她的毛髮上抱著她！ 不過， 你可以幫我找到她嗎？ 爲了再見她一面我願意付出一切！ 求你了， 找到她！ ","color":"dark_aqua"}]}

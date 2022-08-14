@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"[Leaving the past behind to step forwar
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[往者不可諫，來者犹可追]","color":"gold"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[往者不可諫， 來者犹可追]","color":"gold"}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"事已至此，我們將不得不面對La Flamme Noire。如果進展如我們所願，如果我們在這次磨難中存活並獲勝，我將不再留在Angband的王座上，我不配擁有它。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"事已至此， 我們將不得不面對La Flamme Noire。如果進展如我們所願， 如果我們在這次磨難中存活並獲勝， 我將不再留在Angband的王座上， 我不配擁有它。","color":"dark_aqua"}]}

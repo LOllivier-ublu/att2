@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Ne jamais rien laisser derrière soi]"
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Never leave anything behind]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[永遠不要留下任何東西]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[永遠不要留下任何東西]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"你沒有意識到你是多麼幸運。在我的一生中，我一直在尋找真正的我，我在這個廣闊世界中的目標，卻沒有找到答案。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"你沒有意識到你是多麼幸運。在我的一生中， 我一直在尋找真正的我， 我在這個廣闊世界中的目標， 卻沒有找到答案。","color":"dark_aqua"}]}

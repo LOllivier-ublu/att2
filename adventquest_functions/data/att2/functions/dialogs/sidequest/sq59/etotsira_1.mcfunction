@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"異常？是的，我知道。它的出現與你打開的空間門戶的打開有關，以加入你的時間。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"異常？ 是的， 我知道。它的出現與你打開的空間門戶的打開有關， 以加入你的時間。","color":"dark_aqua"}]}

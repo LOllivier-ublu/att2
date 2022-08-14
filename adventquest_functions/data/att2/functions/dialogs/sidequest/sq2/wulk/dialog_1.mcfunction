@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"你好啊旅行者！來坐會吧，別害羞！我的名字是Wulk，如同你所見我是個鐵匠，目前已經做這行很多年了。唉，很抱歉今天都沒什麼成果，但是我已經沒有做裝備的材料了。我不久前請學徒去幫我找了一些，只是他還沒有回來... 你願意撥空幫我帶一些鐵礦回來嗎？我會很慷慨的報答你的。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"你好啊旅行者！ 來坐會吧， 別害羞！ 我的名字是Wulk， 如同你所見我是個鐵匠， 目前已經做這行很多年了。唉， 很抱歉今天都沒什麼成果， 但是我已經沒有做裝備的材料了。我不久前請學徒去幫我找了一些， 只是他還沒有回來... 你願意撥空幫我帶一些鐵礦回來嗎？ 我會很慷慨的報答你的。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq2/wulk/player_proposal_1/choice_1

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"他是我們以前的學生，但他對權力的貪婪導致他偷走了我們的一件禁忌遺物：一塊死靈石。之後，他和你一樣逃到了山里：尋找藏在那裡的時間寶石。我們中的許多人在試圖阻止它或保衛我們的城市時犧牲了。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"他是我們以前的學生， 但他對權力的貪婪導致他偷走了我們的一件禁忌遺物：一塊死靈石。之後， 他和你一樣逃到了山里：尋找藏在那裡的時間寶石。我們中的許多人在試圖阻止它或保衛我們的城市時犧牲了。","color":"dark_aqua"}]}

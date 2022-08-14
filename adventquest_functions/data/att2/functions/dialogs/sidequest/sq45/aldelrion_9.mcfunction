@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"現在可以問你一個問題嗎？我不認為你只是因為善良而穿越世界並勇敢地打仗。你在尋找什麼，不是嗎？但為了什麼？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"現在可以問你一個問題嗎？ 我不認為你只是因為善良而穿越世界並勇敢地打仗。你在尋找什麼， 不是嗎？ 但為了什麼？ ","color":"dark_aqua"}]}

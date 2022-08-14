@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"我希望你的任務進展順利。當心！目前，道路不一定安全。我們有時會派出一些部隊來保護車隊和偵察任務，但在城市之外，在森林深處可能會有很大的危險。但是，嘿，有人走遍了整個地區，成功地利用了激活像 Ryliath 那樣的舊傳送門的壯舉，我的謹慎建議肯定是徒勞的。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"我希望你的任務進展順利。當心！ 目前， 道路不一定安全。我們有時會派出一些部隊來保護車隊和偵察任務， 但在城市之外， 在森林深處可能會有很大的危險。但是， 嘿， 有人走遍了整個地區， 成功地利用了激活像 Ryliath 那樣的舊傳送門的壯舉， 我的謹慎建議肯定是徒勞的。","color":"dark_aqua"}]}

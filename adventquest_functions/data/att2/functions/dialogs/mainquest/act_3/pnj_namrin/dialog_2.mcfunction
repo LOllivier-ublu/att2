@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon就像我們的父親。他教會我們使用Dahäl、使用刀與敵人戰鬥。説實話，我比Sérile更擅长使用Dahäl，但若是真刀真槍幹起來，我就比不過她了。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon就像我們的父親。他教會我們使用Dahäl、使用刀與敵人戰鬥。説實話， 我比Sérile更擅长使用Dahäl， 但若是真刀真槍幹起來， 我就比不過她了。","color":"dark_aqua"}]}
 
 
 execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4

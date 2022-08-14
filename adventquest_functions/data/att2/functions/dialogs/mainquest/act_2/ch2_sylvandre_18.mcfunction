@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"如果你願意...呃，我的意思是，如果你想調整你的能力，這所房子裏的大師能重置你的技能點。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"如果你願意...呃， 我的意思是， 如果你想調整你的能力， 這所房子裏的大師能重置你的技能點。","color":"dark_aqua"}]}

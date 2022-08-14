@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"啊！但！沒有更多的門了，我肯定不會有任何問題...我現在要去哪裡睡覺？ ...好吧，等一下，但是離開這裡，我不想再見到你了。但為什麼...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"啊！ 但！ 沒有更多的門了， 我肯定不會有任何問題...我現在要去哪裡睡覺？  ...好吧， 等一下， 但是離開這裡， 我不想再見到你了。但為什麼...","color":"dark_aqua"}]}

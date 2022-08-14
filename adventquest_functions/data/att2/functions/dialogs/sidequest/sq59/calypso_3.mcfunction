@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Calypso : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"我明白了，但看起來這東西不像其他東西那樣是門戶。它與您 4 年前打開的那個無關。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"我明白了， 但看起來這東西不像其他東西那樣是門戶。它與您 4 年前打開的那個無關。","color":"dark_aqua"}]}

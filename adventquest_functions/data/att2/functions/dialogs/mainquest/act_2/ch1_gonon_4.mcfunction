@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"我可以給你提供一間房，讓你住上一晚。價錢也很便宜——只需支付25 Chronotons！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"我可以給你提供一間房， 讓你住上一晚。價錢也很便宜——只需支付25 Chronotons！ ","color":"dark_aqua"}]}

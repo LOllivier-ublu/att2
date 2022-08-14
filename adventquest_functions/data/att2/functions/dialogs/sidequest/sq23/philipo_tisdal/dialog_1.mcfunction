@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"在那裡，那是一個尋找工作的旅行者的臉！你很幸運，我不知所措，我必須獨自管理我所有的收成，因為我的妻子...走了...然而，這些骯髒的小動物，這些有趣的老鼠已經吞噬了我的南瓜！它們很堅韌，並且以某種速度繁殖！我不知道該怎麼做才能擺脫它們，你能用幾個 Chronotons 嗎？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"在那裡， 那是一個尋找工作的旅行者的臉！ 你很幸運， 我不知所措， 我必須獨自管理我所有的收成， 因為我的妻子...走了...然而， 這些骯髒的小動物， 這些有趣的老鼠已經吞噬了我的南瓜！ 它們很堅韌， 並且以某種速度繁殖！ 我不知道該怎麼做才能擺脫它們， 你能用幾個 Chronotons 嗎？ ","color":"dark_aqua"}]}
 
 
 scoreboard players set philipo_tisdal_PNJ DIALOG 2

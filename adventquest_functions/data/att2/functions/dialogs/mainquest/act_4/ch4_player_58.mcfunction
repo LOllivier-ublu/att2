@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"他現在有一整群保護他並跟著我...我必須想辦法擺脫它！也許通過在這個鈴鐺中射箭會產生效果...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"他現在有一整群保護他並跟著我...我必須想辦法擺脫它！ 也許通過在這個鈴鐺中射箭會產生效果...","color":"aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Guard : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"王室...看來，你不只是任何人。很抱歉打擾了，但我們的城市雖然看起來很窮。我不允許乞丐和流浪漢進來，因為我們幾乎沒有足夠的食物來度過冬天，而且我們嚴重依賴貿易來生存...我的意思是，如果那是你正在尋找的知識，你就不可能來在一個更好的地方！達哈爾學院位於城市的另一端，面向群山：您不能錯過。他們可能會同意為您提供一些 Chronotons 的幫助。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Guard : ","color":"green","extra":[{"text":"王室...看來， 你不只是任何人。很抱歉打擾了， 但我們的城市雖然看起來很窮。我不允許乞丐和流浪漢進來， 因為我們幾乎沒有足夠的食物來度過冬天， 而且我們嚴重依賴貿易來生存...我的意思是， 如果那是你正在尋找的知識， 你就不可能來在一個更好的地方！ 達哈爾學院位於城市的另一端， 面向群山：您不能錯過。他們可能會同意為您提供一些 Chronotons 的幫助。","color":"dark_aqua"}]}

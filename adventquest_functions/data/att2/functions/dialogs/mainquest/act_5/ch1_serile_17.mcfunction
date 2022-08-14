@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Serile : ","color":"gray","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Relgon，你剝奪了我的力量，你將我從我與生俱來的地方帶走了。我會殺了你。然後，我的血脈將在我父親的遺棄和死亡之後，像伊瑞利安自古以來所希望的那樣，奪回安格班的韁繩！","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Relgon， 你剝奪了我的力量， 你將我從我與生俱來的地方帶走了。我會殺了你。然後， 我的血脈將在我父親的遺棄和死亡之後， 像伊瑞利安自古以來所希望的那樣， 奪回安格班的韁繩！ ","color":"yellow","italic":true}]}

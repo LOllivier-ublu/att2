@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Laisser le passé derrière soi pour a
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Leaving the past behind to step forward]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq39/display_progress"},"hoverEvent":{"action":"show_text","value":"Click here to check your progress for this quest and get some clues."}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[往者不可諫，來者犹可追]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq39/display_progress"},"hoverEvent":{"action":"show_text","value":"單擊此處檢查您的任務進度並獲取一些線索。"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[往者不可諫， 來者犹可追]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq39/display_progress"},"hoverEvent":{"action":"show_text","value":"單擊此處檢查您的任務進度並獲取一些線索。"}}

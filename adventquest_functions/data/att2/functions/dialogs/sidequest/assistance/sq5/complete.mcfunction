@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Retrouver Mia]","color":"green","hover
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Find Mia]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[尋狗大作戰]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[尋狗大作戰]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}

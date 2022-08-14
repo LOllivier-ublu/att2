@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"嘿旅行者！在這裡，我們照顧像您這樣的城市居民和游牧民族的馬匹！現在沒有任何馬在出售，它們不會從這些野獸的樹上掉下來！ '結束了，我有一些，但我不知道他們在這段時間裡發生了什麼：他們處於緊張狀態，在微風中驚慌失措。我必須解決這個問題，但很快回來！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"嘿旅行者！ 在這裡， 我們照顧像您這樣的城市居民和游牧民族的馬匹！ 現在沒有任何馬在出售， 它們不會從這些野獸的樹上掉下來！  '結束了， 我有一些， 但我不知道他們在這段時間裡發生了什麼：他們處於緊張狀態， 在微風中驚慌失措。我必須解決這個問題， 但很快回來！ ","color":"dark_aqua"}]}

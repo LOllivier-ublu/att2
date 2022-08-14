@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"當然，我保護他免受像你這樣的兇手的傷害。但是，如果認為寬容存在於每個人的心中，可能就太天真了。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"當然， 我保護他免受像你這樣的兇手的傷害。但是， 如果認為寬容存在於每個人的心中， 可能就太天真了。","color":"dark_aqua"}]}

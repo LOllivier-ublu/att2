@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"dark_blue"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"*大腦中的聲音* 別擔心，你可以相信他。他不會對你的來歷感到驚訝——畢竟，他可是一名Eternän [永生者] 。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"*大腦中的聲音* 別擔心， 你可以相信他。他不會對你的來歷感到驚訝——畢竟， 他可是一名Eternän [永生者] 。","color":"dark_aqua"}]}

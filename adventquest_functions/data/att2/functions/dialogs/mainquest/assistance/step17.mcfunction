@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"現在，第一塊空間之石已經安置妥當，我得再次拜訪Wirth Razgork，從他那裏打聽有关下一塊空間之石的情報。如果一切正常，他應該還在自己的家裏。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"現在， 第一塊空間之石已經安置妥當， 我得再次拜訪Wirth Razgork， 從他那裏打聽有关下一塊空間之石的情報。如果一切正常， 他應該還在自己的家裏。","color":"aqua"}]}

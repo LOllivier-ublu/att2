@@ -18,7 +18,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"等等英雄，如果你通過這個傳送門，恐怕你就回不來了。你確定你準備好了？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"等等英雄， 如果你通過這個傳送門， 恐怕你就回不來了。你確定你準備好了？ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/mainquest/act_5/pnj_etotsira/player_answer_proposal_1

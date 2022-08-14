@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你找到什麼了嗎？所以快點，Méleïm 以西的 Mornith 採石場，沿著小路你會很容易找到在北部山區挖掘的礦場。考慮到我被告知的有關 Morniths 業務規模的情況，一條寬闊的道路通向那裡，並被一個巨大的木製路障保護著。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你找到什麼了嗎？ 所以快點， Méleïm 以西的 Mornith 採石場， 沿著小路你會很容易找到在北部山區挖掘的礦場。考慮到我被告知的有關 Morniths 業務規模的情況， 一條寬闊的道路通向那裡， 並被一個巨大的木製路障保護著。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq27/emerald/player_proposal_1/choice_2

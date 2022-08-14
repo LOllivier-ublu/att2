@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Babbu : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"謝謝你的朋友，我將有一個神聖的盛宴，當然，一瓶酒...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"謝謝你的朋友， 我將有一個神聖的盛宴， 當然， 一瓶酒...","color":"dark_aqua"}]}

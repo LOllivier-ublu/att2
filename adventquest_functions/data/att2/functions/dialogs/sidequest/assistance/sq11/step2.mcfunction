@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Troublemakers -°- : ","color":"gr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 鬧事者 -°- : ","color":"gray","extra":[{"text":"趕走那群滋事者之後再和酒店老闆談談，看他能給我什麼獎賞。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 鬧事者 -°- : ","color":"gray","extra":[{"text":"趕走那群滋事者之後再和酒店老闆談談， 看他能給我什麼獎賞。","color":"aqua","italic":true}]}

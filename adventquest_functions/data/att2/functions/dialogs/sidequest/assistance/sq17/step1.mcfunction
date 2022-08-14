@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Vital emergency -°- : ","color":"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 至關重要的緊急情況 -°- : ","color":"gray","extra":[{"text":"流放營中大量缺少繃帶，Hermona讓我去她在Angor的舊家中找找。她家在Angor上層建築靠東翼那邊，我得取回6組 ","color":"aqua","italic":true,"extra":[{"text":"<繃帶>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:dye\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Bandages\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Bandages\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 至關重要的緊急情況 -°- : ","color":"gray","extra":[{"text":"流放營中大量缺少繃帶， Hermona讓我去她在Angor的舊家中找找。她家在Angor上層建築靠東翼那邊， 我得取回6組 ","color":"aqua","italic":true,"extra":[{"text":"<繃帶>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:dye\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Bandages\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Bandages\\\"}\"]}}}"},"extra":[{"text":" ","color":"aqua","italic":true}]}]}]}

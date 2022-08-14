@@ -27,11 +27,11 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"他在尋找什麼？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"他在尋找什麼？ ","color":"dark_aqua"}]}
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一顆時間寶石。","color":"aqua"}]}
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"有一個交易。四肢腐爛，不再服從他的意志。沒有力氣，他呆在原地，一動不動。小肉體，修好他，他會創造一條通往烏爾戈克斯特倫的通道，那裡沉睡著時代的寶石。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"有一個交易。四肢腐爛， 不再服從他的意志。沒有力氣， 他呆在原地， 一動不動。小肉體， 修好他， 他會創造一條通往烏爾戈克斯特倫的通道， 那裡沉睡著時代的寶石。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/mainquest/act_4/pnj_golem/player_answer_proposal_2

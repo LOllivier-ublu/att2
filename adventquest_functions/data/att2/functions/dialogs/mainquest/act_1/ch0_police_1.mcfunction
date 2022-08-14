@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"(-)=(-) Police : ","color":"gray","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"你被捕了，舉起手來！","color":"dark_red"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"你被捕了， 舉起手來！ ","color":"dark_red"}]}

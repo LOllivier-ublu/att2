@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"不，這不是懷舊。這是凡人很少經歷的事情，即使他們到了老年。懷舊源於你與某事有關的情緒，但考慮到我在這裡度過的所有時間，我忘記情緒並再次經歷它們的次數...不，懷舊不是正確的術語，但沒有一個真實地傳達了這個傷口的意思。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"不， 這不是懷舊。這是凡人很少經歷的事情， 即使他們到了老年。懷舊源於你與某事有關的情緒， 但考慮到我在這裡度過的所有時間， 我忘記情緒並再次經歷它們的次數...不， 懷舊不是正確的術語， 但沒有一個真實地傳達了這個傷口的意思。","color":"dark_aqua"}]}

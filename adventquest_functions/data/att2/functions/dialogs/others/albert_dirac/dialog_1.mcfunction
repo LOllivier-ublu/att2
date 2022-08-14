@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Albert Dirac : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"歡迎光臨Eolorion酒店。想在這小憩片刻嗎？您可以以十分實惠的價格在這兒住上一天。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"歡迎光臨Eolorion酒店。想在這小憩片刻嗎？ 您可以以十分實惠的價格在這兒住上一天。","color":"dark_aqua"}]}
 
 
 scoreboard players set albert_dirac_PNJ DIALOG 2

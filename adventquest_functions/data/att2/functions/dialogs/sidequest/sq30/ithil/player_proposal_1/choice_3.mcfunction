@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1},x=-4946,y=145,z=-4915,distance=..10] {"selector":
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2},x=-4946,y=145,z=-4915,distance=..10] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[你的故事我不感興趣！要么我譴責你，要么你會立即報告這些計劃...但要聰明，一個保守的秘密必須付出代價，尤其是當涉及到從國王那裡漏掉真相時！-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @s[x=-4946,y=145,z=-4915,distance=..10] run execute if score SQ30 SIDEQUEST matches 8 run function att2:cinematic/sidequest/30/ithil/answer_3_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 3"}}]}
+tellraw @a[scores={LANGUAGE=2},x=-4946,y=145,z=-4915,distance=..10] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[你的故事我不感興趣！ 要么我譴責你， 要么你會立即報告這些計劃...但要聰明， 一個保守的秘密必須付出代價， 尤其是當涉及到從國王那裡漏掉真相時！ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @s[x=-4946,y=145,z=-4915,distance=..10] run execute if score SQ30 SIDEQUEST matches 8 run function att2:cinematic/sidequest/30/ithil/answer_3_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 3"}}]}

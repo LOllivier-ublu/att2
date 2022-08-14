@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你找到她的夾克了嗎？所以這條賽道是正確的。她追隨母親的腳步，小徑通往東海岸梅萊姆鎮附近的阿達諾伊公墓。也許我們會再次相遇。祝你好運，先生。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你找到她的夾克了嗎？ 所以這條賽道是正確的。她追隨母親的腳步， 小徑通往東海岸梅萊姆鎮附近的阿達諾伊公墓。也許我們會再次相遇。祝你好運， 先生。","color":"dark_aqua"}]}

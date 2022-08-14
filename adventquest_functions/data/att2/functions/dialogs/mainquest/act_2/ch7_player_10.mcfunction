@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這個機器一定是用來向中央大廳運送水的。如果我能把水管調節到正確的位置，讓水流從兩端的起點流到各自所在的終點，應該就可以打開房間的大門...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這個機器一定是用來向中央大廳運送水的。如果我能把水管調節到正確的位置， 讓水流從兩端的起點流到各自所在的終點， 應該就可以打開房間的大門...","color":"aqua"}]}

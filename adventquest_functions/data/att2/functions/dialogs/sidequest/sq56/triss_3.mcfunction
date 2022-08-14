@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*快樂和感激*啊哈，是的，我想他一定是到處拖拖拉拉。很抱歉你不得不經歷這些，但現在他回來了，他現在安全了！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*快樂和感激*啊哈， 是的， 我想他一定是到處拖拖拉拉。很抱歉你不得不經歷這些， 但現在他回來了， 他現在安全了！ ","color":"dark_aqua"}]}

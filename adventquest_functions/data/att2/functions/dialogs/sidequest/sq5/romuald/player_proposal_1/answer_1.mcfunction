@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"什麽... 發生什麽事了？！我發誓我剛才沒在睡覺！額... 你不是船長！那你剛才幹嘛？！你覺得把老實人從睡夢中吵醒很禮貌嗎？給我... *打嗝* 安靜！我沒那麽一無是處！我也不想在這裏毫無意義的搜尋，在這裏發霉爛掉...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"什麽... 發生什麽事了？ ！ 我發誓我剛才沒在睡覺！ 額... 你不是船長！ 那你剛才幹嘛？ ！ 你覺得把老實人從睡夢中吵醒很禮貌嗎？ 給我... *打嗝* 安靜！ 我沒那麽一無是處！ 我也不想在這裏毫無意義的搜尋， 在這裏發霉爛掉...","color":"dark_aqua"}]}

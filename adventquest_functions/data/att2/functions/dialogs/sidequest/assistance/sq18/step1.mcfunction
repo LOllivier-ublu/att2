@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A well-deserved revenge -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惡有惡報 -°- : ","color":"gray","extra":[{"text":"Daril的兒子被一群瘋狂的邪教徒殘忍地截肢了，他讓我替他對這群人復仇。這群瘋子的老巢在Angor廢墟靠西邊比較遠的地方。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惡有惡報 -°- : ","color":"gray","extra":[{"text":"Daril的兒子被一群瘋狂的邪教徒殘忍地截肢了， 他讓我替他對這群人復仇。這群瘋子的老巢在Angor廢墟靠西邊比較遠的地方。","color":"aqua","italic":true}]}

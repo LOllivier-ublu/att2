@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Mutant protozoan, the globular p
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"突變的原生動物，球狀寄生蟲","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"突變的原生動物， 球狀寄生蟲","color":"gray"}

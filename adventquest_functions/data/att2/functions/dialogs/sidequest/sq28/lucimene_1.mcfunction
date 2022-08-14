@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucimène : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"*痛苦地嚎叫*什麼是....Wh。什麼..？停下來！！","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"*痛苦地嚎叫*什麼是....Wh。什麼..？ 停下來！ ！ ","color":"blue"}]}

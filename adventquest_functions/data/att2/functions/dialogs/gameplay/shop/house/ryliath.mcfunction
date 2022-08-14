@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<洞穴擴張>","bold":false,"color":"gray","extra":[{"text":" [1500 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned -5108 106 -4949 if entity @s[distance=..10] run function att2:gameplay/misc/house/cave_expansion/ryliath_trigger"},"hoverEvent":{"action":"show_text","value":"点击这里购买你家的洞穴扩展！"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<洞穴擴張>","bold":false,"color":"gray","extra":[{"text":" [1500 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned -5108 106 -4949 if entity @s[distance=..10] run function att2:gameplay/misc/house/cave_expansion/ryliath_trigger"},"hoverEvent":{"action":"show_text","value":"点击这里购买你家的洞穴扩展！ "}}]}]}

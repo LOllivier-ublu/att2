@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Estelle : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Estelle : ","color":"green","extra":[{"text":"你好，你是Sylvandre的朋友嗎？這應該是我第一次見你。他總是想方設法吸引我的注意——雖然有些吵鬧，又經常笨手笨脚，但他真的是一個很熱心腸的人。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Estelle : ","color":"green","extra":[{"text":"你好， 你是Sylvandre的朋友嗎？ 這應該是我第一次見你。他總是想方設法吸引我的注意——雖然有些吵鬧， 又經常笨手笨脚， 但他真的是一個很熱心腸的人。","color":"dark_aqua"}]}

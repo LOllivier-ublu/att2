@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"其實我想説，這些事情發生之餘，我忘了向您道謝。如果沒有您，這一切都不可能發生。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"其實我想説， 這些事情發生之餘， 我忘了向您道謝。如果沒有您， 這一切都不可能發生。","color":"dark_aqua"}]}

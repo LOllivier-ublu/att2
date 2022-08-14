@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"嗨，小傢伙。你在我的廚房裡做什麼？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"嗨， 小傢伙。你在我的廚房裡做什麼？ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq31/marlene/player_proposal_1/choice_1

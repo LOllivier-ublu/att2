@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Catch cat -°- : ","color":"gray",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 抓貓 -°- : ","color":"gray","extra":[{"text":"Cassandre跟我說曾經有個叫J'zargo的傢伙偷了她的印章，不過人已經跑路了。學院的女法師Triss應該很了解這個人，我可以去拜訪一下她。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 抓貓 -°- : ","color":"gray","extra":[{"text":"Cassandre跟我說曾經有個叫J'zargo的傢伙偷了她的印章， 不過人已經跑路了。學院的女法師Triss應該很了解這個人， 我可以去拜訪一下她。","color":"aqua","italic":true}]}

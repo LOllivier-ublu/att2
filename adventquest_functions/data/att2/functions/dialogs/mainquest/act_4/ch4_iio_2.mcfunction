@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Iio : ","color":"yellow","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"意思是，別這麼說...你不開心嗎？沒錯，他很堅強，但你比他甜得多。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"意思是， 別這麼說...你不開心嗎？ 沒錯， 他很堅強， 但你比他甜得多。","color":"dark_aqua"}]}

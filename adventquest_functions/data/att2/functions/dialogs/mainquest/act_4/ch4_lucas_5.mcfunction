@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucas : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"我毫不懷疑，如果我有時讓自己漂浮在風中，請原諒我。那麼，你想飛嗎？","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"我毫不懷疑， 如果我有時讓自己漂浮在風中， 請原諒我。那麼， 你想飛嗎？ ","color":"dark_aqua"}]}

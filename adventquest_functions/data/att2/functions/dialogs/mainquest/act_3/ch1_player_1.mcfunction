@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好極了！Ryliath的空間傳送門被激活了！我終於可以親手了結Etotsira和他施加在我身上的詛咒了！","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好極了！ Ryliath的空間傳送門被激活了！ 我終於可以親手了結Etotsira和他施加在我身上的詛咒了！ ","color":"aqua"}]}

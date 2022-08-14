@@ -16,6 +16,6 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Maria : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Maria : ","color":"green","extra":[{"text":"你好！喜歡打獵嗎？那你可來對地兒了！我的店專門售卖各式弓箭。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/maria_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Maria 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Maria : ","color":"green","extra":[{"text":"你好！ 喜歡打獵嗎？ 那你可來對地兒了！ 我的店專門售卖各式弓箭。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/maria_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Maria 的銷售情況。"}}]}]}
 
 

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[最糟糕的寺廟？如果它存在，我會嘗試找到它。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-067a-0000-00000000067a if entity @s[distance=..7] if score vulk_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/21/vulk/answer_1_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[最糟糕的寺廟？ 如果它存在， 我會嘗試找到它。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-067a-0000-00000000067a if entity @s[distance=..7] if score vulk_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/21/vulk/answer_1_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Une nuit à Sathnok]","color":"green",
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[A night in Sathnok]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[Sathnok驚魂夜]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[Sathnok驚魂夜]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}

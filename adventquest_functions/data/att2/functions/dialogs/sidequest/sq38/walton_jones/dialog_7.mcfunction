@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"早上好。以在 Scheströwn 找不到任何具體的東西為代價，我重新開始在河中尋找化石。即使不那麼令人興奮，多虧了你，我才能在這里安靜地繼續挖掘。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"早上好。以在 Scheströwn 找不到任何具體的東西為代價， 我重新開始在河中尋找化石。即使不那麼令人興奮， 多虧了你， 我才能在這里安靜地繼續挖掘。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hero's Accomplishment -°- : "
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"Ëarndhel的一名衛兵親手將國王的一封信交給了我，希望我能前往Ëarndhel宮殿與他交談。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"Ëarndhel的一名衛兵親手將國王的一封信交給了我， 希望我能前往Ëarndhel宮殿與他交談。","color":"aqua","italic":true}]}

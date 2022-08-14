@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"什麼都沒有...不過，我也許能指導你一點。事實上，經過一些研究，這種放射似乎是經過精心準備的混合物的結果。我對這門藝術知之甚少，所以我建議你去見我們的煉金術士 Basil Valentin。他回到恩德赫爾，你可以在他家的實驗室裡找到他。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"什麼都沒有...不過， 我也許能指導你一點。事實上， 經過一些研究， 這種放射似乎是經過精心準備的混合物的結果。我對這門藝術知之甚少， 所以我建議你去見我們的煉金術士 Basil Valentin。他回到恩德赫爾， 你可以在他家的實驗室裡找到他。","color":"dark_aqua"}]}

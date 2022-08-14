@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nestor : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"你直截了當，我也會這樣做。然而，一千個Chronotons不在我的能力範圍內。這正是我的問題的一部分...土匪的污穢已經定居在我的地區並偷走了幾乎所有東西。但如果你擺脫它們，那麼我會把剩下的積蓄給你，即 500 Chronotons。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"你直截了當， 我也會這樣做。然而， 一千個Chronotons不在我的能力範圍內。這正是我的問題的一部分...土匪的污穢已經定居在我的地區並偷走了幾乎所有東西。但如果你擺脫它們， 那麼我會把剩下的積蓄給你， 即 500 Chronotons。","color":"dark_aqua"}]}

@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Un entrepôt bien mal placé]","color"
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[A badly placed warehouse]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[放置不當的倉庫]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[放置不當的倉庫]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}

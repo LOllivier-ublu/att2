@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alfred Mornith : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"嘿，我們迷路了嗎？ 這是我家的私有財產！ 除非你想幫助我們解決這個問題，否則我會請你離開。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alfred Mornith : ","color":"green","extra":[{"text":"嘿， 我們迷路了嗎？  這是我家的私有財產！  除非你想幫助我們解決這個問題， 否則我會請你離開。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq7/alfred_mornith/player_proposal_1/choice_1

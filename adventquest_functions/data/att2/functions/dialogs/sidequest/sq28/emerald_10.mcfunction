@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"再次感謝。拿這幾個Chronotons作為交換，這是我至少能做的。來吧塞勒涅，我們回家吧...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"再次感謝。拿這幾個Chronotons作為交換， 這是我至少能做的。來吧塞勒涅， 我們回家吧...","color":"dark_aqua"}]}

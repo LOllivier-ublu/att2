@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sorvo Miron : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"啊，你是 Ryliath 的送肉員？好吧，你來的並不早！我們離短缺不遠了。麵包不是吸引人們到我們小酒館的最佳選擇。把它全部放在它旁邊的保護區裡。謝謝！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sorvo Miron : ","color":"green","extra":[{"text":"啊， 你是 Ryliath 的送肉員？ 好吧， 你來的並不早！ 我們離短缺不遠了。麵包不是吸引人們到我們小酒館的最佳選擇。把它全部放在它旁邊的保護區裡。謝謝！ ","color":"dark_aqua"}]}

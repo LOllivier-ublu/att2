@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Cicatrization>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_text","value":"在施咒位置臨時創造一個小範圍的圓環，給予環内的所有玩家生命回復加成。"},"extra":[{"text":" [400 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/cicatrisation"},"hoverEvent":{"action":"show_text","value":"點擊購買！"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Cicatrization>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_text","value":"在施咒位置臨時創造一個小範圍的圓環， 給予環内的所有玩家生命回復加成。"},"extra":[{"text":" [400 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/cicatrisation"},"hoverEvent":{"action":"show_text","value":"點擊購買！ "}}]}]}

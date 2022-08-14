@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"這把弓是安格班見過的最尊貴的凡人給我的，比你有生之年還要久遠。有了它，我實現了他的意志，承載了凡人和永恆的希望。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"這把弓是安格班見過的最尊貴的凡人給我的， 比你有生之年還要久遠。有了它， 我實現了他的意志， 承載了凡人和永恆的希望。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq49/trias/player_proposal_4/choice_1

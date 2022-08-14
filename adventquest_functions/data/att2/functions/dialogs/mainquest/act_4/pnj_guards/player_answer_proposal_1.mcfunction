@@ -20,6 +20,6 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[你想嚐嚐我的刀嗎？-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score kortaek_guards_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_guards/answer_green_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[你想嚐嚐我的刀嗎？ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score kortaek_guards_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_guards/answer_green_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[好吧，我跟著你。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score kortaek_guards_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_guards/answer_yellow_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[好吧， 我跟著你。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score kortaek_guards_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_guards/answer_yellow_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}

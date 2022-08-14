@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我現在來到了北翼塔樓，但是是塔樓的底層...我得找到一把綠寶石鑰匙，打開大門，然後爬到塔頂！","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我現在來到了北翼塔樓， 但是是塔樓的底層...我得找到一把綠寶石鑰匙， 打開大門， 然後爬到塔頂！ ","color":"aqua"}]}

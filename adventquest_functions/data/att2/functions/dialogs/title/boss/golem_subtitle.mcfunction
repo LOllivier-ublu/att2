@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Great Architect, Creation's Deme
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"偉大建築師，僵硬的造物","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"偉大建築師， 僵硬的造物","color":"gray"}

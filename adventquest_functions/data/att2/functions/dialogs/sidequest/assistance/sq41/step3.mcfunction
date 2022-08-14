@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- You never know what you're gonna g
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 你永遠不知道你會得到什麼 -°- : ","color":"gray","extra":[{"text":"終於！密道打開了，我要進去狠狠搜刮一番！幾億在等著我呢。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 你永遠不知道你會得到什麼 -°- : ","color":"gray","extra":[{"text":"終於！ 密道打開了， 我要進去狠狠搜刮一番！ 幾億在等著我呢。","color":"aqua","italic":true}]}

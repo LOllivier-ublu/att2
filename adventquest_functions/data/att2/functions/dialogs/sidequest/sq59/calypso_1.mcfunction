@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Calypso : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"在Ëarndhel。你在神殿裡昏迷不醒，所以我把你帶到了這裡。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"在Ëarndhel。你在神殿裡昏迷不醒， 所以我把你帶到了這裡。","color":"dark_aqua"}]}

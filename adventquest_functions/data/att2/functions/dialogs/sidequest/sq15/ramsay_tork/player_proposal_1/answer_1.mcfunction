@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ramsay Tork : ","color":"green",
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"你很勇敢，安戈爾市除了被野蠻人入侵外，簡直就是一座真正的迷宮...鑄造區位於宮殿西面。祝你好運。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"你很勇敢， 安戈爾市除了被野蠻人入侵外， 簡直就是一座真正的迷宮...鑄造區位於宮殿西面。祝你好運。","color":"dark_aqua"}]}

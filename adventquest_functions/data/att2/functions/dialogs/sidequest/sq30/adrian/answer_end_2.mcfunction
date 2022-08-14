@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"什麼意思，你讓小偷逃跑了？好吧，你還是把整個計劃都給我帶來了...我會給你一個特別的獎勵。去看看我們鎮上的掌櫃，他家就在葉輪前的鐵匠旁邊。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"什麼意思， 你讓小偷逃跑了？ 好吧， 你還是把整個計劃都給我帶來了...我會給你一個特別的獎勵。去看看我們鎮上的掌櫃， 他家就在葉輪前的鐵匠旁邊。","color":"dark_aqua"}]}

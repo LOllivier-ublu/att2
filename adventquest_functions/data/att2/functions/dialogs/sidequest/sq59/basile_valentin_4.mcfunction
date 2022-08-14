@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"這是完成煉金術士的探索的多年研究的結果：哲學家的石頭。如果我選擇這個精確的地方將這種物質存放在恩德赫爾神殿的中心，那就是利用你當時帶回來的九顆寶石的力量，以達到精髓並吸收它的放射。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"這是完成煉金術士的探索的多年研究的結果：哲學家的石頭。如果我選擇這個精確的地方將這種物質存放在恩德赫爾神殿的中心， 那就是利用你當時帶回來的九顆寶石的力量， 以達到精髓並吸收它的放射。","color":"dark_aqua"}]}

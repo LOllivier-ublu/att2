@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Patrick lacks wood -°- : ","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Patrick 缺少木頭 -°- : ","color":"gray","extra":[{"text":"Patrick想讓我幫他在森林裡找些木頭，Jarat營地裡或許有些存貨。那邊的伐木工Abrock應該可以賣我16根 ","color":"aqua","italic":true,"extra":[{"text":"<木頭>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:log\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Buche de bois\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Log of Wood\\\"}\"]}}}"},"extra":[{"text":"。","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Patrick 缺少木頭 -°- : ","color":"gray","extra":[{"text":"Patrick想讓我幫他在森林裡找些木頭， Jarat營地裡或許有些存貨。那邊的伐木工Abrock應該可以賣我16根 ","color":"aqua","italic":true,"extra":[{"text":"<木頭>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:log\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Buche de bois\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Log of Wood\\\"}\"]}}}"},"extra":[{"text":"。","color":"aqua","italic":true}]}]}]}

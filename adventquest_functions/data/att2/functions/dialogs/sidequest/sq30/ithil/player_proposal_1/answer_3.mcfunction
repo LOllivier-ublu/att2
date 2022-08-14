@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"是的，當然，拿走他後備箱裡的所有東西！ Jaris 會交出計劃，一切都會好起來的！","color":"blue"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"是的， 當然， 拿走他後備箱裡的所有東西！  Jaris 會交出計劃， 一切都會好起來的！ ","color":"blue"}]}

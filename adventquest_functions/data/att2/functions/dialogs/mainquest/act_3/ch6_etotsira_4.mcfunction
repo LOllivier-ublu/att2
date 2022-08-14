@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"他的死犹如一場悲劇。諷刺的是，Relgon是最有可能戰勝La Flamme Noire的人，但同時也是最可能被打敗的人，而這，正是他隕落的原因。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"他的死犹如一場悲劇。諷刺的是， Relgon是最有可能戰勝La Flamme Noire的人， 但同時也是最可能被打敗的人， 而這， 正是他隕落的原因。","color":"dark_aqua"}]}

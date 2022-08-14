@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Queen Eldaris : ","color":"gold"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 女王 Eldaris : ","color":"gold","extra":[{"text":"據我所知，其中之一在高山上。在傳說中的城市 Eolorion，Dahäl 學院的所在地。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 女王 Eldaris : ","color":"gold","extra":[{"text":"據我所知， 其中之一在高山上。在傳說中的城市 Eolorion， Dahäl 學院的所在地。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A well-deserved revenge -°- : ","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惡有惡報 -°- : ","color":"gray","extra":[{"text":"將Dermist的頭顱帶給Daril吧，冤冤之報何時了，也該結束這場瘋狂的復仇了。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惡有惡報 -°- : ","color":"gray","extra":[{"text":"將Dermist的頭顱帶給Daril吧， 冤冤之報何時了， 也該結束這場瘋狂的復仇了。","color":"aqua","italic":true}]}

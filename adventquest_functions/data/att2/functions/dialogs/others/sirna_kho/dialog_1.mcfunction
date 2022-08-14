@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sirna Kho : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sirna Kho : ","color":"green","extra":[{"text":"噓——我這兒有些好看的！我願意拿這些强力裝備來交換一種稀有的物品: ","color":"dark_aqua"},{"text":"<Sovereign Scale of Chaos>","color":"light_purple"},{"text":" 。到我左邊的踏板上保存它們吧——啊，我會幫您記著的，不用擔心弄丟的問題。您可以先看看有没有中意的东西。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sirna_kho_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Sirna 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sirna Kho : ","color":"green","extra":[{"text":"噓——我這兒有些好看的！ 我願意拿這些强力裝備來交換一種稀有的物品: ","color":"dark_aqua"},{"text":"<Sovereign Scale of Chaos>","color":"light_purple"},{"text":" 。到我左邊的踏板上保存它們吧——啊， 我會幫您記著的， 不用擔心弄丟的問題。您可以先看看有没有中意的东西。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sirna_kho_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Sirna 的銷售情況。"}}]}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"是的，我知道，但是當你擺脫這些該死的計劃時，我會放心。父親不讓我見你，如果他知道你是這起搶劫案的始作俑者，他會毫不猶豫地把你關進監獄！","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"是的， 我知道， 但是當你擺脫這些該死的計劃時， 我會放心。父親不讓我見你， 如果他知道你是這起搶劫案的始作俑者， 他會毫不猶豫地把你關進監獄！ ","color":"blue"}]}

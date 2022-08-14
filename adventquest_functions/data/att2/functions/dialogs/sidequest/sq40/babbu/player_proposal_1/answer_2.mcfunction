@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Babbu : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"啊，我明白了，但我暫時只是開始做生意。放心，有了這艘沉船，我一定很快就會發家致富的！蝦是未來，我願意把我擁有的一半給你。在我能把這張地圖給你的時候，它可能會導致一個寶藏！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"啊， 我明白了， 但我暫時只是開始做生意。放心， 有了這艘沉船， 我一定很快就會發家致富的！ 蝦是未來， 我願意把我擁有的一半給你。在我能把這張地圖給你的時候， 它可能會導致一個寶藏！ ","color":"dark_aqua"}]}

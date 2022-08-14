@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 4
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 4 部分 -°- : ","color":"gray","extra":[{"text":"好吧，Worlest礦洞裡似乎還藏著一件遺物。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 4 部分 -°- : ","color":"gray","extra":[{"text":"好吧， Worlest礦洞裡似乎還藏著一件遺物。","color":"aqua","italic":true}]}

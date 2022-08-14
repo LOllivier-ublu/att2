@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jaris : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"我們會再次見到我的愛人！別擔心，一切都會好起來的！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"我們會再次見到我的愛人！ 別擔心， 一切都會好起來的！ ","color":"dark_aqua"}]}

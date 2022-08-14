@@ -19,7 +19,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Brutus : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（耳語）我不是這兒的人，希望你永遠会不知道背井離鄉的感覺...讓我幫你一把吧：到村莊的西邊看看，那兒有一處草木叢生的小森林...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（耳語）我不是這兒的人， 希望你永遠会不知道背井離鄉的感覺...讓我幫你一把吧：到村莊的西邊看看， 那兒有一處草木叢生的小森林...","color":"dark_aqua"}]}
 
 
 function att2:dialogs/mainquest/act_2/pnj_brutus/answer_end_1

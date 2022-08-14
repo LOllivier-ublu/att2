@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"你？一個英雄？啊哈哈哈，沒有。好吧，既然你很有趣，我就和你做個交易：我們精緻的國王喜歡 Neleptrons 的精緻食品。給我們帶來一些，也許我們會讓你進來。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"你？ 一個英雄？ 啊哈哈哈， 沒有。好吧， 既然你很有趣， 我就和你做個交易：我們精緻的國王喜歡 Neleptrons 的精緻食品。給我們帶來一些， 也許我們會讓你進來。","color":"dark_aqua"}]}

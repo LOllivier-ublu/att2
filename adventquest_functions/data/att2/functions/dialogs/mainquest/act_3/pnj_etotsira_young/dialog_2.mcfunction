@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"不要害怕死亡，也不要害怕時間。它們看似殘忍，但也只是指引前路罢了。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"不要害怕死亡， 也不要害怕時間。它們看似殘忍， 但也只是指引前路罢了。","color":"dark_aqua"}]}

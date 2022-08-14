@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我想，我的意思是，我不知道他是否告訴過你他的項目，但這聽起來不像是世界小姐的願望...我的意思是，這聽起來並不讓人放心。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我想， 我的意思是， 我不知道他是否告訴過你他的項目， 但這聽起來不像是世界小姐的願望...我的意思是， 這聽起來並不讓人放心。","color":"aqua"}]}

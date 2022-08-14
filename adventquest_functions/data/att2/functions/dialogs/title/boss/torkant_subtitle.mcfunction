@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Bitter lamentation, the misguide
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"苦痛哀嘆，迷途桎梏","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"苦痛哀嘆， 迷途桎梏","color":"gray"}

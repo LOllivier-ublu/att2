@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"你還沒有解決Raj的事情嗎？他的家就在碼頭附近的那座大橋下，離活動吊橋很近。對我來説，他真的很煩人...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"你還沒有解決Raj的事情嗎？ 他的家就在碼頭附近的那座大橋下， 離活動吊橋很近。對我來説， 他真的很煩人...","color":"dark_aqua"}]}

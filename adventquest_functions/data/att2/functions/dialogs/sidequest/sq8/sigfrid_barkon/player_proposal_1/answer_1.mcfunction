@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"牛肉在我的地窖裡，我的胸膛里肯定有八片。將它運送到 Méleïm 的小酒館。並且不要碰肉，如果少了一個，你不會得到報酬！祝你旅途愉快，完成後回來找我！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"牛肉在我的地窖裡， 我的胸膛里肯定有八片。將它運送到 Méleïm 的小酒館。並且不要碰肉， 如果少了一個， 你不會得到報酬！ 祝你旅途愉快， 完成後回來找我！ ","color":"dark_aqua"}]}

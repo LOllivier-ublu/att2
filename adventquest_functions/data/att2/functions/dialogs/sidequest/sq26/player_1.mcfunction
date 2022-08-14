@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這肯定是綠寶石告訴我的地下墓穴的入口。它被鎖定。有人必須有鑰匙，也許是看護人。讓我們在墓地附近找房子...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這肯定是綠寶石告訴我的地下墓穴的入口。它被鎖定。有人必須有鑰匙， 也許是看護人。讓我們在墓地附近找房子...","color":"aqua"}]}

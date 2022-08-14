@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"謝謝你，我怕你拒絕...好吧，這些討厭的小動物似乎是從地裡鑽出來的，但我發現了它們巢穴的入口。你看到我房子後面，田野外面的那棵很大的樹嗎？根深有洞，不敢入。不要憐憫這些小動物。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"謝謝你， 我怕你拒絕...好吧， 這些討厭的小動物似乎是從地裡鑽出來的， 但我發現了它們巢穴的入口。你看到我房子後面， 田野外面的那棵很大的樹嗎？ 根深有洞， 不敢入。不要憐憫這些小動物。","color":"dark_aqua"}]}

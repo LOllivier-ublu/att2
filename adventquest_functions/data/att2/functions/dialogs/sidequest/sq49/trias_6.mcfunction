@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"*擔心*我在Ouranos浪費了太多時間。你分享給我的消息太可怕了！我急需回到沐界！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"*擔心*我在Ouranos浪費了太多時間。你分享給我的消息太可怕了！ 我急需回到沐界！ ","color":"dark_aqua"}]}

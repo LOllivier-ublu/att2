@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我把錯誤的王冠藏在沒人會找到的地方。再次感謝您的幫助，我的朋友：","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"我把錯誤的王冠藏在沒人會找到的地方。再次感謝您的幫助， 我的朋友：","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Budding archaeologist -°- : ","co
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 初露頭角的考古家 -°- : ","color":"gray","extra":[{"text":"Walton仔細研究了我從Eol墓園帶回來的遺物，他好像知道了該怎麼使用這件東西了。去Owsastr沼澤北邊的Schestrown遺跡和Walton碰面。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 初露頭角的考古家 -°- : ","color":"gray","extra":[{"text":"Walton仔細研究了我從Eol墓園帶回來的遺物， 他好像知道了該怎麼使用這件東西了。去Owsastr沼澤北邊的Schestrown遺跡和Walton碰面。","color":"aqua","italic":true}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我到達了宮殿防禦工事的頂部，但上層的門已關閉。我應該先去堡壘下翼碰碰運氣，我也許會在那兒找到一條通道，或是一把大鑰匙。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我到達了宮殿防禦工事的頂部， 但上層的門已關閉。我應該先去堡壘下翼碰碰運氣， 我也許會在那兒找到一條通道， 或是一把大鑰匙。","color":"aqua"}]}

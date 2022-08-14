@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"所以決定回去當送貨員？或者你想看看我賣什麼？","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sigfrid_barkon_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Sigfrid 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"所以決定回去當送貨員？ 或者你想看看我賣什麼？ ","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/sigfrid_barkon_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Sigfrid 的銷售情況。"}}]}]}
 
 
 function att2:dialogs/sidequest/sq8/sigfrid_barkon/player_proposal_1/choice_1

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"這是第一個展示櫃，把它的玻璃擊碎吧。一個小小的火球就能完事...","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"這是第一個展示櫃， 把它的玻璃擊碎吧。一個小小的火球就能完事...","color":"yellow","italic":true}]}

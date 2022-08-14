@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Ouaaah，和我想像的一樣奇怪，甚至更多！多麼偉大的傑作！我非常感謝你！我會為你準備一份精美的禮物，你只需要給我時間來鍛造它！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Ouaaah， 和我想像的一樣奇怪， 甚至更多！ 多麼偉大的傑作！ 我非常感謝你！ 我會為你準備一份精美的禮物， 你只需要給我時間來鍛造它！ ","color":"dark_aqua"}]}

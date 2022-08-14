@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"警察已經進來了！！已經沒有時間了，帶上最後一顆時間之石！","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"警察已經進來了！ ！ 已經沒有時間了， 帶上最後一顆時間之石！ ","color":"yellow","italic":true}]}

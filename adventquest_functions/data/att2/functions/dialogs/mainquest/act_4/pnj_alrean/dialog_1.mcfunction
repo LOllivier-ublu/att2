@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"啊！所以你找到了翅膀。如果不是這樣，你應該去見我們的國王。他家的入口門位於東北部。不過我就讓你們去探索一下，畢竟能飛是不是很美妙？！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"啊！ 所以你找到了翅膀。如果不是這樣， 你應該去見我們的國王。他家的入口門位於東北部。不過我就讓你們去探索一下， 畢竟能飛是不是很美妙？ ！ ","color":"dark_aqua"}]}

@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jack Arrow : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"你是怎麼找到我們的巢穴的？你不應該在這裡！！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"你是怎麼找到我們的巢穴的？ 你不應該在這裡！ ！ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq41/jack_arrow/player_proposal_1/choice_1

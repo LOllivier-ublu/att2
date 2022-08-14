@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"您是否在 Worlëst 找到了這種有趣的武器？還沒有？沒問題，我有耐心。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"您是否在 Worlëst 找到了這種有趣的武器？ 還沒有？ 沒問題， 我有耐心。","color":"dark_aqua"}]}

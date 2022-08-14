@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yuni : ","color":"green","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yuni : ","color":"green","extra":[{"text":"謝謝您將''Pantalon''送來，辛苦了。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yuni : ","color":"green","extra":[{"text":"謝謝您將''Pantalon''送來， 辛苦了。","color":"dark_aqua"}]}

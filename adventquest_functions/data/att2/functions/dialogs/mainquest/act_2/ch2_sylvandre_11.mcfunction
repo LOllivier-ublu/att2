@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"這裏是銀行。你可以把Chronotons存進銀行以保證它們的安全，以防遭遇飛來橫禍...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"這裏是銀行。你可以把Chronotons存進銀行以保證它們的安全， 以防遭遇飛來橫禍...","color":"dark_aqua"}]}

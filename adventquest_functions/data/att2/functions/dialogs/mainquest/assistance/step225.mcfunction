@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira 啟動了樓梯盡頭的時間傳送門。我必須越過它，它將把我帶到過去，讓我去諾傑蘭斯。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira 啟動了樓梯盡頭的時間傳送門。我必須越過它， 它將把我帶到過去， 讓我去諾傑蘭斯。","color":"aqua"}]}

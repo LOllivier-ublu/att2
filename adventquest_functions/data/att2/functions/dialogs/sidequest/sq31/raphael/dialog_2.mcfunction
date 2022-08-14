@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Raphaël : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"謝謝你，騎士，你救了我的命！但是...看看我的購物車！還有我可憐的卡舒，他被吃掉了...當他看到他們時，他驚慌失措，把我們趕出了路...我現在怎麼把我所有的貨物運到 Eolorion？他們一定在等我！我被困在這裡多少天了？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"謝謝你， 騎士， 你救了我的命！ 但是...看看我的購物車！ 還有我可憐的卡舒， 他被吃掉了...當他看到他們時， 他驚慌失措， 把我們趕出了路...我現在怎麼把我所有的貨物運到 Eolorion？ 他們一定在等我！ 我被困在這裡多少天了？ ","color":"dark_aqua"}]}

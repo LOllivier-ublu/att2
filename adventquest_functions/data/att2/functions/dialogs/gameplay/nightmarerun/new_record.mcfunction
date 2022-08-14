@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"NEW RECORD!","color":"gold"}
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"達成新紀錄！","color":"gold"}
+tellraw @a[scores={LANGUAGE=2}] {"text":"達成新紀錄！ ","color":"gold"}

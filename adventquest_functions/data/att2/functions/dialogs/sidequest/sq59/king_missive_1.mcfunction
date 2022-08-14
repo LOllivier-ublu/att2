@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"My dear friend, if you are reading this
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"我親愛的朋友，如果您正在閱讀這封信，這意味著通往 Ëarndhel 的門戶終於恢復了。 Etotsira 警告我們，傳送門的突然中斷是你的錯。我們擔心我們丟失了您回來後剛剛打開的主要業務鏈接。這是我們王國的機會，我們想享受這種情況。不過，還有一件事，我想和你當面談一談，很緊急。盡快回到恩德赫爾宮找我！","color":"gray","italic":true}
+tellraw @a[scores={LANGUAGE=2}] {"text":"我親愛的朋友， 如果您正在閱讀這封信， 這意味著通往 Ëarndhel 的門戶終於恢復了。 Etotsira 警告我們， 傳送門的突然中斷是你的錯。我們擔心我們丟失了您回來後剛剛打開的主要業務鏈接。這是我們王國的機會， 我們想享受這種情況。不過， 還有一件事， 我想和你當面談一談， 很緊急。盡快回到恩德赫爾宮找我！ ","color":"gray","italic":true}

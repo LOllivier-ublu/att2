@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The bait of gain -°- : ","color":
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 利益的誘餌 -°- : ","color":"gray","extra":[{"text":"Ashley希望我能給他一次彌補的機會。他在Kert沙漠的礦井裡安置了一些鐵軌以便能順利進入寶藏庫。裡面的寶藏應該能幫Linda解決燃眉之急。的確，Linda欠下的債不是個小數目，有了這些錢她就能改善現狀。我要想辦法進入金庫。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 利益的誘餌 -°- : ","color":"gray","extra":[{"text":"Ashley希望我能給他一次彌補的機會。他在Kert沙漠的礦井裡安置了一些鐵軌以便能順利進入寶藏庫。裡面的寶藏應該能幫Linda解決燃眉之急。的確， Linda欠下的債不是個小數目， 有了這些錢她就能改善現狀。我要想辦法進入金庫。","color":"aqua","italic":true}]}

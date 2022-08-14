@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你是個好人！我將永遠感激你，我覺得我們離她越來越近了。沿著 Méleïm 以西的小路前往 Mornith 礦山。祝你好運！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你是個好人！ 我將永遠感激你， 我覺得我們離她越來越近了。沿著 Méleïm 以西的小路前往 Mornith 礦山。祝你好運！ ","color":"dark_aqua"}]}

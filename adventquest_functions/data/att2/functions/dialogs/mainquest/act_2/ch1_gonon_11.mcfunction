@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"你昨晚睡得香嗎？如果你正尋找裝備或工作的話...我建議你去Ryliath看看。沿著客棧門口的泥土小路走，它會指引你到那的。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"你昨晚睡得香嗎？ 如果你正尋找裝備或工作的話...我建議你去Ryliath看看。沿著客棧門口的泥土小路走， 它會指引你到那的。","color":"dark_aqua"}]}

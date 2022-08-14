@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 4
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 4 部分 -°- : ","color":"gray","extra":[{"text":"蒼天啊，J'zargo怎麼還不結束這瘋狂的探險。真希望沒有下次了！","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 4 部分 -°- : ","color":"gray","extra":[{"text":"蒼天啊， J'zargo怎麼還不結束這瘋狂的探險。真希望沒有下次了！ ","color":"aqua","italic":true}]}

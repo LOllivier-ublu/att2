@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Linda Shelly : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"所有這些錢？你確定嗎？我不知道該怎麼感謝你... 會減輕很多債務。你知道，有了這些 Chronotons，我什至可以買我父母的房子。您將永遠受到歡迎。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"所有這些錢？ 你確定嗎？ 我不知道該怎麼感謝你... 會減輕很多債務。你知道， 有了這些 Chronotons， 我什至可以買我父母的房子。您將永遠受到歡迎。","color":"dark_aqua"}]}

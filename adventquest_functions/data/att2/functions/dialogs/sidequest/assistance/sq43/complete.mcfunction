@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[L'appât du gain]","color":"green","ho
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[The bait of gain]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[利益的誘餌]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[利益的誘餌]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}

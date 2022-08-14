@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Feanorth : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"嗯嗯很好，既然我能在安格爾的遺跡中收集到一些戰爭寶物，那麼這次任務我可以給你750個Chronotons。前往安戈爾西區，你會在廢墟中找到巢穴。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"嗯嗯很好， 既然我能在安格爾的遺跡中收集到一些戰爭寶物， 那麼這次任務我可以給你750個Chronotons。前往安戈爾西區， 你會在廢墟中找到巢穴。","color":"dark_aqua"}]}

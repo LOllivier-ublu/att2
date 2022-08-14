@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Tyrgols Gacko : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Tyrgols Gacko : ","color":"green","extra":[{"text":"*打噴嚏* 你用炸藥的方式很粗獷啊... 我猜是Gregor讓你來的。挺好，我們到我的兄弟那裏再會！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Tyrgols Gacko : ","color":"green","extra":[{"text":"*打噴嚏* 你用炸藥的方式很粗獷啊... 我猜是Gregor讓你來的。挺好， 我們到我的兄弟那裏再會！ ","color":"dark_aqua"}]}

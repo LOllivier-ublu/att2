@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"這些銘文！是王冠！終極錯誤的王冠！ <玩家名字>，你找到了終極錯誤的王冠！這件神器是 Môt 創造的最可怕的神器之一！這也是 Angband 戰爭和許多其他戰爭背後的原因！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"這些銘文！ 是王冠！ 終極錯誤的王冠！  <玩家名字>， 你找到了終極錯誤的王冠！ 這件神器是 Môt 創造的最可怕的神器之一！ 這也是 Angband 戰爭和許多其他戰爭背後的原因！ ","color":"dark_aqua"}]}

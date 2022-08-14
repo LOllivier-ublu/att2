@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Méleïm是一座美麗的崖邊小鎮。雖然它的過往算不上十分令人称道，但熱鬧與喧囂仍不减當年！你可以花上一點時間，逛一逛這裏的商店；如果你心朝大海的話，沒准還能找到志同道合的弄海好手！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Méleïm是一座美麗的崖邊小鎮。雖然它的過往算不上十分令人称道， 但熱鬧與喧囂仍不减當年！ 你可以花上一點時間， 逛一逛這裏的商店；如果你心朝大海的話， 沒准還能找到志同道合的弄海好手！ ","color":"dark_aqua"}]}

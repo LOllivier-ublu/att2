@@ -19,4 +19,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"如果它能讓你離開我們村而沒有造成任何問題，我就給你。但是你將不得不面對 Relgon，因為這個印章是他的財產...我不祝你好運，因為你不會有任何東西。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"如果它能讓你離開我們村而沒有造成任何問題， 我就給你。但是你將不得不面對 Relgon， 因為這個印章是他的財產...我不祝你好運， 因為你不會有任何東西。","color":"dark_aqua"}]}

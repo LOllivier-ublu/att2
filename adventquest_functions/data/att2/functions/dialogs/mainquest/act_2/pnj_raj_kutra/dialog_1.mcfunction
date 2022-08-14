@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Raj Kutra : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"向您致以誠摯的問候，陌生的旅行者！你想要什麽？一杯咖啡？來來來，到這坐一下吧！你的拜訪并不令我感到驚訝——倒不如説，我以接待來訪的客人爲乐。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"向您致以誠摯的問候， 陌生的旅行者！ 你想要什麽？ 一杯咖啡？ 來來來， 到這坐一下吧！ 你的拜訪并不令我感到驚訝——倒不如説， 我以接待來訪的客人爲乐。","color":"dark_aqua"}]}

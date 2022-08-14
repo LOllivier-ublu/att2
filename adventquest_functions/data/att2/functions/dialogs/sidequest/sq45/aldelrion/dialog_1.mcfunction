@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"在這座城鎮的廢墟中或凡人的手中，一定有武器。但不是任何武器：一把名為“Nekr al Felèvsil”的永恆長戟。它和我一樣，在 Angband 的負面情緒和死亡之前就已經存在了。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"在這座城鎮的廢墟中或凡人的手中， 一定有武器。但不是任何武器：一把名為“Nekr al Felèvsil”的永恆長戟。它和我一樣， 在 Angband 的負面情緒和死亡之前就已經存在了。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_1/choice_1

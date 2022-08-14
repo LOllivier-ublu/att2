@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"隨它吧。我會和你一起去那裡。 *自言自語，安靜*我將不得不留意他，誰知道他在想什麼...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"隨它吧。我會和你一起去那裡。 *自言自語， 安靜*我將不得不留意他， 誰知道他在想什麼...","color":"aqua"}]}

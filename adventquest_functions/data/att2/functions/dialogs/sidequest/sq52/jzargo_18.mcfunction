@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"是的，J'zargo 知道，他厭倦了聽學生提問。他前往比爾加特，靠近一個充滿秘密的巨大結構。但這不是客觀的，因為最偉大的秘密並不局限於這些可見的事物。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"是的， J'zargo 知道， 他厭倦了聽學生提問。他前往比爾加特， 靠近一個充滿秘密的巨大結構。但這不是客觀的， 因為最偉大的秘密並不局限於這些可見的事物。","color":"dark_aqua"}]}

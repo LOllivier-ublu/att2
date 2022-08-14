@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好壯觀的建築！我似乎看到空間之石了，它就在——在大廳的正中央！但我現在沒法拿到它...好吧，我現在先得找到一把能打開南翼大門的大钥匙，也許它剛好藏在北翼的房間裏...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好壯觀的建築！ 我似乎看到空間之石了， 它就在——在大廳的正中央！ 但我現在沒法拿到它...好吧， 我現在先得找到一把能打開南翼大門的大钥匙， 也許它剛好藏在北翼的房間裏...","color":"aqua"}]}

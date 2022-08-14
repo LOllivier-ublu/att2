@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"好。我將其中一個封印法器托付給了一個仍忠於我們的村莊“Phoenix村”的村長。閣下只需告訴他“我要回Angor”，他就會把法器交給閣下。至於第二個法器，我將它藏在了Angor的堡垒之中。不幸的是，侵略Angor的敵人出現得太快，當時匆忙的我忘記了它藏於何處。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"好。我將其中一個封印法器托付給了一個仍忠於我們的村莊“Phoenix村”的村長。閣下只需告訴他“我要回Angor”， 他就會把法器交給閣下。至於第二個法器， 我將它藏在了Angor的堡垒之中。不幸的是， 侵略Angor的敵人出現得太快， 當時匆忙的我忘記了它藏於何處。","color":"dark_aqua"}]}

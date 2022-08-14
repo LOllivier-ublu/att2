@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"*乾澀、疲憊的聲音* 歡迎來到我們的學院，年輕的旅行者。我是大形像阿拉米斯，艾洛瑞恩城的主人和總督。我聽說你在找我，你想要什麼？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"*乾澀、疲憊的聲音* 歡迎來到我們的學院， 年輕的旅行者。我是大形像阿拉米斯， 艾洛瑞恩城的主人和總督。我聽說你在找我， 你想要什麼？ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_1

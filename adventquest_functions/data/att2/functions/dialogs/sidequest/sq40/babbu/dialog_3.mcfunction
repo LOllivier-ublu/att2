@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Babbu : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"你看到我做了什麼嗎？您會很高興聽到您是一項非常有利可圖的業務的第一個投資者：捕蝦。蝦是大海的果實。你可以烤它，煮它，烤它，烤它，炒它。 Dey 的呃，蝦肉串，蝦克里奧爾，蝦秋葵湯。煎、炸、炒。有菠蘿蝦、檸檬蝦、椰子蝦、胡椒蝦、蝦湯、燉蝦、蝦沙拉、蝦和土豆、蝦漢堡、蝦三明治。就是這樣。順便說一句，我發現了一些你可能感興趣的東西。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"你看到我做了什麼嗎？ 您會很高興聽到您是一項非常有利可圖的業務的第一個投資者：捕蝦。蝦是大海的果實。你可以烤它， 煮它， 烤它， 烤它， 炒它。 Dey 的呃， 蝦肉串， 蝦克里奧爾， 蝦秋葵湯。煎、炸、炒。有菠蘿蝦、檸檬蝦、椰子蝦、胡椒蝦、蝦湯、燉蝦、蝦沙拉、蝦和土豆、蝦漢堡、蝦三明治。就是這樣。順便說一句， 我發現了一些你可能感興趣的東西。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq40/babbu/player_proposal_1/choice_1

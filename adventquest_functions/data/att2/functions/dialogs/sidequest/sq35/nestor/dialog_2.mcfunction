@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nestor : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"抱歉，我幫不了你，我目前正在處理一個...鄰里...問題。但是告訴我，我聽說有人最近到達該地區，不遺餘力地幫助他人。如果你是這個人，我有一份工作可以提供給你！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"抱歉， 我幫不了你， 我目前正在處理一個...鄰里...問題。但是告訴我， 我聽說有人最近到達該地區， 不遺餘力地幫助他人。如果你是這個人， 我有一份工作可以提供給你！ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq35/nestor/player_proposal_1/choice_1

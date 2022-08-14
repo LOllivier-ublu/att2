@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"You have reached the maximum level!","c
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"已達到等級上限！","color":"gray"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"已達到等級上限！ ","color":"gray"}

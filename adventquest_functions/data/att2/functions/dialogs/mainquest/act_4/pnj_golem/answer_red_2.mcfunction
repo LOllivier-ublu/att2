@@ -23,4 +23,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"所以，金屬存在的眼睛會融化他。小肉體的碳化肉體會和他一起等到最後。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"所以， 金屬存在的眼睛會融化他。小肉體的碳化肉體會和他一起等到最後。","color":"dark_aqua"}]}

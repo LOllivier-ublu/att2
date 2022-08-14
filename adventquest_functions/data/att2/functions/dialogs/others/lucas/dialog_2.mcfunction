@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lucas : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"我猜，你已經和那些云色的大眼怪物打過交道了——我們一般叫它們“夢魚”。但你知道嗎？它們并不是真的在飛。它們體内的一種物質能使它們不受重力的影響，這也是它們能在這個無邊無際的世界中漂浮的原因，而下肢得以讓它們上下左右四處飄動。使用Pelzion騰雲駕霧確實十分便利，但風險也不小...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"我猜， 你已經和那些云色的大眼怪物打過交道了——我們一般叫它們“夢魚”。但你知道嗎？ 它們并不是真的在飛。它們體内的一種物質能使它們不受重力的影響， 這也是它們能在這個無邊無際的世界中漂浮的原因， 而下肢得以讓它們上下左右四處飄動。使用Pelzion騰雲駕霧確實十分便利， 但風險也不小...","color":"dark_aqua"}]}

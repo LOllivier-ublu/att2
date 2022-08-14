@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ricoru : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ricoru : ","color":"green","extra":[{"text":"謝謝您送來的包裹！我們正缺原材料呢！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ricoru : ","color":"green","extra":[{"text":"謝謝您送來的包裹！ 我們正缺原材料呢！ ","color":"dark_aqua"}]}

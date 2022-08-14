@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 1
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 1 部分 -°- : ","color":"gray","extra":[{"text":"多虧了Triss，我得知了更多關於這個傢伙的行蹤。J'zargo正在進行一項尋寶探險，他前往kert沙漠去找一件神器了。我最好找到他並在探險中一直跟著他。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 1 部分 -°- : ","color":"gray","extra":[{"text":"多虧了Triss， 我得知了更多關於這個傢伙的行蹤。J'zargo正在進行一項尋寶探險， 他前往kert沙漠去找一件神器了。我最好找到他並在探險中一直跟著他。","color":"aqua","italic":true}]}

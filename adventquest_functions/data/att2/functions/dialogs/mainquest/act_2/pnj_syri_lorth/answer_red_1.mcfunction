@@ -20,4 +20,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"*諷刺的聲音* 哇噢，我好害怕哦！你這是在威脅我嗎？如果你覺得對我或者我的親人做出什麽事情我就會開船的話，你可就大錯特錯了。我吃過的鹽比你吃過的米還要多得多嘞！你最好換種語氣和我説話...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"*諷刺的聲音* 哇噢， 我好害怕哦！ 你這是在威脅我嗎？ 如果你覺得對我或者我的親人做出什麽事情我就會開船的話， 你可就大錯特錯了。我吃過的鹽比你吃過的米還要多得多嘞！ 你最好換種語氣和我説話...","color":"dark_aqua"}]}

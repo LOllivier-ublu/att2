@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"封印那隻怪物的巢穴的兩個封印法器已經归位，我現在必須得回營地通知Relgon。最終決戰即將來臨...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"封印那隻怪物的巢穴的兩個封印法器已經归位， 我現在必須得回營地通知Relgon。最終決戰即將來臨...","color":"aqua"}]}

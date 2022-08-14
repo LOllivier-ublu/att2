@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"師父和弟子就在這沙海的腳下。令人印象深刻的景觀，遠遠超出了 J'zargo 的預期。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"師父和弟子就在這沙海的腳下。令人印象深刻的景觀， 遠遠超出了 J'zargo 的預期。","color":"dark_aqua"}]}

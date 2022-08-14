@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"除此以外，我們剛結束對Namrïn和Sérile的特訓。現在，他們都具備了S的能力，他們是我們隊伍的精銳力量。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"除此以外， 我們剛結束對Namrïn和Sérile的特訓。現在， 他們都具備了S的能力， 他們是我們隊伍的精銳力量。","color":"dark_aqua"}]}

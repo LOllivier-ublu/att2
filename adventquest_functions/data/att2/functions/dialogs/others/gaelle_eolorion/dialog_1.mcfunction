@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gaëlle : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"歡迎光臨Eolorion銀行，您可隨時在這裏存入和取出您的財產——點擊木牌即可進行相關操作。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gaëlle : ","color":"green","extra":[{"text":"歡迎光臨Eolorion銀行， 您可隨時在這裏存入和取出您的財產——點擊木牌即可進行相關操作。","color":"dark_aqua"}]}

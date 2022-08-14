@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"嗨親愛的朋友。恩德赫爾是一座美麗的城市，我很享受。有了這間廢棄的房子，有了我們賺到的錢，我將能夠開始新的生活！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"嗨親愛的朋友。恩德赫爾是一座美麗的城市， 我很享受。有了這間廢棄的房子， 有了我們賺到的錢， 我將能夠開始新的生活！ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_3/choice_1

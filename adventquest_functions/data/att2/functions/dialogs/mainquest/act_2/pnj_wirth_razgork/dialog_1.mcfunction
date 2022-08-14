@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wirth Razgork : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"你在我家找什麼？如果你不想惹麻煩，最好給我滾出去！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"你在我家找什麼？ 如果你不想惹麻煩， 最好給我滾出去！ ","color":"dark_aqua"}]}

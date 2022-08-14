@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"墨丘利？嗯...這一切都很好，但是我的獎勵呢？然後，如果可能的話，我也想以溫和的方式回家...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"墨丘利？ 嗯...這一切都很好， 但是我的獎勵呢？ 然後， 如果可能的話， 我也想以溫和的方式回家...","color":"aqua"}]}

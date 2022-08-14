@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The bait of gain -°- : ","color":
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 利益的誘餌 -°- : ","color":"gray","extra":[{"text":"已經給Ashley好好上了一課！回去跟Linda說一聲。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 利益的誘餌 -°- : ","color":"gray","extra":[{"text":"已經給Ashley好好上了一課！ 回去跟Linda說一聲。","color":"aqua","italic":true}]}

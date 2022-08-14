@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"他對母親的所作所為是不可原諒的，他得到了他應得的，我們不要再談論他了...但是等等，我在旅途中發現了這張卡...對你有用，而不是對我有用。把它當作感謝。","color":"dark_green"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"他對母親的所作所為是不可原諒的， 他得到了他應得的， 我們不要再談論他了...但是等等， 我在旅途中發現了這張卡...對你有用， 而不是對我有用。把它當作感謝。","color":"dark_green"}]}

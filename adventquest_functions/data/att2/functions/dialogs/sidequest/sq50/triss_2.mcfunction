@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"J'zargo不是一個有趣的人，他在學生中有著小混混的名聲。我們不能把這一切都歸咎於他：他的童年並不輕鬆。八年前我向他伸出援手，那時我還只是 Dahäl 的學徒，現在我希望他能在我們中間找到一席之地。他的職業很可能並不意味著成為 Dahäl 大師，但我可以為他提供這個獎學金，我相信一點認可會讓他感覺更好。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"J'zargo不是一個有趣的人， 他在學生中有著小混混的名聲。我們不能把這一切都歸咎於他：他的童年並不輕鬆。八年前我向他伸出援手， 那時我還只是 Dahäl 的學徒， 現在我希望他能在我們中間找到一席之地。他的職業很可能並不意味著成為 Dahäl 大師， 但我可以為他提供這個獎學金， 我相信一點認可會讓他感覺更好。","color":"dark_aqua"}]}

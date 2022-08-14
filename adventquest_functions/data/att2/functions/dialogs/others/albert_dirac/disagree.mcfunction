@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Albert Dirac : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"抱歉，您帶的錢不夠，不能在這住店。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"抱歉， 您帶的錢不夠， 不能在這住店。","color":"dark_aqua"}]}

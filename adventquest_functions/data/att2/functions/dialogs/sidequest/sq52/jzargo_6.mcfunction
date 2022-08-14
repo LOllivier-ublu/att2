@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"這只是 J'zargo 的眾多技能之一。學生可能有一天會知道，但現在它仍然是愚蠢和臭的。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"這只是 J'zargo 的眾多技能之一。學生可能有一天會知道， 但現在它仍然是愚蠢和臭的。","color":"dark_aqua"}]}

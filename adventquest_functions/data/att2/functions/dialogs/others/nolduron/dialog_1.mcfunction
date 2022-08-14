@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nolduron : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"看看誰來了，是我們名震七維度的大英雄！Etotsira已經提前告訴我你來的事情，相信他也正等著你的到來。你重新啓動了Ryliath的傳送門，這就意味著我們現在可以和那個富饒的領地進行沟通交流了。總而言之，很高興能再次見到你。不必拘束，把這兒當成自己家就行。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nolduron : ","color":"green","extra":[{"text":"看看誰來了， 是我們名震七維度的大英雄！ Etotsira已經提前告訴我你來的事情， 相信他也正等著你的到來。你重新啓動了Ryliath的傳送門， 這就意味著我們現在可以和那個富饒的領地進行沟通交流了。總而言之， 很高興能再次見到你。不必拘束， 把這兒當成自己家就行。","color":"dark_aqua"}]}
 
 
 scoreboard players set nolduron_PNJ DIALOG 2

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"您正在尋找的寶石...它是什麼？又一次襲擊...把你的幫助帶到西門，然後我們將繼續這個對話。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"您正在尋找的寶石...它是什麼？ 又一次襲擊...把你的幫助帶到西門， 然後我們將繼續這個對話。","color":"dark_aqua"}]}

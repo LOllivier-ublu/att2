@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Indra是Méleïm鎮長的母親，她的居住地是一座位於岩拱頂上的小屋，在小鎮最高的塔樓旁。我應該去和她聊聊，這樣我就知道下一步該怎麽走了。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Indra是Méleïm鎮長的母親， 她的居住地是一座位於岩拱頂上的小屋， 在小鎮最高的塔樓旁。我應該去和她聊聊， 這樣我就知道下一步該怎麽走了。","color":"aqua"}]}

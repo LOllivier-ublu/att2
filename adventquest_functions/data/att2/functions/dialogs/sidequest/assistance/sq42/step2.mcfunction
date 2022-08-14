@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A night in Sathnok -°- : ","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Sathnok驚魂夜 -°- : ","color":"gray","extra":[{"text":"我找到Sylvain的遺體了，我必須把這個噩耗告訴Linda。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Sathnok驚魂夜 -°- : ","color":"gray","extra":[{"text":"我找到Sylvain的遺體了， 我必須把這個噩耗告訴Linda。","color":"aqua","italic":true}]}

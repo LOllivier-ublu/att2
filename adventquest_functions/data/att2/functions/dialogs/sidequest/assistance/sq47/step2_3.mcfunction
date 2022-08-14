@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Rukyrion -°- : ","color":"gray","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"我到達了Namrin提及的Irilion墓地，而且找到了舊時只有Relgon才能使用的劍。現在Namrin應該相信我就是Relgon的轉世了吧。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"我到達了Namrin提及的Irilion墓地， 而且找到了舊時只有Relgon才能使用的劍。現在Namrin應該相信我就是Relgon的轉世了吧。","color":"aqua","italic":true}]}

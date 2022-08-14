@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chryses Aleria : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chryses Aleria : ","color":"green","extra":[{"text":"你好，這裏出售各種能控制Dahäl的護甲——來看看都有啥吧。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/chryses_aleria_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Chris 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chryses Aleria : ","color":"green","extra":[{"text":"你好， 這裏出售各種能控制Dahäl的護甲——來看看都有啥吧。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/chryses_aleria_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Chris 的銷售情況。"}}]}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"聽你這麽説，我感到很遺憾...沒人會把自己的好友送到墮落泉源跟前...也許你認爲他是你的盟友，但我覺得他只是把你當棋子罷了，他并不看重你。","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"聽你這麽説， 我感到很遺憾...沒人會把自己的好友送到墮落泉源跟前...也許你認爲他是你的盟友， 但我覺得他只是把你當棋子罷了， 他并不看重你。","color":"yellow","italic":true}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Fire Line>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"向你的前方發射火焰，點燃沿途的生物。"},"extra":[{"text":" [350 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/trait_de_feu"},"hoverEvent":{"action":"show_text","value":"點擊購買！"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Fire Line>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"向你的前方發射火焰， 點燃沿途的生物。"},"extra":[{"text":" [350 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/trait_de_feu"},"hoverEvent":{"action":"show_text","value":"點擊購買！ "}}]}]}

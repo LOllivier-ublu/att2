@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你好，Etotsira...我不知道。發生的事情太多了：半神隕落、Sérile背叛、Relgon離世、Gaya顯靈...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"你好， Etotsira...我不知道。發生的事情太多了：半神隕落、Sérile背叛、Relgon離世、Gaya顯靈...","color":"aqua"}]}

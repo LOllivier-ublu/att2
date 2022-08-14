@@ -13,4 +13,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Môt \n","color":"black","obfuscated":t
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"Môt \n","color":"black","obfuscated":true,"extra":[{"text":"感受到它們的力量了嗎？寬恕、恐懼、時間、混亂...爲此自豪吧，Irilion之子，你的命運只會剩下絕望和凄涼...","obfuscated":false,"color":"dark_gray"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"Môt \n","color":"black","obfuscated":true,"extra":[{"text":"感受到它們的力量了嗎？ 寬恕、恐懼、時間、混亂...爲此自豪吧， Irilion之子， 你的命運只會剩下絕望和凄涼...","obfuscated":false,"color":"dark_gray"}]}

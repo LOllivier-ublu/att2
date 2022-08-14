@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"那個怎麼樣？！難得遇到像你這麼有趣的人！但我不明白你為什麼要找到埃托齊拉？他自己沒有向我們解釋。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 國王 Adrian : ","color":"gold","extra":[{"text":"那個怎麼樣？ ！ 難得遇到像你這麼有趣的人！ 但我不明白你為什麼要找到埃托齊拉？ 他自己沒有向我們解釋。","color":"dark_aqua"}]}

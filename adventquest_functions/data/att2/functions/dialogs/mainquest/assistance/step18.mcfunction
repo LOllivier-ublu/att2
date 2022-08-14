@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"爲了找到第二塊空間之石的藏身之處，Wirth建議我去小镇Méleïm和Indra Lorth聊聊——那座小镇位于这片领地的东部，凭依着一座巨大的临海悬崖。按Wirth所説，我只要沿著路牌前進就行——只要不迷路，那什麽都好説。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"爲了找到第二塊空間之石的藏身之處， Wirth建議我去小镇Méleïm和Indra Lorth聊聊——那座小镇位于这片领地的东部， 凭依着一座巨大的临海悬崖。按Wirth所説， 我只要沿著路牌前進就行——只要不迷路， 那什麽都好説。","color":"aqua"}]}

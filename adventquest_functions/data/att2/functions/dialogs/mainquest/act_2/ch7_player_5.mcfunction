@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這座島的面積很大，而且到處是廢墟，探索這裏并非易事——能走到哪兒就探索到哪兒吧，只是得先想辦法繞路到對岸才行...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這座島的面積很大， 而且到處是廢墟， 探索這裏并非易事——能走到哪兒就探索到哪兒吧， 只是得先想辦法繞路到對岸才行...","color":"aqua"}]}

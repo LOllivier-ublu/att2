@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"从Tellurön来的，對嗎?..... 這位是Etotsira——他是一位智者，也是一名戰士。他和你一樣來自同一個世界。我不知道閣下的祖先是誰，但如果閣下和他的祖先相似，我想這對您不會有多少幫助。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"从Tellurön来的， 對嗎?..... 這位是Etotsira——他是一位智者， 也是一名戰士。他和你一樣來自同一個世界。我不知道閣下的祖先是誰， 但如果閣下和他的祖先相似， 我想這對您不會有多少幫助。","color":"dark_aqua"}]}

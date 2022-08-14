@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira寬恕了我...我可能看錯他了。現在，我需要穿過在他房間裏的傳送門前往Angband，去見一個叫Relgon的人。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira寬恕了我...我可能看錯他了。現在， 我需要穿過在他房間裏的傳送門前往Angband， 去見一個叫Relgon的人。","color":"aqua"}]}

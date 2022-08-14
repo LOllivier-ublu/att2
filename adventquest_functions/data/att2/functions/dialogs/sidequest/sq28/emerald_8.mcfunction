@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你太小了，不懂。而且...當時我很虛弱...科爾拉夫向我宣布了這個消息，但最終沒有承認塔蒂亞娜死亡情況的全部真相。我不知道這個Lucimene的存在...然後，Korlaph一定是屈服於這個神秘的邪惡...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"你太小了， 不懂。而且...當時我很虛弱...科爾拉夫向我宣布了這個消息， 但最終沒有承認塔蒂亞娜死亡情況的全部真相。我不知道這個Lucimene的存在...然後， Korlaph一定是屈服於這個神秘的邪惡...","color":"dark_aqua"}]}

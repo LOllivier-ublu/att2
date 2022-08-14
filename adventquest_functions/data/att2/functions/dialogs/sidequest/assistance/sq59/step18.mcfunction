@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hero's Accomplishment -°- : "
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我已經知道了異常現象的起源，但這仍然沒法解釋我經歷的這些事情...我必須完成Mercurius和我提及的那個考驗！Basil Valentin告訴我，使用他給我的那塊石頭，我就能知道更多信息。但首先，我必須在Ryliath宮殿的圖書館裡找到一本書並進行某種儀式。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 英雄的成就 -°- : ","color":"gray","extra":[{"text":"我已經知道了異常現象的起源， 但這仍然沒法解釋我經歷的這些事情...我必須完成Mercurius和我提及的那個考驗！ Basil Valentin告訴我， 使用他給我的那塊石頭， 我就能知道更多信息。但首先， 我必須在Ryliath宮殿的圖書館裡找到一本書並進行某種儀式。","color":"aqua","italic":true}]}

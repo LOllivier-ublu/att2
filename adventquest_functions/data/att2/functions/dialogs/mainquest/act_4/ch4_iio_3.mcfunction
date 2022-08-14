@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Iio : ","color":"yellow","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"沒有什麼是你欠他的，他真的可以偷。因為你的英勇存在於你的黃金之心，而不是你的物質屬性","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"沒有什麼是你欠他的， 他真的可以偷。因為你的英勇存在於你的黃金之心， 而不是你的物質屬性","color":"dark_aqua"}]}

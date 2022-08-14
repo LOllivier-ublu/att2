@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"終於...所有的綠寶石塊都已到位。我可以從南翼塔樓直接到達地牢的中央塔樓。中央塔樓的保護機制好像失效了，我敢肯定，中央塔樓樓頂的平臺能載著我往塔樓底部移動。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"終於...所有的綠寶石塊都已到位。我可以從南翼塔樓直接到達地牢的中央塔樓。中央塔樓的保護機制好像失效了， 我敢肯定， 中央塔樓樓頂的平臺能載著我往塔樓底部移動。","color":"aqua"}]}

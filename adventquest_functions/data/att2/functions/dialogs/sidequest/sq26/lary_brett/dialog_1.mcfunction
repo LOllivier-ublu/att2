@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"你好，你在這附近做什麼？啊，旅行者，再次... 忠告，此時避開墓地：一些死者已經復活並正在攻擊所有人。 Méleïm 市並不打算幫我解決這個問題...總之，我一個人也不敢冒險...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"你好， 你在這附近做什麼？ 啊， 旅行者， 再次... 忠告， 此時避開墓地：一些死者已經復活並正在攻擊所有人。 Méleïm 市並不打算幫我解決這個問題...總之， 我一個人也不敢冒險...","color":"dark_aqua"}]}

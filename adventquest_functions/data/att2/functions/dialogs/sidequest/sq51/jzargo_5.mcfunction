@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"古人的記憶。但是無知的人一定不知道。 “最原始的知識被銘刻在它們曾經存在的最後。”，傳說也是如此。他不需要明白，瞳孔跟著J'zargo留下就行了，這地方很危險。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"古人的記憶。但是無知的人一定不知道。 “最原始的知識被銘刻在它們曾經存在的最後。”， 傳說也是如此。他不需要明白， 瞳孔跟著J'zargo留下就行了， 這地方很危險。","color":"dark_aqua"}]}

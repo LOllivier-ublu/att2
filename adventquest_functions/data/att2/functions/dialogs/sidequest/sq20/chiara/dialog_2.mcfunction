@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"*耳語* Psst是你激活了Ryliath傳送門，對吧？你想怎麼賺很多錢？就我個人而言，我這裡的債務太多了，而且我打算馬上離開...銀行里不缺錢，他在那裡守著，我建議我們俯身拿下！如果你幫我把裡面的東西拿走，我們會做一半...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"*耳語* Psst是你激活了Ryliath傳送門， 對吧？ 你想怎麼賺很多錢？ 就我個人而言， 我這裡的債務太多了， 而且我打算馬上離開...銀行里不缺錢， 他在那裡守著， 我建議我們俯身拿下！ 如果你幫我把裡面的東西拿走， 我們會做一半...","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq20/chiara/player_proposal_1/choice_1

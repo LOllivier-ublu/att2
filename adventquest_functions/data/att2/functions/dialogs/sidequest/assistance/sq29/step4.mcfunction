@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Annoying Bandits -°- : ","color":
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惱人的強盜 -°- : ","color":"gray","extra":[{"text":"這些強盜團已經全部被我殺光了，是時候回Meleim告訴Ragnard工作已經圓滿結束。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 惱人的強盜 -°- : ","color":"gray","extra":[{"text":"這些強盜團已經全部被我殺光了， 是時候回Meleim告訴Ragnard工作已經圓滿結束。","color":"aqua","italic":true}]}

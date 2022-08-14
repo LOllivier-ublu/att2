@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Viserys Yigdal : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Viserys Yigdal : ","color":"green","extra":[{"text":"你好，本店出售預製餐點——如果需要熟肉的話，我這兒也有卖。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/viserys_yigdal_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Viserys 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Viserys Yigdal : ","color":"green","extra":[{"text":"你好， 本店出售預製餐點——如果需要熟肉的話， 我這兒也有卖。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/viserys_yigdal_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Viserys 的銷售情況。"}}]}]}

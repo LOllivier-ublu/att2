@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Swarm Arrow>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"在你的上方召喚火焰箭雨，對一定半徑内的敵人造成大量傷害。"},"extra":[{"text":" [1000 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/nuee_de_fleches"},"hoverEvent":{"action":"show_text","value":"點擊購買！"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Swarm Arrow>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"在你的上方召喚火焰箭雨， 對一定半徑内的敵人造成大量傷害。"},"extra":[{"text":" [1000 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/nuee_de_fleches"},"hoverEvent":{"action":"show_text","value":"點擊購買！ "}}]}]}

@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Linda Shelly : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"你殺了他？沒想到...不過，他會去找的。現在我一無所有，Sylvain 是我唯一親愛的人...離開我，我想一個人呆著。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"你殺了他？ 沒想到...不過， 他會去找的。現在我一無所有， Sylvain 是我唯一親愛的人...離開我， 我想一個人呆著。","color":"dark_aqua"}]}

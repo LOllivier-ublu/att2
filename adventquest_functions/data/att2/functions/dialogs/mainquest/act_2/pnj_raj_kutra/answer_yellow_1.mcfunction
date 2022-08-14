@@ -19,4 +19,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Raj Kutra : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"怎麽會這樣？優秀的男人Raj怎會得不到小甜心Syri的愛？噢，我好憤怒...噢，我好絕望...我將化爲何物...我得走了嗎——披上那名爲孤獨的披風，痛苦地消失在远方那刺眼的地平綫后，讓自己的心上人依偎在別人的臂彎裏...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"怎麽會這樣？ 優秀的男人Raj怎會得不到小甜心Syri的愛？ 噢， 我好憤怒...噢， 我好絕望...我將化爲何物...我得走了嗎——披上那名爲孤獨的披風， 痛苦地消失在远方那刺眼的地平綫后， 讓自己的心上人依偎在別人的臂彎裏...","color":"dark_aqua"}]}

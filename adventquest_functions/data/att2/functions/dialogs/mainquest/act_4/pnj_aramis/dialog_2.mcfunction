@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"那麼，你還在等什麼來幫助瑪琳？我沒有時間浪費在談判上。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"那麼， 你還在等什麼來幫助瑪琳？ 我沒有時間浪費在談判上。","color":"dark_aqua"}]}

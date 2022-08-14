@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"那麼你找到這些強盜了嗎？於是在白樺林中尋找他們的營地，應該有幾個。摧毀他們，我們不再談論他們！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"那麼你找到這些強盜了嗎？ 於是在白樺林中尋找他們的營地， 應該有幾個。摧毀他們， 我們不再談論他們！ ","color":"dark_aqua"}]}

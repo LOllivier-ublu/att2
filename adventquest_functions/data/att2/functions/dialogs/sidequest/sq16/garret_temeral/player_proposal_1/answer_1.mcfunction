@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Garret : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"你必須小心，安戈爾的廢墟充滿了危險。在我們的舊軍營中，你會發現最多，我希望如此...軍營位於城市的東部，它是一棟比其他建築更大的建築，一座橫跨其中一條二級公路的橋通向那裡！帶回大約 150 支箭。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"你必須小心， 安戈爾的廢墟充滿了危險。在我們的舊軍營中， 你會發現最多， 我希望如此...軍營位於城市的東部， 它是一棟比其他建築更大的建築， 一座橫跨其中一條二級公路的橋通向那裡！ 帶回大約 150 支箭。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一個巨大的石像擋住了我的去路。我必須想辦法擊敗它，然後利用機械裝置讓那顆巨型綠寶石塊落到地上。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一個巨大的石像擋住了我的去路。我必須想辦法擊敗它， 然後利用機械裝置讓那顆巨型綠寶石塊落到地上。","color":"aqua"}]}

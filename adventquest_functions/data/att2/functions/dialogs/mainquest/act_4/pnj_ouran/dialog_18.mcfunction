@@ -24,4 +24,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"在這種情況下，拿走寶石，它是你的。不過你就別想著不帶這個公主的腦袋回來...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"在這種情況下， 拿走寶石， 它是你的。不過你就別想著不帶這個公主的腦袋回來...","color":"dark_aqua"}]}

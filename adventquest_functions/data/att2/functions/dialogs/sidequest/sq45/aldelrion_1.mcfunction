@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"在我的一生中，我看到了許多戰爭...但很少有那些將他們的痛苦帶到我們靈魂深處的戰爭。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"在我的一生中， 我看到了許多戰爭...但很少有那些將他們的痛苦帶到我們靈魂深處的戰爭。","color":"dark_aqua"}]}

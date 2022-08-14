@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Bane of nothingness, the disembo
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"虚之禍根，無之隱者","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"虚之禍根， 無之隱者","color":"gray"}

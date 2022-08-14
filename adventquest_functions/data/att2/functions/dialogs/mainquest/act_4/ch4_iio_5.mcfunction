@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Iio : ","color":"yellow","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"那是我的奧蘭。所以理解和耐心。在我所有的孩子中，你絕對是我最喜歡的！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"那是我的奧蘭。所以理解和耐心。在我所有的孩子中， 你絕對是我最喜歡的！ ","color":"dark_aqua"}]}

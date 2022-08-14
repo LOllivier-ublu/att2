@@ -16,6 +16,6 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Oswald Flamel : ","color":"green
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Oswald Flamel : ","color":"green","extra":[{"text":"你好，是來买東西的嗎？我這兒有一些你可能會用上的玩意。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/oswald_flamel_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Oswald 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Oswald Flamel : ","color":"green","extra":[{"text":"你好， 是來买東西的嗎？ 我這兒有一些你可能會用上的玩意。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/oswald_flamel_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Oswald 的銷售情況。"}}]}]}
 
 

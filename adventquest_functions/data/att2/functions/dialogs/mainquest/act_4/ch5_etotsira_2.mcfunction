@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"我明白了...好吧，我想我們別無選擇了...我必須把你送到西爾伯蘭最危險的地方。 Nojelanth曾經是一座繁華的城市，但一場黑暗的事件使它陷入了混亂，如今只剩下廢墟...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"我明白了...好吧， 我想我們別無選擇了...我必須把你送到西爾伯蘭最危險的地方。 Nojelanth曾經是一座繁華的城市， 但一場黑暗的事件使它陷入了混亂， 如今只剩下廢墟...","color":"dark_aqua"}]}

@@ -1,6 +1,6 @@
 #####################################################
 #Made by Adventquest                             	#
-#Set language to french for a given player         	#
+#Set language to english for a given player         #
 #####################################################
 
 scoreboard players set @s LANGUAGE 1

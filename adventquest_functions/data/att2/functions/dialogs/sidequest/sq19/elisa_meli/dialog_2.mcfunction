@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Elisa Meli : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"美味的蘋果，物美價廉！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"美味的蘋果， 物美價廉！ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq19/elisa_meli/player_proposal_1/choice_1

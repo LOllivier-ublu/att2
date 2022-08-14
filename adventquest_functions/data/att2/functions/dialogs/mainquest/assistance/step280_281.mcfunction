@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"莉莉亞絲的時間傳送門已經啟動了，但如果我接受了它，我可能就無法回來了...所以我首先應該做好自己的準備。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"莉莉亞絲的時間傳送門已經啟動了， 但如果我接受了它， 我可能就無法回來了...所以我首先應該做好自己的準備。","color":"aqua"}]}

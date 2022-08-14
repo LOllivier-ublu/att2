@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira 告訴我一所古老的學院：Nojelanth，位於遙遠的沙漠中。我必須前往火山區附近的克爾特沙漠。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira 告訴我一所古老的學院：Nojelanth， 位於遙遠的沙漠中。我必須前往火山區附近的克爾特沙漠。","color":"aqua"}]}

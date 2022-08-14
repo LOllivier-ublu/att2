@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucas : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"有一個地方，一座古老的塔，只有幾分鐘的路程，烏鴉飛過...跟我來，我給你指路。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"有一個地方， 一座古老的塔， 只有幾分鐘的路程， 烏鴉飛過...跟我來， 我給你指路。","color":"dark_aqua"}]}

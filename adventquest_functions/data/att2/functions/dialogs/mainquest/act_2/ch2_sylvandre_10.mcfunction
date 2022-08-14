@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"如果Estelle問你，記得告訴她你在我的指導下明白了不少知識！我想讓她對我的評價能更高一些...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"如果Estelle問你， 記得告訴她你在我的指導下明白了不少知識！ 我想讓她對我的評價能更高一些...","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Malak : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"酬勞...？那當然。一點舉手之勞就能讓我這個老人幸福很久了... 可惜我不清楚他們的情報、躲藏地點之類的。你可能要去拜訪村裡的頭頭，他已經和這些傢伙對峙很久了，只是目前還沒什麼成果。他的小屋在營地前門右手邊，應該很快就會回來了。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"酬勞...？ 那當然。一點舉手之勞就能讓我這個老人幸福很久了... 可惜我不清楚他們的情報、躲藏地點之類的。你可能要去拜訪村裡的頭頭， 他已經和這些傢伙對峙很久了， 只是目前還沒什麼成果。他的小屋在營地前門右手邊， 應該很快就會回來了。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你不能錯過，進城前就是平原上的白樺林。這些強盜的營地就藏在那裡。把他們趕出去，摧毀他們的營地，這樣他們就不會回來了。提前感謝您，並活著回來！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你不能錯過， 進城前就是平原上的白樺林。這些強盜的營地就藏在那裡。把他們趕出去， 摧毀他們的營地， 這樣他們就不會回來了。提前感謝您， 並活著回來！ ","color":"dark_aqua"}]}

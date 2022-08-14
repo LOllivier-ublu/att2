@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"這兒是鐵匠鋪！至於他會卖什麽...我就先卖個关子。可以告訴你的是，在鐵匠界，他可謂赫赫有名。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"這兒是鐵匠鋪！ 至於他會卖什麽...我就先卖個关子。可以告訴你的是， 在鐵匠界， 他可謂赫赫有名。","color":"dark_aqua"}]}

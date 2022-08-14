@@ -28,4 +28,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"我當初來Earndhel居住，正是因爲它是一處寧靜祥和的好地方。但現在，成群的陌生人蜂擁而入你打開的那道破傳送門...我不想再在自己的房子裏看到你！到別處去吧！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"我當初來Earndhel居住， 正是因爲它是一處寧靜祥和的好地方。但現在， 成群的陌生人蜂擁而入你打開的那道破傳送門...我不想再在自己的房子裏看到你！ 到別處去吧！ ","color":"dark_aqua"}]}

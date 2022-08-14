@@ -21,4 +21,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"呃，我很疑惑...自從出現這個破傳送門后，這座村莊的寧靜氣氛被完全打破了。如你所見，這座房子先前的居住者已經離開了，我爲了定居在這兒，花了大價錢買下了這所房子...現在看來，我在這裏的平靜生活也要結束了。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"呃， 我很疑惑...自從出現這個破傳送門后， 這座村莊的寧靜氣氛被完全打破了。如你所見， 這座房子先前的居住者已經離開了， 我爲了定居在這兒， 花了大價錢買下了這所房子...現在看來， 我在這裏的平靜生活也要結束了。","color":"dark_aqua"}]}

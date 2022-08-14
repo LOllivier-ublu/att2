@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"現在，J'zargo 必須思考。他應該怎麼...地圖，對！被沙子掩埋的聖所遺跡...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"現在， J'zargo 必須思考。他應該怎麼...地圖， 對！ 被沙子掩埋的聖所遺跡...","color":"dark_aqua"}]}

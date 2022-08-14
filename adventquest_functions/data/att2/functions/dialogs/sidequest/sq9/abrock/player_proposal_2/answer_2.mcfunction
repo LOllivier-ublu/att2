@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Abrock : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"你把我當成誰了，我是伐木工人，不是城中之王。一個好的 30 個 Chronotons，我不會再下降了！","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"你把我當成誰了， 我是伐木工人， 不是城中之王。一個好的 30 個 Chronotons， 我不會再下降了！ ","color":"dark_aqua"}]}

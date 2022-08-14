@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"你好。如果想收集些情報的話，你可以到學院頂樓的辦公室裏找首席魔法師Aramis。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"你好。如果想收集些情報的話， 你可以到學院頂樓的辦公室裏找首席魔法師Aramis。","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一扇有兩把鎖的大門擋住了前進的道路，所以我現在得找到兩把大鑰匙，他們肯定分散在地牢的兩翼。這就意味著，我必須把兩個地方全探索一遍。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一扇有兩把鎖的大門擋住了前進的道路， 所以我現在得找到兩把大鑰匙， 他們肯定分散在地牢的兩翼。這就意味著， 我必須把兩個地方全探索一遍。","color":"aqua"}]}

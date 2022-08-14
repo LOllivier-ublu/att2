@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"Do you want to continue the t...?","col
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"你想繼續...？","color":"dark_aqua","italic":true}
+tellraw @a[scores={LANGUAGE=2}] {"text":"你想繼續...？ ","color":"dark_aqua","italic":true}

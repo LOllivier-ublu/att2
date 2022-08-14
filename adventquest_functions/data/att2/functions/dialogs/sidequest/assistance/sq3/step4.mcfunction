@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Brother Gacko's escape -°- : ","c
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 越獄行動 -°- : ","color":"gray","extra":[{"text":"廢了老子九牛二虎之力終於將Tyrgols從牢房裡救了出來，回Gregor那取回報酬吧。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 越獄行動 -°- : ","color":"gray","extra":[{"text":"廢了老子九牛二虎之力終於將Tyrgols從牢房裡救了出來， 回Gregor那取回報酬吧。","color":"aqua","italic":true}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"但是，我們Eternän一族的子民不會屈從于這只怪物，Angband不能被一個瘋狂的生物所統治，即使她曾和我們做了很久的盟友。於是，Eternän和凡人們的意見不合導致了衝突。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"但是， 我們Eternän一族的子民不會屈從于這只怪物， Angband不能被一個瘋狂的生物所統治， 即使她曾和我們做了很久的盟友。於是， Eternän和凡人們的意見不合導致了衝突。","color":"dark_aqua"}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Eric Melsath : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Eric Melsath : ","color":"green","extra":[{"text":"你好，對我的馬兒們感興趣嗎？","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/eric_melsath_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Eric 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Eric Melsath : ","color":"green","extra":[{"text":"你好， 對我的馬兒們感興趣嗎？ ","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/eric_melsath_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Eric 的銷售情況。"}}]}]}

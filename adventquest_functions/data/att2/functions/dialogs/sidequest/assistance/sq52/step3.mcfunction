@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 2
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 2 部分 -°- : ","color":"gray","extra":[{"text":"拿到了一塊很精緻的淚水晶石，這應該就是J'zargo想找的遺物。不必在這裡繼續待下去了。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 2 部分 -°- : ","color":"gray","extra":[{"text":"拿到了一塊很精緻的淚水晶石， 這應該就是J'zargo想找的遺物。不必在這裡繼續待下去了。","color":"aqua","italic":true}]}

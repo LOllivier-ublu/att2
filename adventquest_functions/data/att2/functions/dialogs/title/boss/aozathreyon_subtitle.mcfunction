@@ -14,4 +14,4 @@ title @s[scores={LANGUAGE=1}] subtitle {"text":"Ineffable Light, Wind Creature",
 
 #CHINESE LANGUAGE
 
-title @s[scores={LANGUAGE=2}] subtitle {"text":"未名之光，風之造物","color":"gray"}
+title @s[scores={LANGUAGE=2}] subtitle {"text":"未名之光， 風之造物","color":"gray"}

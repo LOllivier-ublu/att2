@@ -18,7 +18,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"我知道你是誰...我不像埃托齊拉那麼大方，你看。我們的城市正在挨餓，所以如果你願意幫助我們，我也會努力的。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"我知道你是誰...我不像埃托齊拉那麼大方， 你看。我們的城市正在挨餓， 所以如果你願意幫助我們， 我也會努力的。","color":"dark_aqua"}]}
 
 
 execute as @a run function att2:dialogs/mainquest/act_4/pnj_aramis/player_answer_proposal_3_2

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Feanorth : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"謝謝你，Eternän 人已經永遠感激你了，我會獎勵你我留在營地的幾個 Chronotons。前往安戈爾西區，在廢墟中尋找巢穴。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"謝謝你， Eternän 人已經永遠感激你了， 我會獎勵你我留在營地的幾個 Chronotons。前往安戈爾西區， 在廢墟中尋找巢穴。","color":"dark_aqua"}]}

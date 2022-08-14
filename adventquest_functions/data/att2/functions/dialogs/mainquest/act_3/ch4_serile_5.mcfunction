@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sérile : ","color":"yellow","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"*憤怒、失望地* 你怎能這樣對我，我可是ANGBAND的前任國王，AZAZEL的唯一血脉！","color":"dark_aqua","italic":true}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sérile : ","color":"yellow","extra":[{"text":"*憤怒、失望地* 你怎能這樣對我， 我可是ANGBAND的前任國王， AZAZEL的唯一血脉！ ","color":"dark_aqua","italic":true}]}

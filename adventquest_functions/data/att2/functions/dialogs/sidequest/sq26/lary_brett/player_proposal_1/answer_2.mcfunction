@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"你是什​​麼意思？我絕對不會把墓地的鑰匙交給你這樣的陌生人！但是，如果您擺脫所有在入口處遊蕩的骷髏，我們肯定可以安排。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"你是什​​麼意思？ 我絕對不會把墓地的鑰匙交給你這樣的陌生人！ 但是， 如果您擺脫所有在入口處遊蕩的骷髏， 我們肯定可以安排。","color":"dark_aqua"}]}

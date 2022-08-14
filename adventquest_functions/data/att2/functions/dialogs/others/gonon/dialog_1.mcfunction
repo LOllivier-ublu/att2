@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"那麽，你能處理掉這些操蛋的蜘蛛嗎？","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"那麽， 你能處理掉這些操蛋的蜘蛛嗎？ ","color":"dark_aqua"}]}

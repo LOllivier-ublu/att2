@@ -14,4 +14,4 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"Did you really believe that we w
 
 #ENGLISH LANGUAGE
 
-title @a[scores={LANGUAGE=2}] subtitle {"text":"你覺得我們會允許你這麽做嗎？","color":"gold","bold":true}
+title @a[scores={LANGUAGE=2}] subtitle {"text":"你覺得我們會允許你這麽做嗎？ ","color":"gold","bold":true}

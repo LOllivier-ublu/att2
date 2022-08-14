@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"當然，只有 Relgon 能夠戰勝終極錯誤！那天安格班王國眼睜睜地看著他瀕臨死亡...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"當然， 只有 Relgon 能夠戰勝終極錯誤！ 那天安格班王國眼睜睜地看著他瀕臨死亡...","color":"dark_aqua"}]}

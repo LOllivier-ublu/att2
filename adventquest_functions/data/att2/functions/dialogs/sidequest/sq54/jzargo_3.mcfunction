@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"“他的主人對任何生物都是必不可少的，但由於他的不變性，他與其他人非常不同，他承載著能量、情感和傳承的價值觀。”","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"“他的主人對任何生物都是必不可少的， 但由於他的不變性， 他與其他人非常不同， 他承載著能量、情感和傳承的價值觀。”","color":"dark_aqua"}]}

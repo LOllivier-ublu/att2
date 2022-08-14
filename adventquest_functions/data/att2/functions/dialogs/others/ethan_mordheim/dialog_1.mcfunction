@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ethan Mordheim : ","color":"gree
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ethan Mordheim : ","color":"green","extra":[{"text":"歡迎光臨Mordheim百貨。雖然這裏的食物庫存不多，不過相應的，你不用擔心剁手的問題了！","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/ethan_mordheim_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Ethan 的銷售情況。"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ethan Mordheim : ","color":"green","extra":[{"text":"歡迎光臨Mordheim百貨。雖然這裏的食物庫存不多， 不過相應的， 你不用擔心剁手的問題了！ ","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/ethan_mordheim_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Ethan 的銷售情況。"}}]}]}

@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hannibal Kho : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hannibal Kho : ","color":"green","extra":[{"text":"嘿，讓我看看你都有些什麽——我可以用一大袋Chronoton和你換！","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Hannibal 打交道"}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Hannibal Kho : ","color":"green","extra":[{"text":"嘿， 讓我看看你都有些什麽——我可以用一大袋Chronoton和你換！ ","color":"dark_aqua","extra":[{"text":" [貿易 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"與 Hannibal 打交道"}}]}]}

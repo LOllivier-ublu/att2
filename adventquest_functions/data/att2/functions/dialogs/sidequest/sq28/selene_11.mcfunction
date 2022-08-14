@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","ex
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"你是對的...我更理解你為什麼如此悲傷和絕望，父親。但你本可以告訴我失去媽媽的真相！你為什麼對我隱瞞一切？","color":"dark_green"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"你是對的...我更理解你為什麼如此悲傷和絕望， 父親。但你本可以告訴我失去媽媽的真相！ 你為什麼對我隱瞞一切？ ","color":"dark_green"}]}

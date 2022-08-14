@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Bob L. : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"*張揚，不成熟*看來我們這裡需要一個有才華的魔術師！？ AHAHAHAHA，我是 BOB LAÏNONNE，整個 Tellurön 王國最強大的高溫計！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"*張揚， 不成熟*看來我們這裡需要一個有才華的魔術師！ ？  AHAHAHAHA， 我是 BOB LAÏNONNE， 整個 Tellurön 王國最強大的高溫計！ ","color":"dark_aqua"}]}

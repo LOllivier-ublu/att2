@@ -7,4 +7,4 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Le devoir immémorial]","color":"green
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[The immemorial duty]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[遠古的義務]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[遠古的義務]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}

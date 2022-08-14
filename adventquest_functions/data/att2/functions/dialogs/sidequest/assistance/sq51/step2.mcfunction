@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 1
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 1 部分 -°- : ","color":"gray","extra":[{"text":"這小子沒一句好話，算了，我還是親自去山洞裡調查吧，希望能找到'昔日的回憶'這件遺物。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- J'zargo 的傳奇任務 - 第 1 部分 -°- : ","color":"gray","extra":[{"text":"這小子沒一句好話， 算了， 我還是親自去山洞裡調查吧， 希望能找到'昔日的回憶'這件遺物。","color":"aqua","italic":true}]}

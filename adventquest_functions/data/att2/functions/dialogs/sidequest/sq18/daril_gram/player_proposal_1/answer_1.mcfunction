@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Daril Gram : ","color":"green","
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"你願意把它給他們嗎？一群狂熱分子藏在西部的安戈爾。就是他們這樣對我兒子...把他們老大的頭給我，我會獎勵你的...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"你願意把它給他們嗎？ 一群狂熱分子藏在西部的安戈爾。就是他們這樣對我兒子...把他們老大的頭給我， 我會獎勵你的...","color":"dark_aqua"}]}

@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"學生是來向J'zargo道歉的嗎？哦，是的，這是 j'zargo 尋找的最後一件神器。在那裡，他的旅程即將結束！","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"學生是來向J'zargo道歉的嗎？ 哦， 是的， 這是 j'zargo 尋找的最後一件神器。在那裡， 他的旅程即將結束！ ","color":"dark_aqua"}]}

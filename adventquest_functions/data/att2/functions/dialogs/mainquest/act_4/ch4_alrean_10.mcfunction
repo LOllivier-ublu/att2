@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extr
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"是的，是的，你必須這樣做。但是您只能通過飛行來實現。去風師家，他會幫你的。為了找到他，沿著我前面的路，過橋，然後繼續向北。接下來，爬上你會在十字路口找到的樓梯，你會遇到鎮上唯一的古怪房子...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"是的， 是的， 你必須這樣做。但是您只能通過飛行來實現。去風師家， 他會幫你的。為了找到他， 沿著我前面的路， 過橋， 然後繼續向北。接下來， 爬上你會在十字路口找到的樓梯， 你會遇到鎮上唯一的古怪房子...","color":"dark_aqua"}]}

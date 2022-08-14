@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"向閣下致以誠摯的謝意。那我們先待命， 當閣下準備好時再來找我吧。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"向閣下致以誠摯的謝意。那我們先待命，  當閣下準備好時再來找我吧。","color":"dark_aqua"}]}

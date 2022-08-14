@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Sometimes, I guess there's just no
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有時，我猜只是沒有足夠的石頭 -°- : ","color":"gray","extra":[{"text":"我找到一把帶有奇怪銘文的鑰匙，應該能打開藏在附近的一個箱子或一扇門。希望能找到真正的寶藏。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有時， 我猜只是沒有足夠的石頭 -°- : ","color":"gray","extra":[{"text":"我找到一把帶有奇怪銘文的鑰匙， 應該能打開藏在附近的一個箱子或一扇門。希望能找到真正的寶藏。","color":"aqua","italic":true}]}

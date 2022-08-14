@@ -18,4 +18,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":"","color":"gray","italic":true,"extra":
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true,"extra":[{"text":"電視正在播送節目：Lambda公司十分榮幸能為全世界提供電力，歡迎參觀由Lambda公司承建的世界上第一座能源發射塔！<Lambda公司，予你未來的公司！>","color":"gold","italic":false}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":"","color":"gray","italic":true,"extra":[{"text":"電視正在播送節目：Lambda公司十分榮幸能為全世界提供電力， 歡迎參觀由Lambda公司承建的世界上第一座能源發射塔！ <Lambda公司， 予你未來的公司！ >","color":"gold","italic":false}]}

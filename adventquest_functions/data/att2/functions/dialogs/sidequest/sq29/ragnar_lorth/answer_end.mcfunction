@@ -16,4 +16,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你成功了嗎？好吧，我不再相信它了。希望這些強盜永遠不會回到這裡定居。你應該得到獎勵。去下面和我的管家談談，她會給你我們其中一處房產的折扣價。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"你成功了嗎？ 好吧， 我不再相信它了。希望這些強盜永遠不會回到這裡定居。你應該得到獎勵。去下面和我的管家談談， 她會給你我們其中一處房產的折扣價。","color":"dark_aqua"}]}
