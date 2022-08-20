@@ -13,7 +13,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.1
+                            "chance": 0.25
                         }
                     ],
                     "functions": [
