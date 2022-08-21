@@ -12,6 +12,7 @@ execute as 00000000-0000-009c-0000-00000000009c run data merge entity @s {NoAI:1
 execute as 00000000-0000-008c-0000-00000000008c run data merge entity @s {NoAI:1,Invulnerable:1}
 execute as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-26,gamemode=adventure] at @s run tp @s -4375 53 -5085
 execute as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-26,gamemode=adventure] at @s run effect clear @s minecraft:wither
+execute as @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-26,gamemode=adventure] at @s run effect clear @s minecraft:darkness
 execute positioned -4375 53 -5085 run function att2:sound/misc/desintegration
 
 function att2:gameplay/boss/schestrown/shadow/summon_minions_area1

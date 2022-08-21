@@ -26,6 +26,7 @@ execute if score Shadow_attack SQ38 matches 1 if entity @e[x=-4380,y=42,z=-5059,
 # Loading shadow attack
 execute if score Shadow_timer1 SQ38 matches 800 run function att2:physicmod/reg1/schestrown_shadow_loading_attack
 execute if score Shadow_timer1 SQ38 matches 1000 run function att2:gameplay/boss/schestrown/shadow/loading_attack
+execute if score Shadow_timer1 SQ38 matches 1000 run effect give @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] minecraft:darkness 25 1 true
 execute if score Shadow_timer1 SQ38 matches 1000..1600 positioned -4375 53 -5054 run function att2:gameplay/boss/schestrown/shadow/effect3
 execute if score Shadow_timer1 SQ38 matches 1100 positioned -4375 57 -5054 run function att2:sound/misc/scary_eldersound
 execute if score Shadow_timer1 SQ38 matches 1100..1600 positioned -4375 57 -5054 run particle minecraft:dust 0 0 0 1 ~ ~ ~ 5 5 5 0 10

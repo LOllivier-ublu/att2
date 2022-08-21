@@ -44,6 +44,7 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"carminahermetica"}}]}] o
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"weaponsking"}}]}] only att2:adventure/myt
 
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fortuity"}}}] only att2:collection/mythique/fortuity
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"blindshield"}}}] only att2:collection/mythique/aveugle_rempart
@@ -62,6 +63,7 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"carminahermetica"}}]}] o
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] only att2:collection/mythique/corpus_hermeticum
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only att2:collection/mythique/liber_hermetis
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:collection/mythique/thrice_greatest_hermes
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"weaponsking"}}}] only att2:collection/mythique/weaponsking
 
 ### EQUIPMENT FULL SET
 # HERMETIQUE

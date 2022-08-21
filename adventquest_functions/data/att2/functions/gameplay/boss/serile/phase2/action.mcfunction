@@ -101,7 +101,7 @@ execute if score Sphere_health SERILE matches 1 if score Timer3 SERILE matches 1
 execute if score Sphere_health SERILE matches 1 if score Timer3 SERILE matches 10 run function att2:gameplay/boss/serile/phase2/stages/center_trigger
 execute if score Sphere_health SERILE matches 1 if score Timer3 SERILE matches 11..99 run scoreboard players add Timer3 SERILE 1
 execute if score Sphere_health SERILE matches 1 if score Timer3 SERILE matches 20 as @e[type=minecraft:armor_stand,tag=SphereCenter,limit=1] at @s run teleport @s ~ ~ ~ 90 ~
-execute if score Sphere_health SERILE matches 1 if score Timer3 SERILE matches 50 run effect give @a minecraft:blindness 5 0 true
+execute if score Sphere_health SERILE matches 1 if score Timer3 SERILE matches 50 run effect give @a minecraft:darkness 5 0 true
 execute if score Sphere_health SERILE matches 1 if score Timer3 SERILE matches 90 run function att2:physicmod/reg1/hill_valley/stadium_stage1
 execute if score Sphere_health SERILE matches 1 if score Timer3 SERILE matches 99 run function att2:gameplay/boss/serile/phase2/stages/summon1
 execute if score Sphere_health SERILE matches 1 if score Timer3 SERILE matches 100 run scoreboard players set Timer3 SERILE 0
@@ -114,7 +114,7 @@ execute if score Sphere_health SERILE matches 2 if score Timer3 SERILE matches 1
 execute if score Sphere_health SERILE matches 2 if score Timer3 SERILE matches 10 run function att2:gameplay/boss/serile/phase2/stages/center_trigger
 execute if score Sphere_health SERILE matches 2 if score Timer3 SERILE matches 11..99 run scoreboard players add Timer3 SERILE 1
 execute if score Sphere_health SERILE matches 2 if score Timer3 SERILE matches 20 as @e[type=minecraft:armor_stand,tag=SphereCenter,limit=1] at @s run teleport @s ~ ~ ~ 90 ~
-execute if score Sphere_health SERILE matches 2 if score Timer3 SERILE matches 50 run effect give @a minecraft:blindness 5 0 true
+execute if score Sphere_health SERILE matches 2 if score Timer3 SERILE matches 50 run effect give @a minecraft:darkness 5 0 true
 execute if score Sphere_health SERILE matches 2 if score Timer3 SERILE matches 90 run function att2:physicmod/reg1/hill_valley/stadium_stage2
 execute if score Sphere_health SERILE matches 2 if score Timer3 SERILE matches 99 run function att2:gameplay/boss/serile/phase2/stages/summon2
 execute if score Sphere_health SERILE matches 2 if score Timer3 SERILE matches 100 run scoreboard players set Timer3 SERILE 0
@@ -130,7 +130,7 @@ execute if score Sphere_health SERILE matches 3 if score Timer3 SERILE matches 2
 execute if score Sphere_health SERILE matches 3 if score Timer3 SERILE matches 50 run function att2:gameplay/boss/serile/phase2/stages/fireball1
 execute if score Sphere_health SERILE matches 3 if score Timer3 SERILE matches 100 run function att2:gameplay/boss/serile/phase2/stages/fireball2
 execute if score Sphere_health SERILE matches 3 if score Timer3 SERILE matches 150 run function att2:gameplay/boss/serile/phase2/stages/fireball3
-execute if score Sphere_health SERILE matches 3 if score Timer3 SERILE matches 150 run effect give @a minecraft:blindness 5 0 true
+execute if score Sphere_health SERILE matches 3 if score Timer3 SERILE matches 150 run effect give @a minecraft:darkness 5 0 true
 execute if score Sphere_health SERILE matches 3 if score Timer3 SERILE matches 190 run function att2:physicmod/reg1/hill_valley/stadium_stage3
 execute if score Sphere_health SERILE matches 3 if score Timer3 SERILE matches 199 run function att2:gameplay/boss/serile/phase2/stages/summon3
 execute if score Sphere_health SERILE matches 3 if score Timer3 SERILE matches 200 run scoreboard players set Timer3 SERILE 0
