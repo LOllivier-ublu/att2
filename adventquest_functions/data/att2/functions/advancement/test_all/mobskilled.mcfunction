@@ -124,7 +124,7 @@ advancement grant @a[scores={statWOLFKILLED=250..}] only att2:mobskilled/wolfs_k
 advancement grant @a[scores={statWOLFKILLED=500..}] only att2:mobskilled/wolfs_killed_500
 
 # HOGLIN
-advancement grant @a[scores={statHOLGINKILLED=5..}] only att2:mobskilled/hoglins_killed_5
+advancement grant @a[scores={statHOGLINKILLED=5..}] only att2:mobskilled/hoglins_killed_5
 advancement grant @a[scores={statHOGLINKILLED=25..}] only att2:mobskilled/hoglins_killed_25
 advancement grant @a[scores={statHOGLINKILLED=100..}] only att2:mobskilled/hoglins_killed_100
 advancement grant @a[scores={statHOGLINKILLED=250..}] only att2:mobskilled/hoglins_killed_250
