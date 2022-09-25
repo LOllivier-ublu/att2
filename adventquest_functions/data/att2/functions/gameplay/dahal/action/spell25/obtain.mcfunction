@@ -5,6 +5,7 @@
 
 clear @s minecraft:written_book{title:"§9Loup",display:{"Lore":["{\"text\":\"§7Livre d'incantation\"}"]}}
 clear @s minecraft:written_book{title:"§9Wolf",display:{"Lore":["{\"text\":\"§7Incantation book\"}"]}}
+clear @s minecraft:written_book{title:"§9狼",display:{"Lore":["{\"text\":\"§7咒語書\"}"]}}
 
 execute as @s[scores={SPELL25_CAP=1}] run scoreboard players operation @s SPELL_OP = cap2 SPELL25_LVL
 execute as @s[scores={SPELL25_CAP=2}] run scoreboard players operation @s SPELL_OP = cap3 SPELL25_LVL

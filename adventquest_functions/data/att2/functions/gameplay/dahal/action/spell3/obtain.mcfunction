@@ -5,6 +5,7 @@
 
 clear @s minecraft:written_book{title:"§cInferno",display:{"Lore":["{\"text\":\"§7Livre d'incantation\"}"]}}
 clear @s minecraft:written_book{title:"§cInferno",display:{"Lore":["{\"text\":\"§7Incantation book\"}"]}}
+clear @s minecraft:written_book{title:"§c地獄",display:{"Lore":["{\"text\":\"§7咒語書\"}"]}}
 
 execute as @s[scores={SPELL3_CAP=1}] run scoreboard players operation @s SPELL_OP = cap2 SPELL3_LVL
 execute as @s[scores={SPELL3_CAP=2}] run scoreboard players operation @s SPELL_OP = cap3 SPELL3_LVL

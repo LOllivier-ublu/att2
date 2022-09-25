@@ -5,6 +5,7 @@
 
 clear @s minecraft:written_book{title:"§9Arc spectral",display:{"Lore":["{\"text\":\"§7Livre d'incantation\"}"]}}
 clear @s minecraft:written_book{title:"§9Spectral Bow",display:{"Lore":["{\"text\":\"§7Incantation book\"}"]}}
+clear @s minecraft:written_book{title:"§9光譜弓",display:{"Lore":["{\"text\":\"§7咒語書\"}"]}}
 
 execute as @s[scores={SPELL28_CAP=1}] run scoreboard players operation @s SPELL_OP = cap2 SPELL28_LVL
 execute as @s[scores={SPELL28_CAP=2}] run scoreboard players operation @s SPELL_OP = cap3 SPELL28_LVL

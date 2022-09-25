@@ -5,6 +5,7 @@
 
 clear @s minecraft:written_book{title:"§9Familier agilité",display:{"Lore":["{\"text\":\"§7Livre d'incantation\"}"]}}
 clear @s minecraft:written_book{title:"§9Agility pet",display:{"Lore":["{\"text\":\"§7Incantation book\"}"]}}
+clear @s minecraft:written_book{title:"§9敏捷寵物",display:{"Lore":["{\"text\":\"§7咒語書\"}"]}}
 
 execute as @s[scores={SPELL23_CAP=1}] run scoreboard players operation @s SPELL_OP = cap2 SPELL23_LVL
 execute as @s[scores={SPELL23_CAP=2..}] run scoreboard players operation @s SPELL_OP = cap3 SPELL23_LVL
