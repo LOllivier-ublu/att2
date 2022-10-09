@@ -43,7 +43,6 @@ function att2:dialogs/gameplay/symbol/explo/ryliath_infos_general
 function att2:dialogs/gameplay/symbol/explo/sathnok_infos_general
 function att2:dialogs/gameplay/symbol/explo/schestrown_infos_general
 function att2:dialogs/gameplay/symbol/explo/soquai_infos_general
-function att2:dialogs/gameplay/symbol/explo/soquai_infos_general
 function att2:dialogs/gameplay/symbol/explo/volcano_infos_general
 function att2:dialogs/gameplay/symbol/explo/vonaheim_infos_general
 function att2:dialogs/gameplay/symbol/explo/worlest_infos_general

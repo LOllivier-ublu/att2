@@ -181,7 +181,7 @@ execute if score Neth0 TIMER matches 8701 in minecraft:overworld run tp @a 1543.
 #end of the cinematic	#
 #=======================#
 
-execute if score Neth0 TIMER matches 8601.. in minecraft:the_nether run setblock 3526 75 4501 minecraft:air
-execute if score Neth0 TIMER matches 511..8600 run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 8701.. in minecraft:the_nether run setblock 3526 75 4501 minecraft:air
+execute if score Neth0 TIMER matches 511..8700 run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 508..509 run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 0..500 run function att2:cinematic/neth0_iteration
