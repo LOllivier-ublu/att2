@@ -49,7 +49,7 @@ execute if score Ouranos_tower SYMBOL matches 15 run advancement grant @a only a
 execute if score Owsastr SYMBOL matches 34 run advancement grant @a only att2:journey/symbol_owsastr
 execute if score Phoenix SYMBOL matches 12 run advancement grant @a only att2:journey/symbol_phoenix
 execute if score Plain SYMBOL matches 23 run advancement grant @a only att2:journey/symbol_plain
-execute if score Ryliath SYMBOL matches 54 run advancement grant @a only att2:journey/symbol_ryliath
+execute if score Ryliath SYMBOL matches 62 run advancement grant @a only att2:journey/symbol_ryliath
 execute if score Sathnok SYMBOL matches 18 run advancement grant @a only att2:journey/symbol_sathnok
 execute if score Schestrown SYMBOL matches 44 run advancement grant @a only att2:journey/symbol_schestrown
 execute if score Soquai SYMBOL matches 26 run advancement grant @a only att2:journey/symbol_soquai

@@ -10,6 +10,7 @@
 #####################################################
 
 execute if score golem_mech1 BILLGART matches 5 in minecraft:the_end if entity @e[type=minecraft:arrow,x=-862,y=92,z=-640,dx=0,dy=0,dz=0] run function att2:cinematic/act_4/billgart/golem/dying
+execute if score golem_mech1 BILLGART matches 5 in minecraft:the_end if entity @e[type=minecraft:spectral_arrow,x=-862,y=92,z=-640,dx=0,dy=0,dz=0] run function att2:cinematic/act_4/billgart/golem/dying
 
 execute if score golem_mech1 BILLGART matches 6 in minecraft:the_end run function att2:cinematic/act_4/billgart/golem/clear_path
 

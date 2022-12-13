@@ -3,4 +3,4 @@
 #Use function to process the System Symbol Info 			    #
 #################################################################
 
-title @s actionbar {"text":"⚙ ","color":"dark_red","extra":[{"text":"Earndhel : ","color":"gray"},{"score":{"name":"Earndhel","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"14","color":"gold"},{"text":" ⚙","color":"dark_red"}]}
+title @s actionbar {"text":"⚙ ","color":"dark_red","extra":[{"text":"Earndhel : ","color":"gray"},{"score":{"name":"Earndhel","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"17","color":"gold"},{"text":" ⚙","color":"dark_red"}]}

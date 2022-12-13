@@ -70,7 +70,7 @@ advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"weaponsking"}}}] only 
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{SetId:"99"}},{Slot:102b,tag:{SetId:"99"}},{Slot:101b,tag:{SetId:"99"}},{Slot:100b,tag:{SetId:"99"}}]}] only att2:adventure/hermetique_fullset
 
 # REMARQUABLE
-advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{Effect:"dar2_str_1_has_1",SetId:"1"}},{Slot:102b,tag:{Effect:"dar2_str_1_res_1",SetId:"1"}},{Slot:101b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}},{Slot:100b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}}]}] only att2:adventure/dahal_apprentice
+advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{Effect:"dar2_str_1_has_1",SetId:"1"}},{Slot:102b,tag:{Effect:"dar2_res_1",SetId:"1"}},{Slot:101b,tag:{Effect:"dar2_str_1",SetId:"1"}},{Slot:100b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}}]}] only att2:adventure/dahal_apprentice
 
 # STUPEFIANT
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{Effect:"dar3_str_1",SetId:"2"}},{Slot:102b,tag:{Effect:"dar3_str_1_res_1",SetId:"2"}},{Slot:101b,tag:{Effect:"dar3_str_1_res_1",SetId:"2"}},{Slot:100b,tag:{Effect:"dar2_str_1",SetId:"2"}}]}] only att2:adventure/dahal_master

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Youpi ! Vous le rgretterez pas...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Youpi ! Vous ne le regretterez pas...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
