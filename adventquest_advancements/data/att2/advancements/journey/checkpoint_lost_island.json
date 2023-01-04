@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"Lost island Checkpoint"},
+        "description": {"translate":"Discover all Checkpoint of lost island"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_island",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "checkpoint_lost_island": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

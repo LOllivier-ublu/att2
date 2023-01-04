@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"Ouranos road Checkpoint"},
+        "description": {"translate":"Discover all Checkpoint of Ouranos road"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_ouranos",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "checkpoint_ouranos_road": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

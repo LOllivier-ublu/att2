@@ -49,6 +49,15 @@ execute if score Number_Complete NIGHTMARERUN matches 3.. run advancement grant 
 execute if score Number_Complete NIGHTMARERUN matches 5.. run advancement grant @a only att2:progress/nightmarerun_5
 execute if score Number_Complete NIGHTMARERUN matches 10.. run advancement grant @a only att2:progress/nightmarerun_10
 
+# CHECKPOINT
+execute if score All CHECKPOINT matches 2.. run advancement grant @a only att2:progress/checkpoint_2
+execute if score All CHECKPOINT matches 5.. run advancement grant @a only att2:progress/checkpoint_5
+execute if score All CHECKPOINT matches 10.. run advancement grant @a only att2:progress/checkpoint_10
+execute if score All CHECKPOINT matches 25.. run advancement grant @a only att2:progress/checkpoint_25
+execute if score All CHECKPOINT matches 50.. run advancement grant @a only att2:progress/checkpoint_50
+execute if score All CHECKPOINT matches 100.. run advancement grant @a only att2:progress/checkpoint_100
+execute if score All CHECKPOINT matches 200.. run advancement grant @a only att2:progress/checkpoint_200
+
 # SWIM
 advancement grant @a[scores={statSWIM=1000..}] only att2:progress/swim_1000
 advancement grant @a[scores={statSWIM=50000..}] only att2:progress/swim_50000

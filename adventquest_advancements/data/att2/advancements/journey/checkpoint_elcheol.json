@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"Elcheol Checkpoint"},
+        "description": {"translate":"Discover all Checkpoint of Elcheol"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_eolorion",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "checkpoint_elcheol": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

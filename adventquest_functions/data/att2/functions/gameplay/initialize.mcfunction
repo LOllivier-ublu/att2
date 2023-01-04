@@ -15,6 +15,7 @@ function att2:gameplay/arena/initialize
 function att2:gameplay/bank/initialize
 function att2:gameplay/boss/initialize
 function att2:gameplay/bow/initialize
+function att2:gameplay/checkpoint/initialize
 function att2:gameplay/chronoton/initialize
 function att2:gameplay/dahal/initialize
 function att2:gameplay/death/initialize
