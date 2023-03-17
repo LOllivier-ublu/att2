@@ -23,6 +23,7 @@ scoreboard players set @s DAHALMAX 50
 scoreboard players set @s SPELL_SLCT 0
 scoreboard players set @s SPELL_OP -1
 scoreboard players set @s SPELLS_COUNT 0
+scoreboard players set Collector SPELLS_COUNT 0
 scoreboard players set DahalRegen TIMER 1
 
 function att2:gameplay/dahal/pet/initialize

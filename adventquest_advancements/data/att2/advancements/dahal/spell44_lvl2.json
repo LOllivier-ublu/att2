@@ -6,7 +6,7 @@
         "title": {"translate":"Elusive Apprentice"},
         "description": {"translate":"Reach level 2 with Elusive spell"}
     },
-    "parent": "att2:dahal/root",
+    "parent": "att2:dahal/spell44_loot",
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 100

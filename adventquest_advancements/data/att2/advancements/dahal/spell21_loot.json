@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Vitality Pet"},
+        "description": {"translate":"Find Vitality Pet spell"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell21_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

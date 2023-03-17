@@ -6,7 +6,7 @@
         "title": {"translate":"Healing Apprentice"},
         "description": {"translate":"Reach level 2 with Healing spell"}
     },
-    "parent": "att2:dahal/root",
+    "parent": "att2:dahal/spell42_loot",
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 100

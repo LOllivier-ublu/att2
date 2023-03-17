@@ -14,6 +14,12 @@ advancement grant @a[scores={SPELLS_COUNT=1000..}] only att2:dahal/spell_launch_
 advancement grant @a[scores={SPELLS_COUNT=2500..}] only att2:dahal/spell_launch_2500
 advancement grant @a[scores={SPELLS_COUNT=10000..}] only att2:dahal/spell_launch_10000
 
+# TOTAL LOOT
+execute if score Collector SPELLS_COUNT matches 26 run advancement grant @a only att2:dahal/spell_all_loot
+
+# TOTAL SPELL LEVEL MAX
+execute if entity @s[advancements={att2:dahal/spell1_lvl10=true}] if entity @s[advancements={att2:dahal/spell2_lvl10=true}] if entity @s[advancements={att2:dahal/spell3_lvl10=true}] if entity @s[advancements={att2:dahal/spell4_lvl10=true}] if entity @s[advancements={att2:dahal/spell5_lvl10=true}] if entity @s[advancements={att2:dahal/spell6_lvl10=true}] if entity @s[advancements={att2:dahal/spell7_lvl10=true}] if entity @s[advancements={att2:dahal/spell8_lvl10=true}] if entity @s[advancements={att2:dahal/spell9_lvl10=true}] if entity @s[advancements={att2:dahal/spell10_lvl10=true}] if entity @s[advancements={att2:dahal/spell11_lvl10=true}] if entity @s[advancements={att2:dahal/spell20_lvl5=true}] if entity @s[advancements={att2:dahal/spell21_lvl3=true}] if entity @s[advancements={att2:dahal/spell22_lvl3=true}] if entity @s[advancements={att2:dahal/spell23_lvl3=true}] if entity @s[advancements={att2:dahal/spell24_lvl10=true}] if entity @s[advancements={att2:dahal/spell25_lvl10=true}] if entity @s[advancements={att2:dahal/spell26_lvl10=true}] if entity @s[advancements={att2:dahal/spell27_lvl10=true}] if entity @s[advancements={att2:dahal/spell28_lvl10=true}] if entity @s[advancements={att2:dahal/spell40_lvl10=true}] if entity @s[advancements={att2:dahal/spell41_lvl10=true}] if entity @s[advancements={att2:dahal/spell42_lvl10=true}] if entity @s[advancements={att2:dahal/spell43_lvl10=true}] if entity @s[advancements={att2:dahal/spell44_lvl10=true}] if entity @s[advancements={att2:dahal/spell45_lvl10=true}] run advancement grant @a only att2:dahal/spell_all_max
+
 # BOULE DE FEU
 advancement grant @a[scores={SPELL1_CAP=2..}] only att2:dahal/spell1_lvl2
 advancement grant @a[scores={SPELL1_CAP=5..}] only att2:dahal/spell1_lvl5
