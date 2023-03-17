@@ -91,8 +91,8 @@ advancement grant @a[scores={LUC_TOT=10..}] only att2:combat/luc_10
 advancement grant @a[scores={LUC_TOT=18..}] only att2:combat/luc_18
 
 # ARENA
-execute if score Number_Complete ARENA matches 1.. run advancement grant @a only att2:progress/arena_1
-execute if score Number_Complete ARENA matches 2.. run advancement grant @a only att2:progress/arena_2
-execute if score Number_Complete ARENA matches 3.. run advancement grant @a only att2:progress/arena_3
-execute if score Number_Complete ARENA matches 5.. run advancement grant @a only att2:progress/arena_5
-execute if score Number_Complete ARENA matches 10.. run advancement grant @a only att2:progress/arena_10
+execute if score Number_Complete ARENA matches 1.. run advancement grant @a only att2:combat/arena_1
+execute if score Number_Complete ARENA matches 2.. run advancement grant @a only att2:combat/arena_2
+execute if score Number_Complete ARENA matches 3.. run advancement grant @a only att2:combat/arena_3
+execute if score Number_Complete ARENA matches 5.. run advancement grant @a only att2:combat/arena_5
+execute if score Number_Complete ARENA matches 10.. run advancement grant @a only att2:combat/arena_10

@@ -81,4 +81,12 @@ execute in minecraft:the_end positioned -1125 23 -670 as @s[distance=..6] if sco
 execute in minecraft:the_end positioned -1330 21 -561 as @s[distance=..6] if score 76 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/76
 execute in minecraft:the_end positioned -1588 45 -600 as @s[distance=..6] if score 77 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/77
 execute in minecraft:overworld positioned -5417 46 -4641 as @s[distance=..6] if score 78 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/78
-execute in minecraft:the_end positioned -1183 112 -568 as @s[distance=..6] if score 77 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/79
+execute in minecraft:the_end positioned -1183 112 -568 as @s[distance=..6] if score 79 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/79
+execute in minecraft:overworld positioned 29900 119 29933 as @s[distance=..6] if score 80 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/80
+execute in minecraft:the_nether positioned 3579 70 5024 as @s[distance=..6] if score 81 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/81
+execute in minecraft:overworld positioned -5443 32 -5008 as @s[distance=..6] if score 82 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/82
+execute in minecraft:the_end positioned -625 15 -628 as @s[distance=..6] if score 83 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/83
+execute in minecraft:the_end positioned -608 159 -654 as @s[distance=..6] if score 84 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/84
+execute in minecraft:the_end positioned -774 116 -589 as @s[distance=..6] if score 85 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/85
+execute in minecraft:the_end positioned -719 106 -638 as @s[distance=..6] if score 86 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/86
+

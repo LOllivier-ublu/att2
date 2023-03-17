@@ -5,7 +5,5 @@
 
 scoreboard players set Pool1_A5_Choose ARENA -1
 scoreboard players set Pool1_Timer1 ARENA 50
-tp @s 4946 74 -5000
-stopsound @s
-tag @s add NoAutoMusic
-scoreboard players set @s MUSIC_BOSS 0
+tp @a[x=5000,y=100,z=-5000,distance=..500,gamemode=adventure,tag=InArena] 4946 74 -5000
+execute as @a[x=5000,y=100,z=-5000,distance=..500,gamemode=adventure,tag=InArena] at @s run function att2:gameplay/arena/entering_arena_updatesound
