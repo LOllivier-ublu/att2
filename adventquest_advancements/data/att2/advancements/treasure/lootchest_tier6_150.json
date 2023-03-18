@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Wanted chest"},
+        "description": {"translate":"Open 150 Wanted chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier6_75",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "lootchest_tier6_150": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

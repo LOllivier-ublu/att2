@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Isolated chest"},
+        "description": {"translate":"Open 75 Isolated chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier3_35",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "lootchest_tier3_75": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

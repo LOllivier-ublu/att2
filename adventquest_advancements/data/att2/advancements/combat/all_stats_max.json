@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:goat_horn"
+        },
+        "title": {"translate":"You are the goat !t"},
+        "description": {"translate":"Reach max level for all skills"},
+		"frame": "challenge"
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_100",
+        "experience": 50000
+                },
+    "criteria": {
+        "all_stats_max": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

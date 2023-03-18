@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Unseen chest"},
+        "description": {"translate":"Open 50 Unseen chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier8_15",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "lootchest_tier8_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

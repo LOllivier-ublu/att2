@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Isolated chest"},
+        "description": {"translate":"Open 150 Isolated chest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/lootchest_tier3_75",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 5000
+                },
+    "criteria": {
+        "lootchest_tier3_150": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

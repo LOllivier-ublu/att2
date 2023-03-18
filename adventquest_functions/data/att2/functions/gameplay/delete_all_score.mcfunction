@@ -114,6 +114,7 @@ scoreboard objectives remove statJORIN
 scoreboard objectives remove TIMEPLAY
 
 scoreboard objectives remove HOUSE
+scoreboard objectives remove LOOTCHEST
 
 # Language
 scoreboard objectives remove LANGUAGE

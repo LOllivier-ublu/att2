@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Secret chest"},
+        "description": {"translate":"Open 75 Secret chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier7_30",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "lootchest_tier7_75": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

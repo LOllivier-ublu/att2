@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Arduous chest"},
+        "description": {"translate":"Open 500 Arduous chest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/lootchest_tier4_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 5000
+                },
+    "criteria": {
+        "lootchest_tier4_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

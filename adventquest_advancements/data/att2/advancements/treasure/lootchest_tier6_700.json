@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Wanted chest"},
+        "description": {"translate":"Open 700 Wanted chest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/lootchest_tier6_350",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 5000
+                },
+    "criteria": {
+        "lootchest_tier6_700": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

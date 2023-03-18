@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Secret chest"},
+        "description": {"translate":"Open 300 Secret chest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/lootchest_tier7_150",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 5000
+                },
+    "criteria": {
+        "lootchest_tier7_300": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

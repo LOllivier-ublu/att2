@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Forgotten chest"},
+        "description": {"translate":"Open 100 Forgotten chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier9_40",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "lootchest_tier9_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

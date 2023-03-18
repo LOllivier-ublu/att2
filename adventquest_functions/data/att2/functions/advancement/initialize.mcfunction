@@ -109,6 +109,8 @@ scoreboard objectives add TIMEPLAY minecraft.custom:minecraft.play_time
 
 scoreboard objectives add HOUSE dummy
 
+scoreboard objectives add LOOTCHEST dummy
+
 scoreboard players set @s EXPLOIT 0
 
 scoreboard players set @s statMOBSKILLED 0

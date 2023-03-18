@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": {"translate":"Lost chest"},
+        "description": {"translate":"Open 10 Lost chest"}
+    },
+    "parent": "att2:treasure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 250
+                },
+    "criteria": {
+        "lootchest_tier10_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

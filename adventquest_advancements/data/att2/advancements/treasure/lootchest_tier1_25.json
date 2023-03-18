@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Obvious chest"},
+        "description": {"translate":"Open 25 Obvious chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier1_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "lootchest_tier1_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    
