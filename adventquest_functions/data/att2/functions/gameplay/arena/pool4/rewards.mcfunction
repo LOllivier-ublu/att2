@@ -3,6 +3,9 @@
 #Process the arena pool2 rewards								    #
 #####################################################################
 
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/suirucrem
+execute if score level DIFFICULTY matches 2 run advancement grant @a only att2:hunting/suirucrem_nightmare
+
 execute if score level DIFFICULTY matches 0.. if score Hermetique_Helmet ARENA matches 0 run function att2:summon/bat_hermetique_helmet_rewards
 execute if score level DIFFICULTY matches 0.. if score Hermetique_Chestplate ARENA matches 0 run function att2:summon/bat_hermetique_chestplate_rewards
 execute if score level DIFFICULTY matches 0.. if score Hermetique_Leggings ARENA matches 0 run function att2:summon/bat_hermetique_leggings_rewards

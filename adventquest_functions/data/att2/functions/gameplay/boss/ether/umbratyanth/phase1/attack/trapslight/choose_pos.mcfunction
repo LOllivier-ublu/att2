@@ -43,3 +43,5 @@ execute if score Light_pos UMBRATYANTH matches 13 as @e[type=minecraft:silverfis
 execute if score Light_pos UMBRATYANTH matches 14 as @e[type=minecraft:silverfish,tag=LightPoint,limit=1] at @s run tp @s -5120 121 -6878
 execute if score Light_pos UMBRATYANTH matches 15 as @e[type=minecraft:silverfish,tag=LightPoint,limit=1] at @s run tp @s -5115 121 -6885
 execute if score Light_pos UMBRATYANTH matches 16 as @e[type=minecraft:silverfish,tag=LightPoint,limit=1] at @s run tp @s -5105 121 -6883
+
+scoreboard players set trapslight statATTACK 1

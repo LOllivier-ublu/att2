@@ -40,6 +40,9 @@ function att2:advancement/test_all/weapon
 # Food
 function att2:advancement/test_all/food
 
+# Hunting
+function att2:advancement/test_all/hunting
+
 # Spell
 function att2:advancement/test_all/spell
 

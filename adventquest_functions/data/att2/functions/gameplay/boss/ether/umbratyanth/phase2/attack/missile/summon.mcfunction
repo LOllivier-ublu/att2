@@ -38,3 +38,5 @@ execute positioned -5112 121 -6892 run function att2:summon/reg_1/umbratyanth_mi
 execute positioned -5122 121 -6892 run function att2:summon/reg_1/umbratyanth_minions4
 execute positioned -5131 121 -6887 run function att2:summon/reg_1/umbratyanth_minions4
 execute positioned -5137 121 -6880 run function att2:summon/reg_1/umbratyanth_minions4
+
+scoreboard players set missile statATTACK 1

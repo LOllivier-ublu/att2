@@ -7,3 +7,5 @@ execute as @a at @s if entity @e[scores={UMBRATYANTH=1},type=minecraft:silverfis
 particle minecraft:item minecraft:coal_block ~ ~ ~ 0.1 1 0.1 0.7 250
 execute at @s run playsound minecraft:entity.generic.explode block @a ~ ~ ~ 1 1.5
 kill @s
+
+scoreboard players set explosion statATTACK 1

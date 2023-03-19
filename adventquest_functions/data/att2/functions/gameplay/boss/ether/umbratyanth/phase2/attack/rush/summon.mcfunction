@@ -31,3 +31,5 @@ execute positioned -5131 121 -6887 run function att2:summon/reg_1/umbratyanth_mi
 execute positioned -5134 121 -6884 run function att2:summon/reg_1/umbratyanth_minions2
 execute positioned -5137 121 -6880 run function att2:summon/reg_1/umbratyanth_minions2
 execute positioned -5139 121 -6875 run function att2:summon/reg_1/umbratyanth_minions2
+
+scoreboard players set rush statATTACK 1
