@@ -65,6 +65,12 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:collection/mythique/thrice_greatest_hermes
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"weaponsking"}}}] only att2:collection/mythique/weaponsking
 
+# TIME SINCE DEATH
+advancement grant @a[scores={TIMESINCEDEATH=24000..}] only att2:adventure/survive_1day
+advancement grant @a[scores={TIMESINCEDEATH=72000..}] only att2:adventure/survive_1cycle
+advancement grant @a[scores={TIMESINCEDEATH=168000..}] only att2:adventure/survive_1week
+advancement grant @a[scores={TIMESINCEDEATH=720000..}] only att2:adventure/survive_1month
+
 ### EQUIPMENT FULL SET
 # HERMETIQUE
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{SetId:"99"}},{Slot:102b,tag:{SetId:"99"}},{Slot:101b,tag:{SetId:"99"}},{Slot:100b,tag:{SetId:"99"}}]}] only att2:adventure/hermetique_fullset

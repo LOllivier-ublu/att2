@@ -343,6 +343,10 @@ scoreboard objectives remove BASE_HEM
 
 # Dimension
 scoreboard objectives remove DIMENSION
+scoreboard objectives remove statDIMENSION
+scoreboard objectives remove TP_ANGBAND
+scoreboard objectives remove TP_BILLGART
+scoreboard objectives remove TP_OURANOS
 
 # Temperature
 scoreboard objectives remove TEMPERATURE

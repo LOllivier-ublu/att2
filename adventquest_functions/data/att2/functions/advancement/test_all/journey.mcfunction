@@ -6,6 +6,9 @@
 # PANORAMA
 advancement grant @a[scores={PANORAMA=42..}] only att2:journey/the_explorer
 
+# DIMENSION
+advancement grant @a[scores={TP_ANGBAND=1..,TP_BILLGART=1..,TP_OURANOS=1..}] only att2:journey/the_worlds_hunter
+
 # WAYPOINT
 execute if score Asunark WAYPOINT matches 1 run advancement grant @a only att2:journey/waypoint_asunark
 execute if score Eolorion WAYPOINT matches 1 run advancement grant @a only att2:journey/waypoint_eolorion

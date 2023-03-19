@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:recovery_compass"
+        },
+        "title": {"translate":"Apprentice Survivor"},
+        "description": {"translate":"Survive 1 day without dying"}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "survive_1day": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
