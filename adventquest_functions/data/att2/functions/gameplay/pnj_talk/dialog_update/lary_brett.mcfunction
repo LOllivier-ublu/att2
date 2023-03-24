@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/lary_brett
 
+scoreboard players set lary_brett_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score lary_brett_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq26/lary_brett/dialog_4
 execute as @a[distance=..7] if score lary_brett_PNJ DIALOG matches 3..3 run function att2:dialogs/sidequest/sq26/lary_brett/dialog_3

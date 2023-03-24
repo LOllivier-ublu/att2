@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/philipo_tisdal
 
+scoreboard players set philipo_tisdal_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score philipo_tisdal_PNJ DIALOG matches 5..5 run function att2:dialogs/sidequest/sq23/philipo_tisdal/dialog_5
 execute as @a[distance=..7] if score philipo_tisdal_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq23/philipo_tisdal/dialog_4

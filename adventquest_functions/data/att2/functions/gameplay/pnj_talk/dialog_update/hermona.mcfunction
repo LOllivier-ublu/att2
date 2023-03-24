@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/hermona_frihax
 
+scoreboard players set hermona_frihax_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score hermona_frihax_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq17/hermona_frihax/dialog_4
 execute as @a[distance=..7] if score hermona_frihax_PNJ DIALOG matches 3..3 run function att2:dialogs/sidequest/sq17/hermona_frihax/dialog_3

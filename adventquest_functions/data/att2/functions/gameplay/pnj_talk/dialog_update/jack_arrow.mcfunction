@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/jack_arrow
 
+scoreboard players set jack_arrow_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score jack_arrow_PNJ DIALOG matches 2 run function att2:dialogs/sidequest/sq41/jack_arrow/dialog_2
 execute as @a[distance=..7] if score jack_arrow_PNJ DIALOG matches 1 run function att2:dialogs/sidequest/sq41/jack_arrow/dialog_1

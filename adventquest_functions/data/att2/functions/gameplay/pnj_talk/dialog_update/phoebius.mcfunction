@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/phoebius
 
+scoreboard players set phoebius_PNJ statDIALOG 1
 #test entity dialog
 execute if score phoebius_PNJ DIALOG matches 16..16 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_16
 execute if score phoebius_PNJ DIALOG matches 15..15 run function att2:dialogs/mainquest/act_3/pnj_phoebius/dialog_15

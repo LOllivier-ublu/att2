@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"Combatant"},
+        "description": {"translate":"Entering a fight for the 2500th time!"}
+    },
+    "parent": "att2:combat/start_battle_500",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 2500
+                },
+    "criteria": {
+        "start_battle_2500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

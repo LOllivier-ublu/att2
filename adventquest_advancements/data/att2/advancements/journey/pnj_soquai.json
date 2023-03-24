@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Soquaï forest NPC"},
+        "description": {"translate":"Talk to all Soquaï forest people"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_soquai",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1750
+                },
+    "criteria": {
+        "pnj_soquai": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

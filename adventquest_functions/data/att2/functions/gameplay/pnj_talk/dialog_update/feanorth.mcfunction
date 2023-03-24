@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/feanorth
 
+scoreboard players set feanorth_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score feanorth_PNJ DIALOG matches 4 run function att2:dialogs/sidequest/sq57/feanorth/dialog_4
 execute as @a[distance=..7] if score feanorth_PNJ DIALOG matches 3 run function att2:dialogs/sidequest/sq57/feanorth/dialog_3

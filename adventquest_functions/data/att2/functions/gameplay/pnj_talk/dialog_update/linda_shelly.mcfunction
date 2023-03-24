@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/linda_shelly
 
+scoreboard players set linda_shelly_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score linda_shelly_PNJ DIALOG matches 8 run function att2:dialogs/sidequest/sq43/linda_shelly/dialog_8
 execute as @a[distance=..7] if score linda_shelly_PNJ DIALOG matches 7 run function att2:dialogs/sidequest/sq43/linda_shelly/dialog_7

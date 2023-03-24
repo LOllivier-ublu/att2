@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/sigfrid_barkon
 
+scoreboard players set sigfrid_barkon_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score sigfrid_barkon_PNJ DIALOG matches 5..5 run function att2:dialogs/sidequest/sq8/sigfrid_barkon/dialog_5
 execute as @a[distance=..7] if score sigfrid_barkon_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq8/sigfrid_barkon/dialog_4

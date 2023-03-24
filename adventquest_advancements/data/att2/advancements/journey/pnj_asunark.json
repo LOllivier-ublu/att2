@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Asunark NPC"},
+        "description": {"translate":"Talk to all Asunark people"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_asunark",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1750
+                },
+    "criteria": {
+        "pnj_asunark": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

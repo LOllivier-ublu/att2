@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/malak
 
+scoreboard players set malak_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score malak_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq1/malak/dialog_4
 execute as @a[distance=..7] if score malak_PNJ DIALOG matches 3..3 run function att2:dialogs/sidequest/sq1/malak/dialog_3

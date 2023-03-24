@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/jabir_hayyan
 
+scoreboard players set jabir_hayyan_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score jabir_hayyan_PNJ DIALOG matches 1..1 run function att2:dialogs/others/jabir_hayyan/dialog_1
 

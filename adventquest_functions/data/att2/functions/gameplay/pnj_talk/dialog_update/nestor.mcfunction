@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/nestor
 
+scoreboard players set nestor_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score nestor_PNJ DIALOG matches 4 run function att2:dialogs/sidequest/sq35/nestor/dialog_4
 execute as @a[distance=..7] if score nestor_PNJ DIALOG matches 3 run function att2:dialogs/sidequest/sq35/nestor/dialog_3

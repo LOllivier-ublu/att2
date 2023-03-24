@@ -6,6 +6,7 @@
 
 function att2:sound/dialogs/simple
 
+scoreboard players set ouran_PNJ statDIALOG 1
 #test entity dialog
 execute if score ouran_PNJ DIALOG matches 16 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_16
 execute if score ouran_PNJ DIALOG matches 15 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_15

@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/estelle
 
+scoreboard players set estelle_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score estelle_PNJ DIALOG matches 1..1 run function att2:dialogs/others/estelle/dialog_1
 

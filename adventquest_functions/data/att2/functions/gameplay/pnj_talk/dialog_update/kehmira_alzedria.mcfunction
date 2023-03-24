@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/kehmira_alzedria
 
+scoreboard players set kehmira_alzedria_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score kehmira_alzedria_PNJ DIALOG matches 1..1 run function att2:dialogs/others/kehmira_alzedria/dialog_1
 

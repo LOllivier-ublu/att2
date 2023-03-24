@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/captain
 
+scoreboard players set captain_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score captain_PNJ DIALOG matches 5..5 run function att2:dialogs/mainquest/act_4/pnj_captain/dialog_5
 execute as @a[distance=..7] if score captain_PNJ DIALOG matches 4..4 run function att2:dialogs/mainquest/act_4/pnj_captain/dialog_4

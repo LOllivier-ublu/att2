@@ -3,6 +3,14 @@
 #Process all test of Combat advancement 			            #
 #################################################################
 
+# BATTLE START
+advancement grant @a[scores={statBATTLE=1..}] only att2:combat/start_battle_1
+advancement grant @a[scores={statBATTLE=25..}] only att2:combat/start_battle_25
+advancement grant @a[scores={statBATTLE=100..}] only att2:combat/start_battle_100
+advancement grant @a[scores={statBATTLE=500..}] only att2:combat/start_battle_500
+advancement grant @a[scores={statBATTLE=2500..}] only att2:combat/start_battle_2500
+advancement grant @a[scores={statBATTLE=5000..}] only att2:combat/start_battle_5000
+
 # DAMAGE DEALT
 advancement grant @a[scores={statDAMAGEDEALT=1..}] only att2:combat/root
 advancement grant @a[scores={statDAMAGEDEALT=1..}] only att2:combat/damage_dealt

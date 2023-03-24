@@ -437,6 +437,7 @@ scoreboard objectives remove MUSIC_B_TIMER
 scoreboard objectives remove SOUNDLIM_HOSTILE
 scoreboard objectives remove SOUNDLIM_NEUTRAL
 scoreboard objectives remove MUSIC_BOSS
+scoreboard objectives remove statBATTLE
 
 # Panorama
 scoreboard objectives remove PANORAMA

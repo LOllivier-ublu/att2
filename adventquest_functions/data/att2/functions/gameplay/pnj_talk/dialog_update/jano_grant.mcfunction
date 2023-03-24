@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/jano_grant
 
+scoreboard players set jano_grant_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score jano_grant_PNJ DIALOG matches 1..1 run function att2:dialogs/others/jano_grant/dialog_1
 

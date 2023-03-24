@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/ormack
 
+scoreboard players set ormack_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score ormack_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq1/ormack/dialog_4
 execute as @a[distance=..7] if score ormack_PNJ DIALOG matches 3..3 run function att2:dialogs/sidequest/sq1/ormack/dialog_3

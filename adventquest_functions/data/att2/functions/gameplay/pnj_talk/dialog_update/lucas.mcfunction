@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/lucas
 
+scoreboard players set lucas_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score lucas_PNJ DIALOG matches 2 run function att2:dialogs/others/lucas/dialog_2
 execute as @a[distance=..7] if score lucas_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_lucas/dialog_1

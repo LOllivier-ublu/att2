@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Owsästr NPC"},
+        "description": {"translate":"Talk to all Owsästr people"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_owsastr",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1750
+                },
+    "criteria": {
+        "pnj_owsastr": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

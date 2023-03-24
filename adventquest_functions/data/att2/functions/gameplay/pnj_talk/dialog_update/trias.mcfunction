@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/trias
 
+scoreboard players set trias_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score trias_PNJ DIALOG matches 6 run function att2:dialogs/sidequest/sq49/trias/dialog_6
 execute as @a[distance=..7] if score trias_PNJ DIALOG matches 5 run function att2:dialogs/sidequest/sq49/trias/dialog_5

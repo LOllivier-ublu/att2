@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/commandant_trevor
 
+scoreboard players set commandant_trevor_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score commandant_trevor_PNJ DIALOG matches 1 run function att2:dialogs/sidequest/sq30/commandant_trevor/dialog_1
 

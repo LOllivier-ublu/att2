@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/walton_jones
 
+scoreboard players set walton_jones_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score walton_jones_PNJ DIALOG matches 7 run function att2:dialogs/sidequest/sq38/walton_jones/dialog_7
 execute as @a[distance=..7] if score walton_jones_PNJ DIALOG matches 6 run function att2:dialogs/sidequest/sq38/walton_jones/dialog_6

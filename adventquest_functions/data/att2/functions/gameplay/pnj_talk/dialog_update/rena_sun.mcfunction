@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/rena_sun
 
+scoreboard players set rena_sun_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score rena_sun_PNJ DIALOG matches 5..5 run function att2:dialogs/sidequest/sq12/rena_sun/dialog_5
 execute as @a[distance=..7] if score rena_sun_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq12/rena_sun/dialog_4
