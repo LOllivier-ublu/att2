@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stripped_birch_log"
+        },
+        "title": {"translate":"All Chestplate"},
+        "description": {"translate":"Find all chestplate items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "chestplate_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

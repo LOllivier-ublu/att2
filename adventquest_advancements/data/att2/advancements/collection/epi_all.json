@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:purple_candle"
+        },
+        "title": {"translate":"All Epic"},
+        "description": {"translate":"Find all epic items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/rar_all",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "epi_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

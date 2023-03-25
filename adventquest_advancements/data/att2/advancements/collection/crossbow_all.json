@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:melon"
+        },
+        "title": {"translate":"All Crossbow"},
+        "description": {"translate":"Find all crossbow items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "crossbow_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

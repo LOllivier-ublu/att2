@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate_iron_ore"
+        },
+        "title": {"translate":"All Graceful Armor"},
+        "description": {"translate":"Find all Graceful armor"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/armor_chainmail",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+                },
+    "criteria": {
+        "armor_chainmail_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

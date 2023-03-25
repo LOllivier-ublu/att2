@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:amethyst_block"
+        },
+        "title": {"translate":"Sovereign"},
+        "description": {"translate":"Items"},
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:treasure/root",
+    "criteria": {
+        "sovereign": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:fishing_rod"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

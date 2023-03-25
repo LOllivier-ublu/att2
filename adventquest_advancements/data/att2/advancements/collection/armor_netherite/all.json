@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate_coal_ore"
+        },
+        "title": {"translate":"All Harmonious Armor"},
+        "description": {"translate":"Find all Harmonious armor"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/armor_netherite",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+                },
+    "criteria": {
+        "armor_netherite_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

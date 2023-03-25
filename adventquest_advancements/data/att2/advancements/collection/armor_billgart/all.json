@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate_emerald_ore"
+        },
+        "title": {"translate":"All Billgart Armor"},
+        "description": {"translate":"Find all Billgart armor"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/armor_billgart",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+                },
+    "criteria": {
+        "armor_billgart_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

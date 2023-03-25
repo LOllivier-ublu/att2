@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stripped_bamboo_block"
+        },
+        "title": {"translate":"All Axe"},
+        "description": {"translate":"Find all axe items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "axe_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

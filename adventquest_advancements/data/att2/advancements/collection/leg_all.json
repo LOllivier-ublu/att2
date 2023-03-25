@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:orange_candle"
+        },
+        "title": {"translate":"All Legendary"},
+        "description": {"translate":"Find all legendary items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/epi_all",
+    "rewards": {
+        "function": "att2:advancement/exploit_75",
+        "experience": 100000
+                },
+    "criteria": {
+        "leg_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

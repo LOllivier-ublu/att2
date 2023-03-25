@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stripped_oak_log"
+        },
+        "title": {"translate":"All Boots"},
+        "description": {"translate":"Find all boots items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "boots_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

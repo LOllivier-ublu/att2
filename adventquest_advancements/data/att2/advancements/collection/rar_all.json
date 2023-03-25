@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_candle"
+        },
+        "title": {"translate":"All Rare"},
+        "description": {"translate":"Find all rare items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/unc_all",
+    "rewards": {
+        "function": "att2:advancement/exploit_40",
+        "experience": 40000
+                },
+    "criteria": {
+        "rar_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stripped_spruce_log"
+        },
+        "title": {"translate":"All Leggings"},
+        "description": {"translate":"Find all leggings items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "leggings_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stripped_mangrove_log"
+        },
+        "title": {"translate":"All Sword"},
+        "description": {"translate":"Find all sword items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "sword_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

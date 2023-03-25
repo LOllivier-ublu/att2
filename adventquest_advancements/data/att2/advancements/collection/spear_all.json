@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:muddy_mangrove_roots"
+        },
+        "title": {"translate":"All Spear"},
+        "description": {"translate":"Find all spear items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "spear_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
