@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sunflower"
+            },
+        "title": {"translate":"Smooth talker"},
+        "description": {"translate":"Find a way to get the Time Gem without fighting Ouran."},
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "experience": 50000
+    },
+    "criteria": {
+        "ouran_nofight": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

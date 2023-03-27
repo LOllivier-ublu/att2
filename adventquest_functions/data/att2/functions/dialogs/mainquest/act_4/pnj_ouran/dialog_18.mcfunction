@@ -11,6 +11,8 @@ scoreboard players set Real0 TIMER 1499
 scoreboard players set ouran_PNJ DIALOG -2
 scoreboard players set Ouran OURANOS -2
 
+advancement grant @a only att2:adventure/ouran_nofight
+
 
 #FRENCH LANGUAGE
 
