@@ -89,4 +89,8 @@ execute in minecraft:the_end positioned -625 15 -628 as @s[distance=..6] if scor
 execute in minecraft:the_end positioned -608 159 -654 as @s[distance=..6] if score 84 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/84
 execute in minecraft:the_end positioned -774 116 -589 as @s[distance=..6] if score 85 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/85
 execute in minecraft:the_end positioned -719 106 -638 as @s[distance=..6] if score 86 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/86
-
+execute in minecraft:the_nether positioned 3774 93 3797 as @s[distance=..6] if score 87 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/87
+execute in minecraft:the_nether positioned 3692 62 3643 as @s[distance=..6] if score 88 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/88
+execute in minecraft:the_nether positioned 3429 47 3669 as @s[distance=..6] if score 89 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/89
+execute in minecraft:the_nether positioned 3697 68 4068 as @s[distance=..6] if score 90 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/90
+execute in minecraft:the_nether positioned 3331 55 4157 as @s[distance=..6] if score 91 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/91

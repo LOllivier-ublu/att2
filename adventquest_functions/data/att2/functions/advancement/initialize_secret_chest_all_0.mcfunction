@@ -97,6 +97,12 @@ scoreboard players set 83 SECRET_SIMPLE 0
 scoreboard players set 84 SECRET_SIMPLE 0
 scoreboard players set 85 SECRET_SIMPLE 0
 scoreboard players set 86 SECRET_SIMPLE 0
+scoreboard players set 87 SECRET_SIMPLE 0
+scoreboard players set 88 SECRET_SIMPLE 0
+scoreboard players set 89 SECRET_SIMPLE 0
+scoreboard players set 90 SECRET_SIMPLE 0
+scoreboard players set 91 SECRET_SIMPLE 0
+scoreboard players set 92 SECRET_SIMPLE 0
 
 # WALL BREAK
 scoreboard players set 1 SECRET_WALLBREAK 0
