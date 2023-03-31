@@ -5,6 +5,7 @@
         },
         "title": {"translate":"Tier 4 Trigger"},
         "description": {"translate":"TEST"},
+        "hidden": true,
         "show_toast": false,
         "announce_to_chat": false
     },
