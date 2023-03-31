@@ -3,5 +3,5 @@
 #Process adding Tier loot chest score 			                #
 #################################################################
 
+advancement revoke @s only att2:treasure/lootchest_tier10_trigger
 scoreboard players add tier10 LOOTCHEST 1
-advancement revoke Piccomaster only att2:treasure/lootchest_tier10_trigger
