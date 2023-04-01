@@ -3,4 +3,5 @@
 #Display in name level difference for superelite monsters#
 ##########################################################
 
-execute at @s run particle minecraft:soul ~ ~1 ~ 0.25 0.5 0.25 0.05 5 normal
+particle minecraft:soul ~ ~1 ~ 0.25 0.5 0.25 0.025 1 normal
+particle minecraft:mycelium ~ ~1 ~ 0.5 0.5 0.5 0 10 normal

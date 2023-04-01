@@ -18,7 +18,6 @@ scoreboard objectives add LEVELDIFF dummy
 scoreboard objectives add KILLVALUE totalKillCount
 scoreboard objectives add XPPROCESS dummy
 scoreboard objectives add XPGAIN dummy
-scoreboard objectives add RANDOM dummy
 
 scoreboard players set @s GAMELEVEL 0
 scoreboard players set @s LVL_UPGRADE_REQ 22
