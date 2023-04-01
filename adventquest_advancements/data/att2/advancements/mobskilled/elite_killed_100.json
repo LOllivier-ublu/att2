@@ -3,17 +3,17 @@
         "icon": {
             "item": "minecraft:target"
         },
-        "title": {"translate":"Super Elite Slayer"},
-        "description": {"translate":"Kill 25 Super Elite"},
+        "title": {"translate":"Elite Slayer"},
+        "description": {"translate":"Kill 100 elites"},
         "frame": "goal"
     },
-    "parent": "att2:mobskilled/superelite_killed_5",
+    "parent": "att2:mobskilled/elite_killed_25",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 1000
     },
     "criteria": {
-        "superelite_killed_25": {
+        "elite_killed_100": {
             "trigger": "minecraft:impossible"
         }
     }

@@ -3,17 +3,17 @@
         "icon": {
             "item": "minecraft:target"
         },
-        "title": {"translate":"Super Elite Genocide"},
-        "description": {"translate":"Kill 100 Super Elite"},
+        "title": {"translate":"Elite Genocide"},
+        "description": {"translate":"Kill 250 elites"},
         "frame": "goal"
     },
-    "parent": "att2:mobskilled/superelite_killed_25",
+    "parent": "att2:mobskilled/elite_killed_100",
     "rewards": {
         "function": "att2:advancement/exploit_25",
-        "experience": 5000
+        "experience": 2500
     },
     "criteria": {
-        "superelite_killed_100": {
+        "elite_killed_250": {
             "trigger": "minecraft:impossible"
         }
     }

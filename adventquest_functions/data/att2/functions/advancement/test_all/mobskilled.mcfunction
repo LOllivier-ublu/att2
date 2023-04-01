@@ -19,13 +19,21 @@ execute if score total_killed BOSS matches 5.. run advancement grant @a only att
 execute if score total_killed BOSS matches 10.. run advancement grant @a only att2:mobskilled/boss_killed_10
 execute if score total_killed BOSS matches 25.. run advancement grant @a only att2:mobskilled/boss_killed_25
 execute if score total_killed BOSS matches 100.. run advancement grant @a only att2:mobskilled/boss_killed_100
-execute if score total_killed BOSS matches 666.. run advancement grant @a only att2:mobskilled/boss_killed_666
+execute if score total_killed BOSS matches 250.. run advancement grant @a only att2:mobskilled/boss_killed_250
+
+# ELITE
+execute if score all ELITE matches 5.. run advancement grant @a only att2:mobskilled/elite_killed_5
+execute if score all ELITE matches 25.. run advancement grant @a only att2:mobskilled/elite_killed_25
+execute if score all ELITE matches 100.. run advancement grant @a only att2:mobskilled/elite_killed_100
+execute if score all ELITE matches 250.. run advancement grant @a only att2:mobskilled/elite_killed_250
+execute if score all ELITE matches 500.. run advancement grant @a only att2:mobskilled/elite_killed_500
 
 # SUPERELITE
 execute if score all SUPERELITE matches 1.. run advancement grant @a only att2:mobskilled/superelite_killed_1
 execute if score all SUPERELITE matches 5.. run advancement grant @a only att2:mobskilled/superelite_killed_5
 execute if score all SUPERELITE matches 25.. run advancement grant @a only att2:mobskilled/superelite_killed_25
 execute if score all SUPERELITE matches 100.. run advancement grant @a only att2:mobskilled/superelite_killed_100
+execute if score all SUPERELITE matches 250.. run advancement grant @a only att2:mobskilled/superelite_killed_250
 
 # SKELETONS
 advancement grant @a[scores={statSKELETKILLED=10..}] only att2:mobskilled/skeletons_killed_10

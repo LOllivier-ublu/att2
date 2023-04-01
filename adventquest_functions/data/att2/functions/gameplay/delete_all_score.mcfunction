@@ -115,6 +115,8 @@ scoreboard objectives remove TIMEPLAY
 
 scoreboard objectives remove HOUSE
 scoreboard objectives remove LOOTCHEST
+scoreboard objectives remove ELITE
+scoreboard objectives remove SUPERELITE
 
 # Language
 scoreboard objectives remove LANGUAGE

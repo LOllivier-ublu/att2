@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:target"
         },
-        "title": {"translate":"Super Elite Killer"},
+        "title": {"translate":"Super Elite Eliminator"},
         "description": {"translate":"Kill 5 Super Elite"},
         "frame": "goal"
     },
