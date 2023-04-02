@@ -36,8 +36,8 @@ execute in minecraft:overworld positioned -5009 105 -4956 if block ~ ~ ~ minecra
 execute in minecraft:overworld positioned -4920 104 -4922 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -4910 96 -4967 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -4940 95 -4974 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
-#30
 execute in minecraft:overworld positioned -4941 91 -4959 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
+#30
 execute in minecraft:overworld positioned -4962 83 -5032 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -5029 92 -4962 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -4926 119 -4924 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
@@ -47,8 +47,8 @@ execute in minecraft:overworld positioned -4957 105 -4909 if block ~ ~ ~ minecra
 execute in minecraft:overworld positioned -5021 105 -4925 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -5003 118 -4890 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -5017 130 -4921 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
-#40
 execute in minecraft:overworld positioned -4944 127 -4935 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
+#40
 execute in minecraft:overworld positioned -5024 139 -4924 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -4926 135 -4915 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -5002 145 -4919 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
@@ -58,8 +58,8 @@ execute in minecraft:overworld positioned -5041 104 -4919 if block ~ ~ ~ minecra
 execute in minecraft:overworld positioned -5116 111 -4947 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -5061 74 -5038 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -5032 81 -5015 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
-#50
 execute in minecraft:overworld positioned -4979 99 -4962 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
+#50
 execute in minecraft:overworld positioned -4960 87 -4972 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -4946 91 -4958 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -5064 104 -4968 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
@@ -69,6 +69,7 @@ execute in minecraft:overworld positioned -5116 73 -5135 if block ~ ~ ~ minecraf
 execute in minecraft:overworld positioned -5143 83 -5056 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -5105 75 -5064 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
 execute in minecraft:overworld positioned -5128 80 -5141 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
-#60
 execute in minecraft:overworld positioned -5162 100 -5117 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
+#60
 execute in minecraft:overworld positioned -4949 69 -5024 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath
+execute in minecraft:overworld positioned -5121 80 -5005 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ryliath

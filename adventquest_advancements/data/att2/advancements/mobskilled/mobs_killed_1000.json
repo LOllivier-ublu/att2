@@ -4,7 +4,7 @@
             "item": "minecraft:diamond_shovel"
         },
         "title": {"translate":"Exterminator"},
-        "description": {"translate":"Kill 1000 Monsters"},
+        "description": {"translate":"Kill 1000 enemies"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/mobs_killed_500",

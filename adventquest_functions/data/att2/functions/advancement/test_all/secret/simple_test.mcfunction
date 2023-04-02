@@ -94,3 +94,4 @@ execute in minecraft:the_nether positioned 3692 62 3643 as @s[distance=..6] if s
 execute in minecraft:the_nether positioned 3429 47 3669 as @s[distance=..6] if score 89 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/89
 execute in minecraft:the_nether positioned 3697 68 4068 as @s[distance=..6] if score 90 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/90
 execute in minecraft:the_nether positioned 3331 55 4157 as @s[distance=..6] if score 91 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/91
+execute in minecraft:overworld positioned -5864 25 -3788 as @s[distance=..6] if score 92 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/92

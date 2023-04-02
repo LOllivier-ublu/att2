@@ -4,7 +4,7 @@
             "item": "minecraft:iron_shovel"
         },
         "title": {"translate":"Slayer"},
-        "description": {"translate":"Kill 500 Monsters"},
+        "description": {"translate":"Kill 500 enemies"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/mobs_killed_100",

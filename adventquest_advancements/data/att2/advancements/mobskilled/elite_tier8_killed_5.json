@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:item_frame"
+        },
+        "title": {"translate":"Veteran Elite Killer"},
+        "description": {"translate":"Kill 5 Veteran Elites"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 100
+    },
+    "criteria": {
+        "elite_tier8_killed_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

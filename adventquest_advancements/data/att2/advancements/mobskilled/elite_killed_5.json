@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:target"
+            "item": "minecraft:glow_item_frame"
         },
         "title": {"translate":"Elite Killer"},
         "description": {"translate":"Kill 5 elites"}

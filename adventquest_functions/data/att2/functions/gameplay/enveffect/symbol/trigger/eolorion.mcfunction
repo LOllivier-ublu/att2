@@ -40,3 +40,5 @@ execute in minecraft:overworld positioned -5279 125 -6294 if block ~ ~ ~ minecra
 #30
 execute in minecraft:overworld positioned -5288 130 -6324 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
 execute in minecraft:overworld positioned -5224 138 -6293 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5302 119 -6196 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5230 113 -6176 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion

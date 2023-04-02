@@ -118,6 +118,12 @@ scoreboard objectives remove LOOTCHEST
 scoreboard objectives remove ELITE
 scoreboard objectives remove SUPERELITE
 
+# Random
+scoreboard objectives remove RNG_Constant
+scoreboard objectives remove RNG10_Variable
+scoreboard objectives remove RNG100_Variable
+scoreboard objectives remove RNG1000_Variable
+
 # Language
 scoreboard objectives remove LANGUAGE
 

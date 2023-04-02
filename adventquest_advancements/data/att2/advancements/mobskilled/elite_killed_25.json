@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:target"
+            "item": "minecraft:glow_item_frame"
         },
         "title": {"translate":"Elite Eliminator"},
         "description": {"translate":"Kill 25 elites"},
