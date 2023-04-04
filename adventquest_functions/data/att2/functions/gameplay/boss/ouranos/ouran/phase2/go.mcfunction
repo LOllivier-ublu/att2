@@ -7,6 +7,10 @@
 #   -2 OuranPhase2 had been defeated                                #
 #####################################################################
 
+# Music management
+execute if score OuranPhase2 OURANOS matches 0.. as @a[x=7954,y=116,z=6772,distance=..250,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_ouranboss
+execute if score OuranPhase2 OURANOS matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
+
 # Enable Bossbar storing health of Ouran
 execute if score OuranPhase2 OURANOS matches 0.. store result bossbar minecraft:swarm value run data get entity 00000000-0000-017b-0000-00000000005b Health
 execute if score OuranPhase2 OURANOS matches 0.. store result bossbar minecraft:swarm max run data get entity 00000000-0000-017b-0000-00000000005b Attributes[{Name:"minecraft:generic.max_health"}].Base
