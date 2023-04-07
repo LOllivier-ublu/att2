@@ -10,4 +10,7 @@ function att2:gameplay/dahal/action/spell27/cooldown
 scoreboard players add @s SPELL27_LVL 5
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL27_LVL += @s BONUS_XP_SPELL
+
+# Spell launch total count for advancement
+scoreboard players add @s SPELLS_COUNT 1
 scoreboard players set @s SPELL27_EFFECT 900

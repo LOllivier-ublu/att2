@@ -29,6 +29,9 @@ scoreboard players add @s SPELL3_LVL 4
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL3_LVL += @s BONUS_XP_SPELL
 
+# Spell launch total count for advancement
+scoreboard players add @s SPELLS_COUNT 1
+
 execute if score @s NUMEROJOUEUR matches 1 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run damage @s 60 minecraft:player_attack by @p[scores={NUMEROJOUEUR=1}]
 execute if score @s NUMEROJOUEUR matches 2 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run damage @s 60 minecraft:player_attack by @p[scores={NUMEROJOUEUR=2}]
 execute if score @s NUMEROJOUEUR matches 3 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run damage @s 60 minecraft:player_attack by @p[scores={NUMEROJOUEUR=3}]
