@@ -146,3 +146,5 @@ execute if score Selection ASSIST matches 139 run function att2:dialogs/gameplay
 execute if score Selection ASSIST matches 140 run function att2:dialogs/gameplay/assist/140
 execute if score Selection ASSIST matches 141 run function att2:dialogs/gameplay/assist/141
 execute if score Selection ASSIST matches 142 run function att2:dialogs/gameplay/assist/142
+execute if score Selection ASSIST matches 143 run function att2:dialogs/gameplay/assist/143
+execute if score Selection ASSIST matches 144 run function att2:dialogs/gameplay/assist/144
