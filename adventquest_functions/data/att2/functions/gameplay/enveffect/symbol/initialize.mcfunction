@@ -6,6 +6,7 @@
 scoreboard objectives add SYMBOL dummy
 scoreboard players set Exploration SYMBOL 0
 
+scoreboard players set Cave SYMBOL 0
 scoreboard players set Academy_past SYMBOL 0
 scoreboard players set Academy_present SYMBOL 0
 scoreboard players set Adanoi SYMBOL 0

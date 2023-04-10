@@ -39,15 +39,15 @@ execute as @s[scores={CLASSLEVEL=22..}] run scoreboard players set @s CLASSLEVEL
 
 # Updating monster
 function att2:gameplay/leveling/monster/monsterupdate
-execute as @s[tag=SUPER] as @s[tag=!Boss] as @s[tag=!ArenaBoss] as @s[tag=!ArenaMinion] run data merge entity @s {CustomNameVisible:true}
+execute as @s[tag=SUPER] run data merge entity @s {CustomNameVisible:true}
 execute if score level DIFFICULTY matches -1 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:18,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0},{Id:2,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0}]}
-execute if score level DIFFICULTY matches -1 as @s[tag=SUPER] as @s[tag=!Boss] as @s[tag=!ArenaBoss] as @s[tag=!ArenaMinion] run function att2:gameplay/leveling/monster/initialize/superelite_1
+execute if score level DIFFICULTY matches -1 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite_1
 execute if score level DIFFICULTY matches 0 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:11,Amplifier:0,Duration:2147483647,Ambient:1,ShowParticles:0}]}
-execute if score level DIFFICULTY matches 0 as @s[tag=SUPER] as @s[tag=!Boss] as @s[tag=!ArenaBoss] as @s[tag=!ArenaMinion] run function att2:gameplay/leveling/monster/initialize/superelite0
+execute if score level DIFFICULTY matches 0 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite0
 execute if score level DIFFICULTY matches 1 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:11,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
-execute if score level DIFFICULTY matches 1 as @s[tag=SUPER] as @s[tag=!Boss] as @s[tag=!ArenaBoss] as @s[tag=!ArenaMinion] run function att2:gameplay/leveling/monster/initialize/superelite1
+execute if score level DIFFICULTY matches 1 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite1
 execute if score level DIFFICULTY matches 2 as @s[scores={CLASSLEVEL=1..21}] run data merge entity @s {ActiveEffects:[{Id:11,Amplifier:2,Duration:2147483647,Ambient:1,ShowParticles:0},{Id:1,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0},{Id:5,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
-execute if score level DIFFICULTY matches 2 as @s[tag=SUPER] as @s[tag=!Boss] as @s[tag=!ArenaBoss] as @s[tag=!ArenaMinion] run function att2:gameplay/leveling/monster/initialize/superelite2
+execute if score level DIFFICULTY matches 2 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite2
 
 # Set loottable for non-player's invocated entities
 execute unless entity @s[tag=PlayerAlly] run function att2:gameplay/leveling/monster/loot/setdrop

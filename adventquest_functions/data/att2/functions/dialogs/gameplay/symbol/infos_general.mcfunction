@@ -19,6 +19,7 @@ function att2:dialogs/gameplay/symbol/explo/beach_infos_general
 function att2:dialogs/gameplay/symbol/explo/billgart_dungeon_infos_general
 function att2:dialogs/gameplay/symbol/explo/billgart_road_infos_general
 function att2:dialogs/gameplay/symbol/explo/black_infos_general
+function att2:dialogs/gameplay/symbol/explo/cave_infos_general
 function att2:dialogs/gameplay/symbol/explo/earndhel_infos_general
 function att2:dialogs/gameplay/symbol/explo/elcheol_infos_general
 function att2:dialogs/gameplay/symbol/explo/elvetta_infos_general

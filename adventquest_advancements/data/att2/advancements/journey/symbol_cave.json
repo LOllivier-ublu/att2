@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"Sylberländ Cave Symbol"},
+        "description": {"translate":"Discover all Exploration symbols of Sylberländ Cave"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/discover_sylberland_cave",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "symbol_cave": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

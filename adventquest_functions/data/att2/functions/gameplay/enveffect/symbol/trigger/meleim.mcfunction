@@ -34,3 +34,7 @@ execute in minecraft:overworld positioned -3749 96 -5838 if block ~ ~ ~ minecraf
 execute in minecraft:overworld positioned -3782 75 -5863 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/meleim
 execute in minecraft:overworld positioned -3731 86 -5808 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/meleim
 execute in minecraft:overworld positioned -3896 85 -5793 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/meleim
+execute in minecraft:overworld positioned -3808 84 -5826 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/meleim
+execute in minecraft:overworld positioned -3757 71 -5875 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/meleim
+execute in minecraft:overworld positioned -3758 70 -5902 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/meleim
+#30

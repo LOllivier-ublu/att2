@@ -42,3 +42,14 @@ execute in minecraft:overworld positioned -5005 83 -4481 if block ~ ~ ~ minecraf
 execute in minecraft:overworld positioned -4950 97 -4462 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
 execute in minecraft:overworld positioned -4989 85 -4402 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
 execute in minecraft:overworld positioned -4871 75 -4422 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+execute in minecraft:overworld positioned -4538 71 -4401 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+execute in minecraft:overworld positioned -4458 75 -4525 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+execute in minecraft:overworld positioned -4553 71 -4579 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+execute in minecraft:overworld positioned -4545 74 -4647 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+execute in minecraft:overworld positioned -4629 71 -4357 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+execute in minecraft:overworld positioned -4788 78 -4237 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+#40
+execute in minecraft:overworld positioned -4848 70 -4323 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+execute in minecraft:overworld positioned -4804 83 -4487 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+execute in minecraft:overworld positioned -4729 70 -4468 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr
+execute in minecraft:overworld positioned -4719 74 -4794 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/owsastr

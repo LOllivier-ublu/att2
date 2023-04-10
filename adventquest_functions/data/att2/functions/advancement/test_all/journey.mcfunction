@@ -31,7 +31,8 @@ execute if score Asunark SYMBOL matches 28 run advancement grant @a only att2:jo
 execute if score Beach SYMBOL matches 21 run advancement grant @a only att2:journey/symbol_beach
 execute if score Billgart_dungeon SYMBOL matches 94 run advancement grant @a only att2:journey/symbol_billgart_dungeon
 execute if score Billgart_road SYMBOL matches 21 run advancement grant @a only att2:journey/symbol_billgart_road
-execute if score Black SYMBOL matches 24 run advancement grant @a only att2:journey/symbol_black
+execute if score Black SYMBOL matches 34 run advancement grant @a only att2:journey/symbol_black
+execute if score Cave SYMBOL matches 16 run advancement grant @a only att2:journey/symbol_cave
 execute if score Earndhel SYMBOL matches 14 run advancement grant @a only att2:journey/symbol_earndhel
 execute if score Elcheol SYMBOL matches 23 run advancement grant @a only att2:journey/symbol_elcheol
 execute if score Elvetta SYMBOL matches 13 run advancement grant @a only att2:journey/symbol_elvetta
@@ -44,18 +45,18 @@ execute if score Kert SYMBOL matches 24 run advancement grant @a only att2:journ
 execute if score Kortaek SYMBOL matches 18 run advancement grant @a only att2:journey/symbol_kortaek
 execute if score Lost_island SYMBOL matches 14 run advancement grant @a only att2:journey/symbol_lost_island
 execute if score Mangroove SYMBOL matches 10 run advancement grant @a only att2:journey/symbol_mangroove
-execute if score Meleim SYMBOL matches 27 run advancement grant @a only att2:journey/symbol_meleim
+execute if score Meleim SYMBOL matches 30 run advancement grant @a only att2:journey/symbol_meleim
 execute if score Nojelanth_desert SYMBOL matches 24 run advancement grant @a only att2:journey/symbol_nojelanth_desert
 execute if score Nojelanth_forest SYMBOL matches 24 run advancement grant @a only att2:journey/symbol_nojelanth_forest
 execute if score Ouranos_road SYMBOL matches 62 run advancement grant @a only att2:journey/symbol_ouranos_road
 execute if score Ouranos_tower SYMBOL matches 15 run advancement grant @a only att2:journey/symbol_ouranos_tower
-execute if score Owsastr SYMBOL matches 34 run advancement grant @a only att2:journey/symbol_owsastr
+execute if score Owsastr SYMBOL matches 44 run advancement grant @a only att2:journey/symbol_owsastr
 execute if score Phoenix SYMBOL matches 12 run advancement grant @a only att2:journey/symbol_phoenix
-execute if score Plain SYMBOL matches 23 run advancement grant @a only att2:journey/symbol_plain
+execute if score Plain SYMBOL matches 24 run advancement grant @a only att2:journey/symbol_plain
 execute if score Ryliath SYMBOL matches 62 run advancement grant @a only att2:journey/symbol_ryliath
 execute if score Sathnok SYMBOL matches 18 run advancement grant @a only att2:journey/symbol_sathnok
 execute if score Schestrown SYMBOL matches 44 run advancement grant @a only att2:journey/symbol_schestrown
-execute if score Soquai SYMBOL matches 26 run advancement grant @a only att2:journey/symbol_soquai
+execute if score Soquai SYMBOL matches 35 run advancement grant @a only att2:journey/symbol_soquai
 execute if score Volcano SYMBOL matches 13 run advancement grant @a only att2:journey/symbol_volcano
 execute if score Vonaheim SYMBOL matches 40 run advancement grant @a only att2:journey/symbol_vonaheim
 execute if score Worlest_mine SYMBOL matches 14 run advancement grant @a only att2:journey/symbol_worlest_mine
@@ -102,7 +103,8 @@ execute if score Schestrown CHECKPOINT matches 6 run advancement grant @a only a
 execute if score Soquai CHECKPOINT matches 9 run advancement grant @a only att2:journey/checkpoint_soquai
 execute if score Volcano CHECKPOINT matches 8 run advancement grant @a only att2:journey/checkpoint_volcano
 execute if score Vonaheim CHECKPOINT matches 29 run advancement grant @a only att2:journey/checkpoint_vonaheim
-execute if score Worlest CHECKPOINT matches 19 run advancement grant @a only att2:journey/checkpoint_worlest
+execute if score Worlest CHECKPOINT matches 15 run advancement grant @a only att2:journey/checkpoint_worlest
+execute if score WorlestMine CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_worlest_mine
 execute if score Zirthion CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_zirthion
 
 execute if score All CHECKPOINT matches 363.. run advancement grant @a only att2:journey/the_savior

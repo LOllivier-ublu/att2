@@ -3,4 +3,4 @@
 #Use function to process the System Symbol Info 			    #
 #################################################################
 
-title @s actionbar {"text":"⚙ ","color":"dark_red","extra":[{"text":"Soquaï : ","color":"gray"},{"score":{"name":"Soquai","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"26","color":"gold"},{"text":" ⚙","color":"dark_red"}]}
+title @s actionbar {"text":"⚙ ","color":"dark_red","extra":[{"text":"Soquaï : ","color":"gray"},{"score":{"name":"Soquai","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"35","color":"gold"},{"text":" ⚙","color":"dark_red"}]}

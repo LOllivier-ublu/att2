@@ -4,6 +4,7 @@
 #################################################################
 
 # Trigger
+function att2:gameplay/enveffect/symbol/trigger/cave
 function att2:gameplay/enveffect/symbol/trigger/academy_past
 function att2:gameplay/enveffect/symbol/trigger/academy_present
 function att2:gameplay/enveffect/symbol/trigger/adanoi

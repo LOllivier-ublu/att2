@@ -58,6 +58,12 @@ execute if score All CHECKPOINT matches 50.. run advancement grant @a only att2:
 execute if score All CHECKPOINT matches 100.. run advancement grant @a only att2:progress/checkpoint_100
 execute if score All CHECKPOINT matches 200.. run advancement grant @a only att2:progress/checkpoint_200
 
+# WAYPOINT
+execute if score count_used WAYPOINT matches 1.. run advancement grant @a only att2:progress/waypoint_1
+execute if score count_used WAYPOINT matches 5.. run advancement grant @a only att2:progress/waypoint_5
+execute if score count_used WAYPOINT matches 25.. run advancement grant @a only att2:progress/waypoint_25
+execute if score count_used WAYPOINT matches 50.. run advancement grant @a only att2:progress/waypoint_50
+
 # SWIM
 advancement grant @a[scores={statSWIM=1000..}] only att2:progress/swim_1000
 advancement grant @a[scores={statSWIM=50000..}] only att2:progress/swim_50000

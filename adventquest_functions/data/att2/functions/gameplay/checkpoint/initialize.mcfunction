@@ -437,10 +437,12 @@ scoreboard players set Worlest11 CHECKPOINT 0
 scoreboard players set Worlest12 CHECKPOINT 0
 scoreboard players set Worlest13 CHECKPOINT 0
 scoreboard players set Worlest14 CHECKPOINT 0
-scoreboard players set Worlest15 CHECKPOINT 0
-scoreboard players set Worlest16 CHECKPOINT 0
-scoreboard players set Worlest17 CHECKPOINT 0
-scoreboard players set Worlest18 CHECKPOINT 0
+
+scoreboard players set WorlestMine CHECKPOINT 0
+scoreboard players set WorlestMine0 CHECKPOINT 0
+scoreboard players set WorlestMine1 CHECKPOINT 0
+scoreboard players set WorlestMine2 CHECKPOINT 0
+scoreboard players set WorlestMine3 CHECKPOINT 0
 
 scoreboard players set Zirthion CHECKPOINT 0
 scoreboard players set Zirthion0 CHECKPOINT 0

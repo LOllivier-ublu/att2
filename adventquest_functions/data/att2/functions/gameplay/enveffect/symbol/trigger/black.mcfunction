@@ -31,3 +31,14 @@ execute in minecraft:overworld positioned -4011 83 -5894 if block ~ ~ ~ minecraf
 execute in minecraft:overworld positioned -3854 88 -6041 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
 execute in minecraft:overworld positioned -3817 114 -6127 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
 execute in minecraft:overworld positioned -3762 116 -6019 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+execute in minecraft:overworld positioned -4642 72 -5877 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+execute in minecraft:overworld positioned -4607 73 -5783 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+execute in minecraft:overworld positioned -4447 75 -5885 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+execute in minecraft:overworld positioned -4322 75 -5832 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+execute in minecraft:overworld positioned -4213 76 -5895 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+execute in minecraft:overworld positioned -4103 77 -5962 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+#30
+execute in minecraft:overworld positioned -4085 74 -5906 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+execute in minecraft:overworld positioned -3990 87 -5920 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+execute in minecraft:overworld positioned -3901 98 -5978 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black
+execute in minecraft:overworld positioned -3833 109 -6004 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/black

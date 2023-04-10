@@ -7,7 +7,7 @@
         "description": {"translate":"Discover all Exploration symbols of Worlëst mine"},
         "frame": "challenge"
     },
-    "parent": "att2:journey/discover_worlest",
+    "parent": "att2:journey/discover_worlest_mine",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 5000
