@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Slingshot"},
+        "description": {"translate":"Shoot 10 arrows with your crossbow"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+                },
+    "criteria": {
+        "crossbow_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

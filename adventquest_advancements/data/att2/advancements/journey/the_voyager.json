@@ -38,6 +38,23 @@
                         "predicate": {
                 "dimension": "overworld",
                 "position": {
+                    "x": {"min":-5244.0,"max":-5238.0},
+                    "y": {"min":70.0,"max":75.0},
+                    "z": {"min":-5408.0,"max":-5388.0}
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "discover_worlest_mine": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
                     "x": {"min":-4618.0,"max":-4563.0},
                     "y": {"min":65.0,"max":80.0},
                     "z": {"min":-5210.0,"max":-5139.0}

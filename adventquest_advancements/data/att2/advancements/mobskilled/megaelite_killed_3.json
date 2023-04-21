@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "title": {"translate":"Ultimate Elite Eliminator"},
+        "description": {"translate":"Kill 3 Ultimate Elite"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/megaelite_killed_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+    },
+    "criteria": {
+        "megaelite_killed_3": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

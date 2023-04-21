@@ -19,4 +19,5 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Borton : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Borton : ","color":"green","extra":[{"text":"嗯？ 你想要啥？ 護腿、胸甲、頭盔、劍、匕首、斧子...我什麽東西都做！ 嗯...真想知道你是從哪裏得到這些武器和護甲的...總而言之， 我保證它們比不上我的這些寶貝！ ","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/rokar_borton_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Borton 的銷售情況。"}}]}]}
 
 
+function att2:dialogs/gameplay/shop/mending/proposal
 scoreboard players set rokar_borton_PNJ DIALOG 2

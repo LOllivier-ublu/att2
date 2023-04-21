@@ -17,3 +17,6 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"你好！ 最近怎麽樣？ ","color":"dark_aqua"}]}
+
+
+function att2:dialogs/gameplay/inn/proposal_gonon

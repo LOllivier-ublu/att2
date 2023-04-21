@@ -65,11 +65,16 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:collection/mythique/thrice_greatest_hermes
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"weaponsking"}}}] only att2:collection/mythique/weaponsking
 
-# TIME SINCE DEATH
+# SURVIVE (TIME SINCE DEATH)
 advancement grant @a[scores={TIMESINCEDEATH=24000..}] only att2:adventure/survive_1day
 advancement grant @a[scores={TIMESINCEDEATH=72000..}] only att2:adventure/survive_1cycle
 advancement grant @a[scores={TIMESINCEDEATH=168000..}] only att2:adventure/survive_1week
 advancement grant @a[scores={TIMESINCEDEATH=720000..}] only att2:adventure/survive_1month
+
+# INN
+advancement grant @a[scores={INN=1..}] only att2:adventure/inn_1
+advancement grant @a[scores={INN=10..}] only att2:adventure/inn_10
+execute if score albert_dirac INN matches 1 if score amariel_kaleb INN matches 1 if score gonon INN matches 1 if score nestor INN matches 1 if score salma_neyith INN matches 1 run advancement grant @a only att2:adventure/inn_all
 
 ### EQUIPMENT FULL SET
 # HERMETIQUE

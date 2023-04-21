@@ -3,6 +3,7 @@
 #Process victory for Owlkar                                      	#
 #####################################################################
 
+scoreboard players add total_killed BOSS 1
 scoreboard players set Owlkar OWSASTR -2
 execute as @a run function att2:gameplay/boss/owsastr/owlkar/stop
 execute positioned -5050 76 -4381 run function att2:gameplay/boss/rewards_start

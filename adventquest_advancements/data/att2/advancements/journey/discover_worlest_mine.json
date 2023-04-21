@@ -12,7 +12,7 @@
         "experience": 250
                 },
     "criteria": {
-        "discover_worlest": {
+        "discover_worlest_mine": {
             "trigger": "minecraft:location",
           "conditions": {
                 "player": [{

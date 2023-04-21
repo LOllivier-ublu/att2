@@ -17,3 +17,6 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Nestor : ","color":"green","extr
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"你回來了？ 我永遠無法感謝你給予我的幫助。客戶終於回來了， 很快我的家人也會這樣做。","color":"dark_aqua"}]}
+
+
+function att2:dialogs/gameplay/inn/proposal_nestor

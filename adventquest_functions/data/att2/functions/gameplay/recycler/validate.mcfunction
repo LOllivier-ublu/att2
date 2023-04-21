@@ -13,6 +13,7 @@ execute at @s run function att2:sound/shop/selling
 function att2:gameplay/recycler/itemtotal_sold
 
 kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:arrow"}}]
+kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:spectral_arrow"}}]
 execute unless entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}]
 kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"com"}}}]
 kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"unc"}}}]

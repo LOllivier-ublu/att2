@@ -11,3 +11,4 @@ execute as @a[scores={KILLVALUE=1..}] run function att2:gameplay/leveling/monste
 
 # Process superelite effect
 execute as @e[tag=SUPER,team=hostile] at @s run function att2:gameplay/leveling/monster/super_elite_diff
+execute as @e[tag=MEGA,team=hostile] at @s run function att2:gameplay/leveling/monster/mega_elite_diff

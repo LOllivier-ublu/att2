@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:purple_candle"
+        },
+        "title": {"translate":"Epic selling"},
+        "description": {"translate":"Sell 25 epic items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/sold_1000",
+        "rewards": {
+            "function": "att2:advancement/exploit_30",
+            "experience": 5000
+    },
+    "criteria": {
+        "sold_epi_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

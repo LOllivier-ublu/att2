@@ -61,6 +61,13 @@ execute if score all SUPERELITE matches 25.. run advancement grant @a only att2:
 execute if score all SUPERELITE matches 100.. run advancement grant @a only att2:mobskilled/superelite_killed_100
 execute if score all SUPERELITE matches 250.. run advancement grant @a only att2:mobskilled/superelite_killed_250
 
+# MEGAELITE
+execute if score all MEGAELITE matches 1.. run advancement grant @a only att2:mobskilled/megaelite_killed_1
+execute if score all MEGAELITE matches 3.. run advancement grant @a only att2:mobskilled/megaelite_killed_3
+execute if score all MEGAELITE matches 10.. run advancement grant @a only att2:mobskilled/megaelite_killed_10
+execute if score all MEGAELITE matches 25.. run advancement grant @a only att2:mobskilled/megaelite_killed_25
+execute if score all MEGAELITE matches 50.. run advancement grant @a only att2:mobskilled/megaelite_killed_50
+
 # SKELETONS
 advancement grant @a[scores={statSKELETKILLED=10..}] only att2:mobskilled/skeletons_killed_10
 advancement grant @a[scores={statSKELETKILLED=50..}] only att2:mobskilled/skeletons_killed_50

@@ -10,7 +10,7 @@ scoreboard objectives add COMPLETION dummy
 scoreboard players set @s COMPLETION 0
 scoreboard players set Points_completion EXPLOIT 100
 scoreboard players set Total_objectives EXPLOIT 102
-scoreboard players set Total_point EXPLOIT 15349
+scoreboard players set Total_point EXPLOIT 15746
 
 function att2:advancement/initialize_secret_chest
 
@@ -111,6 +111,7 @@ scoreboard objectives add HOUSE dummy
 scoreboard objectives add LOOTCHEST dummy
 scoreboard objectives add ELITE dummy
 scoreboard objectives add SUPERELITE dummy
+scoreboard objectives add MEGAELITE dummy
 
 scoreboard players set @s EXPLOIT 0
 

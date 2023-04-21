@@ -18,6 +18,7 @@ scoreboard players set total RECYCLER 0
 scoreboard players set number RECYCLER 0
 
 execute as @e[type=item,distance=..1,nbt={Item:{id:"minecraft:arrow"}}] store result score arrow RECYCLER if entity @s run data get entity @s Item.Count
+execute as @e[type=item,distance=..1,nbt={Item:{id:"minecraft:spectral_arrow"}}] store result score arrow RECYCLER if entity @s run data get entity @s Item.Count
 execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}] unless entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] store result score misc RECYCLER if entity @s run data get entity @s Item.Count
 execute store result score com RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"com"}}}]
 execute store result score unc RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"unc"}}}]

@@ -42,11 +42,11 @@ advancement grant @a[scores={statBOW=1000..}] only att2:combat/bow_1000
 advancement grant @a[scores={statBOW=2500..}] only att2:combat/bow_2500
 
 # CROSSBOW
-advancement grant @a[scores={statCROSSBOW=5..}] only att2:combat/crossbow_5
-advancement grant @a[scores={statCROSSBOW=25..}] only att2:combat/crossbow_25
-advancement grant @a[scores={statCROSSBOW=100..}] only att2:combat/crossbow_100
-advancement grant @a[scores={statCROSSBOW=500..}] only att2:combat/crossbow_500
+advancement grant @a[scores={statCROSSBOW=10..}] only att2:combat/crossbow_10
+advancement grant @a[scores={statCROSSBOW=50..}] only att2:combat/crossbow_50
+advancement grant @a[scores={statCROSSBOW=250..}] only att2:combat/crossbow_250
 advancement grant @a[scores={statCROSSBOW=1000..}] only att2:combat/crossbow_1000
+advancement grant @a[scores={statCROSSBOW=2000..}] only att2:combat/crossbow_2000
 
 ### TOTAL STAT
 # STR

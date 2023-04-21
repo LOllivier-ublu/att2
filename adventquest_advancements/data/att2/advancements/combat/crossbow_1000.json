@@ -3,14 +3,14 @@
         "icon": {
             "item": "minecraft:crossbow"
         },
-        "title": {"translate":"THIS… IS MY BOOMSTICK!"},
+        "title": {"translate":"Little Ass Kicker"},
         "description": {"translate":"Shoot 1000 arrows with your crossbow"},
-        "frame": "challenge"
+        "frame": "goal"
     },
-    "parent": "att2:combat/crossbow_500",
+    "parent": "att2:combat/crossbow_250",
     "rewards": {
-        "function": "att2:advancement/exploit_40",
-        "experience": 10000
+        "function": "att2:advancement/exploit_20",
+        "experience": 2500
                 },
     "criteria": {
         "crossbow_1000": {
