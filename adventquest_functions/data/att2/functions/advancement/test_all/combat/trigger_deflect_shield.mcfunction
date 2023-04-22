@@ -3,6 +3,6 @@
 #Process adding Tier Elite score 			                    #
 #################################################################
 
-advancement revoke @s only att2:combat/deflect_arrow_trigger
+advancement revoke @s only att2:combat/deflect_trigger
 
-scoreboard players add Arrow blockPROJECTILE 1
+scoreboard players add Shield blockPROJECTILE 1

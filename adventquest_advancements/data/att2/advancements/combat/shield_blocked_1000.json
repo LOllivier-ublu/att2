@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Shield Master."},
+        "description": {"translate":"Deflect 1000 attacks with your shield"},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/shield_blocked_250",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 10000
+                },
+    "criteria": {
+        "shield_blocked_1000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

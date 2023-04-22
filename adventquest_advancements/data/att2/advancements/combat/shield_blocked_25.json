@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:arrow"
+            "item": "minecraft:shield"
         },
         "title": {"translate":"Shield Veteran."},
-        "description": {"translate":"Deflect 25 Projectiles with your shield"},
+        "description": {"translate":"Deflect 25 attacks with your shield"},
         "frame": "goal"
     },
-    "parent": "att2:combat/arrow_blocked_5",
+    "parent": "att2:combat/shield_blocked_5",
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 1000
                 },
     "criteria": {
-        "arrow_blocked_25": {
+        "shield_blocked_25": {
             "trigger": "minecraft:impossible"
         }
     }

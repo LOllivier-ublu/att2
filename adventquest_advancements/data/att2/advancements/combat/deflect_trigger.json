@@ -3,15 +3,18 @@
         "icon": {
             "item": "minecraft:shield"
         },
-        "title": {"translate":"Deflect Arrow"},
-        "description": {"translate":"Deflect an arrow with a shield"}
+        "title": {"translate":"Deflect Shield"},
+        "description": {"translate":"Deflect an arrow with a shield"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
     },
     "parent": "att2:combat/shield",
     "rewards": {
-        "function": "att2:advancement/test_all/combat/trigger_deflect_arrow"
+        "function": "att2:advancement/test_all/combat/trigger_deflect_shield"
                 },
     "criteria": {
-        "deflected_projectile": {
+        "deflect_trigger": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {
