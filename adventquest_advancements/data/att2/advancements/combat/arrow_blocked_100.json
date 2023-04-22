@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {"translate":"Shield Master."},
+        "description": {"translate":"Deflect 100 Projectiles with your shield"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/arrow_blocked_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 2500
+                },
+    "criteria": {
+        "arrow_blocked_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

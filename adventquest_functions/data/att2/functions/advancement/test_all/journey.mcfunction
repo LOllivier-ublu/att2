@@ -33,11 +33,11 @@ execute if score Billgart_dungeon SYMBOL matches 94 run advancement grant @a onl
 execute if score Billgart_road SYMBOL matches 21 run advancement grant @a only att2:journey/symbol_billgart_road
 execute if score Black SYMBOL matches 34 run advancement grant @a only att2:journey/symbol_black
 execute if score Cave SYMBOL matches 16 run advancement grant @a only att2:journey/symbol_cave
-execute if score Earndhel SYMBOL matches 14 run advancement grant @a only att2:journey/symbol_earndhel
+execute if score Earndhel SYMBOL matches 18 run advancement grant @a only att2:journey/symbol_earndhel
 execute if score Elcheol SYMBOL matches 23 run advancement grant @a only att2:journey/symbol_elcheol
 execute if score Elvetta SYMBOL matches 13 run advancement grant @a only att2:journey/symbol_elvetta
 execute if score Eol SYMBOL matches 20 run advancement grant @a only att2:journey/symbol_eol
-execute if score Eolorion SYMBOL matches 32 run advancement grant @a only att2:journey/symbol_eolorion
+execute if score Eolorion SYMBOL matches 48 run advancement grant @a only att2:journey/symbol_eolorion
 execute if score Exiles_camp SYMBOL matches 12 run advancement grant @a only att2:journey/symbol_exiles_camp
 execute if score Jarat SYMBOL matches 14 run advancement grant @a only att2:journey/symbol_jarat
 execute if score Kert_mine SYMBOL matches 20 run advancement grant @a only att2:journey/symbol_kert_mine
@@ -51,9 +51,9 @@ execute if score Nojelanth_forest SYMBOL matches 24 run advancement grant @a onl
 execute if score Ouranos_road SYMBOL matches 62 run advancement grant @a only att2:journey/symbol_ouranos_road
 execute if score Ouranos_tower SYMBOL matches 15 run advancement grant @a only att2:journey/symbol_ouranos_tower
 execute if score Owsastr SYMBOL matches 44 run advancement grant @a only att2:journey/symbol_owsastr
-execute if score Phoenix SYMBOL matches 12 run advancement grant @a only att2:journey/symbol_phoenix
+execute if score Phoenix SYMBOL matches 13 run advancement grant @a only att2:journey/symbol_phoenix
 execute if score Plain SYMBOL matches 24 run advancement grant @a only att2:journey/symbol_plain
-execute if score Ryliath SYMBOL matches 62 run advancement grant @a only att2:journey/symbol_ryliath
+execute if score Ryliath SYMBOL matches 63 run advancement grant @a only att2:journey/symbol_ryliath
 execute if score Sathnok SYMBOL matches 18 run advancement grant @a only att2:journey/symbol_sathnok
 execute if score Schestrown SYMBOL matches 44 run advancement grant @a only att2:journey/symbol_schestrown
 execute if score Soquai SYMBOL matches 35 run advancement grant @a only att2:journey/symbol_soquai

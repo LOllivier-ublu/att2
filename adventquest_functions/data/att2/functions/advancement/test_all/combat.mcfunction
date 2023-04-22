@@ -48,6 +48,12 @@ advancement grant @a[scores={statCROSSBOW=250..}] only att2:combat/crossbow_250
 advancement grant @a[scores={statCROSSBOW=1000..}] only att2:combat/crossbow_1000
 advancement grant @a[scores={statCROSSBOW=2000..}] only att2:combat/crossbow_2000
 
+# ARROW BLOCKED
+execute if score Arrow blockPROJECTILE matches 5.. run advancement grant @a only att2:combat/arrow_blocked_5
+execute if score Arrow blockPROJECTILE matches 25.. run advancement grant @a only att2:combat/arrow_blocked_25
+execute if score Arrow blockPROJECTILE matches 100.. run advancement grant @a only att2:combat/arrow_blocked_100
+execute if score Arrow blockPROJECTILE matches 250.. run advancement grant @a only att2:combat/arrow_blocked_250
+
 ### TOTAL STAT
 # STR
 advancement grant @a[scores={STR_TOT=2..}] only att2:combat/str_2

@@ -42,3 +42,18 @@ execute in minecraft:overworld positioned -5288 130 -6324 if block ~ ~ ~ minecra
 execute in minecraft:overworld positioned -5224 138 -6293 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
 execute in minecraft:overworld positioned -5302 119 -6196 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
 execute in minecraft:overworld positioned -5230 113 -6176 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5252 101 -6217 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5283 110 -6207 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5273 105 -6226 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5299 108 -6252 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5263 112 -6258 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5252 105 -6346 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+#40
+execute in minecraft:overworld positioned -5258 101 -6291 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5299 106 -6313 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5262 113 -6303 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5253 124 -6293 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5249 121 -6242 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5262 111 -6222 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5310 121 -6234 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion
+execute in minecraft:overworld positioned -5313 114 -6258 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/eolorion

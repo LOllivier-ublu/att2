@@ -18,3 +18,4 @@ execute in minecraft:the_nether positioned 3933 32 3817 if block ~ ~ ~ minecraft
 #10
 execute in minecraft:the_nether positioned 3922 82 3823 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/phoenix
 execute in minecraft:the_nether positioned 3799 67 3896 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/phoenix
+execute in minecraft:the_nether positioned 3881 58 3893 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/phoenix

@@ -23,3 +23,4 @@ execute in minecraft:overworld positioned 29956 120 30083 if block ~ ~ ~ minecra
 execute in minecraft:overworld positioned 29936 114 30073 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/earndhel
 execute in minecraft:overworld positioned 29920 114 30030 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/earndhel
 execute in minecraft:overworld positioned 29896 102 30002 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/earndhel
+execute in minecraft:overworld positioned 29916 121 30061 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/earndhel
