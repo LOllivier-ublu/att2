@@ -26,3 +26,7 @@ tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green
 
 
 tellraw @s {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-024a-0000-00000000024a if entity @s[distance=..7] if score wirth_razgork_PNJ DIALOG matches 1..2 run function att2:dialogs/mainquest/act_2/pnj_wirth_razgork/dialog_3"},"hoverEvent":{"action":"show_text","value":"..."}}
+
+
+#Opening of Reserve Adventurer Caches
+setblock -4906 87 -4991 minecraft:white_wool

@@ -13,6 +13,7 @@ scoreboard players set Total_objectives EXPLOIT 102
 scoreboard players set Total_point EXPLOIT 15848
 
 function att2:advancement/initialize_secret_chest
+function att2:advancement/exploit_rewards/initialize
 
 scoreboard objectives add statMOBSKILLED minecraft.custom:minecraft.mob_kills
 scoreboard objectives add statZOMBIEKILLED minecraft.killed:minecraft.zombie
