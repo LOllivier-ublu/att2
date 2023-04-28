@@ -52,3 +52,4 @@ execute if score Mainquest SIDEQUEST matches 277.. run advancement grant @a only
 execute if score Mainquest SIDEQUEST matches 289.. run advancement grant @a only att2:story/mainquest_43
 
 execute if score Mainquest SIDEQUEST matches 300.. run advancement grant @a[scores={DEATHCOUNT=..0}] only att2:story/nodeath
+execute if score Mainquest SIDEQUEST matches 300.. if score level DIFFICULTY matches 2 run advancement grant @a[scores={DEATHCOUNT=..0}] only att2:story/nodeath_nightmare

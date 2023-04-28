@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/alfred_mornith
 
+scoreboard players set alfred_mornith_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score alfred_mornith_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq7/alfred_mornith/dialog_4
 execute as @a[distance=..7] if score alfred_mornith_PNJ DIALOG matches 3..3 run function att2:dialogs/sidequest/sq7/alfred_mornith/dialog_3

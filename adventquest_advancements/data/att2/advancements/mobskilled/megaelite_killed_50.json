@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "title": {"translate":"Ultimate Elite Exterminator"},
+        "description": {"translate":"Kill 50 Ultimate Elite"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/megaelite_killed_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_100",
+        "experience": 50000
+    },
+    "criteria": {
+        "megaelite_killed_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

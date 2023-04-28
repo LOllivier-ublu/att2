@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_shovel"
         },
         "title": {"translate":"Killer"},
-        "description": {"translate":"Kill 25 Monsters"}
+        "description": {"translate":"Kill 25 enemies"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

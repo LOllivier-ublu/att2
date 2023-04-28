@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Anti-hero"},
         "description": {"translate":"Reach -100 in reputation"},
-        "hidden": "true"
+        "hidden": true
     },
     "parent": "att2:progress/root",
     "criteria": {

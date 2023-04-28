@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_sword"
+            "item": "minecraft:netherite_shovel"
         },
         "title": {"translate":"Murderer"},
-        "description": {"translate":"Kill 2500 Monsters"},
+        "description": {"translate":"Kill 2500 enemies"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/mobs_killed_1000",

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "title": {"translate":"Race against dimension."},
+        "description": {"translate":"Complete a nightmare run before the allotted time of 20 minutes."},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/nightmarerun_silver",
+    "rewards": {
+        "function": "att2:advancement/exploit_40",
+        "experience": 40000
+                },
+    "criteria": {
+        "nightmarerun_gold": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -38,5 +38,5 @@ execute if score MiehTimer VONAHEIM matches 450 run data merge entity 00000000-0
 #=======================#
 
 execute if score MiehTimer VONAHEIM matches 501.. run scoreboard players set MiehTimer VONAHEIM 0
-execute if score MiehTimer VONAHEIM matches 500 unless entity @e[type=minecraft:vindicator,x=-5641,y=173,z=-6342,dx=52,dy=-8,dz=-51] run scoreboard players add MiehTimer VONAHEIM 1
+execute if score MiehTimer VONAHEIM matches 500 unless entity @e[type=minecraft:vindicator,x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51] run scoreboard players add MiehTimer VONAHEIM 1
 execute if score MiehTimer VONAHEIM matches 0..499 run scoreboard players add MiehTimer VONAHEIM 1

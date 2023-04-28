@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Des semeurs de troubles -°- : ","
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Troublemakers -°- : ","color":"gray","extra":[{"text":"Nepheris asked me to shoo away the troublemakers in his tavern at the top floor.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 鬧事者 -°- : ","color":"gray","extra":[{"text":"Nepheris讓我趕走樓上那群鬧事者。","color":"aqua","italic":true}]}

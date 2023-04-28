@@ -9,7 +9,7 @@
     },
     "parent": "att2:food/cake_105",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
+        "function": "att2:advancement/exploit_75",
         "experience": 10000
                 },
     "criteria": {

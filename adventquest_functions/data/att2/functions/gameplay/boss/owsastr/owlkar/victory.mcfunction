@@ -3,6 +3,7 @@
 #Process victory for Owlkar                                      	#
 #####################################################################
 
+scoreboard players add total_killed BOSS 1
 scoreboard players set Owlkar OWSASTR -2
 execute as @a run function att2:gameplay/boss/owsastr/owlkar/stop
 execute positioned -5050 76 -4381 run function att2:gameplay/boss/rewards_start
@@ -12,4 +13,5 @@ function att2:gameplay/boss/owsastr/owlkar/destroy_minions
 function att2:physicmod/reg1/owsastr/bossshell_destroy
 execute in minecraft:overworld run spawnpoint @a -5088 80 -4381
 
-advancement grant @a only att2:hunting/owlkar
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/owlkar
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/owlkar_master

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Kert NPC"},
+        "description": {"translate":"Talk to all Kert people"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_kert",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1750
+                },
+    "criteria": {
+        "pnj_kert": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

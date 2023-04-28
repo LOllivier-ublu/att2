@@ -18,9 +18,14 @@ setblock 29996 96 30030 minecraft:air
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Gerard : ","color":"green","extra":[{"text":"Si je suis venu vivre à Earndhel c'était justement pour son côté paisible et tranquille. Maintenant les étrangers affluent par ce portail maléfique et vous en êtes la cause... Je ne veux plus vous voir dans ma maison ! Allez voyager ailleurs !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Si je suis venu vivre à Earndhel c'était justement pour son côté paisible et tranquille. Maintenant les étrangers affluent par ce portail maléfique et vous en êtes la cause... Je ne veux plus vous voir dans ma maison ! Allez voyager ailleurs !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"If I came to live in Earndhel it was precisely for its peaceful and quiet side. Now strangers are flocking through this evil portal and you are the cause... I don't want to see you in my house anymore! Go travel elsewhere!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"我當初來Earndhel居住， 正是因爲它是一處寧靜祥和的好地方。但現在， 成群的陌生人蜂擁而入你打開的那道破傳送門...我不想再在自己的房子裏看到你！ 到別處去吧！ ","color":"dark_aqua"}]}

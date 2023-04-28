@@ -11,4 +11,7 @@ function att2:gameplay/dahal/action/spell26/cooldown
 scoreboard players add @s SPELL26_LVL 5
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL26_LVL += @s BONUS_XP_SPELL
+
+# Spell launch total count for advancement
+scoreboard players add @s SPELLS_COUNT 1
 execute at @s as @e[tag=NewInvo,distance=..7] run function att2:gameplay/invocation/action/summon

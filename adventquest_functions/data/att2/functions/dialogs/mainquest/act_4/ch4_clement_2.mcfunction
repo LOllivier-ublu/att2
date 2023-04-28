@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Clément : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"Ilvaléi? Never heard before. It must be really far far away!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"伊爾瓦雷？ 以前沒聽說過。一定是真的很遠！ ","color":"dark_aqua"}]}

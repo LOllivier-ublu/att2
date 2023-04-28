@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": {"translate":"Nightmare run Veteran!"},
+        "description": {"translate":"Complete nightmare run twice."},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/nightmarerun_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "nightmarerun_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

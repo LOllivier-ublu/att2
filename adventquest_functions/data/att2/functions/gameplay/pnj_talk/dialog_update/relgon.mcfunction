@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/relgon
 
+scoreboard players set relgon_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score relgon_PNJ DIALOG matches 1..1 run function att2:dialogs/mainquest/act_3/pnj_relgon/dialog_1
 execute as @a[distance=..7] if score relgon_PNJ DIALOG matches 2..2 run function att2:dialogs/mainquest/act_3/pnj_relgon/dialog_2

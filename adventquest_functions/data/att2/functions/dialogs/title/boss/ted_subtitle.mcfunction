@@ -11,3 +11,7 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Famille incongrue, la progénitu
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] subtitle {"text":"Incongruous family, the offspring of Skrappy","color":"gray"}
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] subtitle {"text":"Skrappy的後代, 不相稱的家庭","color":"gray"}

@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Felroth"},
         "description": {"translate":"Kill Felroth boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
-        "function": "att2:advancement/exploit_2",
-        "experience": 1000
+        "function": "att2:advancement/exploit_1",
+        "experience": 750
     },
     "criteria": {
         "felroth": {

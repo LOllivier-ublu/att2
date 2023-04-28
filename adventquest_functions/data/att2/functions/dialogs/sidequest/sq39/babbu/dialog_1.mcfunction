@@ -6,12 +6,17 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Babbu : ","color":"green","extra":[{"text":"Hé, vous n'aurez pas une petite pièce pour un brave homme dans le besoin ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Hé, vous n'aurez pas une petite pièce pour un brave homme dans le besoin ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Babbu : ","color":"green","extra":[{"text":"Hey, wouldn't you have a coin for a brave man in need?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Hey, wouldn't you have a coin for a brave man in need?","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"嘿， 你不會有硬幣給有需要的勇敢的人嗎？ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq39/babbu/player_proposal_1/choice_1

@@ -10,8 +10,12 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Enfin la seconde gemme d'espace, je dois la placer sur l'autel de Ryliath comme la première.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Enfin la seconde gemme d'espace, je dois la placer sur l'autel de Ryliath comme la première.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Finally the second space gem, I must place it on the altar of Ryliath like the first one.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Finally the second space gem, I must place it on the altar of Ryliath like the first one.","color":"aqua"}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於拿到了第二塊空間之石。現在我得把它放在Ryliath入口處水池的祭坛上——就像放第一塊時那樣。","color":"aqua"}]}

@@ -3,6 +3,7 @@
 #Start the boss fight for Aozathreyon                               #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 execute positioned 7279 178 6577 run function att2:summon/reg_4/aozathreyon
 scoreboard players set Aozathreyon OURANOS 0
 scoreboard players set Aozathreyon_buttons OURANOS 0

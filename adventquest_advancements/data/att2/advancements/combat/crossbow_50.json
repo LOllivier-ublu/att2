@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Catapult"},
+        "description": {"translate":"Shoot 50 arrows with your crossbow"},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/crossbow_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "crossbow_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

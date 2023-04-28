@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra"
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"While everything was going very badly, I went into the fortress of our devastated city and condemned the entrance leading to its lair with two seals: one with the symbol of fire and the other of lava.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"在這極惡的形勢之下， 我進入了被摧毀的Angor城， 來到了城中的堡垒， 用兩個法器封印了前往她栖息之地的道路：烈火之章和炎獄之章。","color":"dark_aqua"}]}

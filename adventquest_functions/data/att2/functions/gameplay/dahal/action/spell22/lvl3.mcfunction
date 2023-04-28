@@ -11,3 +11,6 @@ execute as @e[tag=NewInvo,distance=..10] run function att2:gameplay/invocation/a
 
 scoreboard players remove @s DAHAL 200
 function att2:gameplay/dahal/action/spell22/cooldown
+
+# Spell launch total count for advancement
+scoreboard players add @s SPELLS_COUNT 1

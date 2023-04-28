@@ -1,0 +1,6 @@
+##################################################
+#Made by Adventquest                             #
+#Summon Rackham  		     					 #
+##################################################
+
+summon minecraft:zombified_piglin ~ ~ ~ {Tags:["LVL0","CLASS20","ArenaBoss","Undead","Rackham"],AngerTime:1000000,IsBaby:1,PersistenceRequired:1,DeathLootTable:"att2:empty",Attributes:[{Name:generic.movement_speed,Base:0.27},{Name:generic.follow_range,Base:100.0}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{Damage:250s}},{}],ArmorItems:[{id:"minecraft:iron_boots",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:7}]}},{id:"minecraft:diamond_leggings",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:7}]}},{id:"minecraft:chainmail_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:7}]}},{id:"minecraft:player_head",Count:1,tag:{SkullOwner:{Id:[I;-1628035230,-926801205,1781028056,-352237563],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRjYWE0M2E2Y2ExYzYzOTNhNzFmMTAxYzdkM2YyOGZiOGM5ODkzNjg3ZWYwMTEzOTEyODg3ODlkNmQzIn19fQ=="}]}}}}],ActiveEffects:[{Id:11,Amplifier:3,Duration:2147483647,Ambient:1,ShowParticles:0}]}

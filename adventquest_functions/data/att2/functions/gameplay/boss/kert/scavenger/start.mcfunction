@@ -3,6 +3,7 @@
 #Start the boss fight for Scavenger                                 #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 scoreboard players set Scavenger_timer1 SQ51 0
 scoreboard players set Scavenger SQ51 0
 execute positioned -5552 46 -4568 run function att2:summon/reg_1/scavenger

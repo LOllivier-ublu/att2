@@ -4,6 +4,7 @@
 #####################################################
 
 function att2:gameplay/shop/gambling/initialize
+function att2:gameplay/shop/smith_leveling/initialize
 scoreboard objectives add ESC dummy
 scoreboard objectives add SHOP dummy
 scoreboard objectives add MENDING dummy

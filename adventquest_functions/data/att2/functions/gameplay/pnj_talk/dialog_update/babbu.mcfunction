@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/babbu
 
+scoreboard players set babbu_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score babbu_PNJ DIALOG matches 4 run function att2:dialogs/sidequest/sq40/babbu/dialog_4
 execute as @a[distance=..7] if score babbu_PNJ DIALOG matches 3 run function att2:dialogs/sidequest/sq40/babbu/dialog_3

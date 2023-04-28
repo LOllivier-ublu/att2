@@ -6,7 +6,7 @@
         "title": {"translate":"Explosive trap Apprentice"},
         "description": {"translate":"Reach level 2 with Explosive trap spell"}
     },
-    "parent": "att2:dahal/root",
+    "parent": "att2:dahal/spell6_loot",
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 100

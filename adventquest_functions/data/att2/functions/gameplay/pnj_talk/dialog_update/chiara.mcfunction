@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/chiara
 
+scoreboard players set chiara_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score chiara_PNJ DIALOG matches 8..8 run function att2:dialogs/sidequest/sq20/chiara/dialog_8
 execute as @a[distance=..7] if score chiara_PNJ DIALOG matches 7..7 run function att2:dialogs/sidequest/sq20/chiara/dialog_7

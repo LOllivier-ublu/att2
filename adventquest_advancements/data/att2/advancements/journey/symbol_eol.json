@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"Eol Symbol"},
+        "description": {"translate":"Discover all Exploration symbols of Eol"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/discover_eol",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "symbol_eol": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

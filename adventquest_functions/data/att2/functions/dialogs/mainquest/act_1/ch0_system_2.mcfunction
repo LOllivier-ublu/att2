@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"Avancez vers la lumière...","color":"g
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"Step into the light...","color":"gray","italic":true}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"踏入光芒...","color":"gray","italic":true}

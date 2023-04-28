@@ -9,6 +9,7 @@ scoreboard objectives add DAMAGE minecraft.custom:minecraft.damage_dealt
 function att2:gameplay/legendary/blindshield/initialize
 function att2:gameplay/legendary/bloodeater/initialize
 function att2:gameplay/legendary/fortuity/initialize
+function att2:gameplay/legendary/hermetique/initialize
 function att2:gameplay/legendary/fenrir/initialize
 function att2:gameplay/legendary/interfacer/initialize
 function att2:gameplay/legendary/kinuil/initialize
@@ -18,3 +19,4 @@ function att2:gameplay/legendary/rukyrion/initialize
 function att2:gameplay/legendary/sastr/initialize
 function att2:gameplay/legendary/ultima/initialize
 function att2:gameplay/legendary/warlord/initialize
+function att2:gameplay/legendary/weaponsking/initialize

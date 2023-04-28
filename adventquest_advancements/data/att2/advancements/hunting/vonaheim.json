@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Vonaheim"},
         "description": {"translate":"Kill Vonaheim boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
-        "experience": 10000
+        "function": "att2:advancement/exploit_10",
+        "experience": 3500
     },
     "criteria": {
         "vonaheim": {

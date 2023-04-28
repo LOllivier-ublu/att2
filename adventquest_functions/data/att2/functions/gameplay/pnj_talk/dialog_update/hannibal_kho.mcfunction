@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/hannibal_kho
 
+scoreboard players set hannibal_kho_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score hannibal_kho_PNJ DIALOG matches 1..1 run function att2:dialogs/others/hannibal_kho/dialog_1
 

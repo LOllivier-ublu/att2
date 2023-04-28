@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_dye"
+        },
+        "title": {"translate":"A Taste of Evil"},
+        "description": {"translate":"Start a fight against Umbra'Tyanth for the first time."},
+        "hidden": true
+    },
+    "parent": "att2:hunting/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+    },
+    "criteria": {
+        "umbratyanth_attempt1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

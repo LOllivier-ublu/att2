@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Fire line"},
+        "description": {"translate":"Find Fire line spell"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell2_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

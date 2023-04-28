@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"Living god"},
+        "description": {"translate":"Kill all the bosses"},
+        "frame": "challenge"
+    },
+    "parent": "att2:hunting/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_100",
+        "experience": 100000
+    },
+    "criteria": {
+        "kill_all_boss": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

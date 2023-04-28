@@ -6,7 +6,7 @@
 # In transition from Tellurön
 execute as @e[x=-5011,y=140,z=-4890,dx=0,dy=18,dz=20] run tp @s -3017 126 4935 -180 ~
 # Out transition to Ouranos
-execute as @e[x=-3019,y=126,z=4902,dx=5,dy=5,dz=0] run tp @s 7000 77 7000 -90 ~
+execute as @e[x=-3019,y=126,z=4902,dx=5,dy=5,dz=0] run function att2:gameplay/dimension/portals/tp_to_ouranos
 
 # In transition from Ouranos
 execute as @e[x=6998,y=77,z=6998,dx=0,dy=4,dz=4] run tp @s -3017 127 4903 0 ~

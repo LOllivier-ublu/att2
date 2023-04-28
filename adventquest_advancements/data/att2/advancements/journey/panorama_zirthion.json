@@ -9,8 +9,8 @@
     },
     "parent": "att2:journey/discover_ouranos",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
-        "experience": 2500
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
                 },
     "criteria": {
         "panorama_zirthion": {

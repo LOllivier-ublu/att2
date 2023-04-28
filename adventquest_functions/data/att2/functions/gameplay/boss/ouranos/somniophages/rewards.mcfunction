@@ -16,26 +16,26 @@ function att2:summon/reg_4/somniophages_rewards
 function att2:summon/reg_4/somniophages_rewards
 function att2:summon/reg_4/somniophages_rewards
 
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 0.. run function att2:summon/reg_4/somniophages_rewards
 
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
-function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
 
 function att2:summon/reg_4/somniophages_rewards_dedicated

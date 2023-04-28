@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_helmet",
+            "nbt": "{CustomModelData:10000000}"
+        },
+        "title": {"translate":"Carmina Hermetica"},
+        "description": {"translate":"Find the Hermetic Helmet Mythical set"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "carmina_hermetica": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

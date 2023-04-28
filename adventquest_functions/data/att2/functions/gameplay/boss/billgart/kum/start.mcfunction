@@ -3,6 +3,7 @@
 #Start the boss fight for Kum                                		#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 function att2:gameplay/boss/billgart/kum/emerald_trap_on
 function att2:physicmod/reg3/kum_revive
 scoreboard players set Kum_timer1 SQ53 0

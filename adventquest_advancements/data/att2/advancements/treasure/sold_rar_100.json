@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_candle"
+        },
+        "title": {"translate":"Rare selling"},
+        "description": {"translate":"Sell 100 rare items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/sold_1000",
+        "rewards": {
+            "function": "att2:advancement/exploit_30",
+            "experience": 5000
+    },
+    "criteria": {
+        "sold_rar_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

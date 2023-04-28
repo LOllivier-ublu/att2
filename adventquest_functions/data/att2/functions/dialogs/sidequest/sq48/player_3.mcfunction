@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"These columns of hot air are powerful updrafts, they will be able to allow me to go higher. However, I struggle to be carried away by the current. Maybe I should have something or a spell that can lighten me...","color":"aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這些熱空氣柱是強大的上升氣流， 它們可以讓我走得更高。然而， 我很難被潮流沖昏頭腦。也許我應該有什麼東西或咒語可以減輕我的...","color":"aqua"}]}

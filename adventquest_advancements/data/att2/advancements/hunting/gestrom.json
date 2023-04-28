@@ -6,16 +6,16 @@
         },
         "title": {"translate":"Geström"},
         "description": {"translate":"Kill Geström boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
         "function": "att2:advancement/exploit_15",
-        "experience": 7500
+        "experience": 3500
     },
     "criteria": {
-        "geström": {
+        "gestrom": {
             "trigger": "minecraft:impossible"
         }
     }

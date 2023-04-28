@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- On ne sait jamais sur quoi on va t
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- You never know what you're gonna get -°- : ","color":"gray","extra":[{"text":"Jack Arrow told me about a beached ship that could hold treasure. I have to find it, it is south of the region in the depths.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 你永遠不知道你會得到什麼 -°- : ","color":"gray","extra":[{"text":"Jack Arrow透露一艘沉船的位置， 就在這片區域南部的深水區裡。沉船裡應該有不錯的東西。","color":"aqua","italic":true}]}

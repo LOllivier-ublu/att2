@@ -5,7 +5,6 @@
 
 function att2:sound/shop/opening
 
-function att2:dialogs/gameplay/shop/esc_display
 function att2:dialogs/gameplay/shop/showcase/weapon_list
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/diamond_axe_168
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/diamond_pickaxe_169

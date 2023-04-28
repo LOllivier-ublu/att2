@@ -8,9 +8,14 @@ execute as @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Garde : ","color":"green","extra":[{"text":"On ne passe pas ! De dangereuses entités arrivent par ce passage et j'ai pour mission de surveiller cette zone.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garde : ","color":"green","extra":[{"text":"On ne passe pas ! De dangereuses entités arrivent par ce passage et j'ai pour mission de surveiller cette zone.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Guardian : ","color":"green","extra":[{"text":"You can't get through! My mission is to watch the area, we have fenced the area because monsters were coming from this passage!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Guardian : ","color":"green","extra":[{"text":"You can't get through! My mission is to watch the area, we have fenced the area because monsters were coming from this passage!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° 卫士 : ","color":"green","extra":[{"text":"禁止通行！ 我的任務是看守這片區域——因爲道路有怪物出沒， 所以我們封鎖了這裏。","color":"dark_aqua"}]}

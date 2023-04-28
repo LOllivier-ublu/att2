@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Destroy the bandit encampment! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"Click here - answer 2"}}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2},x=-4132,y=69,z=-5652,distance=..7] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[摧毀強盜營地！ -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score summon2 SQ29 matches 1 run function att2:cinematic/sidequest/29/camp_destroy2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}

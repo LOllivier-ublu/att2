@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Golem : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"Little flesh being is recognized, he goes without restraint to Ulgok'keström. Because the metal being shows him the way.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"小肉體被認出， 他毫無拘束地前往烏爾戈克斯特倫。因為金屬存在給他指明了方向。","color":"dark_aqua"}]}

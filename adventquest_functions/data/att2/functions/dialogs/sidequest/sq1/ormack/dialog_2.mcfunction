@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ormack : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"The thieves' camp is south of our village in the forest near a mine. By taking the path, or by folowing the hills, you will easily find...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"盜賊們的營地在這邊南方靠近森林的礦坑裡。跟著小徑或是山丘應該很快就能看到了。","color":"dark_aqua"}]}

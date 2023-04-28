@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Accessible chest"},
+        "description": {"translate":"Open 50 Accessible chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier2_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "lootchest_tier2_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

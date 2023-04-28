@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/fey
 
+scoreboard players set fey_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score fey_PNJ DIALOG matches 1 run function att2:dialogs/others/fey/dialog_1
 

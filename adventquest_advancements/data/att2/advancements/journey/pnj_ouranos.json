@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Ouranos NPC"},
+        "description": {"translate":"Talk to all Ouranos people"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_ouranos",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1750
+                },
+    "criteria": {
+        "pnj_ouranos": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

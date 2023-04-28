@@ -14,4 +14,5 @@ function att2:gameplay/boss/billgart/elevator/destroy_minions
 execute in minecraft:the_end as @e[type=minecraft:item,x=-1235,y=35,z=-611,dx=-8,dy=4,dz=-8] at @s run tp @s ~ ~-5 ~
 function att2:gameplay/checkpoint/billgart/dungeon1
 
-advancement grant @a only att2:hunting/elevator
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/elevator
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/elevator_master

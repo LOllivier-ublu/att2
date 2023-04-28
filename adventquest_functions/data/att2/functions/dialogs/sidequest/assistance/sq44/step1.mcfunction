@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Addicte à vie -°- : ","color":"g
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Addicted for life -°- : ","color":"gray","extra":[{"text":"Edwin Vortid told me about Charles who in exchange for Chronotons would offer random prizes... Let's go to the forest of Soquaï near the torrent, where his establishment is located, to make some bets.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 沉醉一生 -°- : ","color":"gray","extra":[{"text":"Edwin Vortid說有個叫Charles的傢伙開了個賭場， 能用Chronotons和他隨機交換一些物品。賭場就在Soquai森林裡的激流旁。","color":"aqua","italic":true}]}

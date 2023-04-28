@@ -5,6 +5,7 @@
 
 scoreboard objectives add WAYPOINT dummy
 
+scoreboard players set count_used WAYPOINT 0
 scoreboard players set count WAYPOINT 0
 scoreboard players set timer WAYPOINT 0
 scoreboard players set Asunark WAYPOINT 0

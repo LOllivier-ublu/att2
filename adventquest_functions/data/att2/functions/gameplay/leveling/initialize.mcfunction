@@ -18,17 +18,16 @@ scoreboard objectives add LEVELDIFF dummy
 scoreboard objectives add KILLVALUE totalKillCount
 scoreboard objectives add XPPROCESS dummy
 scoreboard objectives add XPGAIN dummy
-# Difficulty : -1 Easy, 0 Medium, 1 Hard
-scoreboard objectives add DIFFICULTY dummy
+
 scoreboard players set @s GAMELEVEL 0
 scoreboard players set @s LVL_UPGRADE_REQ 22
 scoreboard players set @s SKILLPOINT 0
 scoreboard players set 3 SKILLPOINT 3
 scoreboard players set @s LEVELMASTER 0
 scoreboard players set @s BASE_HEM 0
-execute unless score level DIFFICULTY matches -1.. run scoreboard players set level DIFFICULTY 0
 scoreboard players set playerCoeff DIFFICULTY 3
 scoreboard players set 6 XPPROCESS 6
+scoreboard players set superelite RANDOM 1
 
 
 #Also adding teams 

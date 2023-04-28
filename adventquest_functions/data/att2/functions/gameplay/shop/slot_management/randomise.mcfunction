@@ -48,3 +48,15 @@ scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot7"]}] SHOP_OP1 
 scoreboard players operation y SHOP_OP1 /= 10 SHOP_OP1
 scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot8"]}] SHOP_OP1 = y SHOP_OP1
 scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot8"]}] SHOP_OP1 %= 1000 SHOP_OP1
+
+scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot9"]}] SHOP_OP1 = y SHOP_OP1
+scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot9"]}] SHOP_OP1 %= 1000 SHOP_OP1
+scoreboard players operation y SHOP_OP1 /= 10 SHOP_OP1
+scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot10"]}] SHOP_OP1 = y SHOP_OP1
+scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot10"]}] SHOP_OP1 %= 1000 SHOP_OP1
+scoreboard players operation y SHOP_OP1 /= 10 SHOP_OP1
+scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot11"]}] SHOP_OP1 = y SHOP_OP1
+scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot11"]}] SHOP_OP1 %= 1000 SHOP_OP1
+scoreboard players operation y SHOP_OP1 /= 10 SHOP_OP1
+scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot12"]}] SHOP_OP1 = y SHOP_OP1
+scoreboard players operation @e[nbt={Tags:["ShotSlotHolder","slot12"]}] SHOP_OP1 %= 1000 SHOP_OP1

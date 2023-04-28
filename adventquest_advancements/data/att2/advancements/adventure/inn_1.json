@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:white_bed"
+        },
+        "title": {"translate":"A little nap!"},
+        "description": {"translate":"Booked a room in a inn to sleep."}
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 250
+                },
+    "criteria": {
+        "inn_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

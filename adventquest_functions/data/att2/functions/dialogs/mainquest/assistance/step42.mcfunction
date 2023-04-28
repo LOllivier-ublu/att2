@@ -10,8 +10,12 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"J'ai récupéré la dernière gemme d'espace, il faut que je la rapporte à Ryliath au plus vite pour enfin régler son compte à Etotsira !","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"J'ai récupéré la dernière gemme d'espace, il faut que je la rapporte à Ryliath au plus vite pour enfin régler son compte à Etotsira !","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I have recovered the last Space Gemme, I have to bring it back to Ryliath as soon as possible to finally take care of Etotsira personally!","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I have recovered the last Space Gemme, I have to bring it back to Ryliath as soon as possible to finally take care of Etotsira personally!","color":"aqua"}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已經獲得了最後一塊空間之石。我得尽快把它帶回Ryliath——我終於可以再次和Etotsira見面了！ ","color":"aqua"}]}

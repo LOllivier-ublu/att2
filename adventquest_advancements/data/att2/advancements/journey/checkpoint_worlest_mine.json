@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"Worlest Mine Checkpoint"},
+        "description": {"translate":"Discover all Checkpoint of Worlest Mine"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_worlest_mine",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "checkpoint_worlest_mine": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

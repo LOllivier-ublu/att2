@@ -13,4 +13,5 @@ function att2:gameplay/boss/asunark/rackham/spikestrap_off
 function att2:physicmod/reg1/asunark/rackham_fire_off
 execute in minecraft:overworld run spawnpoint @a -4035 39 -4279
 
-advancement grant @a only att2:hunting/francois
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/francois
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/francois_master

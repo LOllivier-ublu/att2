@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"Safe and sound!"},
+        "description": {"translate":"Discover and activate 5 checkpoints"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/checkpoint_2",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+    },
+    "criteria": {
+        "checkpoint_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

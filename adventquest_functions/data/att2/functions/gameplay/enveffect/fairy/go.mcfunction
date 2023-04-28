@@ -6,10 +6,11 @@
 #################################################################
 
 # Particle
-execute as @e[type=minecraft:endermite,tag=Fairy] at @s run function att2:gameplay/enveffect/fairy/particle
+execute as @e[type=minecraft:endermite,tag=FairyParticle] at @s run function att2:gameplay/enveffect/fairy/particle
+execute as @e[tag=FairyParticle,type=minecraft:endermite] at @e[tag=Fairy,type=minecraft:ocelot] run tp @s ~ ~ ~ ~ ~
 
 # Fairy Triggered if Player is very close
-execute at @e[type=minecraft:endermite,tag=Fairy] if entity @a[distance=..1.75] run function att2:gameplay/enveffect/fairy/caught
+execute at @e[type=minecraft:ocelot,tag=Fairy] if entity @a[distance=..1.75] run function att2:gameplay/enveffect/fairy/caught
 
 # Fairy TIMER iteration
 execute if score Fairy TIMER matches 0.. if entity @a[scores={DIMENSION=1}] run scoreboard players remove Fairy TIMER 1

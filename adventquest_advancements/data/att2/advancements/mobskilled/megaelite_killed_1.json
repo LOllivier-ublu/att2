@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "title": {"translate":"Ultimate Elite Killer"},
+        "description": {"translate":"Kill your first Ultimate elite"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+    },
+    "criteria": {
+        "megaelite_killed_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

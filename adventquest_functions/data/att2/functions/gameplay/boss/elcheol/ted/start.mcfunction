@@ -3,6 +3,7 @@
 #Start the boss fight for Ted                                 		#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 scoreboard players set Ted SQ55 0
 execute positioned -5114 109 -6198 run function att2:summon/reg_1/ted
 execute positioned -5093 105 -6188 run function att2:summon/reg_1/skrappy1

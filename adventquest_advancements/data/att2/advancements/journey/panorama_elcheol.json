@@ -9,7 +9,7 @@
     },
     "parent": "att2:journey/discover_eolorion",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
+        "function": "att2:advancement/exploit_5",
         "experience": 1000
                 },
     "criteria": {

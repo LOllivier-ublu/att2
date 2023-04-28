@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","e
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"The tarverne is like my second home, that's where I work. It's a warm place where lots of travellers gather for a good drink!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"這兒是我工作的地方——酒館， 它就像我的第二個家。裏面溫暖、舒適， 有很多旅行者會相聚於此， 在裏面喝上一杯！ ","color":"dark_aqua"}]}

@@ -18,12 +18,12 @@ particle minecraft:end_rod -5063 79 -4368 0.1 5 0.1 0 5
 particle minecraft:end_rod -5063 81 -4394 0.1 5 0.1 0 5
 
 # Music management
-execute if score Owlkar OWSASTR matches 0.. as @a[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
+execute if score Owlkar OWSASTR matches 0.. as @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_boss
 execute if score Owlkar OWSASTR matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
 
 # Enable Bossbar storing health of Owlkär
-execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar value run data get entity 00000000-0000-002b-0000-00000000002b Health
-execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar max run data get entity 00000000-0000-002b-0000-00000000002b Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar value run data get entity 00000000-0000-002b-0000-00000000002b Health
+execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] store result bossbar minecraft:owlkar max run data get entity 00000000-0000-002b-0000-00000000002b Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Mirror's particles
 execute if entity @e[nbt={UUID:[I;0,70463,0,70463]},tag=UtoNE] run function att2:gameplay/boss/owsastr/owlkar/mirror_ne_particle_ext
@@ -36,24 +36,24 @@ execute if entity @e[nbt={UUID:[I;0,70479,0,70479]},tag=UtoWN] run function att2
 execute unless entity @e[nbt={UUID:[I;0,70479,0,70479]},tag=UtoWN] run function att2:gameplay/boss/owsastr/owlkar/mirror_wn_particle_in
 
 # Make challengers enters the arena (unless ray are not going to it)
-execute if score Mainquest SIDEQUEST matches 26 if score mech1 OWSASTR matches 7 if score wingN OWSASTR matches 3 as @a[x=-5025,y=76,z=-4383,dx=0,dy=3,dz=4,gamemode=adventure] at @s unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,gamemode=adventure] as @a[distance=..30] run function att2:gameplay/boss/owsastr/owlkar/display_title
+execute if score Mainquest SIDEQUEST matches 26 if score mech1 OWSASTR matches 7 if score wingN OWSASTR matches 3 as @a[x=-5025,y=76,z=-4383,dx=0,dy=3,dz=4,gamemode=adventure] at @s unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] as @a[distance=..30] run function att2:gameplay/boss/owsastr/owlkar/display_title
 execute if score EnterArena OWSASTR matches ..0 if score mech1 OWSASTR matches 7 if score wingN OWSASTR matches 3 unless score Mainquest SIDEQUEST matches 27 as @a[x=-5025,y=76,z=-4383,dx=0,dy=3,dz=4] run function att2:gameplay/boss/owsastr/owlkar/enter_arena
 execute if score EnterArena OWSASTR matches 1.. run scoreboard players remove EnterArena OWSASTR 1
 
 # Start the boss fight (summoning Owlkar)
-execute if score Owlkar OWSASTR matches -1 if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,gamemode=adventure] run function att2:gameplay/boss/owsastr/owlkar/start
+execute if score Owlkar OWSASTR matches -1 if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] run function att2:gameplay/boss/owsastr/owlkar/start
 
 # Execute all action of Owlkar
-execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,gamemode=adventure] run function att2:gameplay/boss/owsastr/owlkar/action
+execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] run function att2:gameplay/boss/owsastr/owlkar/action
 
 # Player failed destroying Owlkar and died
-execute if score Owlkar OWSASTR matches 0.. unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,gamemode=adventure] run function att2:gameplay/boss/owsastr/owlkar/fail
+execute if score Owlkar OWSASTR matches 0.. unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] run function att2:gameplay/boss/owsastr/owlkar/fail
 
 # Testing if Owlkar died
-execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,gamemode=adventure] unless entity @e[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,nbt={UUID:[I;0,43,0,43]}] run function att2:gameplay/boss/owsastr/owlkar/victory
+execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] unless entity @e[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,nbt={UUID:[I;0,43,0,43]}] run function att2:gameplay/boss/owsastr/owlkar/victory
 
 # Player can quit the arena when Owlkar had been defeated
 execute if score Owlkar OWSASTR matches -2 run tp @a[x=-5064,y=72,z=-4383,dx=0,dy=2,dz=4,gamemode=adventure] -5075 80 -4381
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
-execute if score Owlkar OWSASTR matches -2 unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=7,dz=46,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 26..27 run function att2:gameplay/boss/owsastr/owlkar/reinitialize
+execute if score Owlkar OWSASTR matches -2 unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 26..29 run function att2:gameplay/boss/owsastr/owlkar/reinitialize

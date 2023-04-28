@@ -10,9 +10,10 @@ scoreboard objectives add COMPLETION dummy
 scoreboard players set @s COMPLETION 0
 scoreboard players set Points_completion EXPLOIT 100
 scoreboard players set Total_objectives EXPLOIT 102
-scoreboard players set Total_point EXPLOIT 9120
+scoreboard players set Total_point EXPLOIT 15848
 
 function att2:advancement/initialize_secret_chest
+function att2:advancement/exploit_rewards/initialize
 
 scoreboard objectives add statMOBSKILLED minecraft.custom:minecraft.mob_kills
 scoreboard objectives add statZOMBIEKILLED minecraft.killed:minecraft.zombie
@@ -108,6 +109,11 @@ scoreboard objectives add statJORIN minecraft.used:minecraft.beetroot
 scoreboard objectives add TIMEPLAY minecraft.custom:minecraft.play_time
 
 scoreboard objectives add HOUSE dummy
+scoreboard objectives add LOOTCHEST dummy
+scoreboard objectives add ELITE dummy
+scoreboard objectives add SUPERELITE dummy
+scoreboard objectives add MEGAELITE dummy
+scoreboard objectives add blockPROJECTILE dummy
 
 scoreboard players set @s EXPLOIT 0
 

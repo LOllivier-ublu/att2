@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"NORMAL ARENA"},
+        "description": {"translate":"Complete the arena event in normal difficulty."},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/arena_easy",
+    "rewards": {
+        "function": "att2:advancement/exploit_40",
+        "experience": 25000
+                },
+    "criteria": {
+        "arena_normal": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

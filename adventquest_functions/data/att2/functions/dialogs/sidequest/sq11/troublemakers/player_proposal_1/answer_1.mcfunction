@@ -6,9 +6,14 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0},x=-4980,y=82,z=-5027,distance=0..7] {"text":"°-° Semeurs de troubles : ","color":"green","extra":[{"text":"Haha ! C'est quoi cet imbécile ? Et comment oses-tu nous donner des ordres !? Allez barre-toi si tu veux pas d'ennuis !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Semeurs de troubles : ","color":"green","extra":[{"text":"Haha ! C'est quoi cet imbécile ? Et comment oses-tu nous donner des ordres !? Allez barre-toi si tu veux pas d'ennuis !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1},x=-4980,y=82,z=-5027,distance=0..7] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"Haha! Who is this fool? And how dare you give us orders!? Go away if you don't want trouble!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"Haha! Who is this fool? And how dare you give us orders!? Go away if you don't want trouble!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2},x=-4980,y=82,z=-5027,distance=..7] {"text":" °-° Troublemakers : ","color":"green","extra":[{"text":"哈哈！ 這個傻瓜是誰？ 你怎麼敢給我們發號施令！ ？ 不想麻煩就走開！ ","color":"dark_aqua"}]}

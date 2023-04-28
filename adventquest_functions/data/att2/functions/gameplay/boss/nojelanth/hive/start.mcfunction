@@ -3,6 +3,7 @@
 #Start the boss fight for Hive                                      #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 scoreboard players set Hive SQ58 0
 scoreboard players set Hive_timer1 SQ58 0
 function att2:gameplay/boss/nojelanth/hive/summoning_minion

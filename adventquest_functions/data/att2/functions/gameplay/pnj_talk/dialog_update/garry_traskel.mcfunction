@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/garry_traskel
 
+scoreboard players set garry_traskel_PNJ statDIALOG 1
 #test entity dialog
 
 execute as @a[distance=..7] if score garry_traskel_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq13/garry_traskel/dialog_4

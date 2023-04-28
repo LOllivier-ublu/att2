@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:recovery_compass"
+        },
+        "title": {"translate":"Eternän Survivor"},
+        "description": {"translate":"Survive 1 month without dying"}
+    },
+    "parent": "att2:adventure/survive_1week",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+                },
+    "criteria": {
+        "survive_1month": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

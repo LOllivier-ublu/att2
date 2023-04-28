@@ -3,6 +3,7 @@
 #Start the boss fight for Illusions                               	#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 scoreboard players set Illusions SILBERLAND 0
 scoreboard players set Illusion_timer1 SILBERLAND 0
 function att2:physicmod/reg1/silberland/illusions_start

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:recovery_compass"
+        },
+        "title": {"translate":"Veteran Survivor"},
+        "description": {"translate":"Survive 1 cycle without dying"}
+    },
+    "parent": "att2:adventure/survive_1day",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "survive_1cycle": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

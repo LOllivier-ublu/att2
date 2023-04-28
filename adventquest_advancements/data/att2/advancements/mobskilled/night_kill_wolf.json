@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Fear of Werewolves"},
+        "description": {"translate":"Kill a wolf the night"}
+    },
+    "parent": "att2:mobskilled/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "night_kill_wolf": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                "type": "minecraft:wolf"
+                }
+            },
+            "conditions": {
+                "player": [
+                  {
+                    "condition": "minecraft:time_check",
+                    "value": {
+                        "min": 13000,
+                        "max": 23000
+                        },
+                    "period": 24000
+                    }
+                ]
+            },
+            "conditions": {
+                "player": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "dimension": "minecraft:overworld"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -14,6 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Warren : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"It's my lucky day, can you help me? I am a merchant and I often take this shortcut under the mountains to deliver my goods in town. I took the risk of crossing despite the activity of the volcano. Unfortunately, there were tremors then landslides and I lost my load while fleeing to save my skin.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"今天是我的幸運日， 你能幫幫我嗎？ 我是一個商人， 我經常走這條山下的捷徑在城裡運送我的貨物。儘管火山活動， 我還是冒險穿越。不幸的是， 發生了地震， 然後發生了山體滑坡， 我在逃跑時失去了負荷以保護我的皮膚。","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq32/warren/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq32/warren/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq32/warren/player_proposal_1/choice_3

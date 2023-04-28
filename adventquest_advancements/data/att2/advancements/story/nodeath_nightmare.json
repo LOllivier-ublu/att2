@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": {"translate":"Are you an Eternan ?"},
+        "description": {"translate":"Complete the main quest without dying once in gameplay in Nightmare difficulty."},
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "att2:story/nodeath",
+    "rewards": {
+        "experience": 10000000
+    },
+    "criteria": {
+        "hardcore_gamer": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

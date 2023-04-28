@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Rukyrion -°- : ","color":"gray","
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"I should follow Namrïn...","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Rukyrion -°- : ","color":"gray","extra":[{"text":"我應該跟隨Namrin。","color":"aqua","italic":true}]}

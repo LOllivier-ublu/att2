@@ -11,9 +11,14 @@ function att2:gameplay/reputation/remove_10
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Raj Kutra : ","color":"green","extra":[{"text":"Que, quoi ?! Non attendez, ce ne peut être qu'un malentendu ! NE ME TUEZ PAS, PITIE !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"Que, quoi ?! Non attendez, ce ne peut être qu'un malentendu ! NE ME TUEZ PAS, PITIE !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"What, what?! No, wait, it can only be a misunderstanding! DON'T KILL ME, PLEASE!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"什、什么？ ！ 等、等一下！ 這裏一定是有什麽誤會！ 別殺我， 求求您！ ","color":"dark_aqua"}]}

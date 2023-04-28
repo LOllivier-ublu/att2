@@ -18,6 +18,13 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"So take a crate with you, it will allow them to last a couple of extra days.","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"確實， 我需要你的貨物才能到達 Eolorion。","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raphaël : ","color":"green","extra":[{"text":"所以隨身攜帶一個板條箱， 它可以讓它們多使用幾天。","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq31/raphael/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq31/raphael/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq31/raphael/player_proposal_1/choice_3

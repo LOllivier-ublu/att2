@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/alrean
 
+scoreboard players set alrean_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score alrean_PNJ DIALOG matches 1..1 run function att2:dialogs/mainquest/act_4/pnj_alrean/dialog_1
 

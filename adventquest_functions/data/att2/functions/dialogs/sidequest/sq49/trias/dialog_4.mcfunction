@@ -6,12 +6,17 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Trias : ","color":"green","extra":[{"text":"Soit. Malheureusement pour vous, je ne me contenterai pas de votre refus. Cédez-le moi, ou je peux vous garantir que vous le regretterez.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Soit. Malheureusement pour vous, je ne me contenterai pas de votre refus. Cédez-le moi, ou je peux vous garantir que vous le regretterez.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Trias : ","color":"green","extra":[{"text":"Sure. Unfortunately for you, I will not content myself with this refusal. Cede it to me, or I guarantee that you will regret it.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Sure. Unfortunately for you, I will not content myself with this refusal. Cede it to me, or I guarantee that you will regret it.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"當然。對你來說不幸的是， 我不會滿足於這種拒絕。把它交給我， 否則我保證你會後悔的。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq49/trias/player_proposal_3/choice_1

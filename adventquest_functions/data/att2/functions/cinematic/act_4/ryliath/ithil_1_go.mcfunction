@@ -38,7 +38,7 @@ execute if score Real0 TIMER matches 812 if entity @e[nbt={UUID:[I;0,2378,0,2378
 execute if score Real0 TIMER matches 813 as 00000000-0000-094a-0000-00000000094a at @s anchored feet facing -5043 149 -4877 run function att2:cinematic/act_4/ryliath/ithil_walking
 execute if score Real0 TIMER matches 813 if entity @e[nbt={UUID:[I;0,2378,0,2378]},x=-5042.5,y=149,z=-4876.5,distance=..0.8] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 814 as 00000000-0000-094a-0000-00000000094a at @s run tp @s -5043 149 -4877 180 0
-execute if score Real0 TIMER matches 820 run function att2:cinematic/act_4/ryliath/ithil_1_action_2
+execute if score Real0 TIMER matches 840 run function att2:cinematic/act_4/ryliath/ithil_1_action_2
 execute if score Real0 TIMER matches 851 run scoreboard players set Mainquest SIDEQUEST 122
 
 #=======================#

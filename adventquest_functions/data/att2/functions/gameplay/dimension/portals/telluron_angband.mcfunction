@@ -6,7 +6,7 @@
 # In transition from Tellurön
 execute in minecraft:overworld as @e[x=30009,y=80,z=29936,dx=5,dy=-3,dz=0] run tp @s -3336.0 127 4935 ~-180 ~
 # Out transition to Angband
-execute in minecraft:overworld as @e[x=-3335,y=127,z=4902,dx=-3,dy=2,dz=0] in minecraft:the_nether run tp @s 3750.0 85 3750 ~ ~
+execute in minecraft:overworld as @e[x=-3335,y=127,z=4902,dx=-3,dy=2,dz=0] in minecraft:the_nether run function att2:gameplay/dimension/portals/tp_to_angband
 
 # In transition from Angband
 execute in minecraft:the_nether as @e[x=3750,y=86,z=3749,dx=-1,dy=1,dz=0] in minecraft:overworld run tp @s -3336.0 127 4903 ~ ~

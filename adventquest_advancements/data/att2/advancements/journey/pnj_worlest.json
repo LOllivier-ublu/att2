@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Worlest NPC"},
+        "description": {"translate":"Talk to all Worlest people"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_worlest",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1750
+                },
+    "criteria": {
+        "pnj_worlest": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

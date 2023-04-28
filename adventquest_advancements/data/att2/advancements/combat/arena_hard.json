@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"HARD ARENA"},
+        "description": {"translate":"Complete the arena event in hard difficulty."},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/arena_normal",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 40000
+                },
+    "criteria": {
+        "arena_hard": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

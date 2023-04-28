@@ -9,9 +9,14 @@ function att2:cinematic/act_3/angband/phoenix_1_duel
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Phoebius : ","color":"green","extra":[{"text":"Vous ne m'impressionnez pas... Alors venez, je vous attends !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Vous ne m'impressionnez pas... Alors venez, je vous attends !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Phoebius : ","color":"green","extra":[{"text":"You don't impress me.... So come on, I'll wait for you!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"You don't impress me.... So come on, I'll wait for you!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"真讓人失望...那動手啊， 我可等著呢！ ","color":"dark_aqua"}]}

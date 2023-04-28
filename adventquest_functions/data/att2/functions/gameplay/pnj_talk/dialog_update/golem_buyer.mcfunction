@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/golem_buyer
 
+scoreboard players set golem_buyer_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score golem_buyer_PNJ DIALOG matches 1..1 run function att2:dialogs/others/golem/dialog_1
 

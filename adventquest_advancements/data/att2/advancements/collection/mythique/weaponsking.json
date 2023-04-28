@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_hoe",
+            "nbt": "{CustomModelData:10000000}"
+        },
+        "title": {"translate":"武器之王"},
+        "description": {"translate":"Find 武器之王 Mythical spear"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 7777
+                },
+    "criteria": {
+        "weaponsking": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

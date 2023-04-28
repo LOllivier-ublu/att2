@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Un pont pour de bon]","color":"gold"}
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[From ridge to the bridge]","color":"gold"}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[從山脊到橋]","color":"gold"}

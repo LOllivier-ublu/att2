@@ -3,6 +3,7 @@
 #Start the boss fight for OuranPhase3                               #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 stopsound @a
 execute as @a run tag @s add NoAutoMusic
 execute positioned 33 78 0 run function att2:summon/reg_4/ouran

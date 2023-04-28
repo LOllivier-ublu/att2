@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/joel_roblochon
 
+scoreboard players set joel_roblochon_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score joel_roblochon_PNJ DIALOG matches 3..3 run function att2:dialogs/sidequest/sq30/joel_roblochon/dialog_3
 execute as @a[distance=..7] if score joel_roblochon_PNJ DIALOG matches 2..2 run function att2:dialogs/sidequest/sq30/joel_roblochon/dialog_2

@@ -937,7 +937,6 @@ execute in minecraft:the_nether positioned 3661 42 4001 if entity @a[distance=5.
 execute in minecraft:the_nether positioned 3701 59 3948 if entity @a[distance=5..20] run function att2:spawner/reg2/phoenix/road/mortalarcher0_class11_3966
 execute in minecraft:the_nether positioned 3811 39 3937 if entity @a[distance=3..15] run function att2:spawner/reg2/phoenix/village/magmamedium0_class10_3970
 execute in minecraft:the_nether if score SQ13 SIDEQUEST matches 0..99 positioned 3914 26 3864 if entity @a[distance=3..15] run function att2:spawner/reg2/phoenix/mine/magmamedium0_class10_sq13_3973
-execute in minecraft:the_nether if score SQ13 SIDEQUEST matches 0..99 positioned 3896 52 3817 if entity @a[distance=5..25] run function att2:spawner/reg2/phoenix/mine/magmamedium0_class10_sq13_3976
 execute in minecraft:the_nether if score SQ13 SIDEQUEST matches 0..99 positioned 3855 63 3836 if entity @a[distance=3..15] run function att2:spawner/reg2/phoenix/mine/magmasmall0_class10_sq13_3978
 execute in minecraft:the_nether positioned 3478 45 3837 if entity @a[distance=5..20] run function att2:spawner/reg2/angor/road/mortal9_class11_3981
 execute in minecraft:the_nether positioned 3499 59 3887 if entity @a[distance=5..20] run function att2:spawner/reg2/angor/road/mortalarcher1_class9_3985

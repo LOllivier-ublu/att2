@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/alphonse_rae
 
+scoreboard players set alphonse_rae_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score alphonse_rae_PNJ DIALOG matches 6..6 run function att2:dialogs/sidequest/sq5/alphonse_rae/dialog_6
 execute as @a[distance=..7] if score alphonse_rae_PNJ DIALOG matches 5..5 run function att2:dialogs/sidequest/sq5/alphonse_rae/dialog_5

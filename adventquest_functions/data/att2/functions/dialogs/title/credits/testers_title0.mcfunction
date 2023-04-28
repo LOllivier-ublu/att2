@@ -12,3 +12,8 @@ title @a[scores={LANGUAGE=0}] title {"text":"ᨑ ","color":"gray","extra":[{"tex
 #ENGLISH LANGUAGE
 
 title @a[scores={LANGUAGE=1}] title {"text":"ᨑ ","color":"gray","extra":[{"text":"ALPHA testers","color":"dark_red"},{"text":" ᨑ","color":"gray"}]}
+
+
+#CHINESE LANGUAGE
+
+title @a[scores={LANGUAGE=2}] title {"text":"ᨑ ","color":"gray","extra":[{"text":"ALPHA版測試者","color":"dark_red"},{"text":" ᨑ","color":"gray"}]}

@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Doom regagne toutes ses vies...","color
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"Doom regains all his lives...","color":"gray","italic":true}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"Doom 重新獲得了他所有的生命...","color":"gray","italic":true}

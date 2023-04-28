@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/bonnie
 
+scoreboard players set bonnie_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score bonnie_PNJ DIALOG matches 1..1 run function att2:dialogs/others/bonnie/dialog_1
 

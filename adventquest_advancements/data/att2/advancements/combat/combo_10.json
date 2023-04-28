@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:item_frame"
+        },
+        "title": {"translate":"MEGA COMBO!"},
+        "description": {"translate":"Kill 10 enemies consecutively."},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/combo_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1500
+                },
+    "criteria": {
+        "combo_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

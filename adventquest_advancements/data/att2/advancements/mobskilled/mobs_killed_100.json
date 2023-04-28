@@ -4,7 +4,7 @@
             "item": "minecraft:golden_shovel"
         },
         "title": {"translate":"Butcher"},
-        "description": {"translate":"Kill 100 Monsters"},
+        "description": {"translate":"Kill 100 enemies"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/mobs_killed_25",

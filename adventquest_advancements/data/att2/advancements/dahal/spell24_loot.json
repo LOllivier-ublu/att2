@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Bait"},
+        "description": {"translate":"Find Bait spell"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell24_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

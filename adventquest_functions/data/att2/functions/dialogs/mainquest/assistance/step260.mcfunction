@@ -10,8 +10,12 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"J'arrive bientôt au sommet quelque soit la temporalité, j'espère y trouver enfin une gemme de temps...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"J'arrive bientôt au sommet quelque soit la temporalité, j'espère y trouver enfin une gemme de temps...","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I'm coming to the top soon whatever the temporality, I hope to finally find a gem of time ...","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I'm coming to the top soon whatever the temporality, I hope to finally find a gem of time ...","color":"aqua"}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我很快就會到達頂峰， 我希望終於找到時間的寶石...","color":"aqua"}]}

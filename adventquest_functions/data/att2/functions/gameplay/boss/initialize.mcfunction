@@ -8,6 +8,7 @@ scoreboard players set @a MUSIC_BOSS 0
 scoreboard objectives add BOSS dummy
 scoreboard players set rewards_timer BOSS 0
 scoreboard players set total_killed BOSS 0
+scoreboard players set in_fight BOSS 0
 
 function att2:gameplay/boss/adanoi/myrath/initialize
 function att2:gameplay/boss/kert/scavenger/initialize

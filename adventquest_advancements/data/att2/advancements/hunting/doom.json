@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Doom"},
         "description": {"translate":"Kill Doom boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
         "function": "att2:advancement/exploit_20",
-        "experience": 20000
+        "experience": 7500
     },
     "criteria": {
         "doom": {

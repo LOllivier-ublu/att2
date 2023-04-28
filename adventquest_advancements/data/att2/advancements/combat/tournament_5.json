@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": {"translate":"TOURNAMENT V"},
+        "description": {"translate":"Complete the last Tournament of arenas event."},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/tournament_4",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "tournament_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

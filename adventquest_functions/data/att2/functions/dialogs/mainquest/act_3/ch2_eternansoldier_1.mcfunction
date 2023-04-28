@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Soldat Eternän : ","color":"gre
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"Good to see you again, Namrïn, I see you're with someone. We do not allow mortals into the camp without the General's permission.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"快看， 那**是誰？ 伙計們， 抓住他！ 我最討厭這種“驚喜”了！ ","color":"dark_aqua"}]}

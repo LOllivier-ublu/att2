@@ -9,7 +9,7 @@
     },
     "parent": "att2:food/jorin_64",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
+        "function": "att2:advancement/exploit_15",
         "experience": 2500
                 },
     "criteria": {

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Explosive trap"},
+        "description": {"translate":"Find Explosive trap spell"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell6_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

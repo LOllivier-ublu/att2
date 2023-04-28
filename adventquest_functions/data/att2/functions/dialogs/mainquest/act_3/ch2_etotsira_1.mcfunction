@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"dark_blue"
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"dark_blue","extra":[{"text":"*Voice in the head* Don't worry, you can trust him. And then he won't be shocked to learn where you come from, he's an Eternän (immortal) after all...","italic":true,"color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"*大腦中的聲音* 別擔心， 你可以相信他。他不會對你的來歷感到驚訝——畢竟， 他可是一名Eternän [永生者] 。","color":"dark_aqua"}]}

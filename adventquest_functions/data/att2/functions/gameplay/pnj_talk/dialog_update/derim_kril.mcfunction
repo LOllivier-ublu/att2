@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/derim_kril
 
+scoreboard players set derim_kril_PNJ statDIALOG 1
 #test entity dialog
 
 execute as @a[distance=..7] if score derim_kril_PNJ DIALOG matches 6..6 run function att2:dialogs/sidequest/sq14/derim_kril/dialog_6

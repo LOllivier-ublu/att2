@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Spell collector"},
+        "description": {"translate":"Buy all spells"},
+        "frame": "goal"
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "spell_all_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

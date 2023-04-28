@@ -23,3 +23,5 @@ scoreboard objectives setdisplay belowName HEALTH
 particle minecraft:portal -5252 72 -5405 1 0 1 1 200 normal
 particle minecraft:enchant -5252 72 -5405 1 0 1 1 200 normal
 particle minecraft:poof -5252 71.5 -5405 1 0 1 0 20 normal
+
+scoreboard objectives add TIMESINCEDEATH minecraft.custom:minecraft.time_since_death

@@ -11,3 +11,7 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Abomination funeste, l'obscure i
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] subtitle {"text":"Doom abomination, the dark incarnation of Aether","color":"dark_gray"}
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] subtitle {"text":"惡中之惡, Aether的黑暗之身","color":"gray"}

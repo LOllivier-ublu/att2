@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Patrick manque de bois -°- : ","c
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Patrick lacks wood -°- : ","color":"gray","extra":[{"text":"I finally have the wood Patrick wants, I just need to bring them back to him in Ryliath in his shop, and recieve my reward for this quest.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Patrick 缺少木頭 -°- : ","color":"gray","extra":[{"text":"拿上伐木工Abrock箱子裡的所有<木頭>吧， 這下Patrick應該會很滿意的。帶回Ryliath看看他會給我什麼好處。","color":"aqua","italic":true}]}

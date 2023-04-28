@@ -24,3 +24,5 @@ particle minecraft:block prismarine ~ ~ ~ 2 0 2 0.5 500
 particle cloud ~ ~ ~ 1 1 1 0.3 50
 
 tag @s remove WaypointON
+
+scoreboard players add count_used WAYPOINT 1

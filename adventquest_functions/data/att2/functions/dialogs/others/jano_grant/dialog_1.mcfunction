@@ -6,9 +6,14 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Jano Grant : ","color":"green","extra":[{"text":"Bonjour, venez acheter mes poissons, ils sont frais !","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jano_grant_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Jano."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Jano Grant : ","color":"green","extra":[{"text":"Bonjour, venez acheter mes poissons, ils sont frais !","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jano_grant_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Jano."}}]}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Jano Grant : ","color":"green","extra":[{"text":"Hello, come and buy my fish, they are fresh!","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jano_grant_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Jano is selling."}}]}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jano Grant : ","color":"green","extra":[{"text":"Hello, come and buy my fish, they are fresh!","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jano_grant_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Jano is selling."}}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Jano Grant : ","color":"green","extra":[{"text":"新鮮的魚！ 买不了吃亏， 买不了上當！ ","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/jano_grant_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Jano 的銷售情況。"}}]}]}

@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Lucas : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Sorry, but I can't give you one. I can make you new ones, but the wind will have the time to switch a thousand times of way before my task ends.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"對不起， 我不能給你一個。我可以給你做新的， 但在我的任務結束之前， 風將有時間切換一千次。","color":"dark_aqua"}]}

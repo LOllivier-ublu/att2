@@ -14,6 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Samal Eph : ","color":"green","e
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"But It's a miracle!? I thought I saw my last hours coming to the bottom of this hole after a jolt blocked the only exit. Many thanks ! I was supposed to bring iron ore to Ryliath's blacksmith. Surely he is the one sending you?","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"這是幻覺嗎？ ！  在唯一的出口崩塌後我都以為我看不到未來了。太感謝你了， 我本來應該要把鐵礦帶回去給Ryliath的鐵匠先生的， 是他叫你來的嗎？ ","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq2/samal_eph/player_proposal_1/choice_3

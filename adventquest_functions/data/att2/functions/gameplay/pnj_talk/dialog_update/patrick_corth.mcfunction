@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/patrick_corth
 
+scoreboard players set patrick_corth_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score patrick_corth_PNJ DIALOG matches 4 run function att2:dialogs/sidequest/sq9/patrick_corth/dialog_4
 execute as @a[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:dialogs/sidequest/sq9/patrick_corth/dialog_3

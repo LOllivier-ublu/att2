@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Nojélanth forest"},
+        "description": {"translate":"Discover the panorama of the Nojélanth forest"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_nojelanth_past",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "panorama_nojelanth_forest": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

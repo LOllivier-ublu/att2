@@ -1,0 +1,302 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "title": {"translate":"Tier 4 Trigger"},
+        "description": {"translate":"TEST"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:treasure/root",
+    "rewards": {
+        "function": "att2:advancement/test_all/treasure/lootchest_tier4"
+            },
+    "criteria": {
+        "lootchest_reg1c4t1_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t1"
+            }
+        },
+        "lootchest_reg1c4t2_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t2"
+            }
+        },
+        "lootchest_reg1c4t3_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t3"
+            }
+        },
+        "lootchest_reg1c4t4_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t4"
+            }
+        },
+        "lootchest_reg1c4t5_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t5"
+            }
+        },
+        "lootchest_reg1c4t6_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t6"
+            }
+        },
+        "lootchest_reg1c4t7_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t7"
+            }
+        },
+        "lootchest_reg1c4t8_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t8"
+            }
+        },
+        "lootchest_reg1c4t9_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t9"
+            }
+        },
+        "lootchest_reg1c4t10_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg1/c4t10"
+            }
+        },
+        "lootchest_reg2c4t1_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t1"
+            }
+        },
+        "lootchest_reg2c4t2_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t2"
+            }
+        },
+        "lootchest_reg2c4t3_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t3"
+            }
+        },
+        "lootchest_reg2c4t4_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t4"
+            }
+        },
+        "lootchest_reg2c4t5_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t5"
+            }
+        },
+        "lootchest_reg2c4t6_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t6"
+            }
+        },
+        "lootchest_reg2c4t7_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t7"
+            }
+        },
+        "lootchest_reg2c4t8_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t8"
+            }
+        },
+        "lootchest_reg2c4t9_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t9"
+            }
+        },
+        "lootchest_reg2c4t10_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg2/c4t10"
+            }
+        },
+        "lootchest_reg3c4t1_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t1"
+            }
+        },
+        "lootchest_reg3c4t2_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t2"
+            }
+        },
+        "lootchest_reg3c4t3_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t3"
+            }
+        },
+        "lootchest_reg3c4t4_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t4"
+            }
+        },
+        "lootchest_reg3c4t5_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t5"
+            }
+        },
+        "lootchest_reg3c4t6_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t6"
+            }
+        },
+        "lootchest_reg3c4t7_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t7"
+            }
+        },
+        "lootchest_reg3c4t8_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t8"
+            }
+        },
+        "lootchest_reg3c4t9_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t9"
+            }
+        },
+        "lootchest_reg3c4t10_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg3/c4t10"
+            }
+        },
+        "lootchest_reg4c4t1_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t1"
+            }
+        },
+        "lootchest_reg4c4t2_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t2"
+            }
+        },
+        "lootchest_reg4c4t3_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t3"
+            }
+        },
+        "lootchest_reg4c4t4_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t4"
+            }
+        },
+        "lootchest_reg4c4t5_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t5"
+            }
+        },
+        "lootchest_reg4c4t6_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t6"
+            }
+        },
+        "lootchest_reg4c4t7_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t7"
+            }
+        },
+        "lootchest_reg4c4t8_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t8"
+            }
+        },
+        "lootchest_reg4c4t9_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t9"
+            }
+        },
+        "lootchest_reg4c4t10_trigger": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "att2:chest/reg4/c4t10"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lootchest_reg1c4t1_trigger",
+            "lootchest_reg1c4t2_trigger",
+            "lootchest_reg1c4t3_trigger",
+            "lootchest_reg1c4t4_trigger",
+            "lootchest_reg1c4t5_trigger",
+            "lootchest_reg1c4t6_trigger",
+            "lootchest_reg1c4t7_trigger",
+            "lootchest_reg1c4t8_trigger",
+            "lootchest_reg1c4t9_trigger",
+            "lootchest_reg1c4t10_trigger",
+            "lootchest_reg2c4t1_trigger",
+            "lootchest_reg2c4t2_trigger",
+            "lootchest_reg2c4t3_trigger",
+            "lootchest_reg2c4t4_trigger",
+            "lootchest_reg2c4t5_trigger",
+            "lootchest_reg2c4t6_trigger",
+            "lootchest_reg2c4t7_trigger",
+            "lootchest_reg2c4t8_trigger",
+            "lootchest_reg2c4t9_trigger",
+            "lootchest_reg2c4t10_trigger",
+            "lootchest_reg3c4t1_trigger",
+            "lootchest_reg3c4t2_trigger",
+            "lootchest_reg3c4t3_trigger",
+            "lootchest_reg3c4t4_trigger",
+            "lootchest_reg3c4t5_trigger",
+            "lootchest_reg3c4t6_trigger",
+            "lootchest_reg3c4t7_trigger",
+            "lootchest_reg3c4t8_trigger",
+            "lootchest_reg3c4t9_trigger",
+            "lootchest_reg3c4t10_trigger",
+            "lootchest_reg4c4t1_trigger",
+            "lootchest_reg4c4t2_trigger",
+            "lootchest_reg4c4t3_trigger",
+            "lootchest_reg4c4t4_trigger",
+            "lootchest_reg4c4t5_trigger",
+            "lootchest_reg4c4t6_trigger",
+            "lootchest_reg4c4t7_trigger",
+            "lootchest_reg4c4t8_trigger",
+            "lootchest_reg4c4t9_trigger",
+            "lootchest_reg4c4t10_trigger"
+        ]
+    ]
+}

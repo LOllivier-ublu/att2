@@ -8,9 +8,14 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"Prenez aussi cet insigne. Je l'ai trouvé dans les décombres juste avant que vous reveniez. Il devait appartenir à un groupuscule dans la région, je vous laisse découvrir son utilité, je n'en ai pas besoin...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Prenez aussi cet insigne. Je l'ai trouvé dans les décombres juste avant que vous reveniez. Il devait appartenir à un groupuscule dans la région, je vous laisse découvrir son utilité, je n'en ai pas besoin...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"Take this badge as well. I found it in the rubble just before you came back. It must have belonged to a small group in the region, I'll let you discover its usefulness, I don't need it...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Take this badge as well. I found it in the rubble just before you came back. It must have belonged to a small group in the region, I'll let you discover its usefulness, I don't need it...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"也拿這個徽章。就在你回來之前， 我在瓦礫中找到了它。肯定是屬於區域內的一個小團體， 我讓你發現它的用處， 我不需要它...","color":"dark_aqua"}]}

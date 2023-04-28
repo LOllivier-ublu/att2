@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Maybe, but without wanting to seem rude, Relgon was responsible for exploits going far beyond anything anyone has ever accomplished.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"也許吧， 但不想顯得粗魯， Relgon 負責的漏洞遠遠超出了任何人曾經做過的任何事情。","color":"dark_aqua"}]}

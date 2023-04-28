@@ -8,9 +8,14 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"SELENE !! Je t'ai enfin retrouvé ! Que fais-tu Korlaph ?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"SELENE !! Je t'ai enfin retrouvé ! Que fais-tu Korlaph ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Emerald : ","color":"green","extra":[{"text":"SELENE!! I finally found you! What are you doing Korlaph?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"SELENE!! I finally found you! What are you doing Korlaph?","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"賽琳娜！ ！ 我終於找到你了！ 你在做什麼考拉夫？ ","color":"dark_aqua"}]}

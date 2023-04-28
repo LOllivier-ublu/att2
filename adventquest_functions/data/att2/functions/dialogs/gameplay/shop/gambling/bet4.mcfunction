@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","e
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Bet 4>","bold":false,"color":"blue","extra":[{"text":" [500 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_4"},"hoverEvent":{"action":"show_text","value":"Click here to make this bet!"}}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<投注 4>","bold":false,"color":"blue","extra":[{"text":" [500 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[nbt={UUID:[I;0,5242,0,5242]},distance=..10] at @s if score launch GAMBLING matches 0 run function att2:gameplay/shop/gambling/bets/chronoton_trigg_4"},"hoverEvent":{"action":"show_text","value":"單擊此處進行此賭注！ "}}]}]}

@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/marlene
 
+scoreboard players set marlene_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score marlene_PNJ DIALOG matches 5..5 run function att2:dialogs/sidequest/sq31/marlene/dialog_5
 execute as @a[distance=..7] if score marlene_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq31/marlene/dialog_4

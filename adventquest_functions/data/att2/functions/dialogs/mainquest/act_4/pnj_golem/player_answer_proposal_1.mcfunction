@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[I wish to shorten my stay in this kingdom, but I won't leave whitout what I came for. So help me, noble... thing and I will leave at once. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @a[x=-871,y=70,z=-641,distance=..10,gamemode=adventure] if score golem_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_golem/answer_green_1"},"hoverEvent":{"action":"show_text","value":"Click here - answer 1"}}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[我希望縮短我在這個王國的停留時間， 但我不會離開我的目的。所以幫幫我吧， 高貴的...東西， 我馬上就走。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @a[x=-871,y=70,z=-641,distance=..10,gamemode=adventure] if score golem_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_golem/answer_green_1"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}

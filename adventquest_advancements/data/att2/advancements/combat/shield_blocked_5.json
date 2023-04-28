@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {"translate":"Shield Apprentice."},
+        "description": {"translate":"Deflect 5 attacks with your shield"}
+    },
+    "parent": "att2:combat/deflect_arrow",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+                },
+    "criteria": {
+        "shield_blocked_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -3,6 +3,15 @@
 #Delete all existing score for test								#
 #################################################################
 
+# Arena
+scoreboard objectives remove ARENA
+
+# Nightmare Run
+scoreboard objectives remove NIGHTMARERUN
+
+# Combo
+scoreboard objectives remove COMBO
+
 #advancement
 advancement revoke @a everything
 scoreboard objectives remove EXPLOIT
@@ -105,6 +114,15 @@ scoreboard objectives remove statJORIN
 scoreboard objectives remove TIMEPLAY
 
 scoreboard objectives remove HOUSE
+scoreboard objectives remove LOOTCHEST
+scoreboard objectives remove ELITE
+scoreboard objectives remove SUPERELITE
+
+# Random
+scoreboard objectives remove RNG_Constant
+scoreboard objectives remove RNG10_Variable
+scoreboard objectives remove RNG100_Variable
+scoreboard objectives remove RNG1000_Variable
 
 # Language
 scoreboard objectives remove LANGUAGE
@@ -333,6 +351,10 @@ scoreboard objectives remove BASE_HEM
 
 # Dimension
 scoreboard objectives remove DIMENSION
+scoreboard objectives remove statDIMENSION
+scoreboard objectives remove TP_ANGBAND
+scoreboard objectives remove TP_BILLGART
+scoreboard objectives remove TP_OURANOS
 
 # Temperature
 scoreboard objectives remove TEMPERATURE
@@ -423,6 +445,7 @@ scoreboard objectives remove MUSIC_B_TIMER
 scoreboard objectives remove SOUNDLIM_HOSTILE
 scoreboard objectives remove SOUNDLIM_NEUTRAL
 scoreboard objectives remove MUSIC_BOSS
+scoreboard objectives remove statBATTLE
 
 # Panorama
 scoreboard objectives remove PANORAMA

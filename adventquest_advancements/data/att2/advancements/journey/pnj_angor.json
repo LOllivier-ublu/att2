@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Angor NPC"},
+        "description": {"translate":"Talk to all Angor people"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_angor",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1750
+                },
+    "criteria": {
+        "pnj_angor": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

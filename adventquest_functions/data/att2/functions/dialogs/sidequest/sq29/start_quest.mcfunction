@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Des brigands très encombrants]","colo
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Annoying bandits]","color":"gold"}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[惱人的強盜]","color":"gold"}

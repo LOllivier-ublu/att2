@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/etotsira_young
 
+scoreboard players set etotsira_young_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score etotsira_young_PNJ DIALOG matches 5..5 run function att2:dialogs/mainquest/act_3/pnj_etotsira_young/dialog_5
 execute as @a[distance=..7] if score etotsira_young_PNJ DIALOG matches 4..4 run function att2:dialogs/mainquest/act_3/pnj_etotsira_young/dialog_4

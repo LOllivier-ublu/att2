@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/oswald_flamel
 
+scoreboard players set oswald_flamel_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score oswald_flamel_PNJ DIALOG matches 1..1 run function att2:dialogs/others/oswald_flamel/dialog_1
 

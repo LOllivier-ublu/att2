@@ -3,6 +3,7 @@
 #Start the boss fight for Abmup & Nomit                             #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 scoreboard players set Abmup_Nomit SQ58 0
 execute positioned -7615 15 -4197 run function att2:summon/reg_1/abmup
 execute positioned -7623 15 -4197 run function att2:summon/reg_1/nomit

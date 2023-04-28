@@ -10,8 +10,12 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Il y a une sorte de porte horizontale qui bloque ma progression. Je dois sûrement activer trois mécanismes différents pour l'ouvrir. Je devrais chercher ces mécanismes à l'intérieur de la zone nuageuse pas loin de la porte.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Il y a une sorte de porte horizontale qui bloque ma progression. Je dois sûrement activer trois mécanismes différents pour l'ouvrir. Je devrais chercher ces mécanismes à l'intérieur de la zone nuageuse pas loin de la porte.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"There is a kind of horizontal door that blocks my progress. I must surely activate three different mechanisms to open it. I should look for these mechanisms inside the cloudy area not far from the door.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"There is a kind of horizontal door that blocks my progress. I must surely activate three different mechanisms to open it. I should look for these mechanisms inside the cloudy area not far from the door.","color":"aqua"}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"有一種橫門擋住了我的前進。我必須激活三種不同的機制才能打開它。我應該在離門不遠的多雲區域內尋找這些機制。","color":"aqua"}]}

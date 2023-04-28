@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stripped_jungle_log"
+        },
+        "title": {"translate":"All Helmet"},
+        "description": {"translate":"Find all helmet items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "helmet_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

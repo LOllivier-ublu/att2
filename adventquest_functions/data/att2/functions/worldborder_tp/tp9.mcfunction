@@ -16,3 +16,8 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a","color":"gray","extra":[{"text"
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@a","color":"gray","extra":[{"text":" : "},{"text":"What nostalgia... But I have absolutely no time to wander around a region that I already know very well!","color":"aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a","color":"gray","extra":[{"text":" : "},{"text":"真是懷念啊……不過我沒時間再去探索這個熟悉得不能再熟悉的領地了！","color":"aqua"}]}

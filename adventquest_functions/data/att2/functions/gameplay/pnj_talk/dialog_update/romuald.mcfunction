@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/romuald
 
+scoreboard players set romuald_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score romuald_PNJ DIALOG matches 6..6 run function att2:dialogs/sidequest/sq5/romuald/dialog_6
 execute as @a[distance=..7] if score romuald_PNJ DIALOG matches 5..5 run function att2:dialogs/sidequest/sq5/romuald/dialog_5

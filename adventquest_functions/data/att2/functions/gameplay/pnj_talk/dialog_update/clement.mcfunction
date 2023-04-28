@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/clement
 
+scoreboard players set clement_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score clement_PNJ DIALOG matches 2 run function att2:dialogs/others/clement/dialog_2
 execute as @a[distance=..7] if score clement_PNJ DIALOG matches 1 run function att2:dialogs/others/clement/dialog_1

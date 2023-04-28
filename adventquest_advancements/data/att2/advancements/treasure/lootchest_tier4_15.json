@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": {"translate":"Arduous chest"},
+        "description": {"translate":"Open 15 Arduous chest"}
+    },
+    "parent": "att2:treasure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 250
+                },
+    "criteria": {
+        "lootchest_tier4_15": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

@@ -9,18 +9,24 @@
     "parent": "att2:journey/discover_worlest",
     "rewards": {
         "function": "att2:advancement/exploit_2",
-        "experience": 150
+        "experience": 250
                 },
     "criteria": {
         "discover_volcano": {
             "trigger": "minecraft:location",
-            "conditions": {
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
                 "dimension": "overworld",
                 "position": {
                     "x": {"min":-5546.0,"max":-5386.0},
                     "y": {"min":60.0,"max":150.0},
                     "z": {"min":-5572.0,"max":-5045.0}
-                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

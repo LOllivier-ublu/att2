@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"Checkpoint!"},
+        "description": {"translate":"Discover and activate 2 checkpoints"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 250
+    },
+    "criteria": {
+        "checkpoint_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

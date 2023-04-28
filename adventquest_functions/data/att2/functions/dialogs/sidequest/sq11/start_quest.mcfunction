@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Des semeurs de troubles]","color":"gol
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[Troublemakers]","color":"gold"}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[鬧事者]","color":"gold"}

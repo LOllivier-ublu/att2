@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brown_bed"
+        },
+        "title": {"translate":"Heavy sleeper!"},
+        "description": {"translate":"Sleep in an inn at least 10 times."},
+        "frame": "goal"
+    },
+    "parent": "att2:adventure/inn_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "inn_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

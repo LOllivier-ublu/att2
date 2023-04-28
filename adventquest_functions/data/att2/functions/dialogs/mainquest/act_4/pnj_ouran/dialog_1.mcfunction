@@ -12,9 +12,14 @@ scoreboard players set ouran_PNJ DIALOG -1
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Ouran : ","color":"gold","extra":[{"text":"Insolent, tu ignores vraiment le pouvoir d'un roi-demi-dieu ! La dernière fois n'était qu'un coup de chance ! Tu vas mourir !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Insolent, tu ignores vraiment le pouvoir d'un roi-demi-dieu ! La dernière fois n'était qu'un coup de chance ! Tu vas mourir !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Ouran : ","color":"gold","extra":[{"text":"Disrespectful, you really don't know the power of a king-demigod! Last time you was just lucky! You shall die!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Disrespectful, you really don't know the power of a king-demigod! Last time you was just lucky! You shall die!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"不敬， 你還真不知道半神王的力量！ 上次你是幸運的！ 你會死的！ ","color":"dark_aqua"}]}

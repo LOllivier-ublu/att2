@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Lost chest"},
+        "description": {"translate":"Open 75 Lost chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier10_30",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "lootchest_tier10_75": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+    

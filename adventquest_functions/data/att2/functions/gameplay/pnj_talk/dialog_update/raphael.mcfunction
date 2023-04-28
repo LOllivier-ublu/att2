@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/raphael
 
+scoreboard players set raphael_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score raphael_PNJ DIALOG matches 4 run function att2:dialogs/sidequest/sq31/raphael/dialog_4
 execute as @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:dialogs/sidequest/sq31/raphael/dialog_3

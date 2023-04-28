@@ -7,7 +7,7 @@
         "title": {"translate":"Korlaph"},
         "description": {"translate":"Kill Korlaph boss"},
         "frame": "challenge",
-        "hidden": "true"
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {

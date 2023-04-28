@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mangrove_roots"
+        },
+        "title": {"translate":"All Mass"},
+        "description": {"translate":"Find all mass items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "mass_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

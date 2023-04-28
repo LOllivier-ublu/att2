@@ -40,6 +40,11 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"rukyrion"}}]}] only att2
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"bloodeater"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"blindshield"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"interfacer"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"carminahermetica"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"weaponsking"}}]}] only att2:adventure/myt
 
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fortuity"}}}] only att2:collection/mythique/fortuity
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"blindshield"}}}] only att2:collection/mythique/aveugle_rempart
@@ -54,10 +59,29 @@ advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fenrir"}}}] only att2:
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"rukyrion"}}}] only att2:collection/mythique/rukyrion
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}}}] only att2:collection/mythique/interfacer
 advancement grant @a[nbt={Inventory:[{tag:{Tags:["IFDahalMagasin"]}}]}] only att2:collection/mythique/interfacer_magazine
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"carminahermetica"}}]}] only att2:collection/mythique/carmina_hermetica
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] only att2:collection/mythique/corpus_hermeticum
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only att2:collection/mythique/liber_hermetis
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:collection/mythique/thrice_greatest_hermes
+advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"weaponsking"}}}] only att2:collection/mythique/weaponsking
+
+# SURVIVE (TIME SINCE DEATH)
+advancement grant @a[scores={TIMESINCEDEATH=24000..}] only att2:adventure/survive_1day
+advancement grant @a[scores={TIMESINCEDEATH=72000..}] only att2:adventure/survive_1cycle
+advancement grant @a[scores={TIMESINCEDEATH=168000..}] only att2:adventure/survive_1week
+advancement grant @a[scores={TIMESINCEDEATH=720000..}] only att2:adventure/survive_1month
+
+# INN
+advancement grant @a[scores={INN=1..}] only att2:adventure/inn_1
+advancement grant @a[scores={INN=10..}] only att2:adventure/inn_10
+execute if score albert_dirac INN matches 1 if score amariel_kaleb INN matches 1 if score gonon INN matches 1 if score nestor INN matches 1 if score salma_neyith INN matches 1 run advancement grant @a only att2:adventure/inn_all
 
 ### EQUIPMENT FULL SET
+# HERMETIQUE
+advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{SetId:"99"}},{Slot:102b,tag:{SetId:"99"}},{Slot:101b,tag:{SetId:"99"}},{Slot:100b,tag:{SetId:"99"}}]}] only att2:adventure/hermetique_fullset
+
 # REMARQUABLE
-advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{Effect:"dar2_str_1_has_1",SetId:"1"}},{Slot:102b,tag:{Effect:"dar2_str_1_res_1",SetId:"1"}},{Slot:101b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}},{Slot:100b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}}]}] only att2:adventure/dahal_apprentice
+advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{Effect:"dar2_str_1_has_1",SetId:"1"}},{Slot:102b,tag:{Effect:"dar2_res_1",SetId:"1"}},{Slot:101b,tag:{Effect:"dar2_str_1",SetId:"1"}},{Slot:100b,tag:{Effect:"dar2_str_1_spd_1",SetId:"1"}}]}] only att2:adventure/dahal_apprentice
 
 # STUPEFIANT
 advancement grant @a[nbt={Inventory:[{Slot:103b,tag:{Effect:"dar3_str_1",SetId:"2"}},{Slot:102b,tag:{Effect:"dar3_str_1_res_1",SetId:"2"}},{Slot:101b,tag:{Effect:"dar3_str_1_res_1",SetId:"2"}},{Slot:100b,tag:{Effect:"dar2_str_1",SetId:"2"}}]}] only att2:adventure/dahal_master
@@ -101,6 +125,7 @@ advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet"},{S
 advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:chainmail_helmet"},{Slot:102b,id:"minecraft:chainmail_chestplate"},{Slot:101b,id:"minecraft:chainmail_leggings"},{Slot:100b,id:"minecraft:chainmail_boots"}]}] only att2:adventure/chainmail_armor_full
 advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:iron_helmet"},{Slot:102b,id:"minecraft:iron_chestplate"},{Slot:101b,id:"minecraft:iron_leggings"},{Slot:100b,id:"minecraft:iron_boots"}]}] only att2:adventure/iron_armor_full
 advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:diamond_helmet"},{Slot:102b,id:"minecraft:diamond_chestplate"},{Slot:101b,id:"minecraft:diamond_leggings"},{Slot:100b,id:"minecraft:diamond_boots"}]}] only att2:adventure/diamond_armor_full
+advancement grant @a[nbt={Inventory:[{Slot:103b,id:"minecraft:netherite_helmet"},{Slot:102b,id:"minecraft:netherite_chestplate"},{Slot:101b,id:"minecraft:netherite_leggings"},{Slot:100b,id:"minecraft:netherite_boots"}]}] only att2:adventure/netherite_armor_full
 
 # EQUIPMENT SET RARITY
 advancement grant @a[nbt={SelectedItem:{tag:{Rarity:"com"}},Inventory:[{Slot:103b,tag:{Rarity:"com"}},{Slot:102b,tag:{Rarity:"com"}},{Slot:101b,tag:{Rarity:"com"}},{Slot:100b,tag:{Rarity:"com"}},{Slot:-106b,tag:{Rarity:"com"}}]}] only att2:adventure/com_full_set

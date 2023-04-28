@@ -13,4 +13,5 @@ function att2:physicmod/reg4/somniophages_end
 function att2:gameplay/boss/ouranos/somniophages/destroy_minions
 execute in minecraft:overworld run spawnpoint @a 6788 127 7067
 
-advancement grant @a only att2:hunting/somniophages
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/somniophages
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/somniophages_master

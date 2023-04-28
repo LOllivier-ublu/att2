@@ -11,4 +11,4 @@ tag @s remove UtoES
 
 scoreboard players set Owlkar_button_es OWSASTR 1
 setblock -5036 73 -4367 minecraft:air
-execute unless score Owlkar OWSASTR matches 4 positioned -5046 72 -4377 run function att2:summon/reg_1/skeletonarcher3_class4
+execute unless score Owlkar OWSASTR matches 4 positioned -5046 72 -4377 run function att2:summon/reg_1/owlkar_minion

@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- La fin d'un Voyage -°- : ","color
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The End of a Journey -°- : ","color":"gray","extra":[{"text":"I figured it out, I have to go to Eolorion now to join Emerald. He told me he would be in the inn.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 有其母必有其女 -°- : ","color":"gray","extra":[{"text":"一路上疑問更多了， 我還是得去Eolorion看看。和Emerald在那邊旅店見面吧。","color":"aqua","italic":true}]}

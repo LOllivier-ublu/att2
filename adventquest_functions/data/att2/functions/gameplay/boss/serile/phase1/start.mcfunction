@@ -3,6 +3,7 @@
 #Start the boss fight for Phase1                               		#
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 gamerule doDaylightCycle false
 time set 18000
 stopsound @a

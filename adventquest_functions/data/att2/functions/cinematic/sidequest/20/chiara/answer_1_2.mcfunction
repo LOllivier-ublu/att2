@@ -5,7 +5,7 @@
 
 scoreboard players set chiara_PNJ DIALOG 8
 function att2:gameplay/reputation/remove_2
-scoreboard players set @s CHRONOTON 200
+scoreboard players add @s CHRONOTON 200
 function att2:physicmod/reg1/earndhel/chiara_door_open
 
 advancement grant @a only att2:adventure/home_sweet_home

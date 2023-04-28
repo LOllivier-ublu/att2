@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/garret_temeral
 
+scoreboard players set garret_temeral_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score garret_temeral_PNJ DIALOG matches 5..5 run function att2:dialogs/sidequest/sq16/garret_temeral/dialog_5
 execute as @a[distance=..7] if score garret_temeral_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq16/garret_temeral/dialog_4

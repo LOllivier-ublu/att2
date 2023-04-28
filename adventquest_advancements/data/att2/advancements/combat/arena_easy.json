@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"EASY ARENA"},
+        "description": {"translate":"Complete the arena event in easy difficulty."}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+                },
+    "criteria": {
+        "arena_easy": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

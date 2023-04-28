@@ -10,3 +10,7 @@ title @s[scores={LANGUAGE=0}] actionbar {"text":"~ ","color":"dark_red","extra":
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"Panorama discovered","color":"dark_green"},{"text":" ~","color":"dark_red"}]}
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"發現全景","color":"dark_green"},{"text":" ~","color":"dark_red"}]}

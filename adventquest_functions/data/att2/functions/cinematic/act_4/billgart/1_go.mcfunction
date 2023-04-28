@@ -13,5 +13,5 @@ execute if score End0 TIMER matches 1 run scoreboard players set Mainquest SIDEQ
 #end of the cinematic	#
 #=======================#
 
-execute if score End0 TIMER matches 1.. in minecraft:the_end run setblock -637 93 -625 minecraft:air
+execute if score End0 TIMER matches 1.. in minecraft:the_end run setblock -634 93 -621 minecraft:air
 execute if score End0 TIMER matches ..0 run function att2:cinematic/end0_iteration

@@ -10,8 +10,12 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ça empire de plus en plus, mais j'ai désactivé d'autres portes d'accès à l'étage.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ça empire de plus en plus, mais j'ai désactivé d'autres portes d'accès à l'étage.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"It gets worse and worse, but I disabled other doors to the floor.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"It gets worse and worse, but I disabled other doors to the floor.","color":"aqua"}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"它變得越來越糟， 但我禁用了地板上的其他門。","color":"aqua"}]}

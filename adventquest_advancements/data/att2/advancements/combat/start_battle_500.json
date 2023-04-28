@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {"translate":"Mercenary"},
+        "description": {"translate":"Entering a fight for the 500th time!"}
+    },
+    "parent": "att2:combat/start_battle_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 1000
+                },
+    "criteria": {
+        "start_battle_500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

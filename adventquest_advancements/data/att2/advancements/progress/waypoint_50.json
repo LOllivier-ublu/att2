@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "title": {"translate":"Beam me up, Scotty!"},
+        "description": {"translate":"Use a waypoint 50 times."},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/waypoint_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 5000
+    },
+    "criteria": {
+        "waypoint_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

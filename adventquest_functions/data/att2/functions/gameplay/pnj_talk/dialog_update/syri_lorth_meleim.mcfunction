@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/syri_lorth_meleim
 
+scoreboard players set syri_lorth_meleim_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score syri_lorth_meleim_PNJ DIALOG matches 6..6 run function att2:dialogs/mainquest/act_2/pnj_syri_lorth/dialog_6
 execute as @a[distance=..7] if score syri_lorth_meleim_PNJ DIALOG matches 5..5 run function att2:dialogs/mainquest/act_2/pnj_syri_lorth/dialog_5

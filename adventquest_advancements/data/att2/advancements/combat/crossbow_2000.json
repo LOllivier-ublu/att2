@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"THIS… IS MY BOOMSTICK!"},
+        "description": {"translate":"Shoot 2000 arrows with your crossbow"},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/crossbow_1000",
+    "rewards": {
+        "function": "att2:advancement/exploit_40",
+        "experience": 10000
+                },
+    "criteria": {
+        "crossbow_2000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

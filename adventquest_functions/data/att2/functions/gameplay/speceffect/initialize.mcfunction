@@ -5,3 +5,4 @@
 
 function att2:gameplay/speceffect/black_fading/initialize
 function att2:gameplay/speceffect/shaking/initialize
+function att2:gameplay/speceffect/random/initialize

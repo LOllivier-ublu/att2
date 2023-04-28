@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Retrouver Mia -°- : ","color":"gr
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Find Mia -°- : ","color":"gray","extra":[{"text":"Thanks to Alphonse I know where I might find Mia. Apparently, I should look for a cavern deep into the forest along the river that hugs the fields.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 尋狗大作戰 -°- : ","color":"gray","extra":[{"text":"Alphonse建議我去森林深處一條河流旁的洞穴裡看看， 說不定小狗勾就在那裡。","color":"aqua","italic":true}]}

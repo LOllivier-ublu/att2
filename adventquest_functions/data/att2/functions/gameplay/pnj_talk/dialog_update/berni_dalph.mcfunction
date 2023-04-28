@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/berni_dalph
 
+scoreboard players set berni_dalph_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score berni_dalph_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq6/berni_dalph/dialog_4
 execute as @a[distance=..7] if score berni_dalph_PNJ DIALOG matches 3..3 run function att2:dialogs/sidequest/sq6/berni_dalph/dialog_3

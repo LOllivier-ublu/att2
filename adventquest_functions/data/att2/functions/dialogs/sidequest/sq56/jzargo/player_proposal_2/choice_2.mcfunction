@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0},x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] {"selec
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1},x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[*in a hushed voice* All of that for this, I wanted to screw him over... *in a higher tone* There, I forgive you, J'zargo. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @s[x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] if score proposal_2 SQ56 matches 0 run function att2:cinematic/sidequest/56/jzargo/answer_2_2"},"hoverEvent":{"action":"show_text","value":"Click here - answer 2"}}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2},x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[*低聲*所有這一切， 我想把他搞砸... *用更高的語氣*在此， 我原諒你， J'zargo。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @s[x=-5218,y=143,z=-6282,dx=-22,dy=3,dz=-22] if score proposal_2 SQ56 matches 0 run function att2:cinematic/sidequest/56/jzargo/answer_2_2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}

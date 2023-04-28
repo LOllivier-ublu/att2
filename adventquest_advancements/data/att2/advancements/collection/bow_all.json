@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo_block"
+        },
+        "title": {"translate":"All Bow"},
+        "description": {"translate":"Find all bow items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "bow_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

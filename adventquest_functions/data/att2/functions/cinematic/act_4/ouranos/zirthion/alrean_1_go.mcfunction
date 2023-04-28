@@ -30,7 +30,7 @@ execute if score Real0 TIMER matches 1151 run tellraw @a {"text":"[-->]","color"
 execute if score Real0 TIMER matches 1250 run function att2:dialogs/mainquest/act_4/ch4_alrean_6
 execute if score Real0 TIMER matches 1251 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 1251..1999 run scoreboard players set Real0 TIMER 1999"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 2000 run function att2:dialogs/mainquest/act_4/ch4_player_11
-execute if score Real0 TIMER matches 2051 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 2051..2049 run scoreboard players set Real0 TIMER 2049"},"hoverEvent":{"action":"show_text","value":"..."}}
+execute if score Real0 TIMER matches 2001 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 2001..2049 run scoreboard players set Real0 TIMER 2049"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 2050 run function att2:dialogs/mainquest/act_4/ch4_alrean_7
 execute if score Real0 TIMER matches 2051 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute if score Real0 TIMER matches 2051..2299 run scoreboard players set Real0 TIMER 2299"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Real0 TIMER matches 2300 run function att2:dialogs/mainquest/act_4/ch4_player_12

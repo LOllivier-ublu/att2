@@ -7,6 +7,9 @@
 #100.. - the quest is completed    							#
 #############################################################
 
+# Step 1 when Player enter the cave
+execute if score SQ25 SIDEQUEST matches 1 if entity @a[x=-4567,y=70,z=-5162,distance=..5] run fill -4584 66 -5138 -4583 66 -5138 minecraft:air
+
 # Step 2 when Player take Tina Jacket in cave
 execute if score SQ25 SIDEQUEST matches 1 if entity @a[x=-4623,y=71,z=-5053,distance=..5,nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oTina's Jacket\"}"]}}}]}] run function att2:cinematic/sidequest/25/step2
 

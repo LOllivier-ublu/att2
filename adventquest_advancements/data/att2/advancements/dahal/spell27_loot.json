@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Spectral Axe"},
+        "description": {"translate":"Find Spectral Axe spell"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell27_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

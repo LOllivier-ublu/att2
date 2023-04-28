@@ -3,6 +3,7 @@
 #Start the boss fight for Torkant                                   #
 #####################################################################
 
+scoreboard players set in_fight BOSS 1
 scoreboard players set Torkant_timer1 SQ52 0
 scoreboard players set Torkant SQ52 0
 execute positioned -5514 16 -4155 run function att2:summon/reg_1/torkant

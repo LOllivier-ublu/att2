@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/violette
 
+scoreboard players set violette_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score violette_PNJ DIALOG matches 4 run function att2:dialogs/sidequest/sq36/violette/dialog_4
 execute as @a[distance=..7] if score violette_PNJ DIALOG matches 3 run function att2:dialogs/sidequest/sq36/violette/dialog_3

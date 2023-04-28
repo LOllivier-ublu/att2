@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:white_candle"
+        },
+        "title": {"translate":"Misc selling"},
+        "description": {"translate":"Sell 1000 misc items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/sold_1000",
+        "rewards": {
+            "function": "att2:advancement/exploit_30",
+            "experience": 5000
+    },
+    "criteria": {
+        "sold_misc_1000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

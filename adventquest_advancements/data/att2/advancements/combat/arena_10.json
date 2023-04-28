@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glow_item_frame"
+        },
+        "title": {"translate":"DIMENTIONAL SPACETIME CHAMPION ARENA"},
+        "description": {"translate":"Complete all arenas ten times."},
+        "frame": "challenge"
+    },
+    "parent": "att2:combat/arena_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "arena_10": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

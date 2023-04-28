@@ -6,12 +6,17 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Frowin Nepheris : ","color":"green","extra":[{"text":"Les agitateurs n'ont pas l'air décidé à partir ! Allez leur botter le train...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Les agitateurs n'ont pas l'air décidé à partir ! Allez leur botter le train...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"The agitators don't seem to have decided to leave! Go and kick their train ...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"煽動者似乎還沒有決定離開！ 去踢他們的火車...","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq11/frowin_nepheris/player_proposal_2/choice_1

@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Archéologue en herbe -°- : ","co
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Budding archaeologist -°- : ","color":"gray","extra":[{"text":"Walton was looking for the artifact I found in the catacombs of Eol Cemetery. He seemed to know how and where to use it. He told me to find him in the ruins of Schestrown north of the Owsästr swamp.","color":"aqua","italic":true}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 初露頭角的考古家 -°- : ","color":"gray","extra":[{"text":"Walton仔細研究了我從Eol墓園帶回來的遺物， 他好像知道了該怎麼使用這件東西了。去Owsastr沼澤北邊的Schestrown遺跡和Walton碰面。","color":"aqua","italic":true}]}

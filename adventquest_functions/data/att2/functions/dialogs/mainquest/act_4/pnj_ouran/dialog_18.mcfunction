@@ -11,12 +11,19 @@ scoreboard players set Real0 TIMER 1499
 scoreboard players set ouran_PNJ DIALOG -2
 scoreboard players set Ouran OURANOS -2
 
+advancement grant @a only att2:adventure/ouran_nofight
+
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Ouran : ","color":"gold","extra":[{"text":"Dans ce cas, prend la gemme, elle est à toi. Mais ne t'avise pas de revenir ici, sinon avec la tête de cette princesse dans une poche...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Dans ce cas, prend la gemme, elle est à toi. Mais ne t'avise pas de revenir ici, sinon avec la tête de cette princesse dans une poche...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Ouran : ","color":"gold","extra":[{"text":"In that case, take the gem, it's yours. But don't you think about coming back without this princess's head with you...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"In that case, take the gem, it's yours. But don't you think about coming back without this princess's head with you...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"在這種情況下， 拿走寶石， 它是你的。不過你就別想著不帶這個公主的腦袋回來...","color":"dark_aqua"}]}

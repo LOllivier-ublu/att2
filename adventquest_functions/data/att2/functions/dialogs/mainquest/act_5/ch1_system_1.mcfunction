@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Sérile regagne toutes ses vies...","co
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"Sérile regains all her health back...","color":"gray","italic":true}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"Sérile 恢復了她所有的健康...","color":"gray","italic":true}

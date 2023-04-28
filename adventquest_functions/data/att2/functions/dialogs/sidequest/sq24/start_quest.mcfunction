@@ -14,3 +14,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"[Un accrochage malheureux]","color":"go
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[An unfortunate incident]","color":"gold"}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"[不幸的事件]","color":"gold"}

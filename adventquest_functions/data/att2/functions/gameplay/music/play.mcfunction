@@ -3,6 +3,9 @@
 #Start playing a music      							        #
 #################################################################
 
+# Nightmare
+execute if entity @s[scores={DIMENSION=-2,AREA=0}] run function att2:sound/music/nightmare/muixen
+execute if entity @s[scores={DIMENSION=-2,AREA=1}] run function att2:sound/music/nightmare/time_of_end
 
 # Nowhere / timeless
 execute if entity @s[scores={DIMENSION=-1,AREA=0}] run function att2:sound/music/nowhere

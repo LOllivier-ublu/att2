@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/armel_darsan
 
+scoreboard players set armel_darsan_PNJ statDIALOG 1
 #test entity dialog
 
 execute as @a[distance=..7] if score armel_darsan_PNJ DIALOG matches 3..3 run function att2:dialogs/others/armel_darsan/dialog_3

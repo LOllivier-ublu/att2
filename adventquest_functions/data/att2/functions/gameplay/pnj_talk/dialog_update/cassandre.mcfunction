@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/cassandre
 
+scoreboard players set cassandre_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score cassandre_PNJ DIALOG matches 5 run function att2:dialogs/sidequest/sq56/cassandre/dialog_5
 execute as @a[distance=..7] if score cassandre_PNJ DIALOG matches 4 run function att2:dialogs/sidequest/sq50/cassandre/dialog_4

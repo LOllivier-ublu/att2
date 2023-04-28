@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"(-)=(-) Police : ","color":"gray","extr
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"THE PARLIAMENT IS SURROUNDED!! YOU CANNOT ESCAPE..! EXIT THE BUILDING AND PUT YOUR HANDS IN THE AIR!!","color":"dark_red"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"你已經被包圍了！ ！ 你插翅難飛！ 馬上舉起雙手離開大樓！ ","color":"dark_red"}]}

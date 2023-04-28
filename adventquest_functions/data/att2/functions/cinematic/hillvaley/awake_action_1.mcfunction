@@ -3,6 +3,7 @@
 #Process action for awake cinematic				 #
 ##################################################
 
+scoreboard players set update INTRO -2
 setblock 1990 120 2061 minecraft:air
 title @a times 0 80 80
 function att2:dialogs/title/a1_ch0_title1

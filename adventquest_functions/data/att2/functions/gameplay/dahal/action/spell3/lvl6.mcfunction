@@ -3,8 +3,8 @@
 #Inferno lvl6													#
 #################################################################
 
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5,tag=!Undead] run effect give @s minecraft:instant_damage 2 2
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5,tag=Undead] run effect give @s minecraft:instant_health 2 2
+# execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5,tag=!Undead] run effect give @s minecraft:instant_damage 2 2
+# execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5,tag=Undead] run effect give @s minecraft:instant_health 2 2
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run data merge entity @s {Fire:120}
 execute positioned ~1 ~1 ~ run summon minecraft:wither_skull ~ ~ ~ {Motion:[1.0,0.0,0.0]}
 execute positioned ~-1 ~1 ~ run summon minecraft:wither_skull ~ ~ ~ {Motion:[-1.0,0.0,0.0]}
@@ -24,3 +24,12 @@ function att2:gameplay/dahal/action/spell3/cooldown
 scoreboard players add @s SPELL3_LVL 3
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL3_LVL += @s BONUS_XP_SPELL
+
+# Spell launch total count for advancement
+scoreboard players add @s SPELLS_COUNT 1
+
+execute if score @s NUMEROJOUEUR matches 1 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run damage @s 35 minecraft:player_attack by @p[scores={NUMEROJOUEUR=1}]
+execute if score @s NUMEROJOUEUR matches 2 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run damage @s 35 minecraft:player_attack by @p[scores={NUMEROJOUEUR=2}]
+execute if score @s NUMEROJOUEUR matches 3 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run damage @s 35 minecraft:player_attack by @p[scores={NUMEROJOUEUR=3}]
+execute if score @s NUMEROJOUEUR matches 4 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run damage @s 35 minecraft:player_attack by @p[scores={NUMEROJOUEUR=4}]
+execute if score @s NUMEROJOUEUR matches 5 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run damage @s 35 minecraft:player_attack by @p[scores={NUMEROJOUEUR=5}]

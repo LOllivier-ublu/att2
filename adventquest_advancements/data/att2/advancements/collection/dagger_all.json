@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stripped_dark_oak_log"
+        },
+        "title": {"translate":"All Dagger"},
+        "description": {"translate":"Find all dagger items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "dagger_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

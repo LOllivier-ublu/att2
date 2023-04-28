@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/daril_gram
 
+scoreboard players set daril_gram_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score daril_gram_PNJ DIALOG matches 3..3 run function att2:dialogs/sidequest/sq18/daril_gram/dialog_3
 execute as @a[distance=..7] if score daril_gram_PNJ DIALOG matches 2..2 run function att2:dialogs/sidequest/sq18/daril_gram/dialog_2

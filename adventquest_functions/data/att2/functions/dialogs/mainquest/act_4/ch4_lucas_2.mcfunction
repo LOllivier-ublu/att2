@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Lucas : ","color":"green","extra
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Not a word, human of Tellurön. Wind doesn't only brings leaves and clouds, the information flies much quickier than we think.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"一句話也不說， Tellurön 的人類。風帶來的不只是樹葉和雲彩， 信息飛得比我們想像的要快得多。","color":"dark_aqua"}]}

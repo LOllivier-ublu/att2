@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"I am the invincible!"},
+        "description": {"translate":"Discover and activate 200 checkpoints"},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/checkpoint_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+    },
+    "criteria": {
+        "checkpoint_200": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

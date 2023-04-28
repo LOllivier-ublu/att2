@@ -11,3 +11,7 @@ title @a[scores={LANGUAGE=0}] subtitle {"text":"Perdu dans Sylberländ","color":
 #ENGLISH LANGUAGE
 
 title @a[scores={LANGUAGE=1}] subtitle {"text":"Lost in Sylberländ","color":"dark_red"}
+
+#CHINESE LANGUAGE
+
+title @a[scores={LANGUAGE=2}] subtitle {"text":"Sylberländ的迷霧","color":"dark_red"}

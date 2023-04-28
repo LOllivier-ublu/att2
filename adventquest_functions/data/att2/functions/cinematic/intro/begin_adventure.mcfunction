@@ -8,6 +8,8 @@ execute store result score numberRegistered COUNT if entity @a[team=ally]
 fill 788 80 893 802 84 893 minecraft:glass
 # Reset begin proposal
 setblock 641 87 1088 minecraft:air
+# Reset time clock
+function att2:clock/initialize
 
 # Beginning
 gamerule announceAdvancements false

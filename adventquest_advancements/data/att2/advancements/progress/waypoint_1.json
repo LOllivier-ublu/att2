@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "title": {"translate":"Jumping into space"},
+        "description": {"translate":"Use a waypoint for the first time."}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+    },
+    "criteria": {
+        "waypoint_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -9,7 +9,7 @@
     },
     "parent": "att2:journey/root",
     "rewards": {
-        "function": "att2:advancement/exploit_50",
+        "function": "att2:advancement/exploit_75",
         "experience": 100000
                 },
     "criteria": {

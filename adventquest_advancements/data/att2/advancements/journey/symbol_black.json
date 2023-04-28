@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"Black forest Symbol"},
+        "description": {"translate":"Discover all Exploration symbols of the Black forest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/discover_black_forest",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "symbol_black": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

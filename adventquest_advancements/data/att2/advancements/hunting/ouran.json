@@ -7,7 +7,7 @@
         "title": {"translate":"Ouran"},
         "description": {"translate":"Survive Ouran boss"},
         "frame": "challenge",
-        "hidden": "true"
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {

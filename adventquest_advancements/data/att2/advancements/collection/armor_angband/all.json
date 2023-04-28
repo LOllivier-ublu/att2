@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate_gold_ore"
+        },
+        "title": {"translate":"All Eternän Armor"},
+        "description": {"translate":"Find all Eternän armor"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/armor_angband",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 10000
+                },
+    "criteria": {
+        "armor_angband_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Past Academy"},
+        "description": {"translate":"Discover the panorama of the past Nojélanth Academy"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_nojelanth_past",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "panorama_nojelanth_past": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Asurok"},
         "description": {"translate":"Kill Asurok boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
-        "experience": 5000
+        "function": "att2:advancement/exploit_5",
+        "experience": 2000
     },
     "criteria": {
         "asurok": {

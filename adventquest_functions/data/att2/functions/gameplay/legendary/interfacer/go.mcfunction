@@ -30,3 +30,6 @@ execute as @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}},Inventory:[{Slo
 kill @e[scores={SHOOTING_IF=2..},type=!player,nbt={inGround:1b}]
 #Clean arrows security in Inventory player if player pick up the arrow when shoot and bounce on invulnerable ennemis
 execute as @a[nbt={Inventory:[{tag:{Potion:"minecraft:strength",CustomPotionColor:-1}}]}] at @s run clear @s minecraft:tipped_arrow{Potion:"minecraft:strength",CustomPotionColor:-1}
+
+#Dialog if player get the interfacer for the first time
+execute as @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}}},scores={IF_TAKEN=0}] run function att2:gameplay/legendary/interfacer/take

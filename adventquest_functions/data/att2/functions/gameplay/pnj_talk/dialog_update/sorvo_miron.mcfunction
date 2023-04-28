@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/sorvo_miron
 
+scoreboard players set sorvo_miron_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score sorvo_miron_PNJ DIALOG matches 2..2 run function att2:dialogs/sidequest/sq8/sorvo_miron/dialog_2
 execute as @a[distance=..7] if score sorvo_miron_PNJ DIALOG matches 1..1 run function att2:dialogs/sidequest/sq8/sorvo_miron/dialog_1

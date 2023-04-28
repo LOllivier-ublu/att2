@@ -13,3 +13,7 @@ title @s[scores={LANGUAGE=0}] actionbar {"text":"⧼〈","color":"dark_red","ext
 #ENGLISH LANGUAGE
 
 title @s[scores={LANGUAGE=1}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Geyser ready","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+
+#CHINESE LANGUAGE
+
+title @s[scores={LANGUAGE=2}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"“熱泉”已就緒","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}

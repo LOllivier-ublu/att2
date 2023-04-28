@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Present Nojélanth"},
+        "description": {"translate":"Discover the panorama of the present Nojélanth Academy"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_nojelanth_present",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "panorama_nojelanth_present": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

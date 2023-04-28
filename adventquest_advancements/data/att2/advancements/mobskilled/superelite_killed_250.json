@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "title": {"translate":"Super Elite Exterminator"},
+        "description": {"translate":"Kill 250 Super Elite"},
+        "frame": "challenge"
+    },
+    "parent": "att2:mobskilled/superelite_killed_100",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 10000
+    },
+    "criteria": {
+        "superelite_killed_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

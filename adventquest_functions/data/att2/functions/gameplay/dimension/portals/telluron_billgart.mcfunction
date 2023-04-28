@@ -6,7 +6,7 @@
 # In transition from Tellurön
 execute in minecraft:overworld as @e[x=-5071,y=148,z=-4878,dx=0,dy=5,dz=-4] run tp @s -3176.0 126 4935 -180 ~
 # Out transition to Billgart
-execute in minecraft:overworld as @e[x=-3179,y=126,z=4902,dx=5,dy=5,dz=0] in minecraft:the_end run tp @s -639 95 -607.0 -90 ~
+execute in minecraft:overworld as @e[x=-3179,y=126,z=4902,dx=5,dy=5,dz=0] in minecraft:the_end run function att2:gameplay/dimension/portals/tp_to_billgart
 
 # In transition from Billgart
 execute in minecraft:the_end as @e[x=-641,y=94,z=-605,dx=0,dy=5,dz=-5] in minecraft:overworld run tp @s -3176.0 127 4903 0 ~

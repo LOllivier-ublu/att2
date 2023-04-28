@@ -5,6 +5,12 @@
 
 scoreboard objectives add RECYCLER dummy
 scoreboard players set itemtotal_sold RECYCLER 0
+scoreboard players set itemtotal_sold_misc RECYCLER 0
+scoreboard players set itemtotal_sold_com RECYCLER 0
+scoreboard players set itemtotal_sold_unc RECYCLER 0
+scoreboard players set itemtotal_sold_rar RECYCLER 0
+scoreboard players set itemtotal_sold_epi RECYCLER 0
+scoreboard players set itemtotal_sold_leg RECYCLER 0
 scoreboard players set 250 RECYCLER 250
 scoreboard players set 200 RECYCLER 200
 scoreboard players set 100 RECYCLER 100

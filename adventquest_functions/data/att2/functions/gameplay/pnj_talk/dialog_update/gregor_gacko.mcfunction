@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/gregor_gacko
 
+scoreboard players set gregor_gacko_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score gregor_gacko_PNJ DIALOG matches 5..5 run function att2:dialogs/sidequest/sq3/gregor_gacko/dialog_5
 execute as @a[distance=..7] if score gregor_gacko_PNJ DIALOG matches 4..4 run function att2:dialogs/sidequest/sq3/gregor_gacko/dialog_4

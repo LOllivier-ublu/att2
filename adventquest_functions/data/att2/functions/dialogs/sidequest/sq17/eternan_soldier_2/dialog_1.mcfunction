@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Eternan Soldier : ","color":"gre
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"I hope you make good use of my sword. Have a good trip hero!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"我希望你能善用我的劍。祝英雄旅途愉快！ ","color":"dark_aqua"}]}

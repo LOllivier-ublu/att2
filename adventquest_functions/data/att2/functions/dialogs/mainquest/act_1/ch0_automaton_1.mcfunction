@@ -13,4 +13,9 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° AUTOMATE : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° AUTOMATON : ","color":"green","extra":[{"text":"Thank you for your services.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° AUTOMATON : ","color":"green","extra":[{"text":"Thank you for your services.","color":"gray"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° AUTOMATON : ","color":"green","extra":[{"text":"感謝您的配送。","color":"gray"}]}

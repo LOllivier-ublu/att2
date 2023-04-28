@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:green_bed"
+        },
+        "title": {"translate":"The world is the traveler's inn!"},
+        "description": {"translate":"Booked a room in all inn of Sylberländ."},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/inn_10",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 2500
+                },
+    "criteria": {
+        "inn_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

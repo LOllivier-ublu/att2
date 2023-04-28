@@ -6,13 +6,13 @@
         },
         "title": {"translate":"Naër"},
         "description": {"translate":"Kill Naër boss"},
-        "frame": "challenge",
-        "hidden": "true"
+        "frame": "goal",
+        "hidden": true
     },
     "parent": "att2:hunting/root",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
-        "experience": 10000
+        "function": "att2:advancement/exploit_15",
+        "experience": 4500
     },
     "criteria": {
         "naer": {

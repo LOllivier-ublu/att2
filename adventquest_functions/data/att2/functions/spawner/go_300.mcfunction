@@ -448,7 +448,6 @@ execute in minecraft:the_nether positioned 3693 60 3964 if entity @a[distance=5.
 execute in minecraft:the_nether positioned 3662 66 4483 if entity @a[distance=5..20] run function att2:spawner/reg2/palace/wing_ed/magmamedium0_class11_5031
 execute in minecraft:the_nether if score Mainquest SIDEQUEST matches ..90 positioned 3483 88 4539 if entity @a[distance=3..15] run function att2:spawner/reg2/palace/wing_wu/mortal0_class10_5054
 execute in minecraft:the_nether if score Mainquest SIDEQUEST matches ..90 positioned 3484 72 4500 if entity @a[distance=3..15] run function att2:spawner/reg2/palace/wing_up/mortalarcher0_class9_4974
-execute in minecraft:the_nether if score SQ13 SIDEQUEST matches 0..99 positioned 3896 33 3861 if entity @a[distance=5..20] run function att2:spawner/reg2/phoenix/mine/magmasmall0_class10_sq13_3972
 execute in minecraft:the_nether positioned 3484 62 3878 if entity @a[distance=5..30] run function att2:spawner/reg2/angor/road/spider0_class11_3983
 execute in minecraft:the_nether positioned 3561 47 3923 if entity @a[distance=5..30] run function att2:spawner/reg2/angor/road/spider0_class11_3991
 execute in minecraft:the_nether positioned 3576 36 4095 if entity @a[distance=5..25] run function att2:spawner/reg2/angor/road/spider0_class11_4004

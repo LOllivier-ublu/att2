@@ -6,12 +6,17 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"Quelque part, dans les décombres de cette ville ou entre les mains d'un de ces mortels, doit se trouver une arme. Mais pas n'importe laquelle : une hallebarde Eternän que l'on nomma ''Nekr al Felèvsil''. Elle naquit, comme moi, avant les émotions négatives et l'existence de la mort en Angband.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Quelque part, dans les décombres de cette ville ou entre les mains d'un de ces mortels, doit se trouver une arme. Mais pas n'importe laquelle : une hallebarde Eternän que l'on nomma ''Nekr al Felèvsil''. Elle naquit, comme moi, avant les émotions négatives et l'existence de la mort en Angband.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Aldelrion : ","color":"green","extra":[{"text":"Somewhere in the ruins of this town or between the hands of a mortal must be a weapon. But not any weapon: an Eternän halberd which was named ''Nekr al Felèvsil''. It came to existence, like me, before negative emotions and death in Angband.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Somewhere in the ruins of this town or between the hands of a mortal must be a weapon. But not any weapon: an Eternän halberd which was named ''Nekr al Felèvsil''. It came to existence, like me, before negative emotions and death in Angband.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"在這座城鎮的廢墟中或凡人的手中， 一定有武器。但不是任何武器：一把名為“Nekr al Felèvsil”的永恆長戟。它和我一樣， 在 Angband 的負面情緒和死亡之前就已經存在了。","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_1/choice_1

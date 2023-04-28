@@ -70,110 +70,118 @@ execute if score Neth0 TIMER matches 2500 run title @a times 20 150 50
 execute if score Neth0 TIMER matches 2500 run function att2:dialogs/title/credits/translation_title0
 execute if score Neth0 TIMER matches 2500 run function att2:dialogs/title/credits/translation_subtitle0
 execute if score Neth0 TIMER matches 2600 run function att2:dialogs/title/credits/translation_subtitle1
-execute if score Neth0 TIMER matches 2700 run function att2:dialogs/title/credits/thanks_title0
-execute if score Neth0 TIMER matches 2700 run function att2:dialogs/title/credits/thanks_subtitle0
+execute if score Neth0 TIMER matches 2700 run title @a times 20 150 50
+execute if score Neth0 TIMER matches 2700 run function att2:dialogs/title/credits/translation_title1
+execute if score Neth0 TIMER matches 2700 run function att2:dialogs/title/credits/translation_subtitle2
+execute if score Neth0 TIMER matches 2800 run function att2:dialogs/title/credits/translation_subtitle3
 
-execute if score Neth0 TIMER matches 2900 run title @a times 20 500 50
-execute if score Neth0 TIMER matches 2900 run function att2:dialogs/title/credits/testers_title0
-execute if score Neth0 TIMER matches 2900 run function att2:dialogs/title/credits/testers_alpha_subtitle0
-execute if score Neth0 TIMER matches 3000 run function att2:dialogs/title/credits/testers_alpha_subtitle1
-execute if score Neth0 TIMER matches 3100 run function att2:dialogs/title/credits/testers_alpha_subtitle2
-execute if score Neth0 TIMER matches 3200 run function att2:dialogs/title/credits/testers_alpha_subtitle3
-execute if score Neth0 TIMER matches 3300 run function att2:dialogs/title/credits/testers_alpha_subtitle4
-execute if score Neth0 TIMER matches 3400 run function att2:dialogs/title/credits/testers_alpha_subtitle5
+execute if score Neth0 TIMER matches 2900 run title @a times 20 50 50
+execute if score Neth0 TIMER matches 2900 run function att2:dialogs/title/credits/thanks_title0
+execute if score Neth0 TIMER matches 2900 run function att2:dialogs/title/credits/thanks_subtitle0
 
-execute if score Neth0 TIMER matches 3500 run title @a times 20 3000 50
-execute if score Neth0 TIMER matches 3500 run function att2:dialogs/title/credits/testers_title1
-execute if score Neth0 TIMER matches 3500 run function att2:dialogs/title/credits/testers_beta_subtitle0
-execute if score Neth0 TIMER matches 3600 run function att2:dialogs/title/credits/testers_beta_subtitle1
-execute if score Neth0 TIMER matches 3700 run function att2:dialogs/title/credits/testers_beta_subtitle2
-execute if score Neth0 TIMER matches 3800 run function att2:dialogs/title/credits/testers_beta_subtitle3
-execute if score Neth0 TIMER matches 3900 run function att2:dialogs/title/credits/testers_beta_subtitle4
-execute if score Neth0 TIMER matches 4000 run function att2:dialogs/title/credits/testers_beta_subtitle5
-execute if score Neth0 TIMER matches 4100 run function att2:dialogs/title/credits/testers_beta_subtitle6
-execute if score Neth0 TIMER matches 4200 run function att2:dialogs/title/credits/testers_beta_subtitle7
-execute if score Neth0 TIMER matches 4300 run function att2:dialogs/title/credits/testers_beta_subtitle8
-execute if score Neth0 TIMER matches 4400 run function att2:dialogs/title/credits/testers_beta_subtitle9
-execute if score Neth0 TIMER matches 4500 run function att2:dialogs/title/credits/testers_beta_subtitle10
-execute if score Neth0 TIMER matches 4600 run function att2:dialogs/title/credits/testers_beta_subtitle11
-execute if score Neth0 TIMER matches 4700 run function att2:dialogs/title/credits/testers_beta_subtitle12
-execute if score Neth0 TIMER matches 4800 run function att2:dialogs/title/credits/testers_beta_subtitle13
-execute if score Neth0 TIMER matches 4900 run function att2:dialogs/title/credits/testers_beta_subtitle14
-execute if score Neth0 TIMER matches 5000 run function att2:dialogs/title/credits/testers_beta_subtitle15
-execute if score Neth0 TIMER matches 5100 run function att2:dialogs/title/credits/testers_beta_subtitle16
-execute if score Neth0 TIMER matches 5200 run function att2:dialogs/title/credits/testers_beta_subtitle17
-execute if score Neth0 TIMER matches 5300 run function att2:dialogs/title/credits/testers_beta_subtitle18
-execute if score Neth0 TIMER matches 5400 run function att2:dialogs/title/credits/testers_beta_subtitle19
-execute if score Neth0 TIMER matches 5500 run function att2:dialogs/title/credits/testers_beta_subtitle20
-execute if score Neth0 TIMER matches 5600 run function att2:dialogs/title/credits/testers_beta_subtitle21
-execute if score Neth0 TIMER matches 5700 run function att2:dialogs/title/credits/testers_beta_subtitle22
-execute if score Neth0 TIMER matches 5800 run function att2:dialogs/title/credits/testers_beta_subtitle23
-execute if score Neth0 TIMER matches 5900 run function att2:dialogs/title/credits/testers_beta_subtitle24
-execute if score Neth0 TIMER matches 6000 run function att2:dialogs/title/credits/testers_beta_subtitle25
-execute if score Neth0 TIMER matches 6100 run function att2:dialogs/title/credits/testers_beta_subtitle26
-execute if score Neth0 TIMER matches 6200 run function att2:dialogs/title/credits/testers_beta_subtitle27
-execute if score Neth0 TIMER matches 6300 run function att2:dialogs/title/credits/testers_beta_subtitle28
-execute if score Neth0 TIMER matches 6400 run function att2:dialogs/title/credits/testers_beta_subtitle29
-execute if score Neth0 TIMER matches 6500 run function att2:dialogs/title/credits/testers_beta_subtitle30
+execute if score Neth0 TIMER matches 3100 run title @a times 20 500 50
+execute if score Neth0 TIMER matches 3100 run function att2:dialogs/title/credits/testers_title0
+execute if score Neth0 TIMER matches 3100 run function att2:dialogs/title/credits/testers_alpha_subtitle0
+execute if score Neth0 TIMER matches 3200 run function att2:dialogs/title/credits/testers_alpha_subtitle1
+execute if score Neth0 TIMER matches 3300 run function att2:dialogs/title/credits/testers_alpha_subtitle2
+execute if score Neth0 TIMER matches 3400 run function att2:dialogs/title/credits/testers_alpha_subtitle3
+execute if score Neth0 TIMER matches 3500 run function att2:dialogs/title/credits/testers_alpha_subtitle4
+execute if score Neth0 TIMER matches 3600 run function att2:dialogs/title/credits/testers_alpha_subtitle5
 
-execute if score Neth0 TIMER matches 6600 run title @a times 20 1470 50
-execute if score Neth0 TIMER matches 6600 run function att2:dialogs/title/credits/thanks_title1
-execute if score Neth0 TIMER matches 6600 run function att2:dialogs/title/credits/thanks_subtitle1
-execute if score Neth0 TIMER matches 6640 run function att2:dialogs/title/credits/thanks_subtitle2
-execute if score Neth0 TIMER matches 6680 run function att2:dialogs/title/credits/thanks_subtitle3
-execute if score Neth0 TIMER matches 6720 run function att2:dialogs/title/credits/thanks_subtitle4
-execute if score Neth0 TIMER matches 6760 run function att2:dialogs/title/credits/thanks_subtitle5
-execute if score Neth0 TIMER matches 6800 run function att2:dialogs/title/credits/thanks_subtitle6
-execute if score Neth0 TIMER matches 6840 run function att2:dialogs/title/credits/thanks_subtitle7
-execute if score Neth0 TIMER matches 6880 run function att2:dialogs/title/credits/thanks_subtitle8
-execute if score Neth0 TIMER matches 6920 run function att2:dialogs/title/credits/thanks_subtitle9
-execute if score Neth0 TIMER matches 6960 run function att2:dialogs/title/credits/thanks_subtitle10
-execute if score Neth0 TIMER matches 7000 run function att2:dialogs/title/credits/thanks_subtitle11
-execute if score Neth0 TIMER matches 7040 run function att2:dialogs/title/credits/thanks_subtitle12
-execute if score Neth0 TIMER matches 7080 run function att2:dialogs/title/credits/thanks_subtitle13
-execute if score Neth0 TIMER matches 7120 run function att2:dialogs/title/credits/thanks_subtitle14
-execute if score Neth0 TIMER matches 7160 run function att2:dialogs/title/credits/thanks_subtitle15
-execute if score Neth0 TIMER matches 7200 run function att2:dialogs/title/credits/thanks_subtitle16
-execute if score Neth0 TIMER matches 7240 run function att2:dialogs/title/credits/thanks_subtitle17
-execute if score Neth0 TIMER matches 7280 run function att2:dialogs/title/credits/thanks_subtitle18
-execute if score Neth0 TIMER matches 7320 run function att2:dialogs/title/credits/thanks_subtitle19
-execute if score Neth0 TIMER matches 7360 run function att2:dialogs/title/credits/thanks_subtitle20
-execute if score Neth0 TIMER matches 7400 run function att2:dialogs/title/credits/thanks_subtitle21
-execute if score Neth0 TIMER matches 7440 run function att2:dialogs/title/credits/thanks_subtitle22
-execute if score Neth0 TIMER matches 7480 run function att2:dialogs/title/credits/thanks_subtitle23
-execute if score Neth0 TIMER matches 7520 run function att2:dialogs/title/credits/thanks_subtitle24
-execute if score Neth0 TIMER matches 7560 run function att2:dialogs/title/credits/thanks_subtitle25
-execute if score Neth0 TIMER matches 7600 run function att2:dialogs/title/credits/thanks_subtitle26
-execute if score Neth0 TIMER matches 7640 run function att2:dialogs/title/credits/thanks_subtitle27
-execute if score Neth0 TIMER matches 7680 run function att2:dialogs/title/credits/thanks_subtitle28
-execute if score Neth0 TIMER matches 7720 run function att2:dialogs/title/credits/thanks_subtitle29
-execute if score Neth0 TIMER matches 7760 run function att2:dialogs/title/credits/thanks_subtitle30
-execute if score Neth0 TIMER matches 7800 run function att2:dialogs/title/credits/thanks_subtitle31
-execute if score Neth0 TIMER matches 7840 run function att2:dialogs/title/credits/thanks_subtitle32
-execute if score Neth0 TIMER matches 7880 run function att2:dialogs/title/credits/thanks_subtitle33
-execute if score Neth0 TIMER matches 7920 run function att2:dialogs/title/credits/thanks_subtitle34
-execute if score Neth0 TIMER matches 7960 run function att2:dialogs/title/credits/thanks_subtitle35
-execute if score Neth0 TIMER matches 8000 run function att2:dialogs/title/credits/thanks_subtitle36
-execute if score Neth0 TIMER matches 8040 run function att2:dialogs/title/credits/thanks_subtitle37
-execute if score Neth0 TIMER matches 8080 run function att2:dialogs/title/credits/thanks_subtitle38
-execute if score Neth0 TIMER matches 8120 run function att2:dialogs/title/credits/thanks_subtitle39
+execute if score Neth0 TIMER matches 3700 run title @a times 20 3000 50
+execute if score Neth0 TIMER matches 3700 run function att2:dialogs/title/credits/testers_title1
+execute if score Neth0 TIMER matches 3700 run function att2:dialogs/title/credits/testers_beta_subtitle0
+execute if score Neth0 TIMER matches 3800 run function att2:dialogs/title/credits/testers_beta_subtitle1
+execute if score Neth0 TIMER matches 3900 run function att2:dialogs/title/credits/testers_beta_subtitle2
+execute if score Neth0 TIMER matches 4000 run function att2:dialogs/title/credits/testers_beta_subtitle3
+execute if score Neth0 TIMER matches 4100 run function att2:dialogs/title/credits/testers_beta_subtitle4
+execute if score Neth0 TIMER matches 4200 run function att2:dialogs/title/credits/testers_beta_subtitle5
+execute if score Neth0 TIMER matches 4300 run function att2:dialogs/title/credits/testers_beta_subtitle6
+execute if score Neth0 TIMER matches 4400 run function att2:dialogs/title/credits/testers_beta_subtitle7
+execute if score Neth0 TIMER matches 4500 run function att2:dialogs/title/credits/testers_beta_subtitle8
+execute if score Neth0 TIMER matches 4600 run function att2:dialogs/title/credits/testers_beta_subtitle9
+execute if score Neth0 TIMER matches 4700 run function att2:dialogs/title/credits/testers_beta_subtitle10
+execute if score Neth0 TIMER matches 4800 run function att2:dialogs/title/credits/testers_beta_subtitle11
+execute if score Neth0 TIMER matches 4900 run function att2:dialogs/title/credits/testers_beta_subtitle12
+execute if score Neth0 TIMER matches 5000 run function att2:dialogs/title/credits/testers_beta_subtitle13
+execute if score Neth0 TIMER matches 5100 run function att2:dialogs/title/credits/testers_beta_subtitle14
+execute if score Neth0 TIMER matches 5200 run function att2:dialogs/title/credits/testers_beta_subtitle15
+execute if score Neth0 TIMER matches 5300 run function att2:dialogs/title/credits/testers_beta_subtitle16
+execute if score Neth0 TIMER matches 5400 run function att2:dialogs/title/credits/testers_beta_subtitle17
+execute if score Neth0 TIMER matches 5500 run function att2:dialogs/title/credits/testers_beta_subtitle18
+execute if score Neth0 TIMER matches 5600 run function att2:dialogs/title/credits/testers_beta_subtitle19
+execute if score Neth0 TIMER matches 5700 run function att2:dialogs/title/credits/testers_beta_subtitle20
+execute if score Neth0 TIMER matches 5800 run function att2:dialogs/title/credits/testers_beta_subtitle21
+execute if score Neth0 TIMER matches 5900 run function att2:dialogs/title/credits/testers_beta_subtitle22
+execute if score Neth0 TIMER matches 6000 run function att2:dialogs/title/credits/testers_beta_subtitle23
+execute if score Neth0 TIMER matches 6100 run function att2:dialogs/title/credits/testers_beta_subtitle24
+execute if score Neth0 TIMER matches 6200 run function att2:dialogs/title/credits/testers_beta_subtitle25
+execute if score Neth0 TIMER matches 6300 run function att2:dialogs/title/credits/testers_beta_subtitle26
+execute if score Neth0 TIMER matches 6400 run function att2:dialogs/title/credits/testers_beta_subtitle27
+execute if score Neth0 TIMER matches 6500 run function att2:dialogs/title/credits/testers_beta_subtitle28
+execute if score Neth0 TIMER matches 6600 run function att2:dialogs/title/credits/testers_beta_subtitle29
+execute if score Neth0 TIMER matches 6700 run function att2:dialogs/title/credits/testers_beta_subtitle30
 
-execute if score Neth0 TIMER matches 8150 run title @a times 50 200 100
-execute if score Neth0 TIMER matches 8150 run function att2:dialogs/title/subtitle_empty
-execute if score Neth0 TIMER matches 8150 run function att2:dialogs/title/credits/final_title0
-execute if score Neth0 TIMER matches 8300 run function att2:dialogs/title/credits/final_title1
-execute if score Neth0 TIMER matches 8300 run function att2:dialogs/title/credits/final_subtitle0
-execute if score Neth0 TIMER matches 8348 as @a run function att2:gameplay/checkpoint/remove_dimtag
-execute if score Neth0 TIMER matches 8349 in minecraft:overworld run spawnpoint @a 1543 15 1495
-execute if score Neth0 TIMER matches 8350 run scoreboard objectives setdisplay sidebar DAHAL
-execute if score Neth0 TIMER matches 8351 in minecraft:overworld run tp @a 1543.0 15 1495.0
+execute if score Neth0 TIMER matches 6800 run title @a times 20 1650 50
+execute if score Neth0 TIMER matches 6800 run function att2:dialogs/title/credits/thanks_title1
+execute if score Neth0 TIMER matches 6800 run function att2:dialogs/title/credits/thanks_subtitle1
+execute if score Neth0 TIMER matches 6840 run function att2:dialogs/title/credits/thanks_subtitle2
+execute if score Neth0 TIMER matches 6880 run function att2:dialogs/title/credits/thanks_subtitle3
+execute if score Neth0 TIMER matches 6920 run function att2:dialogs/title/credits/thanks_subtitle4
+execute if score Neth0 TIMER matches 6960 run function att2:dialogs/title/credits/thanks_subtitle5
+execute if score Neth0 TIMER matches 7000 run function att2:dialogs/title/credits/thanks_subtitle6
+execute if score Neth0 TIMER matches 7040 run function att2:dialogs/title/credits/thanks_subtitle7
+execute if score Neth0 TIMER matches 7080 run function att2:dialogs/title/credits/thanks_subtitle8
+execute if score Neth0 TIMER matches 7120 run function att2:dialogs/title/credits/thanks_subtitle9
+execute if score Neth0 TIMER matches 7160 run function att2:dialogs/title/credits/thanks_subtitle10
+execute if score Neth0 TIMER matches 7200 run function att2:dialogs/title/credits/thanks_subtitle11
+execute if score Neth0 TIMER matches 7240 run function att2:dialogs/title/credits/thanks_subtitle12
+execute if score Neth0 TIMER matches 7280 run function att2:dialogs/title/credits/thanks_subtitle13
+execute if score Neth0 TIMER matches 7320 run function att2:dialogs/title/credits/thanks_subtitle14
+execute if score Neth0 TIMER matches 7360 run function att2:dialogs/title/credits/thanks_subtitle15
+execute if score Neth0 TIMER matches 7400 run function att2:dialogs/title/credits/thanks_subtitle16
+execute if score Neth0 TIMER matches 7440 run function att2:dialogs/title/credits/thanks_subtitle17
+execute if score Neth0 TIMER matches 7480 run function att2:dialogs/title/credits/thanks_subtitle18
+execute if score Neth0 TIMER matches 7520 run function att2:dialogs/title/credits/thanks_subtitle19
+execute if score Neth0 TIMER matches 7560 run function att2:dialogs/title/credits/thanks_subtitle20
+execute if score Neth0 TIMER matches 7600 run function att2:dialogs/title/credits/thanks_subtitle21
+execute if score Neth0 TIMER matches 7640 run function att2:dialogs/title/credits/thanks_subtitle22
+execute if score Neth0 TIMER matches 7680 run function att2:dialogs/title/credits/thanks_subtitle23
+execute if score Neth0 TIMER matches 7720 run function att2:dialogs/title/credits/thanks_subtitle24
+execute if score Neth0 TIMER matches 7760 run function att2:dialogs/title/credits/thanks_subtitle25
+execute if score Neth0 TIMER matches 7800 run function att2:dialogs/title/credits/thanks_subtitle26
+execute if score Neth0 TIMER matches 7840 run function att2:dialogs/title/credits/thanks_subtitle27
+execute if score Neth0 TIMER matches 7880 run function att2:dialogs/title/credits/thanks_subtitle28
+execute if score Neth0 TIMER matches 7920 run function att2:dialogs/title/credits/thanks_subtitle29
+execute if score Neth0 TIMER matches 7960 run function att2:dialogs/title/credits/thanks_subtitle30
+execute if score Neth0 TIMER matches 8000 run function att2:dialogs/title/credits/thanks_subtitle31
+execute if score Neth0 TIMER matches 8040 run function att2:dialogs/title/credits/thanks_subtitle32
+execute if score Neth0 TIMER matches 8080 run function att2:dialogs/title/credits/thanks_subtitle33
+execute if score Neth0 TIMER matches 8120 run function att2:dialogs/title/credits/thanks_subtitle34
+execute if score Neth0 TIMER matches 8160 run function att2:dialogs/title/credits/thanks_subtitle35
+execute if score Neth0 TIMER matches 8200 run function att2:dialogs/title/credits/thanks_subtitle36
+execute if score Neth0 TIMER matches 8240 run function att2:dialogs/title/credits/thanks_subtitle37
+execute if score Neth0 TIMER matches 8280 run function att2:dialogs/title/credits/thanks_subtitle38
+execute if score Neth0 TIMER matches 8320 run function att2:dialogs/title/credits/thanks_subtitle39
+execute if score Neth0 TIMER matches 8360 run function att2:dialogs/title/credits/thanks_subtitle40
+execute if score Neth0 TIMER matches 8400 run function att2:dialogs/title/credits/thanks_subtitle41
+
+execute if score Neth0 TIMER matches 8500 run title @a times 50 200 100
+execute if score Neth0 TIMER matches 8500 run function att2:dialogs/title/subtitle_empty
+execute if score Neth0 TIMER matches 8500 run function att2:dialogs/title/credits/final_title0
+execute if score Neth0 TIMER matches 8650 run function att2:dialogs/title/credits/final_title1
+execute if score Neth0 TIMER matches 8650 run function att2:dialogs/title/credits/final_subtitle0
+execute if score Neth0 TIMER matches 8698 as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute if score Neth0 TIMER matches 8699 in minecraft:overworld run spawnpoint @a 1543 15 1495
+execute if score Neth0 TIMER matches 8700 run scoreboard objectives setdisplay sidebar DAHAL
+execute if score Neth0 TIMER matches 8701 in minecraft:overworld run tp @a 1543.0 15 1495.0
 
 
 #=======================#
 #end of the cinematic	#
 #=======================#
 
-execute if score Neth0 TIMER matches 8351.. in minecraft:the_nether run setblock 3526 75 4501 minecraft:air
-execute if score Neth0 TIMER matches 511..8350 run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 8701.. in minecraft:the_nether run setblock 3526 75 4501 minecraft:air
+execute if score Neth0 TIMER matches 511..8700 run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 508..509 run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 0..500 run function att2:cinematic/neth0_iteration

@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/rick_palundra
 
+scoreboard players set rick_palundra_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score rick_palundra_PNJ DIALOG matches 1..1 run function att2:dialogs/others/rick_palundra/dialog_1
 

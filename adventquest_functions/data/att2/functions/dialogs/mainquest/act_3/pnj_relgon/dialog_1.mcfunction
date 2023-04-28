@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"The seals of fire and lava are essential to access the den of La Flamme Noire. When you find them, you can place them directly on the large door at the end of the entrance corridor of the Angor fortress.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"要想進入 La Flamme Noire 的栖息之處， 必須先找到烈火之章和炎獄之章。找到後， 將它們放在Angor要塞入口門廊盡頭的大門就可以了。","color":"dark_aqua"}]}

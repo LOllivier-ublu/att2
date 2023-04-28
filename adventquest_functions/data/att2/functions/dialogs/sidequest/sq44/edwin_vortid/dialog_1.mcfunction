@@ -6,12 +6,17 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Edwin Vortid : ","color":"green","extra":[{"text":"Hé toi le curieux, connaitrais-tu l'établissement de Charles ? On y fait des paris de toutes sortes pour avoir la chance de gagner le gros lot ! C'est tellement addictif que j'ai dû vendre une bonne partie de mes biens... Je ne viens pas quémander mais si j'envoie des personnes découvrir ce lieu, Charles m'a dit qu'il me permettrait de faire quelques paris gratuitement pour me refaire !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"Hé toi le curieux, connaitrais-tu l'établissement de Charles ? On y fait des paris de toutes sortes pour avoir la chance de gagner le gros lot ! C'est tellement addictif que j'ai dû vendre une bonne partie de mes biens... Je ne viens pas quémander mais si j'envoie des personnes découvrir ce lieu, Charles m'a dit qu'il me permettrait de faire quelques paris gratuitement pour me refaire !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Edwin Vortid : ","color":"green","extra":[{"text":"Hey you the curious, do you know the establishment of Charles? We make all kinds of bets there, to have the chance to win the jackpot! It's so addictive that I had to sell a good part lot of my goods... I don't come begging but if I send people to discover this place, Charles told me that he would allow me to make some bets free to regain my financial health!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"Hey you the curious, do you know the establishment of Charles? We make all kinds of bets there, to have the chance to win the jackpot! It's so addictive that I had to sell a good part lot of my goods... I don't come begging but if I send people to discover this place, Charles told me that he would allow me to make some bets free to regain my financial health!","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"嘿， 好奇的你， 你知道查爾斯的成立嗎？ 我們在那裡進行各種投注， 有機會贏得大獎！ 太讓人上癮了， 我不得不賣掉我的大部分商品...財務健康！ ","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq44/edwin_vortid/player_proposal_1/choice_1

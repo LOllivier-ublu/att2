@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"Angor palace Symbol"},
+        "description": {"translate":"Discover all Exploration symbols of Angor palace"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/discover_angor_palace",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "symbol_angor_palace": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Obstinacy Pet"},
+        "description": {"translate":"Find Obstinacy Pet spell"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell22_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -10,8 +10,12 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Me voilà enfin à Nojelanth ! Mais je me trouve dans une autre temporalité où tout semble prendre vie... Je dois trouver l'académie et y entrer par n'importe quel moyen.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Me voilà enfin à Nojelanth ! Mais je me trouve dans une autre temporalité où tout semble prendre vie... Je dois trouver l'académie et y entrer par n'importe quel moyen.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I am finally at Nojelanth! But I find myself in another temporality where everything seems to come to life ... I have to find the academy and enter it by any means.","color":"aqua","bold":false}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I am finally at Nojelanth! But I find myself in another temporality where everything seems to come to life ... I have to find the academy and enter it by any means.","color":"aqua"}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於在Nojelanth了！ 但我發現自己處於另一個時間， 一切似乎都變得栩栩如生...我必須找到學院並以任何方式進入它。","color":"aqua"}]}

@@ -13,3 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"< ","color":"dark_red","extra":[{"text"
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"< ","color":"dark_red","extra":[{"text":"Quest accepted","color":"gold"},{"text":" >","color":"dark_red"}]}
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":"< ","color":"dark_red","extra":[{"text":"接受任務","color":"gold"},{"text":" >","color":"dark_red"}]}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "title": {"translate":"Teleportation !"},
+        "description": {"translate":"Use a waypoint 5 times."},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/waypoint_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+    },
+    "criteria": {
+        "waypoint_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

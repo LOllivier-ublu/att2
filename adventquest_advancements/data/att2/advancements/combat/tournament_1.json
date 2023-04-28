@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": {"translate":"TOURNAMENT I"},
+        "description": {"translate":"Complete the first Tournament of arenas event."},
+        "frame": "goal"
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "tournament_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

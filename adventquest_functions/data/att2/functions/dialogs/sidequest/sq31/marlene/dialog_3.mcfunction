@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marlène : ","color":"green","ex
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"So? Any news of Raphael? The kid is certainly not far from the road that connects Ryliath to Eolorion. His cart is not made for walks in the forest or mountain climbing...","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"所以？ 有拉斐爾的消息嗎？ 這孩子肯定離連接Ryliath和Eolorion的道路不遠。他的推車不適合在森林裡散步或爬山...","color":"dark_aqua"}]}

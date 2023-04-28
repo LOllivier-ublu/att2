@@ -9,12 +9,17 @@ scoreboard players set phoebius_PNJ DIALOG 7
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°-° Phoebius : ","color":"green","extra":[{"text":"Navré, je ne vois pas de quoi vous parlez.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Navré, je ne vois pas de quoi vous parlez.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"°-° Phoebius : ","color":"green","extra":[{"text":"I'm sorry, I don't know what you're talking about.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"I'm sorry, I don't know what you're talking about.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"對不起， 我不知道你在說什麼。","color":"dark_aqua"}]}
 
 
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_4

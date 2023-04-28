@@ -15,14 +15,14 @@ execute if score Real0 TIMER matches 250 run function att2:dialogs/mainquest/act
 
 execute if score Real0 TIMER matches 400 run function att2:dialogs/mainquest/act_4/ch5_player_7
 execute if score Real0 TIMER matches 500 run function att2:dialogs/mainquest/act_4/ch5_sylvandre_2
-execute if score Real0 TIMER matches 600 if score heros REPUTATION matches ..149 run function att2:dialogs/mainquest/act_4/ch5_brynhild_2
+execute if score Real0 TIMER matches 600 if score heros REPUTATION matches ..149 unless score Arena KORTAEK matches -1 run function att2:dialogs/mainquest/act_4/ch5_brynhild_2
 execute if score Real0 TIMER matches 600 if score heros REPUTATION matches 150.. run function att2:dialogs/mainquest/act_4/ch5_brynhild_3
 
 execute if score Real0 TIMER matches 601 run scoreboard players set 00000000-0000-105a-0000-00000000105a TALKING 1
 execute if score Real0 TIMER matches 601 run scoreboard players set 00000000-0000-105a-0000-00000000105a TALKING_TIMER 50
 
-execute if score Real0 TIMER matches 650 if score heros REPUTATION matches ..149 run function att2:dialogs/mainquest/act_4/ch5_guard_2 
-execute if score Real0 TIMER matches 700 if score heros REPUTATION matches ..149 run function att2:cinematic/act_4/kert/kortaek/begin_arenafight
+execute if score Real0 TIMER matches 650 if score heros REPUTATION matches ..149 unless score Arena KORTAEK matches -1 run function att2:dialogs/mainquest/act_4/ch5_guard_2 
+execute if score Real0 TIMER matches 700 if score heros REPUTATION matches ..149 unless score Arena KORTAEK matches -1 run function att2:cinematic/act_4/kert/kortaek/begin_arenafight
 
 execute if score Real0 TIMER matches 800 run function att2:dialogs/mainquest/act_4/ch5_player_8
 execute if score Real0 TIMER matches 900 run function att2:dialogs/mainquest/act_4/ch5_brynhild_5

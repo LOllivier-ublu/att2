@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/emerald
 
+scoreboard players set emerald_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score emerald_PNJ DIALOG matches 7 run function att2:dialogs/sidequest/sq28/emerald/dialog_7
 execute as @a[distance=..7] if score emerald_PNJ DIALOG matches 6 run function att2:dialogs/sidequest/sq28/emerald/dialog_6

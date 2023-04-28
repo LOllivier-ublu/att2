@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_chestplate",
+            "nbt": "{CustomModelData:10000001}"
+        },
+        "title": {"translate":"Corpus Hermeticum"},
+        "description": {"translate":"Find the Hermetic Chestplate Mythical set"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "corpus_hermeticum": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

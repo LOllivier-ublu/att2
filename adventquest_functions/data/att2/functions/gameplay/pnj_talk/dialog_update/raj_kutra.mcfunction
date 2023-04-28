@@ -5,6 +5,7 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/raj_kutra
 
+scoreboard players set raj_kutra_PNJ statDIALOG 1
 #test entity dialog
 execute as @a[distance=..7] if score raj_kutra_PNJ DIALOG matches 4..4 run function att2:dialogs/mainquest/act_2/pnj_raj_kutra/dialog_4
 execute as @a[distance=..7] if score raj_kutra_PNJ DIALOG matches 3..3 run function att2:dialogs/mainquest/act_2/pnj_raj_kutra/dialog_3

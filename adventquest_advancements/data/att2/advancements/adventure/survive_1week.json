@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:recovery_compass"
+        },
+        "title": {"translate":"Master Survivor"},
+        "description": {"translate":"Survive 1 week without dying"}
+    },
+    "parent": "att2:adventure/survive_1cycle",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "survive_1week": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

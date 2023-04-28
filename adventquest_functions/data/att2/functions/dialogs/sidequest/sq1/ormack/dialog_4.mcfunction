@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ormack : ","color":"green","extr
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"I learned about the mess you put in our village. For having brought back Malak's crops, I am ready to forgive you.","color":"dark_aqua"}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"我聽說了你在這裡搞出的簍子。嘛不過看在你都把Malak的作物找回來的份上， 就原諒你吧。","color":"dark_aqua"}]}

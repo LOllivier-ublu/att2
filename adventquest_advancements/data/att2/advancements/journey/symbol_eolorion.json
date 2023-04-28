@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "title": {"translate":"Eolorion Symbol"},
+        "description": {"translate":"Discover all Exploration symbols of Eolorion"},
+        "frame": "challenge"
+    },
+    "parent": "att2:journey/discover_eolorion",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "symbol_eolorion": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

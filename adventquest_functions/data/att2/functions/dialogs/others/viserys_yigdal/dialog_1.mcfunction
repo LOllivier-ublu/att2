@@ -6,9 +6,14 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"°-° Viserys Yigdal : ","color":"green","extra":[{"text":"Bonjour, je peux vous faire de bons plats cuisinés et si vous avez besoin de viande cuite j'en vends également.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/viserys_yigdal_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Viserys."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Viserys Yigdal : ","color":"green","extra":[{"text":"Bonjour, je peux vous faire de bons plats cuisinés et si vous avez besoin de viande cuite j'en vends également.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/viserys_yigdal_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Viserys."}}]}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"°-° Viserys Yigdal : ","color":"green","extra":[{"text":"Hello, I can make you good ready meals and if you need cooked meat I also sell it.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/viserys_yigdal_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Viserys is selling."}}]}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Viserys Yigdal : ","color":"green","extra":[{"text":"Hello, I can make you good ready meals and if you need cooked meat I also sell it.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/viserys_yigdal_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Viserys is selling."}}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Viserys Yigdal : ","color":"green","extra":[{"text":"你好， 本店出售預製餐點——如果需要熟肉的話， 我這兒也有卖。","color":"dark_aqua","extra":[{"text":" [看商品 -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/viserys_yigdal_shop_opening"},"hoverEvent":{"action":"show_text","value":"單擊此處查看 Viserys 的銷售情況。"}}]}]}

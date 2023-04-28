@@ -14,6 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Malak : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Hmm, a stranger? He doesn't look very mean, and he won't risk going after an old woman like me ... Maybe he would even help me ? Yes ... He will accept ... All my wheat harvest, gone, gone ! No doubt stolen by another stranger ... That's why we don't like them around here ...","color":"dark_aqua"}]}
 
 
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"嗯， 有生面孔？ 看起來好像不是壞人， 而且還會有誰想懷疑我這個老女人呢... 不過也許他能幫得上忙？ 沒錯...他會的...我的小麥收成都， 不！ 見！ 了！ 肯定是被哪個外地人偷了...這就是為什麼我很討厭他們一直在附近繞來繞去...","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq1/malak/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq1/malak/player_proposal_1/choice_2
 function att2:dialogs/sidequest/sq1/malak/player_proposal_1/choice_3

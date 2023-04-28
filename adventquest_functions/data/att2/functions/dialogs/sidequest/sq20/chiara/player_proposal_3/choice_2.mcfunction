@@ -12,3 +12,8 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 #ENGLISH LANGUAGE
 
 tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[How could I have been so stupid... You had no intention of changing your life. I find you here, in my home... Now, you will have to answer for your actions before King Nolduron... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-065a-0000-00000000065a if entity @s[distance=..7] if score chiara_PNJ DIALOG matches 6..7 run function att2:cinematic/sidequest/20/chiara/answer_2_2"},"hoverEvent":{"action":"show_text","value":"Click here - answer 2"}}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[我怎麼會這麼傻...你沒想過要改變你的生活。我在這裡找到你， 在我家...現在， 你必須在諾杜倫國王面前為你的行為負責... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-065a-0000-00000000065a if entity @s[distance=..7] if score chiara_PNJ DIALOG matches 6..7 run function att2:cinematic/sidequest/20/chiara/answer_2_2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 2"}}]}

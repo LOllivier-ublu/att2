@@ -14,3 +14,8 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@s","color":"dark_red","extra":[{"t
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"I need a ","color":"aqua","extra":[{"text":"<Little Key>","color":"gray","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Clef Maison Eolorion\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§3§oKey of Eolorion House\\\"}\"]}}}"},"extra":[{"text":" to open this door!","color":"aqua"}]}]}]}
+
+
+#CHINESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"我需要一個 ","color":"aqua","extra":[{"text":"<Little Key>","color":"gray","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Clef Maison Eolorion\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§3§oKey of Eolorion House\\\"}\"]}}}"},"extra":[{"text":" 要打開這扇門！ ","color":"aqua"}]}]}]}

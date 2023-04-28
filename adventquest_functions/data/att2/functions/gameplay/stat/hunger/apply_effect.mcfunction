@@ -29,4 +29,4 @@ execute as @s[scores={HUN_TOT=8}] run function att2:gameplay/stat/hunger/effect/
 execute as @s[scores={HUN_TOT=9}] run function att2:gameplay/stat/hunger/effect/bonus_6
 execute as @s[scores={HUN_TOT=10}] run function att2:gameplay/stat/hunger/effect/bonus_7
 execute as @s[scores={HUN_TOT=11}] run function att2:gameplay/stat/hunger/effect/bonus_8
-execute as @s[scores={HUN_TOT=12}] run function att2:gameplay/stat/hunger/effect/bonus_9
+execute as @s[scores={HUN_TOT=12..}] run function att2:gameplay/stat/hunger/effect/bonus_9
