@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_ward"
+        },
+        "title": {"translate":"50%!"},
+        "description": {"translate":"Complete 50% of all map quests."}
+    },
+    "parent": "att2:progress/game_percentage_40",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 1500
+    },
+    "criteria": {
+        "game_percentage_50": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

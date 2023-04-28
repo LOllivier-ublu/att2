@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_strad"
+        },
+        "title": {"translate":"100%!"},
+        "description": {"translate":"Complete 100% of all map quests."}
+    },
+    "parent": "att2:progress/game_percentage_90",
+    "rewards": {
+        "experience": 15000
+    },
+    "criteria": {
+        "game_percentage_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

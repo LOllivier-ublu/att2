@@ -20,6 +20,18 @@ advancement grant @a[scores={SIDEQUEST=30..}] only att2:progress/sidequest_30
 advancement grant @a[scores={SIDEQUEST=40..}] only att2:progress/sidequest_40
 advancement grant @a[scores={SIDEQUEST=50..}] only att2:progress/sidequest_50
 
+# GAME PERCENTAGE
+execute if score Game_percentage_progress EXPLOIT matches 10.. run advancement grant @a only att2:progress/game_percentage_10
+execute if score Game_percentage_progress EXPLOIT matches 20.. run advancement grant @a only att2:progress/game_percentage_20
+execute if score Game_percentage_progress EXPLOIT matches 30.. run advancement grant @a only att2:progress/game_percentage_30
+execute if score Game_percentage_progress EXPLOIT matches 40.. run advancement grant @a only att2:progress/game_percentage_40
+execute if score Game_percentage_progress EXPLOIT matches 50.. run advancement grant @a only att2:progress/game_percentage_50
+execute if score Game_percentage_progress EXPLOIT matches 60.. run advancement grant @a only att2:progress/game_percentage_60
+execute if score Game_percentage_progress EXPLOIT matches 70.. run advancement grant @a only att2:progress/game_percentage_70
+execute if score Game_percentage_progress EXPLOIT matches 80.. run advancement grant @a only att2:progress/game_percentage_80
+execute if score Game_percentage_progress EXPLOIT matches 90.. run advancement grant @a only att2:progress/game_percentage_90
+execute if score Game_percentage_progress EXPLOIT matches 100.. run advancement grant @a only att2:progress/game_percentage_100
+
 # LEVEL
 advancement grant @a[scores={GAMELEVEL=10..}] only att2:progress/gamelevel_10
 advancement grant @a[scores={GAMELEVEL=20..}] only att2:progress/gamelevel_20

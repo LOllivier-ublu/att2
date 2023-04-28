@@ -10,6 +10,7 @@ recipe take @a *
 scoreboard players operation Game_percentage EXPLOIT = @a[scores={NUMEROJOUEUR=1}] COMPLETION
 scoreboard players operation Game_percentage EXPLOIT *= Points_completion EXPLOIT
 scoreboard players operation Game_percentage EXPLOIT /= Total_objectives EXPLOIT
+scoreboard players operation Game_percentage_progress EXPLOIT = Game_percentage EXPLOIT
 
 ### Test if any Chest is open by player
 execute as @a[gamemode=adventure] at @s if score @s openCHEST matches 1.. run function att2:advancement/add_chest_score
