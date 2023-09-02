@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust",
+            "nbt" : "{CustomModelData:10000008}"
+        },
+        "title": {"translate":"Inu"},
+        "description": {"translate":"Rune C"}
+    },
+    "parent": "att2:runes/6_nym",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1800
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:glowstone_dust"
+                        ],
+                    "nbt" : "{CustomModelData:10000008}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust",
+            "nbt" : "{CustomModelData:10000002}"
+        },
+        "title": {"translate":"Tha"},
+        "description": {"translate":"Rune C"}
+    },
+    "parent": "att2:runes/0_gal",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1200
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:glowstone_dust"
+                        ],
+                    "nbt" : "{CustomModelData:10000002}"
+                    }
+                ]
+            }
+        }
+    }
+}

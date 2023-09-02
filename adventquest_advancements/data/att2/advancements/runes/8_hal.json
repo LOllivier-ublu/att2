@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust",
+            "nbt" : "{CustomModelData:10000009}"
+        },
+        "title": {"translate":"Hal"},
+        "description": {"translate":"Rune C"}
+    },
+    "parent": "att2:runes/7_inu",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1900
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:glowstone_dust"
+                        ],
+                    "nbt" : "{CustomModelData:10000009}"
+                    }
+                ]
+            }
+        }
+    }
+}

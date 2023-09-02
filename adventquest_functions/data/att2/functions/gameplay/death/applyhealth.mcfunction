@@ -17,6 +17,11 @@ effect give @s[scores={BASE_HEM=11}] minecraft:health_boost 1000000 10 true
 effect give @s[scores={BASE_HEM=12}] minecraft:health_boost 1000000 11 true
 effect give @s[scores={BASE_HEM=13}] minecraft:health_boost 1000000 12 true
 effect give @s[scores={BASE_HEM=14}] minecraft:health_boost 1000000 13 true
-effect give @s[scores={BASE_HEM=15..}] minecraft:health_boost 1000000 14 true
+effect give @s[scores={BASE_HEM=15}] minecraft:health_boost 1000000 14 true
+effect give @s[scores={BASE_HEM=16}] minecraft:health_boost 1000000 15 true
+effect give @s[scores={BASE_HEM=17}] minecraft:health_boost 1000000 16 true
+effect give @s[scores={BASE_HEM=18}] minecraft:health_boost 1000000 17 true
+effect give @s[scores={BASE_HEM=19}] minecraft:health_boost 1000000 18 true
+effect give @s[scores={BASE_HEM=20..}] minecraft:health_boost 1000000 19 true
 
-execute if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:instant_health 1 15 true
+execute if score Mainquest SIDEQUEST matches 1.. run effect give @s minecraft:instant_health 1 20 true

@@ -40,6 +40,7 @@ function att2:gameplay/potion/initialize
 function att2:gameplay/quest/initialize
 function att2:gameplay/recycler/initialize
 function att2:gameplay/reputation/initialize
+function att2:gameplay/runes/initialize
 function att2:gameplay/shop/initialize
 function att2:gameplay/speceffect/initialize
 function att2:gameplay/stat/initialize

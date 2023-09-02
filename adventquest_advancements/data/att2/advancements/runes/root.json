@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "title": {"translate":"Runes"},
+        "description": {"translate":"Secret of the elders"},
+        "background": "minecraft:textures/block/cobblestone.png",
+        "show_toast": false
+    },
+    "criteria": {
+        "story": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

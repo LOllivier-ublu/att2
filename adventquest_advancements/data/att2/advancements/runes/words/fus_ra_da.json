@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:archer_pottery_sherd"
+        },
+        "title": {"translate":"Fervor"},
+        "description": {"translate":"Runic word"}
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 3500
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:archer_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

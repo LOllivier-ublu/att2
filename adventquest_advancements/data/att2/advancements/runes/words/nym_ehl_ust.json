@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arms_up_pottery_sherd"
+        },
+        "title": {"translate":"Support"},
+        "description": {"translate":"Runic word"}
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:arms_up_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

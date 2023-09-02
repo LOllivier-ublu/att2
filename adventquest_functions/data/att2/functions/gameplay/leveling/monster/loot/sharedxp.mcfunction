@@ -1,10 +1,10 @@
-#####################################################################################
-#Made By Adventquest																#
-#Set the xp won by killing a monster												#
-#                   13 * (classOfHighestMonster + 2)* (lvlMAX + 1) * 6              #
-# xpOfAPlayer = -------------------------------------------------------------       #
-#                             (lvlOfAPlayer+5) * (4+nbPLayer)                       #
-#####################################################################################
+######################################################################################
+#Made By Adventquest																 #
+#Set the xp won by killing a monster												 #
+#                   (13 + RuneBonus) * (classOfHighestMonster + 2)* (lvlMAX + 1) * 6 #
+# xpOfAPlayer = -------------------------------------------------------------        #
+#                             (lvlOfAPlayer+5) * (4+nbPLayer)                        #
+######################################################################################
 
 # Getting LvlMAX +1
 scoreboard players operation maxAddedOne XPPROCESS > @a GAMELEVEL
@@ -23,6 +23,7 @@ execute as @a run scoreboard players operation @s XPPROCESS *= numberPlayer XPPR
 
 # Getting 13 * (classOfHighestMonster + 2) * (lvlMAX + 1) * 6
 scoreboard players set @a XPGAIN 13
+scoreboard players operation @a XPGAIN += BonusXP RUNE
 execute as @a run scoreboard players operation @s XPGAIN *= closestClass XPPROCESS
 execute as @a run scoreboard players operation @s XPGAIN *= maxAddedOne XPPROCESS
 execute as @a run scoreboard players operation @s XPGAIN *= 6 XPPROCESS

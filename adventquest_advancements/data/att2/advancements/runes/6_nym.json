@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust",
+            "nbt" : "{CustomModelData:10000007}"
+        },
+        "title": {"translate":"Nym"},
+        "description": {"translate":"Rune C"}
+    },
+    "parent": "att2:runes/5_ra",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1700
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:glowstone_dust"
+                        ],
+                    "nbt" : "{CustomModelData:10000007}"
+                    }
+                ]
+            }
+        }
+    }
+}
