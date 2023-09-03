@@ -41,3 +41,4 @@ execute as @s[nbt={SelectedItem:{tag:{EquipmentType:"potion",Effect:"her2_has_1"
 execute as @s[nbt={SelectedItem:{tag:{EquipmentType:"potion",Effect:"str1_has1_spd1_hun_4"}}}] run scoreboard players set @s POTION_ID 53
 execute as @s[nbt={SelectedItem:{tag:{EquipmentType:"potion",Effect:"str2_spd3_hun1_dar_2"}}}] run scoreboard players set @s POTION_ID 54
 execute as @s[nbt={SelectedItem:{tag:{EquipmentType:"potion",Effect:"str3_res1_luc2"}}}] run scoreboard players set @s POTION_ID 55
+execute as @s[nbt={SelectedItem:{tag:{EquipmentType:"potion",Effect:"str1_has1_spd1_her1_dar1_luc1_hun1"}}}] run scoreboard players set @s POTION_ID 56

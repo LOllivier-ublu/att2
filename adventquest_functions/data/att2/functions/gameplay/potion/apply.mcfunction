@@ -44,3 +44,6 @@ execute as @s[scores={POTION_ID=52}] run function att2:gameplay/equipment/effect
 execute as @s[scores={POTION_ID=53}] run function att2:gameplay/equipment/effect/po/str1_has1_spd1_hun_4
 execute as @s[scores={POTION_ID=54}] run function att2:gameplay/equipment/effect/po/str2_spd3_hun1_dar_2
 execute as @s[scores={POTION_ID=55}] run function att2:gameplay/equipment/effect/po/str3_res1_luc2
+
+
+execute as @s[scores={POTION_ID=56}] run function att2:gameplay/equipment/effect/po/str1_has1_spd1_her1_dar1_luc1_hun1

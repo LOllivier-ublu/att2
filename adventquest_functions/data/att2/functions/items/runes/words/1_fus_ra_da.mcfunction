@@ -3,6 +3,6 @@
 #Obtain Runes                                    #
 ##################################################
 
-give @s minecraft:angler_pottery_sherd{EquipmentType:"runic_word",Rarity:"spe",display:{Name:"\"§6Espérance\"","Lore":["{\"text\":\"§7Hope\"}"]}} 1
+give @s minecraft:archer_pottery_sherd{EquipmentType:"runic_word",Rarity:"spe",display:{Name:"\"§6Ferveur\"","Lore":["{\"text\":\"§7Fervor\"}","{\"text\":\"§eFus Ra Da\"}","{\"text\":\"§aExperience:§2 +7,5%\"}"]}} 1
 
 data remove block ~ ~ ~ Items[]
