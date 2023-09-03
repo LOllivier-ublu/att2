@@ -2,15 +2,15 @@
     "display": {
         "icon": {
             "item": "minecraft:glowstone_dust",
-            "nbt" : "{CustomModelData:10000008}"
+            "nbt" : "{CustomModelData:10000021}"
         },
-        "title": {"translate":"Inu"},
-        "description": {"translate":"Drop low class Rune."}
+        "title": {"translate":"Puh"},
+        "description": {"translate":"Drop high class Rune."}
     },
-    "parent": "att2:runes/6_nym",
+    "parent": "att2:runes/19_bex",
     "rewards": {
-        "function": "att2:advancement/exploit_3",
-        "experience": 1800
+        "function": "att2:advancement/exploit_10",
+        "experience": 3300
                 },
     "criteria": {
         "collection": {
@@ -21,7 +21,7 @@
                     "items": [
                         "minecraft:glowstone_dust"
                         ],
-                    "nbt" : "{CustomModelData:10000008}"
+                    "nbt" : "{CustomModelData:10000021}"
                     }
                 ]
             }
