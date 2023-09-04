@@ -15,5 +15,6 @@ execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:blade_pottery_sherd",tag:{display:{Name:"\"§6Abondance\""}}},{}]} run function att2:gameplay/runes/bonus/3_jo_fus_tha_hal
 
 
-
+execute as @a run function att2:gameplay/runes/bonus/runicwords_error
+scoreboard players set RequiredError RUNE 0
 execute as @a run function att2:gameplay/runes/applybonuseffect

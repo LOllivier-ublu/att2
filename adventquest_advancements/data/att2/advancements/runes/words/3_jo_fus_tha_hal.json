@@ -4,7 +4,7 @@
             "item": "minecraft:blade_pottery_sherd"
         },
         "title": {"translate":"Abundance"},
-        "description": {"translate":"Runic word"}
+        "description": {"translate":"Make runic word : Jo Fus Tha Hal"}
     },
     "parent": "att2:runes/root",
     "rewards": {

@@ -4,7 +4,7 @@
             "item": "minecraft:angler_pottery_sherd"
         },
         "title": {"translate":"Hope"},
-        "description": {"translate":"Runic word"}
+        "description": {"translate":"Make runic word : Gal Org Inu"}
     },
     "parent": "att2:runes/root",
     "rewards": {

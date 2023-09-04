@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:flower_banner_pattern"
+        },
+        "title": {"translate":"Recipes"},
+        "description": {"translate":"A Runic Mix"},
+        "background": "minecraft:textures/block/diorite.png",
+        "show_toast": false
+    },
+    "criteria": {
+        "story": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

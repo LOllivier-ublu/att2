@@ -4,7 +4,7 @@
             "item": "minecraft:arms_up_pottery_sherd"
         },
         "title": {"translate":"Support"},
-        "description": {"translate":"Runic word"}
+        "description": {"translate":"Make runic word : Nym Ehl Ust"}
     },
     "parent": "att2:runes/root",
     "rewards": {

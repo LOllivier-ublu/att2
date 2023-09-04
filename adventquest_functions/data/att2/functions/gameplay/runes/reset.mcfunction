@@ -6,8 +6,6 @@
 scoreboard players operation @s DAHALMAX -= BonusDahalMax RUNE
 scoreboard players operation @s BASE_HEM -= BonusHealthMax RUNE
 
-scoreboard players set BonusXP RUNE 0
-scoreboard players set BonusDahalMax RUNE 0
-scoreboard players set BonusHealthMax RUNE 0
-scoreboard players set BonusCooldown RUNE 0
-scoreboard players set BonusChronoton RUNE 0
+execute as @e[type=minecraft:armor_stand,tag=runicwordStand] at @s run setblock ~ ~ ~-1 minecraft:gold_block
+
+function att2:gameplay/runes/initialize
