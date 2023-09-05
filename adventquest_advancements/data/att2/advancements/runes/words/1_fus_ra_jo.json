@@ -4,7 +4,7 @@
             "item": "minecraft:archer_pottery_sherd"
         },
         "title": {"translate":"Fervor"},
-        "description": {"translate":"Make runic word : Fus Ra Da"}
+        "description": {"translate":"Make runic word : Fus Ra Jo"}
     },
     "parent": "att2:runes/root",
     "rewards": {
