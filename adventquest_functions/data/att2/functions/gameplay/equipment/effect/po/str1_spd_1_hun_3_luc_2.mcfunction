@@ -15,3 +15,4 @@ scoreboard players set @s TIMER_HUN_PO 10000
 scoreboard players set @s LUC_LVL_PO -2
 scoreboard players set @s TIMER_LUC_PO 24000
 
+function att2:gameplay/equipment/effect/po/time_bonus/str

@@ -21,3 +21,6 @@ scoreboard players operation CooldownTotal RUNE *= 10 RUNE
 
 scoreboard players operation ChronotonTotal RUNE = BonusChronoton RUNE
 scoreboard players operation ChronotonTotal RUNE *= 20 RUNE
+
+scoreboard players operation TimePotionTotal RUNE = BonusTimePotion RUNE
+scoreboard players operation TimePotionTotal RUNE *= 20 RUNE

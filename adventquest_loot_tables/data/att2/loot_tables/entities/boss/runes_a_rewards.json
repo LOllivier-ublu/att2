@@ -12,7 +12,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.09
+                            "chance": 0.0009
                         }
                     ],
                     "functions": [
@@ -25,7 +25,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000001,display:{Name:\"{\\\"text\\\":\\\"§eGal\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000019,display:{Name:\"{\\\"text\\\":\\\"§eQi\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
                         }
                     ]
                 },
@@ -35,7 +35,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.08
+                            "chance": 0.0008
                         }
                     ],
                     "functions": [
@@ -48,7 +48,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000002,display:{Name:\"{\\\"text\\\":\\\"§eTha\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000020,display:{Name:\"{\\\"text\\\":\\\"§eBex\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
                         }
                     ]
                 },
@@ -58,7 +58,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.07
+                            "chance": 0.0007
                         }
                     ],
                     "functions": [
@@ -71,7 +71,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000003,display:{Name:\"{\\\"text\\\":\\\"§eFus\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000021,display:{Name:\"{\\\"text\\\":\\\"§ePuh\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
                         }
                     ]
                 },
@@ -81,7 +81,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.06
+                            "chance": 0.0006
                         }
                     ],
                     "functions": [
@@ -94,7 +94,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000004,display:{Name:\"{\\\"text\\\":\\\"§eOrg\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000022,display:{Name:\"{\\\"text\\\":\\\"§eSyl\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
                         }
                     ]
                 },
@@ -104,7 +104,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.05
+                            "chance": 0.0005
                         }
                     ],
                     "functions": [
@@ -117,7 +117,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000005,display:{Name:\"{\\\"text\\\":\\\"§eJo\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000023,display:{Name:\"{\\\"text\\\":\\\"§eYog\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
                         }
                     ]
                 },
@@ -127,7 +127,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.04
+                            "chance": 0.0004
                         }
                     ],
                     "functions": [
@@ -140,7 +140,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000006,display:{Name:\"{\\\"text\\\":\\\"§eRa\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000024,display:{Name:\"{\\\"text\\\":\\\"§eKan\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
                         }
                     ]
                 },
@@ -150,7 +150,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03
+                            "chance": 0.0003
                         }
                     ],
                     "functions": [
@@ -163,7 +163,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000007,display:{Name:\"{\\\"text\\\":\\\"§eNym\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000025,display:{Name:\"{\\\"text\\\":\\\"§eXul\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
                         }
                     ]
                 },
@@ -173,7 +173,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.02
+                            "chance": 0.0002
                         }
                     ],
                     "functions": [
@@ -186,7 +186,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000008,display:{Name:\"{\\\"text\\\":\\\"§eInu\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000026,display:{Name:\"{\\\"text\\\":\\\"§eZen\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
                         }
                     ]
                 },
@@ -196,7 +196,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.01
+                            "chance": 0.0001
                         }
                     ],
                     "functions": [
@@ -209,7 +209,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000009,display:{Name:\"{\\\"text\\\":\\\"§eHal\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000027,display:{Name:\"{\\\"text\\\":\\\"§eMot\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
                         }
                     ]
                 }

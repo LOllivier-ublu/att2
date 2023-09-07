@@ -9,11 +9,14 @@ scoreboard players set BonusChronoton RUNE 0
 scoreboard players set BonusCooldown RUNE 0
 scoreboard players set BonusDahalMax RUNE 0
 scoreboard players set BonusHealthMax RUNE 0
+scoreboard players set BonusTimePotion RUNE 0
+scoreboard players set BonusLootBoss RUNE 0
 
 scoreboard players set XPTotal RUNE 0
 scoreboard players set ChronotonTotal RUNE 0
 scoreboard players set CooldownTotal RUNE 0
 scoreboard players set HealthTotal RUNE 0
+scoreboard players set TimePotionTotal RUNE 0
 scoreboard players set 2 RUNE 2
 scoreboard players set 4 RUNE 4
 scoreboard players set 10 RUNE 10

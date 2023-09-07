@@ -12,3 +12,6 @@ scoreboard players set @s TIMER_RES_PO 10000
 scoreboard players set @s LUC_LVL_PO 2
 scoreboard players set @s TIMER_LUC_PO 10000
 
+function att2:gameplay/equipment/effect/po/time_bonus/str
+function att2:gameplay/equipment/effect/po/time_bonus/res
+function att2:gameplay/equipment/effect/po/time_bonus/luc

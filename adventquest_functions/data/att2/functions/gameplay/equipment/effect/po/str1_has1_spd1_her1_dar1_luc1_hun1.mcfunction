@@ -24,3 +24,10 @@ scoreboard players set @s TIMER_LUC_SET 72000
 scoreboard players set @s HUN_LVL_SET 1
 scoreboard players set @s TIMER_HUN_SET 72000
 
+function att2:gameplay/equipment/effect/po/time_bonus/str
+function att2:gameplay/equipment/effect/po/time_bonus/has
+function att2:gameplay/equipment/effect/po/time_bonus/spd
+function att2:gameplay/equipment/effect/po/time_bonus/her
+function att2:gameplay/equipment/effect/po/time_bonus/dar
+function att2:gameplay/equipment/effect/po/time_bonus/luc
+function att2:gameplay/equipment/effect/po/time_bonus/hun

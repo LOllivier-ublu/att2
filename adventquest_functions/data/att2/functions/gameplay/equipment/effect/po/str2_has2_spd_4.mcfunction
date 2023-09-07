@@ -12,3 +12,5 @@ scoreboard players set @s TIMER_HAS_PO 6000
 scoreboard players set @s SPD_LVL_PO -4
 scoreboard players set @s TIMER_SPD_PO 6000
 
+function att2:gameplay/equipment/effect/po/time_bonus/str
+function att2:gameplay/equipment/effect/po/time_bonus/has

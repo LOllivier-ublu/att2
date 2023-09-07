@@ -15,3 +15,6 @@ scoreboard players set @s TIMER_HUN_PO 7000
 scoreboard players set @s DAR_LVL_PO -2
 scoreboard players set @s TIMER_DAR_PO 7000
 
+function att2:gameplay/equipment/effect/po/time_bonus/str
+function att2:gameplay/equipment/effect/po/time_bonus/has
+function att2:gameplay/equipment/effect/po/time_bonus/hun

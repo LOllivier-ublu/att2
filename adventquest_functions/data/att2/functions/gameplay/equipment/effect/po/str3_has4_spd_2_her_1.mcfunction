@@ -15,3 +15,5 @@ scoreboard players set @s TIMER_SPD_PO 4000
 scoreboard players set @s HER_LVL_PO -1
 scoreboard players set @s TIMER_HER_PO 4000
 
+function att2:gameplay/equipment/effect/po/time_bonus/str
+function att2:gameplay/equipment/effect/po/time_bonus/has
