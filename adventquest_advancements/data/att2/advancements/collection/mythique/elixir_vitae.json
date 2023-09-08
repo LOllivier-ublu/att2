@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:0}"
+        },
+        "title": {"translate":"Elixir Vitae"},
+        "description": {"translate":"Find the mythical potion ELIXIR VITAE"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:collection/mythique",
+    "rewards": {
+        "function": "att2:advancement/exploit_35",
+        "experience": 15000
+                },
+    "criteria": {
+        "elixir_vitae": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
