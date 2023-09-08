@@ -3,9 +3,9 @@
 #Prosses runic bonus for player 	                                    #
 #########################################################################
 
-execute if entity @p[scores={GAMELEVEL=20..}] run scoreboard players add 1_fus_ra_jo RUNE 1
+execute if entity @p[scores={GAMELEVEL=10..}] run scoreboard players add 1_fus_ra_jo RUNE 1
 
-execute unless entity @p[scores={GAMELEVEL=20..}] run scoreboard players set RequiredError RUNE 1
+execute unless entity @p[scores={GAMELEVEL=10..}] run scoreboard players set RequiredError RUNE 1
 execute if score 1_fus_ra_jo RUNE matches 2.. at @s run scoreboard players set RequiredError RUNE 1
 execute if score RequiredError RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:redstone_block
 

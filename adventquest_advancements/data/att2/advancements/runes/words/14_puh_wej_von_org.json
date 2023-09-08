@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:plenty_pottery_sherd"
+        },
+        "title": {"translate":"Spirit"},
+        "description": {"translate":"Make runic word: Puh Wej Von Org"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:plenty_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

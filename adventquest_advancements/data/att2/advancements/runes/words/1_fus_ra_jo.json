@@ -4,12 +4,13 @@
             "item": "minecraft:archer_pottery_sherd"
         },
         "title": {"translate":"Fervor"},
-        "description": {"translate":"Make runic word : Fus Ra Jo"}
+        "description": {"translate":"Make runic word: Fus Ra Jo"},
+        "frame": "goal"
     },
     "parent": "att2:runes/root",
     "rewards": {
         "function": "att2:advancement/exploit_10",
-        "experience": 3500
+        "experience": 2500
                 },
     "criteria": {
         "collection": {

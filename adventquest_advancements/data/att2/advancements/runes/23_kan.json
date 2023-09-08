@@ -5,7 +5,8 @@
             "nbt" : "{CustomModelData:10000024}"
         },
         "title": {"translate":"Kan"},
-        "description": {"translate":"Drop high class Rune."}
+        "description": {"translate":"Drop Rune Tier A."},
+        "frame": "challenge"
     },
     "parent": "att2:runes/22_yog",
     "rewards": {

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:explorer_pottery_sherd"
+        },
+        "title": {"translate":"Prudence"},
+        "description": {"translate":"Make runic word: Wej Ust Chu Tha"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 7500
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:explorer_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

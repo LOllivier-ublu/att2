@@ -5,7 +5,8 @@
             "nbt" : "{CustomModelData:10000026}"
         },
         "title": {"translate":"Zen"},
-        "description": {"translate":"Drop high class Rune."}
+        "description": {"translate":"Drop Rune Tier A."},
+        "frame": "challenge"
     },
     "parent": "att2:runes/24_xul",
     "rewards": {

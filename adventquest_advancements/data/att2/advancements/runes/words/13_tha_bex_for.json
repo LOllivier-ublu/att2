@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mourner_pottery_sherd"
+        },
+        "title": {"translate":"Eternity"},
+        "description": {"translate":"Make runic word: Tha Bex For"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:mourner_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

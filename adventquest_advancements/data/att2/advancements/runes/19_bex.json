@@ -5,7 +5,8 @@
             "nbt" : "{CustomModelData:10000020}"
         },
         "title": {"translate":"Bex"},
-        "description": {"translate":"Drop high class Rune."}
+        "description": {"translate":"Drop Rune Tier A."},
+        "frame": "challenge"
     },
     "parent": "att2:runes/18_qi",
     "rewards": {

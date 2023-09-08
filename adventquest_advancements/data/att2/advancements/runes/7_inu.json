@@ -5,7 +5,7 @@
             "nbt" : "{CustomModelData:10000008}"
         },
         "title": {"translate":"Inu"},
-        "description": {"translate":"Drop low class Rune."}
+        "description": {"translate":"Drop Rune Tier C."}
     },
     "parent": "att2:runes/6_nym",
     "rewards": {

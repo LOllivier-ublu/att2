@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:prize_pottery_sherd"
+        },
+        "title": {"translate":"Splendor"},
+        "description": {"translate":"Make runic word: Syl Da Ave Qi Ra"},
+        "frame": "challenge"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:prize_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

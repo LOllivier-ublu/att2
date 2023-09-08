@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:heart_pottery_sherd"
+        },
+        "title": {"translate":"Sanctuary"},
+        "description": {"translate":"Make runic word: Da For Inu"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 7500
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:heart_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

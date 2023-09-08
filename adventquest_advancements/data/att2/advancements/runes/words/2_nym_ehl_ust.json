@@ -4,12 +4,13 @@
             "item": "minecraft:arms_up_pottery_sherd"
         },
         "title": {"translate":"Support"},
-        "description": {"translate":"Make runic word : Nym Ehl Ust"}
+        "description": {"translate":"Make runic word: Nym Ehl Ust"},
+        "frame": "goal"
     },
     "parent": "att2:runes/root",
     "rewards": {
         "function": "att2:advancement/exploit_10",
-        "experience": 5000
+        "experience": 2500
                 },
     "criteria": {
         "collection": {

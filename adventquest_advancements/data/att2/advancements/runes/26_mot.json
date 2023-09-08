@@ -5,7 +5,8 @@
             "nbt" : "{CustomModelData:10000027}"
         },
         "title": {"translate":"Mot"},
-        "description": {"translate":"Drop high class Rune."}
+        "description": {"translate":"Drop Rune Tier A."},
+        "frame": "challenge"
     },
     "parent": "att2:runes/25_zen",
     "rewards": {

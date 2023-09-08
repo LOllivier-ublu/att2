@@ -3,7 +3,7 @@
         {
             "rolls": {
                 "min": 1,
-                "max": 1
+                "max": 3
             },
             "entries": [
                 {
@@ -25,7 +25,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000001,display:{Name:\"{\\\"text\\\":\\\"§eGal\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000001,display:{Name:\"{\\\"text\\\":\\\"§eGal\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 1\\\"}\"]}}"
                         }
                     ]
                 },
@@ -48,7 +48,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000002,display:{Name:\"{\\\"text\\\":\\\"§eTha\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000002,display:{Name:\"{\\\"text\\\":\\\"§eTha\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 3\\\"}\"]}}"
                         }
                     ]
                 },
@@ -71,7 +71,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000003,display:{Name:\"{\\\"text\\\":\\\"§eFus\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000003,display:{Name:\"{\\\"text\\\":\\\"§eFus\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 5\\\"}\"]}}"
                         }
                     ]
                 },
@@ -94,7 +94,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000004,display:{Name:\"{\\\"text\\\":\\\"§eOrg\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000004,display:{Name:\"{\\\"text\\\":\\\"§eOrg\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 7\\\"}\"]}}"
                         }
                     ]
                 },
@@ -117,7 +117,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000005,display:{Name:\"{\\\"text\\\":\\\"§eJo\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000005,display:{Name:\"{\\\"text\\\":\\\"§eJo\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 9\\\"}\"]}}"
                         }
                     ]
                 },
@@ -140,7 +140,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000006,display:{Name:\"{\\\"text\\\":\\\"§eRa\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000006,display:{Name:\"{\\\"text\\\":\\\"§eRa\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 11\\\"}\"]}}"
                         }
                     ]
                 },
@@ -163,7 +163,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000007,display:{Name:\"{\\\"text\\\":\\\"§eNym\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000007,display:{Name:\"{\\\"text\\\":\\\"§eNym\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 13\\\"}\"]}}"
                         }
                     ]
                 },
@@ -186,7 +186,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000008,display:{Name:\"{\\\"text\\\":\\\"§eInu\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000008,display:{Name:\"{\\\"text\\\":\\\"§eInu\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 15\\\"}\"]}}"
                         }
                     ]
                 },
@@ -209,7 +209,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000009,display:{Name:\"{\\\"text\\\":\\\"§eHal\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\"]}}"
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000009,display:{Name:\"{\\\"text\\\":\\\"§eHal\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 17\\\"}\"]}}"
                         }
                     ]
                 }

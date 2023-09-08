@@ -5,7 +5,8 @@
             "nbt" : "{CustomModelData:10000022}"
         },
         "title": {"translate":"Syl"},
-        "description": {"translate":"Drop high class Rune."}
+        "description": {"translate":"Drop Rune Tier A."},
+        "frame": "challenge"
     },
     "parent": "att2:runes/20_puh",
     "rewards": {

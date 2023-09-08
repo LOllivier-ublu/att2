@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shelter_pottery_sherd"
+        },
+        "title": {"translate":"Heretic"},
+        "description": {"translate":"Make runic word: Kan Chu Bex Puh"},
+        "frame": "challenge"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:shelter_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

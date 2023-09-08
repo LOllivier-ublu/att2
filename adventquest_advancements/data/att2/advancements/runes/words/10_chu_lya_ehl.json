@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:heartbreak_pottery_sherd"
+        },
+        "title": {"translate":"Obedience"},
+        "description": {"translate":"Make runic word: Chu Lya Ehl"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_20",
+        "experience": 7500
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:heartbreak_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

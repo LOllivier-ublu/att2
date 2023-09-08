@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:miner_pottery_sherd"
+        },
+        "title": {"translate":"Scar"},
+        "description": {"translate":"Make runic word: Ave Qi Gal Jo Wej"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 10000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:miner_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

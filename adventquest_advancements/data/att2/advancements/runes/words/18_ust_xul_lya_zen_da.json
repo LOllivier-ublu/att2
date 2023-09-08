@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skull_pottery_sherd"
+        },
+        "title": {"translate":"Passion"},
+        "description": {"translate":"Make runic word: Ust Xul Lya Zen Da"},
+        "frame": "challenge"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 25000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:skull_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

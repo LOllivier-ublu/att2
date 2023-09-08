@@ -5,7 +5,8 @@
             "nbt" : "{CustomModelData:10000014}"
         },
         "title": {"translate":"For"},
-        "description": {"translate":"Drop middle class Rune."}
+        "description": {"translate":"Drop Rune Tier B."},
+        "frame": "goal"
     },
     "parent": "att2:runes/12_chu",
     "rewards": {

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snort_pottery_sherd"
+        },
+        "title": {"translate":"Enigma"},
+        "description": {"translate":"Make runic word: Mot Syl Kan Xul Zen"},
+        "frame": "challenge"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_100",
+        "experience": 50000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:snort_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

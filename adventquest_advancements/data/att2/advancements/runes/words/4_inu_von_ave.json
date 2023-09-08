@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brewer_pottery_sherd"
+        },
+        "title": {"translate":"Impatience"},
+        "description": {"translate":"Make runic word: Inu Von Ave"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 5000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:brewer_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

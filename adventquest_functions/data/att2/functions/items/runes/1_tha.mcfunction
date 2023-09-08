@@ -3,6 +3,6 @@
 #Obtain Runes                                    #
 ##################################################
 
-give @s minecraft:glowstone_dust{EquipmentType:"rune",Rarity:"spe",CustomModelData:10000002,display:{Name:"\"§eTha\"","Lore":["{\"text\":\"§6Rune\"}"]}} 1
+give @s minecraft:glowstone_dust{EquipmentType:"rune",Rarity:"spe",CustomModelData:10000002,display:{Name:"\"§eTha\"","Lore":["{\"text\":\"§6Rune\"}","{\"text\":\"§7Tier C\"}","{\"text\":\"§7Level 3\"}"]}} 1
 
 data remove block ~ ~ ~ Items[]
