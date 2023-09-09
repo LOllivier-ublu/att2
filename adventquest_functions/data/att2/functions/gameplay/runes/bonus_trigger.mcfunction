@@ -7,22 +7,22 @@ execute as @a run function att2:gameplay/runes/reset
 
 #0 Gal Org Inu
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:angler_pottery_sherd",tag:{display:{Name:"\"§7Espérance\""}}},{}]} run function att2:gameplay/runes/bonus/0_gal_org_inu
-#1 Fus Ra Da
+#1 Fus Ra Jo
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:archer_pottery_sherd",tag:{display:{Name:"\"§7Ferveur\""}}},{}]} run function att2:gameplay/runes/bonus/1_fus_ra_jo
-#2 Nym Ehl Ust
-execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:arms_up_pottery_sherd",tag:{display:{Name:"\"§7Soutien\""}}},{}]} run function att2:gameplay/runes/bonus/2_nym_ehl_ust
+#2 Nym Ehl Ave
+execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:arms_up_pottery_sherd",tag:{display:{Name:"\"§7Soutien\""}}},{}]} run function att2:gameplay/runes/bonus/2_nym_ehl_ave
 #3 For Tha Gal Hal
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:blade_pottery_sherd",tag:{display:{Name:"\"§2Abondance\""}}},{}]} run function att2:gameplay/runes/bonus/3_for_tha_gal_hal
-#4 Inu Von Ave
-execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:brewer_pottery_sherd",tag:{display:{Name:"\"§2Impatience\""}}},{}]} run function att2:gameplay/runes/bonus/4_inu_von_ave
+#4 Inu Von Ust
+execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:brewer_pottery_sherd",tag:{display:{Name:"\"§2Impatience\""}}},{}]} run function att2:gameplay/runes/bonus/4_inu_von_ust
 #5 Jo Fus Nym Da
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:burn_pottery_sherd",tag:{display:{Name:"\"§2Mélodie\""}}},{}]} run function att2:gameplay/runes/bonus/5_jo_fus_nym_da
 #6 Ehl Hal Ra Ra
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:danger_pottery_sherd",tag:{display:{Name:"\"§2Rime\""}}},{}]} run function att2:gameplay/runes/bonus/6_ehl_hal_ra_ra
 #7 Wej Ust Chu Tha
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:explorer_pottery_sherd",tag:{display:{Name:"\"§9Prudence\""}}},{}]} run function att2:gameplay/runes/bonus/7_wej_ust_chu_tha
-#8 Org Ave Hal Gal
-execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:friend_pottery_sherd",tag:{display:{Name:"\"§9Evocation\""}}},{}]} run function att2:gameplay/runes/bonus/8_org_ave_hal_gal
+#8 Org Ave Hal Gal Ehl
+execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:friend_pottery_sherd",tag:{display:{Name:"\"§9Evocation\""}}},{}]} run function att2:gameplay/runes/bonus/8_org_ave_hal_gal_ehl
 #9 Da For Inu
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:heart_pottery_sherd",tag:{display:{Name:"\"§9Sanctuaire\""}}},{}]} run function att2:gameplay/runes/bonus/9_da_for_inu
 #10 Chu Lya Ehl

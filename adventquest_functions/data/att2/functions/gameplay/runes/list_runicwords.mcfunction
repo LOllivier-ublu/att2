@@ -5,13 +5,13 @@
 
 function att2:dialogs/gameplay/runes/runicwords/0_gal_org_inu
 function att2:dialogs/gameplay/runes/runicwords/1_fus_ra_jo
-function att2:dialogs/gameplay/runes/runicwords/2_nym_ehl_ust
+function att2:dialogs/gameplay/runes/runicwords/2_nym_ehl_ave
 function att2:dialogs/gameplay/runes/runicwords/3_for_tha_gal_hal
-function att2:dialogs/gameplay/runes/runicwords/4_inu_von_ave
+function att2:dialogs/gameplay/runes/runicwords/4_inu_von_ust
 function att2:dialogs/gameplay/runes/runicwords/5_jo_fus_nym_da
 function att2:dialogs/gameplay/runes/runicwords/6_ehl_hal_ra_ra
 function att2:dialogs/gameplay/runes/runicwords/7_wej_ust_chu_tha
-function att2:dialogs/gameplay/runes/runicwords/8_org_ave_hal_gal
+function att2:dialogs/gameplay/runes/runicwords/8_org_ave_hal_gal_ehl
 function att2:dialogs/gameplay/runes/runicwords/9_da_for_inu
 function att2:dialogs/gameplay/runes/runicwords/10_chu_lya_ehl
 function att2:dialogs/gameplay/runes/runicwords/11_lya_nym_fus_von
