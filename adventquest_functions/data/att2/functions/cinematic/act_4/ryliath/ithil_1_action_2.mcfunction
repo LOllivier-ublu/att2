@@ -12,4 +12,8 @@ scoreboard players set ithil_PNJ DIALOG 2
 scoreboard players set 00000000-0000-094a-0000-00000000094a TALKING 1
 scoreboard players set 00000000-0000-094a-0000-00000000094a TALKING_TIMER 150
 
+scoreboard players add @a SPELL20_LVL 1
+scoreboard players add @a SPELL20_CAP 1
+execute as @a run function att2:gameplay/dahal/action/spell20/lvlup
+
 summon minecraft:villager -5043 149 -4876.6 {Rotation:[180.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}

@@ -36,6 +36,7 @@ execute if score shulker SECRET matches 35.. run advancement grant @a only att2:
 execute if score shulker SECRET matches 50.. run advancement grant @a only att2:secret/shulker_50
 execute if score shulker SECRET matches 75.. run advancement grant @a only att2:secret/shulker_75
 # SYMBOL
+execute if score Exploration SYMBOL matches 1.. run advancement grant @a only att2:secret/root
 execute if score Exploration SYMBOL matches 1.. run advancement grant @a only att2:secret/symbol_1
 execute if score Exploration SYMBOL matches 5.. run advancement grant @a only att2:secret/symbol_5
 execute if score Exploration SYMBOL matches 10.. run advancement grant @a only att2:secret/symbol_10

@@ -16,7 +16,7 @@ function att2:dialogs/gameplay/shop/showcase/spell/stock
 function att2:dialogs/gameplay/shop/showcase/spell/familier_vitalite
 function att2:dialogs/gameplay/shop/showcase/spell/familier_obstination
 function att2:dialogs/gameplay/shop/showcase/spell/golem
-execute if score Mainquest SIDEQUEST matches 117.. run function att2:dialogs/gameplay/shop/showcase/spell/stock_upgrade
+execute if score Mainquest SIDEQUEST matches 180.. run function att2:dialogs/gameplay/shop/showcase/spell/stock_upgrade
 
 function att2:dialogs/gameplay/shop/items_selled_list/spell_alteration_list
 function att2:dialogs/gameplay/shop/showcase/spell/absorption

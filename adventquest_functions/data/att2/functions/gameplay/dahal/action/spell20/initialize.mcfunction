@@ -15,3 +15,4 @@ scoreboard players set cap2 SPELL20_LVL 1
 scoreboard players set cap3 SPELL20_LVL 2
 scoreboard players set cap4 SPELL20_LVL 3
 scoreboard players set cap5 SPELL20_LVL 4
+scoreboard players set cap6 SPELL20_LVL 5

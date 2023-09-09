@@ -11,6 +11,7 @@ execute as @s[scores={SPELL_SLCT=192,DAHAL=40..}] anchored feet at @s positioned
 execute as @s[scores={SPELL_SLCT=193,DAHAL=40..}] anchored feet at @s positioned ^ ^-0.25 ^ run function att2:gameplay/dahal/action/spell20/lvl3
 execute as @s[scores={SPELL_SLCT=194,DAHAL=40..}] anchored feet at @s positioned ^ ^-0.25 ^ run function att2:gameplay/dahal/action/spell20/lvl4
 execute as @s[scores={SPELL_SLCT=195,DAHAL=40..}] anchored feet at @s positioned ^ ^-0.25 ^ run function att2:gameplay/dahal/action/spell20/lvl5
+execute as @s[scores={SPELL_SLCT=196,DAHAL=40..}] anchored feet at @s positioned ^ ^-0.25 ^ run function att2:gameplay/dahal/action/spell20/lvl6
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1

@@ -155,157 +155,166 @@ execute if score Real0 TIMER matches 56 as 00000000-0000-003a-0000-00000000003a 
 execute if score Real0 TIMER matches 57 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_14
 execute if score Real0 TIMER matches 57 run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 58 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5030 91 -4991 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 58 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5029.5,y=91,z=-4990.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 59 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5036 91 -4973 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 59 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5035.5,y=91,z=-4972.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 60 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5036 96 -4967 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 60 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5035.5,y=96,z=-4966.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 61 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5036 96 -4966 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 61 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5035.5,y=96,z=-4965.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 62 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5036 104 -4957 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 62 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5035.5,y=104,z=-4956.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 58 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5024 91 -4991 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 58 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5023.5,y=91,z=-4990.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 59 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5029 91 -4973 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 59 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5028.5,y=91,z=-4972.5,distance=..0.8] run function att2:cinematic/real0_iteration
+#Sylvandre is waiting behind the Rune master
+execute if score Real0 TIMER matches 60 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 60 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+#-- Dialog
+execute if score Real0 TIMER matches 61 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_14_0
+execute if score Real0 TIMER matches 61 run function att2:cinematic/real0_iteration
+#-- Movement
+execute if score Real0 TIMER matches 62 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5036 91 -4973 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 62 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5035.5,y=91,z=-4972.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 63 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5036 96 -4967 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 63 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5035.5,y=96,z=-4966.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 64 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5036 96 -4966 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 64 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5035.5,y=96,z=-4965.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 65 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5036 104 -4957 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 65 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5035.5,y=104,z=-4956.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting at the top of the stairs (second)
-execute if score Real0 TIMER matches 63 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 63 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 66 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 66 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 64 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5046 104 -4936 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 64 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5045.5,y=104,z=-4935.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 67 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5046 104 -4936 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 67 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5045.5,y=104,z=-4935.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting behind the dahal master
-execute if score Real0 TIMER matches 65 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 65 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 68 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 68 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Dialog
-execute if score Real0 TIMER matches 66 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_15
-execute if score Real0 TIMER matches 66 run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 69 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_15
+execute if score Real0 TIMER matches 69 run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 67 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5047 104 -4942 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 67 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5046.5,y=104,z=-4941.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 68 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5051 102 -4945 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 68 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5050.5,y=102,z=-4944.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 69 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5061 102 -4945 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 69 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5060.5,y=102,z=-4944.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 70 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5065 102 -4949 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 70 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5064.5,y=102,z=-4948.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 70 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5047 104 -4942 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 70 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5046.5,y=104,z=-4941.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 71 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5051 102 -4945 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 71 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5050.5,y=102,z=-4944.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 72 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5061 102 -4945 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 72 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5060.5,y=102,z=-4944.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 73 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5065 102 -4949 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 73 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5064.5,y=102,z=-4948.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting behind the forge
-execute if score Real0 TIMER matches 71 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 71 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 74 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 74 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Dialog
-execute if score Real0 TIMER matches 72 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_16
-execute if score Real0 TIMER matches 72 run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 75 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_16
+execute if score Real0 TIMER matches 75 run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 73 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5051 102 -4943 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 73 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5050.5,y=102,z=-4942.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 74 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5047 104 -4943 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 74 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5046.5,y=104,z=-4942.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 75 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5038 104 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 75 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5037.5,y=104,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 76 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5035 105 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 76 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5034.5,y=105,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 77 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5033 105 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 77 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5032.5,y=105,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 78 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5030 104 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 78 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5029.5,y=104,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 79 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5021 104 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 79 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5020.5,y=104,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 76 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5051 102 -4943 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 76 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5050.5,y=102,z=-4942.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 77 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5047 104 -4943 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 77 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5046.5,y=104,z=-4942.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 78 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5038 104 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 78 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5037.5,y=104,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 79 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5035 105 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 79 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5034.5,y=105,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 80 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5033 105 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 80 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5032.5,y=105,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 81 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5030 104 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 81 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5029.5,y=104,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 82 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5021 104 -4944 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 82 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5020.5,y=104,z=-4943.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting before the the palas
-execute if score Real0 TIMER matches 80 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 80 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 83 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 83 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 81 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4972 104 -4943 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 81 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4971.5,y=104,z=-4942.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 82 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4971 104.5 -4943 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 82 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4970.5,y=104,z=-4942.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 83 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4968 104.5 -4939 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 83 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4967.5,y=104,z=-4938.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 84 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4972 104 -4943 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 84 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4971.5,y=104,z=-4942.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 85 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4971 104.5 -4943 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 85 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4970.5,y=104,z=-4942.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 86 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4968 104.5 -4939 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 86 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4967.5,y=104,z=-4938.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting behind the palas
-execute if score Real0 TIMER matches 84 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 84 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 87 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 87 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Dialog
-execute if score Real0 TIMER matches 85 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_17
-execute if score Real0 TIMER matches 85 run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 88 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_17
+execute if score Real0 TIMER matches 88 run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 86 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4964 104.5 -4941 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 86 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4963.5,y=104,z=-4940.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 87 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4963 104 -4941 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 87 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4962.5,y=104,z=-4940.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 88 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4946 104 -4942 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 88 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4945.5,y=104,z=-4941.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 89 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4964 104.5 -4941 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 89 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4963.5,y=104,z=-4940.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 90 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4963 104 -4941 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 90 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4962.5,y=104,z=-4940.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 91 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4946 104 -4942 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 91 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4945.5,y=104,z=-4941.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting at the top of the stairs (third)
-execute if score Real0 TIMER matches 89 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 89 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 92 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 92 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 90 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4934 98 -4942 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 90 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4933.5,y=98,z=-4941.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 91 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4929 94 -4950 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 91 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4928.5,y=94,z=-4949.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 92 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4931 94 -4958 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 92 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4930.5,y=94,z=-4957.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 93 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4931 93 -4960 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 93 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4930.5,y=93,z=-4959.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 94 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4931 93 -4961 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 94 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4930.5,y=93,z=-4960.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 95 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4931 90 -4967 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 95 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4930.5,y=90,z=-4966.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 93 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4934 98 -4942 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 93 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4933.5,y=98,z=-4941.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 94 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4929 94 -4950 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 94 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4928.5,y=94,z=-4949.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 95 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4931 94 -4958 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 95 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4930.5,y=94,z=-4957.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 96 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4931 93 -4960 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 96 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4930.5,y=93,z=-4959.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 97 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4931 93 -4961 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 97 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4930.5,y=93,z=-4960.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 98 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4931 90 -4967 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 98 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4930.5,y=90,z=-4966.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting behind the skill master
-execute if score Real0 TIMER matches 96 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 96 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 99 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 99 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Dialog
-execute if score Real0 TIMER matches 97 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_18
-execute if score Real0 TIMER matches 97 run scoreboard players set skills TUTORIAL 1
-execute if score Real0 TIMER matches 97 run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 100 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_18
+execute if score Real0 TIMER matches 100 run scoreboard players set skills TUTORIAL 1
+execute if score Real0 TIMER matches 100 run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 98 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4930 90 -4984 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 98 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4929.5,y=90,z=-4983.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 99 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4923 90 -4987 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 99 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4922.5,y=90,z=-4986.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 101 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4930 90 -4984 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 101 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4929.5,y=90,z=-4983.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 102 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4923 90 -4987 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 102 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4922.5,y=90,z=-4986.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting behind the adventurer
-execute if score Real0 TIMER matches 100 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 100 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 103 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 103 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Dialog
-execute if score Real0 TIMER matches 101 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_19
-execute if score Real0 TIMER matches 101 run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 104 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_19
+execute if score Real0 TIMER matches 104 run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 102 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4934 90 -4990 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 102 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4933.5,y=90,z=-4989.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 103 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4936 90 -4993 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 103 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4935.5,y=90,z=-4992.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 104 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4936 83 -5001 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 104 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4935.5,y=83,z=-5000.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 105 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4936 83 -5003 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 105 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4935.5,y=83,z=-5002.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 106 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4936 79 -5008 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 106 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4935.5,y=79,z=-5007.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 107 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4937 79 -5016 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 107 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4936.5,y=79,z=-5015.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 108 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4938 77 -5020 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 108 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4937.5,y=77,z=-5019.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 105 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4934 90 -4990 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 105 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4933.5,y=90,z=-4989.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 106 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4936 90 -4993 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 106 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4935.5,y=90,z=-4992.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 107 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4936 83 -5001 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 107 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4935.5,y=83,z=-5000.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 108 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4936 83 -5003 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 108 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4935.5,y=83,z=-5002.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 109 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4936 79 -5008 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 109 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4935.5,y=79,z=-5007.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 110 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4937 79 -5016 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 110 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4936.5,y=79,z=-5015.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 111 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4938 77 -5020 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 111 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4937.5,y=77,z=-5019.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting at the bottom of the stairs
-execute if score Real0 TIMER matches 109 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 109 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 112 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 112 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Movement
-execute if score Real0 TIMER matches 110 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4955 77 -5034 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 110 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4954.5,y=77,z=-5033.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 111 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4982 77 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 111 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4981.5,y=77,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 112 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4984 76 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 112 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4983.5,y=76,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 113 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4991 76 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 113 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4990.5,y=76,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 113 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4955 77 -5034 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 113 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4954.5,y=77,z=-5033.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 114 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4982 77 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 114 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4981.5,y=77,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 115 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4984 76 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 115 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4983.5,y=76,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 116 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4991 76 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 116 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4990.5,y=76,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting behind the tavern
-execute if score Real0 TIMER matches 114 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
-execute if score Real0 TIMER matches 114 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
-#-- Dialog
-execute if score Real0 TIMER matches 115 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_20
-execute if score Real0 TIMER matches 115 run function att2:cinematic/real0_iteration
-#-- Movement
-execute if score Real0 TIMER matches 116 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5030 76 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
-execute if score Real0 TIMER matches 116 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5029.5,y=76,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
-#Sylvandre is waiting at the portal
-execute if score Real0 TIMER matches 117..400 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 117 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
 execute if score Real0 TIMER matches 117 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Dialog
-execute if score Real0 TIMER matches 118 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_21
+execute if score Real0 TIMER matches 118 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_20
 execute if score Real0 TIMER matches 118 run function att2:cinematic/real0_iteration
+#-- Movement
+execute if score Real0 TIMER matches 119 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5030 76 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
+execute if score Real0 TIMER matches 119 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5029.5,y=76,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
+#Sylvandre is waiting at the portal
+execute if score Real0 TIMER matches 120..400 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 120 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
+#-- Dialog
+execute if score Real0 TIMER matches 121 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_21
+execute if score Real0 TIMER matches 121 run function att2:cinematic/real0_iteration
 #-- Movement
 execute if score Real0 TIMER matches 401 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4991 76 -5040 run function att2:cinematic/act_2/sylvandre_2_walking
 execute if score Real0 TIMER matches 401 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-4990.5,y=76,z=-5039.5,distance=..0.8] run function att2:cinematic/real0_iteration
@@ -320,4 +329,4 @@ execute if score Real0 TIMER matches 402 run function att2:cinematic/real0_itera
 execute if score Real0 TIMER matches 403 run scoreboard players set Mainquest SIDEQUEST 6
 execute if score Real0 TIMER matches 403.. run setblock -5029 75 -5014 minecraft:air
 
-execute if score Real0 TIMER matches 119..400 run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 122..400 run function att2:cinematic/real0_iteration
