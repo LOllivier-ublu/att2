@@ -3,6 +3,12 @@
 #Process all sidequest mechanism in go from 753 86 737 		#
 #############################################################
 
+### Main Quest Bug Safety Valve
+#Gestrom Security
+execute if score Mainquest SIDEQUEST matches 163..168 in minecraft:the_end if entity @a[x=-1149,y=197,z=-679,distance=..7,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 169
+#Last Nojelanth portal
+execute if score Mainquest SIDEQUEST matches 255..259 in minecraft:overworld if entity @a[x=-6022,y=201,z=-4292,distance=..3,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 260
+
 # Launch sidequest with mainquest + reputation + position trigger
 execute if score Mainquest SIDEQUEST matches 151.. if score vulk_PNJ DIALOG matches 1 at 00000000-0000-067a-0000-00000000067a if entity @a[distance=..30] run function att2:cinematic/sidequest/21/vulk/update_dialog
 execute if score Mainquest SIDEQUEST matches 43.. if score heros REPUTATION matches 50.. if score ragnar_lorth_PNJ DIALOG matches 1..3 if score SQ29 SIDEQUEST matches 0 at 00000000-0000-036a-0000-00000000036a if entity @a[distance=..30] run function att2:cinematic/sidequest/29/ragnar_lorth/update_dialog

@@ -4,6 +4,7 @@
 #########################################################################
 
 execute as @a run function att2:gameplay/runes/reset
+execute as @a run function att2:dialogs/gameplay/runes/runicwords_activation
 
 #0 Gal Org Inu
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:angler_pottery_sherd",tag:{display:{Name:"\"§7Espérance\""}}},{}]} run function att2:gameplay/runes/bonus/0_gal_org_inu
@@ -46,6 +47,6 @@ execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {
 #19 Mot Syl Kan Xul Zen
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:snort_pottery_sherd",tag:{display:{Name:"\"§3Enigme\""}}},{}]} run function att2:gameplay/runes/bonus/19_mot_syl_kan_xul_zen
 
-execute if score RequiredError RUNE matches 1 as @a run function att2:gameplay/runes/bonus/runicwords_error
+execute if score RequiredError RUNE matches 1 as @a run function att2:dialogs/gameplay/runes/runicwords_error
 scoreboard players set RequiredError RUNE 0
 execute as @a run function att2:gameplay/runes/applybonuseffect
