@@ -4,7 +4,7 @@
 ##################################################
 
 #Reduce cooldown
-execute as @a[scores={IF_MAGASIN=0,IF_COOLDOWN=1..}] run scoreboard players remove @s IF_COOLDOWN 1
+execute as @a[scores={IF_MAGASIN=..0,IF_COOLDOWN=1..}] run scoreboard players remove @s IF_COOLDOWN 1
 
 execute as @a[nbt={SelectedItem:{tag:{EquipmentID:"interfacer"}}},scores={SHOOTING_IF=1..}] run function att2:gameplay/legendary/interfacer/effect
 execute as @a[nbt={Inventory:[{Slot:-106b,tag:{EquipmentID:"interfacer"}}]},scores={SHOOTING_IF=1..}] unless entity @s[nbt={SelectedItem:{tag:{EquipmentType:"rangeWeapon"}}}] run function att2:gameplay/legendary/interfacer/effect

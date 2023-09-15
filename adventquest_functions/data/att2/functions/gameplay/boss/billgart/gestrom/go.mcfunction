@@ -20,7 +20,7 @@ execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[
 execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] store result bossbar minecraft:gestrom max run data get entity 00000000-0000-014b-0000-00000000014b Attributes[{Name:"minecraft:generic.max_health"}].Base
 
 # Make challengers enters the arena
-execute if score Mainquest SIDEQUEST matches 161 in minecraft:the_end as @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] at @s unless entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/gestrom/display_title
+execute if score Mainquest SIDEQUEST matches 169 in minecraft:the_end as @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] at @s unless entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure,tag=!Dead] as @a[distance=..30] run function att2:gameplay/boss/billgart/gestrom/display_title
 execute if score EnterArena BILLGART matches ..0 in minecraft:the_end as @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] run function att2:gameplay/boss/billgart/gestrom/enter_arena
 execute if score EnterArena BILLGART matches 1.. run scoreboard players remove EnterArena BILLGART 1
 

@@ -5,11 +5,13 @@
 
 ### Main Quest Bug Safety Valve
 #Gestrom Security
-execute if score Mainquest SIDEQUEST matches 163..168 in minecraft:the_end if entity @a[x=-1149,y=197,z=-679,distance=..7,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 169
+execute if score Mainquest SIDEQUEST matches 163..168 in minecraft:the_end if entity @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 169
+#Ulkogummi Security
+execute if score Mainquest SIDEQUEST matches 158..160 in minecraft:the_end if entity @a[x=-1138,y=110,z=-561,dx=0,dy=2,dz=2,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 161
 #Last Nojelanth portal
 execute if score Mainquest SIDEQUEST matches 255..259 in minecraft:overworld if entity @a[x=-6022,y=201,z=-4292,distance=..3,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 260
 
-# Launch sidequest with mainquest + reputation + position trigger
+### Launch sidequest with mainquest + reputation + position trigger
 execute if score Mainquest SIDEQUEST matches 151.. if score vulk_PNJ DIALOG matches 1 at 00000000-0000-067a-0000-00000000067a if entity @a[distance=..30] run function att2:cinematic/sidequest/21/vulk/update_dialog
 execute if score Mainquest SIDEQUEST matches 43.. if score heros REPUTATION matches 50.. if score ragnar_lorth_PNJ DIALOG matches 1..3 if score SQ29 SIDEQUEST matches 0 at 00000000-0000-036a-0000-00000000036a if entity @a[distance=..30] run function att2:cinematic/sidequest/29/ragnar_lorth/update_dialog
 execute if score Mainquest SIDEQUEST matches 122.. if score heros REPUTATION matches 100.. if score adrian_PNJ DIALOG matches 1 if score SQ30 SIDEQUEST matches 0..99 at 00000000-0000-084a-0000-00000000084a if entity @a[distance=..30] run function att2:cinematic/sidequest/30/adrian/update_dialog
@@ -25,7 +27,7 @@ execute if score Mainquest SIDEQUEST matches 120.. if score SQ57 SIDEQUEST match
 execute if score Mainquest SIDEQUEST matches 218.. if score SQ58 SIDEQUEST matches 0 if entity @a[x=-6176,y=31,z=-4179,distance=..10,gamemode=adventure,nbt={Inventory:[{id:"minecraft:brick",Count:1b,tag:{display:{"Lore":["{\"text\":\"§4Lab Key IF33\"}"]}}}]}] run function att2:cinematic/sidequest/58/step1
 execute if score Mainquest SIDEQUEST matches 300.. if score SQ59 SIDEQUEST matches 0 if entity @a[x=-5030,y=76,z=-5041,distance=..15,gamemode=adventure] run function att2:cinematic/sidequest/59/step0/cinematic1
 
-# Processing go of all sidequests
+### Processing go of all sidequests
 execute in minecraft:overworld if score SQ2 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/2/go
 execute in minecraft:overworld if score SQ3 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/3/go
 execute in minecraft:overworld if score SQ3 SIDEQUEST matches 100 if score gregor_gacko_rewards SQ3 matches 0 run function att2:cinematic/sidequest/3/gregor_gacko/go

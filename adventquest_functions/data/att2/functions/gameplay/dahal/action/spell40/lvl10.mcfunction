@@ -6,7 +6,7 @@
 scoreboard players remove @s DAHAL 21
 scoreboard players add @s SPELL40_LVL 1
 
-scoreboard players set @s[scores={STR_LVL_DAB=..20}] STR_LVL_DAB 20
+scoreboard players set @s[scores={STR_LVL_DAB=..18}] STR_LVL_DAB 18
 scoreboard players set @s TIMER_STR_DAB 20
 
 scoreboard players set @s[scores={SPD_LVL_DAB=..7}] SPD_LVL_DAB 7

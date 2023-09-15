@@ -3,8 +3,10 @@
 #Upgrade strength                                #
 ##################################################
 
-execute as @s[scores={STR_BASE=11}] if entity @s[scores={SKILLPOINT=14..}] run function att2:gameplay/stat/strength/lvl/12
-execute as @s[scores={STR_BASE=10}] if entity @s[scores={SKILLPOINT=14..}] run function att2:gameplay/stat/strength/lvl/11
+execute as @s[scores={STR_BASE=13}] if entity @s[scores={SKILLPOINT=18..}] run function att2:gameplay/stat/strength/lvl/14
+execute as @s[scores={STR_BASE=12}] if entity @s[scores={SKILLPOINT=17..}] run function att2:gameplay/stat/strength/lvl/13
+execute as @s[scores={STR_BASE=11}] if entity @s[scores={SKILLPOINT=16..}] run function att2:gameplay/stat/strength/lvl/12
+execute as @s[scores={STR_BASE=10}] if entity @s[scores={SKILLPOINT=15..}] run function att2:gameplay/stat/strength/lvl/11
 execute as @s[scores={STR_BASE=9}] if entity @s[scores={SKILLPOINT=14..}] run function att2:gameplay/stat/strength/lvl/10
 execute as @s[scores={STR_BASE=8}] if entity @s[scores={SKILLPOINT=13..}] run function att2:gameplay/stat/strength/lvl/9
 execute as @s[scores={STR_BASE=7}] if entity @s[scores={SKILLPOINT=12..}] run function att2:gameplay/stat/strength/lvl/8
