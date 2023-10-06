@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Secret Apprentice"},
+        "description": {"translate":"Reach level 2 with Secret Seeker spell"}
+    },
+    "parent": "att2:dahal/spell34_loot",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+                },
+    "criteria": {
+        "spell34_lvl2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,633 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.09
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000001,display:{Name:\"{\\\"text\\\":\\\"§eGal\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 1\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.08
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000002,display:{Name:\"{\\\"text\\\":\\\"§eTha\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 3\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.07
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000003,display:{Name:\"{\\\"text\\\":\\\"§eFus\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 5\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.06
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000004,display:{Name:\"{\\\"text\\\":\\\"§eOrg\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 7\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.05
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000005,display:{Name:\"{\\\"text\\\":\\\"§eJo\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 9\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.04
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000006,display:{Name:\"{\\\"text\\\":\\\"§eRa\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 11\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.03
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000007,display:{Name:\"{\\\"text\\\":\\\"§eNym\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 13\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.02
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000008,display:{Name:\"{\\\"text\\\":\\\"§eInu\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 15\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000009,display:{Name:\"{\\\"text\\\":\\\"§eHal\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier C\\\"}\",\"{\\\"text\\\":\\\"§7Level 17\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.009
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000010,display:{Name:\"{\\\"text\\\":\\\"§eVon\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 19\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.008
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000011,display:{Name:\"{\\\"text\\\":\\\"§eEhl\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 21\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.007
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000012,display:{Name:\"{\\\"text\\\":\\\"§eAve\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 23\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000013,display:{Name:\"{\\\"text\\\":\\\"§eChu\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 25\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.005
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000014,display:{Name:\"{\\\"text\\\":\\\"§eFor\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 27\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.004
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000015,display:{Name:\"{\\\"text\\\":\\\"§eDa\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 29\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.003
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000016,display:{Name:\"{\\\"text\\\":\\\"§eWej\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 31\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.002
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000017,display:{Name:\"{\\\"text\\\":\\\"§eUst\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 33\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.001
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000018,display:{Name:\"{\\\"text\\\":\\\"§eLya\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier B\\\"}\",\"{\\\"text\\\":\\\"§7Level 35\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0009
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000019,display:{Name:\"{\\\"text\\\":\\\"§eQi\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier A\\\"}\",\"{\\\"text\\\":\\\"§7Level 37\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0008
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000020,display:{Name:\"{\\\"text\\\":\\\"§eBex\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier A\\\"}\",\"{\\\"text\\\":\\\"§7Level 39\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0007
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000021,display:{Name:\"{\\\"text\\\":\\\"§ePuh\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier A\\\"}\",\"{\\\"text\\\":\\\"§7Level 41\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000022,display:{Name:\"{\\\"text\\\":\\\"§eSyl\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier A\\\"}\",\"{\\\"text\\\":\\\"§7Level 43\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0005
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000023,display:{Name:\"{\\\"text\\\":\\\"§eYog\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier A\\\"}\",\"{\\\"text\\\":\\\"§7Level 45\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0004
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000024,display:{Name:\"{\\\"text\\\":\\\"§eKan\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier A\\\"}\",\"{\\\"text\\\":\\\"§7Level 47\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0003
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000025,display:{Name:\"{\\\"text\\\":\\\"§eXul\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier A\\\"}\",\"{\\\"text\\\":\\\"§7Level 49\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0002
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000026,display:{Name:\"{\\\"text\\\":\\\"§eZen\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier A\\\"}\",\"{\\\"text\\\":\\\"§7Level 50\\\"}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0001
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rune\",Rarity:\"spe\",CustomModelData:10000027,display:{Name:\"{\\\"text\\\":\\\"§eMot\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§6Rune\\\"}\",\"{\\\"text\\\":\\\"§7Tier A\\\"}\",\"{\\\"text\\\":\\\"§7Level MASTER\\\"}\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

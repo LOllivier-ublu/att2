@@ -307,3 +307,8 @@ scoreboard players set 86 SECRET_SHULKER 0
 scoreboard players set 87 SECRET_SHULKER 0
 scoreboard players set 88 SECRET_SHULKER 0
 scoreboard players set 89 SECRET_SHULKER 0
+scoreboard players set 90 SECRET_SHULKER 0
+scoreboard players set 91 SECRET_SHULKER 0
+scoreboard players set 92 SECRET_SHULKER 0
+scoreboard players set 93 SECRET_SHULKER 0
+scoreboard players set 94 SECRET_SHULKER 0

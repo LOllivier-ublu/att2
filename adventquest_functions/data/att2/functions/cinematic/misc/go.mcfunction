@@ -14,8 +14,6 @@ execute in minecraft:overworld run function att2:cinematic/act_4/elcheol/go
 execute in minecraft:overworld if score Mainquest SIDEQUEST matches 115.. run function att2:cinematic/act_4/vonaheim/center_n/go
 execute in minecraft:overworld if score Mainquest SIDEQUEST matches 104.. run function att2:cinematic/act_4/vonaheim/center_s/go
 execute in minecraft:overworld run function att2:cinematic/act_4/vonaheim/center_n/mech4/go
-# Nojelanth desert
-execute in minecraft:overworld if score Mainquest SIDEQUEST matches 225.. run function att2:cinematic/act_4/nojelanth/present/desert/go
 # Trias teleportation
 execute in minecraft:overworld run function att2:cinematic/act_4/ouranos/trias/go
 
@@ -44,3 +42,11 @@ execute if score Mainquest SIDEQUEST matches 275..279 run function att2:cinemati
 execute if score SQ46 SIDEQUEST matches 3.. run function att2:gameplay/boss/ether/umbratyanth/go
 # Serile
 execute if score Mainquest SIDEQUEST matches 282..285 run function att2:gameplay/boss/serile/go
+
+### Main Quest Bug Safety Valve
+#Gestrom Security
+execute if score Mainquest SIDEQUEST matches 163..168 in minecraft:the_end if entity @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 169
+#Ulkogummi Security
+execute if score Mainquest SIDEQUEST matches 158..160 in minecraft:the_end if entity @a[x=-1138,y=110,z=-561,dx=0,dy=2,dz=2,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 161
+#Last Nojelanth portal
+execute if score Mainquest SIDEQUEST matches 255..259 in minecraft:overworld if entity @a[x=-6022,y=201,z=-4292,distance=..3,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 260

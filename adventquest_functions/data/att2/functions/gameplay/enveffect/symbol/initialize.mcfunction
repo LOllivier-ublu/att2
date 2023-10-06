@@ -42,6 +42,7 @@ scoreboard players set Owsastr SYMBOL 0
 scoreboard players set Ryliath SYMBOL 0
 scoreboard players set Sathnok SYMBOL 0
 scoreboard players set Schestrown SYMBOL 0
+scoreboard players set Secret_dungeon SYMBOL 0
 scoreboard players set Soquai SYMBOL 0
 scoreboard players set Volcano SYMBOL 0
 scoreboard players set Vonaheim SYMBOL 0

@@ -97,6 +97,6 @@ execute in minecraft:the_end positioned -1349 41 -710 as @s[distance=..6] if sco
 execute in minecraft:the_end positioned -1237 35 -760 as @s[distance=..6] if score 90 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/90
 execute in minecraft:the_end positioned -1142 163 -516 as @s[distance=..6] if score 91 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/91
 
-execute in minecraft:overworld positioned 7304 81 7357 as @s[distance=..6] if score 87 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/87
-execute in minecraft:overworld positioned 7216 120 7239 as @s[distance=..6] if score 88 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/88
-execute in minecraft:overworld positioned 7390 128 6414 as @s[distance=..6] if score 89 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/89
+execute in minecraft:overworld positioned 7304 81 7357 as @s[distance=..6] if score 92 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/92
+execute in minecraft:overworld positioned 7216 120 7239 as @s[distance=..6] if score 93 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/93
+execute in minecraft:overworld positioned 7390 128 6414 as @s[distance=..6] if score 94 SECRET_SHULKER matches 0 run function att2:advancement/test_all/secret/shulker/94

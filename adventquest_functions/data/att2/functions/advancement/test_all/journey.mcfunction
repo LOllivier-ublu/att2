@@ -46,7 +46,7 @@ execute if score Kortaek SYMBOL matches 18 run advancement grant @a only att2:jo
 execute if score Lost_island SYMBOL matches 14 run advancement grant @a only att2:journey/symbol_lost_island
 execute if score Mangroove SYMBOL matches 10 run advancement grant @a only att2:journey/symbol_mangroove
 execute if score Meleim SYMBOL matches 30 run advancement grant @a only att2:journey/symbol_meleim
-execute if score Nojelanth_desert SYMBOL matches 24 run advancement grant @a only att2:journey/symbol_nojelanth_desert
+execute if score Nojelanth_desert SYMBOL matches 12 run advancement grant @a only att2:journey/symbol_nojelanth_desert
 execute if score Nojelanth_forest SYMBOL matches 24 run advancement grant @a only att2:journey/symbol_nojelanth_forest
 execute if score Ouranos_road SYMBOL matches 62 run advancement grant @a only att2:journey/symbol_ouranos_road
 execute if score Ouranos_tower SYMBOL matches 15 run advancement grant @a only att2:journey/symbol_ouranos_tower
@@ -63,7 +63,7 @@ execute if score Worlest_mine SYMBOL matches 14 run advancement grant @a only at
 execute if score Worlest SYMBOL matches 40 run advancement grant @a only att2:journey/symbol_worlest
 execute if score Zirthion SYMBOL matches 30 run advancement grant @a only att2:journey/symbol_zirthion
 
-execute if score Exploration SYMBOL matches 1205.. run advancement grant @a only att2:journey/the_traveler
+execute if score Exploration SYMBOL matches 1307.. run advancement grant @a only att2:journey/the_traveler
 
 # CHECKPOINT
 execute if score Angor CHECKPOINT matches 19 run advancement grant @a only att2:journey/checkpoint_angor

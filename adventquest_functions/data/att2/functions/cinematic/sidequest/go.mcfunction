@@ -3,14 +3,6 @@
 #Process all sidequest mechanism in go from 753 86 737 		#
 #############################################################
 
-### Main Quest Bug Safety Valve
-#Gestrom Security
-execute if score Mainquest SIDEQUEST matches 163..168 in minecraft:the_end if entity @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 169
-#Ulkogummi Security
-execute if score Mainquest SIDEQUEST matches 158..160 in minecraft:the_end if entity @a[x=-1138,y=110,z=-561,dx=0,dy=2,dz=2,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 161
-#Last Nojelanth portal
-execute if score Mainquest SIDEQUEST matches 255..259 in minecraft:overworld if entity @a[x=-6022,y=201,z=-4292,distance=..3,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 260
-
 ### Launch sidequest with mainquest + reputation + position trigger
 execute if score Mainquest SIDEQUEST matches 151.. if score vulk_PNJ DIALOG matches 1 at 00000000-0000-067a-0000-00000000067a if entity @a[distance=..30] run function att2:cinematic/sidequest/21/vulk/update_dialog
 execute if score Mainquest SIDEQUEST matches 43.. if score heros REPUTATION matches 50.. if score ragnar_lorth_PNJ DIALOG matches 1..3 if score SQ29 SIDEQUEST matches 0 at 00000000-0000-036a-0000-00000000036a if entity @a[distance=..30] run function att2:cinematic/sidequest/29/ragnar_lorth/update_dialog
@@ -102,4 +94,4 @@ execute in minecraft:the_nether if score SQ57 SIDEQUEST matches 1..99 run functi
 execute in minecraft:overworld if score SQ58 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/58/go
 execute in minecraft:overworld if score SQ59 SIDEQUEST matches 1..99 run function att2:cinematic/sidequest/59/go
 execute in minecraft:overworld if score SQ59 SIDEQUEST matches 100 run function att2:cinematic/sidequest/59/step18/portal_go
-execute if score SQ60 SIDEQUEST matches 1..99 if entity @a[scores={EXPLOIT=16743..}] run function att2:cinematic/sidequest/60/end
+execute if score SQ60 SIDEQUEST matches 1..99 if entity @a[scores={EXPLOIT=16766..}] run function att2:cinematic/sidequest/60/end

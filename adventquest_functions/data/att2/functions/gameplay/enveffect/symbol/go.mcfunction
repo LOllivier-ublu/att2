@@ -40,6 +40,7 @@ function att2:gameplay/enveffect/symbol/trigger/plain
 function att2:gameplay/enveffect/symbol/trigger/ryliath
 function att2:gameplay/enveffect/symbol/trigger/sathnok
 function att2:gameplay/enveffect/symbol/trigger/schestrown
+function att2:gameplay/enveffect/symbol/trigger/secret_dungeon
 function att2:gameplay/enveffect/symbol/trigger/soquai
 function att2:gameplay/enveffect/symbol/trigger/volcano
 function att2:gameplay/enveffect/symbol/trigger/vonaheim

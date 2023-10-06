@@ -68,6 +68,9 @@ execute as @a[scores={COOLDOWN27=1,SPELL_SLCT=261..270}] at @s run function att2
 function att2:gameplay/dahal/action/spell28_cooldown
 execute as @a[scores={COOLDOWN28=1,SPELL_SLCT=271..280}] at @s run function att2:dialogs/gameplay/dahal/spell28_ready
 
+function att2:gameplay/dahal/action/spell34_cooldown
+execute as @a[scores={COOLDOWN34=1,SPELL_SLCT=331..340}] at @s run function att2:dialogs/gameplay/dahal/spell34_ready
+
 # Corruption (special activation due to persistance)
 function att2:gameplay/dahal/action/spell40_cooldown
 execute as @a[scores={COOLDOWN40=1,SPELL_SLCT=391..400}] at @s run function att2:dialogs/gameplay/dahal/spell40_ready
