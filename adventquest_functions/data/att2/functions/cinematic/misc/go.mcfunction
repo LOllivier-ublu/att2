@@ -43,6 +43,9 @@ execute if score SQ46 SIDEQUEST matches 3.. run function att2:gameplay/boss/ethe
 # Serile
 execute if score Mainquest SIDEQUEST matches 282..285 run function att2:gameplay/boss/serile/go
 
+### Process Secret dungeon
+function att2:cinematic/misc/secret_dungeon/go
+
 ### Main Quest Bug Safety Valve
 #Gestrom Security
 execute if score Mainquest SIDEQUEST matches 163..168 in minecraft:the_end if entity @a[x=-1140,y=199,z=-678,dx=0,dy=2,dz=-2,gamemode=adventure] run scoreboard players set Mainquest SIDEQUEST 169

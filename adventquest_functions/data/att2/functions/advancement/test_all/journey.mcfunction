@@ -56,6 +56,7 @@ execute if score Plain SYMBOL matches 24 run advancement grant @a only att2:jour
 execute if score Ryliath SYMBOL matches 63 run advancement grant @a only att2:journey/symbol_ryliath
 execute if score Sathnok SYMBOL matches 18 run advancement grant @a only att2:journey/symbol_sathnok
 execute if score Schestrown SYMBOL matches 44 run advancement grant @a only att2:journey/symbol_schestrown
+execute if score Secret_dungeon SYMBOL matches 35 run advancement grant @a only att2:journey/symbol_secret_dungeon
 execute if score Soquai SYMBOL matches 35 run advancement grant @a only att2:journey/symbol_soquai
 execute if score Volcano SYMBOL matches 13 run advancement grant @a only att2:journey/symbol_volcano
 execute if score Vonaheim SYMBOL matches 40 run advancement grant @a only att2:journey/symbol_vonaheim
@@ -100,6 +101,7 @@ execute if score Phoenix CHECKPOINT matches 3 run advancement grant @a only att2
 execute if score Ryliath CHECKPOINT matches 10 run advancement grant @a only att2:journey/checkpoint_ryliath
 execute if score Sathnok CHECKPOINT matches 6 run advancement grant @a only att2:journey/checkpoint_sathnok
 execute if score Schestrown CHECKPOINT matches 6 run advancement grant @a only att2:journey/checkpoint_schestrown
+execute if score Secret_dungeon CHECKPOINT matches 29 run advancement grant @a only att2:journey/checkpoint_secret_dungeon
 execute if score Soquai CHECKPOINT matches 9 run advancement grant @a only att2:journey/checkpoint_soquai
 execute if score Volcano CHECKPOINT matches 8 run advancement grant @a only att2:journey/checkpoint_volcano
 execute if score Vonaheim CHECKPOINT matches 29 run advancement grant @a only att2:journey/checkpoint_vonaheim
@@ -107,7 +109,7 @@ execute if score Worlest CHECKPOINT matches 15 run advancement grant @a only att
 execute if score WorlestMine CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_worlest_mine
 execute if score Zirthion CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_zirthion
 
-execute if score All CHECKPOINT matches 363.. run advancement grant @a only att2:journey/the_savior
+execute if score All CHECKPOINT matches 392.. run advancement grant @a only att2:journey/the_savior
 
 
 ### PNJ

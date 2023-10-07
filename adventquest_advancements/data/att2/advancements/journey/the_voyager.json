@@ -644,6 +644,23 @@
                     }
                 ]
             }
+        },
+        "discover_secret_dungeon": {
+            "trigger": "minecraft:location",
+          "conditions": {
+                "player": [{
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {"min":-4266.0,"max":-4270.0},
+                    "y": {"min":94.0,"max":98.0},
+                    "z": {"min":-6196.0,"max":-6200.0}
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }
