@@ -6,17 +6,16 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Je vois, c'est donc ça... Fascinant, je vais y réfléchir plus longtemps, en attendant je me dois de te remercier! Cette technique est essentielle dans nore métier, fais en bon usage.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Bien, alors sache que d'après un grimoir à l'académie, il existerait une structure souterraine à l'Est de Sylberländ et je connais une entrée an hauteur de la carrière des Mornith. Cependant pour l'ouvrir il faudrait savoir créer une formule précise avec d'anciennes runes :","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":". Enfin de toute façon personne n'est capable de rassembler de telles runes, mais on sait jamais peut-être serais-tu celui qui résoudra cette énigme.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"I see, that's it... Fascinating, I'll think about it some more, in the meantime I have to thank you! This technique is essential in our job, make good use of it.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Well, then know that according to a grimoire at the academy, there is an underground structure to the east of Sylberländ and I know of an entrance at the height of the Mornith quarry. However, to open it you would need to know how to create a precise formula with ancient runes:","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":". Well, no one is capable of gathering such runes anyway, but you never know, maybe you will be the one to solve this riddle.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"我明白了，就是這樣……很有趣，我會再考慮一下，同時我要謝謝你！ 這項技術在我們的工作中至關重要，好好利用它。","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"好吧，然後知道根據學院的魔法書，在西爾伯蘭德以東有一個地下建築，而且我知道在莫尼斯採石場的高處有一個入口。 然而，要打開它，您需要知道如何使用古代符文創建精確的公式：","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":"。好吧，無論如何沒有人能夠收集這樣的符文，但你永遠不知道，也許你會是解決這個謎題的人。","color":"dark_aqua"}]}
 
 execute if score lioras_PNJ DIALOG matches ..3 run scoreboard players set lioras_PNJ DIALOG 4
-function att2:gameplay/dahal/action/spell34/obtain

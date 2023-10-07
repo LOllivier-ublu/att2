@@ -14,3 +14,5 @@ execute in minecraft:overworld run spawnpoint @a -5614 189 -6530
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/vonaheim
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/vonaheim_master
+
+execute if score lioras_PNJ DIALOG matches 1 run scoreboard players set lioras_PNJ DIALOG 2
