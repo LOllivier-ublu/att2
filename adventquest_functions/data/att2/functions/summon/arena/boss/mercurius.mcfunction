@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Summon Asurok  		     					 #
+#Summon Mercurius  		     					 #
 ##################################################
 
 summon minecraft:warden ~ ~ ~
