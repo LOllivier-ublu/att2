@@ -744,3 +744,7 @@ execute in minecraft:the_end positioned -1121 137 -569 if entity @a[distance=3..
 execute in minecraft:the_end positioned -1577 46 -642 if entity @a[distance=3..15] run function att2:spawner/reg3/billgart/lost_area/blaze0_class19_5511
 execute in minecraft:the_end positioned -1471 151 -588 if entity @a[distance=3..15] run function att2:spawner/reg3/billgart/lost_area/golemarcher3_class20_5517
 execute in minecraft:the_end positioned -1474 131 -635 if entity @a[distance=3..15] run function att2:spawner/reg3/billgart/lost_area/golemarcher1_class19_5523
+execute in minecraft:overworld positioned -4452 63 -6238 if entity @a[distance=3..15] run function att2:spawner/reg1/silberland/secret_dungeon/wardenminion0_class17_6046
+execute in minecraft:overworld positioned -4517 97 -6174 if entity @a[distance=3..15] run function att2:spawner/reg1/silberland/secret_dungeon/wardenminion0_class17_6074
+execute in minecraft:overworld positioned -4522 102 -6183 if entity @a[distance=3..15] run function att2:spawner/reg1/silberland/secret_dungeon/wardenminion0_class17_6102
+execute in minecraft:overworld positioned -4639 19 -6050 if entity @a[distance=3..15] run function att2:spawner/reg1/silberland/secret_dungeon/wardenminion0_class17_6130
