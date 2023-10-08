@@ -27,3 +27,4 @@ execute in minecraft:overworld positioned -5373 85 -4437 if block ~ ~ ~ minecraf
 execute in minecraft:overworld positioned -5305 101 -4519 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/kert_mine
 execute in minecraft:overworld positioned -5028 84 -4475 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/kert_mine
 #20
+execute in minecraft:overworld positioned -5155 91 -4542 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/kert_mine

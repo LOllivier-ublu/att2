@@ -11,6 +11,9 @@
 particle minecraft:dust 1 0 0 1 -4571 54 -5982 3 3 0.1 0 15 normal
 particle minecraft:dust 1 0 0 1 -4571 58 -5950 5 7 0.1 0 50 normal
 
+# Start the boss fight (summoning Extratellur)
+execute if score Extratellur SECRET_DUNGEON matches -1 if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] run function att2:gameplay/boss/silberland/extratellur/start
+
 # Music management
 execute if score Extratellur SECRET_DUNGEON matches 0.. as @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,scores={MUSIC_BOSS=0}] at @s run function att2:gameplay/boss/music_secretboss
 execute if score Extratellur SECRET_DUNGEON matches 0.. as @a[scores={MUSIC_BOSS=1..}] run scoreboard players remove @s MUSIC_BOSS 1
@@ -33,9 +36,6 @@ execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=6
 execute as @a[x=-4565,y=50,z=-5983,dx=-12,dy=7,dz=0,gamemode=adventure] at @s unless entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure,tag=!Dead] as @a[distance=..50] run function att2:gameplay/boss/silberland/extratellur/display_title
 execute if score EnterArena SECRET_DUNGEON matches ..0 as @a[x=-4565,y=50,z=-5983,dx=-12,dy=7,dz=0,gamemode=adventure] run function att2:gameplay/boss/silberland/extratellur/enter_arena
 execute if score EnterArena SECRET_DUNGEON matches 1.. run scoreboard players remove EnterArena SECRET_DUNGEON 1
-
-# Start the boss fight (summoning Extratellur)
-execute if score Extratellur SECRET_DUNGEON matches -1 if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] run function att2:gameplay/boss/silberland/extratellur/start
 
 # Player failed destroying Extratellur and died
 execute if score Extratellur SECRET_DUNGEON matches 0.. unless entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] run function att2:gameplay/boss/silberland/extratellur/fail

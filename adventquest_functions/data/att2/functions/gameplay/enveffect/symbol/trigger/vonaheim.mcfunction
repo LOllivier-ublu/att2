@@ -49,3 +49,4 @@ execute in minecraft:overworld positioned -5597 153 -6495 if block ~ ~ ~ minecra
 execute in minecraft:overworld positioned -5614 143 -6475 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/vonaheim
 execute in minecraft:overworld positioned -5511 134 -6492 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/vonaheim
 #40
+execute in minecraft:overworld positioned -5572 121 -6428 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/vonaheim

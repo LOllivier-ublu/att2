@@ -40,6 +40,36 @@ execute if score Cave8 CHECKPOINT matches 0 positioned -4244 15 -4973 run functi
 execute if score Elvetta0 CHECKPOINT matches 0 positioned -4029 72 -5730 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Elvetta1 CHECKPOINT matches 0 positioned -4102 71 -5626 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Elvetta2 CHECKPOINT matches 0 positioned -4069 71 -5438 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon0 CHECKPOINT matches 0 positioned -4268 95 -6194 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon1 CHECKPOINT matches 0 positioned -4373 63 -6180 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon2 CHECKPOINT matches 0 positioned -4434 51 -6196 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon3 CHECKPOINT matches 0 positioned -4478 57 -6120 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon4 CHECKPOINT matches 0 positioned -4497 93 -6177 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon5 CHECKPOINT matches 0 positioned -4502 105 -6185 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon6 CHECKPOINT matches 0 positioned -4506 105 -6214 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon7 CHECKPOINT matches 0 positioned -4610 81 -6224 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon8 CHECKPOINT matches 0 positioned -4640 54 -6177 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon9 CHECKPOINT matches 0 positioned -4619 91 -6181 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon10 CHECKPOINT matches 0 positioned -4541 92 -6186 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon11 CHECKPOINT matches 0 positioned -4548 98 -6158 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon12 CHECKPOINT matches 0 positioned -4603 74 -6128 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon13 CHECKPOINT matches 0 positioned -4575 51 -6024 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon14 CHECKPOINT matches 0 positioned -4574 72 -5883 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon15 CHECKPOINT matches 0 positioned -4567 68 -6165 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon16 CHECKPOINT matches 0 positioned -4503 29 -6095 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon17 CHECKPOINT matches 0 positioned -4619 15 -6074 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon18 CHECKPOINT matches 0 positioned -4635 23 -6048 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon19 CHECKPOINT matches 0 positioned -4744 27 -6068 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon20 CHECKPOINT matches 0 positioned -4744 27 -6192 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon21 CHECKPOINT matches 0 positioned -4618 28 -6130 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon22 CHECKPOINT matches 0 positioned -4752 25 -5551 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon23 CHECKPOINT matches 0 positioned -4752 29 -5423 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon24 CHECKPOINT matches 0 positioned -4760 71 -4789 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon25 CHECKPOINT matches 0 positioned -4851 42 -4782 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon26 CHECKPOINT matches 0 positioned -5562 80 -5919 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon27 CHECKPOINT matches 0 positioned -5402 137 -5850 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon28 CHECKPOINT matches 0 positioned -5112 54 -4666 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Secret_dungeon29 CHECKPOINT matches 0 positioned -5273 70 -4557 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 
 #Secrets
 execute if score 8 SECRET_SIMPLE matches 0 positioned -4599 71 -5077 run function att2:gameplay/dahal/action/spell34/create_secret_marker
@@ -792,3 +822,8 @@ execute if data block -5117 54 -4655 {LootTable:"att2:chest/reg1/c10t3"} positio
 execute if data block -4613 47 -6206 {LootTable:"att2:chest/reg1/c10t10"} positioned -4613 47 -6206 run function att2:gameplay/dahal/action/spell34/create_chest_marker
 execute if data block -4614 47 -6206 {LootTable:"att2:chest/reg1/c10t9"} positioned -4614 47 -6206 run function att2:gameplay/dahal/action/spell34/create_chest_marker
 execute if data block -4612 47 -6206 {LootTable:"att2:chest/reg1/c10t9"} positioned -4612 47 -6206 run function att2:gameplay/dahal/action/spell34/create_chest_marker
+
+execute if data block -7545 123 -4316 {LootTable:"att2:chest/reg1/c10t7"} positioned -7545 123 -4316 run function att2:gameplay/dahal/action/spell34/create_chest_marker
+execute if data block -7545 123 -4317 {LootTable:"att2:chest/reg1/c10t7"} positioned -7545 123 -4317 run function att2:gameplay/dahal/action/spell34/create_chest_marker
+execute if data block -4503 97 -6211 {LootTable:"att2:chest/reg1/c10t4"} positioned -4503 97 -6211 run function att2:gameplay/dahal/action/spell34/create_chest_marker
+execute if data block -4502 97 -6211 {LootTable:"att2:chest/reg1/c10t5"} positioned -4502 97 -6211 run function att2:gameplay/dahal/action/spell34/create_chest_marker
