@@ -45,6 +45,8 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] o
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:adventure/myt
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"weaponsking"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"elixirvitae"}}]}] only att2:adventure/myt
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"secretseeker"}}]}] only att2:adventure/myt
 
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"fortuity"}}}] only att2:collection/mythique/fortuity
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"blindshield"}}}] only att2:collection/mythique/aveugle_rempart
@@ -64,6 +66,8 @@ advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"corpushermeticum"}}]}] o
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"liberhermetis"}}]}] only att2:collection/mythique/liber_hermetis
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"thricegreatesthermes"}}]}] only att2:collection/mythique/thrice_greatest_hermes
 advancement grant @a[nbt={SelectedItem:{tag:{EquipmentID:"weaponsking"}}}] only att2:collection/mythique/weaponsking
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"elixirvitae"}}]}] only att2:collection/mythique/elixir_vitae
+advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"secretseeker"}}]}] only att2:collection/mythique/secret_seeker
 
 # SURVIVE (TIME SINCE DEATH)
 advancement grant @a[scores={TIMESINCEDEATH=24000..}] only att2:adventure/survive_1day

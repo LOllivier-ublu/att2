@@ -16,4 +16,4 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lioras : ","color":"green","extr
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"那麼你還在尋找這些秘密的地下通道嗎？ 如果你忘了符文配方，我會提醒你：","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"文字":". 我會讓你繼續，我會留在這裡。 我寧願尋找秘密，也不願被怪物咬得更少...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"那麼你還在尋找這些秘密的地下通道嗎？ 如果你忘了符文配方，我會提醒你：","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":". 我會讓你繼續，我會留在這裡。 我寧願尋找秘密，也不願被怪物咬得更少...","color":"dark_aqua"}]}

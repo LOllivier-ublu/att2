@@ -11,7 +11,7 @@
     },
     "parent": "att2:collection/mythique",
     "rewards": {
-        "function": "att2:advancement/exploit_35",
+        "function": "att2:advancement/exploit_30",
         "experience": 15000
                 },
     "criteria": {
