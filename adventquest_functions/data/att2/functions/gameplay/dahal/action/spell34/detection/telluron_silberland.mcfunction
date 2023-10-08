@@ -228,41 +228,41 @@ execute unless score Schestrown SYMBOL matches 44.. positioned -4328 68 -5054 if
 
 execute unless score Worlest_mine SYMBOL matches 14.. positioned -4625 73 -5091 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4375 64 -6223 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4321 52 -6192 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4386 63 -6225 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4417 43 -6141 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4468 41 -6204 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4567 70 -6126 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4536 92 -6176 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4504 93 -6194 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4503 99 -6211 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4512 105 -6205 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4501 90 -6227 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4600 75 -6227 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4575 80 -6265 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4571 70 -6140 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4613 49 -6206 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4660 56 -6210 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4633 89 -6217 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4541 93 -6178 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4610 49 -6138 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4539 45 -6242 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4510 111 -6174 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4516 99 -6191 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4510 28 -6081 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4572 20 -6076 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4738 19 -6049 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4739 26 -6106 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4620 34 -6130 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4589 90 -6102 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4571 72 -5884 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4726 24 -5513 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4839 64 -4787 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -5530 110 -5842 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -5558 79 -5950 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -5107 57 -4626 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Secret_dungeon SYMBOL 35.. positioned -4407 98 -6144 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4375 64 -6223 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4321 52 -6192 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4386 63 -6225 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4417 43 -6141 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4468 41 -6204 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4567 70 -6126 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4536 92 -6176 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4504 93 -6194 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4503 99 -6211 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4512 105 -6205 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4501 90 -6227 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4600 75 -6227 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4575 80 -6265 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4571 70 -6140 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4613 49 -6206 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4660 56 -6210 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4633 89 -6217 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4541 93 -6178 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4610 49 -6138 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4539 45 -6242 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4510 111 -6174 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4516 99 -6191 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4510 28 -6081 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4572 20 -6076 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4738 19 -6049 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4739 26 -6106 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4620 34 -6130 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4589 90 -6102 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4571 72 -5884 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4726 24 -5513 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4839 64 -4787 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -5530 110 -5842 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -5558 79 -5950 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -5107 57 -4626 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Secret_dungeon SYMBOL matches 35.. positioned -4407 98 -6144 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 
 #Chests
 execute positioned -4625 75 -5016 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c7t8"} run function att2:gameplay/dahal/action/spell34/create_chest_marker

@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Alors tu es toujours entrain de chercher ces souterrains secrets ? Si tu as oublié la recette runique, je te la rappelle :","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":". Je te laisse continuer, moi je reste ici. Je préfère chasser les secrets que les monstres ça mord moins...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Alors tu es toujours entrain de chercher ces souterrains secrets ? Si tu as oublié la recette runique, je te la rappelle : ","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":". Je te laisse continuer, moi je reste ici. Je préfère chasser les secrets que les monstres ça mord moins...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"So are you still looking for these secret underground passages? If you forgot the runic recipe, I'll remind you:","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{" text":". I'll let you continue, I'll stay here. I'd rather hunt secrets than monsters bite less...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"So are you still looking for these secret underground passages? If you forgot the runic recipe, I'll remind you: ","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":". I'll let you continue, I'll stay here. I'd rather hunt secrets than monsters bite less...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

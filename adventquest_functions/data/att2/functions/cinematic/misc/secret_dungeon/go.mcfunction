@@ -16,7 +16,7 @@ execute positioned -4595 90 -6118 run function att2:cinematic/misc/secret_dungeo
 execute as @a[x=-4594,y=89,z=-6118,dx=-2,dy=2,dz=0] at @s run tp @s -5109 52 -4657 ~180 0
 # Wing South
 execute positioned -5109 54 -4655 run function att2:cinematic/misc/secret_dungeon/teleport_door_effect_ns
-execute as @a[x=-5109,y=53,z=-4654,dx=-2,dy=2,dz=0] at @s run tp @s -4595 88 -6120 ~180 0
+execute as @a[x=-5108,y=53,z=-4655,dx=-2,dy=2,dz=0] at @s run tp @s -4595 88 -6120 ~180 0
 
 # Main East
 execute positioned -4416 63 -6152 run function att2:cinematic/misc/secret_dungeon/teleport_door_effect_ew

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Bien, alors sache que d'après un grimoir à l'académie, il existerait une structure souterraine à l'Est de Sylberländ et je connais une entrée an hauteur de la carrière des Mornith. Cependant pour l'ouvrir il faudrait savoir créer une formule précise avec d'anciennes runes :","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":". Enfin de toute façon personne n'est capable de rassembler de telles runes, mais on sait jamais peut-être serais-tu celui qui résoudra cette énigme.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Bien, alors sache que d'après un grimoir à l'académie, il existerait une structure souterraine à l'Est de Sylberländ et je connais une entrée en hauteur de la carrière des Mornith. Cependant pour l'ouvrir il faudrait savoir créer une formule précise avec d'anciennes runes :","color":"dark_aqua"},{"text":"<Yog Lya Kan Tha Jo>","color":"gold"},{"text":". Enfin de toute façon personne n'est capable de rassembler de telles runes, mais on sait jamais peut-être serais-tu celui qui résoudra cette énigme.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
