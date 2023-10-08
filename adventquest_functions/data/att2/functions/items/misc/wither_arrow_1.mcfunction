@@ -3,4 +3,4 @@
 #Obtain arrow_0         					 	 #
 ##################################################
 
-give @s minecraft:tipped_arrow{Potion:"minecraft:thick",CustomPotionEffects:[{Id:20,Amplifier:2,Duration:100}],Color:0} 1
+give @s minecraft:tipped_arrow{Potion:"minecraft:thick",custom_potion_effects:[{id:wither,amplifier:2,duration:100}],Color:0} 1

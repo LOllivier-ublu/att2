@@ -20,4 +20,4 @@ bossbar set minecraft:ouranos_timer color yellow
 bossbar set minecraft:ouranos_timer name [{"text":"Timer","color":"white"}]
 bossbar set minecraft:ouranos_timer max 1000
 
-execute positioned 7415 191 6467 run summon minecraft:wolf ~ ~ ~ {Tags:["LVL0","CLASS1","Reg4","BattleMusic"],DeathLootTable:"att2:empty",Silent:1,Invulnerable:1,NoAI:1,PersistenceRequired:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
+execute positioned 7415 191 6467 run summon minecraft:wolf ~ ~ ~ {Tags:["LVL0","CLASS1","Reg4","BattleMusic"],DeathLootTable:"att2:empty",Silent:1,Invulnerable:1,NoAI:1,PersistenceRequired:1,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0}]}

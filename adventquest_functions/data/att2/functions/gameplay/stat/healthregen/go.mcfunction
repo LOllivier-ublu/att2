@@ -12,4 +12,4 @@ function att2:gameplay/stat/healthregen/timer
 scoreboard players remove @a TIMER_HER_TOT 1
 execute as @a[scores={TIMER_HER_TOT=..0}] run function att2:gameplay/stat/healthregen/apply_effect
 
-execute as @a[nbt=!{ActiveEffects:[{Id:19b}]},scores={HER_TOT=..-2}] run effect give @s minecraft:poison 1 0 true
+execute as @a[nbt=!{active_effects:[{Id:19b}]},scores={HER_TOT=..-2}] run effect give @s minecraft:poison 1 0 true

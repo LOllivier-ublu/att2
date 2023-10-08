@@ -30,7 +30,7 @@ execute if score Real0 TIMER matches 1000 run function att2:dialogs/mainquest/ac
 execute if score Real0 TIMER matches 1000..1050 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real0 TIMER matches 1050 run function att2:dialogs/mainquest/act_4/ch5_player_9
 execute if score Real0 TIMER matches 1070 as 00000000-0000-003a-0000-00000000003a at @s run teleport @s -5473 71 -4726 90 0
-execute if score Real0 TIMER matches 1070 run summon minecraft:villager -5472.6 71 -4726 {Rotation:[90.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
+execute if score Real0 TIMER matches 1070 run summon minecraft:villager -5472.6 71 -4726 {Rotation:[90.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0}]}
 execute if score Real0 TIMER matches 1080 run function att2:physicmod/reg1/kert/brynhild_barrier_false
 execute if score Real0 TIMER matches 1101 run scoreboard players set Mainquest SIDEQUEST 223
 

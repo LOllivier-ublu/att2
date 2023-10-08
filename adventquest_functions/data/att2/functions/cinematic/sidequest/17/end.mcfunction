@@ -19,7 +19,7 @@ execute if score choice SQ17 matches 2 at 00000000-0000-060a-0000-00000000060a a
 
 #REWARDS
 xp add @a 4500 points
-execute if score choice SQ17 matches 1 run summon minecraft:villager 3429 35 3730.01 {Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
+execute if score choice SQ17 matches 1 run summon minecraft:villager 3429 35 3730.01 {Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0}]}
 execute if score choice SQ17 matches 2 run scoreboard players add @a CHRONOTON 225
 execute if score choice SQ17 matches 2 run tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+225 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 execute if score choice SQ17 matches 1 run scoreboard players set choice SQ17 3

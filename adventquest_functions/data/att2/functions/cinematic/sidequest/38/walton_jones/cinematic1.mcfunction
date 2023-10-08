@@ -20,7 +20,7 @@ execute if score Real2 TIMER matches 150 at @a run function att2:sound/misc/ston
 execute if score Real2 TIMER matches 200 positioned -4375 60 -5054 run function att2:gameplay/dahal/action/spell10/sound_effect2
 execute if score Real2 TIMER matches 200 positioned -4375 60 -5054 run particle minecraft:explosion_emitter ~ ~ ~ 5 5 5 1 50
 execute if score Real2 TIMER matches 200 as 00000000-0000-134a-0000-00000000134a run tp @s -4394 53 -5054 -90 0
-execute if score Real2 TIMER matches 200 run summon minecraft:villager -4393.4 53 -5054 {Rotation:[0.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
+execute if score Real2 TIMER matches 200 run summon minecraft:villager -4393.4 53 -5054 {Rotation:[0.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0}]}
 execute if score Real2 TIMER matches 225 at @a run function att2:sound/misc/wood_breaking
 execute if score Real2 TIMER matches 225 positioned -4375 60 -5054 run particle minecraft:explosion_emitter ~ ~ ~ 5 5 5 1 50
 execute if score Real2 TIMER matches 230 run function att2:physicmod/reg1/schestrown_dungeon_sq38_destroyed

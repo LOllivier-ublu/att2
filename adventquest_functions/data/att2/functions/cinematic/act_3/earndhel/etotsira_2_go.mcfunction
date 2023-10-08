@@ -45,7 +45,7 @@ execute if score Real0 TIMER matches 1325 run scoreboard players add @a SPELL20_
 execute if score Real0 TIMER matches 1325 run scoreboard players add @a SPELL20_CAP 1
 execute if score Real0 TIMER matches 1325 as @a run function att2:gameplay/dahal/action/spell20/lvlup
 execute if score Real0 TIMER matches 1350 positioned 30011 75 29937 run function att2:sound/door/portal_dimension
-execute if score Real0 TIMER matches 1350 positioned as 00000000-0000-008b-0000-00000000008a run summon minecraft:villager ~0.05 ~ ~0.05 {Rotation:[-45.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647,Ambient:1,ShowParticles:0}]}
+execute if score Real0 TIMER matches 1350 positioned as 00000000-0000-008b-0000-00000000008a run summon minecraft:villager ~0.05 ~ ~0.05 {Rotation:[-45.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0}]}
 execute if score Real0 TIMER matches 1351 run scoreboard players set Mainquest SIDEQUEST 53
 
 
