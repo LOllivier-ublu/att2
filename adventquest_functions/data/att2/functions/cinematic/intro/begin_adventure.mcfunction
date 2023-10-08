@@ -14,7 +14,7 @@ function att2:clock/initialize
 # Beginning
 gamerule announceAdvancements false
 scoreboard objectives setdisplay list
-scoreboard objectives setdisplay belowName
+scoreboard objectives setdisplay below_name
 scoreboard players set update INTRO -1
 effect clear @a
 effect give @a minecraft:slow_falling 10 10 true

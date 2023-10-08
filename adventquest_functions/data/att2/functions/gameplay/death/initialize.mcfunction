@@ -13,4 +13,4 @@ scoreboard players set @s DEATHCOUNT 0
 scoreboard players set @s BASE_HEM 0
 scoreboard players set @s DIMENSION 0
 
-scoreboard objectives setdisplay belowName HEALTH
+scoreboard objectives setdisplay below_name HEALTH

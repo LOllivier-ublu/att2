@@ -19,7 +19,7 @@ weather thunder 3000
 scoreboard players set @a SHAKE_T 280
 scoreboard objectives setdisplay list CHRONOTON
 scoreboard objectives setdisplay sidebar DAHAL
-scoreboard objectives setdisplay belowName HEALTH
+scoreboard objectives setdisplay below_name HEALTH
 particle minecraft:portal -5252 72 -5405 1 0 1 1 200 normal
 particle minecraft:enchant -5252 72 -5405 1 0 1 1 200 normal
 particle minecraft:poof -5252 71.5 -5405 1 0 1 0 20 normal
