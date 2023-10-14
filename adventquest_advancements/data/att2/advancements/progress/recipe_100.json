@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lectern"
+        },
+        "title": {"translate":"Roi des cuisiniers, cuisinier des rois!"},
+        "description": {"translate":"Make 100 recipes"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/recipe_25",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 5000
+    },
+    "criteria": {
+        "recipe_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -3,8 +3,6 @@
 #Obtain Runes                                    #
 ##################################################
 
-function att2:gameplay/runes/recipe_effect
+function att2:gameplay/runes/recipe_done
 
 experience add @s 5000 points
-
-data remove block ~ ~ ~ Items[]

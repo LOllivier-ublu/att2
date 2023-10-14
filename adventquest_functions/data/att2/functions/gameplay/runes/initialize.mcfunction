@@ -24,6 +24,8 @@ scoreboard players set 13 RUNE 13
 scoreboard players set 20 RUNE 20
 scoreboard players set 100 RUNE 100
 
+scoreboard players set RecipeCount RUNE 0
+
 scoreboard players set 0_gal_org_inu RUNE 0
 scoreboard players set 1_fus_ra_jo RUNE 0
 scoreboard players set 2_nym_ehl_ave RUNE 0

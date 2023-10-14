@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lectern"
+        },
+        "title": {"translate":"Chef"},
+        "description": {"translate":"Make 5 recipes"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/recipe_1",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+    },
+    "criteria": {
+        "recipe_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

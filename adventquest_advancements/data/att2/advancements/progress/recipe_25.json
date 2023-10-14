@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lectern"
+        },
+        "title": {"translate":"Pro Cooker"},
+        "description": {"translate":"Make 25 recipes"},
+        "frame": "goal"
+    },
+    "parent": "att2:progress/recipe_5",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2500
+    },
+    "criteria": {
+        "recipe_25": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

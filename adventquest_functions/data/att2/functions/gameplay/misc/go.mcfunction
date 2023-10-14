@@ -12,3 +12,5 @@ function att2:gameplay/misc/chesteffect/go
 function att2:gameplay/misc/fire_immune/go
 function att2:gameplay/misc/survive_bonus/go
 execute if score Mainquest SIDEQUEST matches 180.. run function att2:gameplay/misc/celestial_tear/go
+
+function att2:gameplay/runes/go

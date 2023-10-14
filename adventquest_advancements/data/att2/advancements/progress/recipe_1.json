@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lectern"
+        },
+        "title": {"translate":"Your first recipe"},
+        "description": {"translate":"Make one recipe"}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+    },
+    "criteria": {
+        "recipe_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
