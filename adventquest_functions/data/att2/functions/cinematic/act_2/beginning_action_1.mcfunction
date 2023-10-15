@@ -10,6 +10,7 @@ stopsound @a
 tag @a remove NoAutoMusic
 scoreboard players set Mainquest SIDEQUEST 1
 scoreboard players set consciousness TUTORIAL 1
+scoreboard players set Timer ASSIST 1
 execute as @a at @s run function att2:gameplay/update_book
 execute as @a at @s run function att2:gameplay/dahal/obtain
 execute as @a at @s run function att2:gameplay/dahal/action/spell1/obtain
