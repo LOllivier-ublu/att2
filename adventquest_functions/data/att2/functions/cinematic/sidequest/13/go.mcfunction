@@ -15,7 +15,7 @@ execute if score SQ13 SIDEQUEST matches 1 at @a as @e[tag=SQ13,distance=..50] ru
 execute if score SQ13 SIDEQUEST matches 1 if score Current SQ13 matches 0 if score Total SQ13 matches 1 at @p run function att2:cinematic/sidequest/13/add_kill
 
 # Kill Total end
-execute if score SQ13 SIDEQUEST matches 1 if score KillCount SQ13 matches 15 run function att2:cinematic/sidequest/13/step2
+execute if score SQ13 SIDEQUEST matches 1 if score KillCount SQ13 matches 10 run function att2:cinematic/sidequest/13/step2
 
 # Quest Completed when player is close to PNJ Rob harth
-execute if score SQ13 SIDEQUEST matches 2 if score KillCount SQ13 matches 15 at 00000000-0000-053a-0000-00000000053a if entity @a[distance=..5] run function att2:cinematic/sidequest/13/end
+execute if score SQ13 SIDEQUEST matches 2 if score KillCount SQ13 matches 10 at 00000000-0000-053a-0000-00000000053a if entity @a[distance=..5] run function att2:cinematic/sidequest/13/end

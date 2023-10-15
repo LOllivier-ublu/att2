@@ -3,6 +3,7 @@
 #Validate Assist                   									#
 #####################################################################
 
+execute store result score Selection ASSIST run random value 0..158
 execute if score Selection ASSIST matches 0 run function att2:dialogs/gameplay/assist/0
 execute if score Selection ASSIST matches 1 run function att2:dialogs/gameplay/assist/1
 execute if score Selection ASSIST matches 2 run function att2:dialogs/gameplay/assist/2
