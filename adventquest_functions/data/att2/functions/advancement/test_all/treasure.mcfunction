@@ -28,6 +28,14 @@ execute if score Caught_total FAIRY matches 5.. run advancement grant @a only at
 execute if score Caught_total FAIRY matches 20.. run advancement grant @a only att2:treasure/fairy_20
 execute if score Caught_total FAIRY matches 50.. run advancement grant @a only att2:treasure/fairy_50
 
+# Mining
+execute if score MiningCountTotal RUNE matches 1.. run advancement grant @a only att2:treasure/mining_tot_1
+execute if score MiningCountTotal RUNE matches 5.. run advancement grant @a only att2:treasure/mining_tot_5
+execute if score MiningCountTotal RUNE matches 25.. run advancement grant @a only att2:treasure/mining_tot_25
+execute if score MiningCountTotal RUNE matches 75.. run advancement grant @a only att2:treasure/mining_tot_75
+execute if score MiningCountTotal RUNE matches 150.. run advancement grant @a only att2:treasure/mining_tot_150
+execute if score MiningCountTotal RUNE matches 300.. run advancement grant @a only att2:treasure/mining_tot_300
+
 # PURCHASE
 advancement grant @a[scores={SHOP=1..}] only att2:treasure/purchase_1
 advancement grant @a[scores={SHOP=25..}] only att2:treasure/purchase_25

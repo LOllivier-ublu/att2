@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mangrove_button"
+        },
+        "title": {"translate":"Minor miner"},
+        "description": {"translate":"Mine a minor runic mineral"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_1",
+            "experience": 150
+    },
+    "criteria": {
+        "mining_runic_minor": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

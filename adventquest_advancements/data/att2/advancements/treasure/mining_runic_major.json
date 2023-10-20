@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo_button"
+        },
+        "title": {"translate":"Major miner"},
+        "description": {"translate":"Mine a major runic mineral"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_3",
+            "experience": 500
+    },
+    "criteria": {
+        "mining_runic_major": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

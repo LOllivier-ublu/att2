@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:raw_iron"
+        },
+        "title": {"translate":"Master Miner"},
+        "description": {"translate":"Mine 75 Runic Minerals"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/mining_tot_25",
+        "rewards": {
+            "function": "att2:advancement/exploit_10",
+            "experience": 2500
+    },
+    "criteria": {
+        "mining_tot_75": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

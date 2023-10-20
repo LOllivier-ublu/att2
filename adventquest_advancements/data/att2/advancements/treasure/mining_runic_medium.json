@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cherry_button"
+        },
+        "title": {"translate":"Medium miner"},
+        "description": {"translate":"Mine a medium runic mineral"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_2",
+            "experience": 250
+    },
+    "criteria": {
+        "mining_runic_medium": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

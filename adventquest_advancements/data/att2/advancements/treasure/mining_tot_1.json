@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:raw_copper"
+        },
+        "title": {"translate":"First mining"},
+        "description": {"translate":"Mine your first Runic Mineral"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_1",
+            "experience": 100
+    },
+    "criteria": {
+        "mining_tot_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

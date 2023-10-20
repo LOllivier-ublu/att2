@@ -25,6 +25,10 @@ scoreboard players set 20 RUNE 20
 scoreboard players set 100 RUNE 100
 
 scoreboard players set RecipeCount RUNE 0
+scoreboard players set MiningCount_a RUNE 0
+scoreboard players set MiningCount_b RUNE 0
+scoreboard players set MiningCount_c RUNE 0
+scoreboard players set MiningCountTotal RUNE 0
 
 scoreboard players set 0_gal_org_inu RUNE 0
 scoreboard players set 1_fus_ra_jo RUNE 0
