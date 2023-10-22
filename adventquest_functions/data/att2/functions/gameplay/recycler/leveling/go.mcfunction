@@ -4,8 +4,8 @@
 #############################################################
 
 # test
-execute if score tic TIMECOUNTER matches 5 if score itemtotal_sold RECYCLER matches 100.. if score level statRECYCLER matches 0 run function att2:gameplay/shop/recycler/leveling/set_level1
-execute if score tic TIMECOUNTER matches 5 if score itemtotal_sold RECYCLER matches 500.. if score level statRECYCLER matches 1 run function att2:gameplay/shop/recycler/leveling/set_level2
-execute if score tic TIMECOUNTER matches 5 if score itemtotal_sold RECYCLER matches 1500.. if score level statRECYCLER matches 2 run function att2:gameplay/shop/recycler/leveling/set_level3
-execute if score tic TIMECOUNTER matches 5 if score itemtotal_sold RECYCLER matches 3500.. if score level statRECYCLER matches 3 run function att2:gameplay/shop/recycler/leveling/set_level4
-execute if score tic TIMECOUNTER matches 5 if score itemtotal_sold RECYCLER matches 7500.. if score level statRECYCLER matches 4 run function att2:gameplay/shop/recycler/leveling/set_level5
+execute if score tic TIMECOUNTER matches 5 if score points RECYCLER matches 250.. if score level RECYCLER matches 0 run function att2:gameplay/recycler/leveling/set_level1
+execute if score tic TIMECOUNTER matches 5 if score points RECYCLER matches 1000.. if score level RECYCLER matches 1 run function att2:gameplay/recycler/leveling/set_level2
+execute if score tic TIMECOUNTER matches 5 if score points RECYCLER matches 2500.. if score level RECYCLER matches 2 run function att2:gameplay/recycler/leveling/set_level3
+execute if score tic TIMECOUNTER matches 5 if score points RECYCLER matches 5000.. if score level RECYCLER matches 3 run function att2:gameplay/recycler/leveling/set_level4
+execute if score tic TIMECOUNTER matches 5 if score points RECYCLER matches 10000.. if score level RECYCLER matches 4 run function att2:gameplay/recycler/leveling/set_level5

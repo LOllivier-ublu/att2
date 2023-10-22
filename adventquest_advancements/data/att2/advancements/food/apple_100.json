@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bread"
+            "item": "minecraft:apple"
         },
-        "title": {"translate":"Bread addict"},
-        "description": {"translate":"Eat 128 breads"},
+        "title": {"translate":"Apple addict"},
+        "description": {"translate":"Eat 100 apples"},
         "frame": "challenge"
     },
-    "parent": "att2:food/bread_64",
+    "parent": "att2:food/apple_64",
     "rewards": {
         "function": "att2:advancement/exploit_15",
         "experience": 1000
                 },
     "criteria": {
-            "bread_128": {
+            "apple_100": {
         "trigger": "minecraft:impossible"
         }
     }

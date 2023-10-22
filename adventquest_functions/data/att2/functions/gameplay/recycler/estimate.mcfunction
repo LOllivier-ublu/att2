@@ -33,12 +33,12 @@ execute store result score leg_armset RECYCLER if entity @e[type=item,distance=.
 execute store result score myt RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"myt"}}}]
 execute store result score number RECYCLER if entity @e[type=item,distance=..1]
 
-execute if score level statRECYCLER matches 0 run function att2:gameplay/shop/recycler/leveling/estimate_0
-execute if score level statRECYCLER matches 1 run function att2:gameplay/shop/recycler/leveling/estimate_1
-execute if score level statRECYCLER matches 2 run function att2:gameplay/shop/recycler/leveling/estimate_2
-execute if score level statRECYCLER matches 3 run function att2:gameplay/shop/recycler/leveling/estimate_3
-execute if score level statRECYCLER matches 4 run function att2:gameplay/shop/recycler/leveling/estimate_4
-execute if score level statRECYCLER matches 5 run function att2:gameplay/shop/recycler/leveling/estimate_5
+execute if score level RECYCLER matches 0 run function att2:gameplay/recycler/leveling/estimate_0
+execute if score level RECYCLER matches 1 run function att2:gameplay/recycler/leveling/estimate_1
+execute if score level RECYCLER matches 2 run function att2:gameplay/recycler/leveling/estimate_2
+execute if score level RECYCLER matches 3 run function att2:gameplay/recycler/leveling/estimate_3
+execute if score level RECYCLER matches 4 run function att2:gameplay/recycler/leveling/estimate_4
+execute if score level RECYCLER matches 5 run function att2:gameplay/recycler/leveling/estimate_5
 
 scoreboard players operation total RECYCLER += arrow RECYCLER
 scoreboard players operation total RECYCLER += misc RECYCLER

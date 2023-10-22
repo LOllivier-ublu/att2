@@ -11,8 +11,17 @@ scoreboard players set itemtotal_sold_unc RECYCLER 0
 scoreboard players set itemtotal_sold_rar RECYCLER 0
 scoreboard players set itemtotal_sold_epi RECYCLER 0
 scoreboard players set itemtotal_sold_leg RECYCLER 0
+scoreboard players set itemtotal_misc_points RECYCLER 0
+scoreboard players set itemtotal_com_points RECYCLER 0
+scoreboard players set itemtotal_unc_points RECYCLER 0
+scoreboard players set itemtotal_rar_points RECYCLER 0
+scoreboard players set itemtotal_epi_points RECYCLER 0
+scoreboard players set itemtotal_leg_points RECYCLER 0
 scoreboard players set 500 RECYCLER 500
+scoreboard players set 450 RECYCLER 450
+scoreboard players set 400 RECYCLER 400
 scoreboard players set 350 RECYCLER 350
+scoreboard players set 300 RECYCLER 300
 scoreboard players set 250 RECYCLER 250
 scoreboard players set 200 RECYCLER 200
 scoreboard players set 175 RECYCLER 175
@@ -38,6 +47,5 @@ scoreboard players set 4 RECYCLER 4
 scoreboard players set 3 RECYCLER 3
 scoreboard players set 2 RECYCLER 2
 scoreboard players set 1 RECYCLER 1
-
-scoreboard objectives add statRECYCLER dummy
-scoreboard players set level statRECYCLER 0
+scoreboard players set points RECYCLER 0
+scoreboard players set level RECYCLER 0

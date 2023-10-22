@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:carrot"
+            "item": "minecraft:bread"
         },
-        "title": {"translate":"Carrot addict"},
-        "description": {"translate":"Eat 128 carrots"},
+        "title": {"translate":"Bread addict"},
+        "description": {"translate":"Eat 100 breads"},
         "frame": "challenge"
     },
-    "parent": "att2:food/carrot_64",
+    "parent": "att2:food/bread_64",
     "rewards": {
         "function": "att2:advancement/exploit_15",
         "experience": 1000
                 },
     "criteria": {
-            "carrot_128": {
+            "bread_100": {
         "trigger": "minecraft:impossible"
         }
     }

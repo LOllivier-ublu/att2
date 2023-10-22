@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cookie"
+        },
+        "title": {"translate":"Cookie addict"},
+        "description": {"translate":"Eat 128 cookies"},
+        "frame": "challenge"
+    },
+    "parent": "att2:food/cookie_64",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 1000
+                },
+    "criteria": {
+            "cookie_64": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cookie"
+        },
+        "title": {"translate":"Cookie tasty"},
+        "description": {"translate":"Eat a cookie"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+            "cookie_1": {
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

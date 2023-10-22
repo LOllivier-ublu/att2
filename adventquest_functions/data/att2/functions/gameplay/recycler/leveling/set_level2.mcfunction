@@ -3,5 +3,5 @@
 #Set smith level                        		    #
 #####################################################
 
-scoreboard players set level statRECYCLER 2
+scoreboard players set level RECYCLER 2
 advancement grant @a only att2:progress/recycler_level2

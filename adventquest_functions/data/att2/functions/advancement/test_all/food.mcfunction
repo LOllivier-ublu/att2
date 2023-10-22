@@ -28,23 +28,29 @@ advancement grant @a[scores={statMELON=16..}] only att2:food/melon_16
 advancement grant @a[scores={statMELON=64..}] only att2:food/melon_64
 advancement grant @a[scores={statMELON=128..}] only att2:food/melon_128
 
+# COOKIE
+advancement grant @a[scores={statCOOKIE=1..}] only att2:food/cookie_1
+advancement grant @a[scores={statCOOKIE=16..}] only att2:food/cookie_16
+advancement grant @a[scores={statCOOKIE=64..}] only att2:food/cookie_64
+advancement grant @a[scores={statCOOKIE=128..}] only att2:food/cookie_128
+
 # APPLE
 advancement grant @a[scores={statAPPLE=1..}] only att2:food/apple_1
 advancement grant @a[scores={statAPPLE=16..}] only att2:food/apple_16
 advancement grant @a[scores={statAPPLE=64..}] only att2:food/apple_64
-advancement grant @a[scores={statAPPLE=128..}] only att2:food/apple_128
+advancement grant @a[scores={statAPPLE=100..}] only att2:food/apple_100
 
 # BREAD
 advancement grant @a[scores={statBREAD=1..}] only att2:food/bread_1
 advancement grant @a[scores={statBREAD=16..}] only att2:food/bread_16
 advancement grant @a[scores={statBREAD=64..}] only att2:food/bread_64
-advancement grant @a[scores={statBREAD=128..}] only att2:food/bread_128
+advancement grant @a[scores={statBREAD=100..}] only att2:food/bread_100
 
 # CARROT
 advancement grant @a[scores={statCARROT=1..}] only att2:food/carrot_1
 advancement grant @a[scores={statCARROT=16..}] only att2:food/carrot_16
 advancement grant @a[scores={statCARROT=64..}] only att2:food/carrot_64
-advancement grant @a[scores={statCARROT=128..}] only att2:food/carrot_128
+advancement grant @a[scores={statCARROT=100..}] only att2:food/carrot_100
 
 # POTATO
 advancement grant @a[scores={statPOTATO=1..}] only att2:food/potato_1

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_wall_sign"
+        },
+        "title": {"translate":"No time"},
+        "description": {"translate":"Force store reset one time!"}
+    },
+    "parent": "att2:treasure/root",
+        "rewards": {
+            "function": "att2:advancement/exploit_5",
+            "experience": 250
+    },
+    "criteria": {
+        "randomise_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

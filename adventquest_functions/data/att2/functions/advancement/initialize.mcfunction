@@ -11,7 +11,7 @@ scoreboard players set @s COMPLETION 0
 scoreboard players set Game_percentage_progress EXPLOIT 0
 scoreboard players set Points_completion EXPLOIT 100
 scoreboard players set Total_objectives EXPLOIT 102
-scoreboard players set Total_point EXPLOIT 17127
+scoreboard players set Total_point EXPLOIT 17155
 
 function att2:advancement/initialize_secret_chest
 function att2:advancement/exploit_rewards/initialize
@@ -106,6 +106,7 @@ scoreboard objectives add statCOD minecraft.used:minecraft.cooked_cod
 scoreboard objectives add statSALMON minecraft.used:minecraft.cooked_salmon
 scoreboard objectives add statFLESH minecraft.used:minecraft.rotten_flesh
 scoreboard objectives add statJORIN minecraft.used:minecraft.beetroot
+scoreboard objectives add statCOOKIE minecraft.used:minecraft.cookie
 
 scoreboard objectives add TIMEPLAY minecraft.custom:minecraft.play_time
 

@@ -32,23 +32,4 @@ execute store result score leg RECYCLER if entity @e[type=item,distance=..1,nbt=
 execute store result score leg_armset RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg_armset"}}}]
 execute store result score myt RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"myt"}}}]
 
-scoreboard players operation itemtotal_sold RECYCLER += arrow RECYCLER
-scoreboard players operation itemtotal_sold RECYCLER += misc RECYCLER
-scoreboard players operation itemtotal_sold RECYCLER += com RECYCLER
-scoreboard players operation itemtotal_sold RECYCLER += unc RECYCLER
-scoreboard players operation itemtotal_sold RECYCLER += rar RECYCLER
-scoreboard players operation itemtotal_sold RECYCLER += epi RECYCLER
-scoreboard players operation itemtotal_sold RECYCLER += epi_set RECYCLER
-scoreboard players operation itemtotal_sold RECYCLER += epi_esc RECYCLER
-scoreboard players operation itemtotal_sold RECYCLER += leg RECYCLER
-scoreboard players operation itemtotal_sold RECYCLER += leg_armset RECYCLER
-
-scoreboard players operation itemtotal_sold_misc RECYCLER += misc RECYCLER
-scoreboard players operation itemtotal_sold_com RECYCLER += com RECYCLER
-scoreboard players operation itemtotal_sold_unc RECYCLER += unc RECYCLER
-scoreboard players operation itemtotal_sold_rar RECYCLER += rar RECYCLER
-scoreboard players operation itemtotal_sold_epi RECYCLER += epi RECYCLER
-scoreboard players operation itemtotal_sold_epi RECYCLER += epi_set RECYCLER
-scoreboard players operation itemtotal_sold_epi RECYCLER += epi_esc RECYCLER
-scoreboard players operation itemtotal_sold_leg RECYCLER += leg RECYCLER
-scoreboard players operation itemtotal_sold_leg RECYCLER += leg_armset RECYCLER
+function att2:gameplay/recycler/estimate_stats
