@@ -140,6 +140,7 @@ execute in minecraft:overworld positioned -4359 39 -6016 if entity @a[distance=5
 execute in minecraft:overworld positioned -4382 9 -6056 if entity @a[distance=5..30] run function att2:spawner/reg1/mornith/emerald_cave/slimebig0_class6_1276
 execute in minecraft:overworld positioned -4371 40 -5976 if entity @a[distance=5..20] run function att2:spawner/reg1/mornith/catacomb/skeleton3_class6_1284
 execute in minecraft:overworld positioned -4370 67 -6037 if entity @a[distance=5..30] run function att2:spawner/reg1/mornith/catacomb/skeletonarcher4_class8_1299
+execute in minecraft:overworld if score SQ22 SIDEQUEST matches 0..99 positioned -4408 65 -5934 if entity @a[distance=5..30] run function att2:spawner/reg1/mornith/omeryn_store/revenantarcher1_class6_sq22_1283
 execute in minecraft:overworld positioned -4667 74 -5762 if entity @a[distance=5..30] run function att2:spawner/reg1/plain/west/zombie3_class3_1302
 execute in minecraft:overworld positioned -4570 72 -5723 if entity @a[distance=5..30] run function att2:spawner/reg1/plain/west/zombie2_class3_1309
 execute in minecraft:overworld positioned -4426 70 -5509 if entity @a[distance=5..25] run function att2:spawner/reg1/plain/center/bee0_class4_1326

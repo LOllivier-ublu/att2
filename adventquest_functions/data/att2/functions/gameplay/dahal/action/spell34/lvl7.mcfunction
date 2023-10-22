@@ -27,6 +27,7 @@ team join detect_checkpoint @e[type=minecraft:shulker,tag=checkpointmarker]
 team join detect_secret @e[type=minecraft:shulker,tag=secretmarker]
 team join detect_symbol @e[type=minecraft:shulker,tag=symbolmarker]
 team join detect_chest @e[type=minecraft:shulker,tag=chestmarker]
+team join detect_minerals_runes @e[type=minecraft:shulker,tag=mineralsmarker]
 
 execute if score @s LIMIT34 matches ..21 as @s run function att2:dialogs/gameplay/dahal/spell34_reveal
 execute if score @s LIMIT34 matches 22.. as @s run function att2:dialogs/gameplay/dahal/spell34_reveal_max

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glow_ink_sac"
+        },
+        "title": {"translate":"Seller Apprentice"},
+        "description": {"translate":"Reach the level 1 of the recycler item."}
+    },
+    "parent": "att2:progress/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 100
+                },
+    "criteria": {
+        "recycler_level1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
