@@ -4,8 +4,8 @@
 #################################################################
 
 
-experience add @s -111 levels
-scoreboard players set @s LVL_UPGRADE_REQ 112
+experience add @s -112 levels
+scoreboard players set @s LVL_UPGRADE_REQ 114
 tag @s remove LVLUpReady
 scoreboard players set @s GAMELEVEL 41
 scoreboard players add @s SKILLPOINT 3

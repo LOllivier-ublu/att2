@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:oak_wall_sign"
+            "item": "minecraft:oak_hanging_sign"
         },
         "title": {"translate":"No time"},
         "description": {"translate":"Force store reset one time!"}
