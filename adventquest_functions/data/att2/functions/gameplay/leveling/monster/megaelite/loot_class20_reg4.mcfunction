@@ -35,6 +35,8 @@ execute if score level DIFFICULTY matches 0.. run summon minecraft:experience_or
 execute if score level DIFFICULTY matches 1.. run summon minecraft:experience_orb ~ ~2 ~ {Value:255}
 execute if score level DIFFICULTY matches 2.. run summon minecraft:experience_orb ~ ~2 ~ {Value:255}
 
+function att2:summon/bat_boss_esc_rewards
+function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_b_rewards
