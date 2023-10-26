@@ -38,11 +38,11 @@ scoreboard players operation points RECYCLER += itemtotal_rar_points RECYCLER
 scoreboard players set itemtotal_rar_points RECYCLER 0
 scoreboard players operation itemtotal_epi_points RECYCLER += epi RECYCLER
 scoreboard players operation itemtotal_epi_points RECYCLER += epi_set RECYCLER
-scoreboard players operation itemtotal_epi_points RECYCLER *= 5 RECYCLER
+scoreboard players operation itemtotal_epi_points RECYCLER *= 10 RECYCLER
 scoreboard players operation points RECYCLER += itemtotal_epi_points RECYCLER
 scoreboard players set itemtotal_epi_points RECYCLER 0
 scoreboard players operation itemtotal_leg_points RECYCLER += leg RECYCLER
 scoreboard players operation itemtotal_leg_points RECYCLER += leg_armset RECYCLER
-scoreboard players operation itemtotal_leg_points RECYCLER *= 10 RECYCLER
+scoreboard players operation itemtotal_leg_points RECYCLER *= 25 RECYCLER
 scoreboard players operation points RECYCLER += itemtotal_leg_points RECYCLER
 scoreboard players set itemtotal_leg_points RECYCLER 0

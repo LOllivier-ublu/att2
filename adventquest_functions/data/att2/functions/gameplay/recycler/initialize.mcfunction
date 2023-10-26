@@ -28,7 +28,11 @@ scoreboard players set 175 RECYCLER 175
 scoreboard players set 150 RECYCLER 150
 scoreboard players set 125 RECYCLER 125
 scoreboard players set 100 RECYCLER 100
+scoreboard players set 90 RECYCLER 90
+scoreboard players set 80 RECYCLER 80
 scoreboard players set 75 RECYCLER 75
+scoreboard players set 70 RECYCLER 70
+scoreboard players set 60 RECYCLER 60
 scoreboard players set 50 RECYCLER 50
 scoreboard players set 45 RECYCLER 45
 scoreboard players set 40 RECYCLER 40
