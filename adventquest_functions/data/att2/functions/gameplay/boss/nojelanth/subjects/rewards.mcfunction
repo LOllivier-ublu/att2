@@ -33,6 +33,11 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/sub
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/subjects_rewards
 
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_b_rewards

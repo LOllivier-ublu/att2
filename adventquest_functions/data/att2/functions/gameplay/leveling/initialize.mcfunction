@@ -10,7 +10,9 @@ scoreboard objectives add PLAYERNUMBER dummy
 scoreboard objectives add LVL_UPGRADE_REQ dummy
 scoreboard objectives add LVL_MC level
 scoreboard objectives add SKILLPOINT dummy
+scoreboard objectives add SKILLPOINTMASTER dummy
 scoreboard objectives add LEVELMASTER dummy
+scoreboard objectives add LEVELETERNAN dummy
 scoreboard objectives add DAHALMAX dummy
 scoreboard objectives add BASE_HEM dummy
 scoreboard objectives add CLASSLEVEL dummy
@@ -21,9 +23,11 @@ scoreboard objectives add XPGAIN dummy
 
 scoreboard players set @s GAMELEVEL 0
 scoreboard players set @s LVL_UPGRADE_REQ 22
+scoreboard players set @s SKILLPOINTMASTER 0
 scoreboard players set @s SKILLPOINT 0
 scoreboard players set 3 SKILLPOINT 3
 scoreboard players set @s LEVELMASTER 0
+scoreboard players set @s LEVELETERNAN 0
 scoreboard players set @s BASE_HEM 0
 scoreboard players set playerCoeff DIFFICULTY 3
 scoreboard players set 6 XPPROCESS 6

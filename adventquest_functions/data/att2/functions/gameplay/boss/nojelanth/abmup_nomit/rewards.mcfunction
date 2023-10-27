@@ -33,6 +33,11 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/abm
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/abmup_nomit_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/abmup_nomit_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/abmup_nomit_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/abmup_nomit_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/abmup_nomit_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/abmup_nomit_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/abmup_nomit_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/abmup_nomit_rewards
 
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_b_rewards

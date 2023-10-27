@@ -32,6 +32,11 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/myr
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/myrath_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/myrath_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/myrath_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/myrath_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/myrath_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/myrath_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/myrath_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/myrath_rewards
 
 function att2:summon/bat_runes_b_rewards
 function att2:summon/bat_runes_c_rewards

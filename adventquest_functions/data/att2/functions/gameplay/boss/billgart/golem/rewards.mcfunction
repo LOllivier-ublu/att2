@@ -32,6 +32,11 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_3/gol
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_3/golem_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_3/golem_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_3/golem_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_3/golem_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_3/golem_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_3/golem_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_3/golem_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_3/golem_rewards
 
 function att2:summon/bat_runes_b_rewards
 function att2:summon/bat_runes_c_rewards

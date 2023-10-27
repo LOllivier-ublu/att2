@@ -30,6 +30,11 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/owl
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/owlkar_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/owlkar_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/owlkar_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/owlkar_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/owlkar_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/owlkar_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/owlkar_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/owlkar_rewards
 
 function att2:summon/bat_runes_c_rewards
 execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_1/owlkar_rewards
