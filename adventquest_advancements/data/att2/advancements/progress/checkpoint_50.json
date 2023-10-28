@@ -3,14 +3,14 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Live forever!"},
+        "title": {"translate":"You don't die just once..."},
         "description": {"translate":"Discover and activate 50 checkpoints"},
         "frame": "goal"
     },
     "parent": "att2:progress/checkpoint_25",
     "rewards": {
-        "function": "att2:advancement/exploit_20",
-        "experience": 5000
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
     },
     "criteria": {
         "checkpoint_50": {

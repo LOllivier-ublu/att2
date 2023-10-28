@@ -4,9 +4,9 @@
 #################################################
 
 # Particle
-execute at @e[type=minecraft:parrot,tag=AgilityPet1] run particle minecraft:dust 0.7 0.9 0.7 0.8 ~ ~0.5 ~ 0 0 0 0 2
-execute at @e[type=minecraft:parrot,tag=AgilityPet2] run particle minecraft:dust 0.7 0.8 0.8 1 ~ ~0.5 ~ 0.1 0.1 0.1 0 2
-execute at @e[type=minecraft:parrot,tag=AgilityPet3] run particle minecraft:dust 0.7 0.7 0.9 1.2 ~ ~0.5 ~ 0.3 0.3 0.3 0 2
+execute at @e[type=minecraft:parrot,tag=AgilityPet1] run particle minecraft:dust 0.5 0.5 0.75 0.5 ~ ~0.5 ~ 0.1 0.1 0.1 0 3
+execute at @e[type=minecraft:parrot,tag=AgilityPet2] run particle minecraft:dust 0.5 0.5 0.75 0.75 ~ ~0.5 ~ 0.15 0.15 0.15 0 4
+execute at @e[type=minecraft:parrot,tag=AgilityPet3] run particle minecraft:dust 0.5 0.5 0.75 1 ~ ~0.5 ~ 0.25 0.25 0.25 0 5
 
 # Make pet follow its owner
 execute as @e[type=minecraft:parrot] unless entity @s[type=minecraft:parrot,tag=!AgilityPet1,tag=!AgilityPet2,tag=!AgilityPet3] unless entity @s[scores={SUMMON_TIMER=1..}] run function att2:gameplay/dahal/pet/follow_owner

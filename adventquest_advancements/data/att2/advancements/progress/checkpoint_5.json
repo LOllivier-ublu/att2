@@ -7,7 +7,7 @@
         "description": {"translate":"Discover and activate 5 checkpoints"},
         "frame": "goal"
     },
-    "parent": "att2:progress/checkpoint_2",
+    "parent": "att2:progress/checkpoint_1",
     "rewards": {
         "function": "att2:advancement/exploit_5",
         "experience": 500

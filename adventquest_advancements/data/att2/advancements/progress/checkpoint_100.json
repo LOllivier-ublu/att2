@@ -3,14 +3,14 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"I can't give up."},
+        "title": {"translate":"Live forever!"},
         "description": {"translate":"Discover and activate 100 checkpoints"},
         "frame": "goal"
     },
     "parent": "att2:progress/checkpoint_50",
     "rewards": {
-        "function": "att2:advancement/exploit_30",
-        "experience": 10000
+        "function": "att2:advancement/exploit_20",
+        "experience": 5000
     },
     "criteria": {
         "checkpoint_100": {

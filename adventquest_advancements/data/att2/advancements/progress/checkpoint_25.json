@@ -3,14 +3,14 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"You don't die just once..."},
+        "title": {"translate":"Brave or not!"},
         "description": {"translate":"Discover and activate 25 checkpoints"},
         "frame": "goal"
     },
-    "parent": "att2:progress/checkpoint_10",
+    "parent": "att2:progress/checkpoint_5",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
-        "experience": 2500
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
     },
     "criteria": {
         "checkpoint_25": {
