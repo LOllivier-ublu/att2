@@ -12,3 +12,5 @@ execute if score RequiredError RUNE matches 1 at @s run setblock ~ ~ ~-1 minecra
 execute if score 4_inu_von_ust RUNE matches 1 run scoreboard players add BonusCooldown RUNE 2
 execute if score 4_inu_von_ust RUNE matches 1 run scoreboard players add BonusTimePotion RUNE 1
 execute if score 4_inu_von_ust RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:emerald_block
+
+execute as @a run function att2:dialogs/gameplay/runes/runicwords/4_inu_von_ust

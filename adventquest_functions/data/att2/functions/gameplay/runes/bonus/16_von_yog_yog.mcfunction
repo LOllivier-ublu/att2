@@ -14,3 +14,5 @@ execute if score 16_von_yog_yog RUNE matches 1 run scoreboard players add BonusX
 execute if score 16_von_yog_yog RUNE matches 1 run scoreboard players add BonusTimePotion RUNE 2
 execute if score 16_von_yog_yog RUNE matches 1 run scoreboard players add BonusLootBoss RUNE 2
 execute if score 16_von_yog_yog RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:emerald_block
+
+execute as @a run function att2:dialogs/gameplay/runes/runicwords/16_von_yog_yog

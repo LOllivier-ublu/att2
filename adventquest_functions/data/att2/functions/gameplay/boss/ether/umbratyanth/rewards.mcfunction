@@ -53,17 +53,6 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umb
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/umbratyanth_rewards_class20
 
-function att2:summon/reg_1/umbratyanth_rewards_class4
-function att2:summon/reg_1/umbratyanth_rewards_class4
-function att2:summon/reg_1/umbratyanth_rewards_class4
-function att2:summon/reg_1/umbratyanth_rewards_class4
-function att2:summon/reg_1/umbratyanth_rewards_class4
-function att2:summon/reg_1/umbratyanth_rewards_class8
-function att2:summon/reg_1/umbratyanth_rewards_class8
-function att2:summon/reg_1/umbratyanth_rewards_class8
-function att2:summon/reg_1/umbratyanth_rewards_class8
-function att2:summon/reg_1/umbratyanth_rewards_class8
-
 
 function att2:summon/reg_2/umbratyanth_rewards_class20
 function att2:summon/reg_2/umbratyanth_rewards_class20
@@ -180,5 +169,9 @@ execute if score BonusLootBoss RUNE matches 9.. run function att2:summon/reg_1/u
 execute if score BonusLootBoss RUNE matches 9.. run function att2:summon/reg_2/umbratyanth_rewards_class20
 execute if score BonusLootBoss RUNE matches 10.. run function att2:summon/reg_3/umbratyanth_rewards_class20
 execute if score BonusLootBoss RUNE matches 10.. run function att2:summon/reg_4/umbratyanth_rewards_class20
+
+execute if score level DIFFICULTY matches -1.. run summon minecraft:experience_orb ~ ~1 ~ {Value:5000}
+execute if score level DIFFICULTY matches 0.. run summon minecraft:experience_orb ~ ~1 ~ {Value:10000}
+execute if score level DIFFICULTY matches 1.. run summon minecraft:experience_orb ~ ~1 ~ {Value:15000}
 
 function att2:summon/reg_1/umbratyanth_rewards_dedicated

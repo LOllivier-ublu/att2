@@ -14,3 +14,5 @@ execute if score 15_syl_da_ave_qi_ra RUNE matches 1 run scoreboard players add B
 execute if score 15_syl_da_ave_qi_ra RUNE matches 1 run scoreboard players add BonusXP RUNE 1
 execute if score 15_syl_da_ave_qi_ra RUNE matches 1 run scoreboard players add BonusLootBoss RUNE 1
 execute if score 15_syl_da_ave_qi_ra RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:emerald_block
+
+execute as @a run function att2:dialogs/gameplay/runes/runicwords/15_syl_da_ave_qi_ra

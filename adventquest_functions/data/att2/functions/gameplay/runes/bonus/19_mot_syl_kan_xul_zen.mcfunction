@@ -17,3 +17,5 @@ execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players se
 execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players set BonusTimePotion RUNE 1
 execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players set BonusLootBoss RUNE 1
 execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:emerald_block
+
+execute as @a run function att2:dialogs/gameplay/runes/runicwords/19_mot_syl_kan_xul_zen

@@ -13,3 +13,5 @@ execute if score 12_ave_qi_gal_jo_wej RUNE matches 1 run scoreboard players add 
 execute if score 12_ave_qi_gal_jo_wej RUNE matches 1 run scoreboard players add BonusCooldown RUNE 1
 execute if score 12_ave_qi_gal_jo_wej RUNE matches 1 run scoreboard players add BonusLootBoss RUNE 1
 execute if score 12_ave_qi_gal_jo_wej RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:emerald_block
+
+execute as @a run function att2:dialogs/gameplay/runes/runicwords/12_ave_qi_gal_jo_wej

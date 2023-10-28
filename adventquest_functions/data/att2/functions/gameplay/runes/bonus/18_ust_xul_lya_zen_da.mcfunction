@@ -14,3 +14,5 @@ execute if score 18_ust_xul_lya_zen_da RUNE matches 1 run scoreboard players add
 execute if score 18_ust_xul_lya_zen_da RUNE matches 1 run scoreboard players add BonusDahalMax RUNE 1
 execute if score 18_ust_xul_lya_zen_da RUNE matches 1 run scoreboard players add BonusTimePotion RUNE 1
 execute if score 18_ust_xul_lya_zen_da RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:emerald_block
+
+execute as @a run function att2:dialogs/gameplay/runes/runicwords/18_ust_xul_lya_zen_da

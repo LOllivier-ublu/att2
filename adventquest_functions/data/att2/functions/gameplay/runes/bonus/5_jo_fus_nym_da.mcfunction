@@ -12,3 +12,5 @@ execute if score RequiredError RUNE matches 1 at @s run setblock ~ ~ ~-1 minecra
 execute if score 5_jo_fus_nym_da RUNE matches 1 run scoreboard players add BonusDahalMax RUNE 2
 execute if score 5_jo_fus_nym_da RUNE matches 1 run scoreboard players add BonusLootBoss RUNE 1
 execute if score 5_jo_fus_nym_da RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:emerald_block
+
+execute as @a run function att2:dialogs/gameplay/runes/runicwords/5_jo_fus_nym_da
