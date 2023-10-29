@@ -52,6 +52,7 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/ext
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/extratellur_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/extratellur_rewards
 
+function att2:summon/bat_runes_abc_rewards_1
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards

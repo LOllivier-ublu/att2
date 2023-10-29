@@ -40,6 +40,7 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/som
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_4/somniophages_rewards
 
+function att2:summon/bat_runes_abc_rewards_1
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_b_rewards

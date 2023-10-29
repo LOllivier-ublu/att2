@@ -40,6 +40,7 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/sha
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/shadow_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/shadow_rewards
 
+function att2:summon/bat_runes_abc_rewards_1
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards

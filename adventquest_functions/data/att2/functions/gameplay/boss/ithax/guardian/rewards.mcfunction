@@ -13,6 +13,7 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_
 execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 
+function att2:summon/bat_runes_abc_rewards_2
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_b_rewards
