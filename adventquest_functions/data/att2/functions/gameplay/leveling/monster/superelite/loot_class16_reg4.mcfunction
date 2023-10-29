@@ -23,3 +23,9 @@ execute if score level DIFFICULTY matches 2.. run summon minecraft:experience_or
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_b_rewards
 function att2:summon/bat_runes_c_rewards
+
+execute if entity @a[scores={LUC_TOT=3..}] run function att2:summon/bat_boss_esc_rewards
+execute if entity @a[scores={LUC_TOT=6..}] run function att2:summon/bat_runes_c_rewards
+execute if entity @a[scores={LUC_TOT=9..}] run function att2:summon/bat_runes_b_rewards
+execute if entity @a[scores={LUC_TOT=12..}] run function att2:summon/bat_runes_a_rewards
+execute if entity @a[scores={LUC_TOT=15..}] run function att2:summon/bat_runes_abc_rewards_1
