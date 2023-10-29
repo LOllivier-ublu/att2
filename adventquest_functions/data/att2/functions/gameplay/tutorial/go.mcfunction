@@ -66,3 +66,9 @@ execute if score spells TUTORIAL matches 2 if score timer TUTORIAL matches 10 as
 
 execute if score waypoint TUTORIAL matches 1 as @a at @s run function att2:gameplay/tutorial/launch/waypoint
 execute if score waypoint TUTORIAL matches 2 if score timer TUTORIAL matches 10 as @a at @s run function att2:dialogs/gameplay/tutorial/waypoint
+
+execute if score runes TUTORIAL matches 1 as @a at @s run function att2:gameplay/tutorial/launch/runes
+execute if score runes TUTORIAL matches 2 if score timer TUTORIAL matches 10 as @a at @s run function att2:dialogs/gameplay/tutorial/runes
+
+execute if score runicwords TUTORIAL matches 1 as @a at @s run function att2:gameplay/tutorial/launch/runicwords
+execute if score runicwords TUTORIAL matches 2 if score timer TUTORIAL matches 10 as @a at @s run function att2:dialogs/gameplay/tutorial/runicwords

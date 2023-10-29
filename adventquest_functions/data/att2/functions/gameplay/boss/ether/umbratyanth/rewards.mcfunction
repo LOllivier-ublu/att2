@@ -140,6 +140,7 @@ function att2:summon/reg_4/umbratyanth_rewards_class9
 function att2:summon/reg_4/umbratyanth_rewards_class9
 function att2:summon/reg_4/umbratyanth_rewards_class9
 
+function att2:summon/bat_runes_abc_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards

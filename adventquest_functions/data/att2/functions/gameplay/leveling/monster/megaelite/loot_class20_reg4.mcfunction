@@ -31,7 +31,7 @@ function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards
+function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_b_rewards
 function att2:summon/bat_runes_b_rewards
-function att2:summon/bat_runes_c_rewards
 function att2:summon/bat_runes_c_rewards

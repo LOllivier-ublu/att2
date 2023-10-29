@@ -31,3 +31,5 @@ scoreboard players set skills TUTORIAL 0
 scoreboard players set spells TUTORIAL 0
 scoreboard players set waypoint TUTORIAL 0
 scoreboard players set waypoint_first_launch TUTORIAL 0
+scoreboard players set runes TUTORIAL 0
+scoreboard players set runicwords TUTORIAL 0

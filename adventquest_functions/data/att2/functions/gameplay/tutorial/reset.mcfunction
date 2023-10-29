@@ -94,3 +94,13 @@ scoreboard players set waypoint TUTORIAL 0
 advancement revoke @s only att2:tutorial/waypoint_fr
 advancement revoke @s only att2:tutorial/waypoint_eng
 advancement revoke @s only att2:tutorial/waypoint_zh
+
+scoreboard players set runes TUTORIAL 0
+advancement revoke @s only att2:tutorial/runes_fr
+advancement revoke @s only att2:tutorial/runes_eng
+advancement revoke @s only att2:tutorial/runes_zh
+
+scoreboard players set runicwords TUTORIAL 0
+advancement revoke @s only att2:tutorial/runicwords_fr
+advancement revoke @s only att2:tutorial/runicwords_eng
+advancement revoke @s only att2:tutorial/runicwords_zh

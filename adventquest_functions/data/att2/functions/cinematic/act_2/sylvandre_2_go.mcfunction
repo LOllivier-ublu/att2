@@ -165,6 +165,7 @@ execute if score Real0 TIMER matches 60 as 00000000-0000-003a-0000-00000000003a 
 #-- Dialog
 execute if score Real0 TIMER matches 61 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_14_0
 execute if score Real0 TIMER matches 61 run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 61 run scoreboard players set runicwords TUTORIAL 1
 #-- Movement
 execute if score Real0 TIMER matches 62 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5036 91 -4973 run function att2:cinematic/act_2/sylvandre_2_walking
 execute if score Real0 TIMER matches 62 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5035.5,y=91,z=-4972.5,distance=..0.8] run function att2:cinematic/real0_iteration
