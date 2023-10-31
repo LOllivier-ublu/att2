@@ -4,7 +4,7 @@
 #################################################################
 
 
-experience add @s -180 levels
+experience add @s -220 levels
 tag @s remove LVLUpReady
 scoreboard players add @s LEVELMASTER 1
 scoreboard players add @s SKILLPOINT 2

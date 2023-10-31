@@ -7,6 +7,7 @@ scoreboard objectives add RUNE dummy
 scoreboard players set BonusXP RUNE 0
 scoreboard players set BonusChronoton RUNE 0
 scoreboard players set BonusCooldown RUNE 0
+scoreboard players set BonusDahalPower RUNE 0
 scoreboard players set BonusDahalMax RUNE 0
 scoreboard players set BonusHealthMax RUNE 0
 scoreboard players set BonusTimePotion RUNE 0
@@ -15,6 +16,7 @@ scoreboard players set BonusLootBoss RUNE 0
 scoreboard players set XPTotal RUNE 0
 scoreboard players set ChronotonTotal RUNE 0
 scoreboard players set CooldownTotal RUNE 0
+scoreboard players set DahalPowerTotal RUNE 0
 scoreboard players set HealthTotal RUNE 0
 scoreboard players set TimePotionTotal RUNE 0
 scoreboard players set 2 RUNE 2

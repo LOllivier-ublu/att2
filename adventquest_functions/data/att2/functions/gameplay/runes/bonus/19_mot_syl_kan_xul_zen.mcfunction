@@ -13,6 +13,7 @@ execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players se
 execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players set BonusChronoton RUNE 1
 execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players set BonusCooldown RUNE 1
 execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players set BonusDahalMax RUNE 1
+execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players add BonusDahalPower RUNE 1
 execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players set BonusXP RUNE 1
 execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players set BonusTimePotion RUNE 1
 execute if score 19_mot_syl_kan_xul_zen RUNE matches 1 run scoreboard players set BonusLootBoss RUNE 1

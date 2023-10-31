@@ -4,7 +4,7 @@
 #################################################################
 
 
-experience add @s -200 levels
+experience add @s -250 levels
 tag @s remove LVLUpReady
 scoreboard players add @s LEVELETERNAN 1
 scoreboard players add @s SKILLPOINT 1

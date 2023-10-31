@@ -10,6 +10,7 @@ execute if score 12_ave_qi_gal_jo_wej RUNE matches 2.. at @s run scoreboard play
 execute if score RequiredError RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:redstone_block
 
 execute if score 12_ave_qi_gal_jo_wej RUNE matches 1 run scoreboard players add BonusHealthMax RUNE 1
+execute if score 12_ave_qi_gal_jo_wej RUNE matches 1 run scoreboard players add BonusDahalMax RUNE 2
 execute if score 12_ave_qi_gal_jo_wej RUNE matches 1 run scoreboard players add BonusCooldown RUNE 1
 execute if score 12_ave_qi_gal_jo_wej RUNE matches 1 run scoreboard players add BonusLootBoss RUNE 1
 execute if score 12_ave_qi_gal_jo_wej RUNE matches 1 at @s run setblock ~ ~ ~-1 minecraft:emerald_block

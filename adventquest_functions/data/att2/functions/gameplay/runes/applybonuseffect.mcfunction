@@ -19,6 +19,9 @@ scoreboard players operation HealthTotal RUNE *= 2 RUNE
 scoreboard players operation CooldownTotal RUNE = BonusCooldown RUNE
 scoreboard players operation CooldownTotal RUNE *= 10 RUNE
 
+scoreboard players operation DahalPowerTotal RUNE = BonusDahalPower RUNE
+scoreboard players operation DahalPowerTotal RUNE *= 10 RUNE
+
 scoreboard players operation ChronotonTotal RUNE = BonusChronoton RUNE
 scoreboard players operation ChronotonTotal RUNE *= 20 RUNE
 
