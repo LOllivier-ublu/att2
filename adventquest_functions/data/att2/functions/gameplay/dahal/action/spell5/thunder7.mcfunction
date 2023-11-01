@@ -7,13 +7,11 @@ summon minecraft:lightning_bolt ~1 ~ ~1
 summon minecraft:lightning_bolt ~1 ~ ~-1
 summon minecraft:lightning_bolt ~-1 ~ ~1
 summon minecraft:lightning_bolt ~-1 ~ ~-1
-# execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8,tag=!Undead] run effect give @s minecraft:instant_damage 2 5
-# execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8,tag=Undead] run effect give @s minecraft:instant_health 2 5
-
-execute if score @p NUMEROJOUEUR matches 1 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] run damage @s 110 minecraft:player_attack by @p[scores={NUMEROJOUEUR=1}]
-execute if score @p NUMEROJOUEUR matches 2 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] run damage @s 110 minecraft:player_attack by @p[scores={NUMEROJOUEUR=2}]
-execute if score @p NUMEROJOUEUR matches 3 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] run damage @s 110 minecraft:player_attack by @p[scores={NUMEROJOUEUR=3}]
-execute if score @p NUMEROJOUEUR matches 4 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] run damage @s 110 minecraft:player_attack by @p[scores={NUMEROJOUEUR=4}]
-execute if score @p NUMEROJOUEUR matches 5 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..8] run damage @s 110 minecraft:player_attack by @p[scores={NUMEROJOUEUR=5}]
+execute if score BonusDahalPower RUNE matches 0 run function att2:gameplay/dahal/action/spell5/damage/lvl7/bonus0
+execute if score BonusDahalPower RUNE matches 1 run function att2:gameplay/dahal/action/spell5/damage/lvl7/bonus1
+execute if score BonusDahalPower RUNE matches 2 run function att2:gameplay/dahal/action/spell5/damage/lvl7/bonus2
+execute if score BonusDahalPower RUNE matches 3 run function att2:gameplay/dahal/action/spell5/damage/lvl7/bonus3
+execute if score BonusDahalPower RUNE matches 4 run function att2:gameplay/dahal/action/spell5/damage/lvl7/bonus4
+execute if score BonusDahalPower RUNE matches 5 run function att2:gameplay/dahal/action/spell5/damage/lvl7/bonus5
 
 kill @s

@@ -32,8 +32,9 @@ scoreboard players operation @s SPELL3_LVL += @s BONUS_XP_SPELL
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
 
-execute if score @s NUMEROJOUEUR matches 1 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..10] run damage @s 125 minecraft:player_attack by @p[scores={NUMEROJOUEUR=1}]
-execute if score @s NUMEROJOUEUR matches 2 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..10] run damage @s 125 minecraft:player_attack by @p[scores={NUMEROJOUEUR=2}]
-execute if score @s NUMEROJOUEUR matches 3 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..10] run damage @s 125 minecraft:player_attack by @p[scores={NUMEROJOUEUR=3}]
-execute if score @s NUMEROJOUEUR matches 4 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..10] run damage @s 125 minecraft:player_attack by @p[scores={NUMEROJOUEUR=4}]
-execute if score @s NUMEROJOUEUR matches 5 as @e[team=hostile,scores={GAMELEVEL=0..},distance=..10] run damage @s 125 minecraft:player_attack by @p[scores={NUMEROJOUEUR=5}]
+execute if score BonusDahalPower RUNE matches 0 run function att2:gameplay/dahal/action/spell3/damage/lvl10/bonus0
+execute if score BonusDahalPower RUNE matches 1 run function att2:gameplay/dahal/action/spell3/damage/lvl10/bonus1
+execute if score BonusDahalPower RUNE matches 2 run function att2:gameplay/dahal/action/spell3/damage/lvl10/bonus2
+execute if score BonusDahalPower RUNE matches 3 run function att2:gameplay/dahal/action/spell3/damage/lvl10/bonus3
+execute if score BonusDahalPower RUNE matches 4 run function att2:gameplay/dahal/action/spell3/damage/lvl10/bonus4
+execute if score BonusDahalPower RUNE matches 5 run function att2:gameplay/dahal/action/spell3/damage/lvl10/bonus5
