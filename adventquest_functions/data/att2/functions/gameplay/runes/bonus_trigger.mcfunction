@@ -3,7 +3,7 @@
 #Prosses all words detection for player 	                            #
 #########################################################################
 
-execute as @a run function att2:gameplay/runes/reset
+function att2:gameplay/runes/reset
 execute as @a run function att2:dialogs/gameplay/runes/runicwords_activation
 
 #0 Gal Org Inu
@@ -49,6 +49,6 @@ execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {
 
 execute if score RequiredError RUNE matches 1 as @a run function att2:dialogs/gameplay/runes/runicwords_error
 scoreboard players set RequiredError RUNE 0
-execute as @a run function att2:gameplay/runes/applybonuseffect
+function att2:gameplay/runes/applybonuseffect
 
 execute as @a run function att2:dialogs/gameplay/runes/bonus_summary

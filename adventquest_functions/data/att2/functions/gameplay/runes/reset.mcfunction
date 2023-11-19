@@ -3,8 +3,8 @@
 #Initialize all runes recipes for all player					#
 #################################################################
 
-scoreboard players operation @s DAHALMAX -= BonusDahalMax RUNE
-scoreboard players operation @s BASE_HEM -= BonusHealthMax RUNE
+scoreboard players operation @a DAHALMAX -= BonusDahalMax RUNE
+scoreboard players operation @a BASE_HEM -= BonusHealthMax RUNE
 
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] at @s run setblock ~ ~ ~-1 minecraft:gold_block
 

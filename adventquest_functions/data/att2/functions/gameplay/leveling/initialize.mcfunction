@@ -26,6 +26,7 @@ scoreboard players set @s LVL_UPGRADE_REQ 22
 scoreboard players set @s SKILLPOINTMASTER 0
 scoreboard players set @s SKILLPOINT 0
 scoreboard players set 3 SKILLPOINT 3
+scoreboard players set 2 SKILLPOINTMASTER 2
 scoreboard players set @s LEVELMASTER 0
 scoreboard players set @s LEVELETERNAN 0
 scoreboard players set @s BASE_HEM 0

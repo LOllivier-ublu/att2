@@ -3,10 +3,10 @@
 #Prosses apply all bonus for players 	                                #
 #########################################################################
 
-effect clear @s minecraft:health_boost
+effect clear @a minecraft:health_boost
 scoreboard players operation BonusDahalMax RUNE *= 4 RUNE
-scoreboard players operation @s DAHALMAX += BonusDahalMax RUNE
-scoreboard players operation @s BASE_HEM += BonusHealthMax RUNE
+scoreboard players operation @a DAHALMAX += BonusDahalMax RUNE
+scoreboard players operation @a BASE_HEM += BonusHealthMax RUNE
 function att2:gameplay/death/applyhealth
 
 scoreboard players operation XPTotal RUNE = BonusXP RUNE

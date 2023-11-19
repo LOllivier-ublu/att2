@@ -28,16 +28,16 @@ execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"le
 # 100000 XP
 execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:1b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:2b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:3b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:4b,tag:{Rarity:"leg_armset"}}]} run function att2:items/xp/100000
 
-# 1 Loot Runes ABC
-execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:quartz",Count:1b,Slot:0b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:summon/bat_runes_abc_rewards_1
-# 2 Loot Runes ABC
-execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:quartz",Count:1b,Slot:0b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:1b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:summon/bat_runes_abc_rewards_2
-# 3 Loot Runes ABC
-execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:quartz",Count:1b,Slot:0b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:1b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:2b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:summon/bat_runes_abc_rewards_3
-# 4 Loot Runes ABC
-execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:quartz",Count:1b,Slot:0b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:1b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:2b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:3b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:summon/bat_runes_abc_rewards_4
 # 5 Loot Runes ABC
 execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:quartz",Count:1b,Slot:0b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:1b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:2b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:3b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:4b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:summon/bat_runes_abc_rewards_5
+# 4 Loot Runes ABC
+execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:quartz",Count:1b,Slot:0b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:1b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:2b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:3b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:summon/bat_runes_abc_rewards_4
+# 3 Loot Runes ABC
+execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:quartz",Count:1b,Slot:0b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:1b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:2b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:summon/bat_runes_abc_rewards_3
+# 2 Loot Runes ABC
+execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:quartz",Count:1b,Slot:0b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:1b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:summon/bat_runes_abc_rewards_2
+# 1 Loot Runes ABC
+execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:quartz",Count:1b,Slot:0b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:summon/bat_runes_abc_rewards_1
 
 # Elixir vitae
 execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:potion",Count:1b,Slot:0b,tag:{EquipmentType:"potion",Rarity:"leg"}},{id:"minecraft:potion",Count:1b,Slot:1b,tag:{EquipmentType:"potion",Rarity:"epi"}},{id:"minecraft:potion",Count:1b,Slot:2b,tag:{EquipmentType:"potion",Rarity:"rar"}},{id:"minecraft:potion",Count:1b,Slot:3b,tag:{EquipmentType:"potion",Rarity:"epi"}},{id:"minecraft:potion",Count:1b,Slot:4b,tag:{EquipmentType:"potion",Rarity:"leg"}}]} run function att2:gameplay/legendary/elixirvitae/obtain
