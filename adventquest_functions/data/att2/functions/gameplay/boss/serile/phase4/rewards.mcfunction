@@ -7,12 +7,12 @@ function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
-function att2:summon/bat_boss_esc_rewards
 execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
 execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
 execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
-execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
-execute if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 
 function att2:summon/reg_1/serile_rewards
 function att2:summon/reg_1/serile_rewards
@@ -78,7 +78,7 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/ser
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/serile_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_1/serile_rewards
 
-function att2:summon/bat_runes_abc_rewards_2
+function att2:summon/bat_runes_abc_rewards_5
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards
 function att2:summon/bat_runes_a_rewards

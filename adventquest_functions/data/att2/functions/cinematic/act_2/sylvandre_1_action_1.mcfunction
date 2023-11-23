@@ -8,5 +8,5 @@ fill -5032 75 -5071 -5028 78 -5071 minecraft:barrier replace minecraft:air
 function att2:dialogs/mainquest/act_2/ch2_guard_1
 scoreboard players set gonon_PNJ DIALOG 2
 gamerule doDaylightCycle true
-weather clear 8000
+weather clear 10d
 time set 0
