@@ -56,4 +56,4 @@ execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx
 execute if score Owlkar OWSASTR matches -2 run tp @a[x=-5064,y=72,z=-4383,dx=0,dy=2,dz=4,gamemode=adventure] -5075 80 -4381
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
-execute if score Owlkar OWSASTR matches -2 unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 26..29 run function att2:gameplay/boss/owsastr/owlkar/reinitialize
+execute if score Owlkar OWSASTR matches -2 unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 26..28 run function att2:gameplay/boss/owsastr/owlkar/reinitialize

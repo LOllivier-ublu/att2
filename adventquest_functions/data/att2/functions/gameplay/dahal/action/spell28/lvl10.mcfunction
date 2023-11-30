@@ -13,4 +13,4 @@ scoreboard players operation @s SPELL28_LVL += @s BONUS_XP_SPELL
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
-scoreboard players set @s SPELL28_EFFECT 600
+scoreboard players set @s SPELL28_EFFECT 666

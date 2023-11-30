@@ -3,9 +3,9 @@
 #Obtain book for spell selection								#
 #################################################################
 
-clear @s minecraft:written_book{title:"§9Cherche Secret",display:{"Lore":["{\"text\":\"§7Livre d'incantation\"}"]}}
-clear @s minecraft:written_book{title:"§9Secret Seeker",display:{"Lore":["{\"text\":\"§7Incantation book\"}"]}}
-clear @s minecraft:written_book{title:"§9尋找秘密",display:{"Lore":["{\"text\":\"§7咒語書\"}"]}}
+clear @s minecraft:written_book{title:"§6Cherche Secret",display:{"Lore":["{\"text\":\"§7Livre d'incantation\"}"]}}
+clear @s minecraft:written_book{title:"§6Secret Seeker",display:{"Lore":["{\"text\":\"§7Incantation book\"}"]}}
+clear @s minecraft:written_book{title:"§6尋找秘密",display:{"Lore":["{\"text\":\"§7咒語書\"}"]}}
 
 execute as @s[scores={SPELL34_CAP=1}] run scoreboard players operation @s SPELL_OP = cap2 SPELL34_LVL
 execute as @s[scores={SPELL34_CAP=2}] run scoreboard players operation @s SPELL_OP = cap3 SPELL34_LVL

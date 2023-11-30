@@ -7,7 +7,7 @@ effect clear @a minecraft:health_boost
 scoreboard players operation BonusDahalMax RUNE *= 4 RUNE
 scoreboard players operation @a DAHALMAX += BonusDahalMax RUNE
 scoreboard players operation @a BASE_HEM += BonusHealthMax RUNE
-function att2:gameplay/death/applyhealth
+execute as @a run function att2:gameplay/death/applyhealth
 
 scoreboard players operation XPTotal RUNE = BonusXP RUNE
 scoreboard players operation XPTotal RUNE *= 100 RUNE
