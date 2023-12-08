@@ -47,7 +47,6 @@ execute if score Boss UMBRATYANTH matches 0.. as @e[x=-5158,y=119,z=-6911,dx=82,
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5117,y=121,z=-6870,distance=21..30,gamemode=adventure] at @s anchored feet facing entity @e[type=minecraft:silverfish,tag=ArenaCenter,limit=1] feet run function att2:gameplay/boss/ether/umbratyanth/arena_tp
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=1,dz=82,gamemode=adventure] at @s run tp @s ~ 121 ~
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5117,y=121,z=-6870,distance=20..21,gamemode=adventure] at @s run tp @s ~ 121 ~
-execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5161,y=119,z=-6914,dx=88,dy=30,dz=88,gamemode=adventure] at @s run tp @s -5117 121 -6870
 
 # No Jump effect
 execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] at @s run effect give @s minecraft:jump_boost 2 250 true
@@ -82,7 +81,7 @@ execute if score Boss UMBRATYANTH matches -1 if entity @a[x=-5158,y=119,z=-6911,
 execute if score Boss UMBRATYANTH matches 0.. unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run function att2:gameplay/boss/ether/umbratyanth/fail
 
 # Player under the arena is killed
-execute if score Boss UMBRATYANTH matches 0.. as @a[x=-5158,y=119,z=-6911,dx=82,dy=-40,dz=82,gamemode=adventure] at @s run kill @s
+execute as @a[x=-5161,y=117,z=-6914,dx=88,dy=-40,dz=88,gamemode=adventure] at @s run kill @s
 
 # Testing if Umbra'Tyanth died
 execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] unless entity @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,nbt={UUID:[I;0,300,0,300]}] run function att2:gameplay/boss/ether/umbratyanth/victory
